@@ -6338,6 +6338,12 @@
       <Portuguese>Loja de Roupas da Polícia</Portuguese>
       <Polish>Umundurowanie</Polish>
     </Key>
+	<Key ID="STR_MAR_Cop_Autoset">
+      <Original>Cop AutoSet</Original>
+      <German>Cop AutoSet</German>
+      <Portuguese>Cop AutoSet</Portuguese>
+      <Polish>Cop AutoSet</Polish>
+    </Key>
     <Key ID="STR_MAR_Cop_Weapon_Shop">
       <Original>Cop Weapon Shop</Original>
       <German>Polizei Waffenhändler</German>

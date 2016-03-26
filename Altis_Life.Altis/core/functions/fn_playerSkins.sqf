@@ -34,12 +34,27 @@ switch(playerSide) do {
 	};
 	case west: {
 		if(uniform player == "U_Rangemaster") then {
-			player setObjectTextureGlobal [0, "textures\cop_uniform.jpg"];
+			player setObjectTextureGlobal [0, "textures\cop\clothes\scotpol_hvuniform.paa"];
+		};
+		if(uniform player == "U_B_CombatUniform_mcam") then {
+			player setObjectTextureGlobal [0, "textures\cop\clothes\scotpol_hvuniform.paa"];
+		};
+		if(uniform player == "U_B_CombatUniform_mcam_worn") then {
+			player setObjectTextureGlobal [0, "textures\cop\clothes\scotpol_pcsouniform.paa"];
+		};
+		if(uniform player == "U_B_CTRG_1") then {
+			player setObjectTextureGlobal [0, "textures\cop\clothes\scotpol_blackuniform.paa"];
 		};
 	};
 	case independent: {
 		if(uniform player == "U_Rangemaster") then {
-			player setObjectTextureGlobal [0, "textures\medic_uniform.jpg"];
+			player setObjectTextureGlobal [0, "textures\ems\clothes\paramedic_uniform_hv.paa"];
+		};
+		if(uniform player == "U_B_CombatUniform_mcam") then {
+			player setObjectTextureGlobal [0, "textures\ems\clothes\paramedic_uniform_hv.paa"];
+		};
+		if(uniform player == "U_B_CombatUniform_mcam_worn") then {
+			player setObjectTextureGlobal [0, "textures\ems\clothes\paramedic_unifrom.paa"];
 		};
 	};
 };

@@ -161,7 +161,7 @@ switch (_code) do {
 	case 38: {
 		//If cop run checks for turning lights on.
 		if(_shift && playerSide in [west,independent]) then {
-			if(vehicle player != player && (typeOf vehicle player) in ["C_Offroad_01_F","B_MRAP_01_F","C_SUV_01_F","C_Hatchback_01_sport_F","B_Heli_Light_01_F","B_Heli_Transport_01_F"]) then {
+			if(vehicle player != player && (typeOf vehicle player) in ["C_Offroad_01_F","B_MRAP_01_F","C_SUV_01_F","C_Hatchback_01_F","C_Hatchback_01_sport_F","B_Heli_Light_01_F","B_Heli_Transport_01_F", "B_MRAP_01_hmg_F", "O_MRAP_02_F", "O_MRAP_02_hmg_F"]) then {
 				if(!isNil {vehicle player GVAR "lights"}) then {
 					if(playerSide == west) then {
 						[vehicle player] call life_fnc_sirenLights;
@@ -304,6 +304,7 @@ switch (_code) do {
 							_veh animateDoor ['DoorR_Back_Open ',1];
 						};
 						systemChat localize "STR_MISC_VehUnlock";
+						player say3D "carlock";
 					} else {
 						if(local _veh) then {
 							_veh lock 2;
@@ -353,6 +354,7 @@ switch (_code) do {
 							_veh animateDoor ['DoorR_Back_Open ',0];
 						};
 						systemChat localize "STR_MISC_VehLock";
+						player say3D "carlock";	
 					};
 				};
 			};

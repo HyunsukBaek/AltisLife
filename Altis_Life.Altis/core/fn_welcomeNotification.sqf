@@ -26,9 +26,10 @@ _text2 = _display displayCtrl 1102;
 
 _message = "";
 _message = _message + "<t align='center' size='8' shadow='0'><img image='textures\armalife.jpg' /></t><br /><br />";
-_message = _message + "Useful Links (click on the links to open your browser)<br /><br />";
-_message = _message + " <a href='https://github.com/ArmaLife/Altis' color='#56BDD6'>ArmaLife</a> -- Our Website, check it out for the latest news and updates.<br /><br />";
-_message = _message + "Teamspeak 3 Address: ADDRESS HERE  <br /><br />";
+_message = _message + "Welcome to SoulFucker 24h Life Mod Server!!!<br />";
+_message = _message + " <a href='http://cafe.naver.com/alflrss' color='#56BDD6'>SoulFucker Life Homepage 클릭!!</a> <br />위의 카페링크 클릭하여 가입하시고 규칙 및 공지사항 확인하세요.<br />";
+_message = _message + "지속적으로 패치 및 업데이트 됩니다.  <br /><br />아프리카 TV  http://afreeca.com/mixkorea <br /><br />";
+_message = _message + "저희 서버는 애드온Free!! 를 지향하며 24시간 운영됩니다.  <br /> 물건줍기가 잘 안되시면 window키 + T 누른 후 재시도해보세요<br /><br/> This mod based on Altis life lastest version";
 
 
 //Fill only the first text

@@ -1,4 +1,4 @@
-#include "..\..\script_macros.hpp"
+﻿#include "..\..\script_macros.hpp"
 /*
 	File: fn_jailMe.sqf
 	Author Bryan "Tonic" Boardwine
@@ -10,33 +10,39 @@ private["_time","_bail","_esc","_countDown"];
 
 params [
 	["_ret",[],[[]]],
-	["_bad",false,[false]]
+	["_bad",false,[false]],
+   	["_time",15,[0]]
 ];
 
+_time = time + (_time * 60); //x Minutes
 
-if(_bad) then { _time = time + 1100; } else { _time = time + (15 * 60); };
-
-if(count _ret > 0) then { life_bail_amount = SEL(_ret,3); } else { life_bail_amount = 1500; _time = time + (10 * 60); };
+if(count _ret > 0) then { life_bail_amount = SEL(_ret,3); } else { life_bail_amount = 1500; };
 _esc = false;
 _bail = false;
 
-[_bad] spawn {
-	life_canpay_bail = false;
-	if(_this select 0) then {
-		sleep (10 * 60);
-	} else {
-		sleep (5 * 60);
-	};
-	life_canpay_bail = nil;
+if(_time <= 0) then { _time = time + (15 * 60); hintC "Please Report to Admin: JAIL_FALLBACK_15, time is zero!"; };
+[_bad,_time] spawn {
+    life_canpay_bail = false;
+    life_bail_amount = life_bail_amount * 5;
+    if(_this select 0) then {
+        sleep ( (_this select 1) * 0.5 );
+    } else {
+        sleep ( (_this select 1) * 0.2 );
+    };
+    life_canpay_bail = nil;
 };
 
 while {true} do {
 	if((round(_time - time)) > 0) then {
-		_countDown = [(_time - time),"MM:SS.MS"] call BIS_fnc_secondsToString;
-		hintSilent parseText format[(localize "STR_Jail_Time")+ "<br/> <t size='2'><t color='#FF0000'>%1</t></t><br/><br/>" +(localize "STR_Jail_Pay")+ " %3<br/>" +(localize "STR_Jail_Price")+ " $%2",_countDown,[life_bail_amount] call life_fnc_numberText,if(isNil "life_canpay_bail") then {"Yes"} else {"No"}];
+		_countDown = if(round (_time - time) > 60) then {format["%1 분",round(round(_time - time) / 60)]} else {format["%1 초",round(_time - time)]};
+ 	    if(isNil "life_canpay_bail") then {
+ 	        hintSilent format["Time Remaining:\n %1\n\n보석금 내시겠습니까?: %3\n보석금: $%2",_countDown,[life_bail_amount] call life_fnc_numberText, "예"];
+ 	    } else {
+ 	        hintSilent format["Time Remaining:\n %1\n",_countDown];
+ 	    };
 	};
 	
-	if(player distance (getMarkerPos "jail_marker") > 60) exitWith {
+	if(player distance (getMarkerPos "jail_marker") > 180) exitWith {
 		_esc = true;
 	};
 	
@@ -46,7 +52,7 @@ while {true} do {
 	
 	if((round(_time - time)) < 1) exitWith {hint ""};
 	if(!alive player && ((round(_time - time)) > 0)) exitWith {};
-	sleep 0.1;
+	sleep 0.5;
 };
 
 

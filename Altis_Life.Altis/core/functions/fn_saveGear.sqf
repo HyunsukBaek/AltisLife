@@ -138,8 +138,13 @@ if(count (PISTOL_ITEMS) > 0) then {
 		_yItems pushBack [_x,_val];
     };
 } forEach [
-	"pickaxe","fuelEmpty","fuelFull", "spikeStrip", "lockpick", "defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","apple","peach","tbacon","donuts",
-	"rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat"
+	"apple", "blastingcharge", "boltcutter", "cannabis", "catshark", "catshark_raw",
+	"cement", "cocaine_processed", "cocaine_unprocessed", "coffee", "copper_refined", "copper_unrefined",
+	"defusekit", "diamond_cut", "diamond_uncut", "donuts", "fuelEmpty",	"fuelFull", "glass", "goat", "goat_raw", "goldbar",
+	"hen", "hen_raw", "heroin_processed", "heroin_unprocessed", "iron_refined",	"iron_unrefined", "lockpick", "mackerel", "mackerel_raw", "marijuana",
+	"mullet", "mullet_raw", "oil_processed", "oil_unprocessed", "ornate",	"ornate_raw", "peach", "pickaxe", "rabbit", "rabbit_raw",
+	"redgull", "rock", "rooster", "rooster_raw", "salema",	"salema_raw", "salt_refined", "salt_unrefined", "sand", "sheep",	
+	"sheep_raw", "spikeStrip", "tbacon",	"tuna", "tuna_raw",	"turtle_raw", "turtle_soup", "waterBottle"
 ];
 
 _return pushBack _uItems;

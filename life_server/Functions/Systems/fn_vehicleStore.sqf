@@ -2,6 +2,7 @@
 /*
 	File: fn_vehicleStore.sqf
 	Author: Bryan "Tonic" Boardwine
+
 	Description:
 	Stores the vehicle in the 'Garage'
 */
@@ -10,9 +11,10 @@ _vehicle = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 _impound = [_this,1,false,[true]] call BIS_fnc_param;
 _unit = [_this,2,ObjNull,[ObjNull]] call BIS_fnc_param;
 _storetext = [_this,3,"",[""]] call BIS_fnc_param;
-_resourceItems = LIFE_SETTINGS(getArray,"save_veh_items");
+_resourceItems = LIFE_SETTINGS(getArray, "save_veh_items");
 
 if(isNull _vehicle OR isNull _unit) exitWith {life_impound_inuse = false; (owner _unit) publicVariableClient "life_impound_inuse";life_garage_store = false;(owner _unit) publicVariableClient "life_garage_store";}; //Bad data passed.
+
 _vInfo = _vehicle getVariable["dbInfo",[]];
 
 if(count _vInfo > 0) then {
@@ -57,6 +59,7 @@ if(_impound) exitWith {
 	};
 };
 
+
 // not persistent so just do this!
 if(count _vInfo == 0) exitWith {
 	[1,(localize "STR_Garage_Store_NotPersistent")] remoteExecCall ["life_fnc_broadcast",(owner _unit)];
@@ -74,16 +77,16 @@ if(_uid != getPlayerUID _unit) exitWith {
 if(EQUAL(LIFE_SETTINGS(getNumber,"save_veh_virtualItems"),1)) then {
 	_trunk = _vehicle getVariable["Trunk",[[],0]];
 	_itemList = _trunk select 0;
-	_totalweight = 0;
-	_items = [];
-		{
-			if((_x select 0) in _resourceItems) then {
-				_items pushback [(_x select 0),(_x select 1)];
-				_weight = (ITEM_WEIGHT(_x select 0)) * (_x select 1);
-				_totalweight = _weight + _totalweight;
-			};
-		}foreach _itemList;
-	_trunk = [_items,_totalweight];
+ 	_totalweight = 0;
+ 	_items = [];
+ 		{
+ 			if((_x select 0) in _resourceItems) then {
+ 				_items pushback [(_x select 0),(_x select 1)];
+ 				_weight = (ITEM_WEIGHT(_x select 0)) * (_x select 1);
+ 				_totalweight = _weight + _totalweight;
+ 			};
+ 		}foreach _itemList;
+ 	_trunk = [_items,_totalweight];
 	} else { 
 	_trunk = [[],0];
 };
@@ -103,6 +106,7 @@ if(EQUAL(LIFE_SETTINGS(getNumber,"save_veh_gear"),1)) then {
 // prepare
 _trunk = [_trunk] call DB_fnc_mresArray;
 _cargo = [_cargo] call DB_fnc_mresArray;
+
 
 // update
 _query = format["UPDATE vehicles SET active='0', inventory='%3', gear='%4', fuel='%5', damage='%6' WHERE pid='%1' AND plate='%2'", _uid, _plate, _trunk, _cargo, _fuel, _damage];

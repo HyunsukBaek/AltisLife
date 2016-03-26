@@ -207,6 +207,7 @@ class Life_Client_Core
 		class teleport {};
 		class searchPosEmpty {};
 		class hideObj {};
+		class autoSetPolice {};
 	};
 
 	class Network
@@ -285,6 +286,8 @@ class Life_Client_Core
 		class ticketPaid {};
 		class containerInvSearch {};
 		class wantedGrab {};
+		class showArrestDialog {};
+		class arrestDialog_Arrest {};
 	};
 
 	class Gangs

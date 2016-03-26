@@ -11,7 +11,7 @@ SET time_zone = "+00:00";
 -- Database: `AltisLife`
 -- Default Schema
 --
-CREATE DATABASE IF NOT EXISTS `AltisLife` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+CREATE DATABASE IF NOT EXISTS `AltisLife` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `AltisLife`;
 
 DELIMITER $$
@@ -20,27 +20,27 @@ DELIMITER $$
 -- Edit arma3 to match a user in MySQL
 -- For external databases: Edit localhost to match arma3server IP
 --
-CREATE DEFINER=`arma3`@`localhost` PROCEDURE `resetLifeVehicles`()
+CREATE DEFINER=`root`@`localhost` PROCEDURE `resetLifeVehicles`()
 BEGIN
   UPDATE `vehicles` SET `active`= 0;
 END$$
 
-CREATE DEFINER=`arma3`@`localhost` PROCEDURE `deleteDeadVehicles`()
+CREATE DEFINER=`root`@`localhost` PROCEDURE `deleteDeadVehicles`()
 BEGIN
   DELETE FROM `vehicles` WHERE `alive` = 0;
 END$$
 
-CREATE DEFINER=`arma3`@`localhost` PROCEDURE `deleteOldHouses`()
+CREATE DEFINER=`root`@`localhost` PROCEDURE `deleteOldHouses`()
 BEGIN
   DELETE FROM `houses` WHERE `owned` = 0;
 END$$
 
-CREATE DEFINER=`arma3`@`localhost` PROCEDURE `deleteOldGangs`()
+CREATE DEFINER=`root`@`localhost` PROCEDURE `deleteOldGangs`()
 BEGIN
   DELETE FROM `gangs` WHERE `active` = 0;
 END$$
 
-CREATE DEFINER=`arma3`@`localhost` PROCEDURE `deleteOldContainers`()
+CREATE DEFINER=`root`@`localhost` PROCEDURE `deleteOldContainers`()
 BEGIN
   DELETE FROM `containers` WHERE `owned` = 0;
 END$$
@@ -78,13 +78,14 @@ CREATE TABLE IF NOT EXISTS `players` (
   `civ_alive` tinyint(1) NOT NULL DEFAULT '0',
   `civ_position` varchar(50) NOT NULL DEFAULT '"[]"',
   `playtime` varchar(25) NOT NULL DEFAULT '"[0,0,0]"',
+  `jail_time` int(11) NOT NULL DEFAULT '0',
   `insert_time` timestamp DEFAULT CURRENT_TIMESTAMP,
   `last_seen` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`uid`),
   UNIQUE KEY `playerid` (`playerid`),
   KEY `name` (`name`),
   KEY `blacklist` (`blacklist`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=12 ;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=12 ;
 
 -- --------------------------------------------------------
 
@@ -111,7 +112,7 @@ CREATE TABLE IF NOT EXISTS `vehicles` (
   KEY `side` (`side`),
   KEY `pid` (`pid`),
   KEY `type` (`type`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 -- --------------------------------------------------------
 
@@ -127,7 +128,7 @@ CREATE TABLE IF NOT EXISTS `houses` (
   `owned` tinyint(4) DEFAULT '0',
   `insert_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`,`pid`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
 
 -- --------------------------------------------------------
 
@@ -147,7 +148,7 @@ CREATE TABLE IF NOT EXISTS `gangs` (
   `insert_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`),
   UNIQUE KEY `name_UNIQUE` (`name`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -168,7 +169,7 @@ CREATE TABLE IF NOT EXISTS `containers` (
   `owned` tinyint(4) DEFAULT '0',
   `insert_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`,`pid`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
 
 -- --------------------------------------------------------
 
@@ -185,7 +186,7 @@ CREATE TABLE IF NOT EXISTS `wanted` (
   `active` tinyint(1) NOT NULL DEFAULT '0',
   `insert_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`wantedID`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 

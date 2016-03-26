@@ -6,18 +6,32 @@
 */
 class Life_Settings {
     /* Persistent Player Settings */
-    save_civ_weapons = false; //Allow civilians to save weapons on them?
+    save_civ_weapons = true; //Allow civilians to save weapons on them?
     save_virtualItems = true; //Save Virtual items (all sides)?
     save_playerStats = true; //Save food, water and damage (all sides)?
     save_civ_position = false; //Save civilian location?
     save_civ_positionStrict = false; //Strip the player if possible combat-log?  WARNING: Server crashes and lack of reliable syncing can trigger this.
 
     /* Persistent Vehicle Settings */
-    save_veh_virtualItems = false; //Save Virtual items for vehicles (all sides)?
-    save_veh_gear = false; //Save Gear for vehicles (all sides)?
-    save_veh_fuel = false; //Save Vehicle fuel state
-    save_veh_damage = false; //Save Vehicle Damage
-    save_veh_items[] = { "pickaxe","fuelEmpty","fuelFull", "spikeStrip", "lockpick", "defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","apple","peach","tbacon","donuts","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat" };
+    save_veh_virtualItems = true; //Save Virtual items for vehicles (all sides)?
+    save_veh_gear = true; //Save Gear for vehicles (all sides)?
+    save_veh_fuel = true; //Save Vehicle fuel state
+    save_veh_damage = true; //Save Vehicle Damage
+    save_veh_items[] = {
+		/*"pickaxe","fuelEmpty", "fuelFull", "spikeStrip", "lockpick", "defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","apple","peach","tbacon","donuts","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat"*/
+       		"apple", "blastingcharge", "boltcutter", "cannabis", "catshark", "catshark_raw", 
+		"cement", "cocaine_processed", "cocaine_unprocessed", "coffee", "copper_refined", "copper_unrefined",
+		"defusekit", "diamond_cut", "diamond_uncut", "donuts", "fuelEmpty",
+		"fuelFull", "glass", "goat", "goat_raw", "goldbar",
+		"hen", "hen_raw", "heroin_processed", "heroin_unprocessed", "iron_refined",
+		"iron_unrefined", "lockpick", "mackerel", "mackerel_raw", "marijuana",
+		"mullet", "mullet_raw", "oil_processed", "oil_unprocessed", "ornate",
+		"ornate_raw", "peach", "pickaxe", "rabbit", "rabbit_raw",
+		"redgull", "rock", "rooster", "rooster_raw", "salema",
+		"salema_raw", "salt_refined", "salt_unrefined", "sand", "sheep",	
+		"sheep_raw", "spikeStrip", "tbacon", "tuna", "tuna_raw", 
+		"turtle_raw", "turtle_soup", "waterBottle"
+    };// define which virtual items to save in vehicles.
 
     /* Clothing related settings */
     clothing_noTP = false;  //Disable clothing preview teleport? (true = no teleport. false = teleport)
@@ -32,7 +46,7 @@ class Life_Settings {
 
     /* Revive system settings */
     revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
-    revive_fee = 1500; //Revive fee that players have to pay and medics / EMS are rewarded
+    revive_fee = 25000; //Revive fee that players have to pay and medics / EMS are rewarded
 
     /* House related settings */
     house_limit = 5; //Maximum amount of houses a player can own.
@@ -41,29 +55,29 @@ class Life_Settings {
     donor_level = false; //Enable the donor level set in database (var = life_donorlevel; levels = 0,1,2,3,4,5). ATTENTION! Before enabling, read: https://www.bistudio.com/community/game-content-usage-rules & https://www.bistudio.com/monetization
 
     /* Gang related settings */
-    gang_price = 75000; //Price for creating a gang, remember they are persistent so keep it reasonable to avoid millions of gangs.
-    gang_upgradeBase = 10000; //The base cost for upgrading slots in a gang
+    gang_price = 85000; //Price for creating a gang, remember they are persistent so keep it reasonable to avoid millions of gangs.
+    gang_upgradeBase = 20000; //The base cost for upgrading slots in a gang
     gang_upgradeMultiplier = 2.5; //Not sure if in use?
 
     /* Player-related systems */
     enable_fatigue = true; //Set to false to disable the ARMA 3 fatigue system.
-    total_maxWeight = 24; //Static variable for the maximum weight allowed without having a backpack
+    total_maxWeight = 32; //Static variable for the maximum weight allowed without having a backpack
     paycheck_period = 5; //Scaled in minutes
 
     /* Impound Variables */
-    impound_car = 350; //Price for impounding cars
-    impound_boat = 250; //Price for impounding boats
-    impound_air = 850; //Price for impounding helicopters / planes
+    impound_car = 15000; //Price for impounding cars
+    impound_boat = 20000; //Price for impounding boats
+    impound_air = 15000; //Price for impounding helicopters / planes
 
     /* Initial Bank Amount */
-    bank_cop = 7000; //Amount of cash on bank for new cops
-    bank_civ = 3000; //Amount of cash on bank for new civillians
-    bank_med = 6500; //Amount of cash on bank for new medics
+    bank_cop = 70000; //Amount of cash on bank for new cops
+    bank_civ = 70000; //Amount of cash on bank for new civillians
+    bank_med = 70000; //Amount of cash on bank for new medics
 
     /* Paycheck Amount */
-    paycheck_cop = 500; //Payment for cops
-    paycheck_civ = 350; //Payment for civillians
-    paycheck_med = 450; //Payment for medics
+    paycheck_cop = 9000; //Payment for cops
+    paycheck_civ = 1000; //Payment for civillians
+    paycheck_med = 6000; //Payment for medics
 
     /* Federal Reserve settings */
     noatm_timer = 10; //Time in minutes that players won't be able to deposit his money after selling stolen gold
@@ -75,25 +89,25 @@ class Life_Settings {
     global_ATM = true; //Allow users to access any ATM on the map.
 
     /* Fuel Station & Heli Service settings */
-    Pump_service = false; //Allow users to use pump service on the map. Default = false
-    fuel_cost = 80; //Cost of fuel per liter at fuel stations (if not defined for the vehicle already).
+    Pump_service = true; //Allow users to use pump service on the map. Default = false
+    fuel_cost = 200; //Cost of fuel per liter at fuel stations (if not defined for the vehicle already).
     service_chopper = 1000; //Cost to service chopper at chopper service station.
 
     /* Skins settings */
     civ_skins = false; //Enable or disable civilian skins. Before enabling, you must add all the SEVEN files to textures folder. (It must be named as: civilian_uniform_1.jpg, civilian_uniform_2.jpg...civilian_uniform_6.jpg, civilian_uniform_7.jpg)
 
     /* Vehicle Settings */
-    vehicleShop_rentalOnly[] = { "B_MRAP_01_hmg_F", "B_G_Offroad_01_armed_F", "B_Boat_Armed_01_minigun_F" };
-    vehicleShop_BuyMultiplicator = 1.5;
+    vehicleShop_rentalOnly[] = { "B_Boat_Armed_01_minigun_F" };
+    vehicleShop_BuyMultiplicator = 1.3;
     vehicleGarage_SellMultiplicator = 0.75;
-    vehicleGarage_StorFeeMultiplicator = 0.2;
+    vehicleGarage_StorFeeMultiplicator = 0.05;
     vehicleChopShop_Multiplicator = 0.5;
 
     /* Job-related stuff */
-    delivery_points[] = { "dp_1", "dp_2", "dp_3", "dp_4", "dp_5", "dp_6", "dp_7", "dp_8", "dp_9", "dp_10", "dp_11", "dp_12", "dp_13", "dp_14", "dp_15", "dp_15", "dp_16", "dp_17", "dp_18", "dp_19", "dp_20", "dp_21", "dp_22", "dp_23", "dp_24", "dp_25" };
+    delivery_points[] = { "dp_1", "dp_2", "dp_3", "dp_4", "dp_5", "dp_6", "dp_7", "dp_8", "dp_9", "dp_10", "dp_11", "dp_12", "dp_13", "dp_14", "dp_15", "dp_15", "dp_16", "dp_17", "dp_18", "dp_19", "dp_20", "dp_21", "dp_22", "dp_23", "dp_24", "dp_25", "dp_26", "dp_27" };
 
     /* FuelTank Mission */
-    FuelTank_WinMultiplier = 1; //Win Multiplier in FuelTank Missions. Increase for more Money! Default = 1
+    FuelTank_WinMultiplier = 2; //Win Multiplier in FuelTank Missions. Increase for more Money! Default = 1
 
     /* Animal settings */
     animaltypes_fish[] = { "Salema_F", "Ornate_random_F", "Mackerel_F", "Tuna_F", "Mullet_F", "CatShark_F", "Turtle_F" };
