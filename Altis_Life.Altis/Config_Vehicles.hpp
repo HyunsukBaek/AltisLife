@@ -83,13 +83,15 @@ class CarShops {
     class med_shop {
         side = "med";
         vehicles[] = {
+            { "B_Quadbike_01_F", { "", "", -1 } },
             { "C_Offroad_01_F", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
             { "C_Hatchback_01_F", { "", "", -1 } },
 	    { "C_Hatchback_01_sport_F", { "", "", -1 } },
 	    { "C_Van_01_box_F", { "", "", -1 } },
             { "I_Truck_02_medical_F", { "", "", -1 } },
-            { "B_Truck_01_medical_F", { "", "", -1 } }
+            { "B_Truck_01_medical_F", { "", "", -1 } },
+	    { "I_MRAP_03_F", { "", "", -1 } }
         };
     };
 
@@ -113,6 +115,7 @@ class CarShops {
 	    { "B_MRAP_01_F", { "life_coplevel", "SCALAR", 2 } },
 	    { "B_Truck_01_Repair_F", { "life_coplevel", "SCALAR", 2 } },
 	    { "B_Truck_01_ammo_F", { "life_coplevel", "SCALAR", 2 } },
+	    { "I_MRAP_03_F", { "life_coplevel", "SCALAR", 3 } },
             { "B_MRAP_01_hmg_F", { "life_coplevel", "SCALAR", 3 } },
 	    { "O_MRAP_02_hmg_F", { "life_coplevel", "SCALAR", 4 } },
 	    { "I_MRAP_03_hmg_F", { "life_coplevel", "SCALAR", 4 } },
@@ -241,6 +244,17 @@ class LifeCfgVehicles {
         };
     };
 
+    class I_MRAP_03_F {
+           vItemSpace = 200;
+           licenses[] = { {""}, {""}, {""}, {""} };
+           rentalprice[] = { 350000, 350000, 350000, 350000 };
+           textures[] = {
+               { "EMS white", "med", {"textures\ems\EMS_SUV_1.jpg"} },
+	       { "Black", "cop", {"#(argb,8,8,3)color(0.05,0.05,0.05,1)"} },
+	       { "CamoCop", "cop", {"textures\rebel\reblbirdcamo1.jpg", "textures\rebel\reblbirdcamo1.jpg"} }
+           };
+       };
+
     class B_MRAP_01_F {
       vItemSpace = 65;
       licenses[] = { {""}, {""}, {""}, {""} };
@@ -357,7 +371,7 @@ class LifeCfgVehicles {
     };
 
     class I_MRAP_03_hmg_F {
-	vItemSpace = 100;
+	vItemSpace = 200;
 	licenses[] = { {"driver"}, {""}, {""}, {""} };
 	rentalprice[] = { 550000, 550000, -1, -1 };
 	textures[] = {
@@ -579,7 +593,10 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } },
             { "Rebel Camo", "reb", {
                 "\a3\soft_f_gamma\Quadbike_01\data\quadbike_01_indp_hunter_co.paa"
-            } }
+            } },
+	    { "EMS RED", "med", {
+		"\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_civ_red_co.paa"
+	    } }
         };
     };
 
