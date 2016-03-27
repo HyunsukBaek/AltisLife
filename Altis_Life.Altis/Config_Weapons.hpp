@@ -107,16 +107,16 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "Binocular", "", 150, -1 },
+            { "Binocular", "", 150, 10 },
             { "ItemGPS", "", 100, 45 },
             { "ItemMap", "", 50, 35 },
             { "ItemCompass", "", 50, 25 },
-            { "ItemWatch", "", 50, -1 },
+            { "ItemWatch", "", 50, 10 },
 	    { "ItemRadio", "", 2500, 25 },
             { "ToolKit", "", 250, 75 },
             { "FirstAidKit", "", 150, 65 },
             { "NVGoggles", "", 2000, 980 },
-            { "Chemlight_red", "", 300, -1 },
+            { "Chemlight_red", "", 300, 50 },
             { "Chemlight_yellow", "", 300, 50 },
             { "Chemlight_green", "", 300, 50 },
             { "Chemlight_blue", "", 300, 50 }
@@ -131,16 +131,16 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "Binocular", "", 750, -1 },
+            { "Binocular", "", 750, 100 },
             { "ItemGPS", "", 500, 45 },
             { "ItemMap", "", 250, 35 },
             { "ItemCompass", "", 250, 25 },
-            { "ItemWatch", "", 250, -1 },
+            { "ItemWatch", "", 250, 25 },
 	    { "ItemRadio", "", 2500, 25 },
             { "ToolKit", "", 1250, 75 },
             { "FirstAidKit", "", 750, 65 },
             { "NVGoggles", "", 10000, 980 },
-            { "Chemlight_red", "", 1500, -1 },
+            { "Chemlight_red", "", 1500, 50 },
             { "Chemlight_yellow", "", 1500, 50 },
             { "Chemlight_green", "", 1500, 50 },
             { "Chemlight_blue", "", 1500, 50 }
@@ -156,7 +156,7 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "Binocular", "", 150, -1 },
+            { "Binocular", "", 150, 10 },
 	    { "ItemGPS", "", 100, 45 },
 	    { "ItemRadio", "", 3000, 980 },
 	    { "ToolKit", "", 250, 75 },
@@ -166,7 +166,7 @@ class WeaponShops {
             { "arifle_sdar_F", "Taser Rifle", 20000, 7500 },
             { "hgun_P07_snds_F", "Stun Pistol", 2000, 650 },
             { "hgun_P07_F", "", 7500, 1500 },
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "HandGrenade_Stone", "Flashbang", 1700, 100 },
 	    { "Laserdesignator", "", 3000, 980 }
         };
         mags[] = {
@@ -202,22 +202,22 @@ class WeaponShops {
 	    { "SMG_01_F", "", 60000, 5000 },
 	    { "arifle_MX_SW_Hamr_pointer_F", "", 130000, 5000 },
 	    { "LMG_Mk200_F", "", 130000, 5000 },
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "HandGrenade_Stone", "Flashbang", 1700, 100 },
             { "MineDetector", "", 1000, 500 },
             { "acc_flashlight", "", 750, 100 },
             { "optic_Holosight", "", 1200, 275 },
-            { "optic_Arco", "", 2500, -1 },
-            { "muzzle_snds_H", "", 2750, -1 }
+            { "optic_Arco", "", 2500, 100 },
+            { "muzzle_snds_H", "", 2750, 100 }
         };
         mags[] = {
             { "6Rnd_45ACP_Cylinder", "", 45 },
 	    { "30Rnd_65x39_caseless_mag", "", 130 },
  	    { "30Rnd_9x21_Mag", "", 250 },
 	    { "30Rnd_556x45_Stanag", "", 60 },
-	    { "30Rnd_45ACP_Mag_SMG_01", "", 100, -1 },
+	    { "30Rnd_45ACP_Mag_SMG_01", "", 100 },
 	    { "100Rnd_65x39_caseless_mag", "", 450 },
-	    { "30Rnd_45ACP_Mag_SMG_01_tracer_green", "", 100, -1 },
-	    { "200Rnd_65x39_cased_Box", "", 100, -1 }
+	    { "30Rnd_45ACP_Mag_SMG_01_tracer_green", "", 100},
+	    { "200Rnd_65x39_cased_Box", "", 100 }
         };
         accs[] = {
             { "acc_flashlight", "", 750, 100 },
@@ -274,7 +274,7 @@ class WeaponShops {
         level[] = { "", "", -1, "" };
         items[] = {
             { "ItemGPS", "", 100, 45 },
-            { "Binocular", "", 150, -1 },
+            { "Binocular", "", 150, 50 },
             { "ToolKit", "", 250, 75 },
             { "FirstAidKit", "", 150, 65 },
             { "Medikit", "", 500, 450 },
@@ -283,7 +283,7 @@ class WeaponShops {
 	    { "ItemMap", "", 250, 35 },
 	    { "ItemRadio", "", 2500, 25 },
 	    { "ItemCompass", "", 250, 25 },
-	    { "ItemWatch", "", 250, -1 }
+	    { "ItemWatch", "", 250, 10 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 55 }

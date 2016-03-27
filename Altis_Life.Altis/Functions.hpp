@@ -98,6 +98,7 @@ class Life_Client_Core
 		class robAction {};
 		class captureHideout {};
 		class gather {};
+		class mine {};
 		class gutAnimal {};
 		class removeContainer {};
 	};
@@ -207,7 +208,8 @@ class Life_Client_Core
 		class teleport {};
 		class searchPosEmpty {};
 		class hideObj {};
-		class autoSetPolice {};
+		class whereAmI {};
+		class autoSetPolice {};		
 	};
 
 	class Network
