@@ -25,7 +25,7 @@ player createDiarySubject ["controls","Controls"];
 
 	player createDiaryRecord ["credits",
 		[
-			"ArmaLife",
+			"SoulLife",
 				"
 					ArmaLife is a GitHub project which aims to update and keep adding new features to the original 'Altis Life RPG' by Tonic.<br/><br/>
 				"

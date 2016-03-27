@@ -125,10 +125,10 @@ private ["_weatherUpdateArray","_weatherUpdateForecasts"];
         initialWeatherParam = (paramsArray select rw2Param);
 		switch (initialWeatherParam) do{
 			case 0: {rw2_Current_Weather = 0;};    										// Clear
-            case 1: {rw2_Current_Weather = 1;};    										// Overcast
-            case 2: {rw2_Current_Weather = 2 + (floor (random 3));};  					// Rain
-            case 3: {rw2_Current_Weather = 5 + (floor (random 3));};  				 	// Fog
-            case 4: {rw2_Current_Weather = floor(random(count(weatherTemplates)));};	// Random
+            case 1: {rw2_Current_Weather = 0;};  										// Overcast
+            case 2: {rw2_Current_Weather = 0;};   					// Rain
+            case 3: {rw2_Current_Weather = 0;};   				 	// Fog
+            case 4: {rw2_Current_Weather = 0;}; 	// Random
         };
 	};
 	// Send out Initial Weather Variable

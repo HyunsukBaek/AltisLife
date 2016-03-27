@@ -249,8 +249,8 @@ class LifeCfgVehicles {
            licenses[] = { {""}, {""}, {""}, {""} };
            rentalprice[] = { 350000, 350000, 350000, 350000 };
            textures[] = {
-               { "EMS white", "med", {"textures\ems\EMS_SUV_1.jpg"} },
-	       { "Black", "cop", {"#(argb,8,8,3)color(0.05,0.05,0.05,1)"} },
+               { "EMS white", "med", {"#(argb,8,8,3)color(1,1,1,0.8)"} },
+	       { "CopBlue", "cop", {"#(argb,8,8,3)color(0.01,0.01,1.53,1)"} },
 	       { "CamoCop", "cop", {"textures\rebel\reblbirdcamo1.jpg", "textures\rebel\reblbirdcamo1.jpg"} }
            };
        };
@@ -353,10 +353,10 @@ class LifeCfgVehicles {
 	licenses[] = { {"driver"}, {""}, {""}, {""} };
 	rentalprice[] = { 550000, 150000, -1, -1 };
 	textures[] = {
-	  { "Blackmatte", "reb", {"textures\rebel\blackmatte.jpg", "textures\rebel\blackmatte.jpg"} },
+	  { "Rebel", "reb", {"#(argb,8,8,3)color(1.53,1.53,0.51,1)"} },
 	  { "Camo", "reb", {"textures\rebel\reblbirdcamo1.jpg", "textures\rebel\reblbirdcamo1.jpg"} },
 	  { "Black", "cop", {"#(argb,8,8,3)color(0.05,0.05,0.05,1)"} },
-	  { "CamoCop", "cop", {"textures\rebel\reblbirdcamo1.jpg", "textures\rebel\reblbirdcamo1.jpg"} }
+	  { "BLUE", "cop", {"#(argb,8,8,3)color(0.01,0.01,1.53,1)"} }
 	};
     };
 
@@ -467,7 +467,8 @@ class LifeCfgVehicles {
 	    } },
 	    { "Met cop", "cop", {"textures\cop\met_police_offroader.paa"} },
 	    { "London 911", "cop", {"textures\cop\lincpol_offroader.paa"} },
-	    { "heto", "med", {"textures\ems\heto_offroader.paa"} }
+	    { "heto", "med", {"textures\ems\heto_offroader.paa"} },
+	    { "Hello kitty", "civ", {"textures\cars\kitty_offroad.jpg"} }
         };
     };
 
@@ -617,7 +618,10 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	    { "EMS 119", "med", {"textures\ems\EMS_SUV_2.jpg"} },
 	    { "Channel8 News", "civ", {"textures\cars\channel8newscar.paa"} },
 	    { "Camogreen", "civ", {"textures\cars\suvcamogreen.paa"} },
-	    { "LAPD", "cop", {"textures\cop\lapd_suv.paa"} }
+	    { "LAPD", "cop", {"textures\cop\lapd_suv.paa"} },
+	    { "Ferrari", "civ", {"textures\cop\ferrari_SUV.jpg"} },
+	    { "blueflames", "civ", {"textures\cars\flames.jpg"} },
+	    { "tiger", "civ", {"textures\cars\pimp.jpg"} }
         };
     };
 
@@ -743,7 +747,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"
             } },
             { "EMS White", "med", {
-                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_civilian_co.paa"
+        	"#(argb,8,8,3)color(1,1,1,0.8)"
             } }
         };
     };

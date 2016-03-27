@@ -34,7 +34,7 @@ switch(playerSide) do {
 	};
 	case west: {
 		if(uniform player == "U_Rangemaster") then {
-			player setObjectTextureGlobal [0, "textures\cop\clothes\scotpol_hvuniform.paa"];
+			player setObjectTextureGlobal [0, "textures\cop_uniform.jpg"];
 		};
 		if(uniform player == "U_B_CombatUniform_mcam") then {
 			player setObjectTextureGlobal [0, "textures\cop\clothes\scotpol_hvuniform.paa"];
@@ -48,7 +48,7 @@ switch(playerSide) do {
 	};
 	case independent: {
 		if(uniform player == "U_Rangemaster") then {
-			player setObjectTextureGlobal [0, "textures\ems\clothes\paramedic_uniform_hv.paa"];
+			player setObjectTextureGlobal [0, "textures\medic_uniform.jpg"];
 		};
 		if(uniform player == "U_B_CombatUniform_mcam") then {
 			player setObjectTextureGlobal [0, "textures\ems\clothes\paramedic_uniform_hv.paa"];

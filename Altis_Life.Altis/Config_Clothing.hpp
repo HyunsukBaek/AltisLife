@@ -68,9 +68,7 @@ class Clothing {
             { "H_Cap_red", "", 150, { "", "", -1 } },
             { "H_Cap_tan", "", 150, { "", "", -1 } },
             { "H_Cap_press", "", 310, { "", "", -1 } },
-            { "H_Bandanna_mcamo", "", 310, { "", "", -1 } },
             { "H_Cap_marshal", "", 310, { "", "", -1 } },
-            { "H_Shemag_olive", "", 5150, { "", "", -1 } },
             { "H_RacingHelmet_1_red_F", "", 8150, { "", "", -1 } },
             { "H_RacingHelmet_1_white_F", "", 8150, { "", "", -1 } },
             { "H_RacingHelmet_2_F", "", 8150, { "", "", -1 } }
@@ -130,8 +128,9 @@ class Clothing {
         side = "cop";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
+	    { "U_Rangemaster", "Normal Uniform", 25, { "", "", -1 } },
             { "U_B_CombatUniform_mcam", "Yellow Uniform", 25, { "", "", -1 } },
-	    { "U_B_CombatUniform_mcam_worn", "Blue Uniform", 350, { "life_coplevel", "SCALAR", 1 } },
+	    { "U_B_CombatUniform_mcam_worn", "Blue Uniform", 350, { "life_coplevel", "SCALAR", 2 } },
 	    { "U_B_CTRG_1", "Black Uniform", 550, { "life_coplevel", "SCALAR", 2 } },
             { "U_O_CombatUniform_ocamo", "", 350, { "life_coplevel", "SCALAR", 1 } },
             { "U_B_survival_uniform", "", 1250, { "life_coplevel", "SCALAR", 1 } },
@@ -329,6 +328,7 @@ class Clothing {
         side = "med";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
+	    { "U_Rangemaster", "Normal Uniform", 25, { "", "", -1 } },
             { "U_B_CombatUniform_mcam", "Yellow Uniform", 50, { "", "", -1 } },
 	    { "U_B_CombatUniform_mcam_worn", "Green Uniform", 50, { "", "", -1 } },
 	    { "U_C_Driver_1_green", "EMS Driver_green", 5000, { "", "", -1 } },

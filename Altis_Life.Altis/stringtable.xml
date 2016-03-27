@@ -1635,7 +1635,7 @@
   </Package>
   <Package name="Spawn_Menu">
     <Key ID="STR_Spawn_Title">
-      <Original>Spawn Selection</Original>
+      <Original>Spawn Selection(수도: Pyrgos)</Original>
       <German>Spawn Auswahl</German>
       <French>Selection du Spawn</French>
       <Italian>Selezione Spawn</Italian>

@@ -89,7 +89,7 @@ class Life_Settings {
     global_ATM = true; //Allow users to access any ATM on the map.
 
     /* Fuel Station & Heli Service settings */
-    Pump_service = true; //Allow users to use pump service on the map. Default = false
+    Pump_service = false; //Allow users to use pump service on the map. Default = false
     fuel_cost = 200; //Cost of fuel per liter at fuel stations (if not defined for the vehicle already).
     service_chopper = 1000; //Cost to service chopper at chopper service station.
 
