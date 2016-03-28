@@ -71,7 +71,7 @@ _Btn7 ctrlSetText localize "STR_pInAct_PutInCar";
 _Btn7 buttonSetAction "[life_pInact_curTarget] call life_fnc_putInCar;";
 
 //Check that you are near a place to jail them.
-//if(!((player distance (getMarkerPos "police_hq_1") < 60) OR  (player distance (getMarkerPos "police_hq_2") < 60) OR (player distance (getMarkerPos "cop_spawn_3") < 60) OR (player distance (getMarkerPos "cop_spawn_5") < 60))) then  {
-//	_Btn6 ctrlEnable false;
-//};
+if(!((player distance (getMarkerPos "police_hq_1") < 60) OR  (player distance (getMarkerPos "police_hq_2") < 60) OR (player distance (getMarkerPos "cop_spawn_3") < 60) OR (player distance (getMarkerPos "cop_spawn_5") < 60))) then  {
+	_Btn6 ctrlEnable false;
+};
 		

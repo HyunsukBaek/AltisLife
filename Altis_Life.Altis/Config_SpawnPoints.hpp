@@ -19,13 +19,13 @@
 class CfgSpawnPoints {
     class Civilian {
 
-	class Pyrgos {
-	    displayName = "Pyrgos";
-	    spawnMarker = "civ_spawn_2";
-	    icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-	    license[] = { "", true };
-	    level[] = { "", "", -1 };
-	};
+        class Pyrgos {
+            displayName = "Pyrgos";
+            spawnMarker = "civ_spawn_2";
+            icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+            license[] = { "", true };
+            level[] = { "", "", -1 };
+        };
 
         class Kavala {
             displayName = "Kavala";
