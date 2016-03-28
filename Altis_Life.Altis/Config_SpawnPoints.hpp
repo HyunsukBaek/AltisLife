@@ -19,13 +19,13 @@
 class CfgSpawnPoints {
     class Civilian {
 
-	class Pyrgos {
-	    displayName = "Pyrgos";
-	    spawnMarker = "civ_spawn_2";
-	    icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-	    license[] = { "", true };
-	    level[] = { "", "", -1 };
-	};
+        class Pyrgos {
+            displayName = "Pyrgos";
+            spawnMarker = "civ_spawn_2";
+            icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+            license[] = { "", true };
+            level[] = { "", "", -1 };
+        };
 
         class Kavala {
             displayName = "Kavala";
@@ -78,15 +78,15 @@ class CfgSpawnPoints {
 
     class Cop {
 
-	class Pyrgos {
-	    displayName = "Pyrgos HQ";
-	    spawnMarker = "cop_spawn_2";
-	    icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
-	    license[] = { "", true };
-	    level[] = { "", "", -1 };
-	};
-
-	class Kavala {
+        class Pyrgos {
+            displayName = "Pyrgos HQ";
+            spawnMarker = "cop_spawn_2";
+            icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
+            license[] = { "", true };
+            level[] = { "", "", -1 };
+        };
+    
+        class Kavala {
             displayName = "Kavala HQ";
             spawnMarker = "cop_spawn_1";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
@@ -121,13 +121,13 @@ class CfgSpawnPoints {
 
     class Medic {
 
-	class Pyrgos {
-	    displayName = "Pyrgos Hospital";
-	    spawnMarker = "medic_spawn_3";
-	    icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
-	    license[] = { "", true };
-	    level[] = { "", "", -1 };
-	};
+        class Pyrgos {
+            displayName = "Pyrgos Hospital";
+            spawnMarker = "medic_spawn_3";
+            icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
+            license[] = { "", true };
+            level[] = { "", "", -1 };
+        };
 
         class Kavala {
             displayName = "Kavala Hospital";
