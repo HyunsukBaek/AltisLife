@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={16659.162,256.00797,12582.454};
-		dir[]={-0.63716048,-0.66919076,-0.38244009};
-		up[]={-0.57378614,0.74307334,-0.34439981};
-		aside[]={-0.51464933,-5.8423757e-007,0.85742551};
+		pos[]={16610.168,54.535252,12709.769};
+		dir[]={-0.28651595,-0.84052974,0.45987713};
+		up[]={-0.44447234,0.54174316,0.7134105};
+		aside[]={0.84877682,-8.7823719e-007,0.52881008};
 	};
 };
 binarizationWanted=0;
@@ -1648,7 +1648,7 @@ class Mission
 			text="@STR_MAR_Market";
 			type="c_unknown";
 			colorName="ColorGreen";
-			angle=0.084134698;
+			angle=0.08413469;
 			id=155;
 		};
 		class Item155
@@ -12129,13 +12129,13 @@ class Mission
 					class PositionInfo
 					{
 						position[]={16598.102,11.001439,12715.806};
-						angles[]={0,5.7652435,0};
+						angles[]={0,5.7652416,0};
 					};
 					side="Civilian";
 					class Attributes
 					{
 						skill=0.60000002;
-						init="this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_Helicopter_Shop"", life_fnc_vehicleShopMenu,[""cop_air"",west,""cop_air_1"",""cop"",""APD - Kavala District""]];  this addAction[localize""STR_Garage_Title"",  {   if(life_HC_isActive) then {	[getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""cop_air_1""; life_garage_type = ""Air"";  },"""",0,false,false,"""",'playerSide == west'];  this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; this setObjectTextureGlobal [0,""textures\cop_uniform.jpg""];";
+						init="this addAction[localize""STR_MAR_Helicopter_Shop"", life_fnc_vehicleShopMenu,[""cop_air"",west,""cop_air_3"",""cop"",""APD - Kavala District""]];  this addAction[localize""STR_Garage_Title"",  {   if(life_HC_isActive) then {[getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""cop_air_3""; life_garage_type = ""Air"";  },"""",0,false,false,"""",'playerSide == west'];  this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; this setObjectTextureGlobal [0,""textures\cop_uniform.jpg""];  ";
 					};
 					id=3972;
 					type="B_RangeMaster_F";
@@ -25507,7 +25507,7 @@ class Mission
 			name="civ_gar_1_5";
 			text="AIR GARAGE";
 			type="o_service";
-			angle=108.01297;
+			angle=108.01296;
 			id=3802;
 		};
 		class Item1355
@@ -25526,7 +25526,7 @@ class Mission
 			name="civ_gar_1_6";
 			text="AIR GARAGE";
 			type="o_service";
-			angle=108.01296;
+			angle=108.01295;
 			id=3808;
 		};
 		class Item1357
@@ -25619,7 +25619,7 @@ class Mission
 			name="atm_marker_6";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=7.2898893;
+			angle=7.2898889;
 			id=3823;
 		};
 		class Item1364
@@ -25706,7 +25706,7 @@ class Mission
 			text="@STR_MAR_Gun_Store";
 			type="loc_Bunker";
 			colorName="ColorRed";
-			angle=244.85738;
+			angle=244.85735;
 			id=3829;
 		};
 		class Item1370
