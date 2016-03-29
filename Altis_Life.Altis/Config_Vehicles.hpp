@@ -618,7 +618,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Channel8 News", "civ", {"textures\cars\channel8newscar.paa"} },
             { "Camogreen", "civ", {"textures\cars\suvcamogreen.paa"} },
             { "LAPD", "cop", {"textures\cop\lapd_suv.paa"} },
-            { "Ferrari", "civ", {"textures\cop\ferrari_SUV.jpg"} },
+            { "Ferrari", "civ", {"textures\cars\ferrari_SUV.jpg"} },
             { "blueflames", "civ", {"textures\cars\flames.jpg"} },
             { "tiger", "civ", {"textures\cars\pimp.jpg"} }
         };
