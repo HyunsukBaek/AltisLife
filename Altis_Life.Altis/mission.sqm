@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1;
+	toggles=129;
 	class ItemIDProvider
 	{
-		nextID=4072;
+		nextID=4074;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={16610.168,54.535252,12709.769};
-		dir[]={-0.28651595,-0.84052974,0.45987713};
-		up[]={-0.44447234,0.54174316,0.7134105};
-		aside[]={0.84877682,-8.7823719e-007,0.52881008};
+		pos[]={16523.551,27.27,12531.769};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -1648,7 +1648,7 @@ class Mission
 			text="@STR_MAR_Market";
 			type="c_unknown";
 			colorName="ColorGreen";
-			angle=0.08413469;
+			angle=0.084134676;
 			id=155;
 		};
 		class Item155
@@ -9229,7 +9229,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8477.1465,86.94088,25218.984};
-						angles[]={0.21273224,6.2545094,0.1973955};
+						angles[]={0.21273819,6.2545094,0.19739674};
 					};
 					side="Civilian";
 					flags=2;
@@ -9238,6 +9238,7 @@ class Mission
 						skill=0.60000002;
 						name="civ_66";
 						description="Civ 66";
+						isPlayer=1;
 						isPlayable=1;
 					};
 					id=919;
@@ -9525,8 +9526,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8466.2334,84.736977,25222.412};
-						angles[]={0.15995599,0.51036918,0.099669173};
+						position[]={8466.2334,84.737274,25222.41};
+						angles[]={0.15995942,0.51036918,0.099675752};
 					};
 					side="Civilian";
 					flags=2;
@@ -9535,7 +9536,6 @@ class Mission
 						skill=0.60000002;
 						name="civ_75";
 						description="Civ 75";
-						isPlayer=1;
 						isPlayable=1;
 					};
 					id=937;
@@ -12128,23 +12128,6 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={16598.102,11.001439,12715.806};
-						angles[]={0,5.7652416,0};
-					};
-					side="Civilian";
-					class Attributes
-					{
-						skill=0.60000002;
-						init="this addAction[localize""STR_MAR_Helicopter_Shop"", life_fnc_vehicleShopMenu,[""cop_air"",west,""cop_air_3"",""cop"",""APD - Kavala District""]];  this addAction[localize""STR_Garage_Title"",  {   if(life_HC_isActive) then {[getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""cop_air_3""; life_garage_type = ""Air"";  },"""",0,false,false,"""",'playerSide == west'];  this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; this setObjectTextureGlobal [0,""textures\cop_uniform.jpg""];  ";
-					};
-					id=3972;
-					type="B_RangeMaster_F";
-				};
-				class Item149
-				{
-					dataType="Object";
-					class PositionInfo
-					{
 						position[]={16547.645,2.2714388,12527.701};
 						angles[]={0,5.5981526,0};
 					};
@@ -12157,7 +12140,7 @@ class Mission
 					id=3810;
 					type="C_man_1";
 				};
-				class Item150
+				class Item149
 				{
 					dataType="Object";
 					class PositionInfo
@@ -12172,6 +12155,23 @@ class Mission
 						init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_Shops_W_Gun"",life_fnc_weaponShopMenu,""gun"",0,false,false,"""",' license_civ_gun && playerSide == civilian']; this addAction[localize ""STR_Shops_C_Gun"",life_fnc_clothingMenu,""gun_clothing"",0,false,false,"""",' license_civ_gun && playerSide == civilian']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""gun"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""gun"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""gun"",0,false,false,"""",' !license_civ_gun && playerSide == civilian '];";
 					};
 					id=3831;
+					type="B_RangeMaster_F";
+				};
+				class Item150
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={16588.264,11.001439,12711.83};
+						angles[]={0,6.2401452,0};
+					};
+					side="Civilian";
+					class Attributes
+					{
+						skill=0.60000002;
+						init="this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_Helicopter_Shop"", life_fnc_vehicleShopMenu,[""cop_air"",west,""cop_air_3"",""cop"",""APD - Kavala District""]];  this addAction[localize""STR_Garage_Title"",  {   if(life_HC_isActive) then {	[getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""cop_air_3""; life_garage_type = ""Air"";  },"""",0,false,false,"""",'playerSide == west'];  this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; this setObjectTextureGlobal [0,""textures\cop_uniform.jpg""];";
+					};
+					id=4073;
 					type="B_RangeMaster_F";
 				};
 			};
@@ -24449,15 +24449,15 @@ class Mission
 		class Item1284
 		{
 			dataType="Marker";
-			position[]={3681.8809,8.177124,13086.596};
+			position[]={3582.1018,9.776042,13044.04};
 			name="marker_250";
 			markerType="ELLIPSE";
 			type="ellipse";
 			colorName="ColorBlue";
 			alpha=0.33605459;
 			fillName="Grid";
-			a=150;
-			b=150;
+			a=300;
+			b=300;
 			id=3520;
 		};
 		class Item1285
@@ -25507,7 +25507,7 @@ class Mission
 			name="civ_gar_1_5";
 			text="AIR GARAGE";
 			type="o_service";
-			angle=108.01296;
+			angle=108.01294;
 			id=3802;
 		};
 		class Item1355
@@ -25526,7 +25526,7 @@ class Mission
 			name="civ_gar_1_6";
 			text="AIR GARAGE";
 			type="o_service";
-			angle=108.01295;
+			angle=108.01293;
 			id=3808;
 		};
 		class Item1357
@@ -25706,7 +25706,7 @@ class Mission
 			text="@STR_MAR_Gun_Store";
 			type="loc_Bunker";
 			colorName="ColorRed";
-			angle=244.85735;
+			angle=244.85733;
 			id=3829;
 		};
 		class Item1370
@@ -27715,10 +27715,10 @@ class Mission
 		class Item1491
 		{
 			dataType="Marker";
-			position[]={16592.576,11,12726.918};
+			position[]={16589.932,11,12727.262};
 			name="cop_air_3";
 			type="Empty";
-			angle=42.90984;
+			angle=91.249588;
 			id=3970;
 		};
 		class Item1492
@@ -27726,7 +27726,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={16589.816,10.99971,12727.431};
+				position[]={16589.783,11,12727.406};
+				angles[]={0,1.491099,0};
 			};
 			side="Empty";
 			class Attributes
