@@ -5,21 +5,21 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=129;
+	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=4074;
+		nextID=4080;
 	};
 	class MarkerIDProvider
 	{
-		nextID=272;
+		nextID=274;
 	};
 	class Camera
 	{
-		pos[]={16523.551,27.27,12531.769};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={16690.869,13.521477,12275.944};
+		dir[]={-0.066102818,-0.48148316,0.87397021};
+		up[]={-0.036313515,0.87645221,0.48011932};
+		aside[]={0.99716187,-3.9619044e-007,0.075419635};
 	};
 };
 binarizationWanted=0;
@@ -115,7 +115,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1580;
+		items=1582;
 		class Item0
 		{
 			dataType="Marker";
@@ -1312,7 +1312,7 @@ class Mission
 		class Item121
 		{
 			dataType="Marker";
-			position[]={16691.338,16.364292,12649.127};
+			position[]={16692.4,16.364292,12651.965};
 			name="Gen_2";
 			text="@STR_MAR_General_Store";
 			type="c_unknown";
@@ -1333,12 +1333,12 @@ class Mission
 		class Item123
 		{
 			dataType="Marker";
-			position[]={16702.752,16.41567,12644.754};
+			position[]={16701.688,16.391153,12644.637};
 			name="license_shop_2_1";
 			text="@STR_MAR_DMV";
 			type="c_unknown";
 			colorName="ColorBlue";
-			angle=30.32011;
+			angle=5.2422395;
 			id=124;
 		};
 		class Item124
@@ -9238,7 +9238,6 @@ class Mission
 						skill=0.60000002;
 						name="civ_66";
 						description="Civ 66";
-						isPlayer=1;
 						isPlayable=1;
 					};
 					id=919;
@@ -9553,7 +9552,7 @@ class Mission
 			side="Civilian";
 			class Entities
 			{
-				items=151;
+				items=153;
 				class Item0
 				{
 					dataType="Object";
@@ -12173,6 +12172,40 @@ class Mission
 					};
 					id=4073;
 					type="B_RangeMaster_F";
+				};
+				class Item151
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={16747.055,17.532358,12589.827};
+						angles[]={0,5.9400234,6.2822089};
+					};
+					side="Civilian";
+					class Attributes
+					{
+						skill=0.60000002;
+						init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Clothing_Store"",life_fnc_clothingMenu,""bruce""];";
+					};
+					id=4076;
+					type="C_man_1";
+				};
+				class Item152
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={16691.848,3.8049607,12290.062};
+						angles[]={0.025327841,5.0577688,0.075853623};
+					};
+					side="Civilian";
+					class Attributes
+					{
+						skill=0.60000002;
+						init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Diamond_Trader"",life_fnc_virt_menu,""diamond""];";
+					};
+					id=4079;
+					type="C_man_1";
 				};
 			};
 			class Attributes
@@ -25507,7 +25540,7 @@ class Mission
 			name="civ_gar_1_5";
 			text="AIR GARAGE";
 			type="o_service";
-			angle=108.01294;
+			angle=108.01293;
 			id=3802;
 		};
 		class Item1355
@@ -25526,7 +25559,7 @@ class Mission
 			name="civ_gar_1_6";
 			text="AIR GARAGE";
 			type="o_service";
-			angle=108.01293;
+			angle=108.01292;
 			id=3808;
 		};
 		class Item1357
@@ -27718,7 +27751,7 @@ class Mission
 			position[]={16589.932,11,12727.262};
 			name="cop_air_3";
 			type="Empty";
-			angle=91.249588;
+			angle=91.24958;
 			id=3970;
 		};
 		class Item1492
@@ -29101,6 +29134,27 @@ class Mission
 			};
 			id=4071;
 			type="Land_LampDecor_F";
+		};
+		class Item1580
+		{
+			dataType="Marker";
+			position[]={16747.502,17.530457,12587.48};
+			name="Gen_3_4_2";
+			text="@STR_MAR_Bruce_Outfits";
+			type="c_unknown";
+			colorName="ColorGreen";
+			id=4074;
+		};
+		class Item1581
+		{
+			dataType="Marker";
+			position[]={16690.93,3.7322948,12290.071};
+			name="diamond_trader_1";
+			text="@STR_MAR_Diamond_Trader";
+			type="b_unknown";
+			colorName="ColorOrange";
+			angle=71.633545;
+			id=4077;
 		};
 	};
 };
