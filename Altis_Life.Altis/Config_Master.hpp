@@ -17,21 +17,7 @@ class Life_Settings {
     save_veh_gear = true; //Save Gear for vehicles (all sides)?
     save_veh_fuel = true; //Save Vehicle fuel state
     save_veh_damage = true; //Save Vehicle Damage
-    save_veh_items[] = {
-        /*"pickaxe","fuelEmpty", "fuelFull", "spikeStrip", "lockpick", "defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","apple","peach","tbacon","donuts","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat"*/
-               "apple", "blastingcharge", "boltcutter", "cannabis", "catshark", "catshark_raw", 
-        "cement", "cocaine_processed", "cocaine_unprocessed", "coffee", "copper_refined", "copper_unrefined",
-        "defusekit", "diamond_cut", "diamond_uncut", "donuts", "fuelEmpty",
-        "fuelFull", "glass", "goat", "goat_raw", "goldbar",
-        "hen", "hen_raw", "heroin_processed", "heroin_unprocessed", "iron_refined",
-        "iron_unrefined", "lockpick", "mackerel", "mackerel_raw", "marijuana",
-        "mullet", "mullet_raw", "oil_processed", "oil_unprocessed", "ornate",
-        "ornate_raw", "peach", "pickaxe", "rabbit", "rabbit_raw",
-        "redgull", "rock", "rooster", "rooster_raw", "salema",
-        "salema_raw", "salt_refined", "salt_unrefined", "sand", "sheep",    
-        "sheep_raw", "spikeStrip", "tbacon", "tuna", "tuna_raw", 
-        "turtle_raw", "turtle_soup", "waterBottle"
-    };// define which virtual items to save in vehicles.
+    save_veh_items[] = { "apple", "blastingcharge", "boltcutter", "cannabis", "catshark", "catshark_raw", "cement", "cocaine_processed", "cocaine_unprocessed", "coffee", "copper_refined", "copper_unrefined", "defusekit", "diamond_cut", "diamond_uncut", "donuts", "fuelEmpty", "fuelFull", "glass", "goat", "goat_raw", "goldbar", "hen", "hen_raw", "heroin_processed", "heroin_unprocessed", "iron_refined", "iron_unrefined", "lockpick", "mackerel", "mackerel_raw", "marijuana", "mullet", "mullet_raw", "oil_processed", "oil_unprocessed", "ornate", "ornate_raw", "peach", "pickaxe", "rabbit", "rabbit_raw", "redgull", "rock", "rooster", "rooster_raw", "salema", "salema_raw", "salt_refined", "salt_unrefined", "sand", "sheep", "sheep_raw", "spikeStrip", "tbacon", "tuna", "tuna_raw", "turtle_raw", "turtle_soup", "waterBottle" };// define which virtual items to save in vehicles.
 
     /* Clothing related settings */
     clothing_noTP = true;  //Disable clothing preview teleport? (true = no teleport. false = teleport)
@@ -39,7 +25,12 @@ class Life_Settings {
     clothing_masks[] = { "H_Shemag_olive", "H_Shemag_khk", "H_Shemag_tan", "H_Shemag_olive_hs", "H_ShemagOpen_khk", "H_ShemagOpen_tan", "G_Balaclava_blk", "G_Balaclava_combat", "G_Balaclava_lowprofile", "G_Balaclava_oli", "G_Bandanna_aviator", "G_Bandanna_beast", "G_Bandanna_blk", "G_Bandanna_khk", "G_Bandanna_oli", "G_Bandanna_shades", "G_Bandanna_sport", "G_Bandanna_tan", "U_O_GhillieSuit", "U_I_GhillieSuit", "U_B_GhillieSuit", "H_RacingHelmet_1_black_F", "H_RacingHelmet_1_red_F", "H_RacingHelmet_1_white_F", "H_RacingHelmet_1_blue_F", "H_RacingHelmet_1_yellow_F", "H_RacingHelmet_1_green_F", "H_RacingHelmet_1_F", "H_RacingHelmet_2_F", "H_RacingHelmet_3_F", "H_RacingHelmet_4_F" };
 
     /* Cop related settings */
-    cops_online_min = 5; //minimum cops online for robbing a bank
+    cops_online_min = 4; //minimum cops online for robbing a bank
+    seize_exempt[] = { "Binocular", "ItemWatch", "ItemCompass", "ItemGPS", "ItemMap", "NVGoggles", "FirstAidKit", "ToolKit", "Chemlight_red", "Chemlight_yellow", "Chemlight_green", "Chemlight_blue", "optic_ACO_grn_smg" };
+    seize_uniform[] = { "U_Rangemaster" }; //Any specific uniforms you want to be seized from players
+    seize_vest[] = { "V_TacVest_blk_POLICE" }; //Any specific vests you want to be seized from players
+    seize_headgear[] = { "H_Cap_police" }; //Any hats or helmets you want seized from players
+    seize_minimum_rank = 2; //Required minimum CopLevel to be able to seize items from players
 
     /* Medic related settings*/
     allow_medic_weapons = true; // true allows medics to hold/use weapons - false disallows
@@ -97,11 +88,11 @@ class Life_Settings {
     civ_skins = false; //Enable or disable civilian skins. Before enabling, you must add all the SEVEN files to textures folder. (It must be named as: civilian_uniform_1.jpg, civilian_uniform_2.jpg...civilian_uniform_6.jpg, civilian_uniform_7.jpg)
 
     /* Vehicle Settings */
-    vehicleShop_rentalOnly[] = { "B_Boat_Armed_01_minigun_F" };
-    vehicleShop_BuyMultiplicator = 1.3;
-    vehicleGarage_SellMultiplicator = 0.75;
-    vehicleGarage_StorFeeMultiplicator = 0.05;
-    vehicleChopShop_Multiplicator = 0.5;
+    vehicleShop_rentalOnly[] = { "B_MRAP_01_hmg_F", "B_G_Offroad_01_armed_F", "B_Boat_Armed_01_minigun_F" };
+    vehicleShop_BuyMultiplier = 1.3;
+    vehicleGarage_SellMultiplier = 0.75;
+    vehicleGarage_StorFeeMultiplier = 0.04;
+    vehicleChopShop_Multiplier = 0.5;
 
     /* Job-related stuff */
     delivery_points[] = { "dp_1", "dp_2", "dp_3", "dp_4", "dp_5", "dp_6", "dp_7", "dp_8", "dp_9", "dp_10", "dp_11", "dp_12", "dp_13", "dp_14", "dp_15", "dp_15", "dp_16", "dp_17", "dp_18", "dp_19", "dp_20", "dp_21", "dp_22", "dp_23", "dp_24", "dp_25", "dp_26", "dp_27" };

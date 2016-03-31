@@ -19,6 +19,7 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
+            { "U_C_Poloshirt_stripped", "Poloshirt stripped", 125, { "", "", -1 } },
             { "U_C_Poloshirt_blue", "Poloshirt Blue", 250, { "", "", -1 } },
             { "U_C_Poloshirt_burgundy", "Poloshirt Burgundy", 275, { "", "", -1 } },
             { "U_C_Poloshirt_redwhite", "Poloshirt Red/White", 150, { "", "", -1 } },
@@ -26,13 +27,9 @@ class Clothing {
             { "U_C_Poloshirt_stripped", "Poloshirt stripped", 125, { "", "", -1 } },
             { "U_C_Poloshirt_tricolour", "Poloshirt Tricolor", 350, { "", "", -1 } },
             { "U_C_Poor_2", "Rag tagged clothes", 250, { "", "", -1 } },
-            { "U_IG_Guerilla2_2", "Green stripped shirt & Pants", 650, { "", "", -1 } },
-            { "U_IG_Guerilla3_1", "Brown Jacket & Pants", 735, { "", "", -1 } },
-            { "U_IG_Guerilla2_3", "The Outback Rangler", 1200, { "", "", -1 } },
             { "U_C_HunterBody_grn", "The Hunters Look", 1500, { "", "", -1 } },
             { "U_C_WorkerCoveralls", "Mechanic Coveralls", 2500, { "", "", -1 } },
             { "U_OrestesBody", "Surfing On Land", 1100, { "", "", -1 } },
-            { "U_NikosBody", "NIKO wears", 8000, { "", "", -1 } },
             { "U_Competitor", "Competitor Suit", 275, { "", "", -1 } },
             { "U_C_Poor_1", "Worn Clothes", 275, { "", "", -1 } },
             { "U_C_Scientist", "Scientist", 275, { "", "", -1 } },
@@ -42,16 +39,16 @@ class Clothing {
             { "U_C_Driver_1", "Kart rider 1", 15000, { "", "", -1 } },
             { "U_C_Driver_2", "Kart rider 2", 15000, { "", "", -1 } },
             { "U_C_Driver_3", "Kart rider 3", 15000, { "", "", -1 } },
-            { "U_B_GhillieSuit", "Fucking Sniper", 315000, { "", "", -1 } }
+            { "U_NikosAgedBody", "Casual Wears", 5000, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
             { "H_Bandanna_camo", "Camo Bandanna", 120, { "", "", -1 } },
             { "H_Bandanna_surfer", "Surfer Bandanna", 130, { "", "", -1 } },
-            { "H_Bandanna_gry", "Grey Bandanna", 150, { "", "", -1 } },
-            { "H_Bandanna_cbr", "", 165, { "", "", -1 } },
             { "H_Bandanna_surfer", "", 135, { "", "", -1 } },
             { "H_Bandanna_khk", "Khaki Bandanna", 145, { "", "", -1 } },
+            { "H_Bandanna_gry", "Grey Bandanna", 150, { "", "", -1 } },
+            { "H_Bandanna_cbr", "", 165, { "", "", -1 } },
             { "H_Bandanna_sgg", "Sage Bandanna", 160, { "", "", -1 } },
             { "H_StrawHat", "Straw Fedora", 225, { "", "", -1 } },
             { "H_BandMask_blk", "Hat & Bandanna", 300, { "", "", -1 } },
@@ -94,6 +91,7 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
+            { "B_OutdoorPack_blk", "", 500, { "", "", -1 } },
             { "B_AssaultPack_khk", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_dgtl", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_rgr", "", 2000, { "", "", -1 } },
@@ -105,20 +103,19 @@ class Clothing {
             { "B_Kitbag_mcamo", "", 3500, { "", "", -1 } },
             { "B_Kitbag_sgg", "", 3500, { "", "", -1 } },
             { "B_Kitbag_cbr", "", 3500, { "", "", -1 } },
+            { "B_FieldPack_blk", "", 5000, { "", "", -1 } },
+            { "B_FieldPack_ocamo", "", 5000, { "", "", -1 } },
+            { "B_FieldPack_oucamo", "", 5000, { "", "", -1 } },
             { "B_Bergen_sgg", "", 6500, { "", "", -1 } },
             { "B_Bergen_mcamo", "", 6500, { "", "", -1 } },
             { "B_Bergen_rgr", "", 6500, { "", "", -1 } },
             { "B_Bergen_blk", "", 6500, { "", "", -1 } },
-            { "B_FieldPack_blk", "", 5000, { "", "", -1 } },
-            { "B_FieldPack_ocamo", "", 5000, { "", "", -1 } },
-            { "B_FieldPack_oucamo", "", 5000, { "", "", -1 } },
             { "B_Carryall_ocamo", "", 7500, { "", "", -1 } },
             { "B_Carryall_oucamo", "", 7500, { "", "", -1 } },
             { "B_Carryall_mcamo", "", 7500, { "", "", -1 } },
             { "B_Carryall_oli", "", 7500, { "", "", -1 } },
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
-            { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
-            { "B_OutdoorPack_blk", "", 500, { "", "", -1 } }
+            { "B_Carryall_cbr", "", 7500, { "", "", -1 } }
         };
     };
 
@@ -142,6 +139,8 @@ class Clothing {
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
+            { "H_Cap_police", "", 25, { "", "", -1 } },
+            { "H_Beret_blk_POLICE", "", 50, { "life_coplevel", "SCALAR", 2 } },
             { "H_HelmetB_plain_mcamo", "", 75, { "life_coplevel", "SCALAR", 1 } },
             { "H_Booniehat_mcamo", "", 120, { "life_coplevel", "SCALAR", 1 } },
             { "H_Cap_police", "", 75, { "life_coplevel", "SCALAR", 1 } },
@@ -176,10 +175,10 @@ class Clothing {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
             { "V_Rangemaster_belt", "", 800, { "", "", -1 } },
             { "V_Chestrig_blk", "", 800, { "", "", -1 } },
-            { "V_TacVest_blk_POLICE", "", 800, { "", "", -1 } },
             { "V_RebreatherB", "", 800, { "", "", -1 } },
             { "V_PlateCarrier2_rgr", "", 800, { "", "", -1 } },
             { "V_Press_F", "", 800, { "", "", -1 } },
+            { "V_TacVest_blk_POLICE", "", 1000, { "life_coplevel", "SCALAR", 1 } },
             { "V_PlateCarrier2_rgr", "", 1500, { "life_coplevel", "SCALAR", 1 } }
         };
         backpacks[] = {
@@ -333,7 +332,8 @@ class Clothing {
             { "U_B_CombatUniform_mcam_worn", "Green Uniform", 50, { "", "", -1 } },
             { "U_C_Driver_1_green", "EMS Driver_green", 5000, { "", "", -1 } },
             { "U_C_Driver_1_blue", "EMS Driver_blue", 5000, { "", "", -1 } },
-            { "U_C_Driver_1_orange", "EMS Driver_ora", 5000, { "", "", -1 } }
+            { "U_C_Driver_1_orange", "EMS Driver_ora", 5000, { "", "", -1 } },
+            { "U_O_Wetsuit", "EMS wetsuit", 5000, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -362,18 +362,23 @@ class Clothing {
             { "G_Lady_Dark", "", 150, { "", "", -1 } },
             { "G_Lady_Blue", "", 150, { "", "", -1 } },
             { "G_Lowprofile", "", 30, { "", "", -1 } },
-            { "G_Combat", "", 55, { "", "", -1 } }
+            { "G_Combat", "", 55, { "", "", -1 } },
+            { "G_Diving", "", 500, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
             { "V_Press_F", "", 800, { "", "", -1 } },
+            { "V_RebreatherB", "", 5000, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
             { "B_FieldPack_oli", "EMS Backpack", 3000, { "", "", -1 } },
             { "B_Kitbag_cbr", "", 5800, { "", "", -1 } },
             { "B_FieldPack_cbr", "", 6500, { "", "", -1 } },
-            { "B_AssaultPack_cbr", "", 6700, { "", "", -1 } }
+            { "B_AssaultPack_cbr", "", 6700, { "", "", -1 } },
+            { "B_Carryall_oli", "", 7500, { "", "", -1 } },
+            { "B_Carryall_khk", "", 7500, { "", "", -1 } },
+            { "B_Carryall_cbr", "", 7500, { "", "", -1 } }
         };
     };
 
@@ -387,7 +392,7 @@ class Clothing {
             { "U_I_G_Story_Protagonist_F", "", 7500, { "", "", -1 } },
             { "U_I_G_resistanceLeader_F", "", 11500, { "", "", -1 } },
             { "U_IG_leader", "Guerilla Leader", 15340, { "", "", -1 } },
-            { "U_O_PilotCoveralls", "", 15610, { "", "", -1 } },     
+            { "U_O_PilotCoveralls", "", 15610, { "", "", -1 } },
             { "U_O_SpecopsUniform_ocamo", "", 17500, { "", "", -1 } },
             { "U_O_GhillieSuit", "", 50000, { "", "", -1 } }
         };
@@ -429,10 +434,12 @@ class Clothing {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
             { "V_TacVest_khk", "", 12500, { "", "", -1 } },
             { "V_BandollierB_cbr", "", 4500, { "", "", -1 } },
-            { "V_HarnessO_brn", "", 7500, { "", "", -1 } }
+            { "V_HarnessO_brn", "", 7500, { "", "", -1 } },
+            { "V_TacVest_khk", "", 12500, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
+            { "B_OutdoorPack_blk", "", 500, { "", "", -1 } },
             { "B_AssaultPack_khk", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_dgtl", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_rgr", "", 2000, { "", "", -1 } },
@@ -444,13 +451,13 @@ class Clothing {
             { "B_Kitbag_mcamo", "", 3500, { "", "", -1 } },
             { "B_Kitbag_sgg", "", 3500, { "", "", -1 } },
             { "B_Kitbag_cbr", "", 3500, { "", "", -1 } },
+            { "B_FieldPack_blk", "", 5000, { "", "", -1 } },
+            { "B_FieldPack_ocamo", "", 5000, { "", "", -1 } },
+            { "B_FieldPack_oucamo", "", 5000, { "", "", -1 } },
             { "B_Bergen_sgg", "", 6500, { "", "", -1 } },
             { "B_Bergen_mcamo", "", 6500, { "", "", -1 } },
             { "B_Bergen_rgr", "", 6500, { "", "", -1 } },
             { "B_Bergen_blk", "", 6500, { "", "", -1 } },
-            { "B_FieldPack_blk", "", 5000, { "", "", -1 } },
-            { "B_FieldPack_ocamo", "", 5000, { "", "", -1 } },
-            { "B_FieldPack_oucamo", "", 5000, { "", "", -1 } },
             { "B_Carryall_ocamo", "", 7500, { "", "", -1 } },
             { "B_Carryall_oucamo", "", 7500, { "", "", -1 } },
             { "B_Carryall_mcamo", "", 7500, { "", "", -1 } },
