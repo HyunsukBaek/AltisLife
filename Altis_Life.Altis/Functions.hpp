@@ -133,6 +133,8 @@ class Life_Client_Core {
 		class ticketPrompt {};
 		class vehInvSearch {};
 		class wantedGrab {};
+		class showArrestDialog {};
+		class arrestDialog_Arrest {};
 	};
 
 	class Dialog_Controls {
@@ -289,8 +291,6 @@ class Life_Client_Core {
 		class say3D {};
 		class setFuel {};
 		class soundDevice {};
-		class showArrestDialog {};
-		class arrestDialog_Arrest {};
 	};
 
 	class Player_Menu {

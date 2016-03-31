@@ -223,7 +223,6 @@ class WeaponShops {
             { "acc_flashlight", "", 750, 100 },
 	    { "optic_ACO_grn_smg", "", 2500, 1000 },
 	    { "optic_Holosight", "", 1200, 275 },
-	    { "optic_Nightstalker", "", 2500, 1000 },
 	    { "optic_Arco", "", 2500, 1000 },
 	    { "optic_MRCO", "", 2500, 1000 },
 	    { "muzzle_snds_H", "", 2750, 1000 },
@@ -243,27 +242,47 @@ class WeaponShops {
             { "srifle_EBR_DMS_pointer_snds_F", "", 300000, 225000 },
             { "srifle_LRR_LRPS_F", "", 400000, 215000 },
 	    { "srifle_DMR_01_F", "", 450000, 215000 },
-	    { "srifle_GM6_F", "", 600000, 215000 },
-	    { "launch_Titan_F", "", 700000, 250000 },
-	    { "launch_B_Titan_short_F", "", 800000, 350000 }
+	    { "srifle_GM6_F", "", 600000, 215000 }
         };
         mags[] = {
             { "20Rnd_762x51_Mag", "", 60 },
             { "7Rnd_408_Mag", "", 450 },
             { "10Rnd_762x51_Mag", "", 450 },
             { "5Rnd_127x108_Mag", "", 450 },
-	    { "5Rnd_127x108_APDS_Mag", "", 450 },
-            { "Titan_AA", "", 10000 },
-            { "Titan_AT", "", 10000 },
-            { "Titan_AP", "", 10000 }
+	    { "5Rnd_127x108_APDS_Mag", "", 450 }
         };
         accs[] = {
             { "optic_SOS", "", 2500, 1000 },
 	    { "optic_DMS", "", 30000, 5000 },
 	    { "optic_LRPS", "", 2500, 1000 },
+	    { "optic_Nightstalker", "", 2500, 1000 },
 	    { "optic_Hamr", "", 2500, 1000 },
 	    { "acc_pointer_IR", "", 30000, 5000 }
         };
+    };
+
+    class cop_mastershop {
+	name = "Altis police master Shop";
+	side = "cop";
+	license = "";
+	level[] = { "life_coplevel", "SCALAR", 4, "You must be a master Rank!" };
+	items[] = {
+	    { "srifle_GM6_F", "", 600000, 215000 },
+	    { "launch_Titan_F", "", 700000, 250000 },
+	    { "launch_B_Titan_short_F", "", 800000, 350000 }
+	};
+	mags[] = {
+	    { "5Rnd_127x108_Mag", "", 450 },
+	    { "5Rnd_127x108_APDS_Mag", "", 450 },
+	    { "Titan_AA", "", 10000 },
+	    { "Titan_AT", "", 10000 },
+	    { "Titan_AP", "", 10000 }
+	};
+	accs[] = {
+	    { "optic_LRPS", "", 2500, 1000 },
+	    { "optic_Hamr", "", 2500, 1000 },
+	    { "acc_pointer_IR", "", 30000, 5000 }
+	};
     };
 
     //Medic Shops

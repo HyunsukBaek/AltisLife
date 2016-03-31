@@ -6387,6 +6387,11 @@
       <Portuguese>Lojas de Armas de Sargento</Portuguese>
       <Polish>Broń sierżanta</Polish>
     </Key>
+    <Key ID="STR_MAR_Master_Weapon_Shop">
+      <Original>Master Weapon Shop</Original>
+      <Portuguese>Lojas de Armas de Sargento</Portuguese>
+      <Polish>Broń sierżanta</Polish>
+    </Key>
     <Key ID="STR_MAR_W_E_Vehicle Shop">
       <Original>Vehicle Shop</Original>
       <German>Autohändler</German>

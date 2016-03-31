@@ -101,7 +101,8 @@ class CarShops {
             { "B_Heli_Light_01_F", { "", "", -1 } },
             { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
             { "B_Heli_Transport_03_unarmed_F", { "", "", -1 } },
-            { "I_Heli_Transport_02_F",  { "", "", -1 } }
+            { "I_Heli_Transport_02_F",  { "", "", -1 } },
+	    { "O_Heli_Transport_04_F",  { "", "", -1 } }
         };
     };
 
@@ -116,9 +117,9 @@ class CarShops {
             { "B_Truck_01_Repair_F", { "life_coplevel", "SCALAR", 2 } },
             { "B_Truck_01_ammo_F", { "life_coplevel", "SCALAR", 2 } },
             { "I_MRAP_03_F", { "life_coplevel", "SCALAR", 3 } },
-            { "B_MRAP_01_hmg_F", { "life_coplevel", "SCALAR", 3 } },
+            { "B_MRAP_01_hmg_F", { "life_coplevel", "SCALAR", 4 } },
             { "O_MRAP_02_hmg_F", { "life_coplevel", "SCALAR", 4 } },
-            { "I_MRAP_03_hmg_F", { "life_coplevel", "SCALAR", 4 } },
+            { "I_MRAP_03_hmg_F", { "life_coplevel", "SCALAR", 5 } },
             { "O_MBT_02_cannon_F", { "life_coplevel", "SCALAR", 5 } }
         };
     };
@@ -131,11 +132,12 @@ class CarShops {
             { "B_Heli_Transport_01_F", { "life_coplevel", "SCALAR", 2 } },
             { "O_Heli_Light_02_unarmed_F", { "life_coplevel", "SCALAR", 2 } },
             { "I_Heli_Transport_02_F", { "life_coplevel", "SCALAR", 2 } },
-            { "I_Heli_light_03_F", { "life_coplevel", "SCALAR", 2 } },
-            { "O_Heli_Light_02_v2_F", { "life_coplevel", "SCALAR", 3 } },
-            { "B_Heli_Light_01_armed_F", { "life_coplevel", "SCALAR", 3 } },
-            { "B_Heli_Attack_01_F", { "life_coplevel", "SCALAR", 4 } },
-            { "O_Heli_Attack_02_black_F", { "life_coplevel", "SCALAR", 4 } }
+	    { "O_Heli_Transport_04_F", { "life_coplevel", "SCALAR", 2 } },
+            { "I_Heli_light_03_F", { "life_coplevel", "SCALAR", 3 } },
+            { "O_Heli_Light_02_v2_F", { "life_coplevel", "SCALAR", 4 } },
+            { "B_Heli_Light_01_armed_F", { "life_coplevel", "SCALAR", 5 } },
+            { "B_Heli_Attack_01_F", { "life_coplevel", "SCALAR", 5 } },
+            { "O_Heli_Attack_02_black_F", { "life_coplevel", "SCALAR", 5 } }
         };
     };
 
@@ -144,7 +146,7 @@ class CarShops {
         vehicles[] = {
             { "B_Boat_Transport_01_F", { "", "", -1 } },
             { "C_Boat_Civil_01_police_F", { "", "", -1 } },
-            { "B_Boat_Armed_01_minigun_F", { "life_coplevel", "SCALAR", 3 } },
+            { "B_Boat_Armed_01_minigun_F", { "life_coplevel", "SCALAR", 4 } },
             { "B_SDV_01_F", { "", "", -1 } }
         };
     };
@@ -595,7 +597,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "\a3\soft_f_gamma\Quadbike_01\data\quadbike_01_indp_hunter_co.paa"
             } },
             { "EMS RED", "med", {
-            "\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_civ_red_co.paa"
+                "\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_civ_red_co.paa"
             } }
         };
     };
@@ -647,11 +649,11 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa"
             } },
             { "Red", "civ", {
-            "\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa"
+        	"\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa"
             } },
             { "EMS London", "med", {
-            "textures\ems\Ambulance_Boxer_Front.paa",
-            "textures\ems\Ambulance_Boxer_Back.paa"
+		"textures\ems\Ambulance_Boxer_Front.paa",
+		"textures\ems\Ambulance_Boxer_Back.paa"
             } }
         };
     };
@@ -798,6 +800,20 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_civilian_co.paa"
             } }
         };
+    };
+
+    class O_Heli_Transport_04_F {
+	vItemSpace = 250;
+	licenses[] = { {"pilot" }, {"cAir"}, {"mAir"}, {""} };
+	rentalprice[] = { 2750000, 2750000, 2750000, 2750000 };
+	textures[] = {
+	    { "EMS White", "med", {
+		"#(argb,8,8,3)color(1,1,1,0.8)"
+	    } },
+	    { "Black", "cop", {
+		"#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+	    } }
+	};
     };
 
     class B_SDV_01_F {
