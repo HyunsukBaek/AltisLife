@@ -1,4 +1,5 @@
 #define ST_CENTER         0x02
+#define IDC_LIFE_PICTURE_WATERMARK 1e+1000
 /*
 	Author: Daniel Stuart
 
@@ -84,5 +85,14 @@ class playerHUD {
 		idc = 1202;
 		text = "$STR_HUD_Water";
 		x = 0.534723 * safezoneW + safezoneX;
+	};
+
+	class LIFE_PICTURE_WATERMARK: Life_RscPicture {
+		idc = 9999;
+		text = "icons\Custom\BG.paa";
+		x = 0.87 * safezoneW + safezoneX;
+		y = 0.83 * safezoneH + safezoneY;
+		w = 0.12 * safezoneW;
+		h = 0.128 * safezoneH;
 	};
 };
