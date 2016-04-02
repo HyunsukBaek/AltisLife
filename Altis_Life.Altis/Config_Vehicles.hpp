@@ -246,18 +246,28 @@ class LifeCfgVehicles {
         };
     };
 
-    class I_MRAP_03_F {
-           vItemSpace = 200;
-           licenses[] = { {""}, {""}, {""}, {""} };
-           rentalprice[] = { 350000, 350000, 350000, 350000 };
-           textures[] = {
-               { "EMS white", "med", {"#(argb,8,8,3)color(1,1,1,0.8)"} },
-               { "CopBlue", "cop", {"#(argb,8,8,3)color(0.01,0.01,1.53,1)"} },
-               { "CamoCop", "cop", {"textures\rebel\reblbirdcamo1.jpg", "textures\rebel\reblbirdcamo1.jpg"} }
-           };
-       };
+    class I_MRAP_03_F { //STRIDER
+	vItemSpace = 200;
+	licenses[] = { {""}, {""}, {""}, {""} };
+	rentalprice[] = { 350000, 350000, 350000, 350000 };
+	textures[] = {
+	    { "EMS white", "med", {"#(argb,8,8,3)color(1,1,1,0.8)"} },
+	    { "CopBlue", "cop", {"#(argb,8,8,3)color(0.01,0.01,1.53,1)"} },
+	    { "CamoCop", "cop", {"textures\rebel\reblbirdcamo1.jpg", "textures\rebel\reblbirdcamo1.jpg"} }
+	};
+    };
 
-    class B_MRAP_01_F {
+    class I_MRAP_03_hmg_F { //strider hmg
+    vItemSpace = 200;
+	licenses[] = { {"driver"}, {""}, {""}, {""} };
+	rentalprice[] = { 550000, 550000, -1, -1 };
+	textures[] = {
+	    { "Black", "cop", {"#(argb,8,8,3)color(0.05,0.05,0.05,1)"} },
+	    { "CamoCop", "cop", {"textures\rebel\reblbirdcamo1.jpg", "textures\rebel\reblbirdcamo1.jpg"} }
+	};
+    };
+
+    class B_MRAP_01_F { //hunter
         vItemSpace = 65;
         licenses[] = { {""}, {""}, {""}, {""} };
         rentalprice[] = { -1, 350000, -1, -1 };
@@ -283,7 +293,7 @@ class LifeCfgVehicles {
         textures[] = { };
     };
 
-    class I_Truck_02_covered_F {
+    class I_Truck_02_covered_F { //zamark truck covered
         vItemSpace = 330;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         rentalprice[] = { 452000, -1, -1, -1 };
@@ -296,7 +306,7 @@ class LifeCfgVehicles {
         };
     };
 
-    class I_Truck_02_transport_F {
+    class I_Truck_02_transport_F { //zamark transport
         vItemSpace = 300;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         rentalprice[] = { 405000, 200000, -1, -1 };
@@ -325,14 +335,14 @@ class LifeCfgVehicles {
 //        textures[] = { };
 //    };
 
-    class O_Truck_03_device_F {
+    class O_Truck_03_device_F { //tempest device
         vItemSpace = 350;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         rentalprice[] = { 7300000, -1, -1, -1 };
         textures[] = { };
     };
 
-    class B_Truck_01_transport_F {
+    class B_Truck_01_transport_F { //hemett
         vItemSpace = 385;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         rentalprice[] = { 675000, -1, -1, -1 };
@@ -343,14 +353,14 @@ class LifeCfgVehicles {
         };
     };
 
-    class B_Truck_01_box_F {
+    class B_Truck_01_box_F { //hemtt box
         vItemSpace = 450;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         rentalprice[] = { 750000, -1, -1, -1 };
         textures[] = { };
     };
 
-    class O_MRAP_02_F {
+    class O_MRAP_02_F { //ifrit
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         rentalprice[] = { 550000, 150000, -1, -1 };
@@ -362,18 +372,8 @@ class LifeCfgVehicles {
         };
     };
 
-    class O_MRAP_02_hmg_F {
+    class O_MRAP_02_hmg_F {//ifrit
         vItemSpace = 60;
-        licenses[] = { {"driver"}, {""}, {""}, {""} };
-        rentalprice[] = { 550000, 550000, -1, -1 };
-        textures[] = {
-            { "Black", "cop", {"#(argb,8,8,3)color(0.05,0.05,0.05,1)"} },
-            { "CamoCop", "cop", {"textures\rebel\reblbirdcamo1.jpg", "textures\rebel\reblbirdcamo1.jpg"} }
-        };
-    };
-
-    class I_MRAP_03_hmg_F {
-        vItemSpace = 200;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         rentalprice[] = { 550000, 550000, -1, -1 };
         textures[] = {
@@ -706,20 +706,22 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Digi Green", "reb", {
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa"
             } },
-            { "EMS hems", "med", {"textures\ems\paramedic_hems.paa"} }
-            };
+            { "EMS hems", "med", {
+        	"textures\ems\paramedic_hems.paa"}
+            }
+	};
     };
 
     class B_Heli_Light_01_armed_F : B_Heli_Light_01_F{};
 
-    class B_Heli_Attack_01_F {
+    class B_Heli_Attack_01_F { // BLACKFOOT
         vItemSpace = 150;
         licenses[] = { {""}, {""}, {""}, {""} };
         rentalprice[] = { 925000, 925000, 925000, -1 };
         textures[] = {};
     };
 
-    class B_Heli_Light_01_stripped_F {
+    class B_Heli_Light_01_stripped_F { // humming stripped
         vItemSpace = 90;
         licenses[] = { {""}, {""}, {""}, {""} };
         rentalprice[] = { 325000, -1, -1, -1 };
@@ -730,8 +732,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
         };
     };
 
-    class O_Heli_Light_02_unarmed_F {
-        vItemSpace = 250;
+    class O_Heli_Light_02_unarmed_F { // orca
+        vItemSpace = 230;
         licenses[] = { {"pilot" }, {"cAir"}, {"mAir"}, {""} };
         rentalprice[] = { 750000, 500000, 400000, -1 };
         textures[] = {
@@ -753,10 +755,10 @@ will modify the virtual space and the price of the vehicle, but other informatio
         };
     };
 
-    class I_Heli_Transport_02_F {
-        vItemSpace = 305;
+    class I_Heli_Transport_02_F { //mohawk
+        vItemSpace = 275;
         licenses[] = { {"pilot" }, {"cAir"}, {"mAir"}, {""} };
-        rentalprice[] = { 750000, 400000, 600000, -1 };
+        rentalprice[] = { 1250000, 600000, 600000, -1 };
         textures[] = {
             { "EMS White", "med", {
                 "#(argb,8,8,3)color(1,1,1,0.8)"
@@ -773,13 +775,16 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } },
             { "Black", "cop", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_co.paa"
-            } }
+            } },
+	    { "Rebel CAMO", "reb", {
+		"textures\rebel\reblbirdcamo1.jpg"
+	    } }
         };
     };
 
     class I_Heli_light_03_unarmed_F : O_Heli_Light_02_unarmed_F{};
 
-    class B_Heli_Transport_03_unarmed_F {
+    class B_Heli_Transport_03_unarmed_F { //HURON
         vItemSpace = 350;
         licenses[] = { {"pilot" }, {"cAir"}, {"mAir"}, {""} };
         rentalprice[] = { 1750000, 600000, 600000, -1 };
@@ -797,12 +802,12 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"
             } },
             { "EMS White", "med", {
-                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_civilian_co.paa"
+        	"#(argb,8,8,3)color(1,1,1,0.8)"
             } }
         };
     };
 
-    class O_Heli_Transport_04_F {
+    class O_Heli_Transport_04_F { //TARU
 	vItemSpace = 250;
 	licenses[] = { {"pilot" }, {"cAir"}, {"mAir"}, {""} };
 	rentalprice[] = { 2750000, 2750000, 2750000, 2750000 };
