@@ -1,4 +1,4 @@
-﻿#include "..\..\script_macros.hpp"
+#include "..\..\script_macros.hpp"
 /*
 	File: fn_jailMe.sqf
 	Author Bryan "Tonic" Boardwine
@@ -42,7 +42,7 @@ while {true} do {
  	    };
 	};
 	
-	if(player distance (getMarkerPos "jail_marker") > 90) exitWith {
+	if(player distance (getMarkerPos "jail_marker") > 60) exitWith {
 		_esc = true;
 	};
 	

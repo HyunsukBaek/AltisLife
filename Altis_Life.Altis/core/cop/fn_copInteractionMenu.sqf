@@ -79,6 +79,6 @@ _Btn8 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_seizePlayerAction;
 if(FETCH_CONST(life_coplevel) < _seizeRank) then {_Btn8 ctrlEnable false;};
 
 //Check that you are near a place to jail them.
-if(!((player distance (getMarkerPos "police_hq_1") < 60) OR  (player distance (getMarkerPos "police_hq_2") < 60) OR (player distance (getMarkerPos "cop_spawn_3") < 60) OR (player distance (getMarkerPos "cop_spawn_5") < 60))) then  {
+if(!((player distance (getMarkerPos "police_hq_1") < 30) OR  (player distance (getMarkerPos "police_hq_2") < 30) OR (player distance (getMarkerPos "cop_spawn_3") < 30) OR (player distance (getMarkerPos "cop_spawn_5") < 30))) then  {
 	_Btn6 ctrlEnable false;
 };

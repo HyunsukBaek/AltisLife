@@ -12,10 +12,11 @@ _vehicle = _this select 0;
 if(isNil "_vehicle" OR isNull _vehicle OR !(_vehicle getVariable "lights")) exitWith {};
 _lightRed = [20, 0.1, 0.1];
 _lightBlue = [0.1, 0.1, 20];
+_lightGreen = [0.1, 20, 0.1];
 
 _lightleft = "#lightpoint" createVehicle getpos _vehicle;   
 sleep 0.2;
-_lightleft setLightColor _lightRed; 
+_lightleft setLightColor _lightGreen; 
 _lightleft setLightBrightness 0.2;  
 _lightleft setLightAmbient [0.1,0.1,1];
 
@@ -68,7 +69,7 @@ _lightleft setLightUseFlare true;
 
 _lightright = "#lightpoint" createVehicle getpos _vehicle;   
 sleep 0.2;
-_lightright setLightColor _lightRed; 
+_lightright setLightColor _lightGreen; 
 _lightright setLightBrightness 0.2;  
 _lightright setLightAmbient [0.1,0.1,1]; 
 
