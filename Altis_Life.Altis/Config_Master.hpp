@@ -70,7 +70,7 @@ class Life_Settings {
 
     /* Paycheck Settings */
     paycheck_period = 5; //Scaled in minutes
-    paycheck_cop = 8500; //Payment for cops
+    paycheck_cop = 9000; //Payment for cops
     paycheck_civ = 1000; //Payment for civillians
     paycheck_med = 6000; //Payment for medics
 
