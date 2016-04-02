@@ -1,0 +1,400 @@
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"3DEN",
+		"a3_modules_f_curator_curator",
+		"a3_map_altis"
+	};
+	addOnsAuto[]=
+	{
+		"3DEN",
+		"a3_modules_f_curator_curator",
+		"a3_map_altis"
+	};
+	randomSeed=5815189;
+	class Intel
+	{
+		briefingName="Altis Life RPG v4.3r4";
+		overviewText="An RPG game mode developed by Tonic";
+		startWeather=0.099999994;
+		startWind=0.29999998;
+		startWindDir=20;
+		startWaves=0.12;
+		startGust=0.099999994;
+		forecastWeather=0.099999994;
+		forecastWind=0.29999998;
+		forecastWaves=0.12;
+		forecastGust=0.099999994;
+		forecastWindDir=360;
+		wavesForced=1;
+		windForced=1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=8;
+		minute=0;
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+	};
+	class Groups
+	{
+		items=1;
+		class Item0
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8492.8271,109.62988,25091.994};
+					class args
+					{
+						items=4;
+						class Item0
+						{
+							value="76561197996862052";
+							parentCls="ModuleCurator_F";
+							typeName="Owner";
+						};
+						class Item1
+						{
+							value="";
+							parentCls="ModuleCurator_F";
+							typeName="Name";
+						};
+						class Item2
+						{
+							value="3";
+							parentCls="ModuleCurator_F";
+							typeName="Addons";
+						};
+						class Item3
+						{
+							value="0";
+							parentCls="ModuleCurator_F";
+							typeName="Forced";
+						};
+					};
+					id=0;
+					side="LOGIC";
+					vehicle="ModuleCurator_F";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+	};
+	class Markers
+	{
+		items=7;
+		class Item0
+		{
+			position[]={3620.1396,13.604854,12981.54};
+			name="SafeMaker_0";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorBlue";
+			fillName="Border";
+			a=500;
+			b=500;
+			drawBorder=1;
+		};
+		class Item1
+		{
+			position[]={9057.4941,21.176229,11928.945};
+			name="SafeMaker_0_1";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorBlue";
+			fillName="Border";
+			a=250;
+			b=250;
+			drawBorder=1;
+		};
+		class Item2
+		{
+			position[]={16781,16.000341,12546.8};
+			name="SafeMaker_0_2";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorBlue";
+			fillName="Border";
+			a=300;
+			b=300;
+			drawBorder=1;
+		};
+		class Item3
+		{
+			position[]={25722.102,16.676857,21201.627};
+			name="SafeMaker_0_3";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorBlue";
+			fillName="Border";
+			a=200;
+			b=200;
+			drawBorder=1;
+		};
+		class Item4
+		{
+			position[]={12316.371,104.18894,8766.5283};
+			name="SafeMaker_0_4";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorBlue";
+			fillName="Border";
+			a=70;
+			b=70;
+			drawBorder=1;
+		};
+		class Item5
+		{
+			position[]={20105.473,90.175911,6601.7383};
+			name="SafeMaker_0_5";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorBlue";
+			fillName="Border";
+			a=30;
+			b=30;
+			drawBorder=1;
+		};
+		class Item6
+		{
+			position[]={9202.1172,16.568468,21529.389};
+			name="SafeMaker_0_6";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorBlue";
+			fillName="Border";
+			a=50;
+			b=50;
+			drawBorder=1;
+		};
+	};
+	class Sensors
+	{
+		items=7;
+		class Item0
+		{
+			position[]={3619.9873,13.589518,12981.813};
+			a=500;
+			b=500;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			type="SWITCH";
+			age="UNKNOWN";
+			name="Safe_1";
+			expCond="this && (local player) && (vehicle player in thisList)";
+			expActiv="  life_knockout = true; player allowdamage false;  vehicle player allowDamage false;hint ""You are in Safe Zone"";";
+			expDesactiv="life_isSuicide = false;  player allowdamage false;  life_knockout = true;vehicle player allowDamage true;hint ""You left the safe zone."";";
+			class Effects
+			{
+			};
+		};
+		class Item1
+		{
+			position[]={9057.3418,21.182831,11929.219};
+			a=250;
+			b=250;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			type="SWITCH";
+			age="UNKNOWN";
+			name="Safe_1_1";
+			expCond="this && (local player) && (vehicle player in thisList)";
+			expActiv="  life_knockout = true; player allowdamage false;  vehicle player allowDamage false;hint ""You are in Safe Zone"";";
+			expDesactiv="life_isSuicide = false;  player allowdamage false;  life_knockout = true;vehicle player allowDamage true;hint ""You left the safe zone."";";
+			class Effects
+			{
+			};
+		};
+		class Item2
+		{
+			position[]={16780.848,16.004848,12547.073};
+			a=300;
+			b=300;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			type="SWITCH";
+			age="UNKNOWN";
+			name="Safe_1_2";
+			expCond="this && (local player) && (vehicle player in thisList)";
+			expActiv="  life_knockout = true; player allowdamage false;  vehicle player allowDamage false;hint ""You are in Safe Zone"";";
+			expDesactiv="life_isSuicide = false;  player allowdamage false;  life_knockout = true;vehicle player allowDamage true;hint ""You left the safe zone."";";
+			class Effects
+			{
+			};
+		};
+		class Item3
+		{
+			position[]={25721.949,16.683487,21201.9};
+			a=200;
+			b=200;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			type="SWITCH";
+			age="UNKNOWN";
+			name="Safe_1_3";
+			expCond="this && (local player) && (vehicle player in thisList)";
+			expActiv="  life_knockout = true; player allowdamage false;  vehicle player allowDamage false;hint ""You are in Safe Zone"";";
+			expDesactiv="life_isSuicide = false;  player allowdamage false;  life_knockout = true;vehicle player allowDamage true;hint ""You left the safe zone."";";
+			class Effects
+			{
+			};
+		};
+		class Item4
+		{
+			position[]={12316.219,104.24312,8766.8018};
+			a=70;
+			b=70;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			type="SWITCH";
+			age="UNKNOWN";
+			name="Safe_1_4";
+			expCond="this && (local player) && (vehicle player in thisList)";
+			expActiv="  life_knockout = true; player allowdamage false;  vehicle player allowDamage false;hint ""You are in Safe Zone"";";
+			expDesactiv="life_isSuicide = false;  player allowdamage false;  life_knockout = true;vehicle player allowDamage true;hint ""You left the safe zone."";";
+			class Effects
+			{
+			};
+		};
+		class Item5
+		{
+			position[]={20105.32,90.187057,6602.0117};
+			a=30;
+			b=30;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			type="SWITCH";
+			age="UNKNOWN";
+			name="Safe_1_5";
+			expCond="this && (local player) && (vehicle player in thisList)";
+			expActiv="  life_knockout = true; player allowdamage false;  vehicle player allowDamage false;hint ""You are in Safe Zone"";";
+			expDesactiv="life_isSuicide = false;  player allowdamage false;  life_knockout = true;vehicle player allowDamage true;hint ""You left the safe zone."";";
+			class Effects
+			{
+			};
+		};
+		class Item6
+		{
+			position[]={9201.9648,16.567862,21529.662};
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			type="SWITCH";
+			age="UNKNOWN";
+			name="Safe_1_6";
+			expCond="this && (local player) && (vehicle player in thisList)";
+			expActiv="  life_knockout = true; player allowdamage false;  vehicle player allowDamage false;hint ""You are in Safe Zone"";";
+			expDesactiv="life_isSuicide = false;  player allowdamage false;  life_knockout = true;vehicle player allowDamage true;hint ""You left the safe zone."";";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"a3_map_stratis",
+		"a3_map_altis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_altis"
+	};
+	randomSeed=8749860;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"a3_map_stratis",
+		"a3_map_altis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_altis"
+	};
+	randomSeed=285203;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"a3_map_stratis",
+		"a3_map_altis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_altis"
+	};
+	randomSeed=3530506;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+	};
+};
