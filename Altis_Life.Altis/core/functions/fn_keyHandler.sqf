@@ -360,6 +360,77 @@ switch (_code) do {
 			};
 		};
 	};
+	
+	//Admin Menu Shift + `
+	case 41:
+	{
+		if(_shift) then {_handled = true;};
+		if (_shift) then
+		{
+			if(!_alt && !_ctrlKey && !dialog) then
+			{
+				createDialog "life_admin_menu";
+			};
+		};
+	};
+	
+
+	//Mobile open Shift + 1
+	case 2:
+	{
+		if(_shift) then {_handled = true;};
+		if (_shift) then
+		{
+			if(!_alt && !_ctrlKey && !dialog) then
+			{
+				createDialog "Life_cell_phone";
+			};
+		};
+	};
+	
+	//무술 Shifh + 5
+	case 6:
+	{
+		if(_shift) then {_handled = true;};
+		if(_shift && {isTouchingGround player} && {EQUAL(stance player,"STAND")} && {!life_is_arrested}) then
+		{
+			//cutText [format["태권도!!!!!"], "PLAIN DOWN"];
+			player playMove "AmovPercMstpSnonWnonDnon_exerciseKata";
+		};
+	};
+	
+	//앉았다 느리게 일어나기 Shifh + 6
+	case 7:
+	{
+		if(_shift) then {_handled = true;};
+		if(_shift && {isTouchingGround player} && {EQUAL(stance player,"STAND")} && {!life_is_arrested}) then
+		{
+			//cutText [format["쪼그려뛰기 천천히!!!"], "PLAIN DOWN"];
+			player playMove "AmovPercMstpSnonWnonDnon_exercisekneeBendA";
+		};
+	};
+	
+	//앉았다 일어나기 Shifh + 7
+	case 8:
+	{
+		if(_shift) then {_handled = true;};
+		if(_shift && {isTouchingGround player} && {EQUAL(stance player,"STAND")} && {!life_is_arrested}) then
+		{
+			//cutText [format["쪼그려뛰기 빠르게!!!"], "PLAIN DOWN"];
+			player playMove "AmovPercMstpSnonWnonDnon_exercisekneeBendB";
+		};
+	};
+	
+	//팔굽혀펴기 Shifh + 8 
+	case 9:
+	{
+		if(_shift) then {_handled = true;};
+		if(_shift && {isTouchingGround player} && {EQUAL(stance player,"STAND")} && {!life_is_arrested}) then
+		{	
+			//cutText [format["팔굽혀펴기!!!"], "PLAIN DOWN"];
+			player playMove "AmovPercMstpSnonWnonDnon_exercisePushup";
+		};
+	};		
 };
 
 _handled;
