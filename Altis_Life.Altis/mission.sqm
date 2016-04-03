@@ -87,7 +87,17 @@ addons[]=
 randomSeed=7426133;
 class ScenarioData
 {
-	author="SoulFucker";
+	author="AOS, SoulFucker based Tonic";
+	loadScreen="textures\armalife.jpg";
+	saving=0;
+	respawnDialog=0;
+	respawnDelay=5;
+	class Header
+	{
+		gameType="RPG";
+		minPlayers=1;
+		maxPlayers=104;
+	};
 };
 class Mission
 {
