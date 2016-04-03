@@ -26,10 +26,10 @@ _text2 = _display displayCtrl 1102;
 
 _message = "";
 _message = _message + "<t align='center' size='8' shadow='0'><img image='textures\armalife.jpg' /></t><br /><br />";
-_message = _message + "Welcome to SoulFucker 24h Life Mod Server!!!<br />";
+_message = _message + "Welcome to AoSoul 24h Life Mod Server!!!<br />";
 _message = _message + " <a href='http://cafe.naver.com/alflrss' color='#56BDD6'>SoulFucker Life Homepage 클릭!!</a> <br />위의 카페링크 클릭하여 가입하시고 규칙 및 공지사항 확인하세요.<br />";
-_message = _message + "지속적으로 패치 및 업데이트 됩니다.  <br /><br />아프리카 TV  http://afreeca.com/mixkorea <br /><br />";
-_message = _message + "저희 서버는 애드온Free!! 를 지향하며 24시간 운영됩니다.  <br /> 물건줍기가 잘 안되시면 window키 + T 누른 후 재시도해보세요<br /><br/> This mod based on Altis life lastest version";
+_message = _message + "AOS  와  SoulFucker 서버가 하나가 되었습니다. 자세한 사항은 공지사항 참고!  <br /><br />아프리카 TV  http://afreeca.com/mixkorea <br /><br />";
+_message = _message + "저희 서버는 애드온Free!! 를 지향하며 24시간 운영됩니다.  <br /> 물건줍기가 잘 안되시면 window키 + T또는 shift +T 누른 후 1인칭 모드로 물건을 바라보며 재시도해보세요<br /><br/> This mod based on Altis life lastest version";
 
 
 //Fill only the first text
