@@ -22,7 +22,8 @@ class playerHUD {
 		Life_RscProgress_HUDWater,
 		Life_RscText_HUDFood,
 		Life_RscText_HUDHealth,
-		Life_RscText_HUDWater
+		Life_RscText_HUDWater,
+		LIFE_PICTURE_WATERMARK
 	};
 
 	/* Background */
