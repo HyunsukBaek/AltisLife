@@ -13,4 +13,5 @@ StartProgress = false;
 //Custom Script
 [] execVM "Custom\randomWeather2.sqf";
 [] execVM "Custom\statusbar.sqf";
+[] execVM "Custom\safezone.sqf";
 StartProgress = true;

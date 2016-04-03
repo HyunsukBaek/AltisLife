@@ -8,15 +8,15 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=4294;
+		nextID=4297;
 	};
 	class MarkerIDProvider
 	{
-		nextID=278;
+		nextID=279;
 	};
 	class Camera
 	{
-		pos[]={16712.99,190.71799,12559.662};
+		pos[]={16904.363,511.6615,12446.15};
 		dir[]={-0.34923536,-0.82415479,0.44590041};
 		up[]={-0.5081774,0.56636548,0.64883578};
 		aside[]={0.78728366,6.1932951e-008,0.61661083};
@@ -127,7 +127,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1719;
+		items=1721;
 		class Item0
 		{
 			dataType="Marker";
@@ -1350,7 +1350,7 @@ class Mission
 			text="@STR_MAR_DMV";
 			type="c_unknown";
 			colorName="ColorBlue";
-			angle=5.242238;
+			angle=5.2422376;
 			id=124;
 		};
 		class Item124
@@ -1571,7 +1571,7 @@ class Mission
 			name="civ_gar_1_1";
 			text="AIR GARAGE";
 			type="o_service";
-			angle=108.01297;
+			angle=108.01296;
 			id=146;
 		};
 		class Item146
@@ -12224,7 +12224,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={16613.822,17.920107,12640.361};
+						position[]={16613.822,17.920105,12640.361};
 						angles[]={0.0030493166,0.1950357,0};
 					};
 					side="Civilian";
@@ -15497,7 +15497,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2629.134,9.1386976,12916.183};
+				position[]={2629.134,9.1386967,12916.183};
 			};
 			side="Empty";
 			class Attributes
@@ -24443,15 +24443,15 @@ class Mission
 		class Item1279
 		{
 			dataType="Marker";
-			position[]={16674.723,19.715637,12642.621};
-			name="marker_245";
+			position[]={16681.352,33.499023,12610.461};
+			name="Safe_Pirgos";
 			markerType="ELLIPSE";
 			type="ellipse";
 			colorName="ColorBlue";
 			alpha=0.33605459;
 			fillName="Grid";
-			a=300;
-			b=300;
+			a=400;
+			b=400;
 			id=3515;
 		};
 		class Item1280
@@ -24513,15 +24513,15 @@ class Mission
 		class Item1284
 		{
 			dataType="Marker";
-			position[]={3582.1018,9.776042,13044.04};
-			name="marker_250";
+			position[]={3600.3384,10.389982,13082.167};
+			name="Safe_Kav";
 			markerType="ELLIPSE";
 			type="ellipse";
 			colorName="ColorBlue";
 			alpha=0.33605459;
 			fillName="Grid";
-			a=300;
-			b=300;
+			a=500;
+			b=500;
 			id=3520;
 		};
 		class Item1285
@@ -27766,7 +27766,7 @@ class Mission
 			position[]={16589.932,11,12727.262};
 			name="cop_air_3";
 			type="Empty";
-			angle=91.249557;
+			angle=91.24955;
 			id=3970;
 		};
 		class Item1491
@@ -29060,7 +29060,7 @@ class Mission
 			text="@STR_MAR_Diamond_Trader";
 			type="b_unknown";
 			colorName="ColorOrange";
-			angle=71.633522;
+			angle=71.633514;
 			id=4077;
 		};
 		class Item1574
@@ -31387,7 +31387,7 @@ class Mission
 			text="@STR_MAR_Fish_Market";
 			type="mil_box";
 			colorName="ColorGreen";
-			angle=72.10878;
+			angle=72.108772;
 			id=4289;
 		};
 		class Item1717
@@ -31416,6 +31416,36 @@ class Mission
 			type="loc_Tree";
 			colorName="Color3_FD_F";
 			id=4293;
+		};
+		class Item1719
+		{
+			dataType="Trigger";
+			position[]={3596.0706,10.672828,13081.285};
+			class Attributes
+			{
+				condition="this && (local player) && (vehicle player in thisList)";
+				onActivation="player allowdamage false;  vehicle player allowDamage false;hint ""You are in Safe Zone"";";
+				onDeactivation="player allowdamage false;  life_knockout = true;vehicle player allowDamage true;hint ""You left the safe zone."";";
+				sizeA=500;
+				sizeB=500;
+			};
+			id=4294;
+			type="EmptyDetectorAreaR50";
+		};
+		class Item1720
+		{
+			dataType="Trigger";
+			position[]={16683.623,15.089037,12609.358};
+			class Attributes
+			{
+				condition="this && (local player) && (vehicle player in thisList)";
+				onActivation="player allowdamage false;  vehicle player allowDamage false;hint ""You are in Safe Zone"";";
+				onDeactivation="player allowdamage false;  life_knockout = true;vehicle player allowDamage true;hint ""You left the safe zone."";";
+				sizeA=400;
+				sizeB=400;
+			};
+			id=4296;
+			type="EmptyDetectorAreaR50";
 		};
 	};
 };
