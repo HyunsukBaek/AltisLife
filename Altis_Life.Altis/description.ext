@@ -7,6 +7,9 @@ disableChannels[]={0,1,2};
 //5 = Direct
 //6 = System
 
+disableAI = 1;
+respawn = 3;
+
 #include "Config_Spyglass.hpp"
 #include "CfgRemoteExec.hpp"
 #include "dialog\MasterHandler.hpp"
