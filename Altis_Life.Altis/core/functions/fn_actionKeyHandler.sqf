@@ -13,6 +13,10 @@ if(life_action_inUse) exitWith {}; //Action is in use, exit to prevent spamming.
 if(life_interrupted) exitWith {life_interrupted = false;};
 _isWater = surfaceIsWater (visiblePositionASL player);
 
+if(life_is_escorting && !dialog && playerSide == west) exitWith {
+	[_curTarget] call life_fnc_copInteractionMenu;
+};
+
 if(EQUAL(LIFE_SETTINGS(getNumber,"global_ATM"),1)) then{
 	//Check if the player is near an ATM.
 	if((call life_fnc_nearATM) && {!dialog}) exitWith {
@@ -88,7 +92,6 @@ if(_curTarget isKindOf "Man" && {!alive _curTarget} && !(_curTarget GVAR["Revive
 		[_curTarget] call life_fnc_revivePlayer;
 	};
 };
-
 
 //If target is a player then check if we can use the cop menu.
 if(isPlayer _curTarget && _curTarget isKindOf "Man") then {
