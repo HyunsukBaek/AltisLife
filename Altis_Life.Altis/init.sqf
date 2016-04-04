@@ -14,4 +14,8 @@ StartProgress = false;
 [] execVM "Custom\randomWeather2.sqf";
 [] execVM "Custom\statusbar.sqf";
 [] execVM "Custom\safezone.sqf";
+
+//Cop & Medic Radio disable
+enableRadio false;
+enableSentences false;
 StartProgress = true;
