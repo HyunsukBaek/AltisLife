@@ -8,11 +8,11 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `AltisLife`
+-- Database: `altislife`
 -- Default Schema
 --
-CREATE DATABASE IF NOT EXISTS `AltisLife` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-USE `AltisLife`;
+CREATE DATABASE IF NOT EXISTS `altislife` DEFAULT CHARACTER SET utf8;
+USE `altislife`;
 
 DELIMITER $$
 --
@@ -20,27 +20,27 @@ DELIMITER $$
 -- Edit arma3 to match a user in MySQL
 -- For external databases: Edit localhost to match arma3server IP
 --
-CREATE DEFINER=`root`@`localhost` PROCEDURE `resetLifeVehicles`()
+CREATE DEFINER=`arma3`@`localhost` PROCEDURE `resetLifeVehicles`()
 BEGIN
   UPDATE `vehicles` SET `active`= 0;
 END$$
 
-CREATE DEFINER=`root`@`localhost` PROCEDURE `deleteDeadVehicles`()
+CREATE DEFINER=`arma3`@`localhost` PROCEDURE `deleteDeadVehicles`()
 BEGIN
   DELETE FROM `vehicles` WHERE `alive` = 0;
 END$$
 
-CREATE DEFINER=`root`@`localhost` PROCEDURE `deleteOldHouses`()
+CREATE DEFINER=`arma3`@`localhost` PROCEDURE `deleteOldHouses`()
 BEGIN
   DELETE FROM `houses` WHERE `owned` = 0;
 END$$
 
-CREATE DEFINER=`root`@`localhost` PROCEDURE `deleteOldGangs`()
+CREATE DEFINER=`arma3`@`localhost` PROCEDURE `deleteOldGangs`()
 BEGIN
   DELETE FROM `gangs` WHERE `active` = 0;
 END$$
 
-CREATE DEFINER=`root`@`localhost` PROCEDURE `deleteOldContainers`()
+CREATE DEFINER=`arma3`@`localhost` PROCEDURE `deleteOldContainers`()
 BEGIN
   DELETE FROM `containers` WHERE `owned` = 0;
 END$$
@@ -78,7 +78,6 @@ CREATE TABLE IF NOT EXISTS `players` (
   `civ_alive` tinyint(1) NOT NULL DEFAULT '0',
   `civ_position` varchar(50) NOT NULL DEFAULT '"[]"',
   `playtime` varchar(25) NOT NULL DEFAULT '"[0,0,0]"',
-  `jail_time` int(11) NOT NULL DEFAULT '0',
   `insert_time` timestamp DEFAULT CURRENT_TIMESTAMP,
   `last_seen` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`uid`),
@@ -169,7 +168,7 @@ CREATE TABLE IF NOT EXISTS `containers` (
   `owned` tinyint(4) DEFAULT '0',
   `insert_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`,`pid`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=4;
 
 -- --------------------------------------------------------
 

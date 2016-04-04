@@ -1,32 +1,15 @@
-author = "SoulFucker";
-loadScreen = "textures\armalife.jpg";
-joinUnassigned = 1;
-respawn = BASE;
-respawndelay = 120;
-disabledAI = 1;
 disableChannels[]={0,1,2};
-enableDebugConsole = 1;
-respawnDialog = 0;
-saving = 0;
-
-class Header
-{
-	gameType = RPG;
-	minPlayers = 1;
-	maxPlayers = 104;
-};
-
-wreckLimit = 3;
-wreckRemovalMinTime = 60;
-wreckRemovalMaxTime = 320;
-corpseLimit = 150;
-corpseRemovalMinTime = 999;
-corpseRemovalMaxTime = 9999;
 
 #include "Config_Spyglass.hpp"
 #include "CfgRemoteExec.hpp"
 #include "dialog\MasterHandler.hpp"
 #include "Config_Master.hpp"
+
+class CfgServer {
+	DatabaseName = "altislife"; //Config name that'll be grep in the extdb-conf.ini. Default: [altislife]
+	HeadlessMode = 0; //Enable/Disable headless client addon. Default: 0 (1 = Enabled / 0 = Disabled)
+	DebugMode = 0; //Enable many server/hc debugging logs. Default: 0 (1 = Enabled / 0 = Disabled)
+};
 
 class RscTitles {
 	#include "dialog\progress.hpp"
@@ -69,14 +52,14 @@ class CfgSounds
 		sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
 		titles[] = {};
 	};
-	
+
 	class mining
 	{
 		name = "mining";
 		sound[] = {"\sounds\mining.ogg", 1.0, 1};
 		titles[] = {};
 	};
-	
+
 	class harvest
 	{
 		name = "harvest";
