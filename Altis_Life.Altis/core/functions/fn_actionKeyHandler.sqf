@@ -49,7 +49,7 @@ if(isNull _curObject) exitWith {
 			};
 		} else {
 			private "_handle";
-			if(playerSide == civilian && !life_action_gathering) then {
+			if( playerSide != west && !life_action_gathering) then {
 
 	            _whatIsIt = [] call life_fnc_whereAmI;
 				if(life_action_gathering) exitWith {};				 //Action is in use, exit to prevent spamming.
