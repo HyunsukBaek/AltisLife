@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5761.7178,247.70052,20047.117};
-		dir[]={0.10984772,-0.6818561,0.72319287};
-		up[]={0.10239462,0.7314859,0.67412466};
-		aside[]={0.98866111,-4.0745363e-010,-0.15017055};
+		pos[]={11842.763,293.75693,17990.168};
+		dir[]={-0.74586761,-0.56463403,0.35338601};
+		up[]={-0.51026183,0.8253414,0.24175791};
+		aside[]={0.42816809,-8.6729415e-008,0.90370476};
 	};
 };
 binarizationWanted=0;
@@ -114,24 +114,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -146,6 +128,24 @@ class CustomAttributes
 						};
 					};
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
 				};
 			};
 		};
@@ -576,7 +576,7 @@ class Mission
 			position[]={3638.4719,10.107526,13126.019};
 			name="civ_car_2";
 			type="Empty";
-			angle=1.6459993;
+			angle=1.6459992;
 			id=40;
 		};
 		class Item39
@@ -748,7 +748,7 @@ class Mission
 			text="LicenseShop";
 			type="c_unknown";
 			colorName="ColorBlue";
-			angle=358.09692;
+			angle=358.09689;
 			id=58;
 		};
 		class Item56
@@ -1621,7 +1621,7 @@ class Mission
 			position[]={14648.637,17.91,16718.854};
 			name="air_g_1";
 			type="Empty";
-			angle=228.84999;
+			angle=228.84998;
 			id=145;
 		};
 		class Item143
@@ -1631,7 +1631,7 @@ class Mission
 			name="civ_gar_1_1";
 			text="Air Garage";
 			type="o_service";
-			angle=108.01295;
+			angle=108.01294;
 			id=146;
 		};
 		class Item144
@@ -26463,14 +26463,14 @@ class Mission
 					class PositionInfo
 					{
 						position[]={12110.465,102.84004,8656.8242};
-						angles[]={6.2765174,5.3596258,0.035984326};
+						angles[]={6.2765183,5.3596272,0.035988688};
 					};
 					side="Civilian";
 					class Attributes
 					{
 						skill=0.60000002;
 						init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Deliver_Package"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[localize""STR_MAR_Get_Delivery_Mission"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
-						name="dp_27";
+						name="dp_26";
 					};
 					id=4365;
 					type="C_man_polo_3_F";
@@ -26480,15 +26480,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13643.124,3.0991578,7133.5566};
-						angles[]={0.093063653,4.2644777,6.2060056};
+						position[]={13643.124,3.0991585,7133.5566};
+						angles[]={0.093060948,4.2644854,6.206007};
 					};
 					side="Civilian";
 					class Attributes
 					{
 						skill=0.60000002;
 						init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Deliver_Package"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[localize""STR_MAR_Get_Delivery_Mission"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
-						name="dp_28";
+						name="dp_27";
 					};
 					id=4364;
 					type="C_man_polo_3_F";
@@ -33333,7 +33333,7 @@ class Mission
 			position[]={26901.455,25.692688,24620.854};
 			name="air_g_4";
 			type="Empty";
-			angle=222.78484;
+			angle=222.78482;
 			id=3553;
 		};
 		class Item926
@@ -33489,7 +33489,7 @@ class Mission
 			name="civ_gar_1_4";
 			text="Air Garage";
 			type="o_service";
-			angle=3.4053726;
+			angle=3.4053724;
 			id=3568;
 		};
 		class Item936
@@ -33542,7 +33542,7 @@ class Mission
 			name="civ_gar_1_7";
 			text="@STR_MAR_Garage";
 			type="o_service";
-			angle=102.18793;
+			angle=102.18792;
 			id=3583;
 		};
 		class Item941
@@ -34525,7 +34525,7 @@ class Mission
 			name="atm_marker_12";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=27.890783;
+			angle=27.890781;
 			id=3674;
 		};
 		class Item1005
@@ -42160,7 +42160,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11651.088,65.568611,18084.373};
+				position[]={11651.088,64.460098,18084.373};
 				angles[]={0,1.3360649,0};
 			};
 			side="Empty";
@@ -42271,8 +42271,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={11626.067,89.33461,18095.982};
-				angles[]={0,5.3704247,0};
+				position[]={11631.11,85.095184,18095.084};
+				angles[]={0,0.66679233,0};
 			};
 			side="Empty";
 			flags=1;
@@ -42331,7 +42331,7 @@ class Mission
 			position[]={9185.29,120.15038,15812.447};
 			name="med_car_4";
 			type="Empty";
-			angle=64.500626;
+			angle=64.500618;
 			id=4684;
 		};
 		class Item1476
@@ -42434,7 +42434,7 @@ class Mission
 			text="Emergency Center";
 			type="loc_Hospital";
 			colorName="ColorRed";
-			angle=359.40393;
+			angle=359.4039;
 			id=4697;
 		};
 		class Item1483
@@ -42571,7 +42571,7 @@ class Mission
 			position[]={23544.303,14.300293,19925.426};
 			name="med_car_5";
 			type="Empty";
-			angle=342.79431;
+			angle=342.79428;
 			id=4716;
 		};
 		class Item1492
@@ -42657,7 +42657,7 @@ class Mission
 			text="Emergency Center";
 			type="loc_Hospital";
 			colorName="ColorRed";
-			angle=166.05797;
+			angle=166.05795;
 			id=4722;
 		};
 		class Item1498
