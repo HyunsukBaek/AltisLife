@@ -82,8 +82,7 @@ class WeaponShops {
             { "hgun_PDW2000_F", "", 155000, -1 },
 	    { "arifle_SDAR_F", "", 450000, 104500 },
 	    { "launch_RPG32_F", "", 1800000, 1000000 },
-	    { "FirstAidKit", "", 150, 65 },
-	    { "ToolKit", "", 250, 75 }
+	    { "FirstAidKit", "", 150, 65 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
@@ -113,7 +112,7 @@ class WeaponShops {
             { "ItemCompass", "", 50, 25 },
             { "ItemWatch", "", 50, 10 },
 	    { "ItemRadio", "", 2500, 25 },
-            { "ToolKit", "", 250, 75 },
+            { "ItemWatch", "", 50, -1 },
             { "FirstAidKit", "", 150, 65 },
             { "NVGoggles", "", 2000, 980 },
             { "Chemlight_red", "", 300, 50 },
@@ -137,7 +136,6 @@ class WeaponShops {
             { "ItemCompass", "", 250, 25 },
             { "ItemWatch", "", 250, 25 },
 	    { "ItemRadio", "", 2500, 25 },
-            { "ToolKit", "", 1250, 75 },
             { "FirstAidKit", "", 750, 65 },
             { "NVGoggles", "", 10000, 980 },
             { "Chemlight_red", "", 1500, 50 },
@@ -159,7 +157,6 @@ class WeaponShops {
             { "Binocular", "", 150, 10 },
 	    { "ItemGPS", "", 100, 45 },
 	    { "ItemRadio", "", 3000, 980 },
-	    { "ToolKit", "", 250, 75 },
 	    { "FirstAidKit", "", 150, 65 },
 	    { "Medikit", "", 1000, 450 },
 	    { "NVGoggles", "", 2000, 980 },
@@ -201,8 +198,7 @@ class WeaponShops {
 	    { "arifle_Mk20C_F", "", 230000, 7500 },
 	    { "SMG_01_F", "", 60000, 5000 },
 	    { "arifle_MX_SW_Hamr_pointer_F", "", 130000, 5000 },
-	    { "LMG_Mk200_F", "", 130000, 5000 },
-            { "HandGrenade_Stone", "Flashbang", 1700, 100 },
+	    { "HandGrenade_Stone", "Flashbang", 1700, 100 },
             { "MineDetector", "", 1000, 500 },
             { "acc_flashlight", "", 750, 100 },
             { "optic_Holosight", "", 1200, 275 },
@@ -216,8 +212,7 @@ class WeaponShops {
 	    { "30Rnd_556x45_Stanag", "", 60 },
 	    { "30Rnd_45ACP_Mag_SMG_01", "", 100 },
 	    { "100Rnd_65x39_caseless_mag", "", 450 },
-	    { "30Rnd_45ACP_Mag_SMG_01_tracer_green", "", 100},
-	    { "200Rnd_65x39_cased_Box", "", 100 }
+	    { "30Rnd_45ACP_Mag_SMG_01_tracer_green", "", 100}
         };
         accs[] = {
             { "acc_flashlight", "", 750, 100 },
@@ -242,14 +237,16 @@ class WeaponShops {
             { "srifle_EBR_DMS_pointer_snds_F", "", 300000, 225000 },
             { "srifle_LRR_LRPS_F", "", 400000, 215000 },
 	    { "srifle_DMR_01_F", "", 450000, 215000 },
-	    { "srifle_GM6_F", "", 600000, 215000 }
+	    { "srifle_GM6_F", "", 600000, 215000 },
+	    { "LMG_Mk200_F", "", 130000, 5000 }
         };
         mags[] = {
             { "20Rnd_762x51_Mag", "", 60 },
             { "7Rnd_408_Mag", "", 450 },
             { "10Rnd_762x51_Mag", "", 450 },
             { "5Rnd_127x108_Mag", "", 450 },
-	    { "5Rnd_127x108_APDS_Mag", "", 450 }
+	    { "5Rnd_127x108_APDS_Mag", "", 450 },
+	    { "200Rnd_65x39_cased_Box", "", 100 }
         };
         accs[] = {
             { "optic_SOS", "", 2500, 1000 },
@@ -294,7 +291,6 @@ class WeaponShops {
         items[] = {
             { "ItemGPS", "", 100, 45 },
             { "Binocular", "", 150, 50 },
-            { "ToolKit", "", 250, 75 },
             { "FirstAidKit", "", 150, 65 },
             { "Medikit", "", 500, 450 },
             { "NVGoggles", "", 1200, 980 },

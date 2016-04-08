@@ -48,7 +48,7 @@ _unit spawn {
 	_RespawnBtn = ((findDisplay 7300) displayCtrl 7302);
 	_Timer = ((findDisplay 7300) displayCtrl 7301);
 
-	_maxTime = time + (life_respawn_timer * 60);
+	_maxTime = time + LIFE_SETTINGS(getNumber,"respawn_timer");
 	_RespawnBtn ctrlEnable false;
 	waitUntil {_Timer ctrlSetText format[localize "STR_Medic_Respawn",[(_maxTime - time),"MM:SS.MS"] call BIS_fnc_secondsToString];
 	round(_maxTime - time) <= 0 OR isNull _this};
@@ -96,7 +96,7 @@ if(!isNull _killer && {_killer != _unit} && {side _killer != west} && {alive _ki
 life_save_gear = [player] call life_fnc_fetchDeadGear;
 
 _containers = nearestObjects[getPosATL player,["WeaponHolderSimulated"],5];
-{deleteVehicle _x;} foreach _containers;
+{deleteVehicle _x;} forEach _containers;
 
 //Killed by cop stuff...
 if(side _killer == west && playerSide != west) then {

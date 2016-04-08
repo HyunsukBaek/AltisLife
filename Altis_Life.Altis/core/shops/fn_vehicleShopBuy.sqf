@@ -42,7 +42,7 @@ _licensesName = "";
 		ADD(_licensesName,localize M_CONFIG(getText,"Licenses",_x,"displayName") + "<br/>");
 		_exit = true;
 	};
-} foreach _licenses;
+} forEach _licenses;
 
 if(_exit) exitWith {hint parseText format[(localize "STR_Shop_Veh_NoLicense")+ "<br/><br/>%1",_licensesName];closeDialog 0;};
 
@@ -58,7 +58,7 @@ if((SEL(life_veh_shop,0) == "med_air_hs")) then {
 	//Check if there is multiple spawn points and find a suitable spawnpoint.
 	if(EQUAL(typeName _spawnPoints,typeName [])) then {
 		//Find an available spawn point.
-		{if(count(nearestObjects[(getMarkerPos _x),["Car","Ship","Air"],5]) == 0) exitWith {_spawnPoint = _x};} foreach _spawnPoints;
+		{if(count(nearestObjects[(getMarkerPos _x),["Car","Ship","Air"],5]) == 0) exitWith {_spawnPoint = _x};} forEach _spawnPoints;
 	} else {
 		if(count(nearestObjects[(getMarkerPos _spawnPoints),["Car","Ship","Air"],5]) == 0) exitWith {_spawnPoint = _spawnPoints};
 	};
@@ -132,6 +132,15 @@ if(_mode) then {
 			[(getPlayerUID player),playerSide,_vehicle,_colorIndex] remoteExecCall ["TON_fnc_vehicleCreate",RSERV];
 		};
 	};
+};
+
+if(EQUAL(LIFE_SETTINGS(getNumber,"player_advancedLog"),1)) then {
+	if(EQUAL(LIFE_SETTINGS(getNumber,"BattlEye_friendlyLogging"),1)) then {
+		advanced_log = format ["bought vehicle %1 for %2. On Hand Cash: %3  Bank Balance: %4",_className,[_basePrice] call life_fnc_numberText,[CASH] call life_fnc_numberText,[BANK] call life_fnc_numberText];
+	} else {
+		advanced_log = format ["%1 - %2 bought vehicle %3 for %4. On Hand Cash: %5  Bank Balance %6",profileName,(getPlayerUID player),_className,[_basePrice] call life_fnc_numberText,[CASH] call life_fnc_numberText,[BANK] call life_fnc_numberText];
+	};
+	publicVariableServer "advanced_log";
 };
 
 [0] call SOCK_fnc_updatePartial;

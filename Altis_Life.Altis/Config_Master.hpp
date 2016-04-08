@@ -19,13 +19,18 @@ class Life_Settings {
     save_veh_damage = true; //Save Vehicle Damage
     save_veh_items[] = { "apple", "blastingcharge", "boltcutter", "cannabis", "catshark", "catshark_raw", "cement", "cocaine_processed", "cocaine_unprocessed", "coffee", "copper_refined", "copper_unrefined", "defusekit", "diamond_cut", "diamond_uncut", "donuts", "fuelEmpty", "fuelFull", "glass", "goat", "goat_raw", "goldbar", "hen", "hen_raw", "heroin_processed", "heroin_unprocessed", "iron_refined", "iron_unrefined", "lockpick", "mackerel", "mackerel_raw", "marijuana", "mullet", "mullet_raw", "oil_processed", "oil_unprocessed", "ornate", "ornate_raw", "peach", "pickaxe", "rabbit", "rabbit_raw", "redgull", "rock", "rooster", "rooster_raw", "salema", "salema_raw", "salt_refined", "salt_unrefined", "sand", "sheep", "sheep_raw", "spikeStrip", "tbacon", "tuna", "tuna_raw", "turtle_raw", "turtle_soup", "waterBottle" };// define which virtual items to save in vehicles.
 
+    /* Logging Settings */
+    BattlEye_friendlyLogging = false; //Set to true if you plan to read the data in your BattlEye log files. Otherwise use the SERVER RPT.
+    player_advancedLog = false; //Logs the following: Houses(purchase/sale), Vehicle(Purchase/Sale/Chopping), Cop Arrests and Gang Creations. SEARCH USING: advanced_log
+    player_moneyLog = false; //Logs player and gang bank(deposits/withdrawals/transfers). Logs money picked up off the ground. Logs player robbery. SEARCH USING: money_log
+
     /* Clothing related settings */
     clothing_noTP = true;  //Disable clothing preview teleport? (true = no teleport. false = teleport)
     clothing_box = true; //true = teleport to a black box. false = teleport to somewhere on map. (It only affects the game if clothing_noTP is set as false)
     clothing_masks[] = { "H_Shemag_olive", "H_Shemag_khk", "H_Shemag_tan", "H_Shemag_olive_hs", "H_ShemagOpen_khk", "H_ShemagOpen_tan", "G_Balaclava_blk", "G_Balaclava_combat", "G_Balaclava_lowprofile", "G_Balaclava_oli", "G_Bandanna_aviator", "G_Bandanna_beast", "G_Bandanna_blk", "G_Bandanna_khk", "G_Bandanna_oli", "G_Bandanna_shades", "G_Bandanna_sport", "G_Bandanna_tan", "U_O_GhillieSuit", "U_I_GhillieSuit", "U_B_GhillieSuit", "H_RacingHelmet_1_black_F", "H_RacingHelmet_1_red_F", "H_RacingHelmet_1_white_F", "H_RacingHelmet_1_blue_F", "H_RacingHelmet_1_yellow_F", "H_RacingHelmet_1_green_F", "H_RacingHelmet_1_F", "H_RacingHelmet_2_F", "H_RacingHelmet_3_F", "H_RacingHelmet_4_F" };
 
     /* Cop related settings */
-    cops_online_min = 4; //minimum cops online for robbing a bank
+    cops_online_min = 5; //minimum cops online for robbing a bank
     seize_exempt[] = { "Binocular", "ItemWatch", "ItemCompass", "ItemGPS", "ItemMap", "NVGoggles", "FirstAidKit", "ToolKit", "Chemlight_red", "Chemlight_yellow", "Chemlight_green", "Chemlight_blue", "optic_ACO_grn_smg" };
     seize_uniform[] = { "U_Rangemaster" }; //Any specific uniforms you want to be seized from players
     seize_vest[] = { "V_TacVest_blk_POLICE" }; //Any specific vests you want to be seized from players
@@ -35,6 +40,7 @@ class Life_Settings {
     /* Revive system settings */
     revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
     revive_fee = 25000; //Revive fee that players have to pay and medics / EMS are rewarded
+    respawn_timer = 30; //How many seconds a player should wait, before being able to respawn.
 
     /* House related settings */
     house_limit = 5; //Maximum amount of houses a player can own.
@@ -90,8 +96,10 @@ class Life_Settings {
 
     /* Skins settings */
     civ_skins = false; //Enable or disable civilian skins. Before enabling, you must add all the SEVEN files to textures folder. (It must be named as: civilian_uniform_1.jpg, civilian_uniform_2.jpg...civilian_uniform_6.jpg, civilian_uniform_7.jpg)
+    cop_extendedSkins = false; //Enable or disable cop skins by level. Before enabling, you must add all the EIGHT files to textures folder. (It must be named as: cop_uniform.jpg + cop_uniform_1.jpg, cop_uniform_2.jpg...cop_uniform_6.jpg, cop_uniform_7.jpg; meaning cop_uniform = life_coplevel=0, cop_uniform_1 = life_coplevel=1, cop_uniform_2 = life_coplevel=2, etc...)
 
     /* Vehicle Settings */
+    vehicle_infiniteRepair = false; //Set to true for unlimited repairs with 1 toolkit. False will remove toolkit upon use.
     vehicleShop_rentalOnly[] = { "B_MRAP_01_hmg_F", "B_G_Offroad_01_armed_F", "B_Boat_Armed_01_minigun_F" };
     vehicleShop_BuyMultiplier = 1.3;
     vehicleGarage_SellMultiplier = 0.75;
@@ -102,7 +110,7 @@ class Life_Settings {
     delivery_points[] = { "dp_1", "dp_2", "dp_3", "dp_4", "dp_5", "dp_6", "dp_7", "dp_8", "dp_9", "dp_10", "dp_11", "dp_12", "dp_13", "dp_14", "dp_15", "dp_15", "dp_16", "dp_17", "dp_18", "dp_19", "dp_20", "dp_21", "dp_22", "dp_23", "dp_24", "dp_25", "dp_26", "dp_27" };
 
     /* FuelTank Mission */
-    FuelTank_WinMultiplier = 2; //Win Multiplier in FuelTank Missions. Increase for more Money! Default = 1
+    FuelTank_WinMultiplier = 1; //Win Multiplier in FuelTank Missions. Increase for more Money! Default = 1
 
     /* Animal settings */
     animaltypes_fish[] = { "Salema_F", "Ornate_random_F", "Mackerel_F", "Tuna_F", "Mullet_F", "CatShark_F", "Turtle_F" };

@@ -10,7 +10,7 @@ private["_unit","_id", "_time"];
 _unit = param [0,ObjNull,[ObjNull]];
 _time = param [1,60];
 if(isNull _unit) exitWith {}; //Not valid
-if(isNil "_unit") exitwith {}; //Not Valid
+if(isNil "_unit") exitWith {}; //Not Valid
 if(!(_unit isKindOf "Man")) exitWith {}; //Not a unit
 if(!isPlayer _unit) exitWith {}; //Not a human
 if(!(_unit GVAR "restrained")) exitWith {}; //He's not restrained.
@@ -28,3 +28,12 @@ if(isNull _unit) exitWith {}; //Not valid
 detach _unit;
 [_unit,false,_time] remoteExecCall ["life_fnc_jail",_unit];
 [0,"STR_NOTF_Arrested_1",true, [_unit GVAR ["realname",name _unit], profileName]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
+
+if(EQUAL(LIFE_SETTINGS(getNumber,"player_advancedLog"),1)) then {
+	if(EQUAL(LIFE_SETTINGS(getNumber,"BattlEye_friendlyLogging"),1)) then {
+		advanced_log = format ["arrested %1",_unit GVAR ["realname",name _unit]];
+	} else {
+		advanced_log = format ["%1 - %2 arrested %3",profileName,(getPlayerUID player),_unit GVAR ["realname",name _unit]];
+	};
+	publicVariableServer "advanced_log";
+};
