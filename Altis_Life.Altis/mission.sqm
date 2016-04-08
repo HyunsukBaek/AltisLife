@@ -8,7 +8,7 @@ class EditorData
 	toggles=66;
 	class ItemIDProvider
 	{
-		nextID=4853;
+		nextID=4854;
 	};
 	class MarkerIDProvider
 	{
@@ -82,7 +82,8 @@ addons[]=
 	"A3_Structures_F_Ind_Crane",
 	"A3_Structures_F_Bootcamp_Civ_SportsGrounds",
 	"A3_Structures_F_Civ_Ancient",
-	"A3_Structures_F_Civ_Offices"
+	"A3_Structures_F_Civ_Offices",
+	"A3_Modules_F_Curator_Curator"
 };
 randomSeed=2639488;
 class ScenarioData
@@ -116,6 +117,24 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -130,24 +149,6 @@ class CustomAttributes
 						};
 					};
 					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
 				};
 			};
 		};
@@ -207,7 +208,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1578;
+		items=1579;
 		class Item0
 		{
 			dataType="Marker";
@@ -578,7 +579,7 @@ class Mission
 			position[]={3638.4719,10.107526,13126.019};
 			name="civ_car_2";
 			type="Empty";
-			angle=1.645999;
+			angle=1.6459988;
 			id=40;
 		};
 		class Item39
@@ -1623,7 +1624,7 @@ class Mission
 			position[]={14648.637,17.91,16718.854};
 			name="air_g_1";
 			type="Empty";
-			angle=228.84995;
+			angle=228.84993;
 			id=145;
 		};
 		class Item143
@@ -33335,7 +33336,7 @@ class Mission
 			position[]={26901.455,25.692688,24620.854};
 			name="air_g_4";
 			type="Empty";
-			angle=222.78479;
+			angle=222.78477;
 			id=3553;
 		};
 		class Item926
@@ -34527,7 +34528,7 @@ class Mission
 			name="atm_marker_12";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=27.890778;
+			angle=27.890776;
 			id=3674;
 		};
 		class Item1005
@@ -42391,7 +42392,7 @@ class Mission
 			text="Emergency Center";
 			type="n_hq";
 			colorName="ColorRed";
-			angle=359.40393;
+			angle=359.4039;
 			id=4697;
 		};
 		class Item1480
@@ -42528,7 +42529,7 @@ class Mission
 			position[]={23544.303,14.300293,19925.426};
 			name="med_car_5";
 			type="Empty";
-			angle=342.79422;
+			angle=342.79419;
 			id=4716;
 		};
 		class Item1489
@@ -42614,7 +42615,7 @@ class Mission
 			text="Emergency Center";
 			type="n_hq";
 			colorName="ColorRed";
-			angle=166.05797;
+			angle=166.05795;
 			id=4722;
 		};
 		class Item1495
@@ -43973,6 +43974,115 @@ class Mission
 			};
 			id=4852;
 			type="Land_LampAirport_F";
+		};
+		class Item1578
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3298.0669,2.2848456,12964.193};
+			};
+			id=4853;
+			type="ModuleCurator_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCurator_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="#adminLogged";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCurator_F_Forced";
+					expression="_this setVariable ['Forced',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCurator_F_Name";
+					expression="_this setVariable ['Name',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleInfo";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleCurator_F_Addons";
+					expression="_this setVariable ['Addons',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=2;
+						};
+					};
+				};
+				nAttributes=5;
+			};
 		};
 	};
 };
