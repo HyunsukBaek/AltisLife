@@ -10,10 +10,18 @@ class VirtualShops {
     //Virtual Shops
     class market {
         name = "STR_Shops_Market";
-        side = "";
+        side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "toolkit", "pickaxe", "fuelFull", "peach", "boltcutter", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
+    };
+
+    class med_market {
+        name = "STR_Shops_Market";
+        side = "med";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "fuelFull", "peach", "toolkit" };
     };
 
     class rebel {
