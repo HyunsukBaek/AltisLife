@@ -3948,7 +3948,7 @@
       <Polish>Pełny Kanister</Polish>
     </Key>
     <Key ID="STR_Item_Toolkit">
-      <Original>Toolkit</Original>
+      <Original>Repair KIT</Original>
       <German>Toolkit</German>
       <French>boîte à outils</French>
       <Italian>kit di strumenti</Italian>
@@ -3956,7 +3956,7 @@
       <Polish>zestaw narzędzi</Polish>
     </Key>
     <Key ID="STR_Item_Pickaxe">
-      <Original>Pickaxe</Original>
+      <Original>PickAxe</Original>
       <German>Spitzhacke</German>
       <French>Pioche</French>
       <Italian>Piccone</Italian>
