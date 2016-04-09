@@ -10,7 +10,7 @@ class VirtualShops {
     //Virtual Shops
     class market {
         name = "STR_Shops_Market";
-        side = "civ";
+        side = "";
         license = "";
         level[] = { "", "", -1, "" };
         items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "toolkit", "pickaxe", "fuelFull", "peach", "boltcutter", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
@@ -18,10 +18,10 @@ class VirtualShops {
 
     class med_market {
         name = "STR_Shops_Market";
-        side = "med";
+        side = "";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "fuelFull", "peach", "toolkit" };
+        items[] = { "waterBottle", "coffee", "rabbit", "apple", "redgull", "tbacon", "fuelFull", "peach", "toolkit", "fuelFull"};
     };
 
     class rebel {
@@ -133,7 +133,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "goldbar" };
+        items[] = { "goldbar", "coffee" };
     };
 
     class cop {

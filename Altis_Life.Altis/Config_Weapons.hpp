@@ -246,7 +246,8 @@ class WeaponShops {
             { "10Rnd_762x51_Mag", "", 450 },
             { "5Rnd_127x108_Mag", "", 450 },
 	    { "5Rnd_127x108_APDS_Mag", "", 450 },
-	    { "200Rnd_65x39_cased_Box", "", 100 }
+	    { "200Rnd_65x39_cased_Box", "", 100 },
+	    { "200Rnd_65x39_cased_Box_Tracer", "", 100 }
         };
         accs[] = {
             { "optic_SOS", "", 2500, 1000 },
