@@ -34,7 +34,7 @@ class CfgGather
 		class cannabis
 		{
 			amount = 3;
-			zones[] = { "weed_1" };
+			zones[] = { "weed_1", "weed_2" };
 			item = "";
 		};
 	};
