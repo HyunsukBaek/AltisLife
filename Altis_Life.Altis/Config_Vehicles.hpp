@@ -346,7 +346,7 @@ class LifeCfgVehicles {
         textures[] = {
             { "yellow", "civ", {"#(argb,8,8,3)color(0.6,0.3,0.01,1)"}},
             { "Orange", "civ", {"\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"} },
-            { "Black", "cop", {"#(argb,8,8,3)color(0.05,0.05,0.05,1)"}}
+            { "CopBlue", "cop", {"#(argb,8,8,3)color(0.01,0.01,1.53,1)"}}
         };
     };
 
@@ -754,8 +754,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
         licenses[] = { {"pilot" }, {"cAir"}, {"mAir"}, {""} };
         price = 1455000;
         textures[] = {
-            { "EMS White", "med", {
-                "#(argb,8,8,3)color(1,1,1,0.8)"
+            { "EMS Green", "med", {
+                "#(argb,8,8,3)color(1.34,2.2,1.27,0.8)"
             } },
             { "Ion", "civ", {
                 "\a3\air_f_beta\Heli_Transport_02\Data\Skins\heli_transport_02_1_ion_co.paa",
@@ -771,7 +771,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_co.paa"
             } },
 	    { "Rebel CAMO", "reb", {
-		"textures\rebel\reblbirdcamo1.jpg"
+		"textures\rebel\reblbirdcamo1.jpg","textures\rebel\reblbirdcamo1.jpg","textures\rebel\reblbirdcamo1.jpg"
 	    } }
         };
     };
