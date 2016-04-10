@@ -173,14 +173,14 @@ class VirtualItems {
 	};
 
 	class defibrillator {
-        variable = "defibrillator";
-        displayName = "STR_Item_Defibrillator";
-        weight = 4;
-        buyPrice = 900;
-        sellPrice = -1;
-        illegal = false;
-        edible = -1;
-        icon = "icons\ico_defibrillator.paa";
+		variable = "defibrillator";
+		displayName = "STR_Item_Defibrillator";
+		weight = 4;
+		buyPrice = 900;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\ico_defibrillator.paa";
     };
 
 	class toolkit {
