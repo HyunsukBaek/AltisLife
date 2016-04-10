@@ -11,8 +11,8 @@ _vehicle = _this select 0;
 	
 if(isNil "_vehicle" OR isNull _vehicle OR !(_vehicle getVariable "lights")) exitWith {};
 _lightRed = [20, 0.1, 0.1];
-_lightBlue = [0.1, 0.1, 20];
 _lightGreen = [0.1, 20, 0.1];
+_lightBlue = [0.1, 0.1, 20];
 
 _lightleft = "#lightpoint" createVehicle getPos _vehicle;   
 sleep 0.2;
@@ -42,7 +42,7 @@ switch (typeOf _vehicle) do
 	
 	case "C_Van_01_box_F":
 	{
-		_lightleft lightAttachObject [_vehicle, [-0.35,-0.2,0.25]];
+		_lightleft lightAttachObject [_vehicle, [-0.35,-0.2,0.5]];
 	};
 
 	case "B_Heli_Light_01_F":
@@ -59,6 +59,11 @@ switch (typeOf _vehicle) do
 	{			
 		_lightleft lightAttachObject [_vehicle, [-0.5, 0.0, 0.81]];
  	};
+
+	case "I_MRAP_03_F":
+	{
+		_lightleft lightAttachObject [_vehicle, [-0.37, -1.9, 0.2]];
+	};
 };
 
 _lightleft setLightAttenuation [0.181, 0, 1000, 130]; 
@@ -94,7 +99,7 @@ switch (typeOf _vehicle) do
 	
 	case "C_Van_01_box_F":
 	{
-		_lightright lightAttachObject [_vehicle, [0.35,-0.2,0.25]];
+		_lightright lightAttachObject [_vehicle, [0.35,-0.2,0.5]];
 	};
 	
 	case "B_Heli_Light_01_F":
@@ -111,6 +116,11 @@ switch (typeOf _vehicle) do
 	{			
 		_lightright lightAttachObject [_vehicle, [0.5, 0.0, 0.81]];
  	};
+
+	case "I_MRAP_03_F":
+	{
+		_lightright lightAttachObject [_vehicle, [0.37, -1.9, 0.2]];
+	};
 };
   
 _lightright setLightAttenuation [0.181, 0, 1000, 130]; 

@@ -109,6 +109,7 @@ class CarShops {
     class cop_car {
         side = "cop";
         vehicles[] = {
+            { "B_Quadbike_01_F", { "", "", -1 } },
             { "C_Offroad_01_F", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
             { "C_Hatchback_01_sport_F", { "", "", -1 } },
@@ -521,9 +522,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Grey", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base08_co.paa"
             } },
-            { "Black", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base09_co.paa"
-            } },
+            { "Subaru", "civ", {"textures\cars\civ_subaru.jpg"} },
             { "EMS London", "med", {"textures\ems\paramedic_hb.paa"} },
             { "LAPD", "cop", {"textures\cop\lapd_hatchback.paa"} }
         };
@@ -555,7 +554,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Beige", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport05_co.paa"
             } },
-            { "monster_WRC", "civ", {"textures\cars\civ_monsterwrc_hb.paa"} },
+            { "monster_WRC", "civ", {"textures\cars\civ_hatchback_monster.jpg"} },
             { "LAPD", "cop", {"textures\cop\lapd_hatchback.paa"} },
             { "EMS London", "med", {"textures\ems\paramedic_hb.paa"} }
         };
@@ -566,9 +565,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 25000;
         textures[] = {
-            { "Brown", "cop", {
-                "\A3\Soft_F\Quadbike_01\Data\Quadbike_01_co.paa"
-            } },
+            { "Police", "cop", {"textures\cop\cop_quadbike.jpg"} },
             { "Digi Desert", "reb", {
                 "\A3\Soft_F\Quadbike_01\Data\quadbike_01_opfor_co.paa"
             } },
@@ -648,7 +645,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "EMS London", "med", {
 		"textures\ems\Ambulance_Boxer_Front.paa",
 		"textures\ems\Ambulance_Boxer_Back.paa"
-            } }
+            } },
+	    { "SushiTruck", "civ", {"textures\cars\civ_sushitruck.jpg"} }
         };
     };
 
