@@ -158,13 +158,16 @@ class WeaponShops {
 	    { "ItemGPS", "", 100, 45 },
 	    { "ItemRadio", "", 3000, 980 },
 	    { "FirstAidKit", "", 150, 65 },
-	    { "Medikit", "", 1000, 450 },
 	    { "NVGoggles", "", 2000, 980 },
             { "arifle_sdar_F", "Taser Rifle", 20000, 7500 },
             { "hgun_P07_snds_F", "Stun Pistol", 2000, 650 },
             { "hgun_P07_F", "", 7500, 1500 },
-            { "HandGrenade_Stone", "Flashbang", 1700, 100 },
-	    { "Laserdesignator", "", 3000, 980 }
+            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "Laserdesignator", "", 3000, 980 },
+            { "Binocular", "", 150, -1 },
+            { "ItemGPS", "", 100, 45 },
+            { "FirstAidKit", "", 150, 65 },
+            { "NVGoggles", "", 2000, 980 }
         };
         mags[] = {
             { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 },
@@ -290,11 +293,10 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
+            { "FirstAidKit", "", 150, 65 },
+            { "NVGoggles", "", 1200, 980 },
             { "ItemGPS", "", 100, 45 },
             { "Binocular", "", 150, 50 },
-            { "FirstAidKit", "", 150, 65 },
-            { "Medikit", "", 500, 450 },
-            { "NVGoggles", "", 1200, 980 },
 	    { "hgun_P07_F", "Pistol", 35000, 21500 },
 	    { "ItemMap", "", 250, 35 },
 	    { "ItemRadio", "", 2500, 25 },

@@ -17,6 +17,7 @@ class Life_Settings {
 /* Database Related Settings */
     /* Player Data Saving */
     save_virtualItems = true; //Save Virtual items (all sides)?
+    saved_virtualItems[] = { "pickaxe","fuelEmpty","fuelFull", "spikeStrip", "lockpick", "defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","apple","peach","tbacon","donuts","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","defibrillator","toolkit" }; //Array of virtual items that can be saved on your player.
     save_playerStats = true; //Save food, water and damage (all sides)?
     save_civilian_weapons = true; //Allow civilians to save weapons on them?
     save_civilian_position = true; //Save civilian location?
@@ -65,21 +66,25 @@ class Life_Settings {
     animaltypes_fish[] = { "Salema_F", "Ornate_random_F", "Mackerel_F", "Tuna_F", "Mullet_F", "CatShark_F", "Turtle_F" }; //Classnames of fish you can catch
     animaltypes_hunting[] = { "Sheep_random_F", "Goat_random_F", "Hen_random_F", "Cock_random_F", "Rabbit_F" }; //Classnames of aniamls you can hunt/gut
 
-    /* Item-related restrictions */
+    /* Item-related Restrictions */
     restrict_medic_weapons = false; //Set to false to allow medics to use any weapon --true will remove ANY weapon they attempt to use (primary,secondary,launcher)
     restrict_clothingPickup = false; //Set to false to allow civilians to pickup/take any uniform (ground/crates/vehicles)
     restrict_weaponPickup = false; //Set to false to allow civilians to pickup/take any weapon (ground/crates/vehicles)
     restricted_uniforms[] = { "U_Rangemaster", "U_B_CombatUniform_mcam_tshirt", "U_B_CombatUniform_mcam_worn", "U_B_survival_uniform" };
     restricted_weapons[] = { "hgun_P07_snds_F", "arifle_MX_F", "arifle_MXC_F" };
 
+    /* Jail System Configurations */
+    jail_seize_vItems[] = { "spikeStrip","lockpick","goldbar","blastingcharge","boltcutter","defusekit","heroin_unprocessed","heroin_processed","cannabis","marijuana","cocaine_unprocessed","cocaine_processed","turtle_raw" }; //Define VIRTUAL items you want to be removed from players upon jailing here. Use "jail_seize_inventory" for Arma inventory items.
+    jail_seize_inventory = false; //Set to true to run the cop seize script on inmates. False will remove only weapons and magazines otherwise. (Basically used in case cops forget to seize items). [See Lines 106-111 below]
+
     /* Medical System Configurations */
     revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
     revive_fee = 25000; //Revive fee that players have to pay and medics only EMS(independent) are rewarded with this amount.
 
     /* Paycheck & Bank System Configurations */
-    bank_cop = 70000; //Amount of cash on bank for new cops
-    bank_civ = 70000; //Amount of cash on bank for new civillians
-    bank_med = 70000; //Amount of cash on bank for new medics
+    bank_cop = 70000; //Amount of cash in bank for new cops
+    bank_civ = 70000; //Amount of cash in bank for new civillians
+    bank_med = 70000; //Amount of cash in bank for new medics
 
     paycheck_period = 5; //Scaled in minutes
     paycheck_cop = 8500; //Payment for cops
@@ -90,15 +95,6 @@ class Life_Settings {
     delivery_points[] = { "dp_1", "dp_2", "dp_3", "dp_4", "dp_5", "dp_6", "dp_7", "dp_8", "dp_9", "dp_10", "dp_11", "dp_12", "dp_13", "dp_14", "dp_15", "dp_15", "dp_16", "dp_17", "dp_18", "dp_19", "dp_20", "dp_21", "dp_22", "dp_23", "dp_24", "dp_25", "dp_26", "dp_27" };
     fuelTank_winMultiplier = 1; //Win Multiplier in FuelTank Missions. Increase for greater payout. Default = 1
 
-    /* Vehicle System Configurations */
-    vehicle_infiniteRepair = false; //Set to true for unlimited repairs with 1 toolkit. False will remove toolkit upon use.
-    vehicleShop_rentalOnly[] = { "B_Boat_Armed_01_minigun_F" };
-    vehicleShop_BuyMultiplier = 1.3; //Buy Price = rental price * vehicleShop_BuyMultipler
-    vehicleGarage_SellMultiplier = 0.75;
-    vehicleGarage_StoreFeeMultiplier = 0.04;
-    vehicleChopShop_Multiplier = 0.5;
-
-/* Cop Related Settings */
     /* Search & Seizure System Configurations */
     seize_exempt[] = { "Binocular", "ItemWatch", "ItemCompass", "ItemGPS", "ItemMap", "NVGoggles", "FirstAidKit", "ToolKit", "Chemlight_red", "Chemlight_yellow", "Chemlight_green", "Chemlight_blue", "optic_ACO_grn_smg" }; //Arma items that will not get seized from player inventories
     seize_uniform[] = { "U_Rangemaster" }; //Any specific uniforms you want to be seized from players
@@ -107,9 +103,32 @@ class Life_Settings {
     seize_minimum_rank = 2; //Required minimum CopLevel to be able to seize items from players
 
     /* Vehicle System Configurations */
-    impound_car = 350; //Payout for impounding cars
-    impound_boat = 250; //Payout for impounding boats
-    impound_air = 850; //Payout for impounding helicopters / planes
+    chopShop_vehicles[] = { "Car", "Air" }; //Vehicles that can be chopped. (Can add: "Ship" and possibly more -> look at the BI wiki...)
+    vehicle_infiniteRepair = false; //Set to true for unlimited repairs with 1 toolkit. False will remove toolkit upon use.
+    vehicleShop_rentalOnly[] = { "B_MRAP_01_hmg_F", "B_G_Offroad_01_armed_F", "B_Boat_Armed_01_minigun_F" }; //Vehicles that can only be rented and not purchased. (Last only for the session)
+
+        /* Vehicle Purchase Prices */
+        vehicle_purchase_multiplier_CIVILIAN = 1; //Civilian Vehicle Buy Price = Config_Vehicle price * multiplier
+        vehicle_purchase_multiplier_COP = .5; //Cop Vehicle Buy Price = Config_Vehicle price * multiplier
+        vehicle_purchase_multiplier_MEDIC = .75; //Medic Vehicle Buy Price = Config_Vehicle price * multiplier
+        vehicle_purchase_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
+
+        /* Vehicle Purchase Prices */
+        vehicle_rental_multiplier_CIVILIAN = .80; //Civilian Vehicle Rental Price = Config_Vehicle price * multiplier
+        vehicle_rental_multiplier_COP = .3; //Cop Vehicle Rental Price = Config_Vehicle price * multiplier
+        vehicle_rental_multiplier_MEDIC = .55; //Medic Vehicle Rental Price = Config_Vehicle price * multiplier
+        vehicle_rental_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
+
+        /* Vehicle Sell Prices */
+        vehicle_sell_multiplier_CIVILIAN = .5; //Civilian Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
+        vehicle_sell_multiplier_COP = .5; //Cop Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
+        vehicle_sell_multiplier_MEDIC = .5; //Medic Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
+        vehicle_sell_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
+
+        /* "Other" Vehicle Prices */
+        vehicle_chopShop_multiplier = .25; //Chop Shop price for vehicles. TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
+        vehicle_storage_fee_multiplier = .2; //Pull from garage cost --> Cost takes the playersides Buy Price * multiplier
+        vehicle_cop_impound_multiplier = .1; //TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
 
 /* Wanted System Settings *
     /* crimes[] = {String, Bounty, Code} */

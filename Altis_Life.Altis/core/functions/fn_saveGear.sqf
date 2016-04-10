@@ -8,8 +8,9 @@
     Description:
     Saves the players gear for syncing to the database for persistence..
 */
-private["_return","_uItems","_bItems","_vItems","_pItems","_hItems","_yItems","_uMags","_vMags","_bMags","_pMag","_hMag","_uni","_ves","_bag","_handled"];
+private["_return","_uItems","_bItems","_vItems","_pItems","_hItems","_yItems","_uMags","_vMags","_bMags","_pMag","_hMag","_uni","_ves","_bag","_handled","_savedVirtualItems"];
 _return = [];
+_savedVirtualItems = LIFE_SETTINGS(getArray,"saved_virtualItems");
 
 _return pushBack uniform player;
 _return pushBack vest player;
@@ -137,15 +138,7 @@ if(count (PISTOL_ITEMS) > 0) then {
     if (_val > 0) then {
 		_yItems pushBack [_x,_val];
     };
-} forEach [
-	"apple", "blastingcharge", "boltcutter", "cannabis", "catshark", "catshark_raw",
-	"cement", "cocaine_processed", "cocaine_unprocessed", "coffee", "copper_refined", "copper_unrefined",
-	"defusekit", "diamond_cut", "diamond_uncut", "donuts", "fuelEmpty",	"fuelFull", "glass", "goat", "goat_raw", "goldbar",
-	"hen", "hen_raw", "heroin_processed", "heroin_unprocessed", "iron_refined",	"iron_unrefined", "lockpick", "mackerel", "mackerel_raw", "marijuana",
-	"mullet", "mullet_raw", "oil_processed", "oil_unprocessed", "ornate",	"ornate_raw", "peach", "pickaxe", "rabbit", "rabbit_raw",
-	"redgull", "rock", "rooster", "rooster_raw", "salema",	"salema_raw", "salt_refined", "salt_unrefined", "sand", "sheep",	
-	"sheep_raw", "spikeStrip", "tbacon",	"tuna", "tuna_raw",	"turtle_raw", "turtle_soup", "waterBottle"
-];
+} forEach _savedVirtualItems;
 
 _return pushBack _uItems;
 _return pushBack _uMags;

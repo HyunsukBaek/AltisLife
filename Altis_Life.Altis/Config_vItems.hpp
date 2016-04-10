@@ -13,7 +13,7 @@ class VirtualShops {
 		side = "";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "toolkit", "fuelFull", "peach", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
+		items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "toolkit", "fuelFull", "peach", "storagesmall", "defibrillator", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
 	};
 
 	class med_market {
@@ -21,7 +21,7 @@ class VirtualShops {
 		side = "";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "toolkit", "fuelFull", "peach"};
+		items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "toolkit", "fuelFull", "peach", "defibrillator" };
 	};
 
 	class rebel {
@@ -29,7 +29,7 @@ class VirtualShops {
 		side = "civ";
 		license = "rebel";
 		level[] = { "", "", -1, "" };
-		items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "blastingcharge"};
+		items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "blastingcharge" };
 	};
 
 	class gang {
@@ -37,7 +37,7 @@ class VirtualShops {
 		side = "civ";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "blastingcharge"};
+		items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "blastingcharge" };
 	};
 
 	class wongs {
@@ -141,7 +141,7 @@ class VirtualShops {
 		side = "cop";
 		license = "";
 		level[] = { "", "", -1, "" };
-		items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit" };
+		items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit", "defibrillator" };
 	};
 };
 
@@ -171,6 +171,17 @@ class VirtualItems {
 		edible = -1;
 		icon = "icons\ico_pickaxe.paa";
 	};
+
+	class defibrillator {
+        variable = "defibrillator";
+        displayName = "STR_Item_Defibrillator";
+        weight = 4;
+        buyPrice = 900;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_defibrillator.paa";
+    };
 
 	class toolkit {
 		variable = "toolkit";

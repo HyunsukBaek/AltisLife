@@ -155,9 +155,20 @@ class CarShops {
 class LifeCfgVehicles {
     /*
     *    Vehicle Configs (Contains textures and other stuff)
-    *       1: ARRAY (Rental Price)
-    *         Ex: { 200, 200 , 200 , 200 } //civilian, west, independent, east
-    *       2: ARRAY (license required)
+    *
+    *    "price" is the price before any multipliers set in Master_Config are applied.
+    *
+    *    Default Multiplier Values & Calculations:
+    *       Civilian [Purchase, Sell]: [1.0, 0.5]
+    *       Cop [Purchase, Sell]: [0.5, 0.5]
+    *       Medic [Purchase, Sell]: [0.75, 0.5]
+    *       ChopShop: Payout = price * 0.25
+    *       GarageSell: Payout = price * [0.5, 0.5, 0.5, -1]
+    *       Cop Impound: Payout = price * 0.1
+    *       Pull Vehicle from Garage: Cost = price * [1, 0.5, 0.75, -1] * [0.5, 0.5, 0.5, -1]
+    *           -- Pull Vehicle & GarageSell Array Explanation = [civ,cop,medic,east]
+    *
+    *       1: ARRAY (license required)
     *         Ex: { "driver", "" , "" , "" } //civilian, west, independent, east
     *         licenses[] = { {"CIV"}, {"COP"}, {"MEDIC"}, {"EAST"} };
     *    Textures config follows { Texture Name, side, {texture(s)path}}
@@ -172,72 +183,85 @@ class LifeCfgVehicles {
     class Default {
         vItemSpace = -1;
         licenses[] = { {""}, {""}, {""}, {""} };
-        rentalprice[] = { -1, -1, -1, -1 };
+        price = -1;
         textures[] = {};
     };
 
     class I_Truck_02_medical_F {
         vItemSpace = 150;
         licenses[] = { {""}, {""}, {""}, {""} };
-        rentalprice[] = { -1, -1, 80000, -1 };
+	price = 75000;
         textures[] = {
             { "Heto EMS", "med", {"textures\ems\HETO_Zamac_Front.paa","textures\ems\HETO_Zamac_Back.paa"} }
         };
+        textures[] = {};
     };
 
-//    class O_Truck_03_medical_F {
-//        vItemSpace = 200;
-//        licenses[] = { {""}, {""}, {""}, {""} };
-//        rentalprice[] = { -1, -1, 95000, -1 };
-//        textures[] = {};
-//    };
+    class O_Truck_03_medical_F {
+        vItemSpace = 200;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 85000;
+        textures[] = {};
+    };
 
     class B_Truck_01_medical_F {
         vItemSpace = 250;
         licenses[] = { {""}, {""}, {""}, {""} };
-        rentalprice[] = { -1, -1, 110000, -1 };
+        price = 90000;
         textures[] = {};
     };
 
     class C_Rubberboat {
         vItemSpace = 125;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
-        rentalprice[] = { 25000, -1, -1, -1 };
+        price = 25000;
         textures[] = { };
     };
 
     class B_Heli_Transport_01_F {
         vItemSpace = 200;
         licenses[] = { {""}, {"cAir"}, {""}, {""} };
-        rentalprice[] = { -1, 400000, -1, -1 };
+        price = 550000;
         textures[] = {};
     };
 
     class I_Heli_light_03_F {
         vItemSpace = 200;
         licenses[] = { {""}, {"cAir"}, {""}, {""} };
-        rentalprice[] = { -1, 500000, -1, -1 };
+        price = 650000;
         textures[] = {};
     };
 
     class O_Heli_Light_02_v2_F {
         vItemSpace = 200;
         licenses[] = { {""}, {"cAir"}, {""}, {""} };
-        rentalprice[] = { -1, 600000, -1, -1 };
+        price = 750000;
         textures[] = {};
     };
 
      class O_Heli_Attack_02_black_F {
          vItemSpace = 200;
          licenses[] = { {""}, {"cAir"}, {""}, {""} };
-         rentalprice[] = { -1, 1200000, -1, -1 };
+         price = 1000000;
          textures[] = {};
     };
-    
+
+    class B_MRAP_01_F { //hunter
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 400000;
+        textures[] = {
+            { "Black", "cop", {"#(argb,8,8,3)color(0.05,0.05,0.05,1)","#(argb,8,8,3)color(0.05,0.05,0.05,1)"} },
+            { "Police", "cop", {"textures\cop\cop_hunter.jpg","textures\cop\swat_hunter_2.jpg"} },
+            { "Swat", "cop", {"textures\cop\swat_hunter.jpg","textures\cop\swat_hunter_2.jpg"} },
+            { "Scott police", "cop", {"textures\cop\scotpol_Hunter_Cab.paa","textures\cop\scotpol_Hunter_Back.paa"} }
+        };
+    };
+
     class B_MRAP_01_hmg_F {
         vItemSpace = 100;
         licenses[] = { {""}, {""}, {""}, {""} };
-        rentalprice[] = { -1, 650000, -1, -1 };
+        price = 750000;
         textures[] = {
             { "Black", "cop", {"#(argb,8,8,3)color(0.05,0.05,0.05,1)","#(argb,8,8,3)color(0.05,0.05,0.05,1)"} },
             { "Police", "cop", {"textures\cop\cop_hunter.jpg","textures\cop\swat_hunter_2.jpg"} },
@@ -249,7 +273,7 @@ class LifeCfgVehicles {
     class I_MRAP_03_F { //STRIDER
 	vItemSpace = 200;
 	licenses[] = { {""}, {""}, {""}, {""} };
-	rentalprice[] = { 350000, 350000, 350000, 350000 };
+	price = 650000;
 	textures[] = {
 	    { "EMS white", "med", {"#(argb,8,8,3)color(1,1,1,0.8)"} },
 	    { "CopBlue", "cop", {"#(argb,8,8,3)color(0.01,0.01,1.53,1)"} },
@@ -260,43 +284,31 @@ class LifeCfgVehicles {
     class I_MRAP_03_hmg_F { //strider hmg
     vItemSpace = 200;
 	licenses[] = { {"driver"}, {""}, {""}, {""} };
-	rentalprice[] = { 550000, 550000, -1, -1 };
+	price = 650000;
 	textures[] = {
 	    { "Black", "cop", {"#(argb,8,8,3)color(0.05,0.05,0.05,1)"} },
 	    { "CamoCop", "cop", {"textures\rebel\reblbirdcamo1.jpg", "textures\rebel\reblbirdcamo1.jpg"} }
 	};
     };
 
-    class B_MRAP_01_F { //hunter
-        vItemSpace = 65;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        rentalprice[] = { -1, 350000, -1, -1 };
-        textures[] = {
-            { "Black", "cop", {"#(argb,8,8,3)color(0.05,0.05,0.05,1)","#(argb,8,8,3)color(0.05,0.05,0.05,1)"} },
-            { "Police", "cop", {"textures\cop\cop_hunter.jpg","textures\cop\swat_hunter_2.jpg"} },
-            { "Swat", "cop", {"textures\cop\swat_hunter.jpg","textures\cop\swat_hunter_2.jpg"} },
-            { "Scott police", "cop", {"textures\cop\scotpol_Hunter_Cab.paa","textures\cop\scotpol_Hunter_Back.paa"} }
-        };
-    };
-
     class B_Boat_Armed_01_minigun_F {
         vItemSpace = 175;
         licenses[] = { {""}, {"cg"}, {""}, {""} };
-        rentalprice[] = { -1, 75000, -1, -1 };
+        price = 75000;
         textures[] = { };
     };
 
     class B_Boat_Transport_01_F {
         vItemSpace = 45;
         licenses[] = { {""}, {"cg"}, {""}, {""} };
-        rentalprice[] = { -1, 3000, -1, -1 };
+        price = 3000;
         textures[] = { };
     };
 
     class I_Truck_02_covered_F { //zamark truck covered
         vItemSpace = 330;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        rentalprice[] = { 452000, -1, -1, -1 };
+	price = 350000;
         textures[] = {
             { "Orange", "civ", {
                 "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
@@ -309,7 +321,7 @@ class LifeCfgVehicles {
     class I_Truck_02_transport_F { //zamark transport
         vItemSpace = 300;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        rentalprice[] = { 405000, 200000, -1, -1 };
+        price = 550000;
         textures[] = {
             { "Orange", "civ", {
                 "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
@@ -320,32 +332,18 @@ class LifeCfgVehicles {
             } }
         };
     };
-//
-//    class O_Truck_03_covered_F {
-//        vItemSpace = 300;
-//        licenses[] = { {"trucking"}, {""}, {""}, {""} };
-//        rentalprice[] = { 510000, -1, -1, -1 };
-//        textures[] = {};
-//    };
-
-//    class O_Truck_03_transport_F {
-//        vItemSpace = 285;
-//        licenses[] = { {"trucking"}, {""}, {""}, {""} };
-//        rentalprice[] = { 400000, -1, -1, -1 };
-//        textures[] = { };
-//    };
 
     class O_Truck_03_device_F { //tempest device
         vItemSpace = 350;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        rentalprice[] = { 7300000, -1, -1, -1 };
+        price = 8000000;
         textures[] = { };
     };
 
     class B_Truck_01_transport_F { //hemett
         vItemSpace = 385;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        rentalprice[] = { 675000, -1, -1, -1 };
+        price = 660000;
         textures[] = {
             { "yellow", "civ", {"#(argb,8,8,3)color(0.6,0.3,0.01,1)"}},
             { "Orange", "civ", {"\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"} },
@@ -356,14 +354,14 @@ class LifeCfgVehicles {
     class B_Truck_01_box_F { //hemtt box
         vItemSpace = 450;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        rentalprice[] = { 750000, -1, -1, -1 };
+        price = 850000;
         textures[] = { };
     };
 
     class O_MRAP_02_F { //ifrit
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        rentalprice[] = { 550000, 150000, -1, -1 };
+        price = 700000;
         textures[] = {
             { "Rebel", "reb", {"#(argb,8,8,3)color(1.53,1.53,0.51,1)"} },
             { "Camo", "reb", {"textures\rebel\reblbirdcamo1.jpg", "textures\rebel\reblbirdcamo1.jpg"} },
@@ -375,7 +373,7 @@ class LifeCfgVehicles {
     class O_MRAP_02_hmg_F {//ifrit
         vItemSpace = 60;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        rentalprice[] = { 550000, 550000, -1, -1 };
+        price = 700000;
         textures[] = {
             { "Black", "cop", {"#(argb,8,8,3)color(0.05,0.05,0.05,1)"} },
             { "CamoCop", "cop", {"textures\rebel\reblbirdcamo1.jpg", "textures\rebel\reblbirdcamo1.jpg"} }
@@ -385,56 +383,77 @@ class LifeCfgVehicles {
     class Land_CargoBox_V1_F {
         vItemSpace = 5000;
         licenses[] = { {""}, {""}, {""}, {""} };
-        rentalprice[] = { -1, -1, -1, -1 };
+        price = -1;
         textures[] = {};
     };
 
     class Box_IND_Grenades_F {
         vItemSpace = 350;
         licenses[] = { {""}, {""}, {""}, {""} };
-        rentalprice[] = { -1, -1, -1, -1 };
+        price = -1;
         textures[] = {};
     };
 
     class B_supplyCrate_F {
         vItemSpace = 700;
         licenses[] = { {""}, {""}, {""}, {""} };
-        rentalprice[] = { -1, -1, -1, -1 };
+        price = -1;
         textures[] = {};
     };
 
     class B_G_Offroad_01_F {
         vItemSpace = 65;
         licenses[] = { {""}, {""}, {""}, {""} };
-        rentalprice[] = { 12500, -1, -1, -1 };
+        price = 12500;
         textures[] = { };
     };
 
     class B_G_Offroad_01_armed_F {
         vItemSpace = 65;
         licenses[] = { {"rebel"}, {""}, {""}, {""} };
-        rentalprice[] = { 750000, -1, -1, -1 };
+        price = 750000;
         textures[] = { };
     };
 
     class C_Boat_Civil_01_F {
         vItemSpace = 150;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
-        rentalprice[] = { 80000, -1, -1, -1 };
+        price = 122000;
         textures[] = { };
     };
 
     class C_Boat_Civil_01_police_F {
         vItemSpace = 185;
         licenses[] = { {""}, {"cg"}, {""}, {""} };
-        rentalprice[] = { -1, 80000, -1, -1 };
+        price = 200000;
+        textures[] = { };
+    };
+
+    class B_Truck_01_box_F {
+        vItemSpace = 450;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 350000;
+        textures[] = { };
+    };
+
+    class B_Truck_01_transport_F {
+        vItemSpace = 325;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 275000;
+        textures[] = { };
+    };
+
+    class O_MRAP_02_F {
+        vItemSpace = 60;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 150000;
         textures[] = { };
     };
 
     class C_Offroad_01_F {
         vItemSpace = 65;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        rentalprice[] = { 80000, 80000, 40000, -1 };
+        price = 102500;
         textures[] = {
             { "US Police", "cop", {"textures\cop\police_offroad.jpg"} },
             { "London Police", "cop", {"textures\cop\police_uk_offroad.jpg"} },
@@ -476,15 +495,15 @@ class LifeCfgVehicles {
     class C_Kart_01_Blu_F {
         vItemSpace = 20;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        rentalprice[] = { 15000, -1, -1, -1 };
+        price = 15000;
         textures[] = {};
     };
 /*
 To edit another information in this classes you can use this exemple.
-    class C_Kart_01_Fuel_F : C_Kart_01_Blu_F{
-        vItemSpace = 40;
-        rentalprice[] = { 25000, -1, -1, -1 };
-    };
+class C_Kart_01_Fuel_F : C_Kart_01_Blu_F{
+    vItemSpace = 40;
+    price = ;
+};
 
 will modify the virtual space and the price of the vehicle, but other information such as license and textures will pick up the vehicle declare at : Vehicle {};
 */
@@ -495,7 +514,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class C_Hatchback_01_F {
         vItemSpace = 40;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        rentalprice[] = { 70000, 70000, 70000, 70000 };
+        price = 100000;
         textures[] = {
             { "Asilmov", "civ", {"textures\cars\asiimov_hatchback_textures.jpg"} },
             { "Nature", "civ", {"textures\cars\nature_hatchback.jpg"} },
@@ -535,7 +554,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class C_Hatchback_01_sport_F {
         vItemSpace = 45;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        rentalprice[] = { 120000, 50000, 50000, 50000 };
+        price = 140000;
         textures[] = {
             { "Police", "cop", {"textures\cop\cop_hatchback.jpg"} },
             { "UK Police", "cop", {"textures\cop\UK_police_hatchback_co.jpg"} },
@@ -567,7 +586,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class B_Quadbike_01_F {
         vItemSpace = 25;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        rentalprice[] = { 28000, 28000, 28000, 28000 };
+        price = 25000;
         textures[] = {
             { "Brown", "cop", {
                 "\A3\Soft_F\Quadbike_01\Data\Quadbike_01_co.paa"
@@ -595,9 +614,78 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } },
             { "Rebel Camo", "reb", {
                 "\a3\soft_f_gamma\Quadbike_01\data\quadbike_01_indp_hunter_co.paa"
+            } }
+        };
+    };
+
+    class I_Truck_02_covered_F {
+        vItemSpace = 250;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 100000;
+        textures[] = {
+            { "Orange", "civ", {
+                "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
+                "\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"
             } },
             { "EMS RED", "med", {
                 "\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_civ_red_co.paa"
+            } },
+            { "Black", "cop", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } }
+        };
+    };
+
+    class I_Truck_02_transport_F {
+        vItemSpace = 200;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 75000;
+        textures[] = {
+            { "Orange", "civ", {
+                "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
+                "\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"
+            } },
+            { "Black", "cop", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } }
+        };
+    };
+
+    class O_Truck_03_covered_F {
+        vItemSpace = 300;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 250000;
+        textures[] = {};
+    };
+
+    class C_Hatchback_01_F {
+        vItemSpace = 40;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 9500;
+        textures[] = {
+            { "Beige", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base01_co.paa"
+            } },
+            { "Green", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base02_co.paa"
+            } },
+            { "Blue", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base03_co.paa"
+            } },
+            { "Dark Blue", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base04_co.paa"
+            } },
+            { "Yellow", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base06_co.paa"
+            } },
+            { "White", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base07_co.paa"
+            } },
+            { "Grey", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base08_co.paa"
+            } },
+            { "Black", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base09_co.paa"
             } }
         };
     };
@@ -605,7 +693,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class C_SUV_01_F {
         vItemSpace = 70;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        rentalprice[] = { 90000, 55000, 55000, 55000 };
+        price = 120000;
         textures[] = {
             { "Sticker", "civ", {"textures\cars\sticker.jpg"} },
             { "Hello kitty", "civ", {"textures\cars\kitty.jpg"} },
@@ -629,7 +717,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class C_Van_01_transport_F {
         vItemSpace = 130;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        rentalprice[] = { 150000, -1, -1, -1 };
+        price = 135000;
         textures[] = {
             { "White", "civ", {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa"
@@ -641,9 +729,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class C_Van_01_box_F {
-        vItemSpace = 150;
+        vItemSpace = 120;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        rentalprice[] = { 200000, 45000, 45000, -1 };
+        price = 200000;
         textures[] = {
             { "White", "civ", {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa"
@@ -658,10 +746,33 @@ will modify the virtual space and the price of the vehicle, but other informatio
         };
     };
 
+    class B_MRAP_01_F {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 30000;
+        textures[] = {
+            { "Black", "cop", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } }
+        };
+    };
+
+     class B_Heli_Light_01_stripped_F {
+        vItemSpace = 90;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 275000;
+        textures[] = {
+            { "Rebel Digital", "reb", {
+                "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa"
+            } }
+        };
+    };
+
     class B_Heli_Light_01_F {
         vItemSpace = 100;
         licenses[] = { {"pilot"}, {"cAir"}, {"mAir"}, {""} };
-        rentalprice[] = { 500000, 215000, 215000, -1 };
+        price = 555000;
         textures[] = {
             { "Police Black/White", "cop", {"textures\cop\police_heli.jpg", "textures\cop\police_heli2.jpg"} },
             { "Police Yellow/Blue", "cop", {"textures\cop\police_heli3.jpg", "textures\cop\police_heli3.jpg"} },
@@ -717,14 +828,14 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class B_Heli_Attack_01_F { // BLACKFOOT
         vItemSpace = 150;
         licenses[] = { {""}, {""}, {""}, {""} };
-        rentalprice[] = { 925000, 925000, 925000, -1 };
+        price = 1355000;
         textures[] = {};
     };
 
     class B_Heli_Light_01_stripped_F { // humming stripped
         vItemSpace = 90;
         licenses[] = { {""}, {""}, {""}, {""} };
-        rentalprice[] = { 325000, -1, -1, -1 };
+        price = 455000;
         textures[] = {
             { "Rebel Digital", "reb", {
                 "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa"
@@ -735,7 +846,18 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class O_Heli_Light_02_unarmed_F { // orca
         vItemSpace = 230;
         licenses[] = { {"pilot" }, {"cAir"}, {"mAir"}, {""} };
-        rentalprice[] = { 750000, 500000, 400000, -1 };
+        price = 855000;
+    };
+
+    class C_Heli_Light_01_civil_F : B_Heli_Light_01_F {
+        vItemSpace = 75;
+        price = 365000;
+    };
+
+    class O_Heli_Light_02_unarmed_F {
+        vItemSpace = 210;
+        licenses[] = { {"pilot" }, {""}, {"mAir"}, {""} };
+        price = 750000;
         textures[] = {
             { "Black", "cop", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_co.paa"
@@ -758,7 +880,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class I_Heli_Transport_02_F { //mohawk
         vItemSpace = 275;
         licenses[] = { {"pilot" }, {"cAir"}, {"mAir"}, {""} };
-        rentalprice[] = { 1250000, 600000, 600000, -1 };
+        price = 1455000;
         textures[] = {
             { "EMS White", "med", {
                 "#(argb,8,8,3)color(1,1,1,0.8)"
@@ -787,7 +909,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class B_Heli_Transport_03_unarmed_F { //HURON
         vItemSpace = 350;
         licenses[] = { {"pilot" }, {"cAir"}, {"mAir"}, {""} };
-        rentalprice[] = { 1750000, 600000, 600000, -1 };
+        price = 1800000;
         textures[] = {
             { "Black", "cop", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_co.paa"
@@ -810,7 +932,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class O_Heli_Transport_04_F { //TARU
 	vItemSpace = 250;
 	licenses[] = { {"pilot" }, {"cAir"}, {"mAir"}, {""} };
-	rentalprice[] = { 2750000, 2750000, 2750000, 2750000 };
+	price = 2355000;
 	textures[] = {
 	    { "EMS White", "med", {
 		"#(argb,8,8,3)color(1,1,1,0.8)"
@@ -824,7 +946,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class B_SDV_01_F {
         vItemSpace = 50;
         licenses[] = { {"boat"}, {"cg"}, {""}, {""} };
-        rentalprice[] = { 150000, 150000, -1, -1 };
+        price = 250000;
         textures[] = {};
     };
     
@@ -832,7 +954,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vItemSpace = 20;
         vFuelSpace = 19500;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        rentalprice[] = { 300000, -1, -1, -1 };
+        price = 420000;
         textures[] = {
             { "White", "civ", {
                 "\A3\soft_f_gamma\Van_01\data\van_01_ext_co.paa",
@@ -849,7 +971,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vItemSpace = 40;
         vFuelSpace = 42000;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        rentalprice[] = { 500000, -1, -1, -1 };
+        price = 600000;
         textures[] = {
             { "White", "civ", {
                 "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
@@ -858,27 +980,11 @@ will modify the virtual space and the price of the vehicle, but other informatio
         };
     };
 
-//    class B_Truck_01_fuel_F {
-//        vItemSpace = 50;
-//        vFuelSpace = 250000;
-//        licenses[] = { {"trucking"}, {""}, {""}, {""} };
-//        rentalprice[] = { 550000, -1, -1, -1 };
-//        textures[] = {};
-//    };
-
     class B_Truck_01_Repair_F {
         vItemSpace = 60;
         vFuelSpace = 250000;
         licenses[] = { {""}, {""}, {""}, {""} };
-        rentalprice[] = { -1, 250000, -1, -1 };
-        textures[] = {};
-    };
-
-    class O_Truck_02_medical_F {
-        vItemSpace = 60;
-        vFuelSpace = 250000;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        rentalprice[] = { -1, 250000, -1, -1 };
+        price = 295000;
         textures[] = {};
     };
 
@@ -886,7 +992,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vItemSpace = 60;
         vFuelSpace = 250000;
         licenses[] = { {""}, {""}, {""}, {""} };
-        rentalprice[] = { -1, 250000, -1, -1 };
+        price = 255000;
         textures[] = {};
     };
 
@@ -894,7 +1000,14 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vItemSpace = 60;
         vFuelSpace = 250000;
         licenses[] = { {""}, {""}, {""}, {""} };
-        rentalprice[] = { -1, 250000, -1, -1 };
+        price = 255000;
+    };
+
+    class B_Truck_01_fuel_F {
+        vItemSpace = 50;
+        vFuelSpace = 50000;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 250000;
         textures[] = {};
     };
 };
