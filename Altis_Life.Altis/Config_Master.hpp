@@ -71,7 +71,7 @@ class Life_Settings {
     restrict_clothingPickup = false; //Set to false to allow civilians to pickup/take any uniform (ground/crates/vehicles)
     restrict_weaponPickup = false; //Set to false to allow civilians to pickup/take any weapon (ground/crates/vehicles)
     restricted_uniforms[] = { "U_Rangemaster", "U_B_CombatUniform_mcam_tshirt", "U_B_CombatUniform_mcam_worn", "U_B_survival_uniform" };
-    restricted_weapons[] = { "hgun_P07_snds_F", "arifle_MX_F", "arifle_MXC_F" };
+    restricted_weapons[] = { "hgun_P07_snds_F", "hgun_Pistol_heavy_02_F", "hgun_ACPC2_F", "hgun_PDW2000_F" };
 
     /* Jail System Configurations */
     jail_seize_vItems[] = { "spikeStrip","lockpick","goldbar","blastingcharge","boltcutter","defusekit","heroin_unprocessed","heroin_processed","cannabis","marijuana","cocaine_unprocessed","cocaine_processed","turtle_raw" }; //Define VIRTUAL items you want to be removed from players upon jailing here. Use "jail_seize_inventory" for Arma inventory items.
@@ -133,50 +133,50 @@ class Life_Settings {
 /* Wanted System Settings *
     /* crimes[] = {String, Bounty, Code} */
     crimes[] = {
-        {"STR_Crime_187V","650","187V"},
-        {"STR_Crime_187","2000","187"},
-        {"STR_Crime_901","450","901"},
-        {"STR_Crime_215","200","215"},
-        {"STR_Crime_213","1000","213"},
-        {"STR_Crime_211","100","211"},
-        {"STR_Crime_207","350","207"},
-        {"STR_Crime_207A","200","207A"},
-        {"STR_Crime_390","1500","390"},
-        {"STR_Crime_487","150","487"},
-        {"STR_Crime_488","70","488"},
-        {"STR_Crime_480","100","480"},
-        {"STR_Crime_481","100","481"},
-        {"STR_Crime_482","500","482"},
-        {"STR_Crime_483","950","483"},
-        {"STR_Crime_459","650","459"},
-        {"STR_Crime_666","200","666"},
-        {"STR_Crime_667","4500","667"},
-        {"STR_Crime_668","1500","668"},
-        {"STR_Crime_1","250","1"},
-        {"STR_Crime_2","200","2"},
-        {"STR_Crime_3","150","3"},
-        {"STR_Crime_4","250","4"},
-        {"STR_Crime_5","100","5"},
-        {"STR_Crime_6","80","6"},
-        {"STR_Crime_7","150","7"},
-        {"STR_Crime_8","5000","8"},
-        {"STR_Crime_9","5000","9"},
-        {"STR_Crime_10","15000","10"},
-        {"STR_Crime_11","10000","11"},
-        {"STR_Crime_12","2500","12"},
-        {"STR_Crime_13","1500","13"},
-        {"STR_Crime_14","500","14"},
-        {"STR_Crime_15","2500","15"},
-        {"STR_Crime_16","1500","16"},
-        {"STR_Crime_17","100","17"},
-        {"STR_Crime_18","1500","18"},
-        {"STR_Crime_19","2500","19"},
-        {"STR_Crime_20","500","20"},
-        {"STR_Crime_21","500","21"},
-        {"STR_Crime_22","2000","22"},
-        {"STR_Crime_23","5000","23"},
-        {"STR_Crime_24","10000","24"},
-        {"STR_Crime_25","20000","25"}
+        {"STR_Crime_187V","50000","187V"}, //로드킬
+        {"STR_Crime_187","80000","187"}, //살인
+        {"STR_Crime_901","50000","901"}, //탈옥
+        {"STR_Crime_215","5000","215"}, //차량절도시도
+        {"STR_Crime_213","60000","213"}, //불법폭탄물사용
+        {"STR_Crime_211","30000","211"}, //강도
+        {"STR_Crime_207","40000","207"}, //납치
+        {"STR_Crime_207A","20000","207A"}, //납치미수
+        {"STR_Crime_487","40000","487"}, //전문 절도
+        {"STR_Crime_488","10000","488"}, //절도 잡범
+        {"STR_Crime_480","5000","480"}, //폭행 도주
+        {"STR_Crime_481","60000","481"}, // 마약 소지
+	{"STR_Crime_483","100000","483"}, // 마약 밀매
+	{"STR_Crime_390","15000","390"}, //마약 흡입
+        {"STR_Crime_482","5000","482"}, // 허위사실유포
+        {"STR_Crime_459","65000","459"}, //빈집 털이
+        {"STR_Crime_666","20000","666"}, //탈세
+        {"STR_Crime_667","300000","667"}, //테러범
+        {"STR_Crime_668","65000","668"}, //밀렵
+        {"STR_Crime_1","5000","1"}, // 무면허운전
+        {"STR_Crime_2","2000","2"},//비도로운전
+        {"STR_Crime_3","1500","3"},//신호위반
+        {"STR_Crime_4","10000","4"},//과속
+        {"STR_Crime_5","10000","5"}, //야간주행 헤드라이트 미사용
+        {"STR_Crime_6","8000","6"}, //헬멧미착용-카트
+        {"STR_Crime_7","5000","7"}, //불법주차
+        {"STR_Crime_8","25000","8"}, //반군차량소지
+        {"STR_Crime_9","25000","9"}, //시민차량절도
+        {"STR_Crime_10","75000","10"}, //경찰차량절도
+        {"STR_Crime_11","100000","11"},//무장차량소지
+        {"STR_Crime_12","25000","12"},//무허가 마을상공 비행
+        {"STR_Crime_13","15000","13"}, //욕설 비속어 사용
+        {"STR_Crime_14","15000","14"}, //마을내 무기 소지
+        {"STR_Crime_15","50000","15"}, //반군무기 소지
+        {"STR_Crime_16","15000","16"}, //불법 의상 착용
+        {"STR_Crime_17","5000","17"}, //닉네임숨김(가면)
+        {"STR_Crime_18","20000","18"}, //공무집행 협조거부
+        {"STR_Crime_19","15000","19"},//폭행 도주
+        {"STR_Crime_20","5000","20"}, //시민모욕
+        {"STR_Crime_21","30000","21"}, //경찰모욕
+        {"STR_Crime_22","100000","22"}, //마약판매
+        {"STR_Crime_23","500000","23"}, //연방은행절도
+        {"STR_Crime_24","50000","24"}, //시민살인
+        {"STR_Crime_25","100000","25"} // 경찰살인
     };
 };
 
