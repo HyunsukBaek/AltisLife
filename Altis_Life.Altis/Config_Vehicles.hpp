@@ -194,7 +194,6 @@ class LifeCfgVehicles {
         textures[] = {
             { "Heto EMS", "med", {"textures\ems\HETO_Zamac_Front.paa","textures\ems\HETO_Zamac_Back.paa"} }
         };
-        textures[] = {};
     };
 
     class O_Truck_03_medical_F {
@@ -239,7 +238,7 @@ class LifeCfgVehicles {
         textures[] = {};
     };
 
-     class O_Heli_Attack_02_black_F {
+    class O_Heli_Attack_02_black_F {
          vItemSpace = 200;
          licenses[] = { {""}, {"cAir"}, {""}, {""} };
          price = 1000000;
@@ -429,27 +428,6 @@ class LifeCfgVehicles {
         textures[] = { };
     };
 
-    class B_Truck_01_box_F {
-        vItemSpace = 450;
-        licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 350000;
-        textures[] = { };
-    };
-
-    class B_Truck_01_transport_F {
-        vItemSpace = 325;
-        licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 275000;
-        textures[] = { };
-    };
-
-    class O_MRAP_02_F {
-        vItemSpace = 60;
-        licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 150000;
-        textures[] = { };
-    };
-
     class C_Offroad_01_F {
         vItemSpace = 65;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -618,78 +596,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
         };
     };
 
-    class I_Truck_02_covered_F {
-        vItemSpace = 250;
-        licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 100000;
-        textures[] = {
-            { "Orange", "civ", {
-                "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
-                "\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"
-            } },
-            { "EMS RED", "med", {
-                "\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_civ_red_co.paa"
-            } },
-            { "Black", "cop", {
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
-            } }
-        };
-    };
-
-    class I_Truck_02_transport_F {
-        vItemSpace = 200;
-        licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 75000;
-        textures[] = {
-            { "Orange", "civ", {
-                "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
-                "\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"
-            } },
-            { "Black", "cop", {
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
-            } }
-        };
-    };
-
-    class O_Truck_03_covered_F {
-        vItemSpace = 300;
-        licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 250000;
-        textures[] = {};
-    };
-
-    class C_Hatchback_01_F {
-        vItemSpace = 40;
-        licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 9500;
-        textures[] = {
-            { "Beige", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base01_co.paa"
-            } },
-            { "Green", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base02_co.paa"
-            } },
-            { "Blue", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base03_co.paa"
-            } },
-            { "Dark Blue", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base04_co.paa"
-            } },
-            { "Yellow", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base06_co.paa"
-            } },
-            { "White", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base07_co.paa"
-            } },
-            { "Grey", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base08_co.paa"
-            } },
-            { "Black", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base09_co.paa"
-            } }
-        };
-    };
-
     class C_SUV_01_F {
         vItemSpace = 70;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -742,29 +648,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "EMS London", "med", {
 		"textures\ems\Ambulance_Boxer_Front.paa",
 		"textures\ems\Ambulance_Boxer_Back.paa"
-            } }
-        };
-    };
-
-    class B_MRAP_01_F {
-        vItemSpace = 65;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 30000;
-        textures[] = {
-            { "Black", "cop", {
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
-            } }
-        };
-    };
-
-     class B_Heli_Light_01_stripped_F {
-        vItemSpace = 90;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 275000;
-        textures[] = {
-            { "Rebel Digital", "reb", {
-                "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa"
             } }
         };
     };
@@ -841,17 +724,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa"
             } }
         };
-    };
-
-    class O_Heli_Light_02_unarmed_F { // orca
-        vItemSpace = 230;
-        licenses[] = { {"pilot" }, {"cAir"}, {"mAir"}, {""} };
-        price = 855000;
-    };
-
-    class C_Heli_Light_01_civil_F : B_Heli_Light_01_F {
-        vItemSpace = 75;
-        price = 365000;
     };
 
     class O_Heli_Light_02_unarmed_F {
@@ -1001,13 +873,5 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vFuelSpace = 250000;
         licenses[] = { {""}, {""}, {""}, {""} };
         price = 255000;
-    };
-
-    class B_Truck_01_fuel_F {
-        vItemSpace = 50;
-        vFuelSpace = 50000;
-        licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 250000;
-        textures[] = {};
     };
 };
