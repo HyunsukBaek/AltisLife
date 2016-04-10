@@ -8,8 +8,8 @@
 */
 private["_unit"];
 _unit = player GVAR ["escortingPlayer",objNull];
-if(isNull _unit) then {_unit = cursorTarget;}; //Emergency fallback.
-if(isNull _unit) exitWith {}; //Target not found even after using cursorTarget.
+if(isNull _unit) then {_unit = cursorObject;}; //Emergency fallback.
+if(isNull _unit) exitWith {}; //Target not found even after using cursorObject.
 if(!(_unit GVAR ["Escorting",false])) exitWith {}; //He's not being Escorted.
 if(side _unit != civilian) exitWith {}; //Not a civ
 detach _unit;
