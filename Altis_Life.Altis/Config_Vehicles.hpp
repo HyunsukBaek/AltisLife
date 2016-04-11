@@ -191,7 +191,7 @@ class LifeCfgVehicles {
     class I_Truck_02_medical_F {
         vItemSpace = 150;
         licenses[] = { {""}, {""}, {""}, {""} };
-	price = 75000;
+        price = 75000;
         textures[] = {
             { "Heto EMS", "med", {"textures\ems\HETO_Zamac_Front.paa","textures\ems\HETO_Zamac_Back.paa"} }
         };
@@ -282,13 +282,13 @@ class LifeCfgVehicles {
     };
 
     class I_MRAP_03_hmg_F { //strider hmg
-    vItemSpace = 200;
-	licenses[] = { {"driver"}, {""}, {""}, {""} };
-	price = 650000;
-	textures[] = {
-	    { "Black", "cop", {"#(argb,8,8,3)color(0.05,0.05,0.05,1)"} },
-	    { "CamoCop", "cop", {"textures\rebel\reblbirdcamo1.jpg", "textures\rebel\reblbirdcamo1.jpg"} }
-	};
+        vItemSpace = 200;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 650000;
+        textures[] = {
+            { "Black", "cop", {"#(argb,8,8,3)color(0.05,0.05,0.05,1)"} },
+            { "CamoCop", "cop", {"textures\rebel\reblbirdcamo1.jpg", "textures\rebel\reblbirdcamo1.jpg"} }
+        };
     };
 
     class B_Boat_Armed_01_minigun_F {
@@ -308,7 +308,7 @@ class LifeCfgVehicles {
     class I_Truck_02_covered_F { //zamark truck covered
         vItemSpace = 330;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-	price = 350000;
+        price = 350000;
         textures[] = {
             { "Orange", "civ", {
                 "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
@@ -640,13 +640,13 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa"
             } },
             { "Red", "civ", {
-        	"\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa"
+            "\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa"
             } },
             { "EMS London", "med", {
-		"textures\ems\Ambulance_Boxer_Front.paa",
-		"textures\ems\Ambulance_Boxer_Back.paa"
+                "textures\ems\Ambulance_Boxer_Front.paa",
+                "textures\ems\Ambulance_Boxer_Back.paa"
             } },
-	    { "SushiTruck", "civ", {"textures\cars\civ_sushitruck.jpg"} }
+            { "SushiTruck", "civ", {"textures\cars\civ_sushitruck.jpg"} }
         };
     };
 
@@ -699,9 +699,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa"
             } },
             { "EMS hems", "med", {
-        	"textures\ems\paramedic_hems.paa"}
+            "textures\ems\paramedic_hems.paa"}
             }
-	};
+        };
     };
 
     class B_Heli_Light_01_armed_F : B_Heli_Light_01_F{};
@@ -768,9 +768,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Black", "cop", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_co.paa"
             } },
-	    { "Rebel CAMO", "reb", {
-		"textures\rebel\reblbirdcamo1.jpg","textures\rebel\reblbirdcamo1.jpg","textures\rebel\reblbirdcamo1.jpg"
-	    } }
+            { "Rebel CAMO", "reb", {
+                "textures\rebel\reblbirdcamo1.jpg","textures\rebel\reblbirdcamo1.jpg","textures\rebel\reblbirdcamo1.jpg"
+            } }
         };
     };
 
@@ -800,17 +800,17 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class O_Heli_Transport_04_F { //TARU
-	vItemSpace = 250;
-	licenses[] = { {"pilot" }, {"cAir"}, {"mAir"}, {""} };
-	price = 2355000;
-	textures[] = {
-	    { "EMS White", "med", {
-		"#(argb,8,8,3)color(1,1,1,0.8)"
-	    } },
-	    { "Black", "cop", {
-		"#(argb,8,8,3)color(0.05,0.05,0.05,1)"
-	    } }
-	};
+        vItemSpace = 250;
+        licenses[] = { {"pilot" }, {"cAir"}, {"mAir"}, {""} };
+        price = 2355000;
+        textures[] = {
+            { "EMS White", "med", {
+                "#(argb,8,8,3)color(1,1,1,0.8)"
+            } },
+            { "Black", "cop", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } }
+        };
     };
 
     class B_SDV_01_F {
@@ -819,7 +819,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 250000;
         textures[] = {};
     };
-    
+
     class C_Van_01_fuel_F {
         vItemSpace = 20;
         vFuelSpace = 19500;
