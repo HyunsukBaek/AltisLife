@@ -96,7 +96,7 @@ CREATE TABLE IF NOT EXISTS `players` (
 CREATE TABLE IF NOT EXISTS `vehicles` (
   `id` int(12) NOT NULL AUTO_INCREMENT,
   `side` varchar(15) NOT NULL,
-  `classname` varchar(32) NOT NULL,
+  `classname` varchar(64) NOT NULL,
   `type` varchar(12) NOT NULL,
   `pid` varchar(32) NOT NULL,
   `alive` tinyint(1) NOT NULL DEFAULT '1',
@@ -164,12 +164,12 @@ CREATE TABLE IF NOT EXISTS `containers` (
   `pos` varchar(64) DEFAULT NULL,
   `inventory` varchar(500) NOT NULL,
   `gear` text NOT NULL,
-  `dir` varchar(64) DEFAULT NULL,
+  `dir` varchar(105) DEFAULT NULL,
   `active` tinyint(1) NOT NULL DEFAULT '0',
   `owned` tinyint(4) DEFAULT '0',
   `insert_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`,`pid`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=4;
 
 -- --------------------------------------------------------
 
