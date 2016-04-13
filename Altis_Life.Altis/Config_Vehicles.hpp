@@ -603,14 +603,14 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Cube", "civ", {"textures\cars\cube_suv.jpg"} },
             { "Poly", "civ", {"textures\cars\poly_suv.jpg"} },
             { "Dark Red", "civ", {"\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_co.paa"} },
-            { "Police", "cop", {"textures\cop\police_suv.jpg"} },
-            { "UK Police", "cop", {"textures\cop\police_uk_suv.jpg"} },
+            { "한국경찰", "cop", {"textures\cop\ASOULPOLICE.jpg"} },
+            { "영국경찰", "cop", {"textures\cop\police_uk_suv.jpg"} },
             { "EMS red", "med", {"textures\ems\EMS_SUV.jpg"} },
             { "EMS white", "med", {"textures\ems\EMS_SUV_1.jpg"} },
             { "EMS 119", "med", {"textures\ems\EMS_SUV_2.jpg"} },
             { "Channel8 News", "civ", {"textures\cars\channel8newscar.paa"} },
             { "Camogreen", "civ", {"textures\cars\suvcamogreen.paa"} },
-            { "LAPD", "cop", {"textures\cop\lapd_suv.paa"} },
+            { "미국 경찰", "cop", {"textures\cop\lapd_suv.paa"} },
             { "Ferrari", "civ", {"textures\cars\ferrari_SUV.jpg"} },
             { "blueflames", "civ", {"textures\cars\flames.jpg"} },
             { "tiger", "civ", {"textures\cars\pimp.jpg"} }
@@ -699,8 +699,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa"
             } },
             { "EMS hems", "med", {
-            "textures\ems\paramedic_hems.paa"}
-            }
+                "textures\ems\paramedic_hems.paa"
+            } },
+	    { "시바견", "med", {"textures\ems\shibainu_ems.jpg", "textures\ems\shibainu_ems.jpg"} }
         };
     };
 
