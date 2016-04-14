@@ -613,7 +613,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "미국 경찰", "cop", {"textures\cop\lapd_suv.paa"} },
             { "Ferrari", "civ", {"textures\cars\ferrari_SUV.jpg"} },
             { "blueflames", "civ", {"textures\cars\flames.jpg"} },
-            { "tiger", "civ", {"textures\cars\pimp.jpg"} }
+            { "tiger", "civ", {"textures\cars\pimp.jpg"} },
+
         };
     };
 
@@ -701,7 +702,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "EMS hems", "med", {
                 "textures\ems\paramedic_hems.paa"
             } },
-	    { "시바견", "med", {"textures\ems\shibainu_ems.jpg", "textures\ems\shibainu_ems.jpg"} }
+	    { "시바견", "civ", {"textures\cars\shibainu_ems.jpg", "textures\cars\shibainu_ems.jpg"} }
         };
     };
 
