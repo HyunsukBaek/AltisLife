@@ -614,7 +614,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Ferrari", "civ", {"textures\cars\ferrari_SUV.jpg"} },
             { "blueflames", "civ", {"textures\cars\flames.jpg"} },
             { "tiger", "civ", {"textures\cars\pimp.jpg"} },
-
+	    { "5Taku", "civ", {"textures\cars\5taku.jpg"} }
         };
     };
 
@@ -647,7 +647,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "textures\ems\Ambulance_Boxer_Front.paa",
                 "textures\ems\Ambulance_Boxer_Back.paa"
             } },
-            { "SushiTruck", "civ", {"textures\cars\civ_sushitruck.jpg"} }
+	    { "EMS pico", "med", {"textures\ems\Ambulance_Pico_Front.paa","textures\ems\Ambulance_Pico_Back.paa"} }
         };
     };
 
@@ -743,8 +743,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Desert Digi", "reb", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"
             } },
-            { "EMS White", "med", {
-                "#(argb,8,8,3)color(1,1,1,0.8)"
+            { "EMS orange", "med", {
+        	"textures\ems\EMSorca.paa"
             } }
         };
     };
