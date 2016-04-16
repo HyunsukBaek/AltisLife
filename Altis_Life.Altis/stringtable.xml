@@ -3955,7 +3955,7 @@
 			<Polish>Pełny Kanister</Polish>
 		</Key>
 		<Key ID="STR_Item_Defibrillator">
-			<Original>Defibrillator</Original>
+			<Original>AED심장충격기</Original>
 			<German>Defibrillator</German>
 			<French>défibrillateur</French>
 			<Italian>defibrillatore</Italian>
@@ -3963,8 +3963,8 @@
 			<Polish>defibrylator</Polish>
 		</Key>
 		<Key ID="STR_Item_Toolkit">
-			<Original>Toolkit</Original>
-			<German>Toolkit</German>
+			<Original>Repair KIT</Original>
+			<German>Repair KIT</German>
 			<French>boîte à outils</French>
 			<Italian>kit di strumenti</Italian>
 			<Portuguese>conjunto de ferramentas</Portuguese>
@@ -6887,5 +6887,16 @@
 			<Original>Your share is $%1</Original>
 			<German>Dein Anteil beträgt $%1</German>
 		</Key>
+		<Key ID="STR_MAR_Master_Weapon_Shop">
+    <Original>Master Weapon Shop</Original>
+    <Portuguese>Lojas de Armas de Sargento</Portuguese>
+    <Polish>Broń sierżanta</Polish>
+  </Key>
+  <Key ID="STR_MAR_Cop_Autoset">
+    <Original>Cop AutoSet</Original>
+    <German>Cop AutoSet</German>
+    <Portuguese>Cop AutoSet</Portuguese>
+    <Polish>Cop AutoSet</Polish>
+  </Key>
   </Package>
 </Project>
