@@ -657,7 +657,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 555000;
         textures[] = {
             { "Police Black/White", "cop", {"textures\cop\police_heli.jpg", "textures\cop\police_heli2.jpg"} },
-            { "Police Yellow/Blue", "cop", {"textures\cop\police_heli3.jpg", "textures\cop\police_heli3.jpg"} },
+            { "Police 포돌이", "cop", {"textures\cop\podole.jpg", "textures\cop\podole.jpg"} },
             { "EMS Yellow/Blue", "med", {"textures\ems\humming_ems.jpg", "textures\ems\humming_ems.jpg"} },
             { "EMS Red", "med", {"textures\ems\EMS_LTB.jpg", "textures\ems\EMS_LTB.jpg"} },
             { "Sheriff", "civ", {
