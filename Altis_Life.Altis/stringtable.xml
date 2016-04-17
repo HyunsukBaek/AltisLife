@@ -6617,7 +6617,7 @@
       <German>Fahrerflucht</German>
     </Key>
     <Key ID="STR_Crime_481">
-      <Original>마약소지</Original>
+      <Original>절도미수-락픽소지</Original>
       <Portuguese>Posse de Droga</Portuguese>
       <German>Drogenbesitz</German>
     </Key>
@@ -6830,7 +6830,7 @@
       <German>Das Töten eines Zivilen</German>
     </Key>
     <Key ID="STR_Crime_25">
-      <Original>Killing of a soldier</Original>
+      <Original>공무원살인</Original>
       <French>Meurtre d'un militaire</French>
       <Portuguese>Matou um Policial</Portuguese>
       <German>Das Töten eines Beamten</German>
