@@ -36,7 +36,7 @@ class Life_Settings {
     /* ATM & Federal Reserve System Configurations */
     global_ATM = true; //Allow users to access any ATM on the map (Marked & Unmarked).
     noatm_timer = 10; //Time in minutes that players cannot deposit money after selling stolen gold.
-    minimum_cops = 5; //Minimum cops required online to rob the Federal Reserve
+    minimum_cops = 4; //Minimum cops required online to rob the Federal Reserve
 
     /* Basic System Configurations */
     donor_level = false; //Enable the donor level set in database (var = life_donorlevel; levels = 0,1,2,3,4,5). ATTENTION! Before enabling, read: https://www.bistudio.com/community/game-content-usage-rules & https://www.bistudio.com/monetization
@@ -47,7 +47,7 @@ class Life_Settings {
     /* Clothing System Configurations */
     civ_skins = false; //Enable or disable civilian skins. Before enabling, you must add all the SEVEN files to textures folder. (It must be named as: civilian_uniform_1.jpg, civilian_uniform_2.jpg...civilian_uniform_6.jpg, civilian_uniform_7.jpg)
     cop_extendedSkins = false; //Enable or disable cop skins by level. Before enabling, you must add all the EIGHT files to textures folder. (It must be named as: cop_uniform.jpg + cop_uniform_1.jpg, cop_uniform_2.jpg...cop_uniform_6.jpg, cop_uniform_7.jpg; meaning cop_uniform = life_coplevel=0, cop_uniform_1 = life_coplevel=1, cop_uniform_2 = life_coplevel=2, etc...)
-    clothing_noTP = false;  //Disable clothing preview teleport? (true = no teleport. false = teleport)
+    clothing_noTP = true;  //Disable clothing preview teleport? (true = no teleport. false = teleport)
     clothing_box = true; //true = teleport to a black box. false = teleport to somewhere on map. (It only affects the game if clothing_noTP is set as false)
     clothing_masks[] = { "H_Shemag_olive", "H_Shemag_khk", "H_Shemag_tan", "H_Shemag_olive_hs", "H_ShemagOpen_khk", "H_ShemagOpen_tan", "G_Balaclava_blk", "G_Balaclava_combat", "G_Balaclava_lowprofile", "G_Balaclava_oli", "G_Bandanna_aviator", "G_Bandanna_beast", "G_Bandanna_blk", "G_Bandanna_khk", "G_Bandanna_oli", "G_Bandanna_shades", "G_Bandanna_sport", "G_Bandanna_tan", "U_O_GhillieSuit", "U_I_GhillieSuit", "U_B_GhillieSuit", "H_RacingHelmet_1_black_F", "H_RacingHelmet_1_red_F", "H_RacingHelmet_1_white_F", "H_RacingHelmet_1_blue_F", "H_RacingHelmet_1_yellow_F", "H_RacingHelmet_1_green_F", "H_RacingHelmet_1_F", "H_RacingHelmet_2_F", "H_RacingHelmet_3_F", "H_RacingHelmet_4_F" };
 
@@ -90,8 +90,8 @@ class Life_Settings {
 
     paycheck_period = 5; //Scaled in minutes
     paycheck_cop = 8500; //Payment for cops
-    paycheck_civ = 1000; //Payment for civillians
-    paycheck_med = 7000; //Payment for medics
+    paycheck_civ = 1100; //Payment for civillians
+    paycheck_med = 7500; //Payment for medics
 
     /* Player Job System Configurations */
     delivery_points[] = { "dp_1", "dp_2", "dp_3", "dp_4", "dp_5", "dp_6", "dp_7", "dp_8", "dp_9", "dp_10", "dp_11", "dp_12", "dp_13", "dp_14", "dp_15", "dp_15", "dp_16", "dp_17", "dp_18", "dp_19", "dp_20", "dp_21", "dp_22", "dp_23", "dp_24", "dp_25", "dp_26", "dp_27" };
@@ -99,7 +99,7 @@ class Life_Settings {
 
     /* Search & Seizure System Configurations */
     seize_exempt[] = { "Binocular", "ItemWatch", "ItemCompass", "ItemGPS", "ItemMap", "NVGoggles", "FirstAidKit", "ToolKit", "Chemlight_red", "Chemlight_yellow", "Chemlight_green", "Chemlight_blue", "optic_ACO_grn_smg", "hgun_P07_snds_F", "hgun_Pistol_heavy_02_F", "hgun_ACPC2_F", "hgun_PDW2000_F" }; //Arma items that will not get seized from player inventories
-    seize_uniform[] = { "U_Rangemaster" }; //Any specific uniforms you want to be seized from players
+    seize_uniform[] = { "U_Rangemaster", "U_B_CombatUniform_mcam", "U_B_CombatUniform_mcam_worn" }; //Any specific uniforms you want to be seized from players
     seize_vest[] = { "V_TacVest_blk_POLICE" }; //Any specific vests you want to be seized from players
     seize_headgear[] = { "H_Cap_police" }; //Any hats or helmets you want seized from players
     seize_minimum_rank = 2; //Required minimum CopLevel to be able to seize items from players

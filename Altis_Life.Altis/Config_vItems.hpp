@@ -18,7 +18,7 @@ class VirtualShops {
 
 	class med_market {
 		name = "STR_Shops_Market";
-		side = "";
+		side = "med";
 		license = "";
 		level[] = { "", "", -1, "" };
 		items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "toolkit", "fuelFull", "peach", "defibrillator" };

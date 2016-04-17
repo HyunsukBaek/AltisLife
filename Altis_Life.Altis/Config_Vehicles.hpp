@@ -276,8 +276,8 @@ class LifeCfgVehicles {
 	price = 650000;
 	textures[] = {
 	    { "EMS white", "med", {"#(argb,8,8,3)color(1,1,1,0.8)"} },
-	    { "CopBlue", "cop", {"#(argb,8,8,3)color(0.01,0.01,1.53,1)"} },
-	    { "CamoCop", "cop", {"textures\rebel\reblbirdcamo1.jpg", "textures\rebel\reblbirdcamo1.jpg"} }
+	    { "Blue", "cop", {"#(argb,8,8,3)color(0.01,0.01,1.53,1)"} },
+	    { "Police", "cop", {"textures\cop\policeStrider.paa"} }
 	};
     };
 
@@ -287,7 +287,7 @@ class LifeCfgVehicles {
         price = 650000;
         textures[] = {
             { "Black", "cop", {"#(argb,8,8,3)color(0.05,0.05,0.05,1)"} },
-            { "CamoCop", "cop", {"textures\rebel\reblbirdcamo1.jpg", "textures\rebel\reblbirdcamo1.jpg"} }
+	    { "Police", "cop", {"textures\cop\policeStrider.paa"} }
         };
     };
 

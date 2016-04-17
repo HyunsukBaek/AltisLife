@@ -115,7 +115,8 @@ class Clothing {
             { "B_Carryall_mcamo", "", 7500, { "", "", -1 } },
             { "B_Carryall_oli", "", 7500, { "", "", -1 } },
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
-            { "B_Carryall_cbr", "", 7500, { "", "", -1 } }
+            { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
+	    { "B_Parachute", "", 37500, { "", "", -1 } }
         };
     };
 
@@ -187,7 +188,8 @@ class Clothing {
             { "B_AssaultPack_cbr", "", 700, { "", "", -1 } },
             { "B_Kitbag_cbr", "", 800, { "", "", -1 } },
             { "B_Bergen_sgg", "", 2500, { "", "", -1 } },
-            { "B_Carryall_cbr", "", 3500, { "", "", -1 } }
+            { "B_Carryall_cbr", "", 3500, { "", "", -1 } },
+	    { "B_Parachute", "", 37500, { "", "", -1 } }
         };
     };
 
@@ -317,7 +319,8 @@ class Clothing {
             { "B_Carryall_oli", "", 7500, { "", "", -1 } },
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
-            { "B_OutdoorPack_blk", "", 500, { "", "", -1 } }
+            { "B_OutdoorPack_blk", "", 500, { "", "", -1 } },
+	    { "B_Parachute", "", 37500, { "", "", -1 } }
         };
     };
 
@@ -378,7 +381,8 @@ class Clothing {
             { "B_AssaultPack_cbr", "", 6700, { "", "", -1 } },
             { "B_Carryall_oli", "", 7500, { "", "", -1 } },
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
-            { "B_Carryall_cbr", "", 7500, { "", "", -1 } }
+            { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
+	    { "B_Parachute", "", 37500, { "", "", -1 } }
         };
     };
 
@@ -464,7 +468,8 @@ class Clothing {
             { "B_Carryall_oli", "", 7500, { "", "", -1 } },
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
-            { "B_OutdoorPack_blk", "", 500, { "", "", -1 } }
+            { "B_OutdoorPack_blk", "", 500, { "", "", -1 } },
+	    { "B_Parachute", "", 37500, { "", "", -1 } }
         };
     };
 
