@@ -147,7 +147,7 @@ class CarShops {
         vehicles[] = {
             { "B_Boat_Transport_01_F", { "", "", -1 } },
             { "C_Boat_Civil_01_police_F", { "", "", -1 } },
-            { "B_Boat_Armed_01_minigun_F", { "life_coplevel", "SCALAR", 4 } },
+            { "B_Boat_Armed_01_minigun_F", { "life_coplevel", "SCALAR", 3 } },
             { "B_SDV_01_F", { "", "", -1 } }
         };
     };
