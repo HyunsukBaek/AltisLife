@@ -439,7 +439,7 @@ class Clothing {
             { "V_BandollierB_cbr", "", 4500, { "", "", -1 } },
             { "V_HarnessO_brn", "", 7500, { "", "", -1 } },
             { "V_TacVest_khk", "", 12500, { "", "", -1 } },
-            { "V_HarnessOGL_gry", "Suicide Vest", 12500, { "", "", -1 } }
+            { "V_HarnessOGL_gry", "Suicide Vest", 444400, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
