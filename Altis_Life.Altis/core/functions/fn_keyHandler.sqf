@@ -140,11 +140,10 @@ switch (_code) do {
 					[vehicle player] spawn life_fnc_openInventory;
 				};
 			} else {
-				private ["_list"];
-				_list = [getPosATL player, ["Box_IND_Grenades_F","B_supplyCrate_F"], 2.5] call life_fnc_nearestObjects;
-				if (count _list > 0) then {
-					_list = _list select 0;
-					_house = nearestObject [(getposATL _list), "House"];
+				private "_list";
+				_list = ((ASLtoATL (getPosASL player)) nearEntities [["Box_IND_Grenades_F","B_supplyCrate_F"], 2.5]) select 0;
+				if (!(isNil "_list")) then {
+					_house = nearestObject [(ASLtoATL (getPosASL _list)), "House"];
 					if (_house getVariable ["locked", false]) then {
 						hint localize "STR_House_ContainerDeny";
 					} else {
@@ -152,7 +151,7 @@ switch (_code) do {
 					};
 				} else {
 					_list = ["landVehicle","Air","Ship"];
-					if(KINDOF_ARRAY(cursorObject,_list) && {player distance cursorObject < 7} && {vehicle player == player} && {alive cursorObject} && {!life_action_inUse}) then {
+					if(KINDOF_ARRAY(cursorObject,_list) && {player distance cursorObject < 7} && {isNull objectParent player} && {alive cursorObject} && {!life_action_inUse}) then {
 						if(cursorObject in life_vehicles) then {
 							[cursorObject] spawn life_fnc_openInventory;
 						};
@@ -231,10 +230,19 @@ switch (_code) do {
 		};
 	};
 
+	//Suicide Vest DELETE
+	case 211: {
+		if(!_alt && !_ctrlKey && !dialog) then {
+			if((time - life_action_delay) < 15) exitWith {hint localize "STR_NOTF_ActionDelay";};
+			[player] spawn life_fnc_jihad;
+			life_action_delay = time;
+		};
+	};
+
 	//U Key
 	case 22: {
 		if(!_alt && !_ctrlKey) then {
-			if(vehicle player == player) then {
+			if(isNull objectParent player) then {
 				_veh = cursorObject;
 			} else {
 				_veh = vehicle player;
@@ -309,7 +317,7 @@ switch (_code) do {
 							_veh animateDoor ['DoorR_Back_Open ',1];
 						};
 						systemChat localize "STR_MISC_VehUnlock";
-						player say3D "carlock";
+						[_veh,"UnlockCarSound"] remoteExec ["life_fnc_say3D",RANY];
 					} else {
 						if(local _veh) then {
 							_veh lock 2;
@@ -359,7 +367,7 @@ switch (_code) do {
 							_veh animateDoor ['DoorR_Back_Open ',0];
 						};
 						systemChat localize "STR_MISC_VehLock";
-						player say3D "carlock";	
+						[_veh,"LockCarSound"] remoteExec ["life_fnc_say3D",RANY];
 					};
 				};
 			};

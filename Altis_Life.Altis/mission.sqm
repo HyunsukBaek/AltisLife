@@ -8,7 +8,7 @@ class EditorData
 	toggles=66;
 	class ItemIDProvider
 	{
-		nextID=5059;
+		nextID=5058;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={12706.893,18.829397,14212.715};
-		dir[]={-0.96692121,-0.24495959,0.071297675};
-		up[]={-0.2443047,0.96953398,0.01801461};
-		aside[]={0.0735384,6.1816536e-008,0.99730551};
+		pos[]={16340.259,43.114891,12841.132};
+		dir[]={-0.065364368,-0.6259141,0.77714974};
+		up[]={-0.052459113,0.77989167,0.62371242};
+		aside[]={0.99648213,-1.1765223e-008,0.083812006};
 	};
 };
 binarizationWanted=0;
@@ -208,7 +208,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1702;
+		items=1701;
 		class Item0
 		{
 			dataType="Marker";
@@ -1692,7 +1692,7 @@ class Mission
 		class Item148
 		{
 			dataType="Marker";
-			position[]={12694.766,2.0105662,14209.081};
+			position[]={12682.691,1.9715809,14214.604};
 			name="boat_2_1";
 			text="@STR_MAR_Boat_Shop";
 			type="c_ship";
@@ -1703,7 +1703,7 @@ class Mission
 		class Item149
 		{
 			dataType="Marker";
-			position[]={12701.764,0,14202.124};
+			position[]={12697.163,-0.013685904,14197.867};
 			name="civ_ship_2";
 			text="@STR_MAR_Boat_Spawn";
 			type="loc_Quay";
@@ -4907,7 +4907,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={12695.245,2.0351849,14210.599};
+				position[]={12682.056,1.9922448,14216.246};
 				angles[]={0.0039967569,2.4060416,6.2219291};
 			};
 			side="Empty";
@@ -24684,7 +24684,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={12695.761,2.0119679,14210.004};
+						position[]={12682.571,1.969028,14215.651};
 						angles[]={0.0039967569,5.6754794,0};
 					};
 					side="Civilian";
@@ -48116,21 +48116,6 @@ class Mission
 			};
 			id=5057;
 			type="Land_HelipadCivil_F";
-		};
-		class Item1701
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={12700.816,-1.6304445,14208.424};
-				angles[]={0,5.5832129,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=5058;
-			type="Land_PierLadder_F";
 		};
 	};
 };

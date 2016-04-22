@@ -17,7 +17,7 @@ class Life_Settings {
 /* Database Related Settings */
     /* Player Data Saving */
     save_virtualItems = true; //Save Virtual items (all sides)?
-    saved_virtualItems[] = {  "apple", "blastingcharge", "boltcutter", "cannabis", "catshark", "catshark_raw", "cement", "cocaine_processed", "cocaine_unprocessed", "coffee", "copper_refined", "copper_unrefined", "defusekit", "diamond_cut", "diamond_uncut", "donuts", "fuelEmpty", "fuelFull", "glass", "goat", "goat_raw", "goldbar", "hen", "hen_raw", "heroin_processed", "heroin_unprocessed", "iron_refined", "iron_unrefined", "lockpick", "mackerel", "mackerel_raw", "marijuana", "mullet", "mullet_raw", "oil_processed", "oil_unprocessed", "ornate", "ornate_raw", "peach", "pickaxe", "rabbit", "rabbit_raw", "redgull", "rock", "rooster", "rooster_raw", "salema", "salema_raw", "salt_refined", "salt_unrefined", "sand", "sheep", "sheep_raw", "spikeStrip", "tbacon", "tuna", "tuna_raw", "turtle_raw", "turtle_soup", "waterBottle", "toolkit", "defibrillator", "storageSmall", "storageBig"}; //Array of virtual items that can be saved on your player.
+    saved_virtualItems[] = {"apple", "blastingcharge", "boltcutter", "cannabis", "catshark", "catshark_raw", "cement", "cocaine_processed", "cocaine_unprocessed", "coffee", "copper_refined", "copper_unrefined", "defusekit", "diamond_cut", "diamond_uncut", "donuts", "fuelEmpty", "fuelFull", "glass", "goat", "goat_raw", "goldbar", "hen", "hen_raw", "heroin_processed", "heroin_unprocessed", "iron_refined", "iron_unrefined", "lockpick", "mackerel", "mackerel_raw", "marijuana", "mullet", "mullet_raw", "oil_processed", "oil_unprocessed", "ornate", "ornate_raw", "peach", "pickaxe", "rabbit", "rabbit_raw", "redgull", "rock", "rooster", "rooster_raw", "salema", "salema_raw", "salt_refined", "salt_unrefined", "sand", "sheep", "sheep_raw", "spikeStrip", "tbacon", "tuna", "tuna_raw", "turtle_raw", "turtle_soup", "waterBottle", "toolkit", "defibrillator", "storageSmall", "storageBig"}; //Array of virtual items that can be saved on your player.
     save_playerStats = true; //Save food, water and damage (all sides)?
     save_civilian_weapons = true; //Allow civilians to save weapons on them?
     save_civilian_position = true; //Save civilian location?
@@ -25,7 +25,7 @@ class Life_Settings {
 
     /* Vehicle Data Saving */
     save_vehicle_virtualItems = true; //Save virtual items inside the vehicle (all sides)(-- See defined items on next line --)
-    save_vehicle_items[] = { "apple", "blastingcharge", "boltcutter", "cannabis", "catshark", "catshark_raw", "cement", "cocaine_processed", "cocaine_unprocessed", "coffee", "copper_refined", "copper_unrefined", "defusekit", "diamond_cut", "diamond_uncut", "donuts", "fuelEmpty", "fuelFull", "glass", "goat", "goat_raw", "goldbar", "hen", "hen_raw", "heroin_processed", "heroin_unprocessed", "iron_refined", "iron_unrefined", "lockpick", "mackerel", "mackerel_raw", "marijuana", "mullet", "mullet_raw", "oil_processed", "oil_unprocessed", "ornate", "ornate_raw", "peach", "pickaxe", "rabbit", "rabbit_raw", "redgull", "rock", "rooster", "rooster_raw", "salema", "salema_raw", "salt_refined", "salt_unrefined", "sand", "sheep", "sheep_raw", "spikeStrip", "tbacon", "tuna", "tuna_raw", "turtle_raw", "turtle_soup", "waterBottle", "toolkit", "defibrillator", "storageSmall", "storageBig"};// define which virtual items to save in vehicles.
+    save_vehicle_items[] = {"apple", "blastingcharge", "boltcutter", "cannabis", "catshark", "catshark_raw", "cement", "cocaine_processed", "cocaine_unprocessed", "coffee", "copper_refined", "copper_unrefined", "defusekit", "diamond_cut", "diamond_uncut", "donuts", "fuelEmpty", "fuelFull", "glass", "goat", "goat_raw", "goldbar", "hen", "hen_raw", "heroin_processed", "heroin_unprocessed", "iron_refined", "iron_unrefined", "lockpick", "mackerel", "mackerel_raw", "marijuana", "mullet", "mullet_raw", "oil_processed", "oil_unprocessed", "ornate", "ornate_raw", "peach", "pickaxe", "rabbit", "rabbit_raw", "redgull", "rock", "rooster", "rooster_raw", "salema", "salema_raw", "salt_refined", "salt_unrefined", "sand", "sheep", "sheep_raw", "spikeStrip", "tbacon", "tuna", "tuna_raw", "turtle_raw", "turtle_soup", "waterBottle", "toolkit", "defibrillator", "storageSmall", "storageBig"};// define which virtual items to save in vehicles.
     save_vehicle_inventory = true; //Save Arma inventory of vehicle to the database
     save_vehicle_fuel = true; //Save vehicle fuel level to the database (Impounded/Garaged).
     save_vehicle_damage = true; //Save vehicle damage to the database.
@@ -36,13 +36,13 @@ class Life_Settings {
     /* ATM & Federal Reserve System Configurations */
     global_ATM = true; //Allow users to access any ATM on the map (Marked & Unmarked).
     noatm_timer = 10; //Time in minutes that players cannot deposit money after selling stolen gold.
-    minimum_cops = 4; //Minimum cops required online to rob the Federal Reserve
+    minimum_cops = 5; //Minimum cops required online to rob the Federal Reserve
 
     /* Basic System Configurations */
     donor_level = false; //Enable the donor level set in database (var = life_donorlevel; levels = 0,1,2,3,4,5). ATTENTION! Before enabling, read: https://www.bistudio.com/community/game-content-usage-rules & https://www.bistudio.com/monetization
     enable_fatigue = true; //Set to false to disable the ARMA 3 fatigue system.
     total_maxWeight = 32; //Static variable for the maximum weight allowed without having a backpack
-    respawn_timer = 60; //How many seconds a player should wait, before being able to respawn.
+    respawn_timer = 80; //How many seconds a player should wait, before being able to respawn.
 
     /* Clothing System Configurations */
     civ_skins = false; //Enable or disable civilian skins. Before enabling, you must add all the SEVEN files to textures folder. (It must be named as: civilian_uniform_1.jpg, civilian_uniform_2.jpg...civilian_uniform_6.jpg, civilian_uniform_7.jpg)
@@ -84,14 +84,14 @@ class Life_Settings {
     revive_fee = 25000; //Revive fee that players have to pay and medics only EMS(independent) are rewarded with this amount.
 
     /* Paycheck & Bank System Configurations */
-    bank_cop = 70000; //Amount of cash in bank for new cops
-    bank_civ = 70000; //Amount of cash in bank for new civillians
-    bank_med = 70000; //Amount of cash in bank for new medics
+    bank_cop = 100000; //Amount of cash in bank for new cops
+    bank_civ = 100000; //Amount of cash in bank for new civillians
+    bank_med = 100000; //Amount of cash in bank for new medics
 
     paycheck_period = 5; //Scaled in minutes
-    paycheck_cop = 8500; //Payment for cops
-    paycheck_civ = 1100; //Payment for civillians
-    paycheck_med = 7500; //Payment for medics
+    paycheck_cop = 8000; //Payment for cops
+    paycheck_civ = 1200; //Payment for civillians
+    paycheck_med = 7000; //Payment for medics
 
     /* Player Job System Configurations */
     delivery_points[] = { "dp_1", "dp_2", "dp_3", "dp_4", "dp_5", "dp_6", "dp_7", "dp_8", "dp_9", "dp_10", "dp_11", "dp_12", "dp_13", "dp_14", "dp_15", "dp_15", "dp_16", "dp_17", "dp_18", "dp_19", "dp_20", "dp_21", "dp_22", "dp_23", "dp_24", "dp_25", "dp_26", "dp_27" };
@@ -99,7 +99,7 @@ class Life_Settings {
 
     /* Search & Seizure System Configurations */
     seize_exempt[] = { "Binocular", "ItemWatch", "ItemCompass", "ItemGPS", "ItemMap", "NVGoggles", "FirstAidKit", "ToolKit", "Chemlight_red", "Chemlight_yellow", "Chemlight_green", "Chemlight_blue", "optic_ACO_grn_smg", "hgun_P07_snds_F", "hgun_Pistol_heavy_02_F", "hgun_ACPC2_F", "hgun_PDW2000_F" }; //Arma items that will not get seized from player inventories
-    seize_uniform[] = { "U_Rangemaster", "U_B_CombatUniform_mcam", "U_B_CombatUniform_mcam_worn" }; //Any specific uniforms you want to be seized from players
+    seize_uniform[] = { "U_Rangemaster" }; //Any specific uniforms you want to be seized from players
     seize_vest[] = { "V_TacVest_blk_POLICE" }; //Any specific vests you want to be seized from players
     seize_headgear[] = { "H_Cap_police" }; //Any hats or helmets you want seized from players
     seize_minimum_rank = 2; //Required minimum CopLevel to be able to seize items from players
@@ -111,14 +111,14 @@ class Life_Settings {
 
         /* Vehicle Purchase Prices */
         vehicle_purchase_multiplier_CIVILIAN = 1; //Civilian Vehicle Buy Price = Config_Vehicle price * multiplier
-        vehicle_purchase_multiplier_COP = 1; //Cop Vehicle Buy Price = Config_Vehicle price * multiplier
+        vehicle_purchase_multiplier_COP = 5; //Cop Vehicle Buy Price = Config_Vehicle price * multiplier
         vehicle_purchase_multiplier_MEDIC = .75; //Medic Vehicle Buy Price = Config_Vehicle price * multiplier
         vehicle_purchase_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
 
         /* Vehicle Rental Prices */
         vehicle_rental_multiplier_CIVILIAN = .75; //Civilian Vehicle Rental Price = Config_Vehicle price * multiplier
-        vehicle_rental_multiplier_COP = .75; //Cop Vehicle Rental Price = Config_Vehicle price * multiplier
-        vehicle_rental_multiplier_MEDIC = .3; //Medic Vehicle Rental Price = Config_Vehicle price * multiplier
+        vehicle_rental_multiplier_COP = .5; //Cop Vehicle Rental Price = Config_Vehicle price * multiplier
+        vehicle_rental_multiplier_MEDIC = .5; //Medic Vehicle Rental Price = Config_Vehicle price * multiplier
         vehicle_rental_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
 
         /* Vehicle Sell Prices */
@@ -128,9 +128,9 @@ class Life_Settings {
         vehicle_sell_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
 
         /* "Other" Vehicle Prices */
-        vehicle_chopShop_multiplier = .5; //Chop Shop price for vehicles. TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
+        vehicle_chopShop_multiplier = .25; //Chop Shop price for vehicles. TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
         vehicle_storage_fee_multiplier = .05; //Pull from garage cost --> Cost takes the playersides Buy Price * multiplier
-        vehicle_cop_impound_multiplier = .05; //TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
+        vehicle_cop_impound_multiplier = .025; //TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
 
 /* Wanted System Settings *
     /* crimes[] = {String, Bounty, Code} */
@@ -143,13 +143,13 @@ class Life_Settings {
         {"STR_Crime_211","30000","211"}, //강도
         {"STR_Crime_207","40000","207"}, //납치
         {"STR_Crime_207A","20000","207A"}, //납치미수
-        {"STR_Crime_487","40000","487"}, //전문 절도
+        {"STR_Crime_487","40000","487"}, //절도
         {"STR_Crime_488","10000","488"}, //절도 잡범
         {"STR_Crime_480","5000","480"}, //폭행 도주
         {"STR_Crime_481","20000","481"}, //불법물품소지
 	{"STR_Crime_483","100000","483"}, // 마약 밀매
 	{"STR_Crime_390","15000","390"}, //마약 흡입
-        {"STR_Crime_482","5000","482"}, // 허위사실유포
+        {"STR_Crime_482","5000","482"}, // 공갈
         {"STR_Crime_459","65000","459"}, //빈집 털이
         {"STR_Crime_666","20000","666"}, //탈세
         {"STR_Crime_667","300000","667"}, //테러범

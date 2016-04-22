@@ -91,7 +91,7 @@ _vehicle remoteExec ["life_fnc_soundDevice",RCLIENT]; //Broadcast the 'mining' s
 
 life_action_inUse = false; //Unlock it since it's going to do it's own thing...
 
-while {true} do {
+for "_i" from 0 to 1 step 0 do {
 
 	if(!alive _vehicle || isNull _vehicle) exitWith {};
 
@@ -147,10 +147,10 @@ while {true} do {
 	};
 
 	if(_itemIndex == -1) then {
-		_inv pushBack [_resource,_random];
+		_inv pushBack [_resource,_sum];
 	} else {
 		_val = _inv select _itemIndex select 1;
-		_inv set[_itemIndex,[_resource,_val + _random]];
+		_inv set[_itemIndex,[_resource,_val + _sum]];
 	};
 
 	if(fuel _vehicle < 0.1) exitWith {
@@ -171,7 +171,7 @@ while {true} do {
 	};
 	
 	_itemName = M_CONFIG(getText,"VirtualItems",_resource,"displayName");
-	titleText[format[localize "STR_NOTF_DeviceMined",_random,(localize _itemName)],"PLAIN"];
+	titleText[format[localize "STR_NOTF_DeviceMined",_sum,(localize _itemName)],"PLAIN"];
 	_itemWeight = ([_resource] call life_fnc_itemWeight) * _sum;
 	_vehicle SVAR["Trunk",[_inv,_space + _itemWeight],true];
 	_weight = [_vehicle] call life_fnc_vehicleWeight;

@@ -9,7 +9,7 @@
 private["_building","_doors","_door","_cP","_cpRate","_ui","_title","_titleText","_locked"];
 _building = param [0,ObjNull,[ObjNull]];
 if(isNull _building) exitWith {};
-if(!(_building isKindOf "House_F")) exitWith {hint "You are not looking at a house door."};
+if(!(_building isKindOf "House_F")) exitWith {hint localize "STR_ISTR_Bolt_NotNear";};
 
 _doors = 1;
 _doors = FETCH_CONFIG2(getNumber,CONFIG_VEHICLES,(typeOf _building),"NumberOfDoors");
@@ -44,7 +44,7 @@ switch (typeOf _building) do {
 	default {_cpRate = 0.08;}
 };
 
-while {true} do {
+for "_i" from 0 to 1 step 0 do {
 	if(animationState player != "AinvPknlMstpSnonWnonDnon_medic_1") then {
 		[player,"AinvPknlMstpSnonWnonDnon_medic_1",true] remoteExecCall ["life_fnc_animSync",RCLIENT];
 		player switchMove "AinvPknlMstpSnonWnonDnon_medic_1";

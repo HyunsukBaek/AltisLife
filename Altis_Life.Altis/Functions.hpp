@@ -191,7 +191,6 @@ class Life_Client_Core {
 		class loadGear {};
 		class nearATM {};
 		class nearestDoor {};
-		class nearestObjects {};
 		class nearUnits {};
 		class numberText {};
 		class onFired {};
@@ -211,6 +210,7 @@ class Life_Client_Core {
 		class tazeSound {};
 		class teleport {};
 		class whereAmI {};
+		class jihad {};
 		class autoSetPolice {};
 	};
 

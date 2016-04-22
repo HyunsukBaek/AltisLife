@@ -130,11 +130,9 @@ life_wanted_list = [];
 if(EQUAL(EXTDB_SETTING(getNumber,"HeadlessMode"),0)) then {
 	[] execFSM "\life_server\FSM\cleanup.fsm";
 };
-
 [] spawn {
-	private["_logic","_queue"];
-	while {true} do {
-		sleep (30 * 60);
+	for "_i" from 0 to 1 step 0 do {
+		uiSleep (30 * 60);
 		{
 			_x setVariable["sellers",[],true];
 		} forEach [Dealer_1,Dealer_2,Dealer_3];
@@ -146,7 +144,7 @@ if(EQUAL(EXTDB_SETTING(getNumber,"HeadlessMode"),0)) then {
 	[] spawn TON_fnc_cleanup;
 };
 
-[] spawn TON_fnc_initPlayTime;
+[] call TON_fnc_initPlayTime;
 
 /* Setup the federal reserve building(s) */
 private["_dome","_rsb"];

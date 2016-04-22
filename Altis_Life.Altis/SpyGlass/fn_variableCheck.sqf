@@ -92,7 +92,7 @@ _uiCheckFunction = {
 	} forEach allVariables uiNamespace;
 };
 
-while {true} do {
+for "_i" from 0 to 1 step 0 do {
 	objNull call _checkFunction;
 	uiSleep 10;
 	objNull call _uiCheckFunction;
