@@ -249,6 +249,7 @@
 			<Spanish>Cafeteria de Gasolinera</Spanish>
 			<Russian></Russian>
 			<German>Tankstellen Café</German>
+			<Portuguese>Loja de Conveniência</Portuguese>
 			<Polish>Caffe OLLEN</Polish>
 		</Key>
 	</Package>
@@ -673,6 +674,28 @@
 			<German>Spieler Markierungen aktiviert.</German>
 			<Portuguese>Marcações dos jogadores habilitada.</Portuguese>
 			<Polish>Markery 'ON' graczy Włączone </Polish>
+		</Key>
+		<Key ID="STR_ANOTF_godModeOn">
+			<Original>God mode enabled</Original>
+			<Czech>nesmrtelnost povolen</Czech>
+			<French>God mode activé</French>
+			<Spanish>Modo Dios capacitó</Spanish>
+			<Italian>God mode abilitato</Italian>
+			<Polish>God mode włączony</Polish>
+			<Portuguese>Modo Deus capacitou</Portuguese>
+			<Russian>Режим бога включен</Russian>
+			<German>Gott-Modus aktiviert</German>
+		</Key>
+		<Key ID="STR_ANOTF_godModeOff">
+			<Original>God mode disabled"</Original>
+			<Czech>nesmrtelnost zakázán</Czech>
+			<French>God mode désactivé</French>
+			<Spanish>Modo Dios desactivado</Spanish>
+			<Italian>God mode disabilitato</Italian>
+			<Polish>God mode wyłączony</Polish>
+			<Portuguese>Modo Deus desativada</Portuguese>
+			<Russian>Режим бога отключен</Russian>
+			<German>Gott-Modus deaktiviert</German>
 		</Key>
 		<Key ID="STR_NOTF_ActionCancel">
 			<Original>Action Cancelled</Original>
@@ -1381,6 +1404,17 @@
 			<Italian>Catturando il Covo</Italian>
 			<Portuguese>Capturando Esconderijo</Portuguese>
 			<Polish>Przejmowanie kryjówki</Polish>
+		</Key>
+		<Key ID="STR_GNOTF_Captured">
+			<Original>Hideout has been captured.</Original>
+			<Czech>Úkryt byl zajat.</Czech>
+			<French>Hideout a été capturé.</French>
+			<Spanish>Escondite ha sido capturado.</Spanish>
+			<Italian>Hideout è stato catturato.</Italian>
+			<Polish>Hideout został schwytany.</Polish>
+			<Portuguese>Hideout foi capturado.</Portuguese>
+			<Russian>Хайдеаут был захвачен в плен.</Russian>
+			<German>Hideout erfasst wurde.</German>
 		</Key>
 		<Key ID="STR_GNOTF_CaptureSuccess">
 			<Original>%1 and his gang: %2 - have taken control of a local hideout!</Original>
@@ -3144,6 +3178,7 @@
 			<Czech>Nemůžeš sekat vozidla, zatímco hráč je blízko!</Czech>
 			<Spanish>No puedes vender este vehículo mientras hay un jugador cerca!</Spanish>
 			<Russian></Russian>
+			<Portuguese>Você não pode usar o desmanche enquanto um jogador está próximo!</Portuguese>
 		</Key>
 		<Key ID="STR_NOTF_Restrained">
 			<Original>%1 was restrained by %2</Original>
@@ -3401,6 +3436,7 @@
 			<Spanish>No tienes suficientes objetos!</Spanish>
 			<Russian></Russian>
 			<French>Vous n'avez pas assez d'item!</French>
+			<Portuguese>Você não tem itens suficientes!</Portuguese>
 		</Key>
 		<Key ID="STR_NOTF_ItemProcess">
 			<Original>You have processed your item(s)!</Original>
@@ -3409,6 +3445,7 @@
 			<Russian></Russian>
 			<French>Vous avez traité vos item(s)!</French>
 			<Italian>Hai processato i tuoi oggetti!</Italian>
+			<Portuguese>Você processou seu(s) item(s)</Portuguese>
 		</Key>
 		<Key ID="STR_NOTF_RapidAction">
 			<Original>You can't rapidly use action keys!</Original>
@@ -3819,6 +3856,9 @@
 			<Russian>Вы не выбрали автомобиль.</Russian>
 			<German>Sie haben kein Fahrzeug auswählen.</German>
 		</Key>
+		<Key ID="STR_NOTF_noVehOwned">
+			<Original>You don't own any vehicles.</Original>
+		</Key>
 		<Key ID="STR_NOTF_didNotSelectPlayer">
 			<Original>You did not select a player.</Original>
 			<Czech>Nevybrali jste si přehrávač.</Czech>
@@ -3950,6 +3990,28 @@
 			<Portuguese>O veículo está cheio ou não pode segurar muito.</Portuguese>
 			<Russian>Транспортное средство либо полностью или не может держать так много.</Russian>
 			<German>Das Fahrzeug ist entweder voll oder kann nicht so viel halten.</German>
+		</Key>
+		<Key ID="STR_NOTF_illegalItemCannotDispose">
+			<Original>This is an illegal item and cops are near by. You cannot dispose of the evidence.</Original>
+			<Czech>To je ilegální položky a policajti jsou v blízkosti. Nemůžete zbavit důkazů.</Czech>
+			<French>Ceci est un élément illégal et les flics sont à proximité. Vous ne pouvez pas disposer de la preuve.</French>
+			<Spanish>Este es un artículo ilegal y policías están cerca. No se puede disponer de las pruebas.</Spanish>
+			<Italian>Si tratta di un elemento illegale e poliziotti si trovano nelle vicinanze. Non si può disporre delle prove.</Italian>
+			<Polish>Jest to nielegalne element i policjanci są w pobliżu. Nie można pozbyć się dowodów.</Polish>
+			<Portuguese>Este é um item ilegal e policiais estão nas proximidades. Você não pode dispor das provas.</Portuguese>
+			<Russian>Это незаконный пункт и полицейские находятся поблизости. Вы не можете избавиться от доказательств.</Russian>
+			<German>Dies ist eine illegale Artikel und Polizisten sind in der Nähe. Sie können nicht von den Beweisen zu entsorgen.</German>
+		</Key>
+		<Key ID="STR_NOTF_cannotRemoveInVeh">
+			<Original>You cannot remove an item when you are in a vehicle.</Original>
+			<Czech>Nemůžete-li odebrat položku, když jste ve vozidle.</Czech>
+			<French>Vous ne pouvez pas supprimer un élément lorsque vous êtes dans un véhicule.</French>
+			<Spanish>No se puede eliminar un elemento cuando se está en un vehículo.</Spanish>
+			<Italian>Non è possibile rimuovere un elemento quando si è in un veicolo.</Italian>
+			<Polish>Nie można usunąć element, kiedy jesteś w pojeździe.</Polish>
+			<Portuguese>Você não pode remover um item quando você está em um veículo.</Portuguese>
+			<Russian>Вы не можете удалить элемент, когда вы находитесь в автомобиле.</Russian>
+			<German>Sie können ein Element nicht entfernen, wenn Sie in einem Fahrzeug sind.</German>
 		</Key>
 	</Package>
 	<Package name="Jail_Strings">
@@ -4084,6 +4146,7 @@
 			<German>Du hast deinen Waffenschein wegen Mordes verloren.</German>
 			<French>Vous avez perdu votre permis d'armes à feu pour homicide involontaire.</French>
 			<Italian>Hai perso il tuo Porto d'Armi a causa di un omicidio</Italian>
+			<Portuguese>Você perdeu suas licenças de porte de arma por cometer homicídio.</Portuguese>
 			<Polish>Straciłeś pozwolenie na broń z uwagi na zabijanie ludzi z broni palnej</Polish>
 		</Key>
 		<Key ID="STR_Civ_RobFail">
@@ -4464,6 +4527,7 @@
 			<Czech>Nic nezákonného v tomto kontejneru</Czech>
 			<Spanish>Nada ilegal en este contenedor</Spanish>
 			<Russian></Russian>
+			<Portuguese>Nada ilegal dentro do container</Portuguese>
 			<French>Rien d'illégal dans ce container</French>
 		</Key>
 		<Key ID="STR_Cop_VehEmpty">
@@ -4480,9 +4544,13 @@
 		<Key ID="STR_Cop_ContainerEmpty">
 			<Original>This container is empty</Original>
 			<Czech>Tento zásobník je prázdný</Czech>
-			<Spanish>Este contenedor esta vacío</Spanish>
-			<Russian></Russian>
 			<French>Ce container est vide</French>
+			<Spanish>Este contenedor esta vacío</Spanish>
+			<Italian>Questo contenitore è vuoto</Italian>
+			<Polish>Ten pojemnik jest pusty</Polish>
+			<Portuguese>Este recipiente está vazio</Portuguese>
+			<Russian>Этот контейнер пуст</Russian>
+			<German>Dieser Behälter ist leer</German>
 		</Key>
 		<Key ID="STR_Cop_RobberDead">
 			<Original>$%1 from the Federal Reserve robbery was returned from the robber being killed.</Original>
@@ -5039,6 +5107,7 @@
 			<Spanish>No hay casas cerca de ti.</Spanish>
 			<Russian></Russian>
 			<French>Il n'y a aucune maison près de vous.</French>
+			<Portuguese>Não há casas perto  de você.</Portuguese>
 		</Key>
 		<Key ID="STR_House_Container_House_Near_Owner">
 			<Original>You are not the owner of the house.</Original>
@@ -5046,6 +5115,7 @@
 			<Spanish>No eres el dueño de la casa.</Spanish>
 			<Russian></Russian>
 			<French>Vous n'êtes pas le propriétaire de la maison.</French>
+			<Portuguese>Você não é o dono da casa.</Portuguese>
 		</Key>
 		<Key ID="STR_House_Door_Unlock">
 			<Original>You have unlocked the door.</Original>
@@ -5184,6 +5254,7 @@
 			<Spanish>La puerta ya esta cerrada con llave!</Spanish>
 			<Russian></Russian>
 			<German>Die Tür ist bereits verriegelt!</German>
+			<Portuguese>Esta porta já está trancada!</Portuguese>
 			<Polish>Drzwi są już zablokowane!</Polish>
 		</Key>
 		<Key ID="STR_House_Raid_Progress">
@@ -7281,6 +7352,7 @@
 			<Spanish>Confirmación de guardar vehíchulo</Spanish>
 			<Russian></Russian>
 			<French>Stockez votre vehicule confirmation</French>
+			<Portuguese>Confirmação para guardar o veículo</Portuguese>
 		</Key>
 		<Key ID="STR_GUI_YourVeh">
 			<Original>Your Vehicles</Original>
@@ -7712,6 +7784,7 @@
 			<Spanish>Buscar Contenedor</Spanish>
 			<Russian></Russian>
 			<French>Fouiller Container</French>
+			<Portuguese>Vasculhar Container</Portuguese>
 		</Key>
 		<Key ID="STR_vInAct_PullOut">
 			<Original>Pullout Players</Original>
