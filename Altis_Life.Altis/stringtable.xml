@@ -7219,7 +7219,7 @@
 			<Polish>Odrodzenie możliwe za: %1</Polish>
 		</Key>
 		<Key ID="STR_Medic_Respawn_2">
-			<Original>You can now respawn</Original>
+			<Original>리스폰이 가능합니다. 만약 메딕호출하셨다면  메딕헛걸음하지않도록 기다려주세요.</Original>
 			<Czech>Nyní lze respawn</Czech>
 			<Spanish>Ya puedes reaparecer</Spanish>
 			<Russian></Russian>
