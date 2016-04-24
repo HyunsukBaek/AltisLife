@@ -6028,17 +6028,6 @@
 			<Portuguese>conjunto de ferramentas</Portuguese>
 			<Polish>zestaw narzędzi</Polish>
 		</Key>
-		<Key ID="STR_MAR_Cop_Autoset">
-			<Original>Cop AutoSet</Original>
-			<German>Cop AutoSet</German>
-			<Portuguese>Cop AutoSet</Portuguese>
-			<Polish>Cop AutoSet</Polish>
-		</Key>
-		<Key ID="STR_MAR_Master_Weapon_Shop">
-			<Original>Master Weapon Shop</Original>
-			<Portuguese>Lojas de Armas de Sargento</Portuguese>
-			<Polish>Broń sierżanta</Polish>
-		</Key>
 		<Key ID="STR_Item_Pickaxe">
 			<Original>Pickaxe</Original>
 			<Czech>Krumpáč</Czech>
@@ -10181,6 +10170,17 @@
 			<Russian></Russian>
 			<German>Dein Anteil beträgt $%1</German>
 			<Portuguese>A sua parte é de R$%1</Portuguese>
+		</Key>
+		<Key ID="STR_MAR_Cop_Autoset">
+			<Original>Cop AutoSet</Original>
+			<German>Cop AutoSet</German>
+			<Portuguese>Cop AutoSet</Portuguese>
+			<Polish>Cop AutoSet</Polish>
+		</Key>
+		<Key ID="STR_MAR_Master_Weapon_Shop">
+			<Original>Master Weapon Shop</Original>
+			<Portuguese>Lojas de Armas de Sargento</Portuguese>
+			<Polish>Broń sierżanta</Polish>
 		</Key>
 	</Package>
 </Project>
