@@ -61,6 +61,7 @@ class Life_Client_Core {
 		class surrender {};
 		class ticketAction {};
 		class unrestrain {};
+		class processCasinoSlots {}; //Casino process
 	};
 
 	class Admin {
@@ -212,6 +213,8 @@ class Life_Client_Core {
 		class whereAmI {};
 		class jihad {};
 		class autoSetPolice {};
+		class slotMachineRewards {};  //Casino
+		class slotMachineRandomizer {};  //Casino
 	};
 
 	class Gangs	{

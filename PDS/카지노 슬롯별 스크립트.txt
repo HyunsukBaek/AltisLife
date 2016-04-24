@@ -1,0 +1,15 @@
+//배팅금 100
+this allowDamage false;   this enableSimulation false;   
+this addAction["Insert Coin",life_fnc_processCasinoSlots,0,0,false,false,"",' !life_is_processing']; 
+this setObjectTexture [0, "textures\Slots\slotmachine100.paa"];
+
+//배팅금 500
+this allowDamage false;   this enableSimulation false;   
+this addAction["Insert Coin",life_fnc_processCasinoSlots,1,0,false,false,"",' !life_is_processing']; 
+this setObjectTexture [0, "textures\Slots\slotmachine500.paa"];
+
+//배팅금 1000
+this allowDamage false;   
+this enableSimulation false;   
+this addAction["Insert Coin",life_fnc_processCasinoSlots,2,0,false,false,"",' !life_is_processing']; 
+this setObjectTexture [0, "textures\Slots\slotmachine1000.paa"];

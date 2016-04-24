@@ -23,6 +23,7 @@ class RscTitles {
 	#include "dialog\hud_nameTags.hpp"
 	#include "dialog\hud_stats.hpp"
 	#include "dialog\statusBar.hpp"
+	#include "dialog\slotmachine.hpp"
 };
 
 class CfgFunctions {
@@ -94,6 +95,43 @@ class CfgSounds
 		sound[] = {"\sounds\unlock.ogg", 0.25, 1};
 		titles[] = {};
   };
+  
+ 
+	//Casino
+	class slot_spin
+	{
+		name = "slot_spin";
+		sound[] = {"\sounds\slot_spin.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	
+	class slot_payoff
+	{
+		name = "slot_payoff";
+		sound[] = {"\sounds\slot_payoff.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	
+	class Caching {
+		name = "caching";
+		sound[] = {"\sounds\caching.ogg", 1, 1};
+		titles[] = {};
+	};
+	
+	class slotspinsound
+	{
+		name = "slotspinSound";
+		sound[] = {"\sounds\slot_spin.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class jackpotsound
+	{
+		name = "jackpotSound";
+		sound[] = {"\sounds\slot_payoff.ogg", 1.0, 1};
+		titles[] = {};
+	};
+  
 };
 
 class CfgDebriefing
