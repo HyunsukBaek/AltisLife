@@ -11,13 +11,13 @@ private["_time","_bail","_esc","_countDown"];
 params [
 	["_ret",[],[[]]],
 	["_bad",false,[false]],
-	["_time",15,[0]]
+    ["_time",15,[0]]
 ];
-
 _time = time + (_time * 60);
-if(_bad) then { _time = time + 1100; } else { _time = time + (15 * 60); };
 
+//if(_bad) then { _time = time + 1100; } else { _time = time + (15 * 60); };
 //if(count _ret > 0) then { life_bail_amount = SEL(_ret,2); } else { life_bail_amount = 1500; _time = time + (10 * 60); };
+
 if(count _ret > 0) then { life_bail_amount = SEL(_ret,3); } else { life_bail_amount = 1500; };
 _esc = false;
 _bail = false;
@@ -33,11 +33,12 @@ if(_time <= 0) then { _time = time + (15 * 60); hintC "Please Report to Admin: J
 	};
 	life_canpay_bail = nil;
 };
+
 for "_i" from 0 to 1 step 0 do {
 	if((round(_time - time)) > 0) then {
-		_countDown = if(round (_time - time) > 60) then {format["%1 минут",round(round(_time - time) / 60)]} else {format["%1 секунд",round(_time - time)]};
+		_countDown = if(round (_time - time) > 60) then {format["%1 분",round(round(_time - time) / 60)]} else {format["%1 분",round(_time - time)]};
 		if(isNil "life_canpay_bail") then {
-			hintSilent format["Time Remaining:\n %1\n\nCan pay Bail: %3\nBail Amount: $%2",_countDown,[life_bail_amount] call life_fnc_numberText, "Да"];
+			hintSilent format["Time Remaining:\n %1\n\nCan pay Bail: %3\nBail Amount: $%2",_countDown,[life_bail_amount] call life_fnc_numberText, "달러"];
  		} else {
 			hintSilent format["Time Remaining:\n %1\n",_countDown];
 		};
@@ -70,7 +71,6 @@ switch (true) do {
 		} else {
 			[getPlayerUID player] remoteExecCall ["life_fnc_wantedRemove",RSERV];
 		};
-		
 		[5] call SOCK_fnc_updatePartial;
 	};
 	
@@ -84,7 +84,6 @@ switch (true) do {
 		} else {
 			[getPlayerUID player,profileName,"901"] remoteExecCall ["life_fnc_wantedAdd",RSERV];
 		};
-		
 		[5] call SOCK_fnc_updatePartial;
 	};
 	
@@ -97,7 +96,6 @@ switch (true) do {
 		} else {
 			[getPlayerUID player] remoteExecCall ["life_fnc_wantedRemove",RSERV];
 		};
-		
 		player setPos (getMarkerPos "jail_release");
 		[5] call SOCK_fnc_updatePartial;
 	};
