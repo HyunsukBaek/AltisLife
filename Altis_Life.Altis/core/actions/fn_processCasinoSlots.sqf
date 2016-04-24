@@ -106,7 +106,7 @@ if(life_cash >= _cost) then
 		if(_winAmount >= 100000) then
 		{
 			//5 cutText ["","PLAIN"];
-			hint format["You have won the jackpot of £%1",_winAmount]; 
+			hint format["You have won the jackpot of $%1",_winAmount]; 
 			//5 cutText ["","PLAIN"];
 			//titleText[format["You have won the jackpot of £%1",_winAmount],"PLAIN"];
 			_source say3D "jackpotSound";
