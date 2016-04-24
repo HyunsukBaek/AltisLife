@@ -11,7 +11,7 @@ class CfgPatches
 		weapons[] = {};
 		requiredAddons[] = {"A3_Data_F"};
 		fileName = "life_hc.pbo";
-		author[] = {"Nanou"};
+		author[] = {"SoulFucker"};
 	};
 };
 
