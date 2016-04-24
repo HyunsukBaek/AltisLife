@@ -28,4 +28,4 @@
 #include "FuelStat.hpp"
 #include "jail_time.hpp"
 #include "AltisPhone.hpp"
-#include "slot.hpp"
+#include "slotmachine.hpp"

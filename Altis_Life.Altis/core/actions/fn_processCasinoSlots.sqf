@@ -151,7 +151,7 @@ if(life_cash >= _cost) then
 		//5 cutText ["","PLAIN"];
 		hint format["You have lost your bet of (£%1)",_cost];
 		//5 cutText ["","PLAIN"];
-		//titleText[format["You have lost your bet of (£%1)",_cost],"PLAIN"];
+		//titleText[format["You have lost your bet of ($%1)",_cost],"PLAIN"];
 	};
 	
 	life_is_processing = false;

@@ -1,4 +1,4 @@
-#define SAFETY_ZONES    [["Safe_Kav", 500],["Safe_Pyrgos", 400], ["Safe_Athira", 300], ["Safe_Sofia", 150]] // Syntax: [["marker1", radius1], ["marker2", radius2], ...]
+#define SAFETY_ZONES    [["Safe_Kav", 500],["Safe_Pyrgos", 400], ["Safe_Athira", 300], ["Safe_Sofia", 150], ["Safe_Casino", 100]] // Syntax: [["marker1", radius1], ["marker2", radius2], ...]
 #define MESSAGE "!!!!!!You are in a Safe Zone. Do not Fire!!!!!!"
 
      if (isDedicated) exitWith {};

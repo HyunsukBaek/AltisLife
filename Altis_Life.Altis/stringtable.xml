@@ -4020,8 +4020,6 @@
 			<German>Sie können ein Element nicht entfernen, wenn Sie in einem Fahrzeug sind.</German>
 		</Key>
 	</Package>
-		
-	</Package>
 	<Package name="Jail_Strings">
 		<Key ID="STR_Jail_Warn">
 			<Original>감옥에서 죽어도 접종해도 그대로 감옥이야 껄껄!</Original>
@@ -4666,7 +4664,7 @@
 		</Key>
 		<Key ID="STR_Cop_NoLicensesFound">
 			<Original>라이선스가 없네&lt;br/&gt;</Original>
-			<Czech>Žádné Licence & lt; br / & gt;</Czech>
+			<Czech>qwq</Czech>
 			<Spanish></Spanish>
 			<Russian></Russian>
 			<German>Keine Lizenzen&lt;br/&gt;</German>
@@ -5142,7 +5140,7 @@
 		</Key>
 		<Key ID="STR_House_BuyMSG">
 			<Original>이 집은 &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt; %2 개의 저장창고가 설치가능</Original>
-			<Czech>Tento dům je k dispozici pro & lt; k color = "# 8cff9b '& gt; $% 1 & lt; / t & gt; & lt; br / & gt; Podporuje až 2% skladovací kontejnery</Czech>
+			<Czech>ee</Czech>
 			<Spanish></Spanish>
 			<Russian></Russian>
 			<German>Dieses Haus gibt es für &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt; Es unterstützt %2 Lagerbox(en)</German>
@@ -7738,7 +7736,7 @@
 			<French>Nettoyer</French>
 		</Key>
 		<Key ID="STR_NPC_Protected">
-			<original>이 차량은 NPC로부터 보호받고 있습니다.</Original>
+			<Original>이 차량은 NPC로부터 보호받고 있습니다.</Original>
 			<Czech>Toto vozidlo je chráněno NPC.</Czech>
 			<Spanish></Spanish>
 			<Russian></Russian>
@@ -10058,7 +10056,6 @@
 			<Russian></Russian>
 			<German>Dein Anteil beträgt $%1</German>
 			<Portuguese>A sua parte é de R$%1</Portuguese>
-		</Key>
 		</Key>		
 		<Key ID="STR_MAR_Master_Weapon_Shop">
 			<Original>마스터 무기 샵</Original>
@@ -10070,5 +10067,6 @@
 			<German>Cop AutoSet</German>
 			<Portuguese>Cop AutoSet</Portuguese>
 			<Polish>Cop AutoSet</Polish>		
+		</Key>
 	</Package>
 </Project>
