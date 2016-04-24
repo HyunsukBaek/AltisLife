@@ -13,18 +13,11 @@ _type = [_this,3,-1,[0]] call BIS_fnc_param;
 //Error check
 if(isNull _source) exitWith {};
 
-if(playerSide != civilian) exitWith 
-{
-	hint "You are not allowed to gamble whilst on duty."; 
-	//5 cutText ["","PLAIN"]; 
-	life_is_processing = false;
-};
-
 /*
 경찰 사용
 if(playerSide != civilian) exitWith 
 {
-	hint "You are not allowed to gamble whilst on duty."; 
+	hint "You are not allowed to gamble whitelist on duty."; 
 	//5 cutText ["","PLAIN"]; 
 	life_is_processing = false;
 };
