@@ -36,9 +36,9 @@ if(player distance _source > 3.5) exitWith
 
 switch (_type) do
 {
-	case 0:{_cost = 500;};//penny snatcher's
-	case 1:{_cost = 1000;};//average joe's
-	case 2:{_cost = 2000;};//high roller's
+	case 0:{_cost = 1000;};//penny snatcher's
+	case 1:{_cost = 2000;};//average joe's
+	case 2:{_cost = 5000;};//high roller's
 };
 _winAmount = 0;
 
@@ -103,7 +103,7 @@ if(life_cash >= _cost) then
 	if(_winAmount > 0) then
 	{
 		life_cash = life_cash + _winAmount;
-		if(_winAmount >= 100000) then
+		if(_winAmount >= 200000) then
 		{
 			//5 cutText ["","PLAIN"];
 			hint format["You have won the jackpot of $%1",_winAmount]; 
@@ -126,14 +126,14 @@ if(life_cash >= _cost) then
 			if(_winAmount == _cost) then //won back money
 			{
 				//5 cutText ["","PLAIN"];
-				hint format["You have won your money back. (£%1)",_winAmount];
+				hint format["You have won your money back. ($%1)",_winAmount];
 				//5 cutText ["","PLAIN"];
 				//titleText[format["You have won your money back. (£%1)",_winAmount],"PLAIN"];
 			}
 			else
 			{
 				//5 cutText ["","PLAIN"];
-				hint format["You have won £%1",_winAmount];
+				hint format["You have won $%1",_winAmount];
 				//5 cutText ["","PLAIN"];
 				//titleText[format["You have won £%1",_winAmount],"PLAIN"];
 			};
@@ -142,7 +142,7 @@ if(life_cash >= _cost) then
 	else
 	{
 		//5 cutText ["","PLAIN"];
-		hint format["You have lost your bet of (£%1)",_cost];
+		hint format["You have lost your bet of ($%1)",_cost];
 		//5 cutText ["","PLAIN"];
 		//titleText[format["You have lost your bet of ($%1)",_cost],"PLAIN"];
 	};
@@ -151,7 +151,7 @@ if(life_cash >= _cost) then
 }
 else
 {
-	if(life_cash < _cost) exitWith {hint (format["You need £%1 to play this machine.",_cost]); 
+	if(life_cash < _cost) exitWith {hint (format["You need $%1 to play this machine.",_cost]); 
 	//5 cutText ["","PLAIN"]; 
 	life_is_processing = false;};
 };

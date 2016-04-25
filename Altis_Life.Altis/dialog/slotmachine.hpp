@@ -22,17 +22,17 @@ class life_slotmachine
 		class ProgressText : Life_RscText
 		{
 			idc = 38206;
-			text = "Lucky Diamonds";
+			text = "럭키! 슬롯머신!!";
 			x = safeZoneX+(safezoneW * 0.5)-0.1;
 			y = safeZoneY+(safezoneH * 0.5)-0.5;
-			w = 0.65; h = 0.1;
+			w = 0.65; h = 0.12;
 		};
 		
 		class roll1 : life_RscPicture
 		{
 			idc = 38207;
 			text = "textures\Slots\SlotMachine\bar.jpg";
-			x = safeZoneX+(safezoneW * 0.25) + 0.380; 
+			x = safeZoneX+(safezoneW * 0.25) + 0.360;
 			y = safeZoneY+(safezoneH * 0.5)-0.09; // 0.11 to 0.15
 			w = 0.13; h = 0.25;
 		};
@@ -41,7 +41,7 @@ class life_slotmachine
 		{
 			idc = 38208;
 			text = "textures\Slots\SlotMachine\bar.jpg";
-			x = safeZoneX+(safezoneW * 0.25) + 0.520; 
+			x = safeZoneX+(safezoneW * 0.25) + 0.500;
 			y = safeZoneY+(safezoneH * 0.5)-0.09;
 			w = 0.13; h = 0.25;
 		};
@@ -50,7 +50,7 @@ class life_slotmachine
 		{
 			idc = 38209;
 			text = "textures\Slots\SlotMachine\bar.jpg";
-			x = safeZoneX+(safezoneW * 0.25) + 0.660; 
+			x = safeZoneX+(safezoneW * 0.25) + 0.640;
 			y = safeZoneY+(safezoneH * 0.5)-0.09;
 			w = 0.13; h = 0.25;
 		};

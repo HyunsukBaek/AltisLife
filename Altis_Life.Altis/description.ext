@@ -78,21 +78,21 @@ class CfgSounds
 	class jihad
 	{
 		name = "jihad";
-		sound[] = {"\sounds\satire.ogg", 0.25, 1};
+		sound[] = {"\sounds\satire.ogg", 0.5, 1};
 		titles[] = {};
 	};
 
 	class LockCarSound
   {
 		name = "LockCarSound";
-		sound[] = {"\sounds\car_lock.ogg", 0.25, 1};
+		sound[] = {"\sounds\car_lock.ogg", 0.38, 1};
 		titles[] = {};
   };
 
 	class UnlockCarSound
   {
 		name = "UnlockCarSound";
-		sound[] = {"\sounds\unlock.ogg", 0.25, 1};
+		sound[] = {"\sounds\unlock.ogg", 0.34, 1};
 		titles[] = {};
   };
   
@@ -101,34 +101,34 @@ class CfgSounds
 	class slot_spin
 	{
 		name = "slot_spin";
-		sound[] = {"\sounds\slot_spin.ogg", 1, 1};
+		sound[] = {"\sounds\slot_spin.ogg", 1.25, 1};
 		titles[] = {1, ""};
 	};
 	
 	class slot_payoff
 	{
 		name = "slot_payoff";
-		sound[] = {"\sounds\slot_payoff.ogg", 1, 1};
+		sound[] = {"\sounds\slot_payoff.ogg", 1.25, 1};
 		titles[] = {1, ""};
 	};
 	
 	class Caching {
 		name = "caching";
-		sound[] = {"\sounds\caching.ogg", 1, 1};
+		sound[] = {"\sounds\caching.ogg", 1.25, 1};
 		titles[] = {};
 	};
 	
 	class slotspinsound
 	{
 		name = "slotspinSound";
-		sound[] = {"\sounds\slot_spin.ogg", 1.0, 1};
+		sound[] = {"\sounds\slot_spin.ogg", 1.25, 1};
 		titles[] = {};
 	};
 	
 	class jackpotsound
 	{
 		name = "jackpotSound";
-		sound[] = {"\sounds\slot_payoff.ogg", 1.0, 1};
+		sound[] = {"\sounds\slot_payoff.ogg", 1.25, 1};
 		titles[] = {};
 	};
   
