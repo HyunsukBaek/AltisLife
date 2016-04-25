@@ -19,19 +19,21 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-            { "U_C_Poloshirt_stripped", "Poloshirt stripped", 125, { "", "", -1 } },
-            { "U_C_Poloshirt_redwhite", "Poloshirt Red/White", 150, { "", "", -1 } },
-            { "U_C_Poloshirt_salmon", "Poloshirt Salmon", 175, { "", "", -1 } },
-            { "U_C_Poloshirt_blue", "Poloshirt Blue", 250, { "", "", -1 } },
-            { "U_C_Poor_2", "Rag tagged clothes", 250, { "", "", -1 } },
-            { "U_C_Poloshirt_burgundy", "Poloshirt Burgundy", 275, { "", "", -1 } },
+			{ "U_C_Poloshirt_blue", "Super Man", 250, { "", "", -1 } },
+			{ "U_C_Poloshirt_burgundy", "Barbie", 275, { "", "", -1 } },
+			{ "U_C_Poloshirt_redwhite", "Kitty", 150, { "", "", -1 } },
+            { "U_C_Poloshirt_stripped", "Gay1", 125, { "", "", -1 } },
+			{ "U_C_Poloshirt_salmon", "Gay2", 175, { "", "", -1 } },
+			{ "U_C_TeeSurfer_shorts_1", "Gay3", 175, { "", "", -1 } },
+			{ "U_C_TeeSurfer_shorts_2", "Gay4", 175, { "", "", -1 } },
+			{ "U_Competitor", "Press Suit", 275, { "", "", -1 } },
+            { "U_C_Poor_2", "Rag tagged clothes", 250, { "", "", -1 } },            
             { "U_C_Poloshirt_tricolour", "Poloshirt Tricolor", 350, { "", "", -1 } },
             { "U_OrestesBody", "Surfing On Land", 1100, { "", "", -1 } },
             { "U_C_HunterBody_grn", "The Hunters Look", 1500, { "", "", -1 } },
             { "U_C_WorkerCoveralls", "Mechanic Coveralls", 2500, { "", "", -1 } },
             { "U_NikosAgedBody", "Casual Wears", 5000, { "", "", -1 } },
             { "U_OrestesBody", "Surfing On Land", 1100, { "", "", -1 } },
-            { "U_Competitor", "Competitor Suit", 275, { "", "", -1 } },
             { "U_C_Poor_1", "Worn Clothes", 275, { "", "", -1 } },
             { "U_C_Scientist", "Scientist", 275, { "", "", -1 } }
         };
@@ -198,7 +200,9 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-            { "U_B_Wetsuit", "", 2000, { "", "", -1 } }
+            { "U_I_Wetsuit", "", 2000, { "", "", -1 } },
+			{ "U_O_Wetsuit", "", 2000, { "", "", -1 } },
+			{ "U_B_Wetsuit", "", 2000, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } }
