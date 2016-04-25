@@ -32,7 +32,7 @@ class life_slotmachine
 		{
 			idc = 38207;
 			text = "textures\Slots\SlotMachine\bar.jpg";
-			x = safeZoneX+(safezoneW * 0.25) + 0.360;
+			x = safeZoneX+(safezoneW * 0.25) + 0.320;
 			y = safeZoneY+(safezoneH * 0.5)-0.09; // 0.11 to 0.15
 			w = 0.13; h = 0.25;
 		};
@@ -41,7 +41,7 @@ class life_slotmachine
 		{
 			idc = 38208;
 			text = "textures\Slots\SlotMachine\bar.jpg";
-			x = safeZoneX+(safezoneW * 0.25) + 0.500;
+			x = safeZoneX+(safezoneW * 0.25) + 0.460;
 			y = safeZoneY+(safezoneH * 0.5)-0.09;
 			w = 0.13; h = 0.25;
 		};
@@ -50,7 +50,7 @@ class life_slotmachine
 		{
 			idc = 38209;
 			text = "textures\Slots\SlotMachine\bar.jpg";
-			x = safeZoneX+(safezoneW * 0.25) + 0.640;
+			x = safeZoneX+(safezoneW * 0.25) + 0.600;
 			y = safeZoneY+(safezoneH * 0.5)-0.09;
 			w = 0.13; h = 0.25;
 		};
