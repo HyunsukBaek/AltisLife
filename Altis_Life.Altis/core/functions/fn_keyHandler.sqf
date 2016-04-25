@@ -442,7 +442,18 @@ switch (_code) do {
 			//cutText [format["팔굽혀펴기!!!"], "PLAIN DOWN"];
 			player playMove "AmovPercMstpSnonWnonDnon_exercisePushup";
 		};
-	};		
+	};
+	
+	//술취한모션 Shifh + 9 
+	case 10:
+	{
+		if(_shift) then {_handled = true;};
+		if(_shift && {isTouchingGround player} && {EQUAL(stance player,"STAND")} && {!life_is_arrested}) then
+		{	
+			//cutText [format["팔굽혀펴기!!!"], "PLAIN DOWN"];
+			player playMove "AcinPercMstpSnonWnonDnon_agony";
+		};
+	};
 };
 
 _handled;

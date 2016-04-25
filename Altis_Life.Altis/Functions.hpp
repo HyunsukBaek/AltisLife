@@ -62,6 +62,7 @@ class Life_Client_Core {
 		class ticketAction {};
 		class unrestrain {};
 		class processCasinoSlots {}; //Casino process
+		class JetRocket {}; //JetPack
 	};
 
 	class Admin {

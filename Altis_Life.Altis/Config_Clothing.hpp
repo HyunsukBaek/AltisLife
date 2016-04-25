@@ -93,7 +93,6 @@ class Clothing {
             { "B_AssaultPack_khk", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_dgtl", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_rgr", "", 2000, { "", "", -1 } },
-            { "B_AssaultPack_sgg", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_blk", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_cbr", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_mcamo", "", 2000, { "", "", -1 } },
@@ -114,7 +113,8 @@ class Clothing {
             { "B_Carryall_oli", "", 7500, { "", "", -1 } },
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
-	    { "B_Parachute", "", 37500, { "", "", -1 } }
+			{ "B_AssaultPack_sgg", "JetPack", 500000, { "", "", -1 } },
+			{ "B_Parachute", "", 37500, { "", "", -1 } }
         };
     };
 
@@ -297,7 +297,6 @@ class Clothing {
             { "B_AssaultPack_khk", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_dgtl", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_rgr", "", 2000, { "", "", -1 } },
-            { "B_AssaultPack_sgg", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_blk", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_cbr", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_mcamo", "", 2000, { "", "", -1 } },
@@ -319,6 +318,7 @@ class Clothing {
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
             { "B_OutdoorPack_blk", "", 500, { "", "", -1 } },
+			{ "B_AssaultPack_sgg", "JetPack", 500000, { "", "", -1 } },
 	    { "B_Parachute", "", 37500, { "", "", -1 } }
         };
     };
@@ -447,7 +447,6 @@ class Clothing {
             { "B_AssaultPack_khk", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_dgtl", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_rgr", "", 2000, { "", "", -1 } },
-            { "B_AssaultPack_sgg", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_blk", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_cbr", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_mcamo", "", 2000, { "", "", -1 } },
@@ -469,6 +468,7 @@ class Clothing {
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
             { "B_OutdoorPack_blk", "", 500, { "", "", -1 } },
+			{ "B_AssaultPack_sgg", "JetPack", 500000, { "", "", -1 } },
 	    { "B_Parachute", "", 37500, { "", "", -1 } }
         };
     };

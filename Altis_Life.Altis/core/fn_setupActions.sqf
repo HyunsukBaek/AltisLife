@@ -13,5 +13,8 @@ switch (playerSide) do {
 		//Rob person
 		life_actions = life_actions + [player addAction[localize "STR_pAct_RobPerson",life_fnc_robAction,"",0,false,false,"",'
 		!isNull cursorObject && player distance cursorObject < 3.5 && isPlayer cursorObject && animationState cursorObject == "Incapacitated" && !(cursorObject getVariable["robbed",FALSE]) ']];
+		// RocketHelmet
+		life_actions = life_actions + [player addAction["<t color='#FF0000'>Active JetPack</t>",life_fnc_JetRocket,"",0,false,false,"",
+        'Backpack player == "B_AssaultPack_sgg" && alive player && vehicle player == player && !life_istazed && !life_isSuicide && !(player getVariable "restrained") && !(player getVariable "Escorting") && !(player getVariable "transporting")']];
 	};
 };
