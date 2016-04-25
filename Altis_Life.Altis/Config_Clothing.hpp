@@ -19,14 +19,14 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-			{ "U_C_Poloshirt_blue", "Super Man", 250, { "", "", -1 } },
-			{ "U_C_Poloshirt_burgundy", "Barbie", 275, { "", "", -1 } },
-			{ "U_C_Poloshirt_redwhite", "Kitty", 150, { "", "", -1 } },
+            { "U_C_Poloshirt_blue", "Super Man", 250, { "", "", -1 } },
+            { "U_C_Poloshirt_burgundy", "Barbie", 275, { "", "", -1 } },
+            { "U_C_Poloshirt_redwhite", "Kitty", 150, { "", "", -1 } },
             { "U_C_Poloshirt_stripped", "Gay1", 125, { "", "", -1 } },
-			{ "U_C_Poloshirt_salmon", "Gay2", 175, { "", "", -1 } },
-			{ "U_C_TeeSurfer_shorts_1", "Gay3", 175, { "", "", -1 } },
-			{ "U_C_TeeSurfer_shorts_2", "Gay4", 175, { "", "", -1 } },
-			{ "U_Competitor", "Press Suit", 275, { "", "", -1 } },
+            { "U_C_Poloshirt_salmon", "Gay2", 175, { "", "", -1 } },
+            { "U_C_TeeSurfer_shorts_1", "Gay3", 175, { "", "", -1 } },
+            { "U_C_TeeSurfer_shorts_2", "Gay4", 175, { "", "", -1 } },
+            { "U_Competitor", "Press Suit", 275, { "", "", -1 } },
             { "U_C_Poor_2", "Rag tagged clothes", 250, { "", "", -1 } },            
             { "U_C_Poloshirt_tricolour", "Poloshirt Tricolor", 350, { "", "", -1 } },
             { "U_OrestesBody", "Surfing On Land", 1100, { "", "", -1 } },
@@ -201,8 +201,8 @@ class Clothing {
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
             { "U_I_Wetsuit", "", 2000, { "", "", -1 } },
-			{ "U_O_Wetsuit", "", 2000, { "", "", -1 } },
-			{ "U_B_Wetsuit", "", 2000, { "", "", -1 } }
+            { "U_O_Wetsuit", "", 2000, { "", "", -1 } },
+            { "U_B_Wetsuit", "", 2000, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } }
@@ -472,7 +472,7 @@ class Clothing {
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
             { "B_OutdoorPack_blk", "", 500, { "", "", -1 } },
-			{ "B_AssaultPack_sgg", "JetPack", 500000, { "", "", -1 } },
+            { "B_AssaultPack_sgg", "JetPack", 500000, { "", "", -1 } },
 	    { "B_Parachute", "", 37500, { "", "", -1 } }
         };
     };
