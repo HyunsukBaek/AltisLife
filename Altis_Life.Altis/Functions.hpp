@@ -176,6 +176,7 @@ class Life_Client_Core {
 		class fetchCfgDetails {};
 		class fetchDeadGear {};
 		class fetchVehInfo {};
+		class getDamage {};
 		class giveDiff {};
 		class handleDamage {};
 		class handleInv {};
