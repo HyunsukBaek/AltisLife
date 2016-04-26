@@ -82,7 +82,7 @@ class WeaponShops {
             { "hgun_PDW2000_F", "", 155000, 20000 },
             { "arifle_SDAR_F", "", 450000, 20000 },
             { "launch_RPG32_F", "", 1800000, 20000 },
-            { "FirstAidKit", "", 150, 65 }
+            { "FirstAidKit", "", 550, 65 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
@@ -113,7 +113,7 @@ class WeaponShops {
             { "ItemWatch", "", 50, 10 },
             { "ItemRadio", "", 2500, 25 },
             { "ItemWatch", "", 50, -1 },
-            { "FirstAidKit", "", 150, 65 },
+            { "FirstAidKit", "", 550, 65 },
             { "NVGoggles", "", 2000, 980 },
             { "Chemlight_red", "", 300, 50 },
             { "Chemlight_yellow", "", 300, 50 },
@@ -136,7 +136,7 @@ class WeaponShops {
             { "ItemCompass", "", 250, 25 },
             { "ItemWatch", "", 250, 25 },
             { "ItemRadio", "", 2500, 25 },
-            { "FirstAidKit", "", 750, 65 },
+            { "FirstAidKit", "", 550, 65 },
             { "NVGoggles", "", 10000, 980 },
             { "Chemlight_red", "", 1500, 50 },
             { "Chemlight_yellow", "", 1500, 50 },
@@ -157,7 +157,7 @@ class WeaponShops {
             { "Binocular", "", 150, 10 },
             { "ItemGPS", "", 100, 45 },
             { "ItemRadio", "", 3000, 980 },
-            { "FirstAidKit", "", 150, 65 },
+            { "FirstAidKit", "", 550, 65 },
             { "NVGoggles", "", 2000, 980 },
             { "arifle_sdar_F", "Taser Rifle", 20000, 7500 },
             { "hgun_P07_snds_F", "Stun Pistol", 2000, 650 },
@@ -166,7 +166,6 @@ class WeaponShops {
             { "Laserdesignator", "", 3000, 980 },
             { "Binocular", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
-            { "FirstAidKit", "", 150, 65 },
             { "NVGoggles", "", 2000, 980 }
         };
         mags[] = {
@@ -287,7 +286,7 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "FirstAidKit", "", 150, 65 },
+            { "FirstAidKit", "", 550, 65 },
             { "NVGoggles", "", 1200, 980 },
             { "ItemGPS", "", 100, 45 },
             { "Binocular", "", 150, 50 },

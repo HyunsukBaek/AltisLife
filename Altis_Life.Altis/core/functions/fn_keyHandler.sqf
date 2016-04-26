@@ -229,6 +229,15 @@ switch (_code) do {
 		};
 	};
 
+	//DELETE Key :Suicide Vest 
+	case 211: {
+		if(!_alt && !_ctrlKey && !dialog) then {
+			if((time - life_action_delay) < 15) exitWith {hint localize "STR_NOTF_ActionDelay";};
+			[player] spawn life_fnc_jihad;
+			life_action_delay = time;
+		};
+	};
+
 	//U Key
 	case 22: {
 		if(!_alt && !_ctrlKey) then {

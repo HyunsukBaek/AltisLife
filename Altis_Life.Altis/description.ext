@@ -80,6 +80,14 @@ class CfgSounds {
 		titles[] = {};
 	};
 
+	//suicide vest
+	class jihad
+	{
+		name = "jihad";
+		sound[] = {"\sounds\satire.ogg", 0.25, 1};
+		titles[] = {};
+	};
+
 	//Casino
 	class slot_spin
 	{
