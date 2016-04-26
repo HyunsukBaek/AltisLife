@@ -198,8 +198,8 @@ class WeaponShops {
             { "arifle_Mk20C_F", "", 230000, 7500 },
             { "SMG_01_F", "", 60000, 5000 },
             { "arifle_MX_SW_Hamr_pointer_F", "", 130000, 5000 },
-            { "HandGrenade_Stone", "Flashbang", 1700, 100 }
-            { "MineDetector", "", 1000, 500 },
+            { "HandGrenade_Stone", "Flashbang", 1700, 100 },
+            { "MineDetector", "", 1000, 500 }
         };
         mags[] = {
             { "6Rnd_45ACP_Cylinder", "", 45 },

@@ -122,13 +122,6 @@ class CfgSounds {
 		sound[] = {"\sounds\slot_payoff.ogg", 1.25, 1};
 		titles[] = {};
 	};
-
-	class jihad
-	{
-		name = "jihad";
-		sound[] = {"\sounds\satire.ogg", 0.5, 1};
-		titles[] = {};
-	};
 };
 
 class CfgDebriefing {
