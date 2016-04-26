@@ -30,73 +30,56 @@ class CfgFunctions {
 	#include "Functions.hpp"
 };
 
-class CfgSounds
-{
+class CfgSounds {
 	sounds[] = {};
-	class SirenLong
-	{
+	class SirenLong {
 		name = "SirenLong";
 		sound[] = {"\sounds\Siren_Long.ogg", 1.0, 1};
 		titles[] = {};
 	};
 
-	class medicSiren
-	{
+	class medicSiren {
 		name = "medicSiren";
 		sound[] = {"\sounds\medic_siren.ogg", 1.0, 1};
 		titles[] = {};
 	};
 
-	class tazersound
-	{
+	class tazersound {
 		name = "Tazersound";
 		sound[] = {"\sounds\tazer.ogg", 0.25, 1};
 		titles[] = {};
 	};
 
-	class flashbang
-	{
+	class flashbang {
 		name = "flashbang";
 		sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
 		titles[] = {};
 	};
 
-	class mining
-	{
+	class mining {
 		name = "mining";
 		sound[] = {"\sounds\mining.ogg", 1.0, 1};
 		titles[] = {};
 	};
 
-	class harvest
-	{
+	class harvest {
 		name = "harvest";
 		sound[] = {"\sounds\harvest.ogg", 1.0, 1};
 		titles[] = {};
 	};
 
-	class jihad
-	{
-		name = "jihad";
-		sound[] = {"\sounds\satire.ogg", 0.5, 1};
+	class LockCarSound {
+		name = "LockCarSound";
+		sound[] = {"\sounds\car_lock.ogg", 0.35, 1};
 		titles[] = {};
 	};
 
-	class LockCarSound
-  {
-		name = "LockCarSound";
-		sound[] = {"\sounds\car_lock.ogg", 0.38, 1};
-		titles[] = {};
-  };
-
-	class UnlockCarSound
-  {
+	class UnlockCarSound {
 		name = "UnlockCarSound";
-		sound[] = {"\sounds\unlock.ogg", 0.34, 1};
+		sound[] = {"\sounds\unlock.ogg", 0.35, 1};
 		titles[] = {};
-  };
-  
- 
+	};
+
 	//Casino
 	class slot_spin
 	{
@@ -131,13 +114,17 @@ class CfgSounds
 		sound[] = {"\sounds\slot_payoff.ogg", 1.25, 1};
 		titles[] = {};
 	};
-  
+
+	class jihad
+	{
+		name = "jihad";
+		sound[] = {"\sounds\satire.ogg", 0.5, 1};
+		titles[] = {};
+	};
 };
 
-class CfgDebriefing
-{
-	class NotWhitelisted
-	{
+class CfgDebriefing {
+	class NotWhitelisted {
 		title = "$STR_NotWhitelisted_Title";
 		subtitle = "$STR_NotWhitelisted_SubTitle";
 		description = "$STR_NotWhitelisted_Descript";
@@ -146,8 +133,7 @@ class CfgDebriefing
 		pictureColor[] = {0,0.3,0.6,1};
 	};
 
-	class Blacklisted
-	{
+	class Blacklisted {
 		title = "$STR_Blacklisted_Title";
 		subtitle = "$STR_Blacklisted_SubTitle";
 		description = "$STR_Blacklisted_Descript";
@@ -156,8 +142,7 @@ class CfgDebriefing
 		pictureColor[] = {0,0.3,0.6,1};
 	};
 
-	class SpyGlass
-	{
+	class SpyGlass {
 		title = $STR_SpyDetect_Title;
 		subTitle = $STR_SpyDetect_SubTitle;
 		description = $STR_SpyDetect_Descript;
@@ -166,7 +151,6 @@ class CfgDebriefing
 		pictureColor[] = {0,0.3,0.6,1};
 	};
 };
-
 
 class Params
 {
@@ -179,10 +163,8 @@ class Params
        };
 };
 
-class CfgNotifications
-{
-	class MedicalRequestEmerg
-	{
+class CfgNotifications {
+	class MedicalRequestEmerg {
 		title = "$STR_MedicalRequestEmerg_Title";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
 		description = "%1";
@@ -190,8 +172,7 @@ class CfgNotifications
 		priority = 7;
 	};
 
-	class DeliveryAssigned
-	{
+	class DeliveryAssigned {
 		title = "$STR_DeliveryAssigned_Title";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
 		description = "%1";
@@ -199,8 +180,7 @@ class CfgNotifications
 		priority = 7;
 	};
 
-	class DeliveryFailed
-	{
+	class DeliveryFailed {
 		title = "$STR_DeliveryFailed_Title";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskiconfailed_ca.paa";
 		description = "%1";
@@ -208,8 +188,7 @@ class CfgNotifications
 		priority = 7;
 	};
 
-	class DeliverySucceeded
-	{
+	class DeliverySucceeded {
 		title = "$STR_DeliverySucceeded_Title";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcondone_ca.paa";
 		description = "%1";
@@ -217,8 +196,7 @@ class CfgNotifications
 		priority = 6;
 	};
 
-	class TextMessage
-	{
+	class TextMessage {
 		title = "$STR_TextMessage_Title";
 		iconPicture = "icons\ico_messageNew.paa";
 		description = "%1";
@@ -226,8 +204,7 @@ class CfgNotifications
 		priority = 6;
 	};
 
-	class PoliceDispatch
-	{
+	class PoliceDispatch {
 		title = "$STR_PoliceDispatch_Title";
 		iconPicture = "icons\ico_messagePolice.paa";
 		description = "%1";
@@ -235,8 +212,7 @@ class CfgNotifications
 		priority = 6;
 	};
 
-	class AdminDispatch
-	{
+	class AdminDispatch {
 		title = "$STR_AdminDispatch_Title";
 		iconPicture = "icons\ico_messageAdmin.paa";
 		description = "%1";
@@ -244,8 +220,7 @@ class CfgNotifications
 		priority = 6;
 	};
 
-	class AdminMessage
-	{
+	class AdminMessage {
 		title = "$STR_AdminMessage_Title";
 		iconPicture = "icons\ico_messageAdmin.paa";
 		description = "%1";

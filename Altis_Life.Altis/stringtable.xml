@@ -1473,6 +1473,7 @@
 		</Key>
 		<Key ID="STR_GNOTF_DisbandWarn">
 			<Original>You are about to disband the gang, by disbanding the gang it will be removed from the database and the group will be dropped. &lt;br/&gt;&lt;br/&gt;Are you sure you want to disband the group? You will not be refunded the price for creating it.</Original>
+			<Czech>Chystáte se rozpustit gang, tím, že rozpustí gang bude odstraněna z databáze a skupina bude vynechána.2pravdu chcete rozpustit skupinu? Budete nevrací cenu za jeho vytvoření.</Czech>
 			<Spanish>Estas a punto de desmantelar la Pandilla, si prosiges la Pandilla se borrara de la base de datos. &lt;br/&gt;&lt;br/&gt;Estas seguro de querer desmantelarla? Cualquier dinero invertido no sera devuelto.</Spanish>
 			<Russian></Russian>
 			<German>Du bist dabei, die Gang aufzulösen. Durch Auflösung der Gang wird sie aus der Datenbank entfernt. &lt;br/&gt;&lt;br/&gt;Bist du sicher, dass du die Gang auflösen willst? Du erhältst den Preis für die Erstellung nicht zurück.</German>
@@ -1516,6 +1517,7 @@
 		</Key>
 		<Key ID="STR_GNOTF_InviteMSG">
 			<Original>%1 has invited you to a gang called %2&lt;br/&gt;If you accept the invitation you will be a part of their gang and will have access to the gang funds and controlled gang hideouts.</Original>
+			<Czech>%1 vás pozval na party s názvem%2 &lt; br / &gt; Pokud přijmete pozvání budete součástí jejich gangu a budou mít přístup ke gangu fondů a řízených gangů úkrytů.</Czech>
 			<Spanish>%1 te ha invitado a una Pandilla llamada %2&lt;br/&gt;Si aceptas seras parte de su pandilla, compartiras el banco de la pandilla y controlaras sus escondites.</Spanish>
 			<Russian></Russian>
 			<German>%1 hat dich zu einer Gang namens %2 eingeladen &lt;br/&gt; Wenn Du die Einladung annimmst, wirst du ein Teil der Gang und bekommst Zugang zu den Gang-Konten und kontrollierten Gang Verstecken.</German>
@@ -2912,6 +2914,39 @@
 			<Portuguese>Você não tem R$%1 para ser curado</Portuguese>
 			<Polish>Nie masz $%1 na leczenie</Polish>
 		</Key>
+		<Key ID="STR_NOTF_HS_FullHealth">
+			<Original>You do not need to be healed!</Original>
+			<Czech>Nemusíte být uzdraven!</Czech>
+			<French>Vous ne devez pas être guéri!</French>
+			<Spanish>Usted no necesita ser sanado!</Spanish>
+			<Italian>Non è necessario essere guarito!</Italian>
+			<Polish>Nie trzeba się wyleczyć!</Polish>
+			<Portuguese>Você não precisa ser curado!</Portuguese>
+			<Russian>Вам не нужно быть исцелены!</Russian>
+			<German>Sie brauchen nicht geheilt zu werden!</German>
+		</Key>
+		<Key ID="STR_NOTF_HS_PopUp">
+			<Original>Spend $%1 to be fully healed?</Original>
+			<Czech>Útrata $%1 musí být zcela vyléčit?</Czech>
+			<French>Spend $%1 à être complètement guéri?</French>
+			<Spanish>Gastar $%1 que se haya recuperado por completo?</Spanish>
+			<Italian>Spendere $%1 di essere completamente guarito?</Italian>
+			<Polish>Wydać $%1 w pełni uzdrowiony?</Polish>
+			<Portuguese>Gastar US $%1 para ser totalmente curado?</Portuguese>
+			<Russian>Потратит $%1, чтобы быть полностью зажила?</Russian>
+			<German>Spend $%1 vollständig geheilt zu werden?</German>
+		</Key>
+		<Key ID="STR_NOTF_HS_TITLE">
+			<Original>Doctor</Original>
+			<Czech>Doktor</Czech>
+			<French>Docteur</French>
+			<Spanish>Doctor</Spanish>
+			<Italian>Medico</Italian>
+			<Polish>Lekarz</Polish>
+			<Portuguese>Médico</Portuguese>
+			<Russian>Врач</Russian>
+			<German>Arzt</German>
+		</Key>
 		<Key ID="STR_NOTF_HS_Healing">
 			<Original>Please stay still</Original>
 			<Czech>Prosím, zůstat v klidu</Czech>
@@ -3701,28 +3736,6 @@
 			<Portuguese>Ninguém foi selecionado!</Portuguese>
 			<Russian>Никто не был выбран!</Russian>
 			<German>Niemand wurde ausgewählt!</German>
-		</Key>
-		<Key ID="STR_NOTF_notWearingVest">
-			<Original>You aren't wearing a suicide vest.</Original>
-			<Czech>Nejste na sobě sebevražedný vestu.</Czech>
-			<French>Vous ne portez pas un gilet de suicide.</French>
-			<Spanish>Usted no está usando un chaleco suicida.</Spanish>
-			<Italian>Non si indossa un giubbotto di suicidio.</Italian>
-			<Polish>Nie masz na sobie kamizelkę samobójstwo.</Polish>
-			<Portuguese>Você não está usando um colete suicida.</Portuguese>
-			<Russian>Вы не носить жилет смертника.</Russian>
-			<German>Sie sind nicht eine Selbstmordweste tragen.</German>
-		</Key>
-		<Key ID="STR_NOTF_cannotDetonateBombHere">
-			<Original>Some supernatural force prevents you from detonating a bomb in this holy place!</Original>
-			<Czech>Některé nadpřirozená síla brání odpálí bombu v tomto svatém místě!</Czech>
-			<French>Une force surnaturelle vous empêche de faire exploser une bombe dans ce lieu saint!</French>
-			<Spanish>Una fuerza sobrenatural que impide la detonación de una bomba en este lugar santo!</Spanish>
-			<Italian>Alcuni forza soprannaturale vi impedisce di far esplodere una bomba in questo luogo santo!</Italian>
-			<Polish>Niektóre nadprzyrodzona siła uniemożliwia detonować bombę w tym świętym miejscu!</Polish>
-			<Portuguese>Alguma força sobrenatural impede de detonar uma bomba neste lugar santo!</Portuguese>
-			<Russian>Некоторые сверхъестественная сила мешает вам взорвав бомбу в этом святом месте!</Russian>
-			<German>Einige übernatürliche Kraft verhindert, dass Sie eine Bombe in diesem heiligen Ort Detonation!</German>
 		</Key>
 		<Key ID="STR_NOTF_didNotSelectItemToGive">
 			<Original>You didn't select an item you wanted to give.</Original>
@@ -6661,6 +6674,17 @@
 			<Spanish>Debes abrir las puertas de afuera antes de abrir esta!</Spanish>
 			<Russian></Russian>
 			<Portuguese>Você deve abrir as portas externas antes de abrir essa!</Portuguese>
+		</Key>
+		<Key ID="STR_ISTR_defuseKit_NotNear">
+			<Original>You are not looking at a vault.</Original>
+			<Czech>Nejste při pohledu na klenbu.</Czech>
+			<French>Vous ne cherchez pas à un coffre-fort.</French>
+			<Spanish>Usted no está buscando en una cámara acorazada.</Spanish>
+			<Italian>Non cercate in un caveau.</Italian>
+			<Polish>Nie jesteś patrząc na sklepieniu.</Polish>
+			<Portuguese>Você não está olhando para um cofre.</Portuguese>
+			<Russian>Вы не смотрите на хранилище.</Russian>
+			<German>Вы не смотрите на хранилище.</German>
 		</Key>
 		<Key ID="STR_ISTR_Defuse_Nothing">
 			<Original>There is no charge on the vault?</Original>

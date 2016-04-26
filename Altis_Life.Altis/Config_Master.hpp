@@ -7,7 +7,7 @@
 class Life_Settings {
 /* Logging and Security Settings*/
     /* Security Settings */
-    sypglass_toggle = false; //Spyglass On/Off Toggle --> True = On & False = Off
+    spyGlass_toggle = false; //Spyglass On/Off Toggle --> True = On & False = Off
 
     /* Data Logging Settings */
     battlEye_friendlyLogging = false; //Set to true if you plan to read the data in your BattlEye log files. Otherwise use the SERVER RPT.
@@ -82,6 +82,7 @@ class Life_Settings {
     /* Medical System Configurations */
     revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
     revive_fee = 25000; //Revive fee that players have to pay and medics only EMS(independent) are rewarded with this amount.
+    hospital_heal_fee = 100; //Fee to heal at a hospital NPC
 
     /* Paycheck & Bank System Configurations */
     bank_cop = 100000; //Amount of cash in bank for new cops
@@ -112,19 +113,19 @@ class Life_Settings {
         /* Vehicle Purchase Prices */
         vehicle_purchase_multiplier_CIVILIAN = 1; //Civilian Vehicle Buy Price = Config_Vehicle price * multiplier
         vehicle_purchase_multiplier_COP = 5; //Cop Vehicle Buy Price = Config_Vehicle price * multiplier
-        vehicle_purchase_multiplier_MEDIC = .75; //Medic Vehicle Buy Price = Config_Vehicle price * multiplier
+        vehicle_purchase_multiplier_MEDIC = 1; //Medic Vehicle Buy Price = Config_Vehicle price * multiplier
         vehicle_purchase_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
 
         /* Vehicle Rental Prices */
         vehicle_rental_multiplier_CIVILIAN = .75; //Civilian Vehicle Rental Price = Config_Vehicle price * multiplier
         vehicle_rental_multiplier_COP = .5; //Cop Vehicle Rental Price = Config_Vehicle price * multiplier
-        vehicle_rental_multiplier_MEDIC = .5; //Medic Vehicle Rental Price = Config_Vehicle price * multiplier
+        vehicle_rental_multiplier_MEDIC = .75; //Medic Vehicle Rental Price = Config_Vehicle price * multiplier
         vehicle_rental_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
 
         /* Vehicle Sell Prices */
         vehicle_sell_multiplier_CIVILIAN = .75; //Civilian Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
         vehicle_sell_multiplier_COP = .75; //Cop Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
-        vehicle_sell_multiplier_MEDIC = .5; //Medic Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
+        vehicle_sell_multiplier_MEDIC = .75; //Medic Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
         vehicle_sell_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
 
         /* "Other" Vehicle Prices */
@@ -147,8 +148,8 @@ class Life_Settings {
         {"STR_Crime_488","10000","488"}, //절도 잡범
         {"STR_Crime_480","5000","480"}, //폭행 도주
         {"STR_Crime_481","20000","481"}, //불법물품소지
-	{"STR_Crime_483","100000","483"}, // 마약 밀매
-	{"STR_Crime_390","15000","390"}, //마약 흡입
+        {"STR_Crime_483","100000","483"}, // 마약 밀매
+        {"STR_Crime_390","15000","390"}, //마약 흡입
         {"STR_Crime_482","5000","482"}, // 공갈
         {"STR_Crime_459","65000","459"}, //빈집 털이
         {"STR_Crime_666","20000","666"}, //탈세

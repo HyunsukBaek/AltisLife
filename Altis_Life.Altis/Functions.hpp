@@ -135,8 +135,8 @@ class Life_Client_Core {
 		class ticketPrompt {};
 		class vehInvSearch {};
 		class wantedGrab {};
-		class showArrestDialog {};
-		class arrestDialog_Arrest {};
+		class showArrestDialog {};//구속시간설정
+		class arrestDialog_Arrest {};//구속시간설정
 	};
 
 	class Dialog_Controls {
@@ -177,7 +177,7 @@ class Life_Client_Core {
 		class fetchCfgDetails {};
 		class fetchDeadGear {};
 		class fetchVehInfo {};
-		class getDamage {};
+		class isDamaged {};
 		class giveDiff {};
 		class handleDamage {};
 		class handleInv {};
@@ -213,8 +213,8 @@ class Life_Client_Core {
 		class tazeSound {};
 		class teleport {};
 		class whereAmI {};
-		class jihad {};
-		class autoSetPolice {};
+		class jihad {}; //자살조끼
+		class autoSetPolice {};//캅오토셋
 		class slotMachineRewards {};  //Casino
 		class slotMachineRandomizer {};  //Casino
 	};
@@ -333,8 +333,8 @@ class Life_Client_Core {
 		class chopShopSell {};
 		class clothingFilter {};
 		class clothingMenu {};
-		class FuelLBchange {};
-		class FuelStatOpen {};
+		class fuelLBchange {};
+		class fuelStatOpen {};
 		class vehicleShop3DPreview {};
 		class vehicleShopBuy {};
 		class vehicleShopEnd3DPreview {};

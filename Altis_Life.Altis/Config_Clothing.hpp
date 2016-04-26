@@ -190,7 +190,7 @@ class Clothing {
             { "B_Kitbag_cbr", "", 800, { "", "", -1 } },
             { "B_Bergen_sgg", "", 2500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 3500, { "", "", -1 } },
-	    { "B_Parachute", "", 37500, { "", "", -1 } }
+            { "B_Parachute", "", 37500, { "", "", -1 } }
         };
     };
 
@@ -385,7 +385,7 @@ class Clothing {
             { "B_Carryall_oli", "", 7500, { "", "", -1 } },
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
-	    { "B_Parachute", "", 37500, { "", "", -1 } }
+            { "B_Parachute", "", 37500, { "", "", -1 } }
         };
     };
 
@@ -423,7 +423,6 @@ class Clothing {
             { "G_Squares", "", 10, { "", "", -1 } },
             { "G_Lowprofile", "", 30, { "", "", -1 } },
             { "G_Combat", "", 55, { "", "", -1 } },
-            // BI
             { "G_Balaclava_blk", "", 150, { "", "", -1 } },
             { "G_Balaclava_combat", "", 150, { "", "", -1 } },
             { "G_Balaclava_lowprofile", "", 150, { "", "", -1 } },
@@ -473,7 +472,7 @@ class Clothing {
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
             { "B_OutdoorPack_blk", "", 500, { "", "", -1 } },
             { "B_AssaultPack_sgg", "JetPack", 500000, { "", "", -1 } },
-	    { "B_Parachute", "", 37500, { "", "", -1 } }
+            { "B_Parachute", "", 37500, { "", "", -1 } }
         };
     };
 
