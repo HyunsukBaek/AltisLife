@@ -222,7 +222,7 @@ class VirtualItems {
 		weight = 15;
 		buyPrice = 2500;
 		sellPrice = 1200;
-		illegal = true;
+		illegal = false;
 		edible = -1;
 		icon = "icons\ico_spikeStrip.paa";
 	};
@@ -233,7 +233,7 @@ class VirtualItems {
 		weight = 1;
 		buyPrice = 25000;
 		sellPrice = 10000;
-		illegal = true;
+		illegal = false;
 		edible = -1;
 		icon = "icons\ico_lockpick.paa";
 	};
@@ -266,7 +266,7 @@ class VirtualItems {
 		weight = 7;
 		buyPrice = 100000;
 		sellPrice = 80000;
-		illegal = true;
+		illegal = false;
 		edible = -1;
 		icon = "icons\ico_boltCutter.paa";
 	};
@@ -277,7 +277,7 @@ class VirtualItems {
 		weight = 2;
 		buyPrice = 2500;
 		sellPrice = -1;
-		illegal = true;
+		illegal = false;
 		edible = -1;
 		icon = "icons\ico_defuseKit.paa";
 	};
