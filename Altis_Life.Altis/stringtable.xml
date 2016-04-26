@@ -579,7 +579,7 @@
 		</Key>
 		<Key ID="STR_ANOTF_CompWarn">
 			<Original>You are about to give yourself $%1 to compensate to another player &lt;br/&gt;&lt;br/&gt;You must give this cash to the person you are compensating manually.</Original>
-			<Czech>232323</Czech>
+			<Czech>Chystáte se dát si $%1 kompenzovat jinému hráči &lt; br / &gt; &lt; br / &gt; Musíte dát tuto hotovost na osoby, které jsou kompenzačním ručně.</Czech>
 			<Spanish>Estas a punto de darte $%1 para compensar a otro jugador&lt;br/&gt;&lt;br/&gt; Debes darle el dinero a la persona manualmente.</Spanish>
 			<Russian></Russian>
 			<German>Du bist dabei dir selbst $%1 zu geben um einen anderen Spieler zu entschädigen.&lt;br/&gt;&lt;br/&gt;Gib das Geld dann an den Spieler weiter.</German>
@@ -1363,7 +1363,7 @@
 		</Key>
 		<Key ID="STR_GNOTF_AlreadyControlled">
 			<Original>This hideout is controlled by %1.&lt;br/&gt;&lt;br/&gt;Are you sure you want to take over their gang area?</Original>
-			<Czech>13123</Czech>
+			<Czech>Tento úkryt je řízen%1 &lt; br / &gt; &lt; br / &gt; Opravdu chcete převzít svůj gang prostor?</Czech>
 			<Spanish>Este escondite esta controlado por %1.&lt;br/&gt;&lt;br/&gt;Estas seguro que quieres tomarlo?</Spanish>
 			<Russian></Russian>
 			<German>Das Versteck wird durch %1 kontrolliert.&lt;br/&gt;&lt;br/&gt;Bist du sicher, dass du ihr Gang Gebiet übernehmen möchtest?</German>
@@ -1473,7 +1473,7 @@
 		</Key>
 		<Key ID="STR_GNOTF_DisbandWarn">
 			<Original>You are about to disband the gang, by disbanding the gang it will be removed from the database and the group will be dropped. &lt;br/&gt;&lt;br/&gt;Are you sure you want to disband the group? You will not be refunded the price for creating it.</Original>
-			<Czech>Chystáte se rozpustit gang, tím, že rozpustí gang bude odstraněna z databáze a skupina bude vynechána.2pravdu chcete rozpustit skupinu? Budete nevrací cenu za jeho vytvoření.</Czech>
+			<Czech>Chystáte se rozpustit gang, tím, že rozpustí gang bude odstraněna z databáze a skupina bude vynechána. &lt; br / &gt; &lt; br / &gt; Opravdu chcete rozpustit skupinu? Budete nevrací cenu za jeho vytvoření.</Czech>
 			<Spanish>Estas a punto de desmantelar la Pandilla, si prosiges la Pandilla se borrara de la base de datos. &lt;br/&gt;&lt;br/&gt;Estas seguro de querer desmantelarla? Cualquier dinero invertido no sera devuelto.</Spanish>
 			<Russian></Russian>
 			<German>Du bist dabei, die Gang aufzulösen. Durch Auflösung der Gang wird sie aus der Datenbank entfernt. &lt;br/&gt;&lt;br/&gt;Bist du sicher, dass du die Gang auflösen willst? Du erhältst den Preis für die Erstellung nicht zurück.</German>
@@ -1528,6 +1528,7 @@
 		</Key>
 		<Key ID="STR_GNOTF_InvitePlayerMSG">
 			<Original>You are about to invite %1 to your gang, if they accept the invite they will have access to the gang's funds.</Original>
+			<Czech>Chystáte se pozvat%1 na svůj gang, pokud přijmou pozvání budou mít přístup k finančním prostředkům gangu.</Czech>
 			<Spanish>Estas a putno de invitar a %1 a tu pandilla, si aceptan tendran aceso al banco de tu Pandilla.</Spanish>
 			<Russian></Russian>
 			<German>Du bist dabei, %1 in deine Gang einzuladen. Wenn die Einladung angenommen wird, hat der Spieler Zugang zu den Mitteln der Gang.</German>
@@ -1538,6 +1539,7 @@
 		</Key>
 		<Key ID="STR_GNOTF_SelectPerson">
 			<Original>You need to select a person to invite!</Original>
+			<Czech>Musíte vybrat osobu vyzvat!</Czech>
 			<Spanish>Tiense que selecionar a quien invitar!</Spanish>
 			<Russian></Russian>
 			<German>Du musst einen Spieler zum Einladen auswählen!</German>
@@ -1614,6 +1616,7 @@
 		</Key>
 		<Key ID="STR_GNOTF_TransferMSG">
 			<Original>You are about to transfer leadership over to %1&lt;br/&gt;By transferring leadership you will no longer be in control of the gang unless ownership is transferred back.</Original>
+			<Czech>Chystáte se přenést vedoucí přes%1 &lt; br / &gt; Převedením vedení už nebude mít kontrolu nad gangu, pokud je vlastnictví převedeno zpět.</Czech>
 			<Spanish>Estas a punto de transferir liderazgo a %1&lt;br/&gt;Al transferir liderazgo no tendrás control de la Pandilla.</Spanish>
 			<Russian></Russian>
 			<German>Du bist dabei, die Führung an %1 zu übertragen&lt;br/&gt;Durch die Übertragung der Leitung der Gang hast du keine Kontrolle mehr.</German>
@@ -1734,6 +1737,7 @@
 		</Key>
 		<Key ID="STR_GNOTF_UpgradeSuccess">
 			<Original>You have upgraded from %1 to %2 maximum slots for &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</Original>
+			<Czech>Provedli jste upgrade z%1 do%2 Maximální sloty pro &lt; k color = "# 8cff9b '&gt; $%3 &lt; / &gt;</Czech>
 			<Spanish>Has aumentado de %1 a %2 slots &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</Spanish>
 			<Russian></Russian>
 			<German>Du hast für &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt; von %1 auf %2 Plätze erhöht</German>
@@ -4685,6 +4689,7 @@
 		</Key>
 		<Key ID="STR_Cop_NoLicensesFound">
 			<Original>No Licenses&lt;br/&gt;</Original>
+			<Czech>Žádné Licence &lt; br / &gt;</Czech>
 			<Spanish>No Licencias&lt;br/&gt;</Spanish>
 			<Russian></Russian>
 			<German>Keine Lizenzen&lt;br/&gt;</German>
@@ -5217,6 +5222,7 @@
 		</Key>
 		<Key ID="STR_House_BuyMSG">
 			<Original>This house is available for &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;It supports up to %2 storage containers</Original>
+			<Czech>Tento dům je k dispozici pro &lt; k color = "# 8cff9b '&gt; $%1 &lt; / t &gt; &lt; br / &gt; Podporuje až %2 skladovací kontejnery</Czech>
 			<Spanish>Esta casa esta disponible por &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;Soporta hasta %2 contenedores</Spanish>
 			<Russian></Russian>
 			<German>Dieses Haus gibt es für &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt; Es unterstützt %2 Lagerbox(en)</German>
