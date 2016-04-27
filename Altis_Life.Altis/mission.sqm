@@ -186,7 +186,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="AoSoul Altis life v4.4r2";
+		briefingName="AoSoul Altis life";
 		overviewText="We are AOS and Soul";
 		timeOfChanges=3600;
 		startWeather=0.012743556;
