@@ -454,6 +454,18 @@ switch (_code) do {
 			player playMove "AcinPercMstpSnonWnonDnon_agony";
 		};
 	};
+	
+	//오줌 모션 Shift + Num1
+	case 79:
+	{
+		if(_shift) then {_handled = true;};
+		if(_shift && {isTouchingGround player} && {EQUAL(stance player,"STAND")} && {!life_is_arrested}) then
+		{	
+			//cutText [format["쉬야"], "PLAIN DOWN"];
+			player playMove "Acts_AidlPercMstpSlowWrflDnon_pissing";
+		};
+	};
+	
 };
 
 _handled;

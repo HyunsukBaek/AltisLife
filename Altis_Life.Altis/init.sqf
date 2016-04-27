@@ -12,7 +12,8 @@ StartProgress = false;
 
 //Custom Script
 [] execVM "Custom\randomWeather2.sqf";
-[] execVM "Custom\statusbar.sqf";
+//[] execVM "Custom\statusbar.sqf";
+[] execVM "Custom\statusbar_loop.sqf";  //Status Bar Loop
 [] execVM "Custom\safezone.sqf";
 
 //Cop & Medic Radio disable
