@@ -24,12 +24,12 @@ class Life_Settings {
     save_civilian_positionStrict = true; //Strip the player if possible combat-log?  WARNING: Server crashes and lack of reliable syncing can trigger this.
 
     /* Vehicle Data Saving */
-    save_vehicle_virtualItems = true; //Save virtual items inside the vehicle (all sides)(-- See defined items on next line --)
-    save_vehicle_items[] = {"apple", "blastingcharge", "boltcutter", "cannabis", "catshark", "catshark_raw", "cement", "cocaine_processed", "cocaine_unprocessed", "coffee", "copper_refined", "copper_unrefined", "defusekit", "diamond_cut", "diamond_uncut", "donuts", "fuelEmpty", "fuelFull", "glass", "goat", "goat_raw", "goldbar", "hen", "hen_raw", "heroin_processed", "heroin_unprocessed", "iron_refined", "iron_unrefined", "lockpick", "mackerel", "mackerel_raw", "marijuana", "mullet", "mullet_raw", "oil_processed", "oil_unprocessed", "ornate", "ornate_raw", "peach", "pickaxe", "rabbit", "rabbit_raw", "redgull", "rock", "rooster", "rooster_raw", "salema", "salema_raw", "salt_refined", "salt_unrefined", "sand", "sheep", "sheep_raw", "spikeStrip", "tbacon", "tuna", "tuna_raw", "turtle_raw", "turtle_soup", "waterBottle", "toolkit", "defibrillator", "storageSmall", "storageBig"};// define which virtual items to save in vehicles.
-    save_vehicle_inventory = true; //Save Arma inventory of vehicle to the database
-    save_vehicle_fuel = true; //Save vehicle fuel level to the database (Impounded/Garaged).
-    save_vehicle_damage = true; //Save vehicle damage to the database.
-    save_vehicle_illegal = true; //This will allow cops to be advised when a vehicle, with illegal items in it, is impounded. This will also save illegal items as proof of crime, and needs "save_vehicle_virtualItems" set as true. Illegal items don't need to be set in save_vehicle_items[] for being saved, if it's enabled.
+    save_vehicle_virtualItems = false; //Save virtual items inside the vehicle (all sides)(-- See defined items on next line --)
+    save_vehicle_items[] = { "pickaxe","fuelEmpty","fuelFull", "spikeStrip", "lockpick", "defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","apple","peach","tbacon","donuts","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","defibrillator","toolkit" };
+    save_vehicle_inventory = false; //Save Arma inventory of vehicle to the database
+    save_vehicle_fuel = false; //Save vehicle fuel level to the database (Impounded/Garaged).
+    save_vehicle_damage = false; //Save vehicle damage to the database.
+    save_vehicle_illegal = false; //This will allow cops to be advised when a vehicle, with illegal items in it, is impounded. This will also save illegal items as proof of crime, and needs "save_vehicle_virtualItems" set as true. Illegal items don't need to be set in save_vehicle_items[] for being saved, if it's enabled.
 
 
 /* System Settings */
@@ -116,7 +116,7 @@ class Life_Settings {
         vehicle_purchase_multiplier_MEDIC = 1; //Medic Vehicle Buy Price = Config_Vehicle price * multiplier
         vehicle_purchase_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
 
-        /* Vehicle Rental Prices */
+        /* Vehicle Purchase Prices */
         vehicle_rental_multiplier_CIVILIAN = .75; //Civilian Vehicle Rental Price = Config_Vehicle price * multiplier
         vehicle_rental_multiplier_COP = .5; //Cop Vehicle Rental Price = Config_Vehicle price * multiplier
         vehicle_rental_multiplier_MEDIC = .75; //Medic Vehicle Rental Price = Config_Vehicle price * multiplier

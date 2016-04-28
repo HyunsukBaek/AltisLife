@@ -23,7 +23,7 @@ class CfgFunctions {
 			class updateRequest{};
 			class mresToArray {};
 			class insertVehicle {};
-			class bool{};
+			class bool {};
 			class mresString {};
 			class updatePartial {};
 		};
@@ -110,7 +110,6 @@ class CfgFunctions {
 			file = "\life_server\Functions\PlayTime";
 			class setPlayTime {};
 			class getPlayTime {};
-			class initPlayTime {};
 		};
 	};
 };
