@@ -48,6 +48,7 @@ life_pos_attach = [];
 life_civ_position = [];
 life_markers = false;
 life_jetpack = false;
+life_recentText = "";
 
 //Settings
 life_settings_enableSidechannel = GVAR_PNAS["life_enableSidechannel",true];

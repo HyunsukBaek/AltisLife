@@ -256,6 +256,7 @@ compileFinal "
 
 			[""TextMessage"",[format[""You Received A New Private Message From %1"",_from]]] call bis_fnc_showNotification;
 			systemChat _message;
+			life_recentText = _from;
 		};
 
 		case 1 :
