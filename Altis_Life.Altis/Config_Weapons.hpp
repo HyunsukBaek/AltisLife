@@ -56,9 +56,9 @@ class WeaponShops {
             { "30Rnd_556x45_Stanag", "", 3000 },
             { "30Rnd_65x39_caseless_green", "", 2800 },
             { "10Rnd_762x54_Mag", "", 3500 },
-            { "20Rnd_556x45_UW_mag", "", 3000 },
-            { "30Rnd_65x39_caseless_mag", "", 3000 },
-	    { "20Rnd_762x51_Mag", "", 3000 },
+            { "20Rnd_556x45_UW_mag", "", 5000 },
+            { "30Rnd_65x39_caseless_mag", "", 8000 },
+	    { "20Rnd_762x51_Mag", "", 15000 },
             { "RPG32_F", "", 50000 },
             { "RPG32_HE_F", "", 50000 }
         };
