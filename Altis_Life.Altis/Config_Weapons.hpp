@@ -49,6 +49,7 @@ class WeaponShops {
             { "srifle_DMR_01_F", "", 475000, 20000 },
             { "arifle_SDAR_F", "", 400000, 20000 },
             { "arifle_MXC_SOS_point_snds_F", "", 900000, 20000 },
+	    { "srifle_EBR_DMS_F", "", 1800000, 20000 },
             { "launch_RPG32_F", "", 1800000, 20000 }
         };
         mags[] = {
@@ -57,6 +58,7 @@ class WeaponShops {
             { "10Rnd_762x54_Mag", "", 3500 },
             { "20Rnd_556x45_UW_mag", "", 3000 },
             { "30Rnd_65x39_caseless_mag", "", 3000 },
+	    { "20Rnd_762x51_Mag", "", 3000 },
             { "RPG32_F", "", 50000 },
             { "RPG32_HE_F", "", 50000 }
         };
