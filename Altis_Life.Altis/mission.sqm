@@ -13755,7 +13755,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=769;
-					type="B_medic_F";
+					type="B_RangeMaster_F";
 				};
 				class Item1
 				{
@@ -13776,7 +13776,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=770;
-					type="B_medic_F";
+					type="B_RangeMaster_F";
 				};
 				class Item2
 				{
@@ -13797,7 +13797,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=771;
-					type="B_medic_F";
+					type="B_RangeMaster_F";
 				};
 				class Item3
 				{
@@ -13818,7 +13818,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=772;
-					type="B_medic_F";
+					type="B_RangeMaster_F";
 				};
 				class Item4
 				{
@@ -13839,7 +13839,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=773;
-					type="B_medic_F";
+					type="B_RangeMaster_F";
 				};
 				class Item5
 				{
@@ -13860,7 +13860,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=774;
-					type="B_medic_F";
+					type="B_RangeMaster_F";
 				};
 				class Item6
 				{
@@ -13881,7 +13881,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=775;
-					type="B_medic_F";
+					type="B_RangeMaster_F";
 					atlOffset=-7.6293945e-006;
 				};
 				class Item7
@@ -13903,7 +13903,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=776;
-					type="B_medic_F";
+					type="B_RangeMaster_F";
 				};
 				class Item8
 				{
@@ -13924,7 +13924,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=777;
-					type="B_medic_F";
+					type="B_RangeMaster_F";
 				};
 				class Item9
 				{
@@ -13944,7 +13944,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=5037;
-					type="B_medic_F";
+					type="B_RangeMaster_F";
 					atlOffset=3.3789978;
 				};
 				class Item10
@@ -13965,7 +13965,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=5035;
-					type="B_medic_F";
+					type="B_RangeMaster_F";
 					atlOffset=3.927002;
 				};
 			};
@@ -28389,7 +28389,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=1058;
-					type="B_medic_F";
+					type="B_RangeMaster_F";
 				};
 				class Item1
 				{
@@ -28409,7 +28409,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=1059;
-					type="B_medic_F";
+					type="B_RangeMaster_F";
 				};
 				class Item2
 				{
@@ -28429,7 +28429,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=1060;
-					type="B_medic_F";
+					type="B_RangeMaster_F";
 				};
 				class Item3
 				{
@@ -28449,7 +28449,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=1061;
-					type="B_medic_F";
+					type="B_RangeMaster_F";
 				};
 				class Item4
 				{
@@ -28469,7 +28469,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=3433;
-					type="B_medic_F";
+					type="B_RangeMaster_F";
 				};
 				class Item5
 				{
@@ -28489,7 +28489,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=3435;
-					type="B_medic_F";
+					type="B_RangeMaster_F";
 					atlOffset=7.6293945e-006;
 				};
 				class Item6
@@ -28510,7 +28510,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=3437;
-					type="B_medic_F";
+					type="B_RangeMaster_F";
 				};
 				class Item7
 				{
@@ -28530,7 +28530,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=3439;
-					type="B_medic_F";
+					type="B_RangeMaster_F";
 				};
 				class Item8
 				{
@@ -28550,7 +28550,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=3441;
-					type="B_medic_F";
+					type="B_RangeMaster_F";
 				};
 			};
 			class Attributes
