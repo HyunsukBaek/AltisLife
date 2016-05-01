@@ -17,4 +17,15 @@ switch (playerSide) do {
 		life_actions = life_actions + [player addAction["<t color='#FF0000'>Active JetPack</t>",life_fnc_JetRocket,"",0,false,false,"",
         'Backpack player == "B_AssaultPack_sgg" && alive player && vehicle player == player && !life_istazed && !life_jetpack && !(player getVariable "restrained") && !(player getVariable "Escorting") && !(player getVariable "transporting")']];
 	};
+	
+	case west: {
+		// RocketHelmet
+		life_actions = life_actions + [player addAction["<t color='#FF0000'>Active JetPack</t>",life_fnc_JetRocket,"",0,false,false,"",
+        'Backpack player == "B_AssaultPack_sgg" && alive player && vehicle player == player && !life_istazed && !life_jetpack && !(player getVariable "restrained") && !(player getVariable "Escorting") && !(player getVariable "transporting")']];
+	};
+	case independent: {
+		// RocketHelmet
+		life_actions = life_actions + [player addAction["<t color='#FF0000'>Active JetPack</t>",life_fnc_JetRocket,"",0,false,false,"",
+        'Backpack player == "B_AssaultPack_sgg" && alive player && vehicle player == player && !life_istazed && !life_jetpack && !(player getVariable "restrained") && !(player getVariable "Escorting") && !(player getVariable "transporting")']];
+	};
 };
