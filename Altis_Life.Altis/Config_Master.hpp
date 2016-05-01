@@ -103,7 +103,7 @@ class Life_Settings {
     /* Search & Seizure System Configurations */
     seize_exempt[] = { "Binocular", "ItemWatch", "ItemCompass", "ItemGPS", "ItemMap", "NVGoggles", "FirstAidKit", "ToolKit", "Chemlight_red", "Chemlight_yellow", "Chemlight_green", "Chemlight_blue", "optic_ACO_grn_smg", "hgun_P07_snds_F", "hgun_Pistol_heavy_02_F", "hgun_ACPC2_F", "hgun_PDW2000_F" }; //Arma items that will not get seized from player inventories
     seize_uniform[] = { "U_Rangemaster" }; //Any specific uniforms you want to be seized from players
-    seize_vest[] = { "V_TacVest_blk_POLICE" }; //Any specific vests you want to be seized from players
+    seize_vest[] = { "V_TacVest_blk_POLICE", "V_HarnessOGL_gry" }; //Any specific vests you want to be seized from players
     seize_headgear[] = { "H_Cap_police" }; //Any hats or helmets you want seized from players
     seize_minimum_rank = 2; //Required minimum CopLevel to be able to seize items from players
 
