@@ -232,22 +232,30 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant Rank!" };
         items[] = {
+            { "MMG_01_hex_ARCO_LP_F", "", 200000, 25000 },
+            { "SMG_01_ACO_F", "", 200000, 25000 },
             { "srifle_EBR_DMS_pointer_snds_F", "", 200000, 25000 },
             { "srifle_DMR_01_F", "", 350000, 25000 },
-            { "LMG_Mk200_F", "", 430000, 25000 }
+            { "LMG_Mk200_F", "", 430000, 25000 },
+	    { "srifle_DMR_05_KHS_LP_F", "DMR05_KHS(DLC NEEDED)", 530000, 25000 }
         };
         mags[] = {
-            { "20Rnd_762x51_Mag", "", 60 },
+            { "150Rnd_93x64_Mag", "", 600 },
+            { "30Rnd_45ACP_Mag_SMG_01", "", 600 },
+	    { "30Rnd_45ACP_Mag_SMG_01_tracer_green", "", 600 },
+            { "20Rnd_762x51_Mag", "", 600 },
             { "10Rnd_762x54_Mag", "", 450 },
-            { "200Rnd_65x39_cased_Box", "", 1000 },
-            { "200Rnd_65x39_cased_Box_Tracer", "", 1000 }
+            { "200Rnd_65x39_cased_Box", "", 4000 },
+            { "200Rnd_65x39_cased_Box_Tracer", "", 5000 },
+	    { "10Rnd_93x64_DMR_05_Mag", "", 1000 }
         };
         accs[] = {
-            { "optic_SOS", "", 2500, 1000 },
+            { "optic_SOS", "", 25000, 1000 },
             { "optic_DMS", "", 30000, 5000 },
-            { "optic_Hamr", "", 2500, 1000 },
+            { "optic_Hamr", "", 25000, 1000 },
             { "optic_Nightstalker", "", 25000, 1000 },
-            { "acc_pointer_IR", "", 30000, 5000 }
+	    { "optic_KHS_blk", "", 45000, 1000 },
+            { "acc_pointer_IR", "", 20000, 1000 }
         };
     };
 
@@ -257,11 +265,11 @@ class WeaponShops {
 	license = "";
 	level[] = { "life_coplevel", "SCALAR", 4, "You must be a master Rank!" };
 	items[] = {
-	    { "srifle_GM6_F", "", 600000, 25000 },
-	    { "srifle_LRR_LRPS_F", "", 600000, 25000 },
-	    { "LMG_Zafir_pointer_F", "", 700000, 25000 },
-	    { "launch_Titan_F", "", 700000, 25000 },
-	    { "launch_B_Titan_short_F", "", 800000, 25000 }
+	    { "srifle_GM6_F", "", 700000, 25000 },
+	    { "srifle_LRR_LRPS_F", "", 700000, 25000 },
+	    { "LMG_Zafir_pointer_F", "", 800000, 25000 },
+	    { "launch_Titan_F", "", 800000, 25000 },
+	    { "launch_B_Titan_short_F", "", 900000, 25000 }
 	};
 	mags[] = {
 	    { "5Rnd_127x108_Mag", "", 450 },
