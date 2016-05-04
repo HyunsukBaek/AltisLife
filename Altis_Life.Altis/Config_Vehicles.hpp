@@ -864,7 +864,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vItemSpace = 60;
         vFuelSpace = 250000;
         licenses[] = { {""}, {""}, {""}, {""} };
-        price = 255000;
+        price = 55000;
         textures[] = {};
     };
 
