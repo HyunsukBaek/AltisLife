@@ -50,5 +50,5 @@ if(vest _unit == "V_HarnessOGL_gry") then {
 	life_action_delay = time;
 };
 
-[] call life_fnc_hudUpdate;
+[] spawn life_fnc_hudUpdate;
 _damage;
