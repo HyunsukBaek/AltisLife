@@ -55,7 +55,7 @@ class CarShops {
             { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
             { "I_Heli_light_03_unarmed_F", { "", "", -1 } },
             { "B_Heli_Transport_03_unarmed_F", { "", "", -1 } },
-	    { "I_Heli_Transport_02_F", { "", "", -1 } }
+            { "I_Heli_Transport_02_F", { "", "", -1 } }
         };
     };
 
@@ -93,7 +93,7 @@ class CarShops {
             { "I_Truck_02_medical_F", { "", "", -1 } },
             { "B_Truck_01_medical_F", { "", "", -1 } },
             { "I_MRAP_03_F", { "", "", -1 } },
-	    { "B_MRAP_01_F", { "", "", -1 } }
+            { "B_MRAP_01_F", { "", "", -1 } }
         };
     };
 
@@ -104,7 +104,7 @@ class CarShops {
             { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
             { "B_Heli_Transport_03_unarmed_F", { "", "", -1 } },
             { "I_Heli_Transport_02_F",  { "", "", -1 } },
-	    { "O_Heli_Transport_04_F",  { "", "", -1 } }
+            { "O_Heli_Transport_04_F",  { "", "", -1 } }
         };
     };
 
@@ -118,7 +118,7 @@ class CarShops {
             { "O_MRAP_02_F", { "", "", -1 } },
             { "B_MRAP_01_F", { "life_coplevel", "SCALAR", 2 } },
             { "B_Truck_01_Repair_F", { "life_coplevel", "SCALAR", 2 } },
-	    { "I_Truck_02_covered_F", { "life_coplevel", "SCALAR", 2 } },
+            { "I_Truck_02_covered_F", { "life_coplevel", "SCALAR", 2 } },
             { "B_Truck_01_ammo_F", { "life_coplevel", "SCALAR", 2 } },
             { "I_MRAP_03_F", { "life_coplevel", "SCALAR", 3 } },
             { "B_MRAP_01_hmg_F", { "life_coplevel", "SCALAR", 4 } },
@@ -136,7 +136,7 @@ class CarShops {
             { "B_Heli_Transport_01_F", { "life_coplevel", "SCALAR", 2 } },
             { "O_Heli_Light_02_unarmed_F", { "life_coplevel", "SCALAR", 2 } },
             { "I_Heli_Transport_02_F", { "life_coplevel", "SCALAR", 2 } },
-	    { "O_Heli_Transport_04_F", { "life_coplevel", "SCALAR", 2 } },
+            { "O_Heli_Transport_04_F", { "life_coplevel", "SCALAR", 2 } },
             { "I_Heli_light_03_F", { "life_coplevel", "SCALAR", 3 } },
             { "O_Heli_Light_02_v2_F", { "life_coplevel", "SCALAR", 4 } },
             { "B_Heli_Light_01_armed_F", { "life_coplevel", "SCALAR", 5 } },
@@ -262,21 +262,21 @@ class LifeCfgVehicles {
             { "Police", "cop", {"textures\cop\hunter_front.paa","textures\cop\hunter_back.paa"} },
             { "SWAT Police", "cop", {"textures\cop\swat_hunter_1.jpg","textures\cop\swat_hunter_2.jpg"} },
             { "Scott police", "cop", {"textures\cop\scotpol_Hunter_Cab.paa","textures\cop\scotpol_Hunter_Back.paa"} },
-	    { "EMS RED", "med", {"textures\ems\med_hunter_front.paa","textures\ems\med_hunter_back.paa"} }
+            { "EMS RED", "med", {"textures\ems\med_hunter_front.paa","textures\ems\med_hunter_back.paa"} }
         };
     };
 
     class B_MRAP_01_hmg_F : B_MRAP_01_F{};
 
     class I_MRAP_03_F { //STRIDER
-	vItemSpace = 200;
-	licenses[] = { {""}, {""}, {""}, {""} };
-	price = 650000;
-	textures[] = {
-	    { "EMS white", "med", {"#(argb,8,8,3)color(1,1,1,0.8)"} },
-	    { "Blue", "cop", {"#(argb,8,8,3)color(0.01,0.01,1.53,1)"} },
-	    { "Police", "cop", {"textures\cop\policeStrider.paa"} }
-	};
+        vItemSpace = 200;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 650000;
+        textures[] = {
+            { "EMS white", "med", {"#(argb,8,8,3)color(1,1,1,0.8)"} },
+            { "Blue", "cop", {"#(argb,8,8,3)color(0.01,0.01,1.53,1)"} },
+            { "Police", "cop", {"textures\cop\policeStrider.paa"} }
+        };
     };
 
     class I_MRAP_03_hmg_F { //strider hmg
@@ -285,7 +285,7 @@ class LifeCfgVehicles {
         price = 650000;
         textures[] = {
             { "Black", "cop", {"#(argb,8,8,3)color(0.05,0.05,0.05,1)"} },
-	    { "Police", "cop", {"textures\cop\policeStrider.paa"} }
+            { "Police", "cop", {"textures\cop\policeStrider.paa"} }
         };
     };
 
@@ -310,7 +310,7 @@ class LifeCfgVehicles {
         textures[] = {
             { "Cola", "civ", {"textures\civ\cola_zamak_front.jpg","textures\civ\cola_zamak_back.jpg"} },
             { "RedBull", "civ", {"textures\civ\truckcabredbull.paa","textures\civ\truckbackredbull.paa"} },
-	    { "COP", "cop", {"textures\cop\cop_zamak_front.jpg","textures\cop\cop_zamak_back.jpg"} }
+            { "COP", "cop", {"textures\cop\cop_zamak_front.jpg","textures\cop\cop_zamak_back.jpg"} }
         };
     };
 
@@ -363,7 +363,7 @@ class LifeCfgVehicles {
             { "Camo", "reb", {"textures\rebel\reblbirdcamo1.jpg"} },
             { "Black", "cop", {"#(argb,8,8,3)color(0.05,0.05,0.05,1)"} },
             { "BLUE", "cop", {"#(argb,8,8,3)color(0.01,0.01,1.53,1)"} },
-	    { "Snake", "civ", {"textures\rebel\reb_black_ifrit_front.jpg", "textures\rebel\reb_black_ifrit_back.jpg"} }
+            { "Snake", "civ", {"textures\rebel\reb_black_ifrit_front.jpg", "textures\rebel\reb_black_ifrit_back.jpg"} }
         };
     };
 
@@ -457,7 +457,7 @@ class LifeCfgVehicles {
             { "London 911", "cop", {"textures\cop\lincpol_offroader.paa"} },
             { "EMS Red", "med", {"textures\ems\med_offroad.paa"} },
             { "Hello kitty", "civ", {"textures\civ\kitty_offroad.jpg"} },
-	    { "Traffic police", "cop", {"textures\cop\heto_offroader.paa"} }
+            { "Traffic police", "cop", {"textures\cop\heto_offroader.paa"} }
         };
     };
 
@@ -525,7 +525,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {
             { "Police", "cop", {"textures\cop\cop_hatchback.jpg"} },
             { "UK Police", "cop", {"textures\cop\UK_police_hatchback_co.jpg"} },
-	    { "Security", "civ", {"textures\civ\secure_hatchback.jpg"} },
+            { "Security", "civ", {"textures\civ\secure_hatchback.jpg"} },
             { "Subaru", "civ", {"textures\civ\civ_subaru.jpg"} },
             { "EMS Red", "med", {"textures\ems\EMS_hatchback.jpg"} },
 
@@ -547,8 +547,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "monster_WRC", "civ", {"textures\civ\civ_hatchback_monster.jpg"} },
             { "LAPD", "cop", {"textures\cop\lapd_hatchback.paa"} },
             { "EMS London", "med", {"textures\ems\paramedic_hb.paa"} },
-	    { "Ferrari", "civ", {"textures\civ\ferrari_hatchback.jpg"} },
-	    { "porsche", "civ", {"textures\civ\porsche_hatchback.jpg"} }
+            { "Ferrari", "civ", {"textures\civ\ferrari_hatchback.jpg"} },
+            { "porsche", "civ", {"textures\civ\porsche_hatchback.jpg"} }
         };
     };
 
@@ -582,8 +582,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Rebel Camo", "reb", {
                 "\a3\soft_f_gamma\Quadbike_01\data\quadbike_01_indp_hunter_co.paa"
             } },
-	    { "EMS", "med", {"textures\ems\quad_med.jpg"} },
-	    { "LADY", "civ", {"textures\civ\quad_lady.jpg"} }
+            { "EMS", "med", {"textures\ems\quad_med.jpg"} },
+            { "LADY", "civ", {"textures\civ\quad_lady.jpg"} }
         };
     };
 
@@ -608,8 +608,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Ferrari", "civ", {"textures\civ\ferrari_SUV.jpg"} },
             { "blueflames", "civ", {"textures\civ\flames.jpg"} },
             { "tiger", "civ", {"textures\civ\pimp.jpg"} },
-	    { "ghostRider", "civ", {"textures\civ\suv_ghostrider.jpg"} },
-	    { "택시", "civ", {"textures\civ\suvtaxi.jpg"} }
+            { "ghostRider", "civ", {"textures\civ\suv_ghostrider.jpg"} },
+            { "택시", "civ", {"textures\civ\suvtaxi.jpg"} }
         };
     };
 
@@ -636,14 +636,14 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa"
             } },
             { "Red", "civ", {
-            "\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa"
+                "\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa"
             } },
             { "EMS London", "med", {
                 "textures\ems\Ambulance_Boxer_Front.paa",
                 "textures\ems\Ambulance_Boxer_Back.paa"
             } },
-	    { "EMS Red", "med", {"textures\ems\med_ambulance_front.paa","textures\ems\med_ambulance_back.paa"} }
-        };
+            { "EMS Red", "med", {"textures\ems\med_ambulance_front.paa","textures\ems\med_ambulance_back.paa"} }
+            };
     };
 
     class B_Heli_Light_01_F {
@@ -695,8 +695,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa"
             } },
             { "EMS hems", "med", {"textures\ems\paramedic_hems.paa"} },
-	    { "시바견", "civ", {"textures\civ\shibainu.jpg"} },
-	    { "monster", "civ", {"textures\civ\civ_hummingbird_Monster.jpg"} }
+            { "시바견", "civ", {"textures\civ\shibainu.jpg"} },
+            { "monster", "civ", {"textures\civ\civ_hummingbird_Monster.jpg"} }
         };
     };
 
@@ -738,7 +738,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"
             } },
             { "EMS orange", "med", {
-        	"textures\ems\EMSorca.paa"
+                "textures\ems\EMSorca.paa"
             } }
         };
     };
@@ -750,8 +750,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {
             { "EMS Red", "med", {
                 "textures\ems\med_mohawk.jpg",
-		"textures\ems\med_mohawk2.jpg",
-		"textures\ems\med_mohawk3.jpg"
+                "textures\ems\med_mohawk2.jpg",
+                "textures\ems\med_mohawk3.jpg"
             } },
             { "Ion", "civ", {
                 "\a3\air_f_beta\Heli_Transport_02\Data\Skins\heli_transport_02_1_ion_co.paa",
@@ -783,16 +783,16 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_co.paa"
             } },
             { "trooper", "civ", {
-        	"textures\civ\don_stormtrooper_huron_front.jpg", "textures\civ\don_stormtrooper_huron_back.jpg"
+                "textures\civ\don_stormtrooper_huron_front.jpg", "textures\civ\don_stormtrooper_huron_back.jpg"
             } },
-	    { "Dragon", "civ", {
-		"textures\civ\civ_huron_dragon1.jpg", "textures\civ\civ_huron_dragon2.jpg"
-	    } },
+            { "Dragon", "civ", {
+                "textures\civ\civ_huron_dragon1.jpg", "textures\civ\civ_huron_dragon2.jpg"
+            } },
             { "Desert Digi", "civ", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"
             } },
             { "EMS White", "med", {
-        	"#(argb,8,8,3)color(1,1,1,0.8)"
+                "#(argb,8,8,3)color(1,1,1,0.8)"
             } }
         };
     };
