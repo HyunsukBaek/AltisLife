@@ -163,7 +163,6 @@ class Life_Client_Core {
 		class unimpound {};
 		class vehicleGarage {};
 		class wireTransfer {};
-		class safeOpenSea {}; //보물찾기용
 	};
 
 	class Functions	{

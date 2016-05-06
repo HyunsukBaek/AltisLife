@@ -265,6 +265,9 @@
 			<Portuguese>Loja de Conveniência</Portuguese>
 			<Polish>Caffe OLLEN</Polish>
 		</Key>
+		<Key ID="STR_Shops_Bomul">
+			<Original>보물상자</Original>
+		</Key>
 	</Package>
 	<Package name="Global">
 		<Key ID="STR_Global_Close">
@@ -6366,6 +6369,9 @@
 			<Italian>Lingotto d'Oro</Italian>
 			<Portuguese>Barra de Ouro</Portuguese>
 			<Polish>Sztabka złota</Polish>
+		</Key>
+		<Key ID="STR_Item_Bomul">
+			 <Original>보물</Original>
 		</Key>
 		<Key ID="STR_Item_BCharge">
 			<Original>Blasting Charge</Original>

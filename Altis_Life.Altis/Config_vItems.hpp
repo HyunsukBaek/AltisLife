@@ -143,6 +143,14 @@ class VirtualShops {
 		level[] = { "", "", -1, "" };
 		items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit", "defibrillator" };
 	};
+
+	class bomul {
+		name = "STR_Shops_Bomul";
+		side = "";
+		license = "";
+		level[] = { "", "", -1, "" };
+		items[] = { "bomul"};
+	};
 };
 
 /*
@@ -870,5 +878,16 @@ class VirtualItems {
 		illegal = false;
 		edible = 100;
 		icon = "icons\ico_muttonLeg.paa";
+	};
+
+	class bomul {
+		variable = "bomul";
+		displayName = "STR_Item_Bomul";
+		weight = 12;
+		buyPrice = 1;
+		sellPrice = 1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\ico_goldBar.paa";
 	};
 };

@@ -59298,8 +59298,8 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Open_Vault"",life_fnc_safeOpenSea,"""",0,false,false,"""",' playerSide == civilian '];";
-				name="fed_bank_sea";
+				init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_Shops_Bomul"",life_fnc_virt_menu,""bomul""];";
+				name="bomul1";
 			};
 			id=5995;
 			type="Land_CargoBox_V1_F";
@@ -59341,8 +59341,8 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Open_Vault"",life_fnc_safeOpenSea,"""",0,false,false,"""",' playerSide == civilian '];";
-				name="fed_bank_sea_1";
+				init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_Shops_Bomul"",life_fnc_virt_menu,""bomul""];";
+				name="bomul2";
 			};
 			id=5996;
 			type="Land_CargoBox_V1_F";
