@@ -236,7 +236,7 @@ class WeaponShops {
         name = "Altis Sergeant Officer Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 4, "You must be a Sergeant Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant Rank!" };
         items[] = {
             { "srifle_EBR_DMS_pointer_snds_F", "", 200000, 25000 },
             { "srifle_DMR_01_F", "", 350000, 25000 },
@@ -265,7 +265,7 @@ class WeaponShops {
 	name = "Altis police master Shop";
 	side = "cop";
 	license = "";
-	level[] = { "life_coplevel", "SCALAR", 5, "You must be a master Rank!" };
+	level[] = { "life_coplevel", "SCALAR", 4, "You must be a master Rank!" };
 	items[] = {
 	    { "srifle_GM6_F", "", 700000, 25000 },
 	    { "LMG_Zafir_pointer_F", "", 800000, 25000 },
