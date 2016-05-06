@@ -115,8 +115,8 @@ class Clothing {
             { "B_Carryall_oli", "", 7500, { "", "", -1 } },
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
-            { "B_AssaultPack_sgg", "JetPack", 500000, { "", "", -1 } },
-            { "B_Parachute", "", 37500, { "", "", -1 } }
+            { "B_AssaultPack_sgg", "JetPack", 300000, { "", "", -1 } },
+            { "B_Parachute", "낙하산", 37500, { "", "", -1 } }
         };
     };
 
@@ -136,8 +136,8 @@ class Clothing {
             { "U_O_PilotCoveralls", "", 550, { "life_coplevel", "SCALAR", 1 } },
             { "U_O_SpecopsUniform_ocamo", "", 550, { "life_coplevel", "SCALAR", 1 } },
             { "U_I_HeliPilotCoveralls", "", 550, { "life_coplevel", "SCALAR", 2 } },
-            { "U_O_GhillieSuit", "", 550, { "life_coplevel", "SCALAR", 2 } },
-            { "U_O_Wetsuit", "", 550, { "life_coplevel", "SCALAR", 1 } }
+            { "U_O_GhillieSuit", "", 150000, { "life_coplevel", "SCALAR", 2 } },
+            { "U_O_Wetsuit", "", 10550, { "life_coplevel", "SCALAR", 1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -171,14 +171,15 @@ class Clothing {
             { "G_Aviator", "", 100, { "", "", -1 } },
             { "G_Lady_Mirror", "", 150, { "", "", -1 } },
             { "G_Lady_Dark", "", 150, { "", "", -1 } },
-            { "G_Lady_Blue", "", 150, { "", "", -1 } }
+            { "G_Lady_Blue", "", 150, { "", "", -1 } },
+	    { "G_Diving", "", 500, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
             { "V_Rangemaster_belt", "", 800, { "", "", -1 } },
             { "V_TacVest_blk_POLICE", "", 1000, { "life_coplevel", "SCALAR", 1 } },
             { "V_PlateCarrier2_rgr", "", 1500, { "life_coplevel", "SCALAR", 1 } },
-			{ "V_PlateCarrier1_blk", "", 1500, { "life_coplevel", "SCALAR", 1 } },
+            { "V_PlateCarrier1_blk", "", 1500, { "life_coplevel", "SCALAR", 1 } },
             { "V_Chestrig_blk", "", 800, { "", "", -1 } },
             { "V_RebreatherB", "", 800, { "", "", -1 } },
             { "V_Press_F", "", 800, { "", "", -1 } }
@@ -190,8 +191,8 @@ class Clothing {
             { "B_Kitbag_cbr", "", 800, { "", "", -1 } },
             { "B_Bergen_sgg", "", 2500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 3500, { "", "", -1 } },
-            { "B_Parachute", "", 37500, { "", "", -1 } },
-	    { "B_AssaultPack_sgg", "JetPack", 500000, { "", "", -1 } }
+            { "B_Parachute", "낙하산", 37500, { "", "", -1 } },
+	    { "B_AssaultPack_sgg", "JetPack", 300000, { "", "", -1 } }
         };
     };
 
@@ -255,7 +256,7 @@ class Clothing {
             { "U_O_SpecopsUniform_ocamo", "", 17500, { "", "", -1 } },
             { "U_O_PilotCoveralls", "", 15610, { "", "", -1 } },
             { "U_IG_leader", "Guerilla Leader", 15340, { "", "", -1 } },
-            { "U_O_GhillieSuit", "", 50000, { "", "", -1 } }
+            { "U_O_GhillieSuit", "", 150000, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -323,8 +324,8 @@ class Clothing {
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
             { "B_OutdoorPack_blk", "", 500, { "", "", -1 } },
-            { "B_AssaultPack_sgg", "JetPack", 500000, { "", "", -1 } },
-	    { "B_Parachute", "", 37500, { "", "", -1 } }
+            { "B_AssaultPack_sgg", "JetPack", 300000, { "", "", -1 } },
+	    { "B_Parachute", "낙하산", 37500, { "", "", -1 } }
         };
     };
 
@@ -386,8 +387,8 @@ class Clothing {
             { "B_Carryall_oli", "", 7500, { "", "", -1 } },
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
-            { "B_Parachute", "", 37500, { "", "", -1 } },
-	    { "B_AssaultPack_sgg", "JetPack", 500000, { "", "", -1 } }
+            { "B_Parachute", "낙하산", 37500, { "", "", -1 } },
+	    { "B_AssaultPack_sgg", "JetPack", 300000, { "", "", -1 } }
         };
     };
 
@@ -403,7 +404,7 @@ class Clothing {
             { "U_IG_leader", "Guerilla Leader", 15340, { "", "", -1 } },
             { "U_O_PilotCoveralls", "", 15610, { "", "", -1 } },
             { "U_O_SpecopsUniform_ocamo", "", 17500, { "", "", -1 } },
-            { "U_O_GhillieSuit", "", 50000, { "", "", -1 } }
+            { "U_O_GhillieSuit", "", 150000, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -473,8 +474,8 @@ class Clothing {
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
             { "B_OutdoorPack_blk", "", 500, { "", "", -1 } },
-            { "B_AssaultPack_sgg", "JetPack", 500000, { "", "", -1 } },
-            { "B_Parachute", "", 37500, { "", "", -1 } }
+            { "B_AssaultPack_sgg", "JetPack", 300000, { "", "", -1 } },
+            { "B_Parachute", "낙하산", 37500, { "", "", -1 } }
         };
     };
 
