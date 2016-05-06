@@ -17,7 +17,7 @@ _selection = 0;
 ctrlSetText [3003, ""];
 lbClear _units;
 
-if((FETCH_CONST(life_coplevel) < 5)) then {
+if((FETCH_CONST(life_coplevel) < 4)) then {
 	ctrlShow[3020,false];
 	ctrlShow[3021,false];
 };
