@@ -178,9 +178,9 @@ class Clothing {
             { "V_Rangemaster_belt", "", 800, { "", "", -1 } },
             { "V_TacVest_blk_POLICE", "", 1000, { "life_coplevel", "SCALAR", 1 } },
             { "V_PlateCarrier2_rgr", "", 1500, { "life_coplevel", "SCALAR", 1 } },
+			{ "V_PlateCarrier1_blk", "", 1500, { "life_coplevel", "SCALAR", 1 } },
             { "V_Chestrig_blk", "", 800, { "", "", -1 } },
             { "V_RebreatherB", "", 800, { "", "", -1 } },
-            { "V_PlateCarrier2_rgr", "", 800, { "", "", -1 } },
             { "V_Press_F", "", 800, { "", "", -1 } }
         };
         backpacks[] = {
