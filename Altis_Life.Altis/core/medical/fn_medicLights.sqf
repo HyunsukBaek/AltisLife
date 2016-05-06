@@ -42,7 +42,7 @@ switch (typeOf _vehicle) do
 	
 	case "C_Van_01_box_F":
 	{
-		_lightleft lightAttachObject [_vehicle, [-0.35,-0.2,0.65]];
+		_lightleft lightAttachObject [_vehicle, [-0.35,-0.2,0.85]];
 	};
 
 	case "B_Heli_Light_01_F":
@@ -99,7 +99,7 @@ switch (typeOf _vehicle) do
 	
 	case "C_Van_01_box_F":
 	{
-		_lightright lightAttachObject [_vehicle, [0.35,-0.2,0.65]];
+		_lightright lightAttachObject [_vehicle, [0.35,-0.2,0.85]];
 	};
 	
 	case "B_Heli_Light_01_F":

@@ -230,11 +230,13 @@ class LifeCfgVehicles {
         };
     };
 
-    class I_Heli_light_03_F {
+    class I_Heli_light_03_F { //hellcat
         vItemSpace = 200;
         licenses[] = { {""}, {"cAir"}, {""}, {""} };
         price = 650000;
-        textures[] = {};
+        textures[] = {
+            { "Cop", "cop", {"textures\cop\cop_hellcat.jpg"} }
+        };
     };
 
     class O_Heli_Light_02_v2_F {
@@ -650,7 +652,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 555000;
         textures[] = {
             { "Police Black/White", "cop", {"textures\cop\police_heli.jpg", "textures\cop\police_heli2.jpg"} },
-            { "Police 포돌이", "cop", {"textures\cop\podole.jpg", "textures\cop\podole.jpg"} },
+            { "Police security", "cop", {"textures\cop\sec_hummingbird.paa"} },
             { "EMS Yellow/Blue", "med", {"textures\ems\humming_ems.jpg", "textures\ems\humming_ems.jpg"} },
             { "EMS Red", "med", {"textures\ems\EMS_LTB.jpg", "textures\ems\EMS_LTB.jpg"} },
             { "Sheriff", "civ", {
@@ -692,10 +694,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Digi Green", "reb", {
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa"
             } },
-            { "EMS hems", "med", {
-                "textures\ems\paramedic_hems.paa"
-            } },
-	    { "시바견", "civ", {"textures\civ\shibainu_ems.jpg", "textures\civ\shibainu_ems.jpg"} }
+            { "EMS hems", "med", {"textures\ems\paramedic_hems.paa"} },
+	    { "시바견", "civ", {"textures\civ\shibainu.jpg"} },
+	    { "monster", "civ", {"textures\civ\civ_hummingbird_Monster.jpg"} }
         };
     };
 
