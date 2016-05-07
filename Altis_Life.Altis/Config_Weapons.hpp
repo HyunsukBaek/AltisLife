@@ -176,6 +176,7 @@ class WeaponShops {
             { "NVGoggles", "", 2000, 980 },
             { "arifle_sdar_F", "Taser Rifle", 20000, 7500 },
             { "hgun_P07_snds_F", "Stun Pistol", 10000, 650 },
+	    { "hgun_ACPC2_snds_F", "Handgun acpc2", 10000, 650 },
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "Laserdesignator", "", 3000, 980 },
             { "Binocular", "", 150, -1 },
@@ -189,6 +190,7 @@ class WeaponShops {
             { "30Rnd_556x45_Stanag_Tracer_Yellow", "YELLOW Rifle Magazine", 45 },
             { "16Rnd_9x21_Mag", "", 25 },
             { "30Rnd_9x21_Mag", "", 25 },
+	    { "9Rnd_45ACP_Mag", "", 25 },
             { "Laserbatteries", "", 45 }
         };
         accs[] = {

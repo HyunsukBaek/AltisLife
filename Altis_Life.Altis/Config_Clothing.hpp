@@ -132,19 +132,20 @@ class Clothing {
             { "U_B_survival_uniform", "", 1250, { "life_coplevel", "SCALAR", 1 } },
             { "U_B_CombatUniform_mcam", "Yellow Uniform", 25, { "", "", -1 } },
             { "U_B_CTRG_1", "Black Uniform", 550, { "life_coplevel", "SCALAR", 2 } },
-            { "U_O_CombatUniform_ocamo", "", 350, { "life_coplevel", "SCALAR", 1 } },
-            { "U_O_PilotCoveralls", "", 550, { "life_coplevel", "SCALAR", 1 } },
-            { "U_O_SpecopsUniform_ocamo", "", 550, { "life_coplevel", "SCALAR", 1 } },
+            { "U_O_PilotCoveralls", "", 550, { "life_coplevel", "SCALAR", 1 } },//
             { "U_I_HeliPilotCoveralls", "", 550, { "life_coplevel", "SCALAR", 2 } },
             { "U_O_GhillieSuit", "", 150000, { "life_coplevel", "SCALAR", 2 } },
-            { "U_O_Wetsuit", "", 10550, { "life_coplevel", "SCALAR", 1 } }
+            { "U_O_Wetsuit", "", 10550, { "life_coplevel", "SCALAR", 1 } },
+	    { "U_Marshal", "", 10550, { "life_coplevel", "SCALAR", 4 } },
+	    { "U_C_Poor_1", "", 10550, { "life_coplevel", "SCALAR", 4 } },
+	    { "U_NikosAgedBody", "", 10550, { "life_coplevel", "SCALAR", 4 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
             { "H_Cap_police", "", 25, { "", "", -1 } },
             { "H_Beret_blk_POLICE", "", 50, { "life_coplevel", "SCALAR", 2 } },
             { "H_HelmetB_plain_mcamo", "", 75, { "life_coplevel", "SCALAR", 1 } },
-            { "H_MilCap_mcamo", "", 100, { "life_coplevel", "SCALAR", 2 } },
+            { "H_MilCap_blue", "", 100, { "life_coplevel", "SCALAR", 2 } },
             { "H_Booniehat_mcamo", "", 120, { "life_coplevel", "SCALAR", 1 } },
             { "H_Cap_police", "", 75, { "life_coplevel", "SCALAR", 1 } },
             { "H_Beret_blk_POLICE", "", 120, { "life_coplevel", "SCALAR", 1 } },
@@ -152,10 +153,10 @@ class Clothing {
             { "H_Bandanna_khk", "", 120, { "life_coplevel", "SCALAR", 1 } },
             { "H_HelmetB_light", "", 120, { "life_coplevel", "SCALAR", 2 } },
             { "H_HelmetCrew_O", "", 120, { "life_coplevel", "SCALAR", 2 } },
-            { "H_PilotHelmetFighter_B", "", 120, { "life_coplevel", "SCALAR", 2 } },
+            { "H_HelmetSpecO_blk", "", 120, { "life_coplevel", "SCALAR", 2 } },
             { "H_PilotHelmetHeli_O", "", 120, { "life_coplevel", "SCALAR", 2 } },
             { "H_HelmetB_light_black", "", 120, { "life_coplevel", "SCALAR", 1 } },
-            { "H_HelmetSpecO_ocamo", "", 120, { "life_coplevel", "SCALAR", 1 } }
+            { "H_HelmetB_black", "", 120, { "life_coplevel", "SCALAR", 1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },

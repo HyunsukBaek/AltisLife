@@ -883,11 +883,11 @@ class VirtualItems {
 	class bomul {
 		variable = "bomul";
 		displayName = "STR_Item_Bomul";
-		weight = 15;
+		weight = 20;
 		buyPrice = 1;
-		sellPrice = 1;
+		sellPrice = -1;
 		illegal = false;
 		edible = -1;
-		icon = "icons\ico_goldBar.paa";
+		icon = "icons\custom\ico_bomul.paa";
 	};
 };
