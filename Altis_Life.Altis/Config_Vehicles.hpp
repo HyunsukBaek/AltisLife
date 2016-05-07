@@ -767,12 +767,12 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_co.paa"
             } },
             { "Rebel CAMO", "reb", {
-                "textures\rebel\reblbirdcamo1.jpg","textures\rebel\reblbirdcamo1.jpg","textures\rebel\reblbirdcamo1.jpg"
+                "textures\rebel\reblbirdcamo1.jpg"
             } }
         };
     };
 
-    class I_Heli_light_03_unarmed_F : O_Heli_Light_02_unarmed_F{};
+    class I_Heli_light_03_unarmed_F : O_Heli_Light_02_unarmed_F{}; // hellcat : orca
 
     class B_Heli_Transport_03_unarmed_F { //HURON
         vItemSpace = 350;
@@ -788,8 +788,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Dragon", "civ", {
                 "textures\civ\civ_huron_dragon1.jpg", "textures\civ\civ_huron_dragon2.jpg"
             } },
-            { "Desert Digi", "civ", {
-                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"
+            { "Desert Digi", "reb", {
+                "textures\rebel\reblbirdcamo1.jpg"
             } },
             { "EMS White", "med", {
                 "#(argb,8,8,3)color(1,1,1,0.8)"
