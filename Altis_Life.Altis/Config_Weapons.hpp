@@ -174,11 +174,11 @@ class WeaponShops {
             { "ItemRadio", "", 3000, 980 },
             { "FirstAidKit", "", 550, 65 },
             { "NVGoggles", "", 2000, 980 },
-            { "arifle_sdar_F", "Taser Rifle", 20000, 7500 },
+            { "arifle_sdar_F", "Taser Rifle", 80000, 7500 },
             { "hgun_P07_snds_F", "Stun Pistol", 10000, 650 },
-	    { "hgun_ACPC2_snds_F", "Handgun acpc2", 10000, 650 },
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
-            { "Laserdesignator", "", 3000, 980 },
+	    { "hgun_ACPC2_snds_F", "Handgun acpc2", 20000, 650 },
+            { "HandGrenade_Stone", "Flashbang", 3700, 1000 },
+            { "Laserdesignator", "", 13000, 980 },
             { "Binocular", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
             { "NVGoggles", "", 2000, 980 }
@@ -212,7 +212,6 @@ class WeaponShops {
             { "SMG_01_F", "", 60000, 5000 },
             { "arifle_Mk20C_F", "", 230000, 7500 },
             { "arifle_MX_SW_Hamr_pointer_F", "", 130000, 5000 },
-            { "HandGrenade_Stone", "Flashbang", 1700, 100 },
             { "MineDetector", "", 1000, 500 }
         };
         mags[] = {
@@ -274,11 +273,11 @@ class WeaponShops {
         name = "Altis police master Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 4, "You must be a master Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 5, "You must be a master Rank!" };
         items[] = {
             { "srifle_GM6_F", "", 700000, 25000 },//lynx
             { "LMG_Zafir_pointer_F", "", 800000, 25000 },//zafir
-            { "MMG_01_hex_ARCO_LP_F", "", 1000000, 25000 }, //medium machine gun
+            { "MMG_01_hex_ARCO_LP_F", "", 1000000, 25000 }, //NAVID
             { "launch_Titan_F", "", 800000, 25000 },
             { "launch_B_Titan_short_F", "", 900000, 25000 }
         };

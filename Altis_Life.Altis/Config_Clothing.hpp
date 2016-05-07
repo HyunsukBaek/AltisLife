@@ -95,7 +95,6 @@ class Clothing {
             { "B_AssaultPack_khk", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_dgtl", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_rgr", "", 2000, { "", "", -1 } },
-            { "B_AssaultPack_blk", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_cbr", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_mcamo", "", 2000, { "", "", -1 } },
             { "B_TacticalPack_oli", "", 2500, { "", "", -1 } },
@@ -156,7 +155,8 @@ class Clothing {
             { "H_HelmetSpecO_blk", "", 120, { "life_coplevel", "SCALAR", 2 } },
             { "H_PilotHelmetHeli_O", "", 120, { "life_coplevel", "SCALAR", 2 } },
             { "H_HelmetB_light_black", "", 120, { "life_coplevel", "SCALAR", 1 } },
-            { "H_HelmetB_black", "", 120, { "life_coplevel", "SCALAR", 1 } }
+            { "H_HelmetB_black", "", 120, { "life_coplevel", "SCALAR", 1 } },
+	    { "H_RacingHelmet_4_F", "", 120, { "life_coplevel", "SCALAR", 1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -181,18 +181,25 @@ class Clothing {
             { "V_TacVest_blk_POLICE", "", 1000, { "life_coplevel", "SCALAR", 1 } },
             { "V_PlateCarrier2_rgr", "", 1500, { "life_coplevel", "SCALAR", 1 } },
             { "V_PlateCarrier1_blk", "", 1500, { "life_coplevel", "SCALAR", 1 } },
-            { "V_Chestrig_blk", "", 800, { "", "", -1 } },
-            { "V_RebreatherB", "", 800, { "", "", -1 } },
+            { "V_Chestrig_blk", "", 8000, { "", "", -1 } },
+            { "V_RebreatherB", "", 8000, { "", "", -1 } },
+	    { "V_RebreatherIA", "", 8000, { "", "", -1 } },
+	    { "V_PlateCarrierIAGL_dgtl", "", 8000, { "", "", -1 } },
+	    { "V_PlateCarrierSpec_blk", "", 80000, { "life_coplevel", "SCALAR", 5 } },
             { "V_Press_F", "", 800, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
             { "B_FieldPack_cbr", "", 500, { "", "", -1 } },
             { "B_AssaultPack_cbr", "", 700, { "", "", -1 } },
+	    { "B_AssaultPack_blk", "", 2000, { "", "", -1 } },
+	    { "B_TacticalPack_blk", "", 2000, { "", "", -1 } },
             { "B_Kitbag_cbr", "", 800, { "", "", -1 } },
-            { "B_Bergen_sgg", "", 2500, { "", "", -1 } },
+            { "B_Bergen_blk", "", 1500, { "", "", -1 } },
+            { "B_Bergen_sgg", "", 1500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 3500, { "", "", -1 } },
             { "B_Parachute", "낙하산", 37500, { "", "", -1 } },
+	    { "B_OutdoorPack_blk", "", 500, { "", "", -1 } },
 	    { "B_AssaultPack_sgg", "JetPack", 300000, { "", "", -1 } }
         };
     };
@@ -304,7 +311,6 @@ class Clothing {
             { "B_AssaultPack_khk", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_dgtl", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_rgr", "", 2000, { "", "", -1 } },
-            { "B_AssaultPack_blk", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_cbr", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_mcamo", "", 2000, { "", "", -1 } },
             { "B_TacticalPack_oli", "", 2500, { "", "", -1 } },
@@ -314,7 +320,6 @@ class Clothing {
             { "B_Bergen_sgg", "", 6500, { "", "", -1 } },
             { "B_Bergen_mcamo", "", 6500, { "", "", -1 } },
             { "B_Bergen_rgr", "", 6500, { "", "", -1 } },
-            { "B_Bergen_blk", "", 6500, { "", "", -1 } },
             { "B_FieldPack_blk", "", 5000, { "", "", -1 } },
             { "B_FieldPack_ocamo", "", 5000, { "", "", -1 } },
             { "B_FieldPack_oucamo", "", 5000, { "", "", -1 } },
@@ -324,7 +329,6 @@ class Clothing {
             { "B_Carryall_oli", "", 7500, { "", "", -1 } },
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
-            { "B_OutdoorPack_blk", "", 500, { "", "", -1 } },
             { "B_AssaultPack_sgg", "JetPack", 300000, { "", "", -1 } },
 	    { "B_Parachute", "낙하산", 37500, { "", "", -1 } }
         };
@@ -445,16 +449,15 @@ class Clothing {
             { "V_TacVest_khk", "", 12500, { "", "", -1 } },
             { "V_BandollierB_cbr", "", 4500, { "", "", -1 } },
             { "V_HarnessO_brn", "", 7500, { "", "", -1 } },
-            { "V_TacVest_khk", "", 12500, { "", "", -1 } },
+            { "V_TacVestCamo_khk", "", 12500, { "", "", -1 } },
+	    { "V_PlateCarrierGL_mtp", "", 22500, { "", "", -1 } },
             { "V_HarnessOGL_gry", "Suicide Vest", 444400, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
-            { "B_OutdoorPack_blk", "", 500, { "", "", -1 } },
             { "B_AssaultPack_khk", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_dgtl", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_rgr", "", 2000, { "", "", -1 } },
-            { "B_AssaultPack_blk", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_cbr", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_mcamo", "", 2000, { "", "", -1 } },
             { "B_TacticalPack_oli", "", 2500, { "", "", -1 } },
@@ -474,7 +477,7 @@ class Clothing {
             { "B_Carryall_oli", "", 7500, { "", "", -1 } },
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
-            { "B_OutdoorPack_blk", "", 500, { "", "", -1 } },
+            { "B_OutdoorPack_blk", "", 7500, { "", "", -1 } },
             { "B_AssaultPack_sgg", "JetPack", 300000, { "", "", -1 } },
             { "B_Parachute", "낙하산", 37500, { "", "", -1 } }
         };

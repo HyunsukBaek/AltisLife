@@ -548,7 +548,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "LAPD", "cop", {"textures\cop\lapd_hatchback.paa"} },
             { "EMS London", "med", {"textures\ems\paramedic_hb.paa"} },
             { "Ferrari", "civ", {"textures\civ\ferrari_hatchback.jpg"} },
-            { "porsche", "civ", {"textures\civ\porsche_hatchback.jpg"} }
+            { "porsche", "civ", {"textures\civ\porsche_hatchback.jpg"} },
+	    { "잠복용시민monster", "cop", {"textures\civ\civ_hatchback_monster.jpg"} }
         };
     };
 
@@ -609,7 +610,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "blueflames", "civ", {"textures\civ\flames.jpg"} },
             { "tiger", "civ", {"textures\civ\pimp.jpg"} },
             { "ghostRider", "civ", {"textures\civ\suv_ghostrider.jpg"} },
-            { "택시", "civ", {"textures\civ\suvtaxi.jpg"} }
+            { "택시", "civ", {"textures\civ\suvtaxi.jpg"} },
+	    { "잠복용시민Cube", "cop", {"textures\civ\cube_suv.jpg"} }
         };
     };
 
