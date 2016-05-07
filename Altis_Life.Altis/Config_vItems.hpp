@@ -883,7 +883,7 @@ class VirtualItems {
 	class bomul {
 		variable = "bomul";
 		displayName = "STR_Item_Bomul";
-		weight = 12;
+		weight = 15;
 		buyPrice = 1;
 		sellPrice = 1;
 		illegal = false;

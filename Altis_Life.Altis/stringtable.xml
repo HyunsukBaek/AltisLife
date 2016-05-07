@@ -3909,6 +3909,9 @@
 			<Russian>Не могу дать, что большая часть этого пункта, может быть, у вас нет этой суммы?</Russian>
 			<German>Nicht geben konnte, dass dieser Artikel viel, vielleicht auch nicht, dass die Menge, die Sie tun?</German>
 		</Key>
+		<Key ID="STR_NOTF_couldNotGiveBomul">
+			<Original>보물은 남에게 줄 수 없습니다. 어드민에게 환전 후 remove하셔야 합니다</Original>
+		</Key>		
 		<Key ID="STR_NOTF_youGaveItem">
 			<Original>You gave %1 %2 %3.</Original>
 			<Czech>Ty jsi dal %1 %2 %3.</Czech>

@@ -23,6 +23,9 @@ if(isNil "_unit") exitWith {ctrlShow[2002,true];};
 if(_unit == player) exitWith {ctrlShow[2002,true];};
 if(isNull _unit) exitWith {ctrlShow[2002,true];};
 
+_type = M_CONFIG(getText,"VirtualItems",_item,"displayName");
+if(EQUAL(localize _type,"보물")) exitWith {hint localize "STR_NOTF_couldNotGiveBomul";ctrlShow[2002,true];};// 보물은안돼!!
+
 //A series of checks *ugh*
 if(!([_val] call TON_fnc_isnumber)) exitWith {hint localize "STR_NOTF_notNumberFormat";ctrlShow[2002,true];};
 if(parseNumber(_val) <= 0) exitWith {hint localize "STR_NOTF_enterAmountGive";ctrlShow[2002,true];};
