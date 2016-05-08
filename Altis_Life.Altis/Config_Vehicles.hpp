@@ -77,7 +77,8 @@ class CarShops {
             { "B_Heli_Light_01_stripped_F", { "", "", -1 } },
             { "B_G_Offroad_01_armed_F", { "", "", -1 } },
             { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
-            { "I_Heli_Transport_02_F",  { "", "", -1 } }
+            { "I_Heli_Transport_02_F",  { "", "", -1 } },
+	    { "O_Heli_Light_02_F",  { "", "", -1 } }
         };
     };
 
@@ -239,11 +240,22 @@ class LifeCfgVehicles {
         };
     };
 
-    class O_Heli_Light_02_v2_F {
+    class O_Heli_Light_02_v2_F { //ORCA
         vItemSpace = 200;
         licenses[] = { {""}, {"cAir"}, {""}, {""} };
         price = 750000;
         textures[] = {};
+    };
+
+    class O_Heli_Light_02_F { // ORCA ARMED
+	vItemSpace = 200;
+	licenses[] = { {""}, {"cAir"}, {""}, {""} };
+	price = 30000000;
+	textures[] = {
+	    { "Desert Digi", "reb", {
+               "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"
+	    } }
+	};
     };
 
     class O_Heli_Attack_02_black_F {
@@ -266,7 +278,7 @@ class LifeCfgVehicles {
         };
     };
 
-    class B_MRAP_01_hmg_F : B_MRAP_01_F{};
+    class B_MRAP_01_hmg_F : B_MRAP_01_F{}; //HUNTER
 
     class I_MRAP_03_F { //STRIDER
         vItemSpace = 200;
@@ -707,7 +719,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class B_Heli_Attack_01_F { // BLACKFOOT
         vItemSpace = 150;
         licenses[] = { {""}, {""}, {""}, {""} };
-        price = 1355000;
+        price = 2155000;
         textures[] = {};
     };
 
