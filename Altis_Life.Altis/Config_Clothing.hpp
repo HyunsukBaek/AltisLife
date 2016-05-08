@@ -135,7 +135,7 @@ class Clothing {
             { "U_I_HeliPilotCoveralls", "", 550, { "life_coplevel", "SCALAR", 2 } },
             { "U_O_GhillieSuit", "", 150000, { "life_coplevel", "SCALAR", 2 } },
             { "U_O_Wetsuit", "", 10550, { "life_coplevel", "SCALAR", 1 } },
-	    { "U_Marshal", "", 10550, { "life_coplevel", "SCALAR", 4 } },
+	    { "U_Marshal", "", 10550, { "life_coplevel", "SCALAR", 5 } },
 	    { "U_C_Poor_1", "", 10550, { "life_coplevel", "SCALAR", 4 } },
 	    { "U_NikosAgedBody", "", 10550, { "life_coplevel", "SCALAR", 4 } }
         };
@@ -156,7 +156,10 @@ class Clothing {
             { "H_PilotHelmetHeli_O", "", 120, { "life_coplevel", "SCALAR", 2 } },
             { "H_HelmetB_light_black", "", 120, { "life_coplevel", "SCALAR", 1 } },
             { "H_HelmetB_black", "", 120, { "life_coplevel", "SCALAR", 1 } },
-	    { "H_RacingHelmet_4_F", "", 120, { "life_coplevel", "SCALAR", 1 } }
+	    { "H_RacingHelmet_4_F", "", 120, { "life_coplevel", "SCALAR", 1 } },
+	    { "H_ShemagOpen_khk", "", 800, { "", "", -1 } },
+            { "H_ShemagOpen_tan", "", 850, { "", "", -1 } },
+            { "H_Shemag_olive", "", 850, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -173,7 +176,13 @@ class Clothing {
             { "G_Lady_Mirror", "", 150, { "", "", -1 } },
             { "G_Lady_Dark", "", 150, { "", "", -1 } },
             { "G_Lady_Blue", "", 150, { "", "", -1 } },
-	    { "G_Diving", "", 500, { "", "", -1 } }
+	    { "G_Diving", "", 500, { "", "", -1 } },
+	    { "G_Balaclava_combat", "", 150, { "", "", -1 } },
+	    { "G_Balaclava_lowprofile", "", 150, { "", "", -1 } },
+	    { "G_Balaclava_oli", "", 150, { "", "", -1 } },
+	    { "G_Bandanna_aviator", "", 150, { "", "", -1 } },
+	    { "G_Bandanna_beast", "", 150, { "", "", -1 } },
+	    { "G_Bandanna_blk", "", 150, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
