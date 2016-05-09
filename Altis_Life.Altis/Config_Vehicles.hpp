@@ -125,7 +125,8 @@ class CarShops {
             { "B_MRAP_01_hmg_F", { "life_coplevel", "SCALAR", 4 } },
             { "O_MRAP_02_hmg_F", { "life_coplevel", "SCALAR", 4 } },
             { "I_MRAP_03_hmg_F", { "life_coplevel", "SCALAR", 5 } },
-            { "O_MBT_02_cannon_F", { "life_coplevel", "SCALAR", 5 } }
+            { "O_MBT_02_cannon_F", { "life_coplevel", "SCALAR", 5 } },
+            { "O_Plane_CAS_02_F", { "life_donorlevel", "SCALAR", 1 } } //FOR TEST
         };
     };
 
@@ -883,5 +884,12 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vFuelSpace = 250000;
         licenses[] = { {""}, {""}, {""}, {""} };
         price = 255000;
+    };
+
+    class O_Plane_CAS_02_F {
+	vItemSpace = 60;
+	vFuelSpace = 250000;
+	licenses[] = { {""}, {""}, {""}, {""} };
+	price = 10000;
     };
 };
