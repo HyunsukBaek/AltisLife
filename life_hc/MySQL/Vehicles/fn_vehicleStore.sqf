@@ -41,7 +41,7 @@ if(EQUAL(LIFE_SETTINGS(getNumber,"save_vehicle_fuel"),1)) then {
 };
 
 if(_impound) exitWith {
-	if(count _vInfo == 0) then  {
+	if(_vInfo isEqualTo []) then  {
 		life_impound_inuse = false;
 		_ownerID publicVariableClient "life_impound_inuse";
 
@@ -62,7 +62,7 @@ if(_impound) exitWith {
 };
 
 // not persistent so just do this!
-if(count _vInfo == 0) exitWith {
+if(_vInfo isEqualTo []) exitWith {
 	[1,(localize "STR_Garage_Store_NotPersistent")] remoteExecCall ["life_fnc_broadcast",_ownerID];
 	life_garage_store = false;
 	_ownerID publicVariableClient "life_garage_store";
@@ -84,20 +84,13 @@ if (EQUAL(LIFE_SETTINGS(getNumber, "save_vehicle_virtualItems"), 1)) then {
 		_blacklist = false;
 		_profileQuery = format["SELECT name FROM players WHERE playerid='%1'", _uid];
 		_profileName = [_profileQuery, 2] call DB_fnc_asyncCall;
-		_profileName = _profileName select 0; 
+		_profileName = _profileName select 0;
 		{
-			_var = _x select 0;
-			_isIllegal = M_CONFIG(getNumber, "VirtualItems", _var, "illegal");
+			_isIllegal = M_CONFIG(getNumber, "VirtualItems", (_x select 0), "illegal");
 
-			_isIllegal =
-				if (_isIllegal == 1) then {
-					true
-				}
-				else {
-					false
-				};
+			_isIllegal = if (_isIllegal == 1) then { true }	else { false };
 
-			if ((_var in _resourceItems) OR  (_isIllegal)) then {
+			if (((_x select 0) in _resourceItems) OR  (_isIllegal)) then {
 				_items pushback[(_x select 0), (_x select 1)];
 				_weight = (ITEM_WEIGHT(_x select 0)) * (_x select 1);
 				_totalweight = _weight + _totalweight;
@@ -139,7 +132,7 @@ if(EQUAL(LIFE_SETTINGS(getNumber,"save_vehicle_inventory"),1)) then {
 	_vehBackpacks = getBackpackCargo _vehicle;
 	_cargo = [_vehItems,_vehMags,_vehWeapons,_vehBackpacks];
 	// no items? clean the array so the database looks pretty
-	if((count (_vehItems select 0) == 0) && (count (_vehMags select 0) == 0) && (count (_vehWeapons select 0) == 0) && (count (_vehBackpacks select 0) == 0)) then {_cargo = [];};
+	if(((_vehItems select 0) isEqualTo []) && ((_vehMags select 0) isEqualTo []) && ((_vehWeapons select 0) isEqualTo []) && ((_vehBackpacks select 0) isEqualTo [])) then {_cargo = [];};
 	} else {
 	_cargo = [];
 };

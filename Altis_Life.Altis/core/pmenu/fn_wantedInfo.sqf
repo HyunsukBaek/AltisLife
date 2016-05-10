@@ -15,11 +15,10 @@ _mylist = [];
 _data = call compile format["%1", _data];
 if(isNil "_data") exitWith {hint localize "STR_Cop_wantedList_FailedToFetch";};
 if(!(_data isEqualType [])) exitWith {hint localize "STR_Cop_wantedList_FailedToFetch";};
-if(count _data == 0) exitWith {hint localize "STR_Cop_wantedList_FailedToFetch";};
+if(_data isEqualTo []) exitWith {hint localize "STR_Cop_wantedList_FailedToFetch";};
 lbClear _list;
 
 _crimes = _data select 0;
-_bounty = _data select 1;
 
 {
 	_crime = _x;
@@ -30,4 +29,4 @@ _bounty = _data select 1;
 	};
 } forEach _crimes;
 
-ctrlSetText[2403,format[localize "STR_Wanted_Bounty",[_bounty] call life_fnc_numberText]];
+ctrlSetText[2403,format[localize "STR_Wanted_Bounty",[(_data select 1)] call life_fnc_numberText]];
