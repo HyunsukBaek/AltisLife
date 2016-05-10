@@ -18,7 +18,7 @@ _restrictedWeapons = LIFE_SETTINGS(getArray,"restricted_weapons");
 switch(playerSide) do
 {
 	case west: {
-		if(_item in ["U_Rangemaster"]) then {
+		if(_item in ["U_Rangemaster","U_B_CombatUniform_mcam","U_B_CombatUniform_mcam_worn","U_B_CTRG_1"]) then {
 			[] call life_fnc_playerSkins;
 		};
 	};
@@ -33,12 +33,12 @@ switch(playerSide) do
 				[_item,false,false,false,false] call life_fnc_handleItem;
 			};
 		};
-		if(_item in ["U_C_Poloshirt_blue","U_C_Poloshirt_burgundy","U_C_Poloshirt_stripped","U_C_Poloshirt_tricolour","U_C_Poloshirt_salmon","U_C_Poloshirt_redwhite","U_C_Commoner1_1"]) then {
+		if(_item in ["U_C_Poloshirt_blue","U_C_Poloshirt_burgundy","U_C_Poloshirt_stripped","U_C_Poloshirt_tricolour","U_C_Poloshirt_salmon","U_C_Poloshirt_redwhite","U_C_Commoner1_1", "U_C_TeeSurfer_shorts_1", "U_C_TeeSurfer_shorts_1", "U_Competitor","U_I_Wetsuit","U_B_Wetsuit","U_O_Wetsuit"]) then {
 			[] call life_fnc_playerSkins;
 		};
 	};
 	case independent: {
-		if(_item in ["U_Rangemaster"]) then {
+		if(_item in ["U_Rangemaster","U_B_CombatUniform_mcam","U_B_CombatUniform_mcam_worn"]) then {
 			[] call life_fnc_playerSkins;
 		};
 	};

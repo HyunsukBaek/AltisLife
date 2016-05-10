@@ -78,6 +78,7 @@ class CarShops {
             { "B_G_Offroad_01_armed_F", { "", "", -1 } },
             { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
             { "I_Heli_Transport_02_F",  { "", "", -1 } },
+	    { "O_MRAP_02_hmg_F", { "", "", -1 } },
 	    { "O_Heli_Light_02_F",  { "", "", -1 } }
         };
     };
@@ -279,7 +280,18 @@ class LifeCfgVehicles {
         };
     };
 
-    class B_MRAP_01_hmg_F : B_MRAP_01_F{}; //HUNTER
+    class B_MRAP_01_hmg_F { //hunter hmg
+      vItemSpace = 65;
+      licenses[] = { {""}, {""}, {""}, {""} };
+      price = 3000000;
+      textures[] = {
+          { "Black", "cop", {"#(argb,8,8,3)color(0.05,0.05,0.05,1)","#(argb,8,8,3)color(0.05,0.05,0.05,1)"} },
+          { "Police", "cop", {"textures\cop\hunter_front.paa","textures\cop\hunter_back.paa"} },
+          { "SWAT Police", "cop", {"textures\cop\swat_hunter_1.jpg","textures\cop\swat_hunter_2.jpg"} },
+          { "Scott police", "cop", {"textures\cop\scotpol_Hunter_Cab.paa","textures\cop\scotpol_Hunter_Back.paa"} },
+          { "EMS RED", "med", {"textures\ems\med_hunter_front.paa","textures\ems\med_hunter_back.paa"} }
+      };
+  };
 
     class I_MRAP_03_F { //STRIDER
         vItemSpace = 200;
@@ -363,7 +375,7 @@ class LifeCfgVehicles {
     class B_Truck_01_box_F { //hemtt box
         vItemSpace = 450;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 850000;
+        price = 800000;
         textures[] = { };
     };
 
@@ -380,7 +392,18 @@ class LifeCfgVehicles {
         };
     };
 
-    class O_MRAP_02_hmg_F : O_MRAP_02_F {}//ifrit hmg
+    class O_MRAP_02_hmg_F { //ifrit hmg
+      vItemSpace = 60;
+      licenses[] = { {"driver"}, {""}, {""}, {""} };
+      price = 3500000;
+      textures[] = {
+          { "Black Skull", "reb", {"textures\rebel\reb_black_ifrit_front.jpg", "textures\rebel\reb_black_ifrit_back.jpg"} },
+          { "Camo", "reb", {"textures\rebel\reblbirdcamo1.jpg"} },
+          { "Black", "cop", {"#(argb,8,8,3)color(0.05,0.05,0.05,1)"} },
+          { "BLUE", "cop", {"#(argb,8,8,3)color(0.01,0.01,1.53,1)"} },
+          { "Snake", "civ", {"textures\rebel\reb_black_ifrit_front.jpg", "textures\rebel\reb_black_ifrit_back.jpg"} }
+      };
+  };
 
     class Land_CargoBox_V1_F {
         vItemSpace = 5000;
@@ -477,7 +500,7 @@ class LifeCfgVehicles {
     class C_Kart_01_Blu_F {
         vItemSpace = 20;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 15000;
+        price = 50000;
         textures[] = {};
     };
 /*
@@ -890,6 +913,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	vItemSpace = 60;
 	vFuelSpace = 250000;
 	licenses[] = { {""}, {""}, {""}, {""} };
-	price = 10000;
+	price = 1000000;
     };
 };

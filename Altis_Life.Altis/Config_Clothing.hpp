@@ -128,7 +128,6 @@ class Clothing {
             { "U_B_CombatUniform_mcam_worn", "Blue Uniform", 350, { "life_coplevel", "SCALAR", 2 } },
 	    { "U_B_CTRG_1", "Black Uniform", 350, { "life_coplevel", "SCALAR", 2 } },
 	    { "U_B_survival_uniform", "", 1250, { "life_coplevel", "SCALAR", 1 } },
-            { "U_B_CTRG_1", "", 550, { "life_coplevel", "SCALAR", 2 } },
             { "U_B_PilotCoveralls", "", 550, { "life_coplevel", "SCALAR", 1 } },//
             { "U_B_HeliPilotCoveralls", "", 550, { "life_coplevel", "SCALAR", 2 } },
             { "U_B_GhillieSuit", "", 150000, { "life_coplevel", "SCALAR", 2 } },
