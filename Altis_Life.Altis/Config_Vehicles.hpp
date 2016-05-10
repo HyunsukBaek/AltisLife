@@ -251,7 +251,7 @@ class LifeCfgVehicles {
     class O_Heli_Light_02_F { // ORCA ARMED
 	vItemSpace = 200;
 	licenses[] = { {""}, {"cAir"}, {""}, {""} };
-	price = 30000000;
+	price = 19000000;
 	textures[] = {
 	    { "Desert Digi", "reb", {
                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"

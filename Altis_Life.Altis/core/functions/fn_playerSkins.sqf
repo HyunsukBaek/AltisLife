@@ -73,10 +73,13 @@ switch(playerSide) do {
 			player setObjectTextureGlobal [0, _skinName];
 		};
 		if(uniform player == "U_B_CombatUniform_mcam") then {
-			player setObjectTextureGlobal [0, "textures\cop_uniform_white.jpg"];
+			player setObjectTextureGlobal [0, "textures\cop\clothes\scotpol_hvuniform.paa"];
 		};
 		if(uniform player == "U_B_CombatUniform_mcam_worn") then {
-			player setObjectTextureGlobal [0, "textures\cop_uniform_blue.jpg"];
+			player setObjectTextureGlobal [0, "textures\cop\clothes\scotpol_pcsouniform.paa"];
+		};
+		if(uniform player == "U_B_CTRG_1") then {
+			player setObjectTextureGlobal [0, "textures\cop\clothes\scotpol_blackuniform.paa"];
 		};
 	};
 
