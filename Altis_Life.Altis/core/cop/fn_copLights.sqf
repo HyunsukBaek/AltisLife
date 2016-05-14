@@ -131,7 +131,6 @@ _lightright setLightAmbient [0.1,0.1,1];
 
 switch (typeOf _vehicle) do
 {
-//"","","","","B_Truck_01_Repair_F","I_Truck_02_covered_F","B_Truck_01_ammo_F","","","","","","","","","","","","","","B_Heli_Attack_01_F",""
 	case "C_Offroad_01_F":
 	{
 		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
