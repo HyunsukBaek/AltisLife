@@ -164,7 +164,9 @@ switch (_code) do {
 	case 38: {
 		//If cop run checks for turning lights on.
 		if(_shift && playerSide in [west,independent]) then {
-			if(vehicle player != player && (typeOf vehicle player) in ["C_Offroad_01_F","B_MRAP_01_F","C_SUV_01_F","C_Hatchback_01_F","C_Hatchback_01_sport_F","B_Heli_Light_01_F","B_Heli_Transport_01_F","B_MRAP_01_hmg_F","O_MRAP_02_F","O_MRAP_02_hmg_F","C_Van_01_box_F", "I_MRAP_03_F"]) then {
+			if(vehicle player != player && (typeOf vehicle player) in [
+				"C_Offroad_01_F","C_SUV_01_F","C_Hatchback_01_sport_F","B_MRAP_01_F","B_Truck_01_Repair_F","I_Truck_02_covered_F","B_Truck_01_ammo_F","I_MRAP_03_F","B_MRAP_01_hmg_F","O_MRAP_02_hmg_F","I_MRAP_03_hmg_F","B_Heli_Light_01_F","B_Heli_Transport_03_unarmed_F","B_Heli_Transport_01_F","O_Heli_Light_02_unarmed_F","I_Heli_Transport_02_F","O_Heli_Transport_04_F","I_Heli_light_03_F","O_Heli_Light_02_v2_F","B_Heli_Light_01_armed_F","B_Heli_Attack_01_F","O_Heli_Attack_02_black_F", "C_Hatchback_01_F","C_Van_01_box_F","I_Truck_02_medical_F","B_Truck_01_medical_F"])
+			]) then {
 				if(!isNil {vehicle player GVAR "lights"}) then {
 					if(playerSide == west) then {
 						[vehicle player] call life_fnc_sirenLights;

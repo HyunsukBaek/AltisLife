@@ -42,7 +42,7 @@ switch (typeOf _vehicle) do
 	
 	case "C_Van_01_box_F":
 	{
-		_lightleft lightAttachObject [_vehicle, [-0.35,-0.2,0.85]];
+		_lightleft lightAttachObject [_vehicle, [-0.35,-0.2,1]];
 	};
 
 	case "B_Heli_Light_01_F":
@@ -59,10 +59,35 @@ switch (typeOf _vehicle) do
 	{			
 		_lightleft lightAttachObject [_vehicle, [-0.5, 0.0, 0.81]];
  	};
+	
+	case "B_Heli_Transport_03_unarmed_F":
+	{			
+		_lightleft lightAttachObject [_vehicle, [-0.5, 0.0, 0.81]];
+ 	};
+
+	case "I_Heli_Transport_02_F":
+	{			
+		_lightleft lightAttachObject [_vehicle, [-0.5, 0.0, 0.81]];
+ 	};
+
+	case "O_Heli_Transport_04_F":
+	{			
+		_lightleft lightAttachObject [_vehicle, [-0.5, 0.0, 0.81]];
+ 	};
 
 	case "I_MRAP_03_F":
 	{
 		_lightleft lightAttachObject [_vehicle, [-0.37, -1.9, 0.2]];
+	};
+	
+	case "B_MRAP_01_F":
+	{
+		_lightleft lightAttachObject [_vehicle, [-0.37, -1.9, 0.7]];
+	};
+
+	default 
+	{
+		_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];
 	};
 };
 
@@ -99,7 +124,7 @@ switch (typeOf _vehicle) do
 	
 	case "C_Van_01_box_F":
 	{
-		_lightright lightAttachObject [_vehicle, [0.35,-0.2,0.85]];
+		_lightright lightAttachObject [_vehicle, [0.35,-0.2,1]];
 	};
 	
 	case "B_Heli_Light_01_F":
@@ -117,9 +142,34 @@ switch (typeOf _vehicle) do
 		_lightright lightAttachObject [_vehicle, [0.5, 0.0, 0.81]];
  	};
 
+	case "B_Heli_Transport_03_unarmed_F":
+	{			
+		_lightright lightAttachObject [_vehicle, [0.5, 0.0, 0.81]];
+ 	};
+
+	case "I_Heli_Transport_02_F":
+	{			
+		_lightright lightAttachObject [_vehicle, [0.5, 0.0, 0.81]];
+ 	};
+
+	case "O_Heli_Transport_04_F":
+	{			
+		_lightright lightAttachObject [_vehicle, [0.5, 0.0, 0.81]];
+ 	};
+
 	case "I_MRAP_03_F":
 	{
 		_lightright lightAttachObject [_vehicle, [0.37, -1.9, 0.2]];
+	};
+
+	case "B_MRAP_01_F":
+	{
+		_lightright lightAttachObject [_vehicle, [0.37, -1.9, 0.7]];
+	};
+
+	default 
+	{
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
 };
   
