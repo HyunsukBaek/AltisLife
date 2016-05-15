@@ -363,7 +363,7 @@ switch (_code) do {
             };
         };
     };
-		
+
 	//DELETE Key :Suicide Vest 
 	case 211: {
 		if(!_alt && !_ctrlKey && !dialog) then {
@@ -404,7 +404,7 @@ switch (_code) do {
 	case 6:
 	{
 		if(_shift) then {_handled = true;};
-		if(_shift && {isTouchingGround player} && {EQUAL(stance player,"STAND")} && {!life_is_arrested}) then
+		if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
 		{
 			//cutText [format["태권도!!!!!"], "PLAIN DOWN"];
 			player playMove "AmovPercMstpSnonWnonDnon_exerciseKata";
@@ -415,7 +415,7 @@ switch (_code) do {
 	case 7:
 	{
 		if(_shift) then {_handled = true;};
-		if(_shift && {isTouchingGround player} && {EQUAL(stance player,"STAND")} && {!life_is_arrested}) then
+		if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
 		{
 			//cutText [format["쪼그려뛰기 천천히!!!"], "PLAIN DOWN"];
 			player playMove "AmovPercMstpSnonWnonDnon_exercisekneeBendA";
@@ -426,7 +426,7 @@ switch (_code) do {
 	case 8:
 	{
 		if(_shift) then {_handled = true;};
-		if(_shift && {isTouchingGround player} && {EQUAL(stance player,"STAND")} && {!life_is_arrested}) then
+		if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
 		{
 			//cutText [format["쪼그려뛰기 빠르게!!!"], "PLAIN DOWN"];
 			player playMove "AmovPercMstpSnonWnonDnon_exercisekneeBendB";
@@ -437,7 +437,7 @@ switch (_code) do {
 	case 9:
 	{
 		if(_shift) then {_handled = true;};
-		if(_shift && {isTouchingGround player} && {EQUAL(stance player,"STAND")} && {!life_is_arrested}) then
+		if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
 		{	
 			//cutText [format["팔굽혀펴기!!!"], "PLAIN DOWN"];
 			player playMove "AmovPercMstpSnonWnonDnon_exercisePushup";
@@ -448,7 +448,7 @@ switch (_code) do {
 	case 10:
 	{
 		if(_shift) then {_handled = true;};
-		if(_shift && {isTouchingGround player} && {EQUAL(stance player,"STAND")} && {!life_is_arrested}) then
+		if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
 		{	
 			//cutText [format["팔굽혀펴기!!!"], "PLAIN DOWN"];
 			player playMove "AcinPercMstpSnonWnonDnon_agony";
@@ -459,7 +459,7 @@ switch (_code) do {
 	case 79:
 	{
 		if(_shift) then {_handled = true;};
-		if(_shift && {isTouchingGround player} && {EQUAL(stance player,"STAND")} && {!life_is_arrested}) then
+		if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
 		{	
 			//cutText [format["쉬야"], "PLAIN DOWN"];
 			player playMove "Acts_AidlPercMstpSlowWrflDnon_pissing";
