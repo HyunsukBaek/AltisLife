@@ -29,3 +29,4 @@
 #include "jail_time.hpp"
 #include "AltisPhone.hpp"
 #include "slotmachine.hpp"
+#include "blackjack.hpp"
