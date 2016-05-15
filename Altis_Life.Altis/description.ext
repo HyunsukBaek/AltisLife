@@ -157,7 +157,7 @@ class CfgDebriefing {
     };
 };
 
-    class Params {
+class Params {
        // paramsArray[0]
           class initialWeatherParam {
           title = "Starting Weather";
@@ -165,7 +165,6 @@ class CfgDebriefing {
           texts[] = {"Clear","Overcast","Rain","Fog","Random"};
           default = 0;
        };
-    };
 };
 
 class CfgNotifications {
