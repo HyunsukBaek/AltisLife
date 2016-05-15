@@ -190,7 +190,7 @@ compileFinal "
 TON_fnc_cell_adminmsg =
 compileFinal "
 	if(isServer) exitWith {};
-	if((call life_coplevel) < 4) exitWith {hint ""You are not over coplevel 4 or Admin"";};
+	if((call life_coplevel) < 4 || (call life_adminlevel) < 1) exitWith {hint ""You are not over coplevel 4 or Admin"";};
 	private[""_msg"",""_to""];
 	ctrlShow[3020,false];
 	_msg = ctrlText 3003;
@@ -201,7 +201,7 @@ compileFinal "
 
     [_msg,name player,3] remoteExecCall [""TON_fnc_clientMessage"",_to];
     [] call life_fnc_cellphone;
-    hint format[""Admin Message Sent To: %1 - Message: %2"",name _to,_msg];
+    hint format[""Police or Admin Message Sent To: %1 - Message: %2"",name _to,_msg];
     ctrlShow[3020,true];
 ";
 
