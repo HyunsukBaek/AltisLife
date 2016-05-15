@@ -157,15 +157,15 @@ if (count _damage > 0 && (LIFE_SETTINGS(getNumber,"save_vehicle_damage") isEqual
 };
 
 //Sets of animations
-if(SEL(_vInfo,1) isEqualTo "civ" && SEL(_vInfo,2) isEqualTo "B_Heli_Light_01_F" && !(SEL(_vInfo,8) isEqualTo 13)) then {
+if(EQUAL(SEL(_vInfo,1),"civ") && EQUAL(SEL(_vInfo,2),"B_Heli_Light_01_F") && !(EQUAL(SEL(_vInfo,8),13))) then {
     [_vehicle,"civ_littlebird",true] remoteExecCall ["life_fnc_vehicleAnimate",_unit];
 };
 
-if(SEL(_vInfo,1) isEqualTo "cop" && (SEL(_vInfo,2)) in ["C_Offroad_01_F","C_SUV_01_F","C_Hatchback_01_sport_F","B_MRAP_01_F","B_Truck_01_Repair_F","I_Truck_02_covered_F","B_Truck_01_ammo_F","I_MRAP_03_F","B_MRAP_01_hmg_F","O_MRAP_02_hmg_F","I_MRAP_03_hmg_F","B_Heli_Light_01_F","B_Heli_Transport_03_unarmed_F","B_Heli_Transport_01_F","O_Heli_Light_02_unarmed_F","I_Heli_Transport_02_F","O_Heli_Transport_04_F","I_Heli_light_03_F","O_Heli_Light_02_v2_F","B_Heli_Light_01_armed_F","B_Heli_Attack_01_F","O_Heli_Attack_02_black_F"]) then {
+if(EQUAL(SEL(_vInfo,1),"cop") && (SEL(_vInfo,2)) in ["C_Offroad_01_F","C_SUV_01_F","C_Hatchback_01_sport_F","B_MRAP_01_F","B_Truck_01_Repair_F","I_Truck_02_covered_F","B_Truck_01_ammo_F","I_MRAP_03_F","B_MRAP_01_hmg_F","O_MRAP_02_hmg_F","I_MRAP_03_hmg_F","B_Heli_Light_01_F","B_Heli_Transport_03_unarmed_F","B_Heli_Transport_01_F","O_Heli_Light_02_unarmed_F","I_Heli_Transport_02_F","O_Heli_Transport_04_F","I_Heli_light_03_F","O_Heli_Light_02_v2_F","B_Heli_Light_01_armed_F","B_Heli_Attack_01_F","O_Heli_Attack_02_black_F"]) then {
     [_vehicle,"cop_offroad",true] remoteExecCall ["life_fnc_vehicleAnimate",_unit];
 };
 
-if(SEL(_vInfo,1) isEqualTo "med") && (SEL(_vInfo,2)) in ["C_Offroad_01_F","C_SUV_01_F","C_Hatchback_01_sport_F","C_Hatchback_01_F","C_Van_01_box_F","I_Truck_02_medical_F","B_Truck_01_medical_F","I_MRAP_03_F","B_MRAP_01_F","B_Heli_Light_01_F","O_Heli_Light_02_unarmed_F","B_Heli_Transport_03_unarmed_F","I_Heli_Transport_02_F","O_Heli_Transport_04_F"]) then {
+if(EQUAL(SEL(_vInfo,1),"med") && (SEL(_vInfo,2)) in ["C_Offroad_01_F","C_SUV_01_F","C_Hatchback_01_sport_F","C_Hatchback_01_F","C_Van_01_box_F","I_Truck_02_medical_F","B_Truck_01_medical_F","I_MRAP_03_F","B_MRAP_01_F","B_Heli_Light_01_F","O_Heli_Light_02_unarmed_F","B_Heli_Transport_03_unarmed_F","I_Heli_Transport_02_F","O_Heli_Transport_04_F"]) then {
     [_vehicle,"med_offroad",true] remoteExecCall ["life_fnc_vehicleAnimate",_unit];
 };
 
