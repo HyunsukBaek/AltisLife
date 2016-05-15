@@ -11,7 +11,7 @@
     <a href="https://dev.arma3.com/post/spotrep-00054">
         <img src="https://img.shields.io/badge/arma%203-1.58-orange.svg" alt="Arma 3 Version">
     </a>
-    &nbsp;&nbsp;&nbsp;
+    </br>
     <a href="https://discordapp.com/invite/0z4k0hcAcvMl2SQx">
         <img src="https://img.shields.io/badge/chat-on%20discord-738BD7.svg" alt="Join the chat at https://discordapp.com/invite/0z4k0hcAcvMl2SQx">
     </a>
@@ -23,16 +23,23 @@
     <a href="https://gitter.im/ArmaLife/Framework/Support?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge">
         <img src="https://img.shields.io/badge/support-on%20gitter-blue.svg" alt="Join the support chat at https://gitter.im/ArmaLife/Framework/Support">
     </a>
-    &nbsp;&nbsp;&nbsp;
+    </br>
     <a href="https://waffle.io/ArmaLife/Framework">
         <img src="https://img.shields.io/badge/issues-on%20waffle-red.svg" alt="Stories in Ready">
+    </a>
+    &nbsp;&nbsp;&nbsp;
+    <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.en_US">
+        <img src="https://img.shields.io/badge/license-CC%20BY--NC--ND%204.0-yellow.svg" alt="License Type">
+    </a>
+    &nbsp;&nbsp;&nbsp;
+    <a href="https://travis-ci.org/ArmaLife/Framework">
+        <img src="https://api.travis-ci.org/ArmaLife/Framework.svg" alt="Build Status">
     </a>
 </p>
 
 <b>Altis Life</b> or <b>[Altis Life RPG] (http://www.altisliferpg.com)</b> was created and mainly developed by <b>Tonic</b> AKA <b>[TAW_Tonic] (https://github.com/TAWTonic)</b>.<br/>
-This contains primarily the release contain and on-going development changes to the mission.<br/>
+Altis Life is currently being maintained by [Arma Life RPG] (https://github.com/ArmaLife).<br/>
 <br/>
-Altis Life RPG by Tonic is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License] (http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US)<br/>
 By using the framework and/or code inside the framework, you agree to the [terms of agreement] (README.md/#usage--terms-of-agreement).<br/>
 The terms are subjected to be changed over time.<br/>
 

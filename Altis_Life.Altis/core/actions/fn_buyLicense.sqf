@@ -1,10 +1,10 @@
 #include "..\..\script_macros.hpp"
 /*
-	File: fn_buyLicense.sqf
-	Author: Bryan "Tonic" Boardwine
-	
-	Description:
-	Called when purchasing a license. May need to be revised.
+    File: fn_buyLicense.sqf
+    Author: Bryan "Tonic" Boardwine
+
+    Description:
+    Called when purchasing a license. May need to be revised.
 */
 private["_type","_varName","_displayName","_sideFlag","_price"];
 _type = SEL(_this,3);
@@ -20,4 +20,4 @@ if(CASH < _price) exitWith {hint format[localize "STR_NOTF_NE_1",[_price] call l
 SUB(CASH,_price);
 
 titleText[format[localize "STR_NOTF_B_1", localize _displayName,[_price] call life_fnc_numberText],"PLAIN"];
-SVAR_MNS [_varName,true];
+missionNamespace setVariable [_varName,true];

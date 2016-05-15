@@ -1,10 +1,10 @@
 #include "..\..\script_macros.hpp"
 /*
-	File: fn_loadDeadGear.sqf
-	Author: Bryan "Tonic" Boardwine
-	
-	Description:
-	BLAH
+    File: fn_loadDeadGear.sqf
+    Author: Bryan "Tonic" Boardwine
+
+    Description:
+    BLAH
 */
 private["_allowedItems","_loadout","_primary","_launcher","_handgun","_magazines","_uniform","_vest","_backpack","_items","_primitems","_secitems","_handgunitems","_uitems","_vitems","_bitems","_handle"];
 _loadout = [_this,0,[],[[]]] call BIS_fnc_param;
@@ -35,22 +35,22 @@ removeBackpack player;
 removeGoggles player;
 removeHeadGear player;
 {
-	player unassignItem _x;
-	player removeItem _x;
+    player unassignItem _x;
+    player removeItem _x;
 } forEach (assignedItems player);
 
 //Add the gear
-if(!(EQUAL(_uniform,""))) then {_handle = [_uniform,true,false,false,false] spawn life_fnc_handleItem; waitUntil {scriptDone _handle};};
-if(!(EQUAL(_vest,""))) then {_handle = [_vest,true,false,false,false] spawn life_fnc_handleItem; waitUntil {scriptDone _handle};};
-if(!(EQUAL(_backpack,""))) then {_handle = [_backpack,true,false,false,false] spawn life_fnc_handleItem; waitUntil {scriptDone _handle};};
+if(!(_uniform isEqualTo "")) then {_handle = [_uniform,true,false,false,false] spawn life_fnc_handleItem; waitUntil {scriptDone _handle};};
+if(!(_vest isEqualTo "")) then {_handle = [_vest,true,false,false,false] spawn life_fnc_handleItem; waitUntil {scriptDone _handle};};
+if(!(_backpack isEqualTo "")) then {_handle = [_backpack,true,false,false,false] spawn life_fnc_handleItem; waitUntil {scriptDone _handle};};
 {
-	_handle = [_x,true,false,false,false] spawn life_fnc_handleItem;
-	waitUntil {scriptDone _handle};
+    _handle = [_x,true,false,false,false] spawn life_fnc_handleItem;
+    waitUntil {scriptDone _handle};
 } forEach _magazines;
 
-if(!(EQUAL(_primary,""))) then {[_primary,true,false,false,false] spawn life_fnc_handleItem;};
-if(!(EQUAL(_launcher,""))) then {[_launcher,true,false,false,false] spawn life_fnc_handleItem;};
-if(!(EQUAL(_handgun,""))) then {[_handgun,true,false,false,false] spawn life_fnc_handleItem;};
+if(!(_primary isEqualTo "")) then {[_primary,true,false,false,false] spawn life_fnc_handleItem;};
+if(!(_launcher isEqualTo "")) then {[_launcher,true,false,false,false] spawn life_fnc_handleItem;};
+if(!(_handgun isEqualTo "")) then {[_handgun,true,false,false,false] spawn life_fnc_handleItem;};
 
 {_handle = [_x,true,false,false,false] spawn life_fnc_handleItem; waitUntil {scriptDone _handle};} forEach _items;
 {[_x,true,false,false,true] call life_fnc_handleItem;} forEach (_uitems);
@@ -58,7 +58,7 @@ if(!(EQUAL(_handgun,""))) then {[_handgun,true,false,false,false] spawn life_fnc
 {[_x,true,true,false,false] call life_fnc_handleItem;} forEach (_bitems);
 {[_x,true,false,true,false] call life_fnc_handleItem;} forEach (_primitems);
 {[_x,true,false,true,false] call life_fnc_handleItem;} forEach (_secitems);
-{[_x,true,false,true,false] call life_fnc_handleItem;} forEach (_handgunitems);  
+{[_x,true,false,true,false] call life_fnc_handleItem;} forEach (_handgunitems);
 
-if(!(EQUAL(_headgear,""))) then {player addHeadGear _headgear};
-if(!(EQUAL(_goggles,""))) then {player addGoggles _goggles};
+if(!(_headgear isEqualTo "")) then {player addHeadGear _headgear};
+if(!(_goggles isEqualTo "")) then {player addGoggles _goggles};
