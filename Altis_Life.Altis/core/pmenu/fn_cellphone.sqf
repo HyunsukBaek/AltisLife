@@ -17,16 +17,14 @@ _selection = 0;
 ctrlSetText [3003, ""];
 lbClear _units;
 
-
-if((FETCH_CONST(life_coplevel) < 4 )) then {
+if((FETCH_CONST(life_coplevel) > 3 ) || (FETCH_CONST(life_adminlevel) > 0 ) ) then {
+	ctrlShow[3020,true];
+    ctrlShow[3021,true];
+} else{
     ctrlShow[3020,false];
     ctrlShow[3021,false];
 };
 
-if((FETCH_CONST(life_adminlevel) > 1 )) then {
-    ctrlShow[3020,true];
-    ctrlShow[3021,true];
-};
 {
     if(alive _x && _x != player) then {
         switch (side _x) do {
