@@ -190,7 +190,7 @@ compileFinal "
 TON_fnc_cell_adminmsg =
 compileFinal "
 	if(isServer) exitWith {};
-	if((call life_coplevel) < 4 || (call life_adminlevel) < 1) exitWith {hint ""You are not over coplevel 4 or Admin"";};
+	if((call life_coplevel) < 4) exitWith {hint ""You are not over coplevel 4 or Admin"";};
 	private[""_msg"",""_to""];
 	ctrlShow[3020,false];
 	_msg = ctrlText 3003;
