@@ -23,9 +23,9 @@ if(playerSide != civilian) exitWith
 };
 */
 
-if(player distance _source > 20) exitWith 
+if(player distance _source > 50) exitWith 
 {
-	hint "You need to stay within 20m to play."; 
+	hint "You need to stay within 50m to play."; 
 	//5 cutText ["","PLAIN"]; 
 	life_is_processing = false;
 };
@@ -90,9 +90,9 @@ if(life_cash >= _cost) then
 		if(_cP >= 1.1) exitWith 
 		{
 		};
-		if(player distance _source > 20) exitWith {};
+		if(player distance _source > 50) exitWith {};
 	};
-	if(player distance _source > 20) exitWith {hint "You need to stay within 20m to play."; 5 cutText ["","PLAIN"]; life_is_processing = false;};
+	if(player distance _source > 50) exitWith {hint "You need to stay within 50m to play."; 5 cutText ["","PLAIN"]; life_is_processing = false;};
 	
 	life_cash = life_cash - _cost;
 	

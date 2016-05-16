@@ -10,15 +10,6 @@ _betamt = [_this,0,1,[0]] call BIS_fnc_param;
 disableSerialization;
 _display = findDisplay 5980;
 
-//Error check // soul : 거리 떨어지면 안되도록 
-if(isNull _source) exitWith {};
-if(player distance _betamt > 20) exitWith 
-{
-	hint "You need to stay within 20m to play."; 
-	//5 cutText ["","PLAIN"]; 
-};
-
-
 if(life_cash < _betamt) exitWith {hint format["You don't have enough money to play (%1$)",_betamt];};
 life_cash = life_cash - _betamt;
 
@@ -66,10 +57,10 @@ _Stay ctrlEnable false;
 
 switch ( _betamt ) do 
 {
-	case 1000:  { _bet10KTEXT ctrlSetText ""; _bet25KTEXT ctrlSetText ""; _bet50KTEXT ctrlSetText ""; };
-	case 2000: { _bet5KTEXT ctrlSetText ""; _bet25KTEXT ctrlSetText ""; _bet50KTEXT ctrlSetText ""; };
-	case 5000: { _bet10KTEXT ctrlSetText ""; _bet5KTEXT ctrlSetText ""; _bet50KTEXT ctrlSetText ""; };
-	case 10000: { _bet10KTEXT ctrlSetText ""; _bet25KTEXT ctrlSetText ""; _bet5KTEXT ctrlSetText ""; };
+	case 5000:  { _bet10KTEXT ctrlSetText ""; _bet25KTEXT ctrlSetText ""; _bet50KTEXT ctrlSetText ""; };
+	case 10000: { _bet5KTEXT ctrlSetText ""; _bet25KTEXT ctrlSetText ""; _bet50KTEXT ctrlSetText ""; };
+	case 25000: { _bet10KTEXT ctrlSetText ""; _bet5KTEXT ctrlSetText ""; _bet50KTEXT ctrlSetText ""; };
+	case 50000: { _bet10KTEXT ctrlSetText ""; _bet25KTEXT ctrlSetText ""; _bet5KTEXT ctrlSetText ""; };
 	default { _bet10KTEXT ctrlSetText ""; _bet25KTEXT ctrlSetText ""; _bet50KTEXT ctrlSetText ""; }
 };
 

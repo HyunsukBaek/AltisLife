@@ -103,7 +103,7 @@ class BlackjackGUI
 			idc = 5984;
 			text = "5K"; //--- ToDo: Localize;
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-			onButtonClick = "[1000] spawn life_fnc_BJbet;";
+			onButtonClick = "[5000] spawn life_fnc_BJbet;";
 			x = 6 * GUI_GRID_W + GUI_GRID_X;
 			y = 19 * GUI_GRID_H + GUI_GRID_Y;
 			w = 4 * GUI_GRID_W;
@@ -114,7 +114,7 @@ class BlackjackGUI
 			idc = 5985;
 			text = "10K"; //--- ToDo: Localize;
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-			onButtonClick = "[2000] spawn life_fnc_BJbet;";
+			onButtonClick = "[10000] spawn life_fnc_BJbet;";
 			x = 13 * GUI_GRID_W + GUI_GRID_X;
 			y = 19 * GUI_GRID_H + GUI_GRID_Y;
 			w = 4 * GUI_GRID_W;
@@ -125,7 +125,7 @@ class BlackjackGUI
 			idc = 5986;
 			text = "25K"; //--- ToDo: Localize;
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-			onButtonClick = "[5000] spawn life_fnc_BJbet;";
+			onButtonClick = "[25000] spawn life_fnc_BJbet;";
 			x = 20 * GUI_GRID_W + GUI_GRID_X;
 			y = 19 * GUI_GRID_H + GUI_GRID_Y;
 			w = 4 * GUI_GRID_W;
@@ -136,7 +136,7 @@ class BlackjackGUI
 			idc = 5987;
 			text = "50K"; //--- ToDo: Localize;
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-			onButtonClick = "[10000] spawn life_fnc_BJbet;";
+			onButtonClick = "[50000] spawn life_fnc_BJbet;";
 			x = 27 * GUI_GRID_W + GUI_GRID_X;
 			y = 19 * GUI_GRID_H + GUI_GRID_Y;
 			w = 4 * GUI_GRID_W;
