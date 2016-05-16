@@ -101,7 +101,7 @@ class BlackjackGUI
 		class BET_5K: life_RscButtonMenu
 		{
 			idc = 5984;
-			text = "5K"; //--- ToDo: Localize;
+			text = "1K"; //--- ToDo: Localize;
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
 			onButtonClick = "[5000] spawn life_fnc_BJbet;";
 			x = 6 * GUI_GRID_W + GUI_GRID_X;
@@ -112,7 +112,7 @@ class BlackjackGUI
 		class BET_10K: life_RscButtonMenu
 		{
 			idc = 5985;
-			text = "10K"; //--- ToDo: Localize;
+			text = "2K"; //--- ToDo: Localize;
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
 			onButtonClick = "[10000] spawn life_fnc_BJbet;";
 			x = 13 * GUI_GRID_W + GUI_GRID_X;
@@ -123,7 +123,7 @@ class BlackjackGUI
 		class BET_25K: life_RscButtonMenu
 		{
 			idc = 5986;
-			text = "25K"; //--- ToDo: Localize;
+			text = "5K"; //--- ToDo: Localize;
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
 			onButtonClick = "[25000] spawn life_fnc_BJbet;";
 			x = 20 * GUI_GRID_W + GUI_GRID_X;
@@ -134,7 +134,7 @@ class BlackjackGUI
 		class BET_50K: life_RscButtonMenu
 		{
 			idc = 5987;
-			text = "50K"; //--- ToDo: Localize;
+			text = "10K"; //--- ToDo: Localize;
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
 			onButtonClick = "[50000] spawn life_fnc_BJbet;";
 			x = 27 * GUI_GRID_W + GUI_GRID_X;
