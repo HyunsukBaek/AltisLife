@@ -28,23 +28,23 @@ _betamt = 0;
 
 if( (ctrlText _bet5KText) != "" ) then
 {
-	_betamt = 5000;
+	_betamt = 1000;
 }
 else
 {
 	if( (ctrlText _bet10KText) != "" ) then
 	{
-		_betamt = 10000;
+		_betamt = 2000;
 	}
 	else
 	{
 		if( (ctrlText _bet25KText) != "" ) then
 		{
-			_betamt = 25000;
+			_betamt = 5000;
 		}
 		else
 		{
-			_betamt = 50000;
+			_betamt = 10000;
 		};
 	};
 };
