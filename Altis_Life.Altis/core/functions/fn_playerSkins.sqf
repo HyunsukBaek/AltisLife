@@ -8,7 +8,7 @@
 */
 private["_skinName"];
 
-switch(playerSide) do {
+switch (playerSide) do {
     case civilian: {
         if (LIFE_SETTINGS(getNumber,"civ_skins") isEqualTo 1) then {
             
