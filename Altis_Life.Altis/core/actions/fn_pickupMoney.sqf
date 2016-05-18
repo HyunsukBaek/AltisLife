@@ -7,11 +7,11 @@
     Picks up money
 */
 private "_value";
-if ((time - life_action_delay) < 1.5) exitWith {hint localize "STR_NOTF_ActionDelay"; _this setVariable ["inUse",false,true];};
-if (isNull _this || {player distance _this > 3}) exitWith {_this setVariable ["inUse",false,true];};
+if((time - life_action_delay) < 1.5) exitWith {hint localize "STR_NOTF_ActionDelay"; _this setVariable ["inUse",false,true];};
+if(isNull _this || {player distance _this > 3}) exitWith {_this setVariable ["inUse",false,true];};
 
 _value = SEL((_this getVariable "item"),1);
-if (!isNil "_value") exitWith {
+if(!isNil "_value") exitWith {
     deleteVehicle _this;
 
     switch (true) do {
@@ -22,11 +22,11 @@ if (!isNil "_value") exitWith {
 
     player playMove "AinvPknlMstpSlayWrflDnon";
     titleText[format[localize "STR_NOTF_PickedMoney",[_value] call life_fnc_numberText],"PLAIN"];
-    CASH = CASH + _value;
+    ADD(CASH,_value);
     life_action_delay = time;
 
-    if (LIFE_SETTINGS(getNumber,"player_moneyLog") isEqualTo 1) then {
-        if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
+    if(LIFE_SETTINGS(getNumber,"player_moneyLog") isEqualTo 1) then {
+        if(LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
             money_log = format ["picked up $%1 from the ground. Bank Balance: $%2  On Hand Balance: $%3",[_value] call life_fnc_numberText,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
         } else {
             money_log = format ["%1 - %2 picked up $%3 from the ground. Bank Balance: $%4  On Hand Balance $%5",profileName,(getPlayerUID player),[_value] call life_fnc_numberText,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];

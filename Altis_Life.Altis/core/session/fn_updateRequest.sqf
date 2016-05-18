@@ -11,7 +11,7 @@ _packet = [getPlayerUID player,(profileName),playerSide,CASH,BANK];
 _array = [];
 _alive = alive player;
 _position = getPosATL player;
-_flag = switch (playerSide) do {case west: {"cop"}; case civilian: {"civ"}; case independent: {"med"};};
+_flag = switch(playerSide) do {case west: {"cop"}; case civilian: {"civ"}; case independent: {"med"};};
 
 {
     _varName = LICENSE_VARNAME(configName _x,_flag);
@@ -37,7 +37,7 @@ switch (playerSide) do {
     };
 };
 
-if (life_HC_isActive) then {
+if(life_HC_isActive) then {
     _packet remoteExecCall ["HC_fnc_updateRequest",HC_Life];
 } else {
     _packet remoteExecCall ["DB_fnc_updateRequest",RSERV];

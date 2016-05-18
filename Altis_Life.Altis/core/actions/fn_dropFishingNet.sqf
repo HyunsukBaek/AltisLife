@@ -6,15 +6,17 @@
     Drops a virtual fishing net from the boat.
 */
 private["_fish","_type","_typeName"];
-if (!(vehicle player isKindOf "Ship")) exitWith {};
+if(!(vehicle player isKindOf "Ship")) exitWith {};
 _fish = (nearestObjects[getPos vehicle player,["Fish_Base_F"],20]);
 life_net_dropped = true;
 titleText[localize "STR_NOTF_NetDrop","PLAIN"];
 sleep 5;
-if (_fish isEqualTo []) exitWith {titleText[localize "STR_NOTF_NetDropFail","PLAIN"]; life_net_dropped = false;};
+if(_fish isEqualTo []) exitWith {titleText[localize "STR_NOTF_NetDropFail","PLAIN"]; life_net_dropped = false;};
 {
-    if (_x isKindOf "Fish_Base_F") then {
-        switch (true) do {
+    if(_x isKindOf "Fish_Base_F") then
+    {
+        switch(true) do
+        {
             case ((typeOf _x) == "Salema_F"): {_typeName = localize "STR_ANIM_Salema"; _type = "salema_raw";};
             case ((typeOf _x) == "Ornate_random_F") : {_typeName = localize "STR_ANIM_Ornate"; _type = "ornate_raw";};
             case ((typeOf _x) == "Mackerel_F") : {_typeName = localize "STR_ANIM_Mackerel"; _type = "mackerel_raw";};
@@ -26,7 +28,8 @@ if (_fish isEqualTo []) exitWith {titleText[localize "STR_NOTF_NetDropFail","PLA
 
         sleep 3;
 
-        if ([true,_type,1] call life_fnc_handleInv) then {
+        if(([true,_type,1] call life_fnc_handleInv)) then
+        {
             deleteVehicle _x;
             titleText[format[(localize "STR_NOTF_Fishing"),_typeName],"PLAIN"];
         };
