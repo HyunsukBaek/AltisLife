@@ -1,6 +1,4 @@
 #define SYSTEM_TAG "HC"
-#define SUB(var1,var2) var1 = var1 - var2
-#define ADD(var1,var2) var1 = var1 + var2
 #define SEL(ARRAY,INDEX) (ARRAY select INDEX)
 #define CASH life_cash
 #define BANK life_atmbank
@@ -23,8 +21,8 @@
 #define RANY 0
 
 //Scripting Macros
-#define CONST(var1,var2) var1 = compileFinal (if(var2 isEqualType "") then {var2} else {str(var2)})
-#define CONSTVAR(var) var = compileFinal (if(var isEqualType "") then {var} else {str(var)})
+#define CONST(var1,var2) var1 = compileFinal (if (var2 isEqualType "") then {var2} else {str(var2)})
+#define CONSTVAR(var) var = compileFinal (if (var isEqualType "") then {var} else {str(var)})
 #define FETCH_CONST(var) (call var)
 #define LIFE_SETTINGS(TYPE,SETTING) TYPE(missionConfigFile >> "Life_Settings" >> SETTING)
 #define FETCH_CONFIG(TYPE,CFG,SECTION,CLASS,ENTRY) TYPE(configFile >> CFG >> SECTION >> CLASS >> ENTRY)
@@ -35,12 +33,12 @@
 #define ITEM_WEIGHT(varName) M_CONFIG(getNumber,"VirtualItems",varName,"weight")
 
 //Condition Macros
-#define CONFIG_BOOL(NUMBER) [##NUMBER] call { _ret = false; if((_this select 0) in [0,1] && (_this select 0) isEqualTo 1) then { _ret = true; }; _ret;}
+#define CONFIG_BOOL(NUMBER) [##NUMBER] call { _ret = false; if ((_this select 0) in [0,1] && (_this select 0) isEqualTo 1) then { _ret = true; }; _ret;}
 
 // extDB2 Macros
 #define EXTDB "extDB2" callExtension
 #define EXTDB_SETTING(TYPE,SETTING) TYPE(missionConfigFile >> "CfgServer" >> SETTING)
 #define EXTDB_FAILED(MESSAGE) \
-    life_server_extDB_notLoaded = [true,##MESSAGE]; \
-    PVAR_ALL("life_server_extDB_notLoaded"); \
+    life_HC_server_extDB_notLoaded = [true,##MESSAGE]; \
+    publicVariable "life_HC_server_extDB_notLoaded"; \
     diag_log MESSAGE;

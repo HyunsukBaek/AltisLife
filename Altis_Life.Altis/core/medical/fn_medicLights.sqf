@@ -2,21 +2,22 @@
     File: fn_medicLights.sqf
     Author: mindstorm, modified by Adanteh
     Link: http://forums.bistudio.com/showthread.php?157474-Offroad-Police-sirens-lights-and-underglow
-    
+
     Description:
     Adds the light effect to cop vehicles, specifically the offroad.
 */
 Private ["_vehicle","_lightRed","_lightBlue","_lightGreen","_lightleft","_lightright","_leftRed"];
 _vehicle = _this select 0;
-if(isNil "_vehicle" || isNull _vehicle || !(_vehicle getVariable "lights")) exitWith {};
+
+if (isNil "_vehicle" || isNull _vehicle || !(_vehicle getVariable "lights")) exitWith {};
 _lightRed = [20, 0.1, 0.1];
 _lightGreen = [0.1, 20, 0.1];
 _lightBlue = [0.1, 0.1, 20];
 
-_lightleft = "#lightpoint" createVehicle getPos _vehicle;   
+_lightleft = "#lightpoint" createVehicle getPos _vehicle;
 sleep 0.2;
-_lightleft setLightColor _lightGreen; 
-_lightleft setLightBrightness 0.2;  
+_lightleft setLightColor _lightGreen;
+_lightleft setLightBrightness 0.2;
 _lightleft setLightAmbient [0.1,0.1,1];
 
 switch (typeOf _vehicle) do
@@ -92,17 +93,17 @@ switch (typeOf _vehicle) do
     };
 };
 
-_lightleft setLightAttenuation [0.181, 0, 1000, 130]; 
+_lightleft setLightAttenuation [0.181, 0, 1000, 130];
 _lightleft setLightIntensity 10;
 _lightleft setLightFlareSize 0.38;
 _lightleft setLightFlareMaxDistance 150;
 _lightleft setLightUseFlare true;
 
-_lightright = "#lightpoint" createVehicle getPos _vehicle;   
+_lightright = "#lightpoint" createVehicle getPos _vehicle;
 sleep 0.2;
-_lightright setLightColor _lightGreen; 
-_lightright setLightBrightness 0.2;  
-_lightright setLightAmbient [0.1,0.1,1]; 
+_lightright setLightColor _lightGreen;
+_lightright setLightBrightness 0.2;
+_lightright setLightAmbient [0.1,0.1,1];
 
 switch (typeOf _vehicle) do
 {
@@ -176,8 +177,8 @@ switch (typeOf _vehicle) do
         _lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
     };
 };
-  
-_lightright setLightAttenuation [0.181, 0, 1000, 130]; 
+
+_lightright setLightAttenuation [0.181, 0, 1000, 130];
 _lightright setLightIntensity 10;
 _lightright setLightFlareSize 0.38;
 _lightright setLightFlareMaxDistance 150;

@@ -1,8 +1,6 @@
 /* System Wide Stuff */
 #define SYSTEM_TAG "life"
 #define ITEM_TAG format["%1%2",SYSTEM_TAG,"item_"]
-#define SUB(var1,var2) var1 = var1 - var2
-#define ADD(var1,var2) var1 = var1 + var2
 #define SEL(ARRAY,INDEX) (ARRAY select INDEX)
 #define CASH life_cash
 #define BANK life_atmbank
@@ -14,8 +12,8 @@
 #define RANY 0 //Global
 
 //Scripting Macros
-#define CONST(var1,var2) var1 = compileFinal (if(var2 isEqualType "") then {var2} else {str(var2)})
-#define CONSTVAR(var) var = compileFinal (if(var isEqualType "") then {var} else {str(var)})
+#define CONST(var1,var2) var1 = compileFinal (if (var2 isEqualType "") then {var2} else {str(var2)})
+#define CONSTVAR(var) var = compileFinal (if (var isEqualType "") then {var} else {str(var)})
 #define FETCH_CONST(var) (call var)
 
 //Display Macros
@@ -28,7 +26,6 @@
 #define LICENSE_VALUE(varName,flag) missionNamespace getVariable [LICENSE_VARNAME(varName,flag),false]
 #define ITEM_VARNAME(varName) format["life_inv_%1",M_CONFIG(getText,"VirtualItems",varName,"variable")]
 #define ITEM_VALUE(varName) missionNamespace getVariable [ITEM_VARNAME(varName),0]
-#define ITEM_VALUE2(varName) missionNamespace getVariable [varName,0]
 #define ITEM_ILLEGAL(varName) M_CONFIG(getNumber,"VirtualItems",varName,"illegal")
 #define ITEM_SELLPRICE(varName) M_CONFIG(getNumber,"VirtualItems",varName,"sellPrice")
 #define ITEM_BUYPRICE(varName) M_CONFIG(getNumber,"VirtualItems",varName,"buyPrice")

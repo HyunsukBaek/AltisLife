@@ -8,65 +8,70 @@
 */
 private["_skinName"];
 
-switch(playerSide) do {
+switch (playerSide) do {
     case civilian: {
-        if(LIFE_SETTINGS(getNumber,"civ_skins") isEqualTo 1) then {
-            
-            if(uniform player == "U_C_Poloshirt_blue") then {
+        if (LIFE_SETTINGS(getNumber,"civ_skins") isEqualTo 1) then {
+            if (uniform player == "U_C_Poloshirt_blue") then {
                 player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Super.jpg"];
             };
             
-            if(uniform player == "U_C_Poloshirt_burgundy") then {
+            if (uniform player == "U_C_Poloshirt_burgundy") then {
                 player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Barbie.jpg"];
             };
-            
-            if(uniform player == "U_C_Poloshirt_redwhite") then {
+            if (uniform player == "U_C_Poloshirt_redwhite") then {
                 player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Kitty.jpg"];
             };
-            
-            if(uniform player == "U_C_Poloshirt_salmon") then {
+            if (uniform player == "U_C_Poloshirt_tricolour") then {
+                player setObjectTextureGlobal [0, "textures\civilian_uniform_4.jpg"];
+            };
+            if (uniform player == "U_C_Poloshirt_salmon") then {
+                player setObjectTextureGlobal [0, "textures\civilian_uniform_5.jpg"];
+            };
+            if (uniform player == "U_C_Poloshirt_redwhite") then {
+                player setObjectTextureGlobal [0, "textures\civilian_uniform_6.jpg"];
+            };
+
+            if (uniform player == "U_C_Poloshirt_salmon") then {
                 player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Gay_2.jpg"];
             };
-            
-            if(uniform player == "U_C_Poloshirt_stripped") then {
+
+            if (uniform player == "U_C_Poloshirt_stripped") then {
                 player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Gay_1.jpg"];
             };
             
-            if(uniform player == "U_C_TeeSurfer_shorts_1") then {
+            if (uniform player == "U_C_TeeSurfer_shorts_1") then {
                 player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Gay_3.jpg"];
             };
-            if(uniform player == "U_C_TeeSurfer_shorts_2") then {
+            if (uniform player == "U_C_TeeSurfer_shorts_2") then {
                 player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Tiger.jpg"];
             };
             
-            if(uniform player == "U_Competitor") then {
+            if (uniform player == "U_Competitor") then {
                 player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Broadcast.jpg"];
             };
             
-            if(uniform player == "U_I_Wetsuit") then {
+            if (uniform player == "U_I_Wetsuit") then {
                 player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Dive_Green.jpg"];
             };
             
-            if(uniform player == "U_O_Wetsuit") then {
+            if (uniform player == "U_O_Wetsuit") then {
                 player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Dive_Blue.jpg"];
             };
             
-            if(uniform player == "U_B_Wetsuit") then {
+            if (uniform player == "U_B_Wetsuit") then {
                 player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Dive_Red.jpg"];
             };
-            
-            
         };
     };
 
     case west: {
-        if(uniform player == "U_Rangemaster") then {
+        if (uniform player == "U_Rangemaster") then {
             _skinName = "textures\cop_uniform.jpg";
-            if(LIFE_SETTINGS(getNumber,"cop_extendedSkins") isEqualTo 1) then {
-                if(FETCH_CONST(life_coplevel) == 3) then {
+            if (LIFE_SETTINGS(getNumber,"cop_extendedSkins") isEqualTo 1) then {
+                if (FETCH_CONST(life_coplevel) == 3) then {
                     _skinName = "textures\cop_uniform_white.jpg";
                 };
-                if(FETCH_CONST(life_coplevel) == 4) then {
+                if (FETCH_CONST(life_coplevel) == 4) then {
                     _skinName = "textures\cop_uniform_blue.jpg";
                 };
             };
@@ -84,7 +89,7 @@ switch(playerSide) do {
     };
 
     case independent: {
-        if(uniform player == "U_Rangemaster") then {
+        if (uniform player == "U_Rangemaster") then {
             player setObjectTextureGlobal [0, "textures\medic_uniform.jpg"];
         };
         if(uniform player == "U_B_CombatUniform_mcam") then {
