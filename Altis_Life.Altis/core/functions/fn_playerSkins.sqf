@@ -8,9 +8,10 @@
 */
 private["_skinName"];
 
-switch (playerSide) do {
+switch(playerSide) do {
     case civilian: {
         if (LIFE_SETTINGS(getNumber,"civ_skins") isEqualTo 1) then {
+            
             if (uniform player == "U_C_Poloshirt_blue") then {
                 player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Super.jpg"];
             };
@@ -18,23 +19,15 @@ switch (playerSide) do {
             if (uniform player == "U_C_Poloshirt_burgundy") then {
                 player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Barbie.jpg"];
             };
+            
             if (uniform player == "U_C_Poloshirt_redwhite") then {
                 player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Kitty.jpg"];
             };
-            if (uniform player == "U_C_Poloshirt_tricolour") then {
-                player setObjectTextureGlobal [0, "textures\civilian_uniform_4.jpg"];
-            };
-            if (uniform player == "U_C_Poloshirt_salmon") then {
-                player setObjectTextureGlobal [0, "textures\civilian_uniform_5.jpg"];
-            };
-            if (uniform player == "U_C_Poloshirt_redwhite") then {
-                player setObjectTextureGlobal [0, "textures\civilian_uniform_6.jpg"];
-            };
-
+            
             if (uniform player == "U_C_Poloshirt_salmon") then {
                 player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Gay_2.jpg"];
             };
-
+            
             if (uniform player == "U_C_Poloshirt_stripped") then {
                 player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Gay_1.jpg"];
             };
@@ -61,6 +54,8 @@ switch (playerSide) do {
             if (uniform player == "U_B_Wetsuit") then {
                 player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Dive_Red.jpg"];
             };
+            
+            
         };
     };
 
@@ -77,13 +72,13 @@ switch (playerSide) do {
             };
             player setObjectTextureGlobal [0, _skinName];
         };
-        if(uniform player == "U_B_CombatUniform_mcam") then {
+        if (uniform player == "U_B_CombatUniform_mcam") then {
             player setObjectTextureGlobal [0, "textures\cop\clothes\scotpol_hvuniform.paa"];
         };
-        if(uniform player == "U_B_CombatUniform_mcam_worn") then {
+        if (uniform player == "U_B_CombatUniform_mcam_worn") then {
             player setObjectTextureGlobal [0, "textures\cop\clothes\scotpol_pcsouniform.paa"];
         };
-        if(uniform player == "U_B_CTRG_1") then {
+        if (uniform player == "U_B_CTRG_1") then {
             player setObjectTextureGlobal [0, "textures\cop\clothes\scotpol_blackuniform.paa"];
         };
     };
@@ -92,10 +87,10 @@ switch (playerSide) do {
         if (uniform player == "U_Rangemaster") then {
             player setObjectTextureGlobal [0, "textures\medic_uniform.jpg"];
         };
-        if(uniform player == "U_B_CombatUniform_mcam") then {
+        if (uniform player == "U_B_CombatUniform_mcam") then {
             player setObjectTextureGlobal [0, "textures\ems\clothes\paramedic_uniform_hv.paa"];
         };
-        if(uniform player == "U_B_CombatUniform_mcam_worn") then {
+        if (uniform player == "U_B_CombatUniform_mcam_worn") then {
             player setObjectTextureGlobal [0, "textures\ems\clothes\paramedic_unifrom.paa"];
         };
     };
