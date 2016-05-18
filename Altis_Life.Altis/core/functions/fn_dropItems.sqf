@@ -89,7 +89,7 @@ _unit = SEL(_this,0);
         };
 
         case "life_cash": {
-            if (life_cash > 0) then {
+            if (CASH > 0) then {
                 _pos = _unit modelToWorld[0,3,0];
                 _pos = [SEL(_pos,0), SEL(_pos,1), 0];
                 _obj = "Land_Money_F" createVehicle _pos;
@@ -112,4 +112,4 @@ _unit = SEL(_this,0);
             };
         };
     };
-} forEach (("true" configClasses (missionConfigFile >> "VirtualItems")) + ["CASH"]);
+} forEach (("true" configClasses (missionConfigFile >> "VirtualItems")) + ["life_cash"]);
