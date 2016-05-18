@@ -38,13 +38,13 @@ switch (_selection) do {
     };
 };
 
-if(isNull (findDisplay 3100)) exitWith {};
+if (isNull (findDisplay 3100)) exitWith {};
 
 _list = CONTROL(3100,3101);
 lbClear _filter;
 lbClear _list;
 
-_array = switch(_selection) do {
+_array = switch (_selection) do {
     case 0: {M_CONFIG(getArray,"Clothing",life_clothing_store,"uniforms");};
     case 1: {M_CONFIG(getArray,"Clothing",life_clothing_store,"headgear");};
     case 2: {M_CONFIG(getArray,"Clothing",life_clothing_store,"goggles");};
@@ -61,25 +61,25 @@ _array = switch(_selection) do {
     _levelType = SEL(_levelAssert,1);
     _levelValue = SEL(_levelAssert,2);
 
-    if(!(_className isEqualTo "NONE")) then {
+    if (!(_className isEqualTo "NONE")) then {
         _details = [_className] call life_fnc_fetchCfgDetails;
         _pic = SEL(_details,2);
     };
 
-    if(!(_levelValue isEqualTo -1)) then {
+    if (!(_levelValue isEqualTo -1)) then {
         _level = missionNamespace getVariable _levelName;
-        if(_level isEqualType {}) then {_level = FETCH_CONST(_level);};
+        if (_level isEqualType {}) then {_level = FETCH_CONST(_level);};
 
 
-        _bool = switch(_levelType) do {
+        _bool = switch (_levelType) do {
             case "SCALAR": {_level >= _levelValue};
             case "BOOL": {_level};
             case "EQUAL": {_level isEqualTo _levelValue};
             default {false};
         };
 
-        if(_bool && {!isNil "_details"}) then {
-            if(_displayName isEqualTo "") then {
+        if (_bool && {!isNil "_details"}) then {
+            if (_displayName isEqualTo "") then {
                 _list lbAdd (SEL(_details,1));
             } else {
                 _list lbAdd _displayName;
@@ -90,11 +90,11 @@ _array = switch(_selection) do {
             _list lbSetPicture [(lbSize _list)-1,_pic];
         };
     } else {
-        if(isNil "_details") then {
+        if (isNil "_details") then {
             _list lbAdd _displayName;
             _list lbSetData [(lbSize _list)-1,_className];
         } else {
-            if(_displayName isEqualTo "") then {
+            if (_displayName isEqualTo "") then {
                 _list lbAdd (SEL(_details,1));
             } else {
                 _list lbAdd _displayName;

@@ -10,9 +10,9 @@ class Life_Settings {
     spyGlass_toggle = false; //Spyglass On/Off Toggle --> True = On & False = Off
 
     /* Data Logging Settings */
-    battlEye_friendlyLogging = false; //False [default] - Read the logs from the server.rpt. True - Read the logs from the publicVariable.log. NOTE: Due to how diag_log works it will log to both files either way and the setting is merely for beautification purposes. 
+    battlEye_friendlyLogging = false; //False [default] - Read the logs from the server.rpt. True - Read the logs from the publicVariable.log. NOTE: Due to how diag_log works it will log to both files either way and the setting is merely for beautification purposes.
     player_advancedLog = true; //False [default] - No advanced logging. True - Logs house purchase and sale, vehicle purchase, sale, and chop shopping, police arrests, and gang creations. Search for: advanced_log
-    player_moneyLog = false; //False [default] - No money logging. True - Logs player bank deposits, withdraws, and transfers, gang bank deposits and withdraws, money picked up off of the ground, and player robbery. Search for: money_log
+    player_moneyLog = true; //False [default] - No money logging. True - Logs player bank deposits, withdraws, and transfers, gang bank deposits and withdraws, money picked up off of the ground, and player robbery. Search for: money_log
     player_deathLog = true; //False [default] - No death logging. True - Logs victim and killer, and vehicle or weapon if used, when a player dies. Search for: death_log
 
 /* Database Related Settings */
@@ -114,31 +114,33 @@ class Life_Settings {
     chopShop_vehicles[] = { "Car", "Air" }; //Vehicles that can be chopped. (Can add: "Ship" and possibly more -> look at the BI wiki...)
     vehicle_infiniteRepair = false; //Set to true for unlimited repairs with 1 toolkit. False will remove toolkit upon use.
     vehicleShop_rentalOnly[] = { "B_G_Offroad_01_armed_F" }; //Vehicles that can only be rented and not purchased. (Last only for the session)
+    vehicleShop_3D = false; //Add preview 3D inside Shop vehicle.       Default : False
 
-        /* Vehicle Purchase Prices */
-        vehicle_purchase_multiplier_CIVILIAN = 1.2; //Civilian Vehicle Buy Price = Config_Vehicle price * multiplier
-        vehicle_purchase_multiplier_COP = 2.5; //Cop Vehicle Buy Price = Config_Vehicle price * multiplier
-        vehicle_purchase_multiplier_MEDIC = 1; //Medic Vehicle Buy Price = Config_Vehicle price * multiplier
-        vehicle_purchase_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
+    /* Vehicle Purchase Prices */
+    vehicle_purchase_multiplier_CIVILIAN = 1.2; //Civilian Vehicle Buy Price = Config_Vehicle price * multiplier
+    vehicle_purchase_multiplier_COP = 2.5; //Cop Vehicle Buy Price = Config_Vehicle price * multiplier
+    vehicle_purchase_multiplier_MEDIC = 1; //Medic Vehicle Buy Price = Config_Vehicle price * multiplier
+    vehicle_purchase_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
 
-        /* Vehicle Rental Prices */
-        vehicle_rental_multiplier_CIVILIAN = .4; //Civilian Vehicle Rental Price = Config_Vehicle price * multiplier
-        vehicle_rental_multiplier_COP = .2; //Cop Vehicle Rental Price = Config_Vehicle price * multiplier
-        vehicle_rental_multiplier_MEDIC = .5; //Medic Vehicle Rental Price = Config_Vehicle price * multiplier
-        vehicle_rental_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
+    /* Vehicle Rental Prices */
+    vehicle_rental_multiplier_CIVILIAN = .4; //Civilian Vehicle Rental Price = Config_Vehicle price * multiplier
+    vehicle_rental_multiplier_COP = .2; //Cop Vehicle Rental Price = Config_Vehicle price * multiplier
+    vehicle_rental_multiplier_MEDIC = .5; //Medic Vehicle Rental Price = Config_Vehicle price * multiplier
+    vehicle_rental_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
 
-        /* Vehicle Sell Prices */
-        vehicle_sell_multiplier_CIVILIAN = .5; //Civilian Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
-        vehicle_sell_multiplier_COP = .5; //Cop Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
-        vehicle_sell_multiplier_MEDIC = .5; //Medic Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
-        vehicle_sell_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
+    /* Vehicle Sell Prices */
+    vehicle_sell_multiplier_CIVILIAN = .5; //Civilian Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
+    vehicle_sell_multiplier_COP = .5; //Cop Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
+    vehicle_sell_multiplier_MEDIC = .5; //Medic Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
+    vehicle_sell_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
 
-        /* "Other" Vehicle Prices */
-        vehicle_chopShop_multiplier = .3; //Chop Shop price for vehicles. TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
-        vehicle_storage_fee_multiplier = .04; //Pull from garage cost --> Cost takes the playersides Buy Price * multiplier
-        vehicle_cop_impound_multiplier = .02; //TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
 
-/* Wanted System Settings *
+    /* "Other" Vehicle Prices */
+    vehicle_chopShop_multiplier = .3; //Chop Shop price for vehicles. TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
+    vehicle_storage_fee_multiplier = .04; //Pull from garage cost --> Cost takes the playersides Buy Price * multiplier
+    vehicle_cop_impound_multiplier = .02; //TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
+
+    /* Wanted System Settings *
     /* crimes[] = {String, Bounty, Code} */
     crimes[] = {
         {"STR_Crime_187V","50000","187V"}, //로드킬

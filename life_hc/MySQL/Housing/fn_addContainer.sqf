@@ -4,7 +4,7 @@
     Author: NiiRoZz
 
     This file is for Nanou's HeadlessClient.
-    
+
     Description:
     Add container in Database
 */
@@ -14,11 +14,11 @@ params [
     ["_container",objNull,[objNull]]
 ];
 
-if(isNull _container || _uid == "") exitWith {};
+if (isNull _container || _uid == "") exitWith {};
 
 _containerPos = getPosATL _container;
 _className = typeOf _container;
-_dir = [vectorDir _container] + [vectorUp _container];
+_dir = [vectorDir _container, vectorUp _container];
 
 _query = format["INSERT INTO containers (pid, pos, classname, inventory, gear, owned, dir) VALUES('%1', '%2', '%3', '""[[],0]""', '""[]""', '1', '%4')",_uid,_containerPos,_className,_dir];
 [_query,1] call HC_fnc_asyncCall;
