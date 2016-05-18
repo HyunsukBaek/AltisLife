@@ -39,7 +39,7 @@ BEGIN
   UPDATE `vehicles` SET `active`= 0;
 END$$
 
-CREATE DEFINER=`arma3`@`localhost` PROCEDURE `deleteDeadVehicles`()
+CREATE DEFINER=`root`@`localhost` PROCEDURE `deleteDeadVehicles`()
 BEGIN
   DELETE FROM `vehicles` WHERE `alive` = 0;
 END$$
