@@ -114,7 +114,7 @@ class Life_Settings {
     chopShop_vehicles[] = { "Car", "Air" }; //Vehicles that can be chopped. (Can add: "Ship" and possibly more -> look at the BI wiki...)
     vehicle_infiniteRepair = false; //Set to true for unlimited repairs with 1 toolkit. False will remove toolkit upon use.
     vehicleShop_rentalOnly[] = { "B_G_Offroad_01_armed_F" }; //Vehicles that can only be rented and not purchased. (Last only for the session)
-    vehicleShop_3D = false; //Add preview 3D inside Shop vehicle.       Default : False
+    vehicleShop_3D = true; //Add preview 3D inside Shop vehicle.       Default : False
 
     /* Vehicle Purchase Prices */
     vehicle_purchase_multiplier_CIVILIAN = 1.2; //Civilian Vehicle Buy Price = Config_Vehicle price * multiplier
