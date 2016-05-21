@@ -25,7 +25,7 @@ switch (playerSide) do {
             };
             
             if (uniform player == "U_C_Poloshirt_salmon") then {
-                player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Gay_2.jpg"];
+                player setObjectTextureGlobal [0, "textures\civ\clothes\civ_yakuja.jpg"];
             };
             
             if (uniform player == "U_C_Poloshirt_stripped") then {

@@ -648,7 +648,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "ghostRider", "civ", {"textures\civ\suv_ghostrider.jpg"} },
             { "택시", "civ", {"textures\civ\suvtaxi.jpg"} },
 	    { "잠복용시민Cube", "cop", {"textures\civ\cube_suv.jpg"} },
-	    { "vips", "civ", {"textures\civ\civ_suvvip.jpg"} }
+	    { "vips", "civ", {"textures\civ\civ_suvvip.jpg"} },
+	    { "5taku", "civ", {"textures\civ\civ_suvotaku.jpg"} }
         };
     };
 
