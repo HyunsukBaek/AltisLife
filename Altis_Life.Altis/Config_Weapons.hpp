@@ -48,9 +48,9 @@ class WeaponShops {
             { "arifle_Katiba_F", "", 380000, 20000 },
             { "srifle_DMR_01_F", "", 475000, 20000 },
             { "arifle_SDAR_F", "", 400000, 20000 },
-            { "arifle_MXC_SOS_point_snds_F", "", 700000, 20000 },
-            { "LMG_Mk200_F", "", 1300000, 20000 },
-            { "srifle_EBR_DMS_F", "", 1500000, 20000 },
+            { "arifle_MXC_F", "", 600000, 20000 },
+            { "LMG_Mk200_F", "", 1200000, 20000 },
+            { "srifle_EBR_F", "", 1100000, 20000 },
             { "launch_RPG32_F", "", 1800000, 20000 }
         };
         mags[] = {
@@ -87,10 +87,10 @@ class WeaponShops {
             { "hgun_Rook40_F", "", 35000, 3100 },
             { "hgun_Pistol_heavy_02_F", "", 42500, 2200 },
             { "hgun_ACPC2_F", "", 54500, 3000 },
-            { "SMG_02_ARCO_pointg_F", "", 255000, 20000 },//sting 9mm
+            { "SMG_02_F", "", 255000, 20000 },//sting 9mm
             { "hgun_PDW2000_F", "", 65000, 20000 },
             { "arifle_Katiba_F", "", 380000, 20000 },
-            { "arifle_MXC_Black_F", "", 450000, 20000 },
+            { "arifle_MXC_F", "", 450000, 20000 },
             { "srifle_DMR_01_F", "", 475000, 20000 },
             { "FirstAidKit", "", 550, 65 }
         };
@@ -174,9 +174,15 @@ class WeaponShops {
             { "ItemRadio", "", 3000, 980 },
             { "FirstAidKit", "", 550, 65 },
             { "NVGoggles", "", 2000, 980 },
+//	    { "tf_anprc148jem", "", 2000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
+//	    { "tf_anprc152", "", 2000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
+//	    { "tf_anprc154", "", 2000, 980 }, //Independent - personal - 2km ( 30-512Mhz)
+//	    { "tf_fadak", "", 2000, 980 },// OPFOR personal - 5km ( 30-512Mhz)
+//	    { "tf_pnr1000a", "", 2000, 980 }, // OPFOR personal - 2km ( 30-512Mhz)
+//	    { "tf_rf7800str", "", 2000, 980 }, // Bluefor personal - 2km ( 30 -512 Mhz)
             { "arifle_sdar_F", "Taser Rifle", 80000, 7500 },
-            { "hgun_P07_snds_F", "Stun Pistol", 10000, 650 },
-	    { "hgun_ACPC2_snds_F", "Handgun acpc2", 20000, 650 },
+            { "hgun_P07_F", "Stun Pistol", 10000, 650 },
+	    { "hgun_ACPC2_F", "Handgun acpc2", 20000, 650 },
             { "HandGrenade_Stone", "Flashbang", 3700, 1000 },
             { "Laserdesignator", "", 13000, 980 },
             { "Binocular", "", 150, -1 },
@@ -206,12 +212,12 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 2, "You must be a Patrol Officer Rank!" };
         items[] = {
-            { "hgun_Pistol_heavy_02_Yorris_F", "Yorris권총", 30000, 15000 },
+            { "hgun_Pistol_heavy_02_F", "", 30000, 15000 },
             { "arifle_MX_F", "", 135000, 7500 },
-            { "SMG_02_ACO_F", "", 130000, 7500 },
+            { "SMG_02_F", "", 130000, 7500 },
             { "SMG_01_F", "", 60000, 5000 },
             { "arifle_Mk20C_F", "", 230000, 7500 },
-            { "arifle_MX_SW_Hamr_pointer_F", "", 130000, 5000 },
+            { "arifle_MX_SW_F", "", 130000, 5000 },
             { "MineDetector", "", 1000, 500 }
         };
         mags[] = {
@@ -246,11 +252,11 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant Rank!" };
         items[] = {
-            { "srifle_EBR_DMS_pointer_snds_F", "", 200000, 25000 },//mk18
+            { "srifle_EBR_F", "", 200000, 25000 },//mk18
             { "srifle_DMR_01_F", "", 350000, 25000 },//rahim
-            { "srifle_DMR_05_KHS_LP_F", "cyrus(DLC)", 530000, 25000 },//cyrus
+            { "srifle_DMR_05_hex_F", "cyrus(DLC)", 530000, 25000 },//cyrus
             { "LMG_Mk200_F", "", 630000, 25000 },//mk200
-            { "srifle_LRR_LRPS_F", "", 700000, 25000 }
+            { "srifle_LRR_F", "", 700000, 25000 }
         };
         mags[] = {
             { "20Rnd_762x51_Mag", "", 600 },
@@ -276,8 +282,8 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 5, "You must be a master Rank!" };
         items[] = {
             { "srifle_GM6_F", "", 700000, 25000 },//lynx
-            { "LMG_Zafir_pointer_F", "", 800000, 25000 },//zafir
-            { "MMG_01_hex_ARCO_LP_F", "", 1000000, 25000 }, //NAVID
+            { "LMG_Zafir_F", "", 800000, 25000 },//zafir
+            { "MMG_01_hex_F", "", 1000000, 25000 }, //NAVID
             { "launch_Titan_F", "", 800000, 25000 },
             { "launch_B_Titan_short_F", "", 900000, 25000 }
         };

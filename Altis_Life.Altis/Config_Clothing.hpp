@@ -205,6 +205,30 @@ class Clothing {
             { "B_Parachute", "낙하산", 37500, { "", "", -1 } },
             { "B_OutdoorPack_blk", "", 500, { "", "", -1 } },
             { "B_AssaultPack_sgg", "JetPack", 300000, { "", "", -1 } }
+//	    { "tf_anarc164", "", 3000, { "", "", -1 } },  //airborne - 40KM  //INDEPENDENT
+//          { "tf_rt1523g_sage", "", 3000, { "", "", -1 } } //long range-  40KM // BLUEFOR
+//	    { "tf_anarc210", "", 3000, { "", "", -1 } }, //airborne - 40KM // BLUEFOR
+//          { "tf_mr6000l", "", 3000, { "", "", -1 } }, // airborne -40KM // OPFOR
+
+//	    { "tf_anprc155", "", 3000, { "", "", -1 } },  //long range - 20KM(30 FOR inbuilt) // INDEPENDENT
+//	    { "tf_anprc155_coyote", "", 3000, { "", "", -1 } },//long range - 20KM(30 FOR inbuilt)// INDEPENDENT
+//	    { "tf_mr3000", "", 3000, { "", "", -1 } },//long range - 20KM(30 FOR inbuilt) // OPFOR
+//	    { "tf_mr3000_bwmod", "", 3000, { "", "", -1 } },//long range - 20KM(30 FOR inbuilt)// OPFOR
+//          { "tf_mr3000_bwmod_tropen", "", 3000, { "", "", -1 } },//long range - 20KM(30 FOR inbuilt)// OPFOR
+//          { "tf_mr3000_multicam", "", 3000, { "", "", -1 } },//long range - 20KM(30 FOR inbuilt)// OPFOR
+//          { "tf_mr3000_rhs", "", 3000, { "", "", -1 } },//long range - 20KM(30 FOR inbuilt)// OPFOR
+//	    { "tf_rt1523g", "", 3000, { "", "", -1 } }, // long range - 20km(30 for inbuilt)  //BLUEFOR
+//	    { "tf_rt1523g_big", "", 3000, { "", "", -1 } },// long range - 20km(30 for inbuilt)//BLUEFOR
+//          { "tf_rt1523g_big_bwmod", "", 3000, { "", "", -1 } },// long range - 20km(30 for inbuilt)//BLUEFOR
+//          { "tf_rt1523g_big_bwmod_tropen", "", 3000, { "", "", -1 } },// long range - 20km(30 for inbuilt)//BLUEFOR
+//	    { "tf_rt1523g_big_rhs", "", 3000, { "", "", -1 } },// long range - 20km(30 for inbuilt)//BLUEFOR
+//	    { "tf_rt1523g_black", "", 3000, { "", "", -1 } },// long range - 20km(30 for inbuilt)//BLUEFOR
+//          { "tf_rt1523g_bwmod", "", 3000, { "", "", -1 } },// long range - 20km(30 for inbuilt)//BLUEFOR
+//          { "tf_rt1523g_fabric", "", 3000, { "", "", -1 } },// long range - 20km(30 for inbuilt)//BLUEFOR
+//	    { "tf_rt1523g_green", "", 3000, { "", "", -1 } },// long range - 20km(30 for inbuilt)//BLUEFOR
+//          { "tf_rt1523g_rhs", "", 3000, { "", "", -1 } },// long range - 20km(30 for inbuilt)//BLUEFOR
+//	    { "tf_bussole", "", 3000, { "", "", -1 } },//??
+
         };
     };
 
