@@ -37,10 +37,13 @@ if (life_cash > 79999) then //100k
 	player addMagazine "20Rnd_556x45_UW_mag";
 	player addMagazine "20Rnd_556x45_UW_mag";
 	player addMagazine "20Rnd_556x45_UW_mag";
-	player addMagazine "20Rnd_556x45_UW_mag";	
-	player addMagazine "20Rnd_556x45_UW_mag";	
+	player addMagazine "20Rnd_556x45_UW_mag";
+	player addMagazine "20Rnd_556x45_UW_mag";
+	player addMagazine "20Rnd_556x45_UW_mag";
 	player addMagazine "20Rnd_556x45_UW_mag";	
 	player addWeapon "hgun_P07_snds_F"; //tazer
+	player addMagazine "16Rnd_9x21_Mag";
+	player addMagazine "16Rnd_9x21_Mag";
 	player addMagazine "16Rnd_9x21_Mag";
 	player addMagazine "16Rnd_9x21_Mag";
 	player addMagazine "16Rnd_9x21_Mag";
@@ -50,6 +53,7 @@ if (life_cash > 79999) then //100k
 	player addItem "FirstAidKit"; // silencer
 	player addItem "FirstAidKit"; // silencer
 	player addItem "Binocular";
+	player assignItem "Binocular";
 	//Virtual items, who knows might be used... -check config_master
 	hintSilent "모든 장비가 세팅되었습니다! 오늘도 순찰 열심히!!!";
 }
