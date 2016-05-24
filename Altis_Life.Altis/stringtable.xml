@@ -6513,13 +6513,13 @@
         <Key ID="STR_Item_Bomul">
             <Original>보물</Original>
         </Key>
-		<Key ID="STR_Item_wood">
+        <Key ID="STR_Item_wood">
             <Original>나무(Wood)</Original>
         </Key>
-		<Key ID="STR_Item_plywood">
+        <Key ID="STR_Item_plywood">
             <Original>합판(Plywood)</Original>
         </Key>
-		<Key ID="STR_Item_chainsaw">
+        <Key ID="STR_Item_chainsaw">
             <Original>전기톱(Chainsaw)</Original>
         </Key>
     </Package>
@@ -6754,9 +6754,8 @@
             <Italian>Licenza possesso Casa</Italian>
             <Portuguese>Licença de Casas</Portuguese>
             <Polish>Zarządca nieruchomości</Polish>
-        </Key>
-		
-		<Key ID="STR_License_Home">
+        </Key>		
+        <Key ID="STR_License_Plywood">
             <Original>Plywood License</Original>
         </Key>
     </Package>
@@ -7201,13 +7200,13 @@
             <Portuguese>Esse item não é usável.</Portuguese>
             <Polish>Nie można użyć tej rzeczy.</Polish>
         </Key>
-		 <Key ID="STR_ISTR_Logging_NotNear">
+        <Key ID="STR_ISTR_Logging_NotNear">
             <Original>You are not near a logging area!</Original>
         </Key>
-		<Key ID="STR_ISTR_Logging_MineVeh">
+        <Key ID="STR_ISTR_Logging_MineVeh">
             <Original>You can't use a chainsaw from inside a car!</Original>
         </Key>
-		<Key ID="STR_ISTR_Logging_Success">
+        <Key ID="STR_ISTR_Logging_Success">
             <Original>You have produced %2 %1</Original>
         </Key>
     </Package>
@@ -7389,7 +7388,7 @@
             <Polish>Przetworzyłeś %1 na % za $%3</Polish>
         </Key>
 		
-		<Key ID="STR_Process_plywood">
+        <Key ID="STR_Process_plywood">
             <Original>Making Plywood</Original>
         </Key>
     </Package>
@@ -8085,7 +8084,7 @@
             <German>Reinigen</German>
         </Key>
         <Key ID="STR_NPC_Protected">
-            <original>This vehicle is NPC protected.</Original>
+            <Original>This vehicle is NPC protected.</Original>
             <Czech>Toto vozidlo je chráněno NPC.</Czech>
             <French>Ce véhicule est protégé NPC.</French>
             <Spanish>Este vehículo esta protegido.</Spanish>

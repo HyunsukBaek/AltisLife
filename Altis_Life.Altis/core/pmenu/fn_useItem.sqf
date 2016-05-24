@@ -67,7 +67,7 @@ switch (true) do {
         [] spawn life_fnc_lockpick;
     };
 	
-	case (EQUAL(_item,"chainsaw")): {
+	case (_item isEqualTo "chainsaw"): {
 		[] spawn life_fnc_chainsawUse;
 	};
 
