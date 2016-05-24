@@ -917,7 +917,7 @@ class VirtualItems {
         displayName = "STR_Item_plywood";
         weight = 2;
         buyPrice = -1;
-        sellPrice = 3400;
+        sellPrice = 1850;
         illegal = false;
         edible = -1;
         icon = "icons\custom\wood.paa";
