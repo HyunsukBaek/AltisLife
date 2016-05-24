@@ -7171,7 +7171,7 @@
             <Polish>Możesz przez 3 minuty biec bez wysiłku</Polish>
         </Key>
         <Key ID="STR_ISTR_DrugEffect">
-            <Original>너는 약쟁이!!범죄추가!! 갈증은 50퍼센트 줄지만 10분간 뛸수있다!!</Original>
+            <Original>너는 약쟁이!! 범죄추가!! 갈증은 50퍼센트 줄지만 10분간 뛸수있습니다!!</Original>
         </Key>
         <Key ID="STR_ISTR_SpikesDeployment">
             <Original>You already have a Spike Strip active in deployment</Original>
