@@ -98,7 +98,7 @@ switch (true) do {
                     };
 
                     player enableFatigue false;
-                    waitUntil {!alive player || ((time - life_redgull_effect) > (10 * 60))};
+                    waitUntil {!alive player || ((time - life_redgull_effect) > (8 * 60))};
                     player enableFatigue true;
                 };
             };
