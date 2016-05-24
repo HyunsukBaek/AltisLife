@@ -805,6 +805,9 @@
             <Portuguese>A picareta é necessária</Portuguese>
             <Polish>Wymagana jest kilof</Polish>
         </Key>
+        <Key ID="STR_NOTF_Chainsqw">
+            <Original>A chainsqw is required</Original>          
+        </Key>
         <Key ID="STR_NOTF_isrestrained">
             <Original>You are restrained</Original>
             <Czech>Ty jsou omezeny</Czech>
@@ -7166,6 +7169,9 @@
             <Italian>Puoi ora correre per 3 minuti consecutivi</Italian>
             <Portuguese>Você agora pode correr por 3 minutos</Portuguese>
             <Polish>Możesz przez 3 minuty biec bez wysiłku</Polish>
+        </Key>
+        <Key ID="STR_ISTR_DrugEffect">
+            <Original>너는 약쟁이!!범죄추가!! 갈증은 50퍼센트 줄지만 10분간 뛸수있다!!</Original>
         </Key>
         <Key ID="STR_ISTR_SpikesDeployment">
             <Original>You already have a Spike Strip active in deployment</Original>

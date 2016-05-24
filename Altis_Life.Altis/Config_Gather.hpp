@@ -1,6 +1,6 @@
 
 class CfgGather {
-    zoneSize = 30;
+    zoneSize = 35;
     class Resources {
         class apple {
             amount = 5;

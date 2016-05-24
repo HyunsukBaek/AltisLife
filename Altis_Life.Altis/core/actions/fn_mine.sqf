@@ -71,6 +71,9 @@ if (_requiredItem != "") then {
             case "pickaxe": {
                 titleText[(localize "STR_NOTF_Pickaxe"), "PLAIN"];
             };
+            case "chainsaw": {
+                titleText[(localize "STR_NOTF_Chainsqw"), "PLAIN"];
+            };
         };
         life_action_inUse = false;
         _exit = true;

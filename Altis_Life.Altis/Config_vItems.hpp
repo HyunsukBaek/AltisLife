@@ -144,6 +144,7 @@ class VirtualShops {
         items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit", "defibrillator" };
     };
 
+    //Custom
     class bomul {
         name = "STR_Shops_Bomul";
         side = "";
@@ -152,7 +153,6 @@ class VirtualShops {
         items[] = { "bomul"};
     };
 
-    //Custom
     class wood {
         name = "STR_Shops_wood";
         side = "";
@@ -904,7 +904,7 @@ class VirtualItems {
 	class wood {
         variable = "wood";
         displayName = "STR_Item_wood";
-        weight = 5;
+        weight = 7;
         buyPrice = -1;
         sellPrice = 3000;
         illegal = false;
@@ -917,7 +917,7 @@ class VirtualItems {
         displayName = "STR_Item_plywood";
         weight = 3;
         buyPrice = -1;
-        sellPrice = 5000;
+        sellPrice = 4500;
         illegal = false;
         edible = -1;
         icon = "icons\custom\wood.paa";

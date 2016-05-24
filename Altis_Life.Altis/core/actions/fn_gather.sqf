@@ -58,6 +58,7 @@ if (_diff == 0) exitWith {
 
 switch (_requiredItem) do {
     case "pickaxe": {player say3D "mining";};
+    case "chainsaw": {player say3D "chainsaw";};
     default {player say3D "harvest";};
 };
 

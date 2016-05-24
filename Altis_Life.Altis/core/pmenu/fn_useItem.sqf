@@ -67,9 +67,9 @@ switch (true) do {
         [] spawn life_fnc_lockpick;
     };
 	
-	case (_item isEqualTo "chainsaw"): {
-		[] spawn life_fnc_chainsawUse;
-	};
+    case (_item isEqualTo "chainsaw"): {
+        [] spawn life_fnc_chainsawUse;
+    };
 
     case (_item in ["apple","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","donuts","tbacon","peach"]): {
         if (!(M_CONFIG(getNumber,"VirtualItems",_item,"edible") isEqualTo -1)) then {
@@ -80,6 +80,32 @@ switch (true) do {
                     case (_val < 0 && _sum < 1): {life_hunger = 5;}; //This adds the ability to set the entry edible to a negative value and decrease the hunger without death
                     case (_sum > 100): {life_hunger = 100;};
                     default {life_hunger = _sum;};
+                };
+            };
+        };
+    };
+    
+    case (_item in ["cocaine_processed","heroin_processed"]): {
+        if ([false,_item,1] call life_fnc_handleInv) then {
+            life_thirst = life_thirst / 2;
+            if ( life_thirst < 10 ) {
+                life_thirst = 10;
+            };
+            if (LIFE_SETTINGS(getNumber,"enable_fatigue") isEqualTo 1) then {player setFatigue 0;};
+            if ( (_item isEqualTo "cocaine_processed" || _item isEqualTo "heroin_processed") && {LIFE_SETTINGS(getNumber,"enable_fatigue") isEqualTo 1}) then {
+                [] spawn {
+                    life_redgull_effect = time;
+                    titleText[localize "STR_ISTR_DrugEffect","PLAIN"];
+
+					if (life_HC_isActive) then { // 마약흡입 범죄 추가
+						[getPlayerUID player,profileName,"390"] remoteExecCall ["HC_fnc_wantedAdd",HC_Life];
+					} else {
+						[getPlayerUID player,profileName,"390"] remoteExecCall ["life_fnc_wantedAdd",RSERV];
+					};
+
+                    player enableFatigue false;
+                    waitUntil {!alive player || ((time - life_redgull_effect) > (10 * 60))};
+                    player enableFatigue true;
                 };
             };
         };
