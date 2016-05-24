@@ -66,6 +66,10 @@ switch (true) do {
     case (_item isEqualTo "lockpick"): {
         [] spawn life_fnc_lockpick;
     };
+	
+	case (EQUAL(_item,"chainsaw")): {
+		[] spawn life_fnc_chainsawUse;
+	};
 
     case (_item in ["apple","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","donuts","tbacon","peach"]): {
         if (!(M_CONFIG(getNumber,"VirtualItems",_item,"edible") isEqualTo -1)) then {

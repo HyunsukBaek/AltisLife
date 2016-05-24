@@ -187,4 +187,12 @@ class Licenses {
         illegal = false;
         side = "med";
     };
+	
+	class plywood {
+        variable = "plywood";
+        displayName = "STR_License_Plywood";
+        price = 20000;
+        illegal = false;
+        side = "civ";
+    };
 };

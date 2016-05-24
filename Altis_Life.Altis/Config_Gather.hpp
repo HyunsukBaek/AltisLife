@@ -115,5 +115,11 @@ Example 2:
             item = "pickaxe";
             mined[] = { "oil_unprocessed" };
         };
+        class wood {
+            amount = 1;
+            zones[] = { "wood_1" };
+            item = "chainsaw";
+            mined[] = { "wood" };
+        };
     };
 };

@@ -151,6 +151,16 @@ class VirtualShops {
         level[] = { "", "", -1, "" };
         items[] = { "bomul"};
     };
+
+    //Custom
+    class wood {
+        name = "STR_Shops_wood";
+        side = "";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "wood", "chainsaw", "plywood" };
+    };
+
 };
 
 /*
@@ -890,4 +900,38 @@ class VirtualItems {
         edible = -1;
         icon = "icons\custom\ico_bomul.paa";
     };   
+	
+	class wood {
+        variable = "wood";
+        displayName = "STR_Item_wood";
+        weight = 5;
+        buyPrice = -1;
+        sellPrice = 3000;
+        illegal = false;
+        edible = -1;
+        icon = "icons\custom\wood.paa";
+    }; 
+	
+	class plywood {
+        variable = "plywood";
+        displayName = "STR_Item_plywood";
+        weight = 3;
+        buyPrice = -1;
+        sellPrice = 5000;
+        illegal = false;
+        edible = -1;
+        icon = "icons\custom\wood.paa";
+    }; 
+	
+	class chainsaw {
+        variable = "chainsaw";
+        displayName = "STR_Item_chainsaw";
+        weight = 5;
+        buyPrice = 10000;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "icons\custom\Chainsaw.paa";
+    }; 
+	
 };

@@ -126,6 +126,13 @@ class CfgSounds {
         sound[] = {"\sounds\slot_payoff.ogg", 1.25, 1};
         titles[] = {};
     };
+	
+	class chainsaw
+	{
+		name = "chainsaw";
+		sound[] = {"\sounds\chainsaw.ogg", 1.0, 1};
+		titles[] = {};
+	};
 };
 
 class CfgDebriefing {

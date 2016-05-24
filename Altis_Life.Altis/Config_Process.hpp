@@ -96,4 +96,12 @@ class ProcessAction {
         //ScrollText = "Mix Cement";
         NoLicenseCost = 350;
     };
+	
+	class plywood {
+        MaterialsReq[] = {{"wood",1}};
+        MaterialsGive[] = {{"plywood",5}};
+        Text = "STR_Process_plywood";
+        //ScrollText = "Make Plywood";
+        NoLicenseCost = 10000;
+    };
 };

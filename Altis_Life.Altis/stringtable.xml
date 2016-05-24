@@ -268,6 +268,9 @@
         <Key ID="STR_Shops_Bomul">
             <Original>보물상자</Original>
         </Key>
+		<Key ID="STR_Shops_wood">
+            <Original>The Carpentry Shop</Original>
+        </Key>
     </Package>
     <Package name="Global">
         <Key ID="STR_Global_Close">
@@ -6510,6 +6513,15 @@
         <Key ID="STR_Item_Bomul">
             <Original>보물</Original>
         </Key>
+		<Key ID="STR_Item_wood">
+            <Original>나무(Wood)</Original>
+        </Key>
+		<Key ID="STR_Item_plywood">
+            <Original>합판(Plywood)</Original>
+        </Key>
+		<Key ID="STR_Item_chainsaw">
+            <Original>전기톱(Chainsaw)</Original>
+        </Key>
     </Package>
     <Package name="Life_License">
         <Key ID="STR_License_Driver">
@@ -6742,6 +6754,10 @@
             <Italian>Licenza possesso Casa</Italian>
             <Portuguese>Licença de Casas</Portuguese>
             <Polish>Zarządca nieruchomości</Polish>
+        </Key>
+		
+		<Key ID="STR_License_Home">
+            <Original>Plywood License</Original>
         </Key>
     </Package>
     <Package name="More_Item_Strings">
@@ -7185,6 +7201,15 @@
             <Portuguese>Esse item não é usável.</Portuguese>
             <Polish>Nie można użyć tej rzeczy.</Polish>
         </Key>
+		 <Key ID="STR_ISTR_Logging_NotNear">
+            <Original>You are not near a logging area!</Original>
+        </Key>
+		<Key ID="STR_ISTR_Logging_MineVeh">
+            <Original>You can't use a chainsaw from inside a car!</Original>
+        </Key>
+		<Key ID="STR_ISTR_Logging_Success">
+            <Original>You have produced %2 %1</Original>
+        </Key>
     </Package>
     <Package name="Process_Action">
         <Key ID="STR_Process_Oil">
@@ -7362,6 +7387,10 @@
             <Italian>Hai processato %1 in %2 al costo di $%3</Italian>
             <Portuguese>Você trasformou %1 em %2 por R$%3</Portuguese>
             <Polish>Przetworzyłeś %1 na % za $%3</Polish>
+        </Key>
+		
+		<Key ID="STR_Process_plywood">
+            <Original>Making Plywood</Original>
         </Key>
     </Package>
     <Package name="Medical_Strings">
@@ -10006,8 +10035,12 @@
         <Key ID="STR_MAR_Cop_Autoset">
             <Original>Cop AutoSet</Original>
         </Key>
+		
         <Key ID="STR_MAR_Master_Weapon_Shop">
             <Original>Master Weapon Shop</Original>
+        </Key>		
+		<Key ID="STR_MAR_Wood_Field">
+            <Original>Wood Field</Original>
         </Key>
     </Package>
     <Package name="Crimes">

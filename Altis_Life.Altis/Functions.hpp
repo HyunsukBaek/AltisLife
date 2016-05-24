@@ -262,6 +262,7 @@ class Life_Client_Core {
         class placestorage {};
         class spikeStrip {};
         class storageBox {};
+		class chainsawUse {}; //chainsaw
     };
 
     class Medical_System {
