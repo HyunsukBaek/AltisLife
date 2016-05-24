@@ -90,7 +90,14 @@ if (_diff == 0) exitWith {
     hint localize "STR_NOTF_InvFull";
     life_action_inUse = false;
 };
-player say3D "mining";
+switch (_requiredItem) do {
+    case "pickaxe": {
+        player say3D "mining";
+    };
+    case "chainsaw": {
+        player say3D "chainsaw";
+    };
+};
 
 for "_i" from 0 to 4 do {
     player playMoveNow "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";

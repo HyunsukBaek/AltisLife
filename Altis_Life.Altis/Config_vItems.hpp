@@ -904,7 +904,7 @@ class VirtualItems {
 	class wood {
         variable = "wood";
         displayName = "STR_Item_wood";
-        weight = 7;
+        weight = 6;
         buyPrice = -1;
         sellPrice = 3000;
         illegal = false;
@@ -915,7 +915,7 @@ class VirtualItems {
 	class plywood {
         variable = "plywood";
         displayName = "STR_Item_plywood";
-        weight = 3;
+        weight = 2;
         buyPrice = -1;
         sellPrice = 4500;
         illegal = false;
@@ -928,7 +928,7 @@ class VirtualItems {
         displayName = "STR_Item_chainsaw";
         weight = 5;
         buyPrice = 10000;
-        sellPrice = -1;
+        sellPrice = 1000;
         illegal = false;
         edible = -1;
         icon = "icons\custom\Chainsaw.paa";

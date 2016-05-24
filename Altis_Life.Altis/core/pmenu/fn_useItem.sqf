@@ -66,10 +66,6 @@ switch (true) do {
     case (_item isEqualTo "lockpick"): {
         [] spawn life_fnc_lockpick;
     };
-	
-    case (_item isEqualTo "chainsaw"): {
-        [] spawn life_fnc_chainsawUse;
-    };
 
     case (_item in ["apple","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","donuts","tbacon","peach"]): {
         if (!(M_CONFIG(getNumber,"VirtualItems",_item,"edible") isEqualTo -1)) then {
@@ -88,9 +84,7 @@ switch (true) do {
     case (_item in ["cocaine_processed","heroin_processed"]): {
         if ([false,_item,1] call life_fnc_handleInv) then {
             life_thirst = life_thirst / 2;
-            if ( life_thirst < 10 ) {
-                life_thirst = 10;
-            };
+            life_thirst = 20;
             if (LIFE_SETTINGS(getNumber,"enable_fatigue") isEqualTo 1) then {player setFatigue 0;};
             if ( (_item isEqualTo "cocaine_processed" || _item isEqualTo "heroin_processed") && {LIFE_SETTINGS(getNumber,"enable_fatigue") isEqualTo 1}) then {
                 [] spawn {
