@@ -99,7 +99,7 @@ class ProcessAction {
 	
     class plywood {
         MaterialsReq[] = {{"wood",1}};
-        MaterialsGive[] = {{"plywood",3}};
+        MaterialsGive[] = {{"plywood",4}};
         Text = "STR_Process_plywood";
         //ScrollText = "Make Plywood";
         NoLicenseCost = 10000;
