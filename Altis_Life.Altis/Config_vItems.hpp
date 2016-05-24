@@ -494,7 +494,7 @@ class VirtualItems {
         variable = "heroinProcessed";
         displayName = "STR_Item_HeroinP";
         weight = 4;
-        buyPrice = 6500;
+        buyPrice = 6600;
         sellPrice = 5700;
         illegal = true;
         edible = -1;
@@ -540,7 +540,7 @@ class VirtualItems {
         variable = "cocaineProcessed";
         displayName = "STR_Item_CocaineP";
         weight = 4;
-        buyPrice = -1;
+        buyPrice = 6600;
         sellPrice = 6600;
         illegal = true;
         edible = -1;
@@ -895,13 +895,13 @@ class VirtualItems {
         displayName = "STR_Item_Bomul";
         weight = 20;
         buyPrice = 1;
-        sellPrice = -1;
+        sellPrice = 1;
         illegal = false;
         edible = -1;
         icon = "icons\custom\ico_bomul.paa";
     };   
 	
-	class wood {
+    class wood {
         variable = "wood";
         displayName = "STR_Item_wood";
         weight = 6;
@@ -912,22 +912,22 @@ class VirtualItems {
         icon = "icons\custom\wood.paa";
     }; 
 	
-	class plywood {
+    class plywood {
         variable = "plywood";
         displayName = "STR_Item_plywood";
         weight = 2;
         buyPrice = -1;
-        sellPrice = 4500;
+        sellPrice = 3400;
         illegal = false;
         edible = -1;
         icon = "icons\custom\wood.paa";
     }; 
 	
-	class chainsaw {
+    class chainsaw {
         variable = "chainsaw";
         displayName = "STR_Item_chainsaw";
         weight = 5;
-        buyPrice = 10000;
+        buyPrice = 8000;
         sellPrice = 1000;
         illegal = false;
         edible = -1;

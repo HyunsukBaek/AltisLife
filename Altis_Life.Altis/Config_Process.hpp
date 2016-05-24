@@ -97,7 +97,7 @@ class ProcessAction {
         NoLicenseCost = 350;
     };
 	
-	class plywood {
+    class plywood {
         MaterialsReq[] = {{"wood",1}};
         MaterialsGive[] = {{"plywood",3}};
         Text = "STR_Process_plywood";
