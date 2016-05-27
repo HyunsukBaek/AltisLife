@@ -462,7 +462,8 @@ switch (_code) do {
 		if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
 		{	
 			//cutText [format["쉬야"], "PLAIN DOWN"];
-			player playMove "Acts_AidlPercMstpSlowWrflDnon_pissing";
+			//player playMove "Acts_AidlPercMstpSlowWrflDnon_pissing";  //Original Code
+			[] execVM "Custom\Motion\pee.sqf";
 		};
 	};	
 };
