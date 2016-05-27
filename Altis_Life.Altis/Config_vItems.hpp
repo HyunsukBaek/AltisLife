@@ -552,7 +552,7 @@ class VirtualItems {
         variable = "redgull";
         displayName = "STR_Item_RedGull";
         weight = 1;
-        buyPrice = 1500;
+        buyPrice = 4000;
         sellPrice = 1000;
         illegal = false;
         edible = 100;
