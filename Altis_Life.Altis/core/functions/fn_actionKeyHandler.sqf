@@ -40,7 +40,7 @@ if (isNull _curObject) exitWith {
             };
         } else {
             private "_handle";
-            if (playerSide != west && !life_action_gathering) then {
+            if (!life_action_gathering) then {
           _whatIsIt = [] call life_fnc_whereAmI;
                 if (life_action_gathering) exitWith {};                 //Action is in use, exit to prevent spamming.
                 switch (_whatIsIt) do {
@@ -76,9 +76,9 @@ life_action_inUse = true;
 };
 
 //Check if it's a dead body.
-if (_curObject isKindOf "Man" && {!alive _curObject} && !(_curObject getVariable["Revive",false]) && {playerSide in [west,independent]}) exitWith {
+if (_curObject isKindOf "Man" && !(_curObject isKindOf "Animal") && {!alive _curObject} && !(_curObject getVariable["Revive",false]) && {playerSide in [west,independent]}) exitWith {
     //Hotfix code by ins0
-    if (((playerSide == west && {(LIFE_SETTINGS(getNumber,"revive_cops") isEqualTo 1)}) || playerSide == independent)) then {
+    if (((playerSide isEqualTo west && {(LIFE_SETTINGS(getNumber,"revive_cops") isEqualTo 1)}) || playerSide isEqualTo independent)) then {
         if (life_inv_defibrillator > 0) then {
             [_curObject] call life_fnc_revivePlayer;
         };
@@ -87,7 +87,7 @@ if (_curObject isKindOf "Man" && {!alive _curObject} && !(_curObject getVariable
 
 //If target is a player then check if we can use the cop menu.
 if (isPlayer _curObject && _curObject isKindOf "Man") then {
-    if ((_curObject getVariable ["restrained",false]) && !dialog && playerSide == west) then {
+    if ((_curObject getVariable ["restrained",false]) && !dialog && playerSide isEqualTo west) then {
         [_curObject] call life_fnc_copInteractionMenu;
     };
 } else {
