@@ -184,10 +184,7 @@ class WeaponShops {
             { "hgun_P07_F", "Stun Pistol", 10000, 650 },
 	    { "hgun_ACPC2_F", "Handgun acpc2", 20000, 650 },
             { "HandGrenade_Stone", "Flashbang", 3700, 1000 },
-            { "Laserdesignator", "", 13000, 980 },
-            { "Binocular", "", 150, -1 },
-            { "ItemGPS", "", 100, 45 },
-            { "NVGoggles", "", 2000, 980 }
+            { "Laserdesignator", "", 13000, 980 }
         };
         mags[] = {
             { "20Rnd_556x45_UW_mag", "Taser/Water Magazine", 45 },
