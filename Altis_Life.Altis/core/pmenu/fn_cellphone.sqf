@@ -17,7 +17,7 @@ _selection = 0;
 ctrlSetText [3003, ""];
 lbClear _units;
 
-if((FETCH_CONST(life_coplevel) > 3 ) || (FETCH_CONST(life_adminlevel) > 0 ) || (FETCH_CONST(life_medicLevel) > 4)  then {
+if((FETCH_CONST(life_coplevel) > 3 ) || (FETCH_CONST(life_adminlevel) > 0 ) || (FETCH_CONST(life_medicLevel) > 4) )  then {
 	ctrlShow[3020,true];
     ctrlShow[3021,true];
 } else{
