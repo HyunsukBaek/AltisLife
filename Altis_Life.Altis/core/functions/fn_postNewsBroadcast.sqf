@@ -11,7 +11,7 @@ private ["_mode","_coolDown"];
 
 switch (_mode) do {
     case 0: {
-        CASH = CASH - LIFE_SETTINGS(getNumber,"news_broadcast_cost");
+        life_cash = life_cash - LIFE_SETTINGS(getNumber,"news_broadcast_cost");
         [0] call SOCK_fnc_updatePartial;
         life_broadcastTimer = time;
         publicVariable "life_broadcastTimer";

@@ -24,7 +24,7 @@ _displayCost = _display displayCtrl Cost;
 _confirmBtn = _display displayCtrl Confirm;
 
 _displayCost ctrlSetText format [localize "STR_News_BroadcastCost",[_msgCost] call life_fnc_numberText];
-if (CASH < _msgCost) then {
+if (life_cash < _msgCost) then {
     _confirmBtn buttonSetAction "[2] call life_fnc_postNewsBroadcast; closeDialog 0;";
 } else {
     if (isNil "life_broadcastTimer" || {(time - life_broadcastTimer) > _msgCooldown}) then {
