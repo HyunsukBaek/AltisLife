@@ -48,8 +48,8 @@ class Life_Settings {
     respawn_timer = 60; //How many seconds a player should wait, before being able to respawn.
     
     /* Channel 7 News Station Configurations */  
-    news_broadcast_cost = 100000; //Cost for a player to send a news station broadcast.
-    news_broadcast_cooldown = 10; //Time in seconds that is required between news station broadcasts. (Default = 20 minutes)
+    news_broadcast_cost = 50000; //Cost for a player to send a news station broadcast.
+    news_broadcast_cooldown = 300; //Time in seconds that is required between news station broadcasts. (Default = 20 minutes)
     
 
     /* Clothing System Configurations */
