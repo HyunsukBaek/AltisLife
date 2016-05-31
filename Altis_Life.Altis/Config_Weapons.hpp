@@ -52,7 +52,7 @@ class WeaponShops {
             { "LMG_Mk200_F", "", 1200000, 20000 },
             { "srifle_EBR_F", "", 1100000, 20000 },
             { "launch_RPG32_F", "", 1800000, 20000 },
-			{ "SMG_01_Holo_F", "", 5000, 980 }
+			{ "SMG_01_F", "", 200000, 2000 }
         };
         mags[] = {
             { "30Rnd_556x45_Stanag", "", 3000 },
@@ -67,7 +67,7 @@ class WeaponShops {
             { "20Rnd_762x51_Mag", "", 3000 },
             { "RPG32_F", "", 50000 },
             { "RPG32_HE_F", "", 50000 },
-			{ "30Rnd_45ACP_Mag_SMG_01_tracer_green", "", 100 }
+			{ "30Rnd_45ACP_Mag_SMG_01_tracer_green", "", 3000 }
         };
         accs[] = {
             { "optic_ACO_grn", "", 35000 },
@@ -187,7 +187,7 @@ class WeaponShops {
 			{ "hgun_ACPC2_F", "Handgun acpc2", 20000, 650 },
             { "HandGrenade_Stone", "Flashbang", 3700, 1000 },
             { "Laserdesignator", "", 13000, 980 },
-			{ "SMG_01_Holo_F", "", 5000, 980 }
+			{ "SMG_01_F", "", 200000, 2000 }
         };
         mags[] = {
             { "20Rnd_556x45_UW_mag", "Taser/Water Magazine", 45 },
@@ -196,7 +196,7 @@ class WeaponShops {
             { "30Rnd_556x45_Stanag_Tracer_Yellow", "YELLOW Rifle Magazine", 45 },
             { "16Rnd_9x21_Mag", "", 25 },
             { "30Rnd_9x21_Mag", "", 25 },
-	    { "9Rnd_45ACP_Mag", "", 25 },
+	        { "9Rnd_45ACP_Mag", "", 25 },
             { "Laserbatteries", "", 45 },
 			{ "30Rnd_45ACP_Mag_SMG_01_tracer_green", "", 100 }
         };
@@ -216,7 +216,6 @@ class WeaponShops {
             { "hgun_Pistol_heavy_02_F", "", 30000, 15000 },
             { "arifle_MX_F", "", 135000, 7500 },
             { "SMG_02_F", "", 130000, 7500 },
-            { "SMG_01_F", "", 60000, 5000 },
             { "arifle_Mk20C_F", "", 230000, 7500 },
             { "arifle_MX_SW_F", "", 130000, 5000 },
             { "MineDetector", "", 1000, 500 }
@@ -226,8 +225,6 @@ class WeaponShops {
             { "30Rnd_65x39_caseless_mag", "", 130 },
             { "30Rnd_65x39_caseless_mag_Tracer", "", 130 },
             { "30Rnd_9x21_Mag", "", 250 },
-            { "30Rnd_45ACP_Mag_SMG_01", "", 100 },
-            { "30Rnd_45ACP_Mag_SMG_01_tracer_green", "", 100},
             { "30Rnd_556x45_Stanag", "", 60 },
             { "30Rnd_556x45_Stanag_Tracer_Yellow", "", 60 },
             { "100Rnd_65x39_caseless_mag_Tracer", "", 1050 }
@@ -325,7 +322,7 @@ class WeaponShops {
             { "ItemRadio", "", 2500, 25 },
             { "ItemCompass", "", 250, 25 },
             { "ItemWatch", "", 250, 10 },
-			{ "SMG_01_Holo_F", "", 5000, 980 }
+			{ "SMG_01_F", "", 200000, 2000 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 100 },

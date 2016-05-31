@@ -4,7 +4,7 @@ player addEventHandler ["fired",{
 	_weapon = _this select 1;
 	_v = velocity _p;
 	
-	if(_weapon isEqualTo "SMG_01_Holo_F") then {
+	if(_weapon isEqualTo "SMG_01_F") then {
 		_f = 'CMflare_Chaff_Ammo' createVehicle (position _p);
 		_f setPosATL (getPosATL _p);_f setVelocity _v;
 		[_p,_f] spawn {waitUntil{isNull (_this select 0)}; deleteVehicle (_this select 1);};
