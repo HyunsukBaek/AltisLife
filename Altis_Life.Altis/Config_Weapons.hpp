@@ -52,7 +52,7 @@ class WeaponShops {
             { "LMG_Mk200_F", "", 1200000, 20000 },
             { "srifle_EBR_F", "", 1100000, 20000 },
             { "launch_RPG32_F", "", 1800000, 20000 },
-			{ "SMG_01_F", "", 200000, 2000 }
+            { "SMG_01_F", "FlareGun", 200000, 2000 }
         };
         mags[] = {
             { "30Rnd_556x45_Stanag", "", 3000 },
@@ -67,7 +67,7 @@ class WeaponShops {
             { "20Rnd_762x51_Mag", "", 3000 },
             { "RPG32_F", "", 50000 },
             { "RPG32_HE_F", "", 50000 },
-			{ "30Rnd_45ACP_Mag_SMG_01_tracer_green", "", 3000 }
+            { "30Rnd_45ACP_Mag_SMG_01_tracer_green", "FlareBullet", 3000 }
         };
         accs[] = {
             { "optic_ACO_grn", "", 35000 },
@@ -184,10 +184,10 @@ class WeaponShops {
 //	    { "tf_rf7800str", "", 2000, 980 }, // Bluefor personal - 2km ( 30 -512 Mhz)
             { "arifle_sdar_F", "Taser Rifle", 80000, 7500 },
             { "hgun_P07_F", "Stun Pistol", 10000, 650 },
-			{ "hgun_ACPC2_F", "Handgun acpc2", 20000, 650 },
+            { "hgun_ACPC2_F", "Handgun acpc2", 20000, 650 },
             { "HandGrenade_Stone", "Flashbang", 3700, 1000 },
             { "Laserdesignator", "", 13000, 980 },
-			{ "SMG_01_F", "", 200000, 2000 }
+            { "SMG_01_F", "FlareGun", 200000, 2000 }
         };
         mags[] = {
             { "20Rnd_556x45_UW_mag", "Taser/Water Magazine", 45 },
@@ -196,9 +196,9 @@ class WeaponShops {
             { "30Rnd_556x45_Stanag_Tracer_Yellow", "YELLOW Rifle Magazine", 45 },
             { "16Rnd_9x21_Mag", "", 25 },
             { "30Rnd_9x21_Mag", "", 25 },
-	        { "9Rnd_45ACP_Mag", "", 25 },
+            { "9Rnd_45ACP_Mag", "", 25 },
             { "Laserbatteries", "", 45 },
-			{ "30Rnd_45ACP_Mag_SMG_01_tracer_green", "", 100 }
+            { "30Rnd_45ACP_Mag_SMG_01_tracer_green", "FlareBullet", 2000 }
         };
         accs[] = {
             { "muzzle_snds_L", "", 650 },
@@ -322,11 +322,11 @@ class WeaponShops {
             { "ItemRadio", "", 2500, 25 },
             { "ItemCompass", "", 250, 25 },
             { "ItemWatch", "", 250, 10 },
-			{ "SMG_01_F", "", 200000, 2000 }
+            { "SMG_01_F", "FlareGun", 200000, 2000 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 100 },
-			{ "30Rnd_45ACP_Mag_SMG_01_tracer_green", "", 100 }
+            { "30Rnd_45ACP_Mag_SMG_01_tracer_green", "FlareBullet", 2000 }
         };
         accs[] = {};
     };
