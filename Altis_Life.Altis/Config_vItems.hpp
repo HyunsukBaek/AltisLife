@@ -260,8 +260,8 @@ class VirtualItems {
         variable = "goldBar";
         displayName = "STR_Item_GoldBar";
         weight = 12;
-        buyPrice = -1;
-        sellPrice = 125000;
+        buyPrice = 200000;
+        sellPrice = 150000;
         illegal = true;
         edible = -1;
         icon = "icons\ico_goldBar.paa";
@@ -272,7 +272,7 @@ class VirtualItems {
         displayName = "STR_Item_BCharge";
         weight = 20;
         buyPrice = 150000;
-        sellPrice = 20000;
+        sellPrice = 1000;
         illegal = true;
         edible = -1;
         icon = "icons\ico_blastingCharge.paa";
