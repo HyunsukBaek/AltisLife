@@ -31,3 +31,4 @@
 #include "AltisPhone.hpp"
 #include "slotmachine.hpp"
 #include "blackjack.hpp"
+#include "newsStation.hpp"

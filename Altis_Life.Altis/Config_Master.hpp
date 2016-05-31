@@ -46,6 +46,11 @@ class Life_Settings {
     enable_fatigue = true; //Set to false to disable the ARMA 3 fatigue system.
     total_maxWeight = 32; //Static variable for the maximum weight allowed without having a backpack
     respawn_timer = 60; //How many seconds a player should wait, before being able to respawn.
+    
+    /* Channel 7 News Station Configurations */  
+	news_broadcast_cost = 150000; //Cost for a player to send a news station broadcast.  
+  	news_broadcast_cooldown = 1200; //Time in seconds that is required between news station broadcasts. (Default = 20 minutes) 
+    
 
     /* Clothing System Configurations */
     civ_skins = true; //Enable or disable civilian skins. Before enabling, you must add all the SEVEN files to textures folder. (It must be named as: civilian_uniform_1.jpg, civilian_uniform_2.jpg...civilian_uniform_6.jpg, civilian_uniform_7.jpg)
