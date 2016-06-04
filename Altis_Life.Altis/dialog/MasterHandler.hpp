@@ -32,3 +32,5 @@
 #include "slotmachine.hpp"
 #include "blackjack.hpp"
 #include "newsStation.hpp"
+#include "AH_buy.hpp"
+#include "AH_vsell.hpp"

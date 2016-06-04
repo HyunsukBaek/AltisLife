@@ -177,6 +177,21 @@ _rsb allowDamage false;
 life_server_isReady = true;
 publicVariable "life_server_isReady";
 
+all_ah_items = [];
+publicVariable "all_ah_items";
+[] spawn TON_fnc_vAH_init;
+[] spawn
+{
+    while {true} do
+    {
+        sleep (20 * 60);
+        if (count all_ah_items > 0) then
+        {
+            [] spawn TON_fnc_vAH_update;
+        };
+    };
+};
+
 /* Initialize hunting zone(s) */
 aiSpawn = ["hunting_zone",30] spawn TON_fnc_huntingZone;
 
