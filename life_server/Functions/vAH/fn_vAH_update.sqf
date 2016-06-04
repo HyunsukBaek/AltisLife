@@ -50,7 +50,7 @@ switch (_switch) do {
 	case 4: {
 		_items = [_item,_itemName];
 		_items = [_items] call DB_fnc_mresArray;
-		_query = format["INSERT INTO ah (type, amount, item, price, seller, sellername, status, time) VALUES ('%1', '%2', '%3', '%4', '%5', '%6','0', '504')",_id,_time,_items,_status,_seller,_playerName];
+		_query = format["INSERT INTO ah (type, amount, item, price, seller, sellername, status, time) VALUES ('%1', '%2', '%3', '%4', '%5', '%6','0', '360')",_id,_time,_items,_status,_seller,_playerName];
 		[_query,1] call DB_fnc_asyncCall;
 		diag_log format["AOSoul Auction House: ITEM ADDED: %1",_query];
 		[] spawn TON_fnc_vAH_init;
