@@ -12,7 +12,7 @@ _dialog = findDisplay 15600;
 _myListbox = _dialog displayCtrl 15601;
 _able = 4;
 
-if (!vAH_loaded) exitWith {hint "Auction house is busy at the moment, please try again in a short while!"};
+if (!vAH_loaded) exitWith {hint "현재 경매장 처리중입니다. 잠시후 다시 시도해주세요."};
 
 _bad = false;
 _realName = "";
