@@ -173,6 +173,7 @@ class WeaponShops {
         items[] = {
             { "Binocular", "", 150, 10 },
             { "ItemGPS", "", 100, 45 },
+            { "ItemMap", "", 50, 35 },
             { "ItemRadio", "", 3000, 980 },
             { "FirstAidKit", "", 550, 65 },
             { "NVGoggles", "", 2000, 980 },
@@ -318,7 +319,6 @@ class WeaponShops {
             { "hgun_P07_F", "Pistol", 35000, 2000 },
             { "hgun_PDW2000_Holo_snds_F", "", 65000, 2000 },
             { "ItemMap", "", 250, 35 },
-            { "Medikit", "", 1000, 35 },
             { "ItemRadio", "", 2500, 25 },
             { "ItemCompass", "", 250, 25 },
             { "ItemWatch", "", 250, 10 },
