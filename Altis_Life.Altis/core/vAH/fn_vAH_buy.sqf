@@ -30,7 +30,7 @@ _online = false;
 _iCheck = true;
 
 _e = missionNamespace getVariable [format["ahItem_%1",_id],false];
-if (player getVariable["ahID",0] != _id && !_e) exitWith {hint "이 아이템은 누군가가 사고있거나 검색하는 중입니다. 다른아이템사세요!";};
+if (player getVariable["ahID",0] != _id && !_e) exitWith {hint "이 아이템은 아직 구매나 판매취소가 불가능합니다";};
 
 if (_seller == _uid) exitWith {hint "니가올린건 살수없어 바보야!";};
 
