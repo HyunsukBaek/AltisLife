@@ -87,7 +87,7 @@ switch (playerSide) do {
         if (uniform player isEqualTo "U_B_CombatUniform_mcam_worn") then {
             player setObjectTextureGlobal [0, "textures\ems\clothes\paramedic_unifrom.paa"];
         };
-        if (uniform player isEqualTo "U_B_CTRG_1") then {
+        if (uniform player isEqualTo "U_Competitor") then {
             player setObjectTextureGlobal [0, "textures\ems\clothes\orange_EMS.paa"];
         };
     };

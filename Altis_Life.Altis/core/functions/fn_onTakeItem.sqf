@@ -38,7 +38,7 @@ switch (playerSide) do
         };
     };
     case independent: {
-        if (_item in ["U_Rangemaster","U_B_CombatUniform_mcam","U_B_CombatUniform_mcam_worn","U_B_CTRG_1"]) then {
+        if (_item in ["U_Rangemaster","U_B_CombatUniform_mcam","U_B_CombatUniform_mcam_worn","U_Competitor"]) then {
             [] call life_fnc_playerSkins;
         };
     };

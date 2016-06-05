@@ -368,10 +368,10 @@ class Clothing {
         side = "med";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-            { "U_Rangemaster", "EMS Uniform", 25, { "", "", -1 } },
-            { "U_B_CombatUniform_mcam", "EMS 형광", 50, { "", "", -1 } },
-            { "U_B_CombatUniform_mcam_worn", "EMS 녹색", 50, { "", "", -1 } },
-	    { "U_B_CTRG_1", "EMS 주황", 50, { "", "", -1 } },
+            { "U_Rangemaster", "EMS Uniform", 250, { "", "", -1 } },
+            { "U_B_CombatUniform_mcam", "EMS 형광", 500, { "", "", -1 } },
+            { "U_B_CombatUniform_mcam_worn", "EMS 녹색", 500, { "", "", -1 } },
+	    { "U_Competitor", "EMS 주황", 500, { "", "", -1 } },
 	    { "U_C_Driver_1_green", "EMS Driver_green", 5000, { "", "", -1 } },
             { "U_C_Driver_1_blue", "EMS Driver_blue", 5000, { "", "", -1 } },
             { "U_C_Driver_1_orange", "EMS Driver_ora", 5000, { "", "", -1 } },
