@@ -43,7 +43,7 @@ if (life_garage_sp isEqualType []) then {
         [_vid,_pid,(life_garage_sp select 0),_unit,_price,(life_garage_sp select 1),_spawntext] remoteExec ["TON_fnc_spawnVehicle",RSERV];
     };
 } else {
-    if (life_garage_sp in ["medic_spawn_1","medic_spawn_2","medic_spawn_3"]) then {
+    if (life_garage_sp in ["medic_spawn_1","medic_spawn_2","medic_spawn_3","medic_spawn_4","medic_spawn_5"]) then {
         if (life_HC_isActive) then {
             [_vid,_pid,life_garage_sp,_unit,_price,0,_spawntext] remoteExec ["HC_fnc_spawnVehicle",HC_Life];
         } else {

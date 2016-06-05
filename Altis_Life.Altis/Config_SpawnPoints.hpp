@@ -21,7 +21,7 @@
 class CfgSpawnPoints {
     class Civilian {
         class Kavala {
-            displayName = "Kavala";
+            displayName = "Kavala(Capital)";
             spawnMarker = "civ_spawn_1";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
             licenses[] = { { "", true } };
@@ -143,5 +143,21 @@ class CfgSpawnPoints {
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
         };
+
+        class Emergency1 {
+	    displayName = "Emergency Center 1";
+	    spawnMarker = "medic_spawn_4";
+	    icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
+	    licenses[] = { { "", true } };
+	    level[] = { "", "", -1 };
+	};
+
+        class Emergency2 {
+	    displayName = "Emergency Center 2";
+	    spawnMarker = "medic_spawn_5";
+	    icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
+	    licenses[] = { { "", true } };
+	    level[] = { "", "", -1 };
+	};
     };
 };
