@@ -124,7 +124,7 @@ class Clothing {
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
             { "U_Rangemaster", "Cop Uniform", 250, { "", "", -1 } },
-            { "U_B_CombatUniform_mcam", "White Uniform", 250, { "", "", -1 } },
+            { "U_B_CombatUniform_mcam", "Traffic Officer", 250, { "", "", -1 } },
             { "U_B_CombatUniform_mcam_worn", "Blue Uniform", 350, { "life_coplevel", "SCALAR", 2 } },
 	    { "U_B_CTRG_1", "Black Uniform", 350, { "life_coplevel", "SCALAR", 2 } },
 	    { "U_B_survival_uniform", "", 1250, { "life_coplevel", "SCALAR", 1 } },
@@ -369,9 +369,10 @@ class Clothing {
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
             { "U_Rangemaster", "EMS Uniform", 25, { "", "", -1 } },
-            { "U_B_CombatUniform_mcam", "Yellow Uniform", 50, { "", "", -1 } },
-            { "U_B_CombatUniform_mcam_worn", "Green Uniform", 50, { "", "", -1 } },
-            { "U_C_Driver_1_green", "EMS Driver_green", 5000, { "", "", -1 } },
+            { "U_B_CombatUniform_mcam", "EMS 형광", 50, { "", "", -1 } },
+            { "U_B_CombatUniform_mcam_worn", "EMS 녹색", 50, { "", "", -1 } },
+	    { "U_B_CTRG_1", "EMS 주황", 50, { "", "", -1 } },
+	    { "U_C_Driver_1_green", "EMS Driver_green", 5000, { "", "", -1 } },
             { "U_C_Driver_1_blue", "EMS Driver_blue", 5000, { "", "", -1 } },
             { "U_C_Driver_1_orange", "EMS Driver_ora", 5000, { "", "", -1 } },
             { "U_I_Wetsuit", "EMS wetsuit", 5000, { "", "", -1 } }
