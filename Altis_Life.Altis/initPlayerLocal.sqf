@@ -1,4 +1,5 @@
 #include "script_macros.hpp"
+#include "Custom\Fastrope.sqf"	//FastRope
 /*
     File: initPlayerLocal.sqf
     Author:
