@@ -7,7 +7,7 @@
     Raids the players house?
 */
 private["_house","_uid","_cpRate","_cP","_title","_titleText","_ui","_houseInv","_houseInvData","_houseInvVal"];
-_house = param [0,ObjNull,[ObjNull]];
+_house = param [0,objNull,[objNull]];
 
 if (isNull _house || !(_house isKindOf "House_F")) exitWith {};
 if (isNil {(_house getVariable "house_owner")}) exitWith {hint localize "STR_House_Raid_NoOwner"};
@@ -70,6 +70,7 @@ _value = 0;
 if (_value > 0) then {
     [0,"STR_House_Raid_Successful",true,[[_value] call life_fnc_numberText]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
     BANK = BANK + round(_value / 2);
+    [1] call SOCK_fnc_updatePartial;
 
     _house setVariable ["Trunk",[_houseInvData,_houseInvVal],true];
 
@@ -78,7 +79,6 @@ if (_value > 0) then {
     } else {
         [_house] remoteExecCall ["TON_fnc_updateHouseTrunk",RSERV];
     };
-
 } else {
     hint localize "STR_House_Raid_NoIllegal";
 };

@@ -1052,6 +1052,17 @@
             <Portuguese>Você trasferiu R$%1 para %2.\n\nA taxa de trasferência foi de: R$%3.</Portuguese>
             <Polish>Przelałeś $%1 do %2.\n\nA opłata $%3 pobrana przez WIRE TRANSFER </Polish>
         </Key>
+        <Key ID="STR_ATM_WireTransfer">
+            <Original>%1 has wire transferred $%2 to you.</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German></German>
+            <French></French>
+            <Italian></Italian>
+            <Portuguese></Portuguese>
+            <Polish></Polish>
+        </Key>
         <Key ID="STR_ATM_WithdrawMax">
             <Original>You can't withdraw more then $999,999</Original>
             <Czech>Nemůžete zrušit více než 999.999 $</Czech>
@@ -2074,7 +2085,7 @@
             <Portuguese>O veículo foi guardado na sua garagem.</Portuguese>
             <Polish>Pojazd został zaparkowany.</Polish>
         </Key>
-    <Key ID="STR_Garage_spawn_Success">
+        <Key ID="STR_Garage_spawn_Success">
             <Original>Your vehicle is ready!</Original>
             <Czech>Vaše vozidlo je připraven!</Czech>
             <Spanish>Tu vehículo esta listo! </Spanish>
@@ -2875,7 +2886,7 @@
             <Portuguese>Você pegou %1</Portuguese>
             <Polish>Złapałeś %1</Polish>
         </Key>
-    <Key ID="STR_NOTF_Gutting">
+        <Key ID="STR_NOTF_Gutting">
             <Original>Gutting %1</Original>
             <Czech>Kuchání%1</Czech>
             <Spanish>Eviscerando %1</Spanish>
@@ -2886,7 +2897,7 @@
             <Portuguese>evisceração %1</Portuguese>
             <Polish>Patroszenie %1</Polish>
         </Key>
-    <Key ID="STR_NOTF_Guttingfinish">
+        <Key ID="STR_NOTF_Guttingfinish">
             <Original>You have collected some raw %1 meat</Original>
             <Czech>Nasbíráte nějaké syrové maso %1</Czech>
             <Spanish>Has recolectado carne cruda de %1</Spanish>
@@ -4206,98 +4217,52 @@
             <Russian>Вы не можете удалить элемент, когда вы находитесь в автомобиле.</Russian>
             <German>Sie können ein Element nicht entfernen, wenn Sie in einem Fahrzeug sind.</German>
         </Key>
+        <Key ID="STR_NOTF_nowSpectating">
+            <Original>You are now spectating %1.\n\nPress F10 to stop spectating.</Original>
+            <Czech>Nyní diváck é%1.\n\nStisknutím klávesy F10 k zastavení divácké.</Czech>
+            <French>Vous êtes maintenant spectating %1.\n\nAppuyez sur F10 pour arrêter spectating.</French>
+            <Spanish>Ahora está de espectador %1.\n\nPulse F10 para dejar de spectating.</Spanish>
+            <Italian>Si è ora spectating %1.\n\nPremere F10 per smettere di spettatori.</Italian>
+            <Polish>Grasz teraz spectating %1.\n\nNaciśnij klawisz F10, aby zatrzymać spectating.</Polish>
+            <Portuguese>Você agora está como espectador %1.\n\nPressione F10 para sair.</Portuguese>
+            <Russian>Теперь вы spectating %1.\n\nНажмите F10, чтобы остановить spectating.</Russian>
+            <German>Du beobachtest nun %1.\n\nDrücke F10, um das Beobachten zu beenden.</German>
+        </Key>
+        <Key ID="STR_NOTF_haveTPedToYou">
+            <Original>You have teleported %1 to your location.</Original>
+            <Czech>Jste teleported %1 do vaší polohy.</Czech>
+            <French>Vous avez téléporté %1 à votre emplacement.</French>
+            <Spanish>Usted ha teletransportado %1 a su ubicación.</Spanish>
+            <Italian>Hai teletrasportato %1 alla vostra posizione.</Italian>
+            <Polish>Masz teleportował %1 na swoim miejscu.</Polish>
+            <Portuguese>Você teletransportou %1 para a sua localização.</Portuguese>
+            <Russian>Вы телепортированы %1 к вашему положению.</Russian>
+            <German>Du hast %1 zu deiner Position teleportiert.</German>
+        </Key>
+        <Key ID="STR_NOTF_ATM">
+            <Original>&lt;t color='#ADFF2F'&gt;ATM&lt;/t&gt;</Original>
+            <Czech>&lt;t color='#ADFF2F'&gt;Bankomat&lt;/t&gt;</Czech>
+            <French>&lt;t color='#ADFF2F'&gt;AU M&lt;/t&gt;</French>
+            <Spanish>&lt;t color='#ADFF2F'&gt;ATM&lt;/t&gt;</Spanish>
+            <Italian>&lt;t color='#ADFF2F'&gt;ATM&lt;/t&gt;</Italian>
+            <Polish>&lt;t color='#ADFF2F'&gt;Bankomat&lt;/t&gt;</Polish>
+            <Portuguese>&lt;t color='#ADFF2F'&gt;Caixa Eletrônico&lt;/t&gt;</Portuguese>
+            <Russian>&lt;t color='#ADFF2F'&gt;Банкомат&lt;/t&gt;</Russian>
+            <German>&lt;t color='#ADFF2F'&gt;Geldautomat&lt;/t&gt;</German>
+        </Key>
+        <Key ID="STR_NOTF_captureGangHideout">
+            <Original>Capture Gang Hideout</Original>
+            <Czech>Zachyťte Gang skrýš</Czech>
+            <French>Capturez Gang Cachette</French>
+            <Spanish>Captura de la cuadrilla de Escondite</Spanish>
+            <Italian>Cattura Banda Nascondiglio</Italian>
+            <Polish>Przechwytywanie Banda Kryjówka</Polish>
+            <Portuguese>Capturar Esconderijo de Gangue</Portuguese>
+            <Russian>Захват шайка укрытие</Russian>
+            <German>Ganggebiet einnehmen</German>
+        </Key>
         <Key ID="STR_NOTF_couldNotGiveBomul">
             <Original>보물은 남에게 줄 수 없습니다. 어드민에게 환전 후 remove하셔야 합니다</Original>
-        </Key>
-    </Package>    
-    <Package name="News_Strings">
-        <Key ID="STR_News_AddAction">
-            <Original>News Station Broadcast</Original>
-            <Czech></Czech>
-            <Spanish></Spanish>
-            <Russian></Russian>
-            <German></German>
-            <French></French>
-            <Italian></Italian>
-            <Portuguese></Portuguese>
-            <Polish></Polish>
-        </Key>
-        <Key ID="STR_News_DialogTitle">
-            <Original>Channel 7 News Station</Original>
-            <Czech></Czech>
-            <Spanish></Spanish>
-            <Russian></Russian>
-            <German></German>
-            <French></French>
-            <Italian></Italian>
-            <Portuguese></Portuguese>
-            <Polish></Polish>
-        </Key>
-        <Key ID="STR_News_MsgHeader">
-            <Original>Message Heading:</Original>
-            <Czech></Czech>
-            <Spanish></Spanish>
-            <Russian></Russian>
-            <German></German>
-            <French></French>
-            <Italian></Italian>
-            <Portuguese></Portuguese>
-            <Polish></Polish>
-        </Key>
-        <Key ID="STR_News_MsgContent">
-            <Original>Message Content:</Original>
-            <Czech></Czech>
-            <Spanish></Spanish>
-            <Russian></Russian>
-            <German></German>
-            <French></French>
-            <Italian></Italian>
-            <Portuguese></Portuguese>
-            <Polish></Polish>
-        </Key>
-        <Key ID="STR_News_Broadcast">
-            <Original>Broadcast Message</Original>
-            <Czech></Czech>
-            <Spanish></Spanish>
-            <Russian></Russian>
-            <German></German>
-            <French></French>
-            <Italian></Italian>
-            <Portuguese></Portuguese>
-            <Polish></Polish>
-        </Key>
-        <Key ID="STR_News_BroadcastCooldown">
-            <Original>You must wait %1 seconds to send a broadcast!</Original>
-            <Czech></Czech>
-            <Spanish></Spanish>
-            <Russian></Russian>
-            <German></German>
-            <French></French>
-            <Italian></Italian>
-            <Portuguese></Portuguese>
-            <Polish></Polish>
-        </Key>
-        <Key ID="STR_News_NotEnough">
-            <Original>You need $%1 to send a broadcast!</Original>
-            <Czech></Czech>
-            <Spanish></Spanish>
-            <Russian></Russian>
-            <German></German>
-            <French></French>
-            <Italian></Italian>
-            <Portuguese></Portuguese>
-            <Polish></Polish>
-        </Key>
-        <Key ID="STR_News_BroadcastCost">
-            <Original>Cost to Broadcast: $%1</Original>
-            <Czech></Czech>
-            <Spanish></Spanish>
-            <Russian></Russian>
-            <German></German>
-            <French></French>
-            <Italian></Italian>
-            <Portuguese></Portuguese>
-            <Polish></Polish>
         </Key>
     </Package>    
     <Package name="Jail_Strings">
@@ -11039,6 +11004,96 @@
             <Portuguese>Mensagem de administração</Portuguese>
             <Russian>Администратор Сообщение</Russian>
             <German>Admin-Nachricht</German>
+        </Key>
+    </Package>
+    <Package name="News_Strings">
+        <Key ID="STR_News_AddAction">
+            <Original>News Station Broadcast</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German></German>
+            <French></French>
+            <Italian></Italian>
+            <Portuguese></Portuguese>
+            <Polish></Polish>
+        </Key>
+        <Key ID="STR_News_DialogTitle">
+            <Original>Channel 7 News Station</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German></German>
+            <French></French>
+            <Italian></Italian>
+            <Portuguese></Portuguese>
+            <Polish></Polish>
+        </Key>
+        <Key ID="STR_News_MsgHeader">
+            <Original>Message Heading:</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German></German>
+            <French></French>
+            <Italian></Italian>
+            <Portuguese></Portuguese>
+            <Polish></Polish>
+        </Key>
+        <Key ID="STR_News_MsgContent">
+            <Original>Message Content:</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German></German>
+            <French></French>
+            <Italian></Italian>
+            <Portuguese></Portuguese>
+            <Polish></Polish>
+        </Key>
+        <Key ID="STR_News_Broadcast">
+            <Original>Broadcast Message</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German></German>
+            <French></French>
+            <Italian></Italian>
+            <Portuguese></Portuguese>
+            <Polish></Polish>
+        </Key>
+        <Key ID="STR_News_BroadcastCooldown">
+            <Original>You must wait %1 seconds to send a broadcast!</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German></German>
+            <French></French>
+            <Italian></Italian>
+            <Portuguese></Portuguese>
+            <Polish></Polish>
+        </Key>
+        <Key ID="STR_News_NotEnough">
+            <Original>You need $%1 to send a broadcast!</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German></German>
+            <French></French>
+            <Italian></Italian>
+            <Portuguese></Portuguese>
+            <Polish></Polish>
+        </Key>
+        <Key ID="STR_News_BroadcastCost">
+            <Original>Cost to Broadcast: $%1</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German></German>
+            <French></French>
+            <Italian></Italian>
+            <Portuguese></Portuguese>
+            <Polish></Polish>
         </Key>
     </Package>
 </Project>

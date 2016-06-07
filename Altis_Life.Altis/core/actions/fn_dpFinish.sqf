@@ -8,7 +8,7 @@
     on distance between A->B
 */
 private["_dp","_dis","_price"];
-_dp = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
+_dp = [_this,0,objNull,[objNull]] call BIS_fnc_param;
 life_delivery_in_progress = false;
 life_dp_point = nil;
 _dis = round((getPos life_dp_start) distance (getPos _dp));
@@ -18,3 +18,4 @@ _price = round(1.7 * _dis * 5);// dp price // 5 times upgrage by soulfucker
 life_cur_task setTaskState "Succeeded";
 player removeSimpleTask life_cur_task;
 CASH = CASH + _price;
+[0] call SOCK_fnc_updatePartial;

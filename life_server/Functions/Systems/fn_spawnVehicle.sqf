@@ -11,7 +11,7 @@ private["_vid","_sp","_pid","_query","_sql","_vehicle","_nearVehicles","_name","
 _vid = [_this,0,-1,[0]] call BIS_fnc_param;
 _pid = [_this,1,"",[""]] call BIS_fnc_param;
 _sp = [_this,2,[],[[],""]] call BIS_fnc_param;
-_unit = [_this,3,ObjNull,[ObjNull]] call BIS_fnc_param;
+_unit = [_this,3,objNull,[objNull]] call BIS_fnc_param;
 _price = [_this,4,0,[0]] call BIS_fnc_param;
 _dir = [_this,5,0,[0]] call BIS_fnc_param;
 _spawntext = _this select 6;
@@ -46,12 +46,12 @@ if (count _vInfo isEqualTo 0) exitWith {serv_sv_use deleteAt _servIndex;};
 
 if ((_vInfo select 5) isEqualTo 0) exitWith {
     serv_sv_use deleteAt _servIndex;
-    [1,format[(localize "STR_Garage_SQLError_Destroyed"),(_vInfo select 2)]] remoteExecCall ["life_fnc_broadcast",_unit];
+    [1,"STR_Garage_SQLError_Destroyed",true,[_vInfo select 2]] remoteExecCall ["life_fnc_broadcast",_unit];
 };
 
 if ((_vInfo select 6) isEqualTo 1) exitWith {
     serv_sv_use deleteAt _servIndex;
-    [1,format[(localize "STR_Garage_SQLError_Active"),(_vInfo select 2)]] remoteExecCall ["life_fnc_broadcast",_unit];
+    [1,"STR_Garage_SQLError_Active",true,[_vInfo select 2]] remoteExecCall ["life_fnc_broadcast",_unit];
 };
 
 if (!(_sp isEqualType "")) then {
@@ -63,7 +63,7 @@ if (!(_sp isEqualType "")) then {
 if (count _nearVehicles > 0) exitWith {
     serv_sv_use deleteAt _servIndex;
     [_price,_unit_return] remoteExecCall ["life_fnc_garageRefund",_unit];
-    [1,(localize "STR_Garage_SpawnPointError")] remoteExecCall ["life_fnc_broadcast",_unit];
+    [1,"STR_Garage_SpawnPointError",true] remoteExecCall ["life_fnc_broadcast",_unit];
 };
 
 _query = format["UPDATE vehicles SET active='1', damage='""[]""' WHERE pid='%1' AND id='%2'",_pid,_vid];
@@ -97,14 +97,14 @@ _vehicle allowDamage true;
 _vehicle lock 2;
 //Reskin the vehicle
 [_vehicle,(_vInfo select 8)] remoteExecCall ["life_fnc_colorVehicle",_unit];
-_vehicle setVariable["vehicle_info_owners",[[_pid,_name]],true];
-_vehicle setVariable["dbInfo",[(_vInfo select 4),(_vInfo select 7)],true];
+_vehicle setVariable ["vehicle_info_owners",[[_pid,_name]],true];
+_vehicle setVariable ["dbInfo",[(_vInfo select 4),(_vInfo select 7)],true];
 _vehicle disableTIEquipment true; //No Thermals.. They're cheap but addictive.
 [_vehicle] call life_fnc_clearVehicleAmmo;
 
 // Avoid problems if u keep changing which stuff to save!
 if (LIFE_SETTINGS(getNumber,"save_vehicle_virtualItems") isEqualTo 1) then {
-    _vehicle setVariable["Trunk",_trunk,true];
+    _vehicle setVariable ["Trunk",_trunk,true];
     if (_wasIllegal) then {
         if (_sp isEqualType "") then {
         _location= (nearestLocations [getPos _sp,["NameCityCapital","NameCity","NameVillage"],1000]) select 0;
@@ -112,14 +112,13 @@ if (LIFE_SETTINGS(getNumber,"save_vehicle_virtualItems") isEqualTo 1) then {
             _location= (nearestLocations [_sp,["NameCityCapital","NameCity","NameVillage"],1000]) select 0;
            };
            _location = text _location;
-          _msg = format[localize "STR_NOTF_BlackListedVehicle", _location ,_name];
+           [1,"STR_NOTF_BlackListedVehicle",true,[_location,_name]] remoteExecCall ["life_fnc_broadcast",west];
 
-         [1,_msg,false] remoteExecCall ["life_fnc_broadcast",west];
          _query = format["UPDATE vehicles SET blacklist='0' WHERE id='%1' AND pid='%2'",_vid,_pid];
         _thread = [_query,1] call DB_fnc_asyncCall;
         };
     }else{
-    _vehicle setVariable["Trunk",[[],0],true];
+    _vehicle setVariable ["Trunk",[[],0],true];
 };
 
 if (LIFE_SETTINGS(getNumber,"save_vehicle_fuel") isEqualTo 1) then {

@@ -28,7 +28,7 @@ if(_time <= 0) then { _time = time + (15 * 60); hintC "Please Report to Admin: J
 	} else {
 		sleep ( (_this select 1) * 0.2 );
 	};
-	life_canpay_bail = nil;
+	life_canpay_bail = true;
 };
 
 for "_i" from 0 to 1 step 0 do {
