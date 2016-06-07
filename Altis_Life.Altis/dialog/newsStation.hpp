@@ -6,7 +6,7 @@ class life_news_broadcast {
 
     class controlsBackground {
         class Life_RscTitleBackground: Life_RscText {
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
+            colorBackground[] = {"(profileNamespace getVariable ['GUI_BCG_RGB_R',0.3843])", "(profileNamespace getVariable ['GUI_BCG_RGB_G',0.7019])", "(profileNamespace getVariable ['GUI_BCG_RGB_B',0.8862])", "(profileNamespace getVariable ['GUI_BCG_RGB_A',0.7])"};
             idc = -1;
             x = 0.1;
             y = 0.2;
@@ -75,20 +75,19 @@ class life_news_broadcast {
             h = 0.03;
         };
 
-        class MessageCost: Life_RscTitle {
+        class MessageInfo: Life_RscStructuredText {
             colorBackground[] = {0, 0, 0, 0};
             idc = 100103;
             text = "";
             x = 0.1;
             y = 0.43;
             w = 0.6;
-            h = (1 /25);
+            h = .275;
         };
 
         class ConfirmButtonKey: Life_RscButtonMenu {
             idc = 100104;
             text = "$STR_News_Broadcast";
-            //onButtonClick = "[ctrlText 100101,ctrlText 100102,profilename] remoteExec ['life_fnc_AAN',-2]; closeDialog 0;";
             x = (6.25 / 40) + (4.2 / 40) + (1 / 250 / (safezoneW / safezoneH));
             y = 0.51 + (1 / 50);
             w = (10.5 / 40);

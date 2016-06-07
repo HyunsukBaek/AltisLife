@@ -1,3 +1,4 @@
+#include "..\..\script_macros.hpp"
 /*
 	File: fn_AAN.sqf
 	Author: Karel Moricky
@@ -10,9 +11,6 @@
 	_this select 0: STRUCTURED TEXT: Header text
 	_this select 1: STRUCTURED TEXT: Bottom text (moving)
 	_this select 2: PROFILENAME: Below Header text
-
-	Returns:
-	Nothing
 */
 disableSerialization;
 
@@ -23,7 +21,7 @@ _sender = _this select 2;
 30 cutRsc ["rscAAN","plain"];
 _display = uiNamespace getVariable "BIS_AAN";
 _textHeader = _display displayCtrl 3001;
-_textHeader ctrlSetStructuredText parseText format ["<t size='2'>%1</t><br />Broadcasted by: %2",_header,_sender];
+_textHeader ctrlSetStructuredText parseText format [localize "STR_News_BroadcastedBy",_header,_sender];
 _textHeader ctrlCommit 0;
 
 _textLine = _display displayCtrl 3002;
