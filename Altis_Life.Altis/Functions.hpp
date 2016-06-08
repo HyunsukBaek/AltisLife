@@ -229,8 +229,6 @@ class Life_Client_Core {
         class autoSetPolice {};//캅오토셋
         class slotMachineRewards {};  //Casino
         class slotMachineRandomizer {};  //Casino
-        class AAN {}; //Broadcast
-        class postNewsBroadcast {}; //Broadcast
     };
 
     class Gangs {
