@@ -22,10 +22,10 @@ class WeaponShops {
         license = "gun";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "hgun_Rook40_F", "", 20000, 500 },
-            { "hgun_Pistol_heavy_02_F", "", 35000, 500 },
-            { "hgun_ACPC2_F", "", 35000, 500 },
-            { "hgun_PDW2000_F", "", 65000, 500 }
+            { "hgun_Rook40_F", "", 50000, 500 },
+            { "hgun_Pistol_heavy_02_F", "", 65000, 500 },
+            { "hgun_ACPC2_F", "", 85000, 500 },
+            { "hgun_PDW2000_F", "", 125000, 500 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 160 },
@@ -44,12 +44,12 @@ class WeaponShops {
         license = "rebel";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "arifle_TRG20_F", "", 300000, 20000 },
+            { "arifle_TRG20_F", "", 260000, 20000 },
             { "arifle_Katiba_F", "", 380000, 20000 },
             { "srifle_DMR_01_F", "", 475000, 20000 },
-            { "arifle_SDAR_F", "", 400000, 20000 },
-            { "arifle_MXC_F", "", 600000, 20000 },
-            { "LMG_Mk200_F", "", 1200000, 20000 },
+            { "arifle_SDAR_F", "", 350000, 20000 },
+            { "arifle_MXC_F", "", 500000, 20000 },
+            { "LMG_Mk200_F", "", 1000000, 20000 },
             { "srifle_EBR_F", "", 1100000, 20000 },
             { "launch_RPG32_F", "", 1800000, 20000 },
             { "SMG_01_F", "FlareGun", 200000, 2000 }
@@ -86,13 +86,13 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "hgun_Rook40_F", "", 35000, 3100 },
-            { "hgun_Pistol_heavy_02_F", "", 42500, 2200 },
-            { "hgun_ACPC2_F", "", 54500, 3000 },
+            { "hgun_Rook40_F", "", 45000, 3100 },
+            { "hgun_Pistol_heavy_02_F", "", 52500, 2200 },
+            { "hgun_ACPC2_F", "", 74500, 3000 },
             { "SMG_02_F", "", 255000, 20000 },//sting 9mm
-            { "hgun_PDW2000_F", "", 65000, 20000 },
+            { "hgun_PDW2000_F", "", 125000, 20000 },
             { "arifle_Katiba_F", "", 380000, 20000 },
-            { "arifle_MXC_F", "", 450000, 20000 },
+            { "arifle_MXC_F", "", 500000, 20000 },
             { "srifle_DMR_01_F", "", 475000, 20000 },
             { "FirstAidKit", "", 550, 65 }
         };
@@ -183,22 +183,22 @@ class WeaponShops {
 //	    { "tf_fadak", "", 2000, 980 },// OPFOR personal - 5km ( 30-512Mhz)
 //	    { "tf_pnr1000a", "", 2000, 980 }, // OPFOR personal - 2km ( 30-512Mhz)
 //	    { "tf_rf7800str", "", 2000, 980 }, // Bluefor personal - 2km ( 30 -512 Mhz)
-            { "arifle_sdar_F", "Taser Rifle", 80000, 7500 },
-            { "hgun_P07_F", "Stun Pistol", 10000, 650 },
-            { "hgun_ACPC2_F", "Handgun acpc2", 20000, 650 },
-            { "HandGrenade_Stone", "Flashbang", 3700, 1000 },
-            { "Laserdesignator", "", 13000, 980 },
+            { "arifle_sdar_F", "Taser Rifle", 280000, 7500 },
+            { "hgun_P07_F", "Stun Pistol", 100000, 650 },
+            { "hgun_ACPC2_F", "Handgun acpc2", 200000, 650 },
+            { "HandGrenade_Stone", "Flashbang", 37000, 1000 },
+            { "Laserdesignator", "", 130000, 980 },
             { "SMG_01_F", "FlareGun", 200000, 2000 }
         };
         mags[] = {
-            { "20Rnd_556x45_UW_mag", "Taser/Water Magazine", 45 },
-            { "30Rnd_556x45_Stanag", "Weight Rifle Magazine", 45 },
-            { "30Rnd_556x45_Stanag_Tracer_Red", "RED Rifle Magazine", 45 },
-            { "30Rnd_556x45_Stanag_Tracer_Yellow", "YELLOW Rifle Magazine", 45 },
-            { "16Rnd_9x21_Mag", "", 25 },
-            { "30Rnd_9x21_Mag", "", 25 },
-            { "9Rnd_45ACP_Mag", "", 25 },
-            { "Laserbatteries", "", 45 },
+            { "20Rnd_556x45_UW_mag", "Taser/Water Magazine", 450 },
+            { "30Rnd_556x45_Stanag", "Weight Rifle Magazine", 450 },
+            { "30Rnd_556x45_Stanag_Tracer_Red", "RED Rifle Magazine", 450 },
+            { "30Rnd_556x45_Stanag_Tracer_Yellow", "YELLOW Rifle Magazine", 450 },
+            { "16Rnd_9x21_Mag", "", 250 },
+            { "30Rnd_9x21_Mag", "", 250 },
+            { "9Rnd_45ACP_Mag", "", 250 },
+            { "Laserbatteries", "", 450 },
             { "30Rnd_45ACP_Mag_SMG_01_tracer_green", "FlareBullet", 2000 }
         };
         accs[] = {
@@ -214,20 +214,19 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 2, "You must be a Patrol Officer Rank!" };
         items[] = {
-            { "hgun_Pistol_heavy_02_F", "", 30000, 15000 },
-            { "arifle_MX_F", "", 135000, 7500 },
-            { "SMG_02_F", "", 130000, 7500 },
-            { "arifle_Mk20C_F", "", 230000, 7500 },
-            { "arifle_MX_SW_F", "", 130000, 5000 },
-            { "MineDetector", "", 1000, 500 }
+            { "hgun_Pistol_heavy_02_F", "", 130000, 15000 },
+            { "arifle_MX_F", "", 235000, 7500 },
+            { "SMG_02_F", "", 230000, 7500 },
+            { "arifle_Mk20C_F", "", 330000, 7500 },
+            { "arifle_MX_SW_F", "", 430000, 5000 }
         };
         mags[] = {
-            { "6Rnd_45ACP_Cylinder", "", 45 },
-            { "30Rnd_65x39_caseless_mag", "", 130 },
-            { "30Rnd_65x39_caseless_mag_Tracer", "", 130 },
-            { "30Rnd_9x21_Mag", "", 250 },
-            { "30Rnd_556x45_Stanag", "", 60 },
-            { "30Rnd_556x45_Stanag_Tracer_Yellow", "", 60 },
+            { "6Rnd_45ACP_Cylinder", "", 450 },
+            { "30Rnd_65x39_caseless_mag", "", 530 },
+            { "30Rnd_65x39_caseless_mag_Tracer", "", 530 },
+            { "30Rnd_9x21_Mag", "", 850 },
+            { "30Rnd_556x45_Stanag", "", 600},
+            { "30Rnd_556x45_Stanag_Tracer_Yellow", "", 600 },
             { "100Rnd_65x39_caseless_mag_Tracer", "", 1050 }
         };
         accs[] = {
@@ -237,11 +236,11 @@ class WeaponShops {
             { "optic_Arco", "", 2500, 1000 },
             { "optic_MRCO", "", 2500, 1000 },
             { "optic_NVS", "", 3000, 980 },
-            { "muzzle_snds_H", "", 2750, 1000 },
-            { "muzzle_snds_L", "", 2750, 1000 },
-            { "muzzle_snds_M", "", 2750, 1000 },
-            { "muzzle_snds_B", "", 2750, 1000 },
-            { "Rangefinder", "", 2750, 1000 }
+            { "muzzle_snds_H", "", 102750, 1000 },
+            { "muzzle_snds_L", "", 102750, 1000 },
+            { "muzzle_snds_M", "", 102750, 1000 },
+            { "muzzle_snds_B", "", 102750, 1000 },
+            { "Rangefinder", "", 52750, 1000 }
         };
     };
 
@@ -251,10 +250,10 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant Rank!" };
         items[] = {
-            { "srifle_EBR_F", "", 200000, 25000 },//mk18
-            { "srifle_DMR_01_F", "", 350000, 25000 },//rahim
-            { "srifle_DMR_05_hex_F", "cyrus(DLC)", 530000, 25000 },//cyrus
-            { "LMG_Mk200_F", "", 630000, 25000 },//mk200
+            { "srifle_EBR_F", "", 700000, 25000 },//mk18
+            { "srifle_DMR_01_F", "", 550000, 25000 },//rahim
+            { "srifle_DMR_05_hex_F", "cyrus(DLC)", 830000, 25000 },//cyrus
+            { "LMG_Mk200_F", "", 600000, 25000 },//mk200
             { "srifle_LRR_F", "", 700000, 25000 }
         };
         mags[] = {
@@ -280,11 +279,11 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 5, "You must be a master Rank!" };
         items[] = {
-            { "srifle_GM6_F", "", 700000, 25000 },//lynx
-            { "LMG_Zafir_F", "", 800000, 25000 },//zafir
-            { "MMG_01_hex_F", "", 1000000, 25000 }, //NAVID
-            { "launch_Titan_F", "", 800000, 25000 },
-            { "launch_B_Titan_short_F", "", 900000, 25000 }
+            { "srifle_GM6_F", "", 900000, 25000 },//lynx
+            { "LMG_Zafir_F", "", 1200000, 25000 },//zafir
+            { "MMG_01_hex_F", "", 1900000, 25000 }, //NAVID
+            { "launch_Titan_F", "", 2800000, 25000 },
+            { "launch_B_Titan_short_F", "", 1500000, 25000 }
         };
         mags[] = {
             { "5Rnd_127x108_Mag", "", 1450 },
@@ -292,15 +291,15 @@ class WeaponShops {
             { "150Rnd_762x54_Box", "", 5450 },
             { "150Rnd_762x54_Box_Tracer", "", 5450 },
             { "150Rnd_93x64_Mag", "", 4000 },
-            { "Titan_AA", "", 10000 },
-            { "Titan_AT", "", 10000 },
-            { "Titan_AP", "", 10000 }
+            { "Titan_AA", "", 100000 },
+            { "Titan_AT", "", 100000 },
+            { "Titan_AP", "", 100000 }
         };
         accs[] = {
-            { "optic_LRPS", "", 2500, 1000 },
-            { "optic_Hamr", "", 2500, 1000 },
-            { "optic_tws", "", 2500, 1000 },
-            { "optic_Nightstalker", "", 25000, 1000 },
+            { "optic_LRPS", "", 200000, 1000 },
+            { "optic_Hamr", "", 150000, 1000 },
+            { "optic_tws", "", 300000, 1000 },
+            { "optic_Nightstalker", "", 225000, 1000 },
             { "acc_pointer_IR", "", 30000, 1000 }
         };
     };

@@ -194,7 +194,7 @@ class VirtualItems {
         variable = "defibrillator";
         displayName = "STR_Item_Defibrillator";
         weight = 4;
-        buyPrice = 1500;
+        buyPrice = 15000;
         sellPrice = -1;
         illegal = false;
         edible = -1;
@@ -205,8 +205,8 @@ class VirtualItems {
         variable = "toolkit";
         displayName = "STR_Item_Toolkit";
         weight = 4;
-        buyPrice = 350;
-        sellPrice = 100;
+        buyPrice = 15000;
+        sellPrice = 5000;
         illegal = false;
         edible = -1;
         icon = "\a3\weapons_f\items\data\UI\gear_toolkit_ca.paa";
@@ -238,8 +238,8 @@ class VirtualItems {
         variable = "spikeStrip";
         displayName = "STR_Item_SpikeStrip";
         weight = 15;
-        buyPrice = 2500;
-        sellPrice = 1200;
+        buyPrice = 25000;
+        sellPrice = 12000;
         illegal = false;
         edible = -1;
         icon = "icons\ico_spikeStrip.paa";
@@ -249,7 +249,7 @@ class VirtualItems {
         variable = "lockpick";
         displayName = "STR_Item_Lockpick";
         weight = 1;
-        buyPrice = 25000;
+        buyPrice = 35000;
         sellPrice = 1000;
         illegal = false;
         edible = -1;
@@ -271,7 +271,7 @@ class VirtualItems {
         variable = "blastingCharge";
         displayName = "STR_Item_BCharge";
         weight = 20;
-        buyPrice = 150000;
+        buyPrice = 80000;
         sellPrice = 1000;
         illegal = true;
         edible = -1;
@@ -282,8 +282,8 @@ class VirtualItems {
         variable = "boltCutter";
         displayName = "STR_Item_BCutter";
         weight = 7;
-        buyPrice = 100000;
-        sellPrice = 15000;
+        buyPrice = 65000;
+        sellPrice = 1000;
         illegal = false;
         edible = -1;
         icon = "icons\ico_boltCutter.paa";
@@ -293,7 +293,7 @@ class VirtualItems {
         variable = "defuseKit";
         displayName = "STR_Item_DefuseKit";
         weight = 2;
-        buyPrice = 2500;
+        buyPrice = 25000;
         sellPrice = -1;
         illegal = false;
         edible = -1;
@@ -304,7 +304,7 @@ class VirtualItems {
         variable = "storageSmall";
         displayName = "STR_Item_StorageBS";
         weight = 5;
-        buyPrice = 75000;
+        buyPrice = 175000;
         sellPrice = -1;
         illegal = false;
         edible = -1;
@@ -315,7 +315,7 @@ class VirtualItems {
         variable = "storageBig";
         displayName = "STR_Item_StorageBL";
         weight = 10;
-        buyPrice = 150000;
+        buyPrice = 250000;
         sellPrice = -1;
         illegal = false;
         edible = -1;
@@ -449,7 +449,7 @@ class VirtualItems {
         displayName = "STR_Item_DiamondC";
         weight = 3;
         buyPrice = -1;
-        sellPrice = 3500;
+        sellPrice = 3800;
         illegal = false;
         edible = -1;
         icon = "icons\ico_diamondCut.paa";
