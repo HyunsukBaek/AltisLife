@@ -20,10 +20,10 @@ disableChannels[]={
 				  };
 */
 
-#include "Config_Spyglass.hpp"
+#include "config\Config_Spyglass.hpp"
 #include "CfgRemoteExec.hpp"
 #include "dialog\MasterHandler.hpp"
-#include "Config_Master.hpp"
+#include "config\Config_Master.hpp"
 
 class CfgServer {
     DatabaseName = "altislife"; //Config name that'll be grep in the extdb-conf.ini. Default: [altislife]
