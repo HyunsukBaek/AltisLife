@@ -10,4 +10,4 @@ if (FETCH_CONST(life_adminlevel) < 5) exitWith {closeDialog 0; hint localize "ST
 life_admin_debug = true;
 
 createDialog "RscDisplayDebugPublic";
-//[0,format [localize "STR_NOTF_adminHasOpenedDebug",profileName]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
+[0,format [localize "STR_NOTF_adminHasOpenedDebug",profileName]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
