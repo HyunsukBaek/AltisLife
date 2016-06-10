@@ -1,5 +1,5 @@
 /*
-    File: fn_managesc.sqf
+    File: fn_manageSC.sqf
     Author: Bryan "Tonic" Boardwine
 
     Description:
@@ -20,17 +20,7 @@ switch (_side) do {
             life_radio_indep radioChannelRemove [_unit];
         };
     };
-	
-	/*
-	case civilian: {
-        if (_bool) then {
-            life_radio_civ radioChannelAdd [_unit];
-        } else {
-            life_radio_civ radioChannelRemove [_unit];
-        };
-    };
-	*/
-	
+
     case independent: {
         if (_bool) then {
             life_radio_indep radioChannelAdd [_unit];

@@ -96,6 +96,7 @@ class ProcessAction {
         //ScrollText = "Mix Cement";
         NoLicenseCost = 350;
     };
+<<<<<<< HEAD
 	
     class plywood {
         MaterialsReq[] = {{"wood",1}};
@@ -104,4 +105,6 @@ class ProcessAction {
         //ScrollText = "Make Plywood";
         NoLicenseCost = 10000;
     };
+=======
+>>>>>>> refs/remotes/origin/master
 };

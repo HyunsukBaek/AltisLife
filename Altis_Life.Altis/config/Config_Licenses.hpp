@@ -187,6 +187,7 @@ class Licenses {
         illegal = false;
         side = "med";
     };
+<<<<<<< HEAD
 	
 	class plywood {
         variable = "plywood";
@@ -195,4 +196,6 @@ class Licenses {
         illegal = false;
         side = "civ";
     };
+=======
+>>>>>>> refs/remotes/origin/master
 };
