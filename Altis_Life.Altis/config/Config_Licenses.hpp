@@ -187,15 +187,12 @@ class Licenses {
         illegal = false;
         side = "med";
     };
-<<<<<<< HEAD
-	
-	class plywood {
-        variable = "plywood";
-        displayName = "STR_License_Plywood";
-        price = 20000;
-        illegal = false;
-        side = "civ";
+
+    class plywood {
+	variable = "plywood";
+	displayName = "STR_License_Plywood";
+	price = 20000;
+	illegal = false;
+	side = "civ";
     };
-=======
->>>>>>> refs/remotes/origin/master
 };
