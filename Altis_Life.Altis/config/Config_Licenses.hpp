@@ -61,7 +61,7 @@ class Licenses {
         displayName = "STR_License_Home";
         price = 75000;
         illegal = false;
-        side = "civ";
+        side = "";
     };
 
     //Processing Licenses
