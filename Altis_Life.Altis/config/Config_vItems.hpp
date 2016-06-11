@@ -795,7 +795,7 @@ class VirtualItems {
         displayName = "STR_Item_TurtleRaw";
         weight = 5;
         buyPrice = -1;
-        sellPrice = 21000;
+        sellPrice = 38000;
         illegal = true;
         edible = -1;
         icon = "icons\ico_turtleRaw.paa";
