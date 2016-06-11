@@ -229,7 +229,7 @@ class LifeCfgVehicles {
         licenses[] = { {""}, {"cAir"}, {""}, {""} };
         price = 550000;
         textures[] = {
-            { "Cop", "cop", {"textures\cop\ghosthawk_0.jpg","textures\cop\ghosthawk_1.jpg"} }
+            { "Cop", "cop", {"textures\cop\ghosthawk_0.paa","textures\cop\ghosthawk_1.paa"} }
         };
     };
 
@@ -238,7 +238,7 @@ class LifeCfgVehicles {
         licenses[] = { {""}, {"cAir"}, {""}, {""} };
         price = 650000;
         textures[] = {
-            { "Cop", "cop", {"textures\cop\cop_hellcat.jpg"} }
+            { "Cop", "cop", {"textures\cop\cop_hellcat.paa"} }
         };
     };
 
@@ -274,7 +274,7 @@ class LifeCfgVehicles {
         textures[] = {
             { "Black", "cop", {"#(argb,8,8,3)color(0.05,0.05,0.05,1)","#(argb,8,8,3)color(0.05,0.05,0.05,1)"} },
             { "Police", "cop", {"textures\cop\hunter_front.paa","textures\cop\hunter_back.paa"} },
-            { "SWAT Police", "cop", {"textures\cop\swat_hunter_1.jpg","textures\cop\swat_hunter_2.jpg"} },
+            { "SWAT Police", "cop", {"textures\cop\swat_hunter_1.paa","textures\cop\swat_hunter_2.paa"} },
             { "Scott police", "cop", {"textures\cop\scotpol_Hunter_Cab.paa","textures\cop\scotpol_Hunter_Back.paa"} },
             { "EMS RED", "med", {"textures\ems\med_hunter_front.paa","textures\ems\med_hunter_back.paa"} }
         };
@@ -287,7 +287,7 @@ class LifeCfgVehicles {
       textures[] = {
           { "Black", "cop", {"#(argb,8,8,3)color(0.05,0.05,0.05,1)","#(argb,8,8,3)color(0.05,0.05,0.05,1)"} },
           { "Police", "cop", {"textures\cop\hunter_front.paa","textures\cop\hunter_back.paa"} },
-          { "SWAT Police", "cop", {"textures\cop\swat_hunter_1.jpg","textures\cop\swat_hunter_2.jpg"} },
+          { "SWAT Police", "cop", {"textures\cop\swat_hunter_1.paa","textures\cop\swat_hunter_2.paa"} },
           { "Scott police", "cop", {"textures\cop\scotpol_Hunter_Cab.paa","textures\cop\scotpol_Hunter_Back.paa"} },
           { "EMS RED", "med", {"textures\ems\med_hunter_front.paa","textures\ems\med_hunter_back.paa"} }
       };
@@ -333,9 +333,9 @@ class LifeCfgVehicles {
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = 350000;
         textures[] = {
-            { "Cola", "civ", {"textures\civ\cola_zamak_front.jpg","textures\civ\cola_zamak_back.jpg"} },
+            { "Cola", "civ", {"textures\civ\cola_zamak_front.paa","textures\civ\cola_zamak_back.paa"} },
             { "RedBull", "civ", {"textures\civ\truckcabredbull.paa","textures\civ\truckbackredbull.paa"} },
-            { "COP", "cop", {"textures\cop\cop_zamak_front.jpg","textures\cop\cop_zamak_back.jpg"} }
+            { "COP", "cop", {"textures\cop\cop_zamak_front.paa","textures\cop\cop_zamak_back.paa"} }
         };
     };
 
@@ -384,11 +384,11 @@ class LifeCfgVehicles {
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 700000;
         textures[] = {
-            { "Black Skull", "reb", {"textures\rebel\reb_black_ifrit_front.jpg", "textures\rebel\reb_black_ifrit_back.jpg"} },
-            { "Camo", "reb", {"textures\rebel\reblbirdcamo1.jpg"} },
+            { "Black Skull", "reb", {"textures\rebel\reb_black_ifrit_front.paa", "textures\rebel\reb_black_ifrit_back.paa"} },
+            { "Camo", "reb", {"textures\rebel\reblbirdcamo1.paa"} },
             { "Black", "cop", {"#(argb,8,8,3)color(0.05,0.05,0.05,1)"} },
             { "BLUE", "cop", {"#(argb,8,8,3)color(0.01,0.01,1.53,1)"} },
-            { "Snake", "civ", {"textures\rebel\reb_black_ifrit_front.jpg", "textures\rebel\reb_black_ifrit_back.jpg"} }
+            { "Snake", "civ", {"textures\rebel\reb_black_ifrit_front.paa", "textures\rebel\reb_black_ifrit_back.paa"} }
         };
     };
 
@@ -397,11 +397,11 @@ class LifeCfgVehicles {
       licenses[] = { {"driver"}, {""}, {""}, {""} };
       price = 3500000;
       textures[] = {
-          { "Black Skull", "reb", {"textures\rebel\reb_black_ifrit_front.jpg", "textures\rebel\reb_black_ifrit_back.jpg"} },
-          { "Camo", "reb", {"textures\rebel\reblbirdcamo1.jpg"} },
+          { "Black Skull", "reb", {"textures\rebel\reb_black_ifrit_front.paa", "textures\rebel\reb_black_ifrit_back.paa"} },
+          { "Camo", "reb", {"textures\rebel\reblbirdcamo1.paa"} },
           { "Black", "cop", {"#(argb,8,8,3)color(0.05,0.05,0.05,1)"} },
           { "BLUE", "cop", {"#(argb,8,8,3)color(0.01,0.01,1.53,1)"} },
-          { "Snake", "civ", {"textures\rebel\reb_black_ifrit_front.jpg", "textures\rebel\reb_black_ifrit_back.jpg"} }
+          { "Snake", "civ", {"textures\rebel\reb_black_ifrit_front.paa", "textures\rebel\reb_black_ifrit_back.paa"} }
       };
   };
 
@@ -459,9 +459,9 @@ class LifeCfgVehicles {
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 102500;
         textures[] = {
-            { "US Police", "cop", {"textures\cop\police_offroad.jpg"} },
-            { "London Police", "cop", {"textures\cop\police_uk_offroad.jpg"} },
-            { "SWAT", "cop", {"textures\cop\swat_offroad.jpg"} },
+            { "US Police", "cop", {"textures\cop\police_offroad.paa"} },
+            { "London Police", "cop", {"textures\cop\police_uk_offroad.paa"} },
+            { "SWAT", "cop", {"textures\cop\swat_offroad.paa"} },
             { "EMS", "med", {
                 "\A3\soft_F\Offroad_01\Data\offroad_01_ext_co.paa",
                 "\A3\soft_F\Offroad_01\Data\offroad_01_ext_co.paa"
@@ -492,7 +492,7 @@ class LifeCfgVehicles {
             { "Met cop", "cop", {"textures\cop\met_police_offroader.paa"} },
             { "London 911", "cop", {"textures\cop\lincpol_offroader.paa"} },
             { "EMS Red", "med", {"textures\ems\med_offroad.paa"} },
-            { "Hello kitty", "civ", {"textures\civ\kitty_offroad.jpg"} },
+            { "Hello kitty", "civ", {"textures\civ\kitty_offroad.paa"} },
             { "Traffic police", "cop", {"textures\cop\heto_offroader.paa"} }
         };
     };
@@ -521,12 +521,12 @@ will modify the virtual space and the price of the vehicle, but other informatio
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 100000;
         textures[] = {
-            { "Ferrari", "civ", {"textures\civ\ferrari_hatchback.jpg"} },
-            { "Security", "civ", {"textures\civ\secure_hatchback.jpg"} },
-            { "Police", "cop", {"textures\cop\cop_hatchback.jpg"} },
-            { "UK Police", "cop", {"textures\cop\UK_police_hatchback_co.jpg"} },
+            { "Ferrari", "civ", {"textures\civ\ferrari_hatchback.paa"} },
+            { "Security", "civ", {"textures\civ\secure_hatchback.paa"} },
+            { "Police", "cop", {"textures\cop\cop_hatchback.paa"} },
+            { "UK Police", "cop", {"textures\cop\UK_police_hatchback_co.paa"} },
 
-            { "EMS Red", "med", {"textures\ems\EMS_hatchback.jpg"} },
+            { "EMS Red", "med", {"textures\ems\EMS_hatchback.paa"} },
             { "Beige", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base01_co.paa"
             } },
@@ -548,7 +548,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Grey", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base08_co.paa"
             } },
-            { "Subaru", "civ", {"textures\civ\civ_subaru.jpg"} },
+            { "Subaru", "civ", {"textures\civ\civ_subaru.paa"} },
             { "EMS London", "med", {"textures\ems\paramedic_hb.paa"} },
             { "LAPD", "cop", {"textures\cop\lapd_hatchback.paa"} }
         };
@@ -559,11 +559,11 @@ will modify the virtual space and the price of the vehicle, but other informatio
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 140000;
         textures[] = {
-            { "Police", "cop", {"textures\cop\cop_hatchback.jpg"} },
-            { "UK Police", "cop", {"textures\cop\UK_police_hatchback_co.jpg"} },
-            { "Security", "civ", {"textures\civ\secure_hatchback.jpg"} },
-            { "Subaru", "civ", {"textures\civ\civ_subaru.jpg"} },
-            { "EMS Red", "med", {"textures\ems\EMS_hatchback.jpg"} },
+            { "Police", "cop", {"textures\cop\cop_hatchback.paa"} },
+            { "UK Police", "cop", {"textures\cop\UK_police_hatchback_co.paa"} },
+            { "Security", "civ", {"textures\civ\secure_hatchback.paa"} },
+            { "Subaru", "civ", {"textures\civ\civ_subaru.paa"} },
+            { "EMS Red", "med", {"textures\ems\EMS_hatchback.paa"} },
 
             { "Red", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport01_co.paa"
@@ -580,12 +580,12 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Beige", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport05_co.paa"
             } },
-            { "monster_WRC", "civ", {"textures\civ\civ_hatchback_monster.jpg"} },
+            { "monster_WRC", "civ", {"textures\civ\civ_hatchback_monster.paa"} },
             { "LAPD", "cop", {"textures\cop\lapd_hatchback.paa"} },
             { "EMS London", "med", {"textures\ems\paramedic_hb.paa"} },
-            { "Ferrari", "civ", {"textures\civ\ferrari_hatchback.jpg"} },
-            { "porsche", "civ", {"textures\civ\porsche_hatchback.jpg"} },
-	    { "잠복용시민monster", "cop", {"textures\civ\civ_hatchback_monster.jpg"} }
+            { "Ferrari", "civ", {"textures\civ\ferrari_hatchback.paa"} },
+            { "porsche", "civ", {"textures\civ\porsche_hatchback.paa"} },
+	    { "잠복용시민monster", "cop", {"textures\civ\civ_hatchback_monster.paa"} }
         };
     };
 
@@ -594,7 +594,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         licenses[] = { {""}, {""}, {""}, {""} };
         price = 25000;
         textures[] = {
-            { "Police", "cop", {"textures\cop\quad_police.jpg"} },
+            { "Police", "cop", {"textures\cop\quad_police.paa"} },
             { "Digi Desert", "reb", {
                 "\A3\Soft_F\Quadbike_01\Data\quadbike_01_opfor_co.paa"
             } },
@@ -619,8 +619,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Rebel Camo", "reb", {
                 "\a3\soft_f_gamma\Quadbike_01\data\quadbike_01_indp_hunter_co.paa"
             } },
-            { "EMS", "med", {"textures\ems\quad_med.jpg"} },
-            { "LADY", "civ", {"textures\civ\quad_lady.jpg"} }
+            { "EMS", "med", {"textures\ems\quad_med.paa"} },
+            { "LADY", "civ", {"textures\civ\quad_lady.paa"} }
         };
     };
 
@@ -629,27 +629,27 @@ will modify the virtual space and the price of the vehicle, but other informatio
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 120000;
         textures[] = {
-            { "Sticker", "civ", {"textures\civ\sticker.jpg"} },
-            { "Hello kitty", "civ", {"textures\civ\kitty.jpg"} },
-            { "Cube", "civ", {"textures\civ\cube_suv.jpg"} },
-            { "Hunters", "civ", {"textures\civ\hunter_suv.jpg"} },
+            { "Sticker", "civ", {"textures\civ\sticker.paa"} },
+            { "Hello kitty", "civ", {"textures\civ\kitty.paa"} },
+            { "Cube", "civ", {"textures\civ\cube_suv.paa"} },
+            { "Hunters", "civ", {"textures\civ\hunter_suv.paa"} },
             { "Dark Red", "civ", {"\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_co.paa"} },
-            { "한국경찰", "cop", {"textures\cop\ASOULPOLICE.jpg"} },
-            { "영국경찰", "cop", {"textures\cop\police_uk_suv.jpg"} },
-            { "EMS red", "med", {"textures\ems\EMS_SUV.jpg"} },
-            { "EMS white", "med", {"textures\ems\EMS_SUV_1.jpg"} },
-            { "EMS 119", "med", {"textures\ems\EMS_SUV_2.jpg"} },
+            { "한국경찰", "cop", {"textures\cop\ASOULPOLICE.paa"} },
+            { "영국경찰", "cop", {"textures\cop\police_uk_suv.paa"} },
+            { "EMS red", "med", {"textures\ems\EMS_SUV.paa"} },
+            { "EMS white", "med", {"textures\ems\EMS_SUV_1.paa"} },
+            { "EMS 119", "med", {"textures\ems\EMS_SUV_2.paa"} },
             { "Channel8 News", "civ", {"textures\civ\channel8newscar.paa"} },
-            { "VIP Security", "civ", {"textures\civ\suv_vip.jpg"} },
+            { "VIP Security", "civ", {"textures\civ\suv_vip.paa"} },
             { "미국 경찰", "cop", {"textures\cop\lapd_suv.paa"} },
-            { "Ferrari", "civ", {"textures\civ\ferrari_SUV.jpg"} },
-            { "blueflames", "civ", {"textures\civ\flames.jpg"} },
-            { "tiger", "civ", {"textures\civ\pimp.jpg"} },
-            { "ghostRider", "civ", {"textures\civ\suv_ghostrider.jpg"} },
-            { "택시", "civ", {"textures\civ\suvtaxi.jpg"} },
-	    { "잠복용시민Cube", "cop", {"textures\civ\cube_suv.jpg"} },
-	    { "vips", "civ", {"textures\civ\civ_suvvip.jpg"} },
-	    { "5taku", "civ", {"textures\civ\civ_suvotaku.jpg"} }
+            { "Ferrari", "civ", {"textures\civ\ferrari_SUV.paa"} },
+            { "blueflames", "civ", {"textures\civ\flames.paa"} },
+            { "tiger", "civ", {"textures\civ\pimp.paa"} },
+            { "ghostRider", "civ", {"textures\civ\suv_ghostrider.paa"} },
+            { "택시", "civ", {"textures\civ\suvtaxi.paa"} },
+	    { "잠복용시민Cube", "cop", {"textures\civ\cube_suv.paa"} },
+	    { "vips", "civ", {"textures\civ\civ_suvvip.paa"} },
+	    { "5taku", "civ", {"textures\civ\civ_suvotaku.paa"} }
         };
     };
 
@@ -691,10 +691,10 @@ will modify the virtual space and the price of the vehicle, but other informatio
         licenses[] = { {"pilot"}, {"cAir"}, {"mAir"}, {""} };
         price = 555000;
         textures[] = {
-            { "Police Black/White", "cop", {"textures\cop\police_heli.jpg", "textures\cop\police_heli2.jpg"} },
+            { "Police Black/White", "cop", {"textures\cop\police_heli.paa", "textures\cop\police_heli2.paa"} },
             { "Police security", "cop", {"textures\cop\sec_hummingbird.paa"} },
-            { "EMS Yellow/Blue", "med", {"textures\ems\humming_ems.jpg", "textures\ems\humming_ems.jpg"} },
-            { "EMS Red", "med", {"textures\ems\EMS_LTB.jpg", "textures\ems\EMS_LTB.jpg"} },
+            { "EMS Yellow/Blue", "med", {"textures\ems\humming_ems.paa", "textures\ems\humming_ems.paa"} },
+            { "EMS Red", "med", {"textures\ems\EMS_LTB.paa", "textures\ems\EMS_LTB.paa"} },
             { "Sheriff", "civ", {
                 "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_sheriff_co.paa"
             } },
@@ -735,8 +735,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa"
             } },
             { "EMS hems", "med", {"textures\ems\paramedic_hems.paa"} },
-            { "시바견", "civ", {"textures\civ\shibainu.jpg"} },
-            { "monster", "civ", {"textures\civ\civ_hummingbird_Monster.jpg"} }
+            { "시바견", "civ", {"textures\civ\shibainu.paa"} },
+            { "monster", "civ", {"textures\civ\civ_hummingbird_Monster.paa"} }
         };
     };
 
@@ -789,9 +789,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 1455000;
         textures[] = {
             { "EMS Red", "med", {
-                "textures\ems\med_mohawk.jpg",
-                "textures\ems\med_mohawk2.jpg",
-                "textures\ems\med_mohawk3.jpg"
+                "textures\ems\med_mohawk.paa",
+                "textures\ems\med_mohawk2.paa",
+                "textures\ems\med_mohawk3.paa"
             } },
             { "Ion", "civ", {
                 "\a3\air_f_beta\Heli_Transport_02\Data\Skins\heli_transport_02_1_ion_co.paa",
@@ -807,7 +807,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_co.paa"
             } },
             { "Rebel CAMO", "reb", {
-                "textures\rebel\reblbirdcamo1.jpg"
+                "textures\rebel\reblbirdcamo1.paa"
             } }
         };
     };
@@ -823,13 +823,13 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_co.paa"
             } },
             { "trooper", "civ", {
-                "textures\civ\don_stormtrooper_huron_front.jpg", "textures\civ\don_stormtrooper_huron_back.jpg"
+                "textures\civ\don_stormtrooper_huron_front.paa", "textures\civ\don_stormtrooper_huron_back.paa"
             } },
             { "Dragon", "civ", {
-                "textures\civ\civ_huron_dragon1.jpg", "textures\civ\civ_huron_dragon2.jpg"
+                "textures\civ\civ_huron_dragon1.paa", "textures\civ\civ_huron_dragon2.paa"
             } },
             { "Desert Digi", "reb", {
-                "textures\rebel\reblbirdcamo1.jpg"
+                "textures\rebel\reblbirdcamo1.paa"
             } },
             { "EMS White", "med", {
                 "#(argb,8,8,3)color(1,1,1,0.8)"

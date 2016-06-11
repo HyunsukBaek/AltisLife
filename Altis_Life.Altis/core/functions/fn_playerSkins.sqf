@@ -12,43 +12,43 @@ switch (playerSide) do {
     case civilian: {
         if (LIFE_SETTINGS(getNumber,"civ_skins") isEqualTo 1) then {
             if (uniform player isEqualTo "U_C_Poloshirt_blue") then {
-                player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Super.jpg"];
+                player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Super.paa"];
             };
             if (uniform player isEqualTo "U_C_Poloshirt_burgundy") then {
-                player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Barbie.jpg"];
+                player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Barbie.paa"];
             };
             if (uniform player isEqualTo "U_C_Poloshirt_redwhite") then {
-                player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Kitty.jpg"];
+                player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Kitty.paa"];
             };
             if (uniform player isEqualTo "U_C_Poloshirt_salmon") then {
-                player setObjectTextureGlobal [0, "textures\civ\clothes\civ_yakuja.jpg"];
+                player setObjectTextureGlobal [0, "textures\civ\clothes\civ_yakuja.paa"];
             };
             
             if (uniform player isEqualTo "U_C_Poloshirt_stripped") then {
-                player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Gay_1.jpg"];
+                player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Gay_1.paa"];
             };
             
             if (uniform player isEqualTo "U_C_TeeSurfer_shorts_1") then {
-                player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Gay_3.jpg"];
+                player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Gay_3.paa"];
             };
             if (uniform player isEqualTo "U_C_TeeSurfer_shorts_2") then {
-                player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Tiger.jpg"];
+                player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Tiger.paa"];
             };
             
             if (uniform player isEqualTo "U_Competitor") then {
-                player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Broadcast.jpg"];
+                player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Broadcast.paa"];
             };
             
             if (uniform player isEqualTo "U_I_Wetsuit") then {
-                player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Dive_Green.jpg"];
+                player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Dive_Green.paa"];
             };
             
             if (uniform player isEqualTo "U_O_Wetsuit") then {
-                player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Dive_Blue.jpg"];
+                player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Dive_Blue.paa"];
             };
             
             if (uniform player isEqualTo "U_B_Wetsuit") then {
-                player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Dive_Red.jpg"];
+                player setObjectTextureGlobal [0, "textures\civ\clothes\Civ_Dive_Red.paa"];
             };
         };
     };
