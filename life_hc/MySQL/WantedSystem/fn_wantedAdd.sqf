@@ -20,9 +20,9 @@ if (_uid isEqualTo "" || _type isEqualTo "" || _name isEqualTo "") exitWith {}; 
 //What is the crime?
 switch (_type) do
 {
-    case "187V": {_type = ["187V",50000]};
-    case "187": {_type = ["187",80000]};
-    case "901": {_type = ["901",150000]};
+    case "187V": {_type = ["187V",180000]};
+    case "187": {_type = ["187",180000]};
+    case "901": {_type = ["901",100000]};
     case "215": {_type = ["215",5000]};
     case "213": {_type = ["213",60000]};
     case "211": {_type = ["211",30000]};
@@ -63,8 +63,8 @@ switch (_type) do
     case "21": {_type = ["21",30000]};
     case "22": {_type = ["22",100000]};
     case "23": {_type = ["23",500000]};
-    case "24": {_type = ["24",80000]};
-    case "25": {_type = ["25",100000]};
+    case "24": {_type = ["24",180000]};
+    case "25": {_type = ["25",200000]};
     default {_type = [];};
 };
 
