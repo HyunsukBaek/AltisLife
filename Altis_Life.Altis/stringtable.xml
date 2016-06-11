@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project name="Altis Life RPG">
+<Project name="AOSoul Life RPG">
     <Package name="Shop_Names">
         <Key ID="STR_Shops_C_Bruce">
             <Original>Bruce's Outback Outfits</Original>
@@ -13,15 +13,15 @@
             <German>Bruce Outback Outfits</German>
         </Key>
         <Key ID="STR_Shops_C_Police">
-            <Original>Altis Police Department Shop</Original>
-            <Czech>Altis policejní oddělení Shop</Czech>
+            <Original>AOSoul Police Department Shop</Original>
+            <Czech>AOSoul policejní oddělení Shop</Czech>
             <French>Boutique de la police</French>
             <Spanish>Tienda del Departamento de Policía</Spanish>
             <Russian></Russian>
             <Portuguese>Loja de Roupas Policiais</Portuguese>
             <Polish>Sklep Policyjny</Polish>
-            <Italian>Dipartimento della Polizia di Altis</Italian>
-            <German>Altis Police Department-Shop</German>
+            <Italian>Dipartimento della Polizia di AOSoul</Italian>
+            <German>AOSoul Police Department-Shop</German>
         </Key>
         <Key ID="STR_Shops_C_Rebel">
             <Original>Mohammed's Jihadi Shop</Original>
@@ -79,15 +79,15 @@
             <Polish>Sklep Kartingowy</Polish>
         </Key>
         <Key ID="STR_Shops_Market">
-            <Original>Altis Market</Original>
-            <Czech>Altis Market</Czech>
-            <Spanish>Mercado de Altis</Spanish>
+            <Original>AOSoul Market</Original>
+            <Czech>AOSoul Market</Czech>
+            <Spanish>Mercado de AOSoul</Spanish>
             <Russian></Russian>
-            <German>Altis Markt</German>
+            <German>AOSoul Markt</German>
             <Italian>Mercato</Italian>
             <French>Marché</French>
             <Portuguese>Mercado</Portuguese>
-            <Polish>Market Altis</Polish>
+            <Polish>Market AOSoul</Polish>
         </Key>
         <Key ID="STR_Shops_Rebel">
             <Original>Rebel Market</Original>
@@ -189,11 +189,11 @@
             <Polish>Skup Szkła</Polish>
         </Key>
         <Key ID="STR_Shops_Minerals">
-            <Original>Altis Industrial Trader</Original>
-            <Czech>Altis Industrial Trader</Czech>
+            <Original>AOSoul Industrial Trader</Original>
+            <Czech>AOSoul Industrial Trader</Czech>
             <Spanish>Comerciante Industrial</Spanish>
             <Russian></Russian>
-            <German>Altis Industriehandel</German>
+            <German>AOSoul Industriehandel</German>
             <Italian>Vendita materiali industriali</Italian>
             <French>Acheteur Industriel</French>
             <Portuguese>Comprador de Material Indústrial</Portuguese>
@@ -274,7 +274,7 @@
     </Package>
     <Package name="Global">
         <Key ID="STR_Global_Close">
-            <Original>Close</Original>
+            <Original>닫기</Original>
             <Czech>Zavřít</Czech>
             <Spanish>Cerrar</Spanish>
             <Russian></Russian>
@@ -285,7 +285,7 @@
             <Polish>Zamknij</Polish>
         </Key>
         <Key ID="STR_Global_Sell">
-            <Original>Sell</Original>
+            <Original>판매</Original>
             <Czech>Prodat</Czech>
             <Spanish>Vender</Spanish>
             <Russian></Russian>
@@ -296,7 +296,7 @@
             <Polish>Sprzedaj</Polish>
         </Key>
         <Key ID="STR_Global_Buy">
-            <Original>Buy</Original>
+            <Original>구매</Original>
             <Czech>Koupit</Czech>
             <Spanish>Comprar</Spanish>
             <Russian></Russian>
@@ -307,7 +307,7 @@
             <Polish>Kup</Polish>
         </Key>
         <Key ID="STR_Global_Mags">
-            <Original>Magazines</Original>
+            <Original>총알</Original>
             <Czech>časopisy</Czech>
             <French>Chargeurs</French>
             <Spanish>Cargadores</Spanish>
@@ -318,7 +318,7 @@
             <German>Magazine</German>
         </Key>
         <Key ID="STR_Global_Accs">
-            <Original>Accessories</Original>
+            <Original>액세서리</Original>
             <Czech>Příslušenství</Czech>
             <French>Accessoires</French>
             <Spanish>Accesorios</Spanish>
@@ -329,7 +329,7 @@
             <German>Zubehör</German>
         </Key>
         <Key ID="STR_Global_Weapons">
-            <Original>Weapons</Original>
+            <Original>무기</Original>
             <Czech>Zbraně</Czech>
             <French>Armes</French>
             <Spanish>Armas</Spanish>
@@ -340,7 +340,7 @@
             <German>Bewaffnung</German>
         </Key>
         <Key ID="STR_Global_Give">
-            <Original>Give</Original>
+            <Original>주기</Original>
             <Czech>Dát</Czech>
             <Spanish>Dar</Spanish>
             <Russian></Russian>
@@ -351,7 +351,7 @@
             <Polish>Daj</Polish>
         </Key>
         <Key ID="STR_Global_Use">
-            <Original>Use</Original>
+            <Original>사용</Original>
             <Czech>Použití</Czech>
             <Spanish>Usar</Spanish>
             <Russian></Russian>
@@ -362,7 +362,7 @@
             <Polish>Użyj</Polish>
         </Key>
         <Key ID="STR_Global_Remove">
-            <Original>Remove</Original>
+            <Original>삭제</Original>
             <Czech>Odstranit</Czech>
             <Spanish>Remover</Spanish>
             <Russian></Russian>
@@ -373,7 +373,7 @@
             <Polish>Usuń</Polish>
         </Key>
         <Key ID="STR_Global_Settings">
-            <Original>Settings</Original>
+            <Original>세팅</Original>
             <Czech>Nastavení</Czech>
             <Spanish>Configuración</Spanish>
             <Russian></Russian>
@@ -384,7 +384,7 @@
             <Polish>Opcje</Polish>
         </Key>
         <Key ID="STR_Global_RentVeh">
-            <Original>Rent</Original>
+            <Original>렌트</Original>
             <Czech>Nájemné</Czech>
             <Spanish>Rentar</Spanish>
             <Russian></Russian>
@@ -406,7 +406,7 @@
             <Polish>Odzyskaj</Polish>
         </Key>
         <Key ID="STR_Global_NoSelection">
-            <Original>You did not select anything.</Original>
+            <Original>아무것도 선택하지 않았슴!</Original>
             <Czech>Nevybrali jste nic.</Czech>
             <Spanish>No seleccionastes algo.</Spanish>
             <Russian></Russian>
@@ -417,7 +417,7 @@
             <Polish>Niczego nie zaznaczyłeś.</Polish>
         </Key>
         <Key ID="STR_Global_Yes">
-            <Original>Yes</Original>
+            <Original>예</Original>
             <Czech>Ano</Czech>
             <Spanish>Si</Spanish>
             <Russian></Russian>
@@ -428,7 +428,7 @@
             <Polish>Tak</Polish>
         </Key>
         <Key ID="STR_Global_No">
-            <Original>No</Original>
+            <Original>아니오</Original>
             <Czech>Ne</Czech>
             <Spanish>No</Spanish>
             <Russian></Russian>
@@ -439,7 +439,7 @@
             <Polish>Nie</Polish>
         </Key>
         <Key ID="STR_Global_Cancel">
-            <Original>Cancel</Original>
+            <Original>취소</Original>
             <Czech>Zrušit</Czech>
             <Spanish>Cancelar</Spanish>
             <Russian></Russian>
@@ -485,7 +485,7 @@
             <Polish>ID gracza</Polish>
         </Key>
         <Key ID="STR_Admin_Spectate">
-            <Original>Spectate</Original>
+            <Original>관람</Original>
             <Czech>spectate</Czech>
             <Spanish>Observar</Spanish>
             <Italian>spectate</Italian>
@@ -496,7 +496,7 @@
             <Polish>Obserwuj</Polish>
         </Key>
         <Key ID="STR_Admin_Teleport">
-            <Original>Teleport</Original>
+            <Original>텔레포트</Original>
             <Czech>Teleport</Czech>
             <Spanish>Teleport</Spanish>
             <Italian>Teleport</Italian>
@@ -507,7 +507,7 @@
             <Polish>Teleport</Polish>
         </Key>
         <Key ID="STR_Admin_TpHere">
-            <Original>TP Here</Original>
+            <Original>여기로 이동</Original>
             <Czech>TP Zde</Czech>
             <Spanish>TP Aquí</Spanish>
             <Italian>TP Qui</Italian>
@@ -518,7 +518,7 @@
             <Polish>Do Mnie</Polish>
         </Key>
         <Key ID="STR_Admin_CannotTpHere">
-            <Original>You cannot teleport the player here because they are inside of a vehicle.</Original>
+            <Original>플레이어가 차량에 탑승중이므로 이동을 할 수 없습니다.</Original>
             <Czech>Nelze teleportovat přehrávač zde proto, že jsou uvnitř vozidla.</Czech>
             <French>Vous ne pouvez pas TP le joueur ici car il est actuellement dans un vehicule.</French>
             <Spanish>No se puede teletransportarse al jugador aquí porque están dentro de un vehículo.</Spanish>
@@ -573,7 +573,7 @@
             <Polish>Zamroź</Polish>
         </Key>
         <Key ID="STR_Admin_Markers">
-            <Original>Markers</Original>
+            <Original>마커</Original>
             <Czech>markery</Czech>
             <Spanish>Marcadores</Spanish>
             <Italian>marcatori</Italian>
@@ -586,7 +586,7 @@
     </Package>
     <Package name="Admin_Notifications">
         <Key ID="STR_ANOTF_Query">
-            <Original>Querying...</Original>
+            <Original>조회중...</Original>
             <Czech>Dotazování ...</Czech>
             <Spanish>Buscando...</Spanish>
             <Russian></Russian>
@@ -597,7 +597,7 @@
             <Polish>Wyszukuję...</Polish>
         </Key>
         <Key ID="STR_ANOTF_QueryGarage">
-            <Original>Searching Database for vehicles...</Original>
+            <Original>데이터베이스에서 차량 검색중...</Original>
             <Czech>Vyhledávání databáze pro vozidla ...</Czech>
             <Spanish>Buscando Vehiculo en la Base de Datos</Spanish>
             <Russian></Russian>
@@ -619,7 +619,7 @@
             <Polish>Przeszukujesz gracza</Polish>
         </Key>
         <Key ID="STR_ANOTF_QueryFail">
-            <Original>Player no longer exists?</Original>
+            <Original>플레이어가 더이상 존재하지 않습니다.</Original>
             <Czech>Hráč neexistuje?</Czech>
             <Spanish>El jugador ya no existe?</Spanish>
             <Russian></Russian>
@@ -641,7 +641,7 @@
             <Polish>Właśnie przydzieliłeś sobie $%1 w celu rekompensaty graczowi &lt;br/&gt;&lt;br/&gt;Musisz przekazać te środki osobiście osobie poszkodowanej.</Polish>
         </Key>
         <Key ID="STR_ANOTF_Success">
-            <Original>You have added $%1 to your account.</Original>
+            <Original>당신의 계정에 $%1 가 추가되었습니다.</Original>
             <Czech>Přidali jste $%1 se ke svému účtu.</Czech>
             <Spanish>Has agregado $%1 a tu cuenta.</Spanish>
             <Italian>È stato aggiunto $%1 al tuo account.</Italian>
@@ -652,7 +652,7 @@
             <Polish>Przekazałeś na konto $%1 </Polish>
         </Key>
         <Key ID="STR_ANOTF_Fail">
-            <Original>You can not go above $999,999</Original>
+            <Original>$999,999 를 초과할 수 없습니다.</Original>
             <Czech>Nemůžete jít nad $ 999999</Czech>
             <Spanish>No te puedes dar más de $999,999</Spanish>
             <Italian>Non si può andare sopra $ 999.999</Italian>
@@ -663,7 +663,7 @@
             <Polish>Nie można obracać kwotami wyższymi niż $999,999!</Polish>
         </Key>
         <Key ID="STR_ANOTF_Amount">
-            <Original>Please type in the amount to compensate.</Original>
+            <Original>보상-금액을 입력하세요.</Original>
             <Czech>Prosím, zadejte částku, která má kompenzovat.</Czech>
             <Spanish>Por favor pon la cantidad a compensar.</Spanish>
             <Italian>Si prega di inserire l'importo da compensare.</Italian>
@@ -696,7 +696,7 @@
             <Polish>Odblokowałeś grę gracza $%1 </Polish>
         </Key>
         <Key ID="STR_ANOTF_Error">
-            <Original>You can't do that dumbass.</Original>
+            <Original>할수없어 바보멍충아.</Original>
             <Czech>Můžete to udělat blbec.</Czech>
             <Spanish>No puedes hacer eso, pendejo</Spanish>
             <Italian>Non si può fare che idiota.</Italian>
@@ -718,7 +718,7 @@
             <Polish>Nie masz wystarczających uprawnień, za niski poziom administracyjny</Polish>
         </Key>
         <Key ID="STR_ANOTF_MDisabled">
-            <Original>Player Markers Disabled.</Original>
+            <Original>마커 비활성화.</Original>
             <Czech>Hráč Markers pro invalidy.</Czech>
             <French>Marqueurs désactivés.</French>
             <Spanish>Marcadores de Jugadores Desabilitados</Spanish>
@@ -729,7 +729,7 @@
             <Polish>Markery 'OFF' graczy Wyłączone</Polish>
         </Key>
         <Key ID="STR_ANOTF_MEnabled">
-            <Original>Player Markers Enabled.</Original>
+            <Original>마커 활성화.</Original>
             <Czech>Hráč Markers Povoleno.</Czech>
             <French>Marqueurs activés.</French>
             <Spanish>Jugador marcadores Activado.</Spanish>
@@ -773,7 +773,7 @@
             <Polish>Anulowano akcję</Polish>
         </Key>
         <Key ID="STR_NOTF_PlaceContainer">
-            <Original>Hit spacebar to place the container.</Original>
+            <Original>컨테이너를 놓으려면 space bar를 입력하세요.</Original>
             <Czech>Hit mezerníku na místo Kontejner.</Czech>
             <French>Appuyez sur espace pour placer le conteneur.</French>
             <Spanish>Aprieta la barra de espacio para colocar el Contenedor.</Spanish>
@@ -784,7 +784,7 @@
             <German>Leertaste drücken, um den Container zu platzieren.</German>
         </Key>
         <Key ID="STR_NOTF_notAllowed">
-            <Original>Your faction is not allowed to chop vehicles!</Original>
+            <Original>당신의 진영은 차량을 폐차할 수 없습니다.</Original>
             <Czech>Váš frakce není povoleno sekat vozidla!</Czech>
             <French>Votre faction ne peut pas vendre les véhicules!</French>
             <Spanish>Tu facción no tiene permitido usar esta tienda! </Spanish>
@@ -795,7 +795,7 @@
             <German>Deiner Fraktion ist es nicht erlaubt, Fahrzeuge auf dem Schrottplatz zu verkaufen!</German>
         </Key>
         <Key ID="STR_NOTF_Pickaxe">
-            <Original>A pickaxe is required</Original>
+            <Original>pickaxe 가 필요합니다.(마켓에서 구매가능)</Original>
             <Czech>Je vyžadován krumpáč</Czech>
             <Spanish>Requieres un pico</Spanish>
             <Russian></Russian>
@@ -806,10 +806,10 @@
             <Polish>Wymagana jest kilof</Polish>
         </Key>
         <Key ID="STR_NOTF_Chainsqw">
-            <Original>A chainsqw is required</Original>          
+            <Original>전기톱이 필요합니다.</Original>          
         </Key>
         <Key ID="STR_NOTF_isrestrained">
-            <Original>You are restrained</Original>
+            <Original>당신은 체포되었습니다.</Original>
             <Czech>Ty jsou omezeny</Czech>
             <Spanish>Estas retenido</Spanish>
             <Russian></Russian>
@@ -831,7 +831,7 @@
             <Polish>Nie można tego zrobić, gdy się poddasz</Polish>
         </Key>
         <Key ID="STR_NOTF_cantgather">
-            <Original>You can't gather this resource with this vehicle!</Original>
+            <Original>현재 차량으로는 이 자원을 수집할 수 없습니다!</Original>
             <Czech>Nemůžete shromáždit tento prostředek s tímto vozidlem!</Czech>
             <Spanish>No puedes recolectar este recurso con este vehiculo!</Spanish>
             <Russian></Russian>
@@ -842,7 +842,7 @@
             <Polish>You can't gather this resource with this vehicle!</Polish>
         </Key>
         <Key ID="STR_NOTF_adminDebugCon">
-            <Original>You have no business using this.</Original>
+            <Original>사용할 수 없습니다.</Original>
             <Czech>Nemáš podnikání pomocí tohoto.</Czech>
             <French>Vous n'avez pas le niveau pour faire cette action.</French>
             <Spanish>No tiene sentido utilizar este.</Spanish>
@@ -864,7 +864,7 @@
             <German>Admin %1 hat die Debug-Konsole geöffnet.</German>
         </Key>
         <Key ID="STR_NOTF_notWearingVest">
-            <Original>You aren't wearing a suicide vest.</Original>
+            <Original>자살조끼를 입고 있지 않습니다.</Original>
             <Czech>Nejste na sobě sebevražedný vestu.</Czech>
             <French>Vous ne portez pas un gilet de suicide.</French>
             <Spanish>Usted no está usando un chaleco suicida.</Spanish>
@@ -875,7 +875,7 @@
             <German>Sie sind nicht eine Selbstmordweste tragen.</German>
         </Key>
         <Key ID="STR_NOTF_cannotDetonateBombHere">
-            <Original>Some supernatural force prevents you from detonating a bomb in this holy place!</Original>
+            <Original>세이프존에서는 어떠한 폭발이 허용되지 않습니다.</Original>
             <Czech>Některé nadpřirozená síla brání odpálí bombu v tomto svatém místě!</Czech>
             <French>Une force surnaturelle vous empêche de faire exploser une bombe dans ce lieu saint!</French>
             <Spanish>Una fuerza sobrenatural que impide la detonación de una bomba en este lugar santo!</Spanish>
@@ -888,7 +888,7 @@
     </Package>
     <Package name="ATM_Strings">
         <Key ID="STR_ATM_Title">
-            <Original>Bank Account Management</Original>
+            <Original>은행 계정 관리</Original>
             <Czech>Vedení bankovního účtu</Czech>
             <Spanish>Cuenta Bancaria</Spanish>
             <Russian></Russian>
@@ -896,10 +896,10 @@
             <French>Gestion du Compte Bancaire</French>
             <Italian>Gestione Bancaria</Italian>
             <Portuguese>Conta Bancária</Portuguese>
-            <Polish>Bankomat Altis</Polish>
+            <Polish>Bankomat AOSoul</Polish>
         </Key>
         <Key ID="STR_ATM_Withdraw">
-            <Original>Withdraw</Original>
+            <Original>출금</Original>
             <Czech>ustoupit</Czech>
             <Spanish>Retirar</Spanish>
             <Russian></Russian>
@@ -910,7 +910,7 @@
             <Polish>Wypłać</Polish>
         </Key>
         <Key ID="STR_ATM_Deposit">
-            <Original>Deposit</Original>
+            <Original>입금</Original>
             <Czech>Vklad</Czech>
             <Spanish>Depositar</Spanish>
             <Russian></Russian>
@@ -921,7 +921,7 @@
             <Polish>Deopozyt</Polish>
         </Key>
         <Key ID="STR_ATM_WithdrawGang">
-            <Original>Withdraw: Gang</Original>
+            <Original>출금: Gang</Original>
             <Czech>Odstoupit: Gang</Czech>
             <French>Retirer: Gang</French>
             <Spanish>Retirar: Pandilla</Spanish>
@@ -932,7 +932,7 @@
             <German>Ziehen Sie: Gang</German>
         </Key>
         <Key ID="STR_ATM_DepositGang">
-            <Original>Deposit: Gang</Original>
+            <Original>입금: Gang</Original>
             <Czech>Záloha: Gang</Czech>
             <French>Déposer: Gang</French>
             <Spanish>Depositar: Pandilla</Spanish>
@@ -943,7 +943,7 @@
             <German>Kaution: Gang</German>
         </Key>
         <Key ID="STR_ATM_Transfer">
-            <Original>Transfer</Original>
+            <Original>전송</Original>
             <Czech>Převod</Czech>
             <Spanish>Transferir</Spanish>
             <Russian></Russian>
@@ -954,7 +954,7 @@
             <Polish>Przelew</Polish>
         </Key>
         <Key ID="STR_ATM_GreaterThan">
-            <Original>You can't deposit more then $999,999 at a time</Original>
+            <Original>한 번에 $999,999 를 초과할 수 없습니다.</Original>
             <Czech>Nemůžete vložit více než 999.999 $ najednou</Czech>
             <Spanish>No puedes depositar mas de $999,999 a la vez</Spanish>
             <Russian></Russian>
@@ -965,7 +965,7 @@
             <Polish>Możesz jednorazowo zdeponować nie więcej niż $999,999 </Polish>
         </Key>
         <Key ID="STR_ATM_notnumeric">
-            <Original>The amount entered isn't a numeric value.</Original>
+            <Original>숫자만 입력하세요 멍층아 .</Original>
             <Czech>Uvedená částka není číselná hodnota.</Czech>
             <Spanish>No escribistes un valor numérico.</Spanish>
             <Russian></Russian>
@@ -976,7 +976,7 @@
             <Polish>Wprwadzona wartość nie jest liczbą</Polish>
         </Key>
         <Key ID="STR_ATM_NoneSelected">
-            <Original>You need to select someone to transfer to</Original>
+            <Original>전송하려면 누군가를 선택해야합니다. 돼지야!</Original>
             <Czech>Je třeba vybrat někoho převést na</Czech>
             <Spanish>Debes seleccionar a quien transferirle el dinero</Spanish>
             <Russian></Russian>
@@ -987,7 +987,7 @@
             <Polish>Musisz wybrać odbiorcę przelewu</Polish>
         </Key>
         <Key ID="STR_ATM_DoesntExist">
-            <Original>The player selected doesn't seem to exist?</Original>
+            <Original>선택한 플레이어는 접속중이지 않습니다.</Original>
             <Czech>Hráč vybraný Nezdá se, že neexistuje?</Czech>
             <French>Le joueur sélectionné ne semble pas exister?</French>
             <Spanish>El jugador que seleccionastes no existe?</Spanish>
@@ -998,7 +998,7 @@
             <Polish>Wybrany gracz wydaje się nie występować w grze</Polish>
         </Key>
         <Key ID="STR_ATM_TransferMax">
-            <Original>You can't transfer more then $999,999</Original>
+            <Original>$999,999원 초과하여 이체할 수 없습니다.</Original>
             <Czech>Nemůžete přenést více než 999.999 $</Czech>
             <Spanish>No puedes transferir más de $999,999</Spanish>
             <Russian></Russian>
@@ -1009,7 +1009,7 @@
             <Polish>Możesz jednorazowo przelać nie więcej niż $999,999 </Polish>
         </Key>
         <Key ID="STR_ATM_NotEnoughFunds">
-            <Original>You don't have that much in your bank account!</Original>
+            <Original>당신의 계좌에 골드가 부족합니다.</Original>
             <Czech>Nemusíte to hodně na váš bankovní účet!</Czech>
             <Spanish>No tienes tanto dinero en tu cuenta de banco!</Spanish>
             <Russian></Russian>
@@ -1064,7 +1064,7 @@
             <Polish></Polish>
         </Key>
         <Key ID="STR_ATM_WithdrawMax">
-            <Original>You can't withdraw more then $999,999</Original>
+            <Original>$999,999를 초과하여 출금할 수 없습니다. </Original>
             <Czech>Nemůžete zrušit více než 999.999 $</Czech>
             <Spanish>No puedes retirar más de $999,999</Spanish>
             <Russian></Russian>
@@ -1075,7 +1075,7 @@
             <Polish>Możesz jednorazowo pobrać maks $999,999 </Polish>
         </Key>
         <Key ID="STR_ATM_WithdrawMin">
-            <Original>You can't withdraw less then $100</Original>
+            <Original>$100 이하는 출금되지 않습니다.</Original>
             <Czech>Nemůžete odvolat méně než 100 $</Czech>
             <Spanish>No puedes retirar menos de $100</Spanish>
             <Russian></Russian>
@@ -1086,7 +1086,7 @@
             <Polish>Nie możesz pobrać mniej niż $100 </Polish>
         </Key>
         <Key ID="STR_ATM_WithdrawSuccess">
-            <Original>You have withdrawn $%1 from your bank account</Original>
+            <Original>계좌에서 $%1 을 출금하였습니다.</Original>
             <Czech>Jste staženy $%1 z vašeho bankovního účtu</Czech>
             <Spanish>Has retirado $%1 de tu cuenta bancaria</Spanish>
             <Russian></Russian>
@@ -1097,7 +1097,7 @@
             <Polish>Pobrałeś z konta kwotę $%1 </Polish>
         </Key>
         <Key ID="STR_ATM_WithdrawSuccessG">
-            <Original>You have withdrawn $%1 from your gang.</Original>
+            <Original>갱자금에서 $%1 을 출금하였습니다.</Original>
             <Czech>Jste staženy $%1 z naší bandy</Czech>
             <Spanish>Has retirado $%1 de tu pandilla</Spanish>
             <Italian>Hai ritirato $%1 dal nostro gruppo.</Italian>
@@ -1108,7 +1108,7 @@
             <German>Du hast $%1 vom Gang-Konto abgehoben.</German>
         </Key>
         <Key ID="STR_ATM_WithdrawInUseG">
-            <Original>Someone is already trying to withdraw from your gang.</Original>
+            <Original>누군가가 이미 갱자금 출금을 시도하고 있습니다.</Original>
             <Czech>Někdo se již snaží ustoupit od svého gangu.</Czech>
             <French>Quelqu'un essaie déjà de retirer de l'argent de votre gang.</French>
             <Spanish>Alguien ya esta tratando de retirar dinero de tu pandilla.</Spanish>
@@ -1119,7 +1119,7 @@
             <German>Jemand versucht bereits, Geld vom Gang-Konto abzuheben.</German>
         </Key>
         <Key ID="STR_ATM_NotEnoughCash">
-            <Original>You do not have that much cash on you.</Original>
+            <Original>당신이 가지고 있는 현금이 부족합니다.</Original>
             <Czech>Nemáte tolik peněz na vás.</Czech>
             <Spanish>No tienes tanto dinero contigo.</Spanish>
             <Russian></Russian>
@@ -1130,7 +1130,7 @@
             <Polish>Nie masz przy sobie tyle pieniędzy</Polish>
         </Key>
         <Key ID="STR_ATM_DepositSuccess">
-            <Original>You have deposited $%1 into your bank account</Original>
+            <Original>은행에 $%1 를 입금하였습니다.</Original>
             <Czech>Máte uloženy $%1 na váš bankovní účet</Czech>
             <Spanish>Has depositado $%1 en tu cuenta de banco.</Spanish>
             <Russian></Russian>
@@ -1165,13 +1165,13 @@
     </Package>
     <Package name="Cell_Phone">
         <Key ID="STR_CELL_Title">
-            <Original>Altis Mobile</Original>
-            <Czech>Altis Mobile</Czech>
+            <Original>AOSoul Mobile</Original>
+            <Czech>AOSoul Mobile</Czech>
             <Spanish>Celular</Spanish>
             <Russian></Russian>
-            <German>Altis Mobilfunk</German>
-            <French>Altis Mobile</French>
-            <Italian>Cellulare Altis</Italian>
+            <German>AOSoul Mobilfunk</German>
+            <French>AOSoul Mobile</French>
+            <Italian>Cellulare AOSoul</Italian>
             <Portuguese>Celular</Portuguese>
             <Polish>Telefon</Polish>
         </Key>
@@ -2031,7 +2031,7 @@
             <Polish>Przepraszamy ale %1 jest aktywny gdzieś na mapie i nie może zostać wyciągnięty.</Polish>
         </Key>
         <Key ID="STR_Garage_SpawnPointError">
-            <Original>There is already a vehicle on the spawn point. You will be refunded the cost of getting out out.</Original>
+            <Original>이미 차량 스폰 지점에 다른 차량이 있습니다. 차량 소환금액은 환불됩니다.</Original>
             <Czech>K dispozici je již vozidlo na spawn bodu. Ty budou vráceny náklady dostat se ven.</Czech>
             <Spanish>Ya hay un vehículo en el punto de Spawn, se te reembolsara el costo de sacar el vehículo.</Spanish>
             <Russian></Russian>
@@ -2042,7 +2042,7 @@
             <Polish>W strefie parkowania znajduje się już pojazd. Środki za parkowanie zostaną zwrócone.</Polish>
         </Key>
         <Key ID="STR_Garage_SoldCar">
-            <Original>You sold that vehicle for $%1</Original>
+            <Original>차량을 $%1 에 팔았습니다.</Original>
             <Czech>Ty jsi prodal toto vozidlo za $%1</Czech>
             <Spanish>Vendiste el vehículo por $%1</Spanish>
             <Russian></Russian>
@@ -2053,7 +2053,7 @@
             <Polish>Sprzedałeś pojazd za %1</Polish>
         </Key>
         <Key ID="STR_Garage_Store_NotPersistent">
-            <Original>That vehicle is a rental and cannot be stored in your garage.</Original>
+            <Original>렌트한 차량이므로 차고에 넣을 수 없당께롱.</Original>
             <Czech>Že vozidlo je půjčovna a nemohou být uloženy ve vaší garáži.</Czech>
             <Spanish>Este vehículo es rentado y no puede ser guardado.</Spanish>
             <Russian></Russian>
@@ -2064,7 +2064,7 @@
             <Polish>Pojazd wynajęty, nie możesz go schować w garażu.</Polish>
         </Key>
         <Key ID="STR_Garage_Store_NoOwnership">
-            <Original>That vehicle doesn't belong to you therefor you cannot store it in your garage.</Original>
+            <Original>니차가 아니라서 니 차고에 못넣습니다</Original>
             <Czech>Co vozidlo nepatří k vám proto jej nelze ukládat ve vaší garáži.</Czech>
             <Spanish>Este vehículo no es tuyo! Asi que no lo puedes guardar.</Spanish>
             <Russian></Russian>
@@ -2075,7 +2075,7 @@
             <Polish>Pojazd nie należy do ciebie nie możesz go schować w garażu. Ale zawsze możesz podjechać do dziupli!</Polish>
         </Key>
         <Key ID="STR_Garage_Store_Success">
-            <Original>The vehicle has been stored in your garage.</Original>
+            <Original>당신의 차고에 차량이 보관되었습니다.</Original>
             <Czech>Vozidlo bylo uložené v garáži.</Czech>
             <Spanish>Has guardado el vehículo en el garaje.</Spanish>
             <Russian></Russian>
@@ -2086,7 +2086,7 @@
             <Polish>Pojazd został zaparkowany.</Polish>
         </Key>
         <Key ID="STR_Garage_spawn_Success">
-            <Original>Your vehicle is ready!</Original>
+            <Original>차량이 준비되었어!</Original>
             <Czech>Vaše vozidlo je připraven!</Czech>
             <Spanish>Tu vehículo esta listo! </Spanish>
             <Russian></Russian>
@@ -2097,7 +2097,7 @@
             <Polish>Pojazd jest gotowy</Polish>
         </Key>
         <Key ID="STR_Garage_Store_Server">
-            <Original>The server is trying to store the vehicle...</Original>
+            <Original>차량을 서버에 저장중입니다...</Original>
             <Czech>Tento server se pokouší uložit vozidlo ...</Czech>
             <Spanish>El servidor esta tratando de guardar el vehículo...</Spanish>
             <Russian></Russian>
@@ -2119,7 +2119,7 @@
             <Polish>Ten wybór powoduje błąd</Polish>
         </Key>
         <Key ID="STR_Garage_NoNPC">
-            <Original>There isn't a vehicle near the NPC.</Original>
+            <Original>NPC 근처에 차량이 없습니다. 좀더 가까이...</Original>
             <Czech>Není vozidla v blízkosti NPC.</Czech>
             <Spanish>No hay un vehículo cerca del NPC.</Spanish>
             <Russian></Russian>
@@ -2132,7 +2132,7 @@
     </Package>
     <Package name="Key_Chain">
         <Key ID="STR_Keys_Title">
-            <Original>Key Chain - Current List of Keys</Original>
+            <Original>현재 키 목록</Original>
             <Czech>Klíčenka - Aktuální seznam klíčů</Czech>
             <Spanish>Llavero - Lista de llaves</Spanish>
             <Russian></Russian>
@@ -2143,7 +2143,7 @@
             <Polish>Lista kluczyków</Polish>
         </Key>
         <Key ID="STR_Keys_DropKey">
-            <Original>Drop Key</Original>
+            <Original>키 버리기</Original>
             <Czech>Drop Key</Czech>
             <Spanish>Tirar llave</Spanish>
             <Russian></Russian>
@@ -2154,7 +2154,7 @@
             <Polish>Wyrzuć klucz</Polish>
         </Key>
         <Key ID="STR_Keys_GiveKey">
-            <Original>Give Key</Original>
+            <Original>키 공유하기</Original>
             <Czech>dát klíč</Czech>
             <Spanish>Dar Llave</Spanish>
             <Russian></Russian>
@@ -2178,7 +2178,7 @@
             <Polish>Menu gracza</Polish>
         </Key>
         <Key ID="STR_PM_cItems">
-            <Original>Current Items</Original>
+            <Original>현재 아이템</Original>
             <Czech>Aktuální položky</Czech>
             <Spanish>Objetos Actuales</Spanish>
             <Russian></Russian>
@@ -2222,7 +2222,7 @@
             <Polish>Gang</Polish>
         </Key>
         <Key ID="STR_PM_WantedList">
-            <Original>Wanted List</Original>
+            <Original>수배 목록</Original>
             <Czech>seznamu hledaných</Czech>
             <Spanish>Lista de Busqueda</Spanish>
             <Russian></Russian>
@@ -2233,7 +2233,7 @@
             <Polish>Poszukiwani</Polish>
         </Key>
         <Key ID="STR_PM_CellPhone">
-            <Original>Cell Phone</Original>
+            <Original>휴대폰</Original>
             <Czech>Mobilní telefon</Czech>
             <Spanish>Celular</Spanish>
             <Russian></Russian>
@@ -2244,7 +2244,7 @@
             <Polish>Telefon</Polish>
         </Key>
         <Key ID="STR_PM_KeyChain">
-            <Original>Key Chain</Original>
+            <Original>키 체인</Original>
             <Czech>Klíčenka</Czech>
             <Spanish>Llavero</Spanish>
             <Russian></Russian>
@@ -2255,7 +2255,7 @@
             <Polish>Klucze</Polish>
         </Key>
         <Key ID="STR_PM_AdminMenu">
-            <Original>Admin Menu</Original>
+            <Original>관리자메뉴</Original>
             <Czech>Nabídka admin</Czech>
             <Spanish>Menu Admin</Spanish>
             <Russian></Russian>
@@ -2266,7 +2266,7 @@
             <Polish>Admin Menu</Polish>
         </Key>
         <Key ID="STR_PM_SyncData">
-            <Original>Sync Data</Original>
+            <Original>데이터 동기화-sync data</Original>
             <Czech>synchronizace dat</Czech>
             <Spanish>Sincronizar</Spanish>
             <Russian></Russian>
@@ -3217,7 +3217,7 @@
             <Polish>Możesz przerwać za %1</Polish>
         </Key>
         <Key ID="STR_NOTF_DeviceIsMining">
-            <Original>This vehicle is already mining</Original>
+            <Original>이 차량은 이미 채굴 중입니다.</Original>
             <Czech>Toto vozidlo je již dobývání</Czech>
             <Spanish>Este Vehículo ya esta minando</Spanish>
             <Russian></Russian>
@@ -3228,7 +3228,7 @@
             <Polish>Pojazd jest w trakcie wydobycia surowców</Polish>
         </Key>
         <Key ID="STR_NOTF_DeviceFull">
-            <Original>The vehicle is full</Original>
+            <Original>차량이 가득 찼습니다.</Original>
             <Czech>Vozidlo je plná</Czech>
             <Spanish>El vehículo esta lleno!</Spanish>
             <Russian></Russian>
@@ -3239,7 +3239,7 @@
             <Polish>Pojazd jest pełny</Polish>
         </Key>
         <Key ID="STR_NOTF_notNearResource">
-            <Original>You are not near a resource field</Original>
+            <Original>자원 근처에 있지 않습니다</Original>
             <Czech>Nejste v blízkosti oblasti zdrojů</Czech>
             <Spanish>No estas cerca de un campo de recursos.</Spanish>
             <Russian></Russian>
@@ -3261,7 +3261,7 @@
             <Polish>Nie możesz poruszać pojazdem w trakcie wydobycia.</Polish>
         </Key>
         <Key ID="STR_NOTF_DeviceMining">
-            <Original>The Device is mining...</Original>
+            <Original>채굴중....</Original>
             <Czech>Zařízení je důlní ...</Czech>
             <Spanish>El Dispositivo esta minando...</Spanish>
             <Russian></Russian>
@@ -3283,7 +3283,7 @@
             <Polish>Urządzenie wydobyło %1 %2</Polish>
         </Key>
         <Key ID="STR_NOTF_OutOfFuel">
-            <Original>Vehicle is out of fuel</Original>
+            <Original>연료가 떨어졌습니다</Original>
             <Czech>Vozidlo je mimo pohonné hmoty</Czech>
             <Spanish>El vehículo no tiene gasolina.</Spanish>
             <Russian></Russian>
@@ -3294,7 +3294,7 @@
             <Polish>Brak paliwa w pojezdzie</Polish>
         </Key>
         <Key ID="STR_NOTF_SpikeStrip">
-            <Original>You have packed up the spike strip.</Original>
+            <Original>spike strip을 packing 하였슴 </Original>
             <Czech>Jste sbalil spike proužek.</Czech>
             <Spanish>Has agarrado la Barrera de Clavos.</Spanish>
             <Russian></Russian>
@@ -3316,7 +3316,7 @@
             <Polish>%1 umieszczony w dowodach, otrzymujesz w nagrodę $%2</Polish>
         </Key>
         <Key ID="STR_NOTF_PickedMoney">
-            <Original>You have picked up $%1</Original>
+            <Original>$%1 를 주웠습니다.</Original>
             <Czech>Jste zvedl $%1</Czech>
             <Spanish>Has recogido $%1</Spanish>
             <Russian></Russian>
@@ -3327,7 +3327,7 @@
             <Polish>Podniosłeś $%1</Polish>
         </Key>
         <Key ID="STR_NOTF_Bail_Post">
-            <Original>You must wait at least 3 minutes in jail before paying a bail.</Original>
+            <Original>보석금을 지불하기전 감옥에서 3분이상을 기다려야합니다.</Original>
             <Czech>Musíte počkat nejméně 3 minuty ve vězení předtím, než platit kauci.</Czech>
             <Spanish>Debes esperar un minimo de 3 minutos en la cárcel antes de poder pagar la fianza.</Spanish>
             <Russian></Russian>
@@ -3338,7 +3338,7 @@
             <Polish>Musisz poczekać conajmniej 3 minuty w więzieniu zanim zapłacisz kaucję.</Polish>
         </Key>
         <Key ID="STR_NOTF_Bail_NotEnough">
-            <Original>You do not have $%1 in your bank account to pay bail.</Original>
+            <Original>계좌에 보석금으로 낼 $%1 이 모자랍니다.</Original>
             <Czech>Nemáte $%1 z vašeho bankovního účtu platit kauci.</Czech>
             <Spanish>No tienes $%1 en tu cuenta de banco para pagar la fianza!</Spanish>
             <Russian></Russian>
@@ -3349,7 +3349,7 @@
             <Polish>Nie masz $%1 na koncie aby zapłacić kaucję.</Polish>
         </Key>
         <Key ID="STR_NOTF_Bail_Bailed">
-            <Original>%1 has posted bail!</Original>
+            <Original>%1 의 보석금이 등록되었습니다!</Original>
             <Czech>%1 byl vyslán na kauci!</Czech>
             <Spanish>%1 a pagado la fianza!</Spanish>
             <Russian></Russian>
@@ -3360,7 +3360,7 @@
             <Polish>%1 wpłacił kaucję!</Polish>
         </Key>
         <Key ID="STR_NOTF_VehicleNear">
-            <Original>There isn't a vehicle nearby...</Original>
+            <Original>차량 근처에 없습니다....</Original>
             <Czech>Není vozidlo v blízkosti ...</Czech>
             <Spanish>No hay un vehículo cerca...</Spanish>
             <Russian></Russian>
@@ -3371,7 +3371,7 @@
             <Polish>W pobliżu nie ma pojazdu...</Polish>
         </Key>
         <Key ID="STR_NOTF_PlayerNear">
-            <Original>You can't chop a vehicle while a player is near!</Original>
+            <Original>다른 사람이 근처에 있어 차량을 폐차할 수 없습니다.</Original>
             <Czech>Nemůžeš sekat vozidla, zatímco hráč je blízko!</Czech>
             <French>Vous ne pouvez pas vendre un véhicule alors qu'un le joueur est proche!</French>
             <Spanish>No puedes vender este vehículo mientras hay un jugador cerca!</Spanish>
@@ -3393,7 +3393,7 @@
             <Polish>%1 został skuty przez %2</Polish>
         </Key>
         <Key ID="STR_NOTF_Searching">
-            <Original>Searching...</Original>
+            <Original>검색중...</Original>
             <Czech>Hledám ...</Czech>
             <Spanish>Buscando...</Spanish>
             <Russian></Russian>
@@ -3404,7 +3404,7 @@
             <Polish>Szukam...</Polish>
         </Key>
         <Key ID="STR_NOTF_SearchVehFail">
-            <Original>Couldn't search the vehicle</Original>
+            <Original>차량을 검색할 수 없습니다.</Original>
             <Czech>Nemohli vyhledávat na vozidlo</Czech>
             <Spanish>No se pudo buscar el vehículo.</Spanish>
             <Russian></Russian>
@@ -3415,7 +3415,7 @@
             <Polish>Nie można przeszukać pojazdu</Polish>
         </Key>
         <Key ID="STR_NOTF_SeizeIllegals">
-            <Original>Your illegal items have been put into evidence.</Original>
+            <Original>불법아이템이 압수 되었습니다.</Original>
             <Czech>Vaše nelegálních položky byly uvedeny do důkazy.</Czech>
             <Spanish>Tus objetos ilegales fueron confiscados.</Spanish>
             <Russian></Russian>
@@ -3426,7 +3426,7 @@
             <Polish>Twoje nielegalne pozycje zostały wprowadzone do dowodów.</Polish>
         </Key>
         <Key ID="STR_NOTF_VehCheat">
-            <Original>This vehicle has no information, it was probably spawned in through cheats. \n\nDeleting vehicle.</Original>
+            <Original>치트로 소환된 것이므로 자동 삭제합니다.</Original>
             <Czech>Toto vozidlo nemá žádné informace, to bylo pravděpodobně třel dovnitř podvodníky. \ In \ Odstranění vozidla.</Czech>
             <Spanish>Este vehículo no tiene informacion, posiblemente fue creado atravez de Cheats \n\nBorrando vehículo.</Spanish>
             <Russian></Russian>
@@ -3437,7 +3437,7 @@
             <Polish>Pojazd bez informacji servera, prawdopodobnie umieszczony przez hakera \n\n usuwam pojazd.</Polish>
         </Key>
         <Key ID="STR_NOTF_Action">
-            <Original>You are already doing an action. Please wait for it to end.</Original>
+            <Original>이미 작업중이니 끝날 때 까지 기다리세요.. 성질급한인간아</Original>
             <Czech>Ty jsou již dělá akci. Počkejte prosím, až to skončí.</Czech>
             <Spanish>Ya estas haciendo una acción, espera a que termine.</Spanish>
             <Russian></Russian>
@@ -3448,7 +3448,7 @@
             <Polish>Aktualnie wykonujesz jakąś akcję poczekaj aż skończysz.</Polish>
         </Key>
         <Key ID="STR_NOTF_Unrestrain">
-            <Original>%1 was unrestrained by %2</Original>
+            <Original>%2 가 %1 의 수갑을 풀었습니다.</Original>
             <Czech>%1 byl živelný%2</Czech>
             <Spanish>%1 fue soltado por %2</Spanish>
             <Russian></Russian>
@@ -3459,7 +3459,7 @@
             <Polish>%1 został rozkuty przez %2</Polish>
         </Key>
         <Key ID="STR_NOTF_Robbed">
-            <Original>%1 has robbed %2 for $%3</Original>
+            <Original>%1 가 %2 의  $%3 을 강탈 하였습니다.</Original>
             <Czech>%1 oloupil%2 na $ %3</Czech>
             <Spanish>%1 le ha robado $%3 a %2</Spanish>
             <Russian></Russian>
@@ -3470,7 +3470,7 @@
             <Polish>%1 obrabował $%2 na $%3</Polish>
         </Key>
         <Key ID="STR_NOTF_RobFail">
-            <Original>%1 doesn't have any money.</Original>
+            <Original>%1 은 돈을 가지고 있지 않습니다. 거지에요. </Original>
             <Czech>%1 nemá žádné peníze.</Czech>
             <Spanish>%1 No tiene dinero.</Spanish>
             <Russian></Russian>
@@ -3481,7 +3481,7 @@
             <Polish>%1 nie ma pieniędzy.</Polish>
         </Key>
         <Key ID="STR_NOTF_Tazed">
-            <Original>%1 was tazed by %2</Original>
+            <Original>%1 은 %2에 의해 테이저를 맞았습니다 </Original>
             <Czech>%1 byl tased%2</Czech>
             <Spanish>%1 fue paralizado por %2</Spanish>
             <Russian></Russian>
@@ -3492,7 +3492,7 @@
             <Polish>%1 został potraktowany paralizatorem przez %2</Polish>
         </Key>
         <Key ID="STR_NOTF_VehContraband">
-            <Original>A vehicle was searched and has $%1 worth of drugs / contraband.</Original>
+            <Original>마약 / 밀수품의 $%1 의 가치가 압수 수색 되었습니다.</Original>
             <Czech>Vozidlo byl prohledán a má $%1 v hodnotě drog / kontrabandu.</Czech>
             <Spanish>Un vehículo fue buscado y se econtro $%1 en drogas / contrabando.</Spanish>
             <Russian></Russian>
@@ -3514,7 +3514,7 @@
             <Polish>Podczas przeszukania znalezono narkotyki/kontrabandę o wartości $%1</Polish>
         </Key>
         <Key ID="STR_NOTF_PulledOut">
-            <Original>You have been pulled out of the vehicle.</Original>
+            <Original>당신은 차에서 끌어내려 졌습니다.</Original>
             <Czech>Byli jste vytáhl z vozu.</Czech>
             <Spanish>Te han sacado del vehículo</Spanish>
             <Russian></Russian>
@@ -3547,7 +3547,7 @@
             <Polish>%1 dał ci $%2</Polish>
         </Key>
         <Key ID="STR_NOTF_SendingData">
-            <Original>Sending information to server please wait.....</Original>
+            <Original>서버로 정보를 전송중입니다......</Original>
             <Czech>Odesílání informací serveru čekejte prosím ...</Czech>
             <Spanish>Mandando información, por favor espere...</Spanish>
             <Russian></Russian>
@@ -3558,7 +3558,7 @@
             <Polish>Przesyłam informacje na server poczekaj ....</Polish>
         </Key>
         <Key ID="STR_NOTF_ActionInProc">
-            <Original>An action is already being processed...</Original>
+            <Original>액션이 이미 처리되고 있는 중입니다....</Original>
             <Czech>Akce je již zpracován ...</Czech>
             <Spanish>Una acción ya esta siendo procesada...</Spanish>
             <Russian></Russian>
@@ -3569,7 +3569,7 @@
             <Polish>Akcja jest w trakcie wykonywania...</Polish>
         </Key>
         <Key ID="STR_NOTF_ActionDelay">
-            <Original>You're doing it too fast!</Original>
+            <Original>너무 빨리 누르지 마세요!</Original>
             <Czech>Děláte to příliš rychle!</Czech>
             <French>Vous le faites trop vite!</French>
             <Spanish>Lo estas haciendo muy rapido!</Spanish>
@@ -3580,7 +3580,7 @@
             <Polish>Za szybko zwolnij !</Polish>
         </Key>
         <Key ID="STR_NOTF_NoSpace">
-            <Original>You don't have enough space for that amount!</Original>
+            <Original>공간이 가득 찼습니다!</Original>
             <Czech>Nemáte dostatek prostoru pro tuto částku!</Czech>
             <Spanish>No tienes suficiente espacio para eso!</Spanish>
             <Russian></Russian>
@@ -3591,7 +3591,7 @@
             <Polish>Nie masz tyle miejsca!</Polish>
         </Key>
         <Key ID="STR_NOTF_NotEnoughMoney">
-            <Original>You don't have that much money!</Original>
+            <Original>돈이 부족해요!</Original>
             <Czech>Nemáte tolik peněz!</Czech>
             <Spanish>No tienes tanto dinero!</Spanish>
             <Russian></Russian>
@@ -3602,7 +3602,7 @@
             <Polish>Nie masz tyle pieniędzy!</Polish>
         </Key>
         <Key ID="STR_NOTF_NotACop">
-            <Original>You are not a cop.</Original>
+            <Original>당신은 짭새가 아닙니다.</Original>
             <Czech>Ty nejsi polda.</Czech>
             <Spanish>No eres policía.</Spanish>
             <Russian></Russian>
@@ -3613,7 +3613,7 @@
             <Polish>Nie jesteś policjantem</Polish>
         </Key>
         <Key ID="STR_NOTF_NoRoom">
-            <Original>You don't have enough room for that item.</Original>
+            <Original>이 아이템에 대한 공간이 충분하지 않습니다.</Original>
             <Czech>Nemáte dostatek prostoru pro danou položku.</Czech>
             <Spanish>No tienes el espacio suficiente.</Spanish>
             <Russian></Russian>
@@ -3624,7 +3624,7 @@
             <Polish>Nie masz wystarczająco miejsca na tą rzecz.</Polish>
         </Key>
         <Key ID="STR_NOTF_ProcessWOLicense">
-            <Original>You need $%1 to process without a license!</Original>
+            <Original>라이센스 없이 정제하기 위해선 $%1 이 필요합니다.</Original>
             <Czech>Musíte $%1 bez povolení ke zpracování!</Czech>
             <Spanish>Necesitas $%1 par procesar sin una licencia!</Spanish>
             <Italian>È necessario $%1 a processo senza patente!</Italian>
@@ -3635,7 +3635,7 @@
             <Polish>Potrzebujesz $%1 w celu przetworzenia bez licencji</Polish>
         </Key>
         <Key ID="STR_NOTF_NotEnoughItemProcess">
-            <Original>You don't have enough items!</Original>
+            <Original>아이템이 부족합니다!</Original>
             <Czech>Ty nemají dostatek položku!</Czech>
             <Spanish>No tienes suficientes objetos!</Spanish>
             <Italian>Non disponi di abbastanza materiale grezzo!</Italian>
@@ -3646,7 +3646,7 @@
             <German>Du hast nicht genug Materialien!</German>
         </Key>
         <Key ID="STR_NOTF_ItemProcess">
-            <Original>You have processed your item(s)!</Original>
+            <Original>정제가 완료되었습니다.</Original>
             <Czech>Jste zpracujeme vaši položku (y)!</Czech>
             <Spanish>Has procesado tus objeto(s)</Spanish>
             <Russian></Russian>
@@ -3668,7 +3668,7 @@
             <Polish>Za szybko używasz przycisku akcji!</Polish>
         </Key>
         <Key ID="STR_NOTF_NotEnoughFunds">
-            <Original>You do not have enough funds in your bank account.</Original>
+            <Original>당신의 은행 계좌에 돈이 부족합니다.</Original>
             <Czech>Nemáte dostatek prostředků na váš bankovní účet.</Czech>
             <Spanish>No tienes tanto dinero en tu cuenta de banco.</Spanish>
             <Russian></Russian>
@@ -3679,7 +3679,7 @@
             <Polish>Nie masz wystarczających środków w banku.</Polish>
         </Key>
         <Key ID="STR_NOTF_CouldntAdd">
-            <Original>Couldn't add it to your inventory.</Original>
+            <Original>당신의 인벤토리에 저장할 수 없습니다.</Original>
             <Czech>Nemohl ji přidat do svého inventáře.</Czech>
             <Spanish>No se pudo agregar a tu inventario.</Spanish>
             <Russian></Russian>
@@ -3690,7 +3690,7 @@
             <Polish>Nie można dodać tego do twojego wyposażenia</Polish>
         </Key>
         <Key ID="STR_NOTF_EatMSG_1">
-            <Original>You haven't eaten anything in awhile, You should find something to eat soon!</Original>
+            <Original>한동안 아무것도 먹지 않았습니다. 곧 음식을 먹어야만 합니다.</Original>
             <Czech>Jste nejedli nic za čas, byste měli najít něco k jídlu brzy!</Czech>
             <Spanish>No has comido nada en un largo rato. Deberías buscar algo de comer!</Spanish>
             <Russian></Russian>
@@ -3701,7 +3701,7 @@
             <Polish>Zaczynasz być głodny, poszukaj czegoś do jedzenia!</Polish>
         </Key>
         <Key ID="STR_NOTF_EatMSG_2">
-            <Original>You are starting to starve, you need to find something to eat otherwise you will die.</Original>
+            <Original>곧 굶어죽습니다. 뭐라도 먹으세요!</Original>
             <Czech>Můžete se začínají hladovět, budete muset najít něco k jídlu jinak zemřete.</Czech>
             <Spanish>Te esta dando mucha, mucha hambre. Come algo o moriras!</Spanish>
             <Russian></Russian>
@@ -3712,7 +3712,7 @@
             <Polish>Długo nie jadłeś, zjedz coś lub zginiesz z głodu.</Polish>
         </Key>
         <Key ID="STR_NOTF_EatMSG_3">
-            <Original>You are now starving to death, you will die very soon if you don't eat something.</Original>
+            <Original>곧 굶어 죽습니다.</Original>
             <Czech>Nyní jste hladoví k smrti, zemřete velmi brzy, pokud nemáte něco jíst.</Czech>
             <Spanish>Estas a punto de morir de hambre, busca comida rápido!</Spanish>
             <Russian></Russian>
@@ -3723,7 +3723,7 @@
             <Polish>Zaczynasz słabnąć z głodu zjedz coś lub zginiesz !!!</Polish>
         </Key>
         <Key ID="STR_NOTF_EatMSG_Death">
-            <Original>You have starved to death.</Original>
+            <Original>당신은 굶어 죽었습니다.</Original>
             <Czech>Jste hladem.</Czech>
             <Spanish>Te has muerto de hambre.</Spanish>
             <Russian></Russian>
@@ -3734,7 +3734,7 @@
             <Polish>Wygłodziłeś się na śmierć.</Polish>
         </Key>
         <Key ID="STR_NOTF_DrinkMSG_1">
-            <Original>You haven't drank anything in awhile, You should find something to drink soon.</Original>
+            <Original>수분 보충을 한동안 하지 않았습니다. 마실 것을 찾으세요.</Original>
             <Czech>Nemáte pil nic za čas, byste měli najít něco k pití brzy.</Czech>
             <Spanish>No has tomado nada en un largo rato. Deberías buscar algo de tomar!</Spanish>
             <Russian></Russian>
@@ -3745,7 +3745,7 @@
             <Polish>Zaczynasz być spragniony, powinienieś poszukać czegoś do picia.</Polish>
         </Key>
         <Key ID="STR_NOTF_DrinkMSG_2">
-            <Original>You haven't drank anything in along time, you should find something to drink soon or you'll start to die from dehydration.</Original>
+            <Original>수분이 공급되지 않아 탈수가 시작되었습니다. 곧 목말라 죽습니다.</Original>
             <Czech>Vy jste nic pil na delší dobu, měli byste si najít něco k pití hned, nebo budete začnou umírat z dehydratace.</Czech>
             <Spanish>Te esta dando mucha, mucha sed. Toma algo o moriras!</Spanish>
             <Russian></Russian>
@@ -3756,7 +3756,7 @@
             <Polish>Długo nic nie piłeś, napij się czegoś bo możesz zginąć z pragnienia.</Polish>
         </Key>
         <Key ID="STR_NOTF_DrinkMSG_3">
-            <Original>You are now suffering from severe dehydration find something to drink quickly!</Original>
+            <Original>당신은 목이 너무 마릅니다. 빨리 물이나 레드불을 드십시오!!</Original>
             <Czech>Nyní trpí těžkou dehydratací najít něco k pití rychle!</Czech>
             <Spanish>Estas a punto de morir de desidratación, busca algo de tomar rapido!</Spanish>
             <Russian></Russian>
@@ -3767,7 +3767,7 @@
             <Polish>Zaczynasz słabnąć z pragnienia, wypij coś inaczej zginiesz!!!</Polish>
         </Key>
         <Key ID="STR_NOTF_DrinkMSG_Death">
-            <Original>You have died from dehydration.</Original>
+            <Original>결국 목말라 죽었습니다.</Original>
             <Czech>Jsi zemřel na dehydrataci.</Czech>
             <Spanish>Has muerto de desidratación.</Spanish>
             <Russian></Russian>
@@ -3778,7 +3778,7 @@
             <Polish>Umarłeś z uwagi na odwodnienie organizmu</Polish>
         </Key>
         <Key ID="STR_NOTF_MaxWeight">
-            <Original>You are over carrying your max weight! You will not be able to run or move fast till you drop some items!</Original>
+            <Original>최대 허용 중량을 초과하였습니다. 아이템을 일부 버리시거나 삭제하십시오</Original>
             <Czech>Překročili jste přenášení maximální váhu! Nebudete moci spustit nebo přesunout rychle, dokud se kapka některé položky!</Czech>
             <Spanish>Estas cargando tu peso máximo! No puedes correr o moverte rapido hasta que botes algunos objetos!</Spanish>
             <Russian></Russian>
@@ -3800,7 +3800,7 @@
             <Polish>&lt;t color='#FF0000'&gt;&lt;t size='2'&gt;Informacja o pojeździe&lt;/t&gt;&lt;/t&gt;&lt;br/&gt;&lt;t color='#FFD700'&gt;&lt;t size='1.5'&gt;Właściciel&lt;/t&gt;&lt;/t&gt;&lt;br/&gt; %1</Polish>
         </Key>
         <Key ID="STR_NOTF_CannotSearchPerson">
-            <Original>Cannot search that person.</Original>
+            <Original>그 사람을 수색할 수 없습니다..</Original>
             <Czech>Nelze vyhledávat tuto osobu.</Czech>
             <Spanish>No puedes buscar a esa persona.</Spanish>
             <Russian></Russian>
@@ -3811,7 +3811,7 @@
             <Polish>Nie możesz przeszukać tej osoby</Polish>
         </Key>
         <Key ID="STR_NOTF_CannotSeizePerson">
-            <Original>You couldn't effectively seize any items. Try again.</Original>
+            <Original>아이템 압수를 못했습니다. 다시 시도하세요.</Original>
             <Czech>Dalo by se efektivně využily všech položek. Zkus to znovu.</Czech>
             <French>Vous ne pouviez pas saisir les articles. Réessayer.</French>
             <Spanish>No pudistes efectivamente, confiscar algun objeto. Prueba de nuevo.</Spanish>
@@ -3822,7 +3822,7 @@
             <German>Es konnten nicht alle Gegenstände beschlagnahmt werden. Versuche es noch einmal.</German>
         </Key>
         <Key ID="STR_NOTF_Repairing">
-            <Original>Repairing %1</Original>
+            <Original>수리중 %1</Original>
             <Czech>Dalo by se efektivně využily všech položek. Zkus to znovu....</Czech>
             <Spanish>Reparando %1</Spanish>
             <Russian></Russian>
@@ -3833,7 +3833,7 @@
             <Polish>Naprawiam %1</Polish>
         </Key>
         <Key ID="STR_NOTF_ActionInVehicle">
-            <Original>You can't do that from inside the vehicle!</Original>
+            <Original>차량 내부에서는 할 수 없습니다.</Original>
             <Czech>Můžete to udělat zevnitř vozu!</Czech>
             <French>Vous ne pouvez pas le faire à l'intérieur du véhicule!</French>
             <Spanish>No puedes hacer eso desde adentro del vehículo!</Spanish>
@@ -3844,7 +3844,7 @@
             <Polish>Nie możesz tego wykonać z wntrza pojazdu!</Polish>
         </Key>
         <Key ID="STR_NOTF_RepairedVehicle">
-            <Original>You have repaired that vehicle.</Original>
+            <Original>차량 수리 완료 되었습니다.</Original>
             <Czech>Jste opravil, že vozidlo.</Czech>
             <Spanish>>Has reparado el vehículo.</Spanish>
             <Russian></Russian>
@@ -3866,7 +3866,7 @@
             <Polish>Zebrałeś %2 %1 (s).</Polish>
         </Key>
         <Key ID="STR_NOTF_GatherVeh">
-            <Original>You can't gather from inside a car!</Original>
+            <Original>차 안에서는 수집할 수 없습니다!</Original>
             <Czech>Nemůžete sbírat zevnitř vozu!</Czech>
             <French>Vous ne pouvez pas ramasser à l'intérieur d'une voiture!</French>
             <Spanish>No puedes recolectar desde adentro de un vehículo!</Spanish>
@@ -3877,7 +3877,7 @@
             <Polish>Nie możesz zbierać z wnętrza samochodu</Polish>
         </Key>
         <Key ID="STR_NOTF_NoLootingPerson">
-            <Original>You are not allowed to loot dead bodies.</Original>
+            <Original>시체를 약탈 할 수 없습니다.</Original>
             <Czech>Ty jsou není dovoleno kořist mrtvoly.</Czech>
             <French>Vous n'êtes pas autorisé à piller des cadavres.</French>
             <Spanish>No puedes buscar cuerpos muertos.</Spanish>
@@ -3888,7 +3888,7 @@
             <Polish>Nie możesz przeszukiwać martwych ciał</Polish>
         </Key>
         <Key ID="STR_NOTF_Frozen">
-            <Original>You have been frozen by an administrator.</Original>
+            <Original>당신은 어드민에 의해 얼려졌습니다. 잠시 기다리세요.</Original>
             <Czech>Vy byly zmrazeny správcem.</Czech>
             <French>Vous avez été gelé par un administrateur.</French>
             <Spanish>Un admin te ha congelado!</Spanish>
@@ -3899,7 +3899,7 @@
             <Polish>Zostałeś zamrożony przez administratora</Polish>
         </Key>
         <Key ID="STR_NOTF_Teleport">
-            <Original>You have teleported to your selected position.</Original>
+            <Original>선택한 위치로 이동되었습니다.</Original>
             <Czech>Jste teleported do vašeho zvolené poloze.</Czech>
             <French>Vous avez téléporté à votre position sélectionnée.</French>
             <Spanish>Te has teletransportado a la posisción seleccionada.</Spanish>
@@ -3910,7 +3910,7 @@
             <German>Du hast dich zu deiner gewünschten Position teleportiert.</German>
         </Key>
         <Key ID="STR_NOTF_Unfrozen">
-            <Original>You have been unfrozen by an administrator.</Original>
+            <Original>어드민에 의해 구속이 풀렸습니다.</Original>
             <Czech>Byli jste zmrzlá správcem.</Czech>
             <French>Vous avez été dégelés par un administrateur.</French>
             <Spanish>Un admin te ha descongelado!</Spanish>
@@ -3921,7 +3921,7 @@
             <Polish>Zostałeś odmrożony przez administratora</Polish>
         </Key>
         <Key ID="STR_NOTF_noOneSelected">
-            <Original>No one was selected!</Original>
+            <Original>아무도 선택되지 않았습니다.</Original>
             <Czech>Nikdo byl vybrán!</Czech>
             <French>Personne n'a été sélectionné!</French>
             <Spanish>Nadie fue seleccionado!</Spanish>
@@ -3932,7 +3932,7 @@
             <German>Niemand wurde ausgewählt!</German>
         </Key>
         <Key ID="STR_NOTF_didNotSelectItemToGive">
-            <Original>You didn't select an item you wanted to give.</Original>
+            <Original>아이템을 선택하지 않았습니다.</Original>
             <Czech>Nevybrali jste položku, kterou chtěl dát.</Czech>
             <French>Vous ne l'avez pas sélectionné un item que vous vouliez donner.</French>
             <Spanish>No ha seleccionado un elemento que quería dar.</Spanish>
@@ -3943,7 +3943,7 @@
             <German>Sie haben keinen Artikel aus, die Sie geben wollte.</German>
         </Key>
         <Key ID="STR_NOTF_notNumberFormat">
-            <Original>You didn't enter an actual number format.</Original>
+            <Original>숫자형식을 입력하세요.</Original>
             <Czech>Nezadal jste skutečný formát čísla.</Czech>
             <French>Vous n'avez pas saisi un format de nombre réel.</French>
             <Spanish>No ha especificado un formato de número real.</Spanish>
@@ -3954,7 +3954,7 @@
             <German>Sie haben keine tatsächliche Anzahl Format eingeben.</German>
         </Key>
         <Key ID="STR_NOTF_enterAmountGive">
-            <Original>You need to enter an actual amount you want to give.</Original>
+            <Original>당신이 주려는 실제 수량을 입력하세요.</Original>
             <Czech>Musíte zadat skutečnou částku, kterou chcete dát.</Czech>
             <French>Vous devez entrer un montant réel que vous voulez donner.</French>
             <Spanish>Es necesario introducir una cantidad real que se desea dar.</Spanish>
@@ -3965,7 +3965,7 @@
             <German>Sie benötigen einen tatsächlichen Betrag, den Sie geben wollen, einzugeben.</German>
         </Key>
         <Key ID="STR_NOTF_enterAmountRemove">
-            <Original>You need to enter an actual amount you want to remove.</Original>
+            <Original>제거할 실제 수량을 입력해야합니다.</Original>
             <Czech>Musíte zadat skutečnou částku, kterou chcete odebrat.</Czech>
             <French>Vous devez entrer un montant réel que vous souhaitez supprimer.</French>
             <Spanish>Es necesario introducir una cantidad real que se desea eliminar.</Spanish>
@@ -3976,7 +3976,7 @@
             <German>Sie benötigen einen tatsächlichen Betrag, den Sie entfernen möchten, eingeben.</German>
         </Key>
         <Key ID="STR_NOTF_notWithinRange">
-            <Original>The selected player is not within range.</Original>
+            <Original>선택한 플레이어가 범위내에 있지 않습니다.</Original>
             <Czech>Zvolená Hráč není v dosahu.</Czech>
             <French>Le joueur sélectionné est hors de portée.</French>
             <Spanish>El jugador seleccionado no está dentro del rango.</Spanish>
@@ -4009,7 +4009,7 @@
             <German>Du gabst %1 %2 %3.</German>
         </Key>
         <Key ID="STR_NOTF_notEnoughtToGive">
-            <Original>You don't have that much to give!</Original>
+            <Original>부족합니다!</Original>
             <Czech>Nemusíte to hodně dát!</Czech>
             <French>Vous n'avez pas autant sur vous!</French>
             <Spanish>Usted no tiene mucho para dar!</Spanish>
@@ -4031,7 +4031,7 @@
             <German>Sie gaben $%1 %2.</German>
         </Key>
         <Key ID="STR_NOTF_recentlyRobbedBank">
-            <Original>You recently robbed the bank! You can't give money away just yet.</Original>
+            <Original>최근에 은행강도짓을 하여 아직 은행을 이용할 수 없습니다. 10분이 지나야합니다.</Original>
             <Czech>Nedávno jste vyloupil banku! Nemůžete dávat peníze pryč jen zatím.</Czech>
             <French>Vous avez récemment volé la banque! Vous ne pouvez pas donner de l'argent pour l'instant.</French>
             <Spanish>Recientemente has robado el banco! No se puede dar dinero por el momento.</Spanish>
@@ -4053,7 +4053,7 @@
             <German>Keine Daten ausgewählt.</German>
         </Key>
         <Key ID="STR_NOTF_didNotSelectVehicle">
-            <Original>You did not select a vehicle.</Original>
+            <Original>차량을 선택하지 않았습니다.</Original>
             <Czech>Nevybrali jste vozidlo.</Czech>
             <French>Vous n'avez pas sélectionné un véhicule.</French>
             <Spanish>No ha seleccionado un vehículo.</Spanish>
@@ -4064,7 +4064,7 @@
             <German>Sie haben kein Fahrzeug auswählen.</German>
         </Key>
         <Key ID="STR_NOTF_noVehOwned">
-            <Original>You do not own any vehicles.</Original>
+            <Original>차량을 소지하고 있지 않습니다.</Original>
             <Czech>Nevlastníte žádná vozidla.</Czech>
             <French>Vous ne possédez pas de véhicules.</French>
             <Spanish>Usted no posee ningún vehículo.</Spanish>
@@ -4075,7 +4075,7 @@
             <German>Sie besitzen keine Fahrzeuge.</German>
         </Key>
         <Key ID="STR_NOTF_didNotSelectPlayer">
-            <Original>You did not select a player.</Original>
+            <Original>플레이어를 선택하지 않았습니다.</Original>
             <Czech>Nevybrali jste si přehrávač.</Czech>
             <French>Vous n'avez pas sélectionné un joueur.</French>
             <Spanish>No ha seleccionado un jugador.</Spanish>
@@ -4097,7 +4097,7 @@
             <German>Sie haben %1 Schlüssel zu Ihrem %2 angegeben.</German>
         </Key>
         <Key ID="STR_NOTF_cannotRemoveHouseKeys">
-            <Original>You cannot remove the keys to your house!</Original>
+            <Original>당신의 집키는 제거할 수 없습니다!</Original>
             <Czech>Nemůžete odstranit klíče od domu!</Czech>
             <French>Vous ne pouvez pas supprimer les clés de votre maison!</French>
             <Spanish>No se puede quitar las llaves de su casa!</Spanish>
@@ -4108,7 +4108,7 @@
             <German>Sie können nicht die Schlüssel zu Ihrem Haus zu entfernen!</German>
         </Key>
         <Key ID="STR_NOTF_didNotSelectToRemove">
-            <Original>You did not select anything to remove.</Original>
+            <Original>아무것도 선택하지 않았습니다.</Original>
             <Czech>Nevybrali jste nic odstranit.</Czech>
             <French>Vous avez rien sélectionné à supprimer.</French>
             <Spanish>No ha seleccionado nada que quitar.</Spanish>
@@ -4141,7 +4141,7 @@
             <German>Sie haben erfolgreich %1 %2 aus dem Inventar entfernt.</German>
         </Key>
         <Key ID="STR_NOTF_menuWillNotOpen">
-            <Original>Something went wrong; the menu will not open?</Original>
+            <Original>메뉴가 오픈되지 않습니다. 뭔가 문제가 있어요</Original>
             <Czech>Něco se pokazilo; nabídka neotevře?</Czech>
             <French>Quelque chose a mal tourné; le menu ne sera pas ouvert?</French>
             <Spanish>Algo salió mal; el menú no se abre?</Spanish>
@@ -4174,7 +4174,7 @@
             <German>Sie können nicht das, sondern ein Landfahrzeug in irgendetwas zu speichern!</German>
         </Key>
         <Key ID="STR_NOTF_notEnoughCashToStoreInVeh">
-            <Original>You don't have that much cash on you to store in the vehicle!</Original>
+            <Original>차량 보관 금액이 부족합니다. </Original>
             <Czech>Nemáte tolik peněz na vás uložit do vozidla!</Czech>
             <French>Vous ne disposez pas d'autant d'argent sur vous pour stocker dans le véhicule!</French>
             <Spanish>Usted no tiene esa cantidad de dinero en efectivo para almacenar en el vehículo!</Spanish>
@@ -4262,7 +4262,7 @@
             <German>&lt;t color='#ADFF2F'&gt;Geldautomat&lt;/t&gt;</German>
         </Key>
         <Key ID="STR_NOTF_captureGangHideout">
-            <Original>Capture Gang Hideout</Original>
+            <Original>갱지역 탈환하기</Original>
             <Czech>Zachyťte Gang skrýš</Czech>
             <French>Capturez Gang Cachette</French>
             <Spanish>Captura de la cuadrilla de Escondite</Spanish>
@@ -4300,7 +4300,7 @@
             <Polish></Polish>
         </Key>
         <Key ID="STR_News_MsgHeader">
-            <Original>Message Heading:</Original>
+            <Original>메시지 제목:</Original>
             <Czech></Czech>
             <Spanish></Spanish>
             <Russian></Russian>
@@ -4311,7 +4311,7 @@
             <Polish></Polish>
         </Key>
         <Key ID="STR_News_MsgContent">
-            <Original>Message Content:</Original>
+            <Original>메시지 내용:</Original>
             <Czech></Czech>
             <Spanish></Spanish>
             <Russian></Russian>
@@ -4322,7 +4322,7 @@
             <Polish></Polish>
         </Key>
         <Key ID="STR_News_Broadcast">
-            <Original>Broadcast Message</Original>
+            <Original>방송 메시지</Original>
             <Czech></Czech>
             <Spanish></Spanish>
             <Russian></Russian>
@@ -4333,7 +4333,7 @@
             <Polish></Polish>
         </Key>
         <Key ID="STR_News_StructuredText">
-            <Original>Broadcast Cost: %1&lt;br /&gt;Next Broadcast Available: %2</Original>
+            <Original>방송 비용: %1&lt;br /&gt;Next Broadcast Available: %2</Original>
             <Czech></Czech>
             <Spanish></Spanish>
             <Russian></Russian>
@@ -4401,7 +4401,7 @@
     </Package>
     <Package name="Jail_Strings">
         <Key ID="STR_Jail_Warn">
-            <Original>You have been arrested, wait your time out. If you attempt to respawn or reconnect your time will increase!</Original>
+            <Original>당신은 구속되었습니다. 만약 리스폰되거나 강제종료하면 구속시간이 늘어납니다.</Original>
             <Czech>Jste byli zatčeni, počkejte si na čas ven. Pokud se pokusíte respawn nebo připojit váš čas zvýší!</Czech>
             <Spanish>Te han arrestado. Si tratas de matarte o te desconectas se incrementara tu estadía en la cárcel!</Spanish>
             <Russian></Russian>
@@ -4412,7 +4412,7 @@
             <Polish>Zostałeś aresztowany, poczekaj na koniec kary. Jeśli się rozłączysz albo odrodzisz twoja kara zostanie powiększona</Polish>
         </Key>
         <Key ID="STR_Jail_LicenseNOTF">
-            <Original>For being arrested you have lost the following licenses if you own them\n\nFirearms License\nRebel License</Original>
+            <Original>구속되어 총기나 반군 라이센스는 삭제됩니다.</Original>
             <Czech>Za byl zatčen jste ztratili tyto licence, pokud je vlastní \ žádný zbrojní pas \ jRebel licence</Czech>
             <Spanish>Por ser arrestado se te han quitado estas licencias (si las tienes)\n\nL. de Armas \nL. Rebelde</Spanish>
             <Russian></Russian>
@@ -4423,7 +4423,7 @@
             <Polish>Z uwagi na aresztowanie straciłeś następujące licencje jeśli je posiadałeś \n\nPozwolenie na broń \nTrening Rebelianta</Polish>
         </Key>
         <Key ID="STR_Jail_EscapeNOTF">
-            <Original>%1 has escaped from jail!</Original>
+            <Original>%1 이 탈옥을 하였습니다! 간도 크네요.</Original>
             <Czech>%1 utekl z vězení!</Czech>
             <Spanish>%1 se ha escapado de la cárcel!</Spanish>
             <Russian></Russian>
@@ -4434,7 +4434,7 @@
             <Polish>%1 uciekł z więzienia!</Polish>
         </Key>
         <Key ID="STR_Jail_EscapeSelf">
-            <Original>You have escaped from jail, you still retain your previous crimes and now have a count of escaping jail.</Original>
+            <Original>탈옥했습니다! 구속 전 범죄항목이 유지되고 탈옥 범죄 항목이 추가됩니다.</Original>
             <Czech>Jste utekl z vězení, si stále zachovávají své předchozí zločiny a nyní mají počet uniknout vězení.</Czech>
             <Spanish>Te has escapado de la cárcel, retienes tus crimenes anteriores más un crimen de escapado de la cárcel.</Spanish>
             <Russian></Russian>
@@ -4445,7 +4445,7 @@
             <Polish>Uciekłeś z więzienia, dalej jesteś ścigany za poprzednie przestępstwa i dodatkowo za ucieczkę.</Polish>
         </Key>
         <Key ID="STR_Jail_Released">
-            <Original>You have served your time in jail and have been released.</Original>
+            <Original>구속시간이 완료되어 출소합니다. 두부 드시고 다시 오지마세요!</Original>
             <Czech>Sloužil jste svůj čas ve vězení a byli propuštěni.</Czech>
             <Spanish>Has pasado el tiempo en la cárcel y has sido liberado.</Spanish>
             <Russian></Russian>
@@ -4467,7 +4467,7 @@
             <Polish>Pozostały czas kary:</Polish>
         </Key>
         <Key ID="STR_Jail_Pay">
-            <Original>Can pay bail:</Original>
+            <Original>보석금을 지불할 수 있습니다:</Original>
             <Czech>Může zaplatit kauci:</Czech>
             <Spanish>Puedes pagar la fianza en:</Spanish>
             <Russian></Russian>
@@ -4478,7 +4478,7 @@
             <Polish>Możesz wpłacić kaucję</Polish>
         </Key>
         <Key ID="STR_Jail_Price">
-            <Original>Bail Price:</Original>
+            <Original>보석금:</Original>
             <Czech>Bail Cena:</Czech>
             <Spanish>Precio de Fianza:</Spanish>
             <Russian></Russian>
@@ -4489,7 +4489,7 @@
             <Polish>Wartość kaucji:</Polish>
         </Key>
         <Key ID="STR_Jail_Paid">
-            <Original>You have paid your bail and are now free.</Original>
+            <Original>보석금을 지불하여 당신은 자유입니다.</Original>
             <Czech>Jste zaplatili kauci a nyní jsou zdarma.</Czech>
             <Spanish>Has pagado tu fianza y has sido liberado.</Spanish>
             <Russian></Russian>
@@ -4502,7 +4502,7 @@
     </Package>
     <Package name="Civ_Strings">
         <Key ID="STR_Civ_KnockedOut">
-            <Original>%1 has knocked you out.</Original>
+            <Original>%1 가 당신을 때려눕혔습니다.</Original>
             <Czech>%1 zaklepal vás.</Czech>
             <Spanish>%1 te a noqueado.</Spanish>
             <Russian></Russian>
@@ -4513,7 +4513,7 @@
             <Polish>zostałeś ogłuszony przez %1</Polish>
         </Key>
         <Key ID="STR_Civ_LicenseRemove_1">
-            <Original>You have lost all your motor vehicle licenses for vehicular manslaughter.</Original>
+            <Original>차량으로 사람을 치어 죽여 운전면허가 취소되었습니다.</Original>
             <Czech>Jste ztratili všechny své licence motorových vozidel pro dopravní zabití.</Czech>
             <Spanish>Has perdido todas tus licencias de vehículos de motor por homicidio vehicular.</Spanish>
             <Russian></Russian>
@@ -4524,7 +4524,7 @@
             <Polish>Straciłeś wszystkie uprawnienia na pojazdy z uwagi na ciągłe zabijanie ludzi pojazdami.</Polish>
         </Key>
         <Key ID="STR_Civ_LicenseRemove_2">
-            <Original>You have lost your firearms license for manslaughter.</Original>
+            <Original>살인으로 인해 총기 라이센스가 취소되었습니다.</Original>
             <Czech>Jste ztratili zbrojního průkazu za zabití.</Czech>
             <Spanish>Has perdido tu licencia de armas por homicidio.</Spanish>
             <Russian></Russian>
@@ -4535,7 +4535,7 @@
             <Polish>Straciłeś pozwolenie na broń z uwagi na zabijanie ludzi z broni palnej</Polish>
         </Key>
         <Key ID="STR_Civ_RobFail">
-            <Original>They didn't have any cash...</Original>
+            <Original>그는 현금을 가지고 있지 않았습니다...T.T</Original>
             <Czech>Oni neměli žádnou hotovost ...</Czech>
             <Spanish>No tenian dinero...</Spanish>
             <Russian></Russian>
@@ -4546,7 +4546,7 @@
             <Polish>Nie posiadają żadnych pieniędzy ... </Polish>
         </Key>
         <Key ID="STR_Civ_Robbed">
-            <Original>You stole $%1</Original>
+            <Original>$%1 를 강탈했습니다</Original>
             <Czech>Ukradl jsi $%1</Czech>
             <Spanish>Robastes $%1</Spanish>
             <Russian></Russian>
@@ -4557,7 +4557,7 @@
             <Polish>Ukradłeś %1</Polish>
         </Key>
         <Key ID="STR_Civ_VaultEmpty">
-            <Original>The safe is empty!</Original>
+            <Original>금고가 비었습니다</Original>
             <Czech>Bezpečné je prázdný!</Czech>
             <Spanish>La caja esta vacía!</Spanish>
             <Russian></Russian>
@@ -4568,7 +4568,7 @@
             <Polish>Sejf jest pusty!</Polish>
         </Key>
         <Key ID="STR_Civ_VaultInUse">
-            <Original>Someone is already accessing the safe..</Original>
+            <Original>누군가가 금고를 이용중입니다..</Original>
             <Czech>Někdo je již přístup k bezpečné ..</Czech>
             <Spanish>Alguien ya esta entrando en la caja..</Spanish>
             <Russian></Russian>
@@ -4579,7 +4579,7 @@
             <Polish>Ktoś właśnie włamuje się do sejfu!</Polish>
         </Key>
         <Key ID="STR_Civ_NotEnoughCops">
-            <Original>There needs to be %1 or more cops online to continue.</Original>
+            <Original> %1 명의 경찰이 필요합니다.</Original>
             <Czech>Musí existovat%1 nebo více policajtů on-line pokračovat.</Czech>
             <Spanish>Necesita haber %1 o mas policías para continuar.</Spanish>
             <Russian></Russian>
@@ -4590,7 +4590,7 @@
             <Polish>Potrzeba conajmniej %1 policjantów aby kontynuować</Polish>
         </Key>
         <Key ID="STR_Civ_SafeInv">
-            <Original>Safe Inventory</Original>
+            <Original>금고 인벤토리</Original>
             <Czech>Safe Inventory</Czech>
             <Spanish>Inventario de la Caja</Spanish>
             <Russian></Russian>
@@ -4601,7 +4601,7 @@
             <Polish>Wyposażenie sejfu</Polish>
         </Key>
         <Key ID="STR_Civ_SelectItem">
-            <Original>You need to select an item!</Original>
+            <Original>하나의 아이템을 선택하세요</Original>
             <Czech>Je třeba vybrat položku!</Czech>
             <Spanish>Debes selecionar un objeto!</Spanish>
             <Russian></Russian>
@@ -4680,7 +4680,7 @@
             <Polish>Nie ma osoby ukaranej mandatem - nie istnieje</Polish>
         </Key>
         <Key ID="STR_Cop_TicketNum">
-            <Original>You didn't enter actual number.</Original>
+            <Original>숫자를 입력하세요</Original>
             <Czech>Jste nezadali skutečný počet.</Czech>
             <Spanish>No escribistes un numero real.</Spanish>
             <Russian></Russian>
@@ -4691,7 +4691,7 @@
             <Polish>Wybrałeś zły numer</Polish>
         </Key>
         <Key ID="STR_Cop_TicketOver100">
-            <Original>Tickets can not be more than $200,000!</Original>
+            <Original>벌금은  $200,000! 을 초과할 수 없습니다.</Original>
             <Czech>Vstupenky nemůže být více než 200.000 $!</Czech>
             <Spanish>Los tiquetes no pueden ser mas de $200,000!</Spanish>
             <Russian></Russian>
@@ -4713,7 +4713,7 @@
             <Polish>%1 Wystawił mandat w wysokości %2 dla %3</Polish>
         </Key>
         <Key ID="STR_Cop_Ticket_NotEnough">
-            <Original>You don't have enough money in your bank account or on you to pay the ticket.</Original>
+            <Original>벌금을 지불하기 위한 돈이 부족합니다.</Original>
             <Czech>Nemáte dostatek peněz na váš bankovní účet, nebo na vás zaplatit letenku.</Czech>
             <Spanish>No tienes suficiente dinero para pagar el tiquete.</Spanish>
             <Russian></Russian>
@@ -4724,7 +4724,7 @@
             <Polish>Nie masz środków na koncie aby zapłacić mandat.</Polish>
         </Key>
         <Key ID="STR_Cop_Ticket_NotEnoughNOTF">
-            <Original>%1 couldn't pay the ticket due to not having enough money.</Original>
+            <Original>%1 돈이 없어 벌금을 납부할 수 없습니다.</Original>
             <Czech>%1 nemohl zaplatit letenku z důvodu nemají dostatek peněz.</Czech>
             <Spanish>%1 No puedo pagar el tiquete porque no tiene suficiente dinero.</Spanish>
             <Russian></Russian>
@@ -4735,7 +4735,7 @@
             <Polish>%1 nie może zapłacić mandatu bo nie ma tylu środków na koncie</Polish>
         </Key>
         <Key ID="STR_Cop_Ticket_Paid">
-            <Original>You have paid the ticket of $%1</Original>
+            <Original>당신은 $%1 의 벌금을 냈습니다.</Original>
             <Czech>Jste zaplatili letenku ve výši $ %1</Czech>
             <Spanish>Has pagado el tiquete de $%1</Spanish>
             <Russian></Russian>
@@ -4746,7 +4746,7 @@
             <Polish>Zapłaciłeś mandat w wysokości $%1</Polish>
         </Key>
         <Key ID="STR_Cop_Ticket_PaidNOTF">
-            <Original>%1 paid the ticket of $%2</Original>
+            <Original>%1 가 벌금 $%2 을 냈습니다.</Original>
             <Czech>%1 zaplatil letenku ve výši $ %2</Czech>
             <Spanish>%1 a pagado el tiquete de $%2</Spanish>
             <Russian></Russian>
@@ -4757,7 +4757,7 @@
             <Polish>%1 zapłacił mandat w wyskości $%2</Polish>
         </Key>
         <Key ID="STR_Cop_Ticket_PaidNOTF_2">
-            <Original>%1 paid the ticket.</Original>
+            <Original>벌금 %1 을 냈습니다.</Original>
             <Czech>%1 zaplatil jízdenku.</Czech>
             <Spanish>%1 pago el tiquete.</Spanish>
             <Russian></Russian>
@@ -4768,7 +4768,7 @@
             <Polish>%1 zapłacił mandat.</Polish>
         </Key>
         <Key ID="STR_Cop_Ticket_GUI_Given">
-            <Original>%1 has given you a ticket for $%2</Original>
+            <Original>%1 가 벌금 $%2 을 부과하였습니다.</Original>
             <Czech>%1 vám dal lístek za $ %2</Czech>
             <Spanish>%1 te ha dado un tiquete de $%2</Spanish>
             <Russian></Russian>
@@ -4779,7 +4779,7 @@
             <Polish>%1 dał ci mandat w wysokości $%2</Polish>
         </Key>
         <Key ID="STR_Cop_Ticket_Refuse">
-            <Original>%1 refused to pay the ticket.</Original>
+            <Original>%1 가 벌금 지불을 거절하였습니다.</Original>
             <Czech>%1 odmítl zaplatit letenku.</Czech>
             <Spanish>>%1 no aceptó pagar el tiquete.</Spanish>
             <Russian></Russian>
@@ -4790,7 +4790,7 @@
             <Polish>%1 odmówił zapłaty mandatu.</Polish>
         </Key>
         <Key ID="STR_Cop_BountyRecieve">
-            <Original>You have collected a bounty of $%1 for arresting a criminal.</Original>
+            <Original>범죄자를 체포/구속하여 $%1 의 현상금을 받았습니다.</Original>
             <Czech>Nasbíráte kvantum $%1 pro aretaci zločince.</Czech>
             <Spanish>Has recolectado la recompensa de $%1 por arrestar a un criminal.</Spanish>
             <Russian></Russian>
@@ -4801,7 +4801,7 @@
             <Polish>Otrzymujesz nagrodę w wysokości $%1 za aresztowanie poszukiwanego kryminalisty.</Polish>
         </Key>
         <Key ID="STR_Cop_BountyKill">
-            <Original>You have collected a bounty of $%1 for killing a wanted criminal, if you had arrested him you would of received $%2.</Original>
+            <Original>범죄자를 사살하여 $%1 를 받았습니다. 만약 체포 / 구속 하였다면 $%2 를 받았을 겁니다.</Original>
             <Czech>Nasbíráte kvantum $%1 za zabití hledaného zločince, pokud jste ho zatkli byste přijímaného $%2.</Czech>
             <Spanish>Has recolectado la recompensa de $%1 por matar a un criminal, si lo hubieras arrestado hubieses conseguido $%2.</Spanish>
             <Russian></Russian>
@@ -4812,7 +4812,7 @@
             <Polish>Otrzymujesz nagrodę w wysokości $%1 za zabicie poszukiwanego kryminalisty, w przypadku gdybyś go aresztował otrzymałbyć $%2.</Polish>
         </Key>
         <Key ID="STR_Cop_Contraband">
-            <Original>%1 has $%2 worth of contraband on them.</Original>
+            <Original>%1 의 불법물품의 가치는 $%2 입니다.</Original>
             <Czech>%1 má $%2 v hodnotě kontrabandu na nich.</Czech>
             <Spanish>%1 tiene $%2 en contrabando con el.</Spanish>
             <Russian></Russian>
@@ -4823,7 +4823,7 @@
             <Polish>%1 miał przy sobie kontrabandę o wartości $%2.</Polish>
         </Key>
         <Key ID="STR_Cop_IllegalItems">
-            <Original>Illegal Items</Original>
+            <Original>불법아이템</Original>
             <Czech>nelegální položky</Czech>
             <Spanish>Objetos Ilegales</Spanish>
             <Russian></Russian>
@@ -4834,7 +4834,7 @@
             <Polish>Nielegalne przedmioty /    kontrabanda</Polish>
         </Key>
         <Key ID="STR_Cop_Robber">
-            <Original>%1 was identified as the bank robber!</Original>
+            <Original>%1 가 은행 강도로 확인되었습니다.</Original>
             <Czech>%1 byl identifikován jako bankovního lupiče!</Czech>
             <Spanish>%1 fue identificado como el ladrón del banco!</Spanish>
             <Russian></Russian>
@@ -4845,7 +4845,7 @@
             <Polish>%1 zidentyfikowany jako kasairz rabujący banki!</Polish>
         </Key>
         <Key ID="STR_Cop_NoIllegal">
-            <Original>No illegal items</Original>
+            <Original>불법물품 없음</Original>
             <Czech>Žádné ilegální položek</Czech>
             <Spanish>No objetos ilegales</Spanish>
             <Russian></Russian>
@@ -4856,7 +4856,7 @@
             <Polish>Brak kontrabandy i nielegalnych przedmiotów</Polish>
         </Key>
         <Key ID="STR_Cop_NotaDoor">
-            <Original>You are not near a door!</Original>
+            <Original>문 근처가 아닙니다.</Original>
             <Czech>Nejste u dveří!</Czech>
             <Spanish>No estas cerca de una puerta!</Spanish>
             <Russian></Russian>
@@ -4900,7 +4900,7 @@
             <Polish>Brak licencji</Polish>
         </Key>
         <Key ID="STR_Cop_NoIllegalVeh">
-            <Original>Nothing illegal in this vehicle</Original>
+            <Original>차량에 불법 물품이 없습니다.</Original>
             <Czech>Nic nezákonného v tomto vozidle</Czech>
             <Spanish>Nada ilegal en este vehículo</Spanish>
             <Russian></Russian>
@@ -4911,7 +4911,7 @@
             <Polish>Nie znaleziono niczego nielegalnego w pojeździe</Polish>
         </Key>
         <Key ID="STR_Cop_NoIllegalContainer">
-            <Original>Nothing illegal in this container.</Original>
+            <Original>컨테이너에 불법 물품이 없습니다.</Original>
             <Czech>Nic nezákonného v tomto kontejneru</Czech>
             <Spanish>Nada ilegal en este contenedor</Spanish>
             <Italian>Nulla di illegale in questo contenitore</Italian>
@@ -4922,7 +4922,7 @@
             <German>Nichts illegales in diesem Container.</German>
         </Key>
         <Key ID="STR_Cop_VehEmpty">
-            <Original>This vehicle is empty</Original>
+            <Original>차량이 비어있습니다.</Original>
             <Czech>Toto vozidlo je prázdná</Czech>
             <Spanish>Este vehículo esta limpio</Spanish>
             <Russian></Russian>
@@ -4933,7 +4933,7 @@
             <Polish>Pojazd jest pusty</Polish>
         </Key>
         <Key ID="STR_Cop_ContainerEmpty">
-            <Original>This container is empty</Original>
+            <Original>컨테이너가 비어있습니다.</Original>
             <Czech>Tento zásobník je prázdný</Czech>
             <French>Ce conteneur est vide</French>
             <Spanish>Este contenedor esta vacío</Spanish>
@@ -4955,7 +4955,7 @@
             <Polish>$%1 z kradzieży w Banku zostało zwrócone po zabiciu włamywacza.</Polish>
         </Key>
         <Key ID="STR_Cop_RepairVault">
-            <Original>Repairing vault...</Original>
+            <Original>금고 수리중...</Original>
             <Czech>Oprava klenby ...</Czech>
             <Spanish>Reparando bóveda...</Spanish>
             <Russian></Russian>
@@ -4966,7 +4966,7 @@
             <Polish>Naprawiam skarbiec...</Polish>
         </Key>
         <Key ID="STR_Cop_VaultRepaired">
-            <Original>The vault is now fixed and re-secured.</Original>
+            <Original>금고가 수리되어 안전합니다.</Original>
             <Czech>Klenba je nyní pevně stanovena a re-zabezpečeny.</Czech>
             <Spanish>La bóveda esta reparada y segura.</Spanish>
             <Russian></Russian>
@@ -4977,7 +4977,7 @@
             <Polish>Skarbiec jest naprawiony i zabezpieczony.</Polish>
         </Key>
         <Key ID="STR_Cop_VaultLocked">
-            <Original>The vault is already locked?</Original>
+            <Original>금고가 이미 잠겨있습니다.</Original>
             <Czech>Klenba je již uzamčen?</Czech>
             <Spanish>La bóveda ya esta cerrada?</Spanish>
             <Russian></Russian>
@@ -4999,7 +4999,7 @@
             <Polish>Nie możesz wprowadzić niczego poniżej 1!</Polish>
         </Key>
         <Key ID="STR_Cop_OnlyGold">
-            <Original>You can't store anything but gold bars in the safe.</Original>
+            <Original>금고엔 골드바 이외에 아이템은 저장할 수 없습니다.</Original>
             <Czech>Nemůžete ukládat nic jiného než zlaté pruty v trezoru.</Czech>
             <Spanish>Solo puedes guardar barras de oro en la bóveda.</Spanish>
             <Russian></Russian>
@@ -5032,7 +5032,7 @@
             <Polish>Nie można usunąć rzeczy z twojego wyposażenia aby włożyć je do sejfu</Polish>
         </Key>
         <Key ID="STR_Cop_CouldntSearch">
-            <Original>Couldn't search %1</Original>
+            <Original>%1 를 수색할 수 없습니다.</Original>
             <Czech>Nemohl hledání%1</Czech>
             <Spanish>No se pudo buscar a %1</Spanish>
             <Russian></Russian>
@@ -5043,7 +5043,7 @@
             <Polish>Nie można przeszukać %1</Polish>
         </Key>
         <Key ID="STR_Cop_RepairingDoor">
-            <Original>Repairing Door...</Original>
+            <Original>문 수리중...</Original>
             <Czech>Oprava dveří ...</Czech>
             <Spanish>Reparando Puerta...</Spanish>
             <Russian></Russian>
@@ -5065,7 +5065,7 @@
             <Polish>Brak licencji&lt;br/&gt;</Polish>
         </Key>
         <Key ID="STR_Cop_DealerQuestion">
-            <Original>No one has sold to this dealer recently.</Original>
+            <Original>이 딜러에게 아무도 마약을 거래하지 않았습니다.</Original>
             <Czech>Nikdo se prodalo tohoto prodejce nedávno.</Czech>
             <Spanish>Nadie le ha vendido a este comerciante recientemente.</Spanish>
             <Russian></Russian>
@@ -5076,7 +5076,7 @@
             <Polish>Nikt nie sprzedawał ostatnio u dilera.</Polish>
         </Key>
         <Key ID="STR_Cop_DealerMSG">
-            <Original>The following people have been selling to this dealer recently.</Original>
+            <Original>아래 유저가 마약을 거래했습니다.</Original>
             <Czech>Následující lidé byli prodeji tohoto prodejce nedávno.</Czech>
             <Spanish>Las siguientes personas le han estado vendiendo a este comerciante recientemente.</Spanish>
             <Russian></Russian>
@@ -5098,7 +5098,7 @@
             <Polish>Radar</Polish>
         </Key>
         <Key ID="STR_Cop_VehSpeed">
-            <Original>Vehicle Speed %1 km/h</Original>
+            <Original>차량 속도 %1 km/h</Original>
             <Czech>Rychlost vozidla%1 km / h</Czech>
             <Spanish>Velocidad %1 km/h</Spanish>
             <Russian></Russian>
@@ -5109,7 +5109,7 @@
             <Polish>Prędkość pojazdu %1 km/h</Polish>
         </Key>
         <Key ID="STR_Cop_ExcessiveRestrain">
-            <Original>You have been released automatically for excessive restrainment time</Original>
+            <Original>오래 체포되어 자동으로 풀려났습니다.</Original>
             <Czech>Byli jste automaticky uvolněn pro nadměrnou restrainment čas</Czech>
             <Spanish>Has sido liberado automáticamente por tiempo excesivo de estar retenido.</Spanish>
             <Russian></Russian>
@@ -5120,7 +5120,7 @@
             <Polish>Zostałeś automatycznie rozkuty z uwagi na długi upływ czasu od skucia.</Polish>
         </Key>
         <Key ID="STR_Cop_Restrained">
-            <Original>You have been restrained by %1</Original>
+            <Original>당신은 %1 에 의해 체포되었습니다.</Original>
             <Czech>Byli jste omezeni%1</Czech>
             <Spanish>Has sido retenido por %1</Spanish>
             <Russian></Russian>
@@ -5142,7 +5142,7 @@
             <German>Was glaubst du wer du bist?</German>
         </Key>
         <Key ID="STR_Cop_wantedList_noPlayerSelected">
-            <Original>You must select a perp.</Original>
+            <Original>범인을 선택해야합니다.</Original>
             <Czech>Je třeba vybrat pachatele.</Czech>
             <French>Vous devez sélectionner une personne.</French>
             <Spanish>Debe seleccionar un asesino.</Spanish>
@@ -5153,7 +5153,7 @@
             <German>Sie müssen eine perp wählen.</German>
         </Key>
         <Key ID="STR_Cop_wantedList_noCrimeSelected">
-            <Original>You must select a crime.</Original>
+            <Original>범죄항목을 선택해야 합니다.</Original>
             <Czech>Je třeba vybrat trestného činu.</Czech>
             <French>Vous devez sélectionner un crime.</French>
             <Spanish>Debe seleccionar un crimen.</Spanish>
@@ -5164,7 +5164,7 @@
             <German>Sie müssen ein Verbrechen aus.</German>
         </Key>
         <Key ID="STR_Cop_wantedList_FailedToFetch">
-            <Original>Failed to fetch crimes.</Original>
+            <Original>범죄항목을 가져오지 못함.</Original>
             <Czech>Nepodařilo se načíst trestných činů.</Czech>
             <French>Impossible de récupérer les crimes.</French>
             <Spanish>No se pudieron obtener los crímenes.</Spanish>
@@ -5254,7 +5254,7 @@
             <Polish>Wyposażenie</Polish>
         </Key>
         <Key ID="STR_MISC_Backpack">
-            <Original>You are not allowed to look into someone's backpack!</Original>
+            <Original>남의 가방을 볼 수 없습니다.</Original>
             <Czech>Nejste dovoleno dívat se do něčí batohu!</Czech>
             <Spanish>No tienes permiso de ver dentro de las mochilas de los demas!</Spanish>
             <Russian></Russian>
@@ -5265,7 +5265,7 @@
             <Polish>Nie możesz zaglądać do czyichś plecaków!</Polish>
         </Key>
         <Key ID="STR_MISC_VehInventory">
-            <Original>You are not allowed to access this vehicle while its locked.</Original>
+            <Original>차량 문이 잠겨있어 차량에 엑세스 할 수 없습니다.</Original>
             <Czech>Nemáte povolen přístup k toto vozidlo zatímco jeho uzamčen.</Czech>
             <Spanish>No tienes permiso de accesar este vehículo mientras esta cerrado.</Spanish>
             <Russian></Russian>
@@ -5276,7 +5276,7 @@
             <Polish>Nie masz dostępu do pojazdu gdy ten jest zamknięty</Polish>
         </Key>
         <Key ID="STR_MISC_VehInvUse">
-            <Original>This vehicle's trunk is in use, only one person can use it at a time.</Original>
+            <Original>다른사람이 트렁크를 사용중입니다. 동시에 한명만 사용가능합니다.</Original>
             <Czech>kmen toto vozidlo je v provozu, může jen jedna osoba ji použít najednou.</Czech>
             <Spanish>El maletero de este vehículo solo puede ser usado por una persona a la vez.</Spanish>
             <Russian></Russian>
@@ -5298,7 +5298,7 @@
             <Polish>Nie udało się nawiązać kontaktu</Polish>
         </Key>
         <Key ID="STR_MISC_VehUnlock">
-            <Original>You have unlocked your vehicle.</Original>
+            <Original>차량 잠금 해제.</Original>
             <Czech>Jste odemkli své vozidlo.</Czech>
             <Spanish>Has abierto tu vehículo </Spanish>
             <Russian></Russian>
@@ -5309,7 +5309,7 @@
             <Polish>Odblokowałeś pojazd</Polish>
         </Key>
         <Key ID="STR_MISC_VehLock">
-            <Original>You have locked your vehicle.</Original>
+            <Original>차량 잠금</Original>
             <Czech>Jste zamkli své vozidlo.</Czech>
             <Spanish>Has cerrado tu vehículo.</Spanish>
             <Russian></Russian>
@@ -5320,7 +5320,7 @@
             <Polish>Zablokowałeś pojazd</Polish>
         </Key>
         <Key ID="STR_MISC_SirensON">
-            <Original>Sirens On</Original>
+            <Original>사이렌 ON!</Original>
             <Czech>Na sirény</Czech>
             <Spanish>Sirenas Prendidas</Spanish>
             <Russian></Russian>
@@ -5331,7 +5331,7 @@
             <Polish>Syrena włączona</Polish>
         </Key>
         <Key ID="STR_MISC_SirensOFF">
-            <Original>Sirens Off</Original>
+            <Original>사이렌 OFF!</Original>
             <Czech>sirény Off</Czech>
             <Spanish>Sirenas Apagadas</Spanish>
             <Russian></Russian>
@@ -5342,7 +5342,7 @@
             <Polish>Syrena wyłączona</Polish>
         </Key>
         <Key ID="STR_MISC_NoStorageWarn">
-            <Original>You need to install storage containers to have storing capabilities!</Original>
+            <Original>저장기능을 사용하기 위해선 스토리지를 설치해야합니다!</Original>
             <Czech>Je třeba nainstalovat kontejnery skladovací mít skladovací kapacity!</Czech>
             <Spanish>Debes instalar contenedores para tener capabilidades de almacenamiento!</Spanish>
             <Russian></Russian>
@@ -5353,7 +5353,7 @@
             <Polish>Musisz zainstalować pojemniki aby uzyskać możliwość składowania rzeczy</Polish>
         </Key>
         <Key ID="STR_MISC_NoStorageVeh">
-            <Original>This vehicle isn't capable of storing virtual items.</Original>
+            <Original>이 차량에 더이상 v-아이템을 저장할 수 없습니다.</Original>
             <Czech>Toto vozidlo není schopné uchovávat virtuální položky.</Czech>
             <Spanish>Este vehiculo no puede guardar objetos virtuales.</Spanish>
             <Russian></Russian>
@@ -5364,7 +5364,7 @@
             <Polish>Ten pojazd nie przechowuje wirtualnych przedmiotów</Polish>
         </Key>
         <Key ID="STR_MISC_Weight">
-            <Original>Weight:</Original>
+            <Original>무게:</Original>
             <Czech>Hmotnost:</Czech>
             <Spanish>Peso:</Spanish>
             <Russian></Russian>
@@ -5386,7 +5386,7 @@
             <Polish>Domowa skrzynka</Polish>
         </Key>
         <Key ID="STR_MISC_VehStorage">
-            <Original>Vehicle Trunk</Original>
+            <Original>차량 트렁크</Original>
             <Czech>vozidlo Trunk</Czech>
             <Spanish>Maletero de Vehículo</Spanish>
             <Russian></Russian>
@@ -5397,7 +5397,7 @@
             <Polish>Bagażnik pojazdu</Polish>
         </Key>
         <Key ID="STR_MISC_VehDoesntExist">
-            <Original>The vehicle either doesn't exist or is destroyed.</Original>
+            <Original>차량이 존재하지 않거나 완파되었습니다.</Original>
             <Czech>Vozidlo buď neexistuje, nebo je zničena.</Czech>
             <Spanish>El vehículo no existe o fue destruido.</Spanish>
             <Russian></Russian>
@@ -5408,7 +5408,7 @@
             <Polish>Pojazd nie istnieje lub jest zniszczony</Polish>
         </Key>
         <Key ID="STR_MISC_WrongNumFormat">
-            <Original>Invalid number format</Original>
+            <Original>숫자형식아님</Original>
             <Czech>Neplatný formát number</Czech>
             <Spanish>Formato de numero inválido</Spanish>
             <Russian></Russian>
@@ -5441,7 +5441,7 @@
             <Polish>Pojazd nie posiada takiej ilości rzeczy.</Polish>
         </Key>
         <Key ID="STR_MISC_soundnormal">
-            <Original>Your sound was set to normal mode!</Original>
+            <Original>귀마개 제거</Original>
             <Czech>Váš zvuk byl nastaven do normálního režimu!</Czech>
             <French>Votre son a été augmenté!</French>
             <Spanish>Tu sonido fue puesto en modo normal!</Spanish>
@@ -5452,7 +5452,7 @@
             <Polish>Dzwięk został ustawiony w tryb normalny!</Polish>
         </Key>
         <Key ID="STR_MISC_soundfade">
-            <Original>Your sound was set to fade mode!</Original>
+            <Original>귀마개 착용</Original>
             <Czech>Váš zvuk byl nastaven do režimu slábnout!</Czech>
             <French>Votre son a été diminué!</French>
             <Spanish>Tu sonido fue puesto en modo bajo!</Spanish>
@@ -5463,7 +5463,7 @@
             <Polish>Dzwięk został ustawiony w tryb wyciszony!</Polish>
         </Key>
         <Key ID="STR_MISC_overviewText">
-            <Original>An RPG game mode developed by Tonic.</Original>
+            <Original>AOSoul 화이팅!</Original>
             <Czech>Mód RPG hra vyvinutá Tonic.</Czech>
             <French>Un mode de jeu de RPG développé par Tonic.</French>
             <Spanish>Un modo de juego de rol desarrollado por Tonic.</Spanish>
@@ -5487,7 +5487,7 @@
             <Polish>Błąd w zapisywaniu pojemnika, nie można zlokalizować domu.</Polish>
         </Key>
         <Key ID="STR_House_ContainerDeny">
-            <Original>You are not allowed to access this storage container without the owner opening it.</Original>
+            <Original>소유자가 오픈하지 않아 이 스토리지에 액세스 할 수 없습니다.</Original>
             <Czech>Nemáte povolen přístup k tomuto skladovacího kontejneru, aniž by majitel otevření.</Czech>
             <Spanish>No tienes permiso de acceder este contenedor, sin el dueño haberlo abierto.</Spanish>
             <Russian></Russian>
@@ -5498,7 +5498,7 @@
             <Polish>Nie masz dostępu do pojemnika dopóki właściciel go nie otworzy.</Polish>
          </Key>
         <Key ID="STR_House_Container_House_Near">
-            <Original>There are no houses near you.</Original>
+            <Original>당신 근처에 집이 없습니다.</Original>
             <Czech>Nejsou žádné domy u vás.</Czech>
             <Spanish>No hay casas cerca de ti.</Spanish>
             <Italian>Non ci sono case vicino a voi.</Italian>
@@ -5520,7 +5520,7 @@
             <German>Der Container ist über die Treppe!</German>
         </Key>
         <Key ID="STR_House_Container_House_Near_Owner">
-            <Original>You are not the owner of the house.</Original>
+            <Original>이 집의 소유자가 아닙니다.</Original>
             <Czech>Nejste vlastníkem domu.</Czech>
             <Spanish>No eres el dueño de la casa.</Spanish>
             <Italian>Non sei il proprietario della casa.</Italian>
@@ -5531,7 +5531,7 @@
             <German>Du bist nicht der Eigentümer des Hauses.</German>
         </Key>
         <Key ID="STR_House_Door_Unlock">
-            <Original>You have unlocked the door.</Original>
+            <Original>문의 잠금장치를 해제하였습니다.</Original>
             <Czech>Jste odemkl dveře.</Czech>
             <Spanish>Has abierto la puerta.</Spanish>
             <Russian></Russian>
@@ -5542,7 +5542,7 @@
             <Polish>Odblokowałeś drzwi.</Polish>
         </Key>
         <Key ID="STR_House_Door_Lock">
-            <Original>You have locked the door.</Original>
+            <Original>문을 잠구었습니다.</Original>
             <Czech>Jste zamkli dveře.</Czech>
             <Spanish>Has cerrado con llave la puerta.</Spanish>
             <Russian></Russian>
@@ -5553,7 +5553,7 @@
             <Polish>Zablokowałeś drzwi.</Polish>
         </Key>
         <Key ID="STR_House_Door_NotNear">
-            <Original>You are not near a door!</Original>
+            <Original>문 근처가 아닙니다.</Original>
             <Czech>Nejste u dveří!</Czech>
             <Spanish>No estas cerca de una puerta!</Spanish>
             <Russian></Russian>
@@ -5564,7 +5564,7 @@
             <Polish>Nie jesteś przy drzwiach!</Polish>
         </Key>
         <Key ID="STR_House_Sell_Process">
-            <Original>This house was recently sold and is still processing in the database.</Original>
+            <Original>이 집은 이미 팔렸거나 처리중입니다.</Original>
             <Czech>Tento dům byl nedávno prodán a je stále zpracovává v databázi.</Czech>
             <Spanish>Esta casa fue vendida recientemente y esta procesando datos.</Spanish>
             <Russian></Russian>
@@ -5575,7 +5575,7 @@
             <Polish>Ten dom został ostatnio sprzedany i trwa jego przetwarzanie w bazie danych.</Polish>
         </Key>
         <Key ID="STR_House_License">
-            <Original>You do not have a home owners license!</Original>
+            <Original>Home Owner 라이센스가 없습니다.</Original>
             <Czech>Nemáte majitelům licenci doma!</Czech>
             <Spanish>No tienes licencia mobiliaria!</Spanish>
             <Russian></Russian>
@@ -5586,7 +5586,7 @@
             <Polish>Nie masz licencji zarządcy nieruchomości!</Polish>
         </Key>
         <Key ID="STR_House_Max_House">
-            <Original>You can only own %1 houses at a time.</Original>
+            <Original> %1 개의 집만 가질 수 있습니다.</Original>
             <Czech>Můžete vlastnit pouze%1 domy najednou.</Czech>
             <Spanish>Solo puedes ser dueño de %1 casas a la vez.</Spanish>
             <Russian></Russian>
@@ -5597,7 +5597,7 @@
             <Polish>Możesz posiadać maksymalnie %1 domów.</Polish>
         </Key>
         <Key ID="STR_House_NotEnough">
-            <Original>You do not have enough money!</Original>
+            <Original>돈이 부족합니다!</Original>
             <Czech>Nemáte dost peněz!</Czech>
             <Spanish>No tienes suficiente dinero!</Spanish>
             <Russian></Russian>
@@ -5619,7 +5619,7 @@
             <Polish>Ten dom jest dostępny za &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;Ma %2 miejsca na pojemniki do przechowywania wyposażenia</Polish>
         </Key>
         <Key ID="STR_House_Purchase">
-            <Original>Purchase House</Original>
+            <Original>House 구매</Original>
             <Czech>nákup domu</Czech>
             <Spanish>Comprar Casa</Spanish>
             <Russian></Russian>
@@ -5641,7 +5641,7 @@
             <Polish>Ten dom nie ma właściciela.</Polish>
         </Key>
         <Key ID="STR_House_Raid_OwnerOff">
-            <Original>This person is not online there for you cannot raid their house!</Original>
+            <Original>집주인이 온라인이 아니기 때문에 도둑질을 할 수 없습니다.</Original>
             <Czech>Tato osoba není on-line proto nelze nájezd svůj dům!</Czech>
             <Spanish>No puedes asaltar esta casa, porque el dueño no esta en linea!</Spanish>
             <Russian></Russian>
@@ -5652,7 +5652,7 @@
             <Polish>Osoba nie jest na serwerze, nie możesz przeszukać domu.</Polish>
         </Key>
         <Key ID="STR_House_Raid_DoorUnlocked">
-            <Original>The door is already unlocked!</Original>
+            <Original>이 문의 잠금 장치가 이미 해제 되었습니다.</Original>
             <Czech>Dveře jsou již odemčené!</Czech>
             <Spanish>La puerta ya esta abierta!</Spanish>
             <Russian></Russian>
@@ -5663,7 +5663,7 @@
             <Polish>Drzwi są już odblokowane!</Polish>
         </Key>
         <Key ID="STR_House_FedDoor_Locked">
-            <Original>The door is already locked!</Original>
+            <Original>문은 이미 잠겨있습니다.</Original>
             <Czech>Dveře jsou již zamčené!</Czech>
             <French>La porte est déjà fermée!</French>
             <Spanish>La puerta ya esta cerrada con llave!</Spanish>
@@ -5674,7 +5674,7 @@
             <Polish>Drzwi są już zablokowane!</Polish>
         </Key>
         <Key ID="STR_House_Raid_Progress">
-            <Original>Breaking lock on door</Original>
+            <Original>문의 잠금 장치를 뽀개는중 </Original>
             <Czech>Lámání zámek na dveřích</Czech>
             <Spanish>Rompiendo la cerradura de la puerta.</Spanish>
             <Russian></Russian>
@@ -5685,7 +5685,7 @@
             <Polish>Wyłamuje zablokowane drzwi...</Polish>
         </Key>
         <Key ID="STR_House_Raid_NOTF">
-            <Original>%1 your house is being raided by the cops!</Original>
+            <Original>%1 당신의 집이 경찰에 의해 압수수색 되고 있다</Original>
             <Czech>%1 vašeho domu je vpadl policajti!</Czech>
             <Spanish>%1 tu casa esta siendo asaltada por los policías!</Spanish>
             <Russian></Russian>
@@ -5696,7 +5696,7 @@
             <Polish>%1 twój dom jest kontrolowany przez policję!</Polish>
         </Key>
         <Key ID="STR_House_Raid_Owner">
-            <Original>House Owner</Original>
+            <Original>집 소유자</Original>
             <Czech>Majitel domu</Czech>
             <Spanish>Dueño de la casa</Spanish>
             <Russian></Russian>
@@ -5707,7 +5707,7 @@
             <Polish>Właściciel domu</Polish>
         </Key>
         <Key ID="STR_House_Raid_Nothing">
-            <Original>There is nothing in this house.</Original>
+            <Original>집안에 아무것도 없습니다.</Original>
             <Czech>Není nic v tomto domě.</Czech>
             <Spanish>Esta casa esta vacía.</Spanish>
             <Russian></Russian>
@@ -5718,7 +5718,7 @@
             <Polish>Nie znaleziono niczego nielegalnego.</Polish>
         </Key>
         <Key ID="STR_House_Raid_Searching">
-            <Original>Searching House...</Original>
+            <Original>압수 수색중...</Original>
             <Czech>Vyhledávání dům ...</Czech>
             <Spanish>Buscando Casa...</Spanish>
             <Russian></Russian>
@@ -5729,7 +5729,7 @@
             <Polish>Przeszukuję dom...</Polish>
         </Key>
         <Key ID="STR_House_Raid_TooFar">
-            <Original>You went too far away from the house!</Original>
+            <Original>집으로부터 너무 멀리 떨어져 있어요!</Original>
             <Czech>Jste zašel příliš daleko od domu!</Czech>
             <Spanish>Te alejastes mucho de la casa!</Spanish>
             <Russian></Russian>
@@ -5751,7 +5751,7 @@
             <Polish>Podczas przeszukania domu znaleziono kontrabandę o wartości $%1.</Polish>
         </Key>
         <Key ID="STR_House_Raid_NoIllegal">
-            <Original>Nothing illegal in this house.</Original>
+            <Original>집에 불법 물품 없음.</Original>
             <Czech>Nic nezákonného v tomto domě.</Czech>
             <Spanish>Nada ilegal en esta casa.</Spanish>
             <Russian></Russian>
@@ -5817,7 +5817,7 @@
             <Polish>Jesteś pewny że chcesz sprzedać dom za &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</Polish>
         </Key>
         <Key ID="STR_House_DeleteContainerMSG">
-            <Original>Are you sure you want to remove it?</Original>
+            <Original>정말 삭제 하시겠습니까?</Original>
             <Czech>Jsou si jisti, že jej chcete odstranit?</Czech>
             <Spanish>Estas seguro de que lo quieres remover?</Spanish>
             <Italian>Sei sicuro di voler rimuovere esso?</Italian>
@@ -5839,7 +5839,7 @@
             <German>Dieses Haus befindet sich bereits im Besitz, auch wenn Sie nicht diesen Hinweis werden sehen ...</German>
         </Key>
         <Key ID="STR_House_noOwner">
-            <Original>There is no owner for this house.</Original>
+            <Original>이 집의 소유자가 없습니다.</Original>
             <Czech>Neexistuje žádný majitel tohoto domu.</Czech>
             <French>Il n'y a pas le propriétaire de cette maison.</French>
             <Spanish>No hay ningún propietario de esta casa.</Spanish>
@@ -6417,7 +6417,7 @@
             <Polish>defibrylator</Polish>
         </Key>
         <Key ID="STR_Item_Toolkit">
-            <Original>수리도구-무한</Original>
+            <Original>수리도구_1회</Original>
             <Czech>Toolkit</Czech>
             <Spanish>Kit de Herramientas</Spanish>
             <Russian></Russian>
@@ -6426,6 +6426,9 @@
             <Italian>kit di strumenti</Italian>
             <Portuguese>conjunto de ferramentas</Portuguese>
             <Polish>zestaw narzędzi</Polish>
+        </Key>
+        <Key ID="STR_Item_Toolkit_infinite">
+            <Original>수리도구_무한</Original>
         </Key>
         <Key ID="STR_Item_Pickaxe">
             <Original>Pickaxe</Original>
@@ -7404,7 +7407,7 @@
             <Polish>Zaznacz najpier rzecz.</Polish>
         </Key>
         <Key ID="STR_ISTR_RedGullEffect">
-            <Original>You can now run farther for 3 minutes</Original>
+            <Original>You can now run farther for 2 minutes</Original>
             <Czech>Nyní můžete spustit další 3 minuty</Czech>
             <Spanish>Ahora puedes correr mas por 3 minutos</Spanish>
             <Russian></Russian>
@@ -8402,7 +8405,7 @@
             <Polish>Otrzymano żądanie serwera ... sprawdzam</Polish>
         </Key>
         <Key ID="STR_Session_SyncdAlready">
-            <Original>You have already used the sync option, you can only use this feature once every 5 minutes.</Original>
+            <Original>이미 sync data 를 눌렀습니다 5분에 한번만 사용할 수 있습니다.</Original>
             <Czech>Již jste použili možnosti synchronizace, můžete použít pouze tuto funkci jednou za 5 minut.</Czech>
             <Spanish>Ya has usado la función de sincronización, solo la puedes usar una vez cada 5 minutos.</Spanish>
             <Russian></Russian>
@@ -8413,7 +8416,7 @@
             <Polish>Użyłeś niedawno opcji synchronizacji, możesz jej używać maksymalnie co 5 minut.</Polish>
         </Key>
         <Key ID="STR_Session_SyncData">
-            <Original>Syncing player information to the server.\n\nPlease wait up to 20 seconds before leaving.</Original>
+            <Original>서버와 데이터 동기화 중입니다.\n\n 접속을 끊으시려면 20초 후에 시도하세요.</Original>
             <Czech>Synchronizace informace o hráčích na serveru. \ O \ Prosím, vyčkejte až 20 sekund před odjezdem.</Czech>
             <Spanish>Se esta sinconizando tu información con el server.\n\nPor favor espera 20 segundos antes de salir del server.</Spanish>
             <Russian></Russian>
@@ -8426,7 +8429,7 @@
     </Package>
     <Package name="Shop_Strings">
         <Key ID="STR_Shop_ATMRobbed">
-            <Original>Because you robbed the bank you can't use the ATM for %1 minutes.</Original>
+            <Original>은행을 털어서 ATM은  %1 분 후 이용 가능 합니다.</Original>
             <Czech>Protože jste vyloupil banku nelze použít bankomat pro%1 minut.</Czech>
             <Spanish>Porque robastes el banco no puedes usar el ATM por %1 minutos.</Spanish>
             <Russian></Russian>
@@ -8514,7 +8517,7 @@
             <Polish>Powstał problem przy otwieraniu menu dziupli</Polish>
         </Key>
         <Key ID="STR_Shop_ChopShopSelling">
-            <Original>Selling vehicle please wait...</Original>
+            <Original>차량 판매중..기다리십시오...</Original>
             <Czech>Prodejní vozidlo čekejte prosím ...</Czech>
             <Spanish>Vendiendo vehículo, por favor espera...</Spanish>
             <Russian></Russian>
@@ -8547,7 +8550,7 @@
             <Polish>Musisz być policjantem aby kupować w tym sklepie!</Polish>
         </Key>
         <Key ID="STR_Shop_NotaReb">
-            <Original>You don't have rebel training yet!</Original>
+            <Original>반군 트레이닝 라이센스를 구입하세요.</Original>
             <Czech>Nemáte rebelů výcvik ještě!</Czech>
             <Spanish>No tienes Entrenamiento Rebelde!</Spanish>
             <Russian></Russian>
@@ -8558,7 +8561,7 @@
             <Polish>Nie posiadasz treningu rebelianta!</Polish>
         </Key>
         <Key ID="STR_Shop_NotaDive">
-            <Original>You need a Diving license to use this shop!</Original>
+            <Original>이 상점을 이용하려면 driving license 를 구매하세요.</Original>
             <Czech>Potřebujete licenci potápění použít tento obchod!</Czech>
             <Spanish>Necesitas una licencia de buceo para usar esta tienda!</Spanish>
             <Russian></Russian>
@@ -8679,7 +8682,7 @@
             <Polish>Nie wybrałeś pojazdu!</Polish>
         </Key>
         <Key ID="STR_Shop_Veh_NotEnough">
-            <Original>You do not have enough cash to purchase this vehicle.\n\nAmount Lacking: $%1</Original>
+            <Original>이 차량을 사기에 돈이 부족합니다.\n\nAmount Lacking: $%1</Original>
             <Czech>Nemáte dostatek peněz na koupi tohoto vozidla \ n \ nAmount Postrádat:. $%1</Czech>
             <Spanish>No tienes suficiente dinero para comprar este vehículo.\n\nFalta: $%1</Spanish>
             <Russian></Russian>
@@ -8690,7 +8693,7 @@
             <Polish>Nie masz tyle pieniędzy by kupić ten pojazd.\n\nBrakuje: $%1</Polish>
         </Key>
         <Key ID="STR_Shop_Veh_NoLicense">
-            <Original>You do not have the required license!</Original>
+            <Original>라이센스가 없습니다.</Original>
             <Czech>Nemáte požadovanou licenci!</Czech>
             <Spanish>No tienes la licencia requerida!</Spanish>
             <Russian></Russian>
@@ -8701,7 +8704,7 @@
             <Polish>Nie posiadasz odpowiedniej licencji!</Polish>
         </Key>
         <Key ID="STR_Shop_Veh_Block">
-            <Original>There is a vehicle currently blocking the spawn point</Original>
+            <Original>스폰 지점에 현재 다른 차량이 있습니다.</Original>
             <Czech>Tam je vozidlo v současné době blokuje potěr bod</Czech>
             <Spanish>Hay un vehículo bloqueando el punto de Spawn.</Spanish>
             <Russian></Russian>
@@ -8723,7 +8726,7 @@
             <Polish>Kupiłeś %1 za $%2</Polish>
         </Key>
         <Key ID="STR_Shop_Veh_UI_Rental">
-            <Original>Rental Price:</Original>
+            <Original>렌트비용:</Original>
             <Czech>Pronájem Cena:</Czech>
             <Spanish>Precio de Renta:</Spanish>
             <Russian></Russian>
@@ -8734,7 +8737,7 @@
             <Polish>Wypożyczenie:</Polish>
         </Key>
         <Key ID="STR_Shop_Veh_UI_Ownership">
-            <Original>Ownership Price:</Original>
+            <Original>구매비용:</Original>
             <Czech>Vlastnictví Cena:</Czech>
             <Spanish>Precio de Compra:</Spanish>
             <Russian></Russian>
@@ -8745,7 +8748,7 @@
             <Polish>Kupno:</Polish>
         </Key>
         <Key ID="STR_Shop_Veh_UI_MaxSpeed">
-            <Original>Max Speed:</Original>
+            <Original>최고속도:</Original>
             <Czech>Maximální rychlost:</Czech>
             <Spanish>Máxima Velocidad:</Spanish>
             <Russian></Russian>
@@ -8756,7 +8759,7 @@
             <Polish>Prędkość:</Polish>
         </Key>
         <Key ID="STR_Shop_Veh_UI_HPower">
-            <Original>Horse Power:</Original>
+            <Original>마력:</Original>
             <Czech>Koňská síla:</Czech>
             <Spanish>Caballos de Fuerza:</Spanish>
             <Russian></Russian>
@@ -8778,7 +8781,7 @@
             <Polish>Ilość miejsc:</Polish>
         </Key>
         <Key ID="STR_Shop_Veh_UI_Trunk">
-            <Original>Trunk Capacity:</Original>
+            <Original>트렁크 용량:</Original>
             <Czech>Zavazadlový prostor Kapacita:</Czech>
             <Spanish>Capacidad de Maletero:</Spanish>
             <Russian></Russian>
@@ -8789,7 +8792,7 @@
             <Polish>Pojemność bagażnika:</Polish>
         </Key>
         <Key ID="STR_Shop_Veh_UI_Fuel">
-            <Original>Fuel Capacity:</Original>
+            <Original>Fuel 용량:</Original>
             <Czech>Palivo Kapacita:</Czech>
             <Spanish>>Capacidad de Combustible:</Spanish>
             <Russian></Russian>
@@ -8822,7 +8825,7 @@
             <Polish>Koszt wyciągnięcia:</Polish>
         </Key>
         <Key ID="STR_Shop_Veh_UI_SellP">
-            <Original>Sell Price:</Original>
+            <Original>판매가격:</Original>
             <Czech>Prodejní cena:</Czech>
             <Spanish>Precio de Venta:</Spanish>
             <Russian></Russian>
@@ -8833,7 +8836,7 @@
             <Polish>Cena sprzedaży:</Polish>
         </Key>
         <Key ID="STR_Shop_Veh_UI_Color">
-            <Original>Color:</Original>
+            <Original>색상:</Original>
             <Czech>Barva:</Czech>
             <Spanish>Color:</Spanish>
             <Russian></Russian>
@@ -8844,7 +8847,7 @@
             <Polish>Kolor</Polish>
         </Key>
         <Key ID="STR_Shop_Veh_NotAllowed">
-            <Original>You are not allowed to use this shop!</Original>
+            <Original>이 상점을 사용할 수 없습니다.</Original>
             <Czech>Ty jsou není dovoleno používat tento obchod!</Czech>
             <Spanish>No tienes permiso de usar esta tienda!</Spanish>
             <Russian></Russian>
@@ -8855,7 +8858,7 @@
             <Polish>Nie jesteś uprawniony do używania tego sklepu!</Polish>
         </Key>
         <Key ID="STR_Shop_Virt_Nothing">
-            <Original>You need to select an item to buy.</Original>
+            <Original>구매를 하려면 한 개의 아이템을 선택해야합니다.</Original>
             <Czech>Je třeba vybrat položku, kterou chcete koupit.</Czech>
             <Spanish>Debes selecionar un objeto para comprar.</Spanish>
             <Russian></Russian>
@@ -8899,7 +8902,7 @@
             <Polish>Gang posiada wystarczającą ilość środków aby za to zapłacić, chcesz zapłacić za to środkami gangu, czy własnymi?</Polish>
         </Key>
         <Key ID="STR_Shop_Virt_Gang_Funds">
-            <Original>Gang Funds:</Original>
+            <Original>갱 자금:</Original>
             <Czech>Gang fondy:</Czech>
             <Spanish>Fondos de Pandilla:</Spanish>
             <Russian></Russian>
@@ -8987,7 +8990,7 @@
             <Polish>Sprzedałeś %1 %2 za $%3</Polish>
         </Key>
         <Key ID="STR_Shop_Weapon_NoSelect">
-            <Original>You need to select an item to buy/sell.</Original>
+            <Original>구매하거나 팔려면 한 개의 아이템을 선택하십시오.</Original>
             <Czech>Je třeba vybrat položku na buy / sell.</Czech>
             <Spanish>Necesitas seleccionar un objetar para vender/comprar.</Spanish>
             <Russian></Russian>
@@ -9031,7 +9034,7 @@
             <Polish>Kupiłeś %1 za &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</Polish>
         </Key>
         <Key ID="STR_Shop_Weapon_ShopInv">
-            <Original>Shop Inventory</Original>
+            <Original>상점 인벤토리</Original>
             <Czech>Obchod Zásoby</Czech>
             <Spanish>Inventario de la Tienda</Spanish>
             <Russian></Russian>
@@ -9042,7 +9045,7 @@
             <Polish>Wyposażenie sklepu</Polish>
         </Key>
         <Key ID="STR_Shop_Weapon_YourInv">
-            <Original>Your Inventory</Original>
+            <Original>당신의 인벤토리</Original>
             <Czech>Váš Inventory</Czech>
             <Spanish>Tu inventario</Spanish>
             <Russian></Russian>
@@ -9055,7 +9058,7 @@
     </Package>
     <Package name="FSM_Strings">
         <Key ID="STR_FSM_Paycheck">
-            <Original>You will receive your next paycheck in %1 minutes.</Original>
+            <Original>당신은 %1 분뒤 월급을 받을 것 입니다.</Original>
             <Czech>Obdržíte svůj další výplatní pásku v%1 minut.</Czech>
             <Spanish>Recibiras tu siguiente pago en %1 minutos</Spanish>
             <Russian></Russian>
@@ -9066,7 +9069,7 @@
             <Polish>Otrzymasz kolejną wypłatę w ciągu %1 minut.</Polish>
         </Key>
         <Key ID="STR_FSM_MissedPay">
-            <Original>You have missed a paycheck because you were dead.</Original>
+            <Original>당신이 죽었기 때문에 이번 월급은 패스됩니다.</Original>
             <Czech>Jste vynechal výplatu, protože jste byli mrtví.</Czech>
             <Spanish>Te has perdido un pago por estar muerto.</Spanish>
             <Russian></Russian>
@@ -9077,7 +9080,7 @@
             <Polish>Ominęła cię wypłata ponieważ byłeś martwy.</Polish>
         </Key>
         <Key ID="STR_FSM_ReceivedPay">
-            <Original>You have received a paycheck of $%1.</Original>
+            <Original>$%1. 의 월급을 받았습니다.</Original>
             <Czech>Dostali jste výplatu ve výši $ %1.</Czech>
             <Spanish>Has recibido un pago de $%1</Spanish>
             <Russian></Russian>
@@ -9101,7 +9104,7 @@
             <German>Benzinkanister betanken</German>
         </Key>
         <Key ID="STR_Action_Pump">
-            <Original>Refuel Vehicle</Original>
+            <Original>차량 연료 보급</Original>
             <Czech>tankovací Vehicle</Czech>
             <Spanish>Llenar Vehículo</Spanish>
             <Italian>Fare rifornimento di veicoli</Italian>
@@ -9145,7 +9148,7 @@
             <German>Wähle ein Fahrzeug</German>
         </Key>
         <Key ID="STR_Distance_Vehicle_Pump">
-            <Original>The vehicle is too far or you are in!</Original>
+            <Original>차량이 너무 멀리 떨어져 있습니다!</Original>
             <Czech>Vozidlo je příliš daleko, nebo jste se!</Czech>
             <Spanish>El Vehículo esta muy lejos o tu estas adentro!</Spanish>
             <Italian>Il veicolo è troppo lontano o vi sei all'interno!</Italian>
@@ -9156,7 +9159,7 @@
             <German>Das Fahrzeug ist zu weit entfernt oder du sitzt noch drin!</German>
         </Key>
         <Key ID="STR_Vehicle_Ready_Pump">
-            <Original>The vehicle is full!</Original>
+            <Original>차량이 가득 찼습니다!</Original>
             <Czech>Vozidlo je plná!</Czech>
             <Spanish>El Vehículo esta lleno!</Spanish>
             <Italian>Il veicolo è pieno!</Italian>
@@ -9180,7 +9183,7 @@
             <Polish>Zarzuć sieć</Polish>
         </Key>
         <Key ID="STR_pAct_RobPerson">
-            <Original>Rob Person</Original>
+            <Original>강도</Original>
             <Czech>Rob Pearson</Czech>
             <Spanish>Robar Persona</Spanish>
             <Russian></Russian>
@@ -9269,16 +9272,16 @@
             <Polish>Warzelnia soli</Polish>
             <Italian>Processo del sale</Italian>
         </Key>
-        <Key ID="STR_MAR_Altis_Corrections">
-            <Original>Altis Corrections</Original>
-            <Czech>Altis Opravy</Czech>
-            <French>Prison d'Altis</French>
-            <Spanish>Prisión de Altis</Spanish>
+        <Key ID="STR_MAR_AOSoul_Corrections">
+            <Original>AOSoul Corrections</Original>
+            <Czech>AOSoul Opravy</Czech>
+            <French>Prison d'AOSoul</French>
+            <Spanish>Prisión de AOSoul</Spanish>
             <Russian></Russian>
-            <German>Altis Bundesgefängnis</German>
-            <Portuguese>Prisão de Altis</Portuguese>
-            <Polish>Więzienie Altis</Polish>
-            <Italian>Penitenziario di Altis</Italian>
+            <German>AOSoul Bundesgefängnis</German>
+            <Portuguese>Prisão de AOSoul</Portuguese>
+            <Polish>Więzienie AOSoul</Polish>
+            <Italian>Penitenziario di AOSoul</Italian>
         </Key>
         <Key ID="STR_MAR_Police_HQ">
             <Original>Police HQ</Original>
@@ -9289,7 +9292,7 @@
             <Russian></Russian>
             <German>Polizei HauptQuartier</German>
             <Portuguese>QG Policial</Portuguese>
-            <Polish>KG Policji Altis</Polish>
+            <Polish>KG Policji AOSoul</Polish>
         </Key>
         <Key ID="STR_MAR_Coast_Guard">
             <Original>Coast Guard</Original>
@@ -9421,7 +9424,7 @@
             <Russian></Russian>
             <German>Zentralbank</German>
             <Portuguese>Banco Local</Portuguese>
-            <Polish>Bank Altis</Polish>
+            <Polish>Bank AOSoul</Polish>
         </Key>
         <Key ID="STR_MAR_Car_Shop">
             <Original>Car Shop</Original>
@@ -9443,7 +9446,7 @@
             <Russian></Russian>
             <German>Krankenhaus</German>
             <Portuguese>Hospital/Clínica</Portuguese>
-            <Polish>Klinika Altis</Polish>
+            <Polish>Klinika AOSoul</Polish>
         </Key>
         <Key ID="STR_MAR_Diamond_Mine">
             <Original>Diamond Mine</Original>
@@ -9549,14 +9552,14 @@
             <Czech>Channel 7 News</Czech>
             <French>Channel 7</French>
             <Spanish>Canal de Noticias 7</Spanish>
-            <Italian>Notiziario di Altis</Italian>
+            <Italian>Notiziario di AOSoul</Italian>
             <Russian></Russian>
             <German>Kanal 7 Nachrichtensender</German>
             <Portuguese>Canal de Notícias 7</Portuguese>
             <Polish>Maszt nadawczy</Polish>
         </Key>
         <Key ID="STR_MAR_DMV">
-            <Original>DMV</Original>
+            <Original>License Shop</Original>
             <Czech>DMV</Czech>
             <French>Magasin de licences</French>
             <Spanish>Registro de Licencias</Spanish>
@@ -11379,7 +11382,7 @@
             <Spanish></Spanish>
             <Italian></Italian>
             <Polish></Polish>
-            Portuguese>sacou R$%1 no banco da sua gangue. Quantia no Banco da Gangue: R$%2 Quantia no Banco: R$%3 Quantia na Mão: R$%4</Portuguese>
+            <Portuguese>sacou R$%1 no banco da sua gangue. Quantia no Banco da Gangue: R$%2 Quantia no Banco: R$%3 Quantia na Mão: R$%4</Portuguese>
             <Russian>снял $%1 от их банды банка. Gang Bank Баланс: $%2 банка Баланс: $%3 на руку Баланс: $%4</Russian>
             <German>hat $%1 von seinem Gang-Konto abgehoben. Gang-Konto: $%2  Bank-Konto: $%3  Bargeld: $%4</German>
         </Key>
