@@ -205,7 +205,7 @@ class VirtualItems {
         variable = "toolkit";
         displayName = "STR_Item_Toolkit";
         weight = 4;
-        buyPrice = 15000;
+        buyPrice = 21000;
         sellPrice = 5000;
         illegal = false;
         edible = -1;
