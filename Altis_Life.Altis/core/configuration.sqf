@@ -52,6 +52,7 @@ life_jetpack = false;
 life_recentText = "";
 
 //Settings
+life_settings_enableNewsBroadcast = profileNamespace getVariable ["life_enableNewsBroadcast",true];
 life_settings_enableSidechannel = profileNamespace getVariable ["life_enableSidechannel",true];
 life_settings_tagson = profileNamespace getVariable ["life_settings_tagson",true];
 life_settings_revealObjects = profileNamespace getVariable ["life_settings_revealObjects",true];
