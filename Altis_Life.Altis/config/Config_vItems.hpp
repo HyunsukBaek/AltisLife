@@ -13,7 +13,7 @@ class VirtualShops {
         side = "";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "toolkit", "fuelFull", "peach", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "toolkit", "toolkit_infinite", "fuelFull", "peach", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
     };
 
     class med_market {
@@ -21,7 +21,7 @@ class VirtualShops {
         side = "med";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "toolkit", "fuelFull", "peach", "defibrillator" };
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "toolkit", "toolkit_infinite", "fuelFull", "peach", "defibrillator" };
     };
 
     class rebel {
@@ -141,7 +141,7 @@ class VirtualShops {
         side = "cop";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit", "defibrillator" };
+        items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "toolkit_infinite", "fuelFull", "defusekit", "defibrillator" };
     };
 
     //Custom
@@ -160,7 +160,6 @@ class VirtualShops {
         level[] = { "", "", -1, "" };
         items[] = { "wood", "chainsaw", "plywood" };
     };
-
 };
 
 /*
@@ -205,8 +204,19 @@ class VirtualItems {
         variable = "toolkit";
         displayName = "STR_Item_Toolkit";
         weight = 4;
-        buyPrice = 21000;
-        sellPrice = 5000;
+        buyPrice = 4000;
+        sellPrice = 1000;
+        illegal = false;
+        edible = -1;
+        icon = "\a3\weapons_f\items\data\UI\gear_toolkit_ca.paa";
+    };
+
+    class toolkit_infinite {
+        variable = "toolkit_infinite";
+        displayName = "STR_Item_Toolkit_infinite";
+        weight = 7;
+        buyPrice = 210000;
+        sellPrice = 50000;
         illegal = false;
         edible = -1;
         icon = "\a3\weapons_f\items\data\UI\gear_toolkit_ca.paa";

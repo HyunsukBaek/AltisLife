@@ -13,7 +13,7 @@ if (playerSide == civilian) exitWith {hint "You must be a cop to purchase this!"
 if((FETCH_CONST(life_coplevel)) < 2) exitWith { hint "자동 아이템 세팅 하려면 경찰2레벨 이상되야합니다!"};  //level 2+
 /*
 {
-    exitWith { hint "You are not the right level!"};  //level 3+
+    exitWith { hint "You are not the right level!"};  //level 2+
 };
 */
 if (life_cash > 79999) then //100k
@@ -48,12 +48,8 @@ if (life_cash > 79999) then //100k
     player addMagazine "16Rnd_9x21_Mag";
     player addMagazine "16Rnd_9x21_Mag";
     player addMagazine "16Rnd_9x21_Mag";
-    player addWeapon "NVGoggles"; // silencer
-    //player addItem "ToolKit"; // silencer
-    player addItem "FirstAidKit"; // silencer
-    player addItem "FirstAidKit"; // silencer
-    player addItem "Binocular";
-    player assignItem "Binocular";
+    player addWeapon "NVGoggles";
+    player addItem "FirstAidKit";
     player addItem "ItemGPS";
     player assignItem "ItemGPS";
     //Virtual items, who knows might be used... -check config_master
