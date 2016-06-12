@@ -21,7 +21,7 @@ class VirtualShops {
         side = "med";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "toolkit", "toolkit_infinite", "fuelFull", "peach", "defibrillator" };
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "toolkit", "toolkit_infinite", "fuelFull", "peach", "defibrillator", "broadcastmic"};
     };
 
     class rebel {
@@ -943,4 +943,16 @@ class VirtualItems {
         edible = -1;
         icon = "icons\custom\Chainsaw.paa";
     };
+
+    class broadcastmic {
+        variable = "broadcastmic";
+        displayName = "STR_Item_broadcastmic";
+        weight = 5;
+        buyPrice = 90000000;
+        sellPrice = 1000;
+        illegal = false;
+        edible = -1;
+        icon = "icons\custom\ico_mic.paa";
+    };
+
 };

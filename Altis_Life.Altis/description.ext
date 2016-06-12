@@ -140,12 +140,12 @@ class CfgSounds {
         titles[] = {};
     };
 	
-	class chainsaw
-	{
-		name = "chainsaw";
-		sound[] = {"\sounds\chainsaw.ogg", 1.0, 1};
-		titles[] = {};
-	};
+	   class chainsaw
+	   {
+		      name = "chainsaw";
+		      sound[] = {"\sounds\chainsaw.ogg", 1.0, 1};
+		      titles[] = {};
+	   };
 };
 
 class CfgDebriefing {

@@ -4272,8 +4272,8 @@
             <Russian>Захват шайка укрытие</Russian>
             <German>Ganggebiet einnehmen</German>
         </Key>
-        <Key ID="STR_NOTF_couldNotGiveBomul">
-            <Original>보물은 남에게 줄 수 없습니다. 어드민에게 환전 후 remove하셔야 합니다</Original>
+        <Key ID="STR_NOTF_couldNotGiveItem">
+            <Original>이아이템은 남에게 줄 수 없습니다.</Original>
         </Key>
     </Package>
     <Package name="News_Strings">
@@ -6717,6 +6717,9 @@
         <Key ID="STR_Item_chainsaw">
             <Original>전기톱(Chainsaw)</Original>
         </Key>
+        <Key ID="STR_Item_broadcastmic">
+            <Original>뉴스마이크</Original>
+        </Key>
     </Package>
     <Package name="Life_License">
         <Key ID="STR_License_Driver">
@@ -8968,7 +8971,7 @@
             <Polish>Kupiłeś %1 %2 za $%3 ze środków gangu</Polish>
         </Key>
         <Key ID="STR_Shop_Virt_BoughtItem">
-            <Original>You bought %1 %2 for $%3</Original>
+            <Original>%2 %1 개를 $%3 에 구입하였습니다.</Original>
             <Czech>Koupili jste% %1 2 na $ %3</Czech>
             <Spanish>Comprastes %1 %2 por $%3</Spanish>
             <Russian></Russian>
