@@ -10,7 +10,7 @@
 
 disableChannels[]={
 					{0,true,true},		//Global
-					{1,false,true},		//Side
+					{1,false,false},		//Side
 					{2,true,true},		//Command
 					{3,false,false},	//Group
 					{4,false,false},	//Vehicle
