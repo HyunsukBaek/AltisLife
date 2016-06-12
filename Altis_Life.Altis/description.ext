@@ -52,7 +52,7 @@ class CfgSounds {
     };
 
     class tazersound {
-        name = "Tazersound";
+        name = "tazersound";
         sound[] = {"\sounds\tazer.ogg", 0.25, 1};
         titles[] = {};
     };
