@@ -19,7 +19,7 @@ if (_length > _allowedLength) exitWith {hint format[localize "STR_News_HeaderLen
 
 [_broadcastHeader,_broadcastMessage,profileName] remoteExec ['life_fnc_AAN',-2];
 
-CASH = CASH - LIFE_SETTINGS(getNumber,"news_broadcast_cost");
+life_atmbank = life_atmbank - LIFE_SETTINGS(getNumber,"news_broadcast_cost");
 [0] call SOCK_fnc_updatePartial;
 life_broadcastTimer = time;
 publicVariable "life_broadcastTimer";
