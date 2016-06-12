@@ -1,4 +1,3 @@
-disableChannels[]={0,2};
 //Channel Number
 //0 = Global
 //1 = Side
@@ -8,7 +7,7 @@ disableChannels[]={0,2};
 //5 = Direct
 //6 = System
 
-/*
+
 disableChannels[]={
 					{0,true,true},		//Global
 					{1,false,true},		//Side
@@ -17,8 +16,8 @@ disableChannels[]={
 					{4,false,false},	//Vehicle
 					{5,false,false},	//Direct
 					{6,true,true}		//System
-				  };
-*/
+};
+
 
 #include "config\Config_Spyglass.hpp"
 #include "CfgRemoteExec.hpp"
