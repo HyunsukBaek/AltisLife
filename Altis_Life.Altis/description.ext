@@ -7,16 +7,7 @@
 //5 = Direct
 //6 = System
 
-
-disableChannels[]={
-					{0,true,true},		//Global
-					{1,false,false},		//Side
-					{2,true,true},		//Command
-					{3,false,false},	//Group
-					{4,false,false},	//Vehicle
-					{5,false,false},	//Direct
-					{6,true,true}		//System
-};
+disableChannels[]={{0,true,true},{2,true,true}};  
 
 
 #include "config\Config_Spyglass.hpp"
