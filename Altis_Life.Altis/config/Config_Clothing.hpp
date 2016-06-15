@@ -113,7 +113,11 @@ class Clothing {
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
             { "B_AssaultPack_sgg", "JetPack", 300000, { "", "", -1 } },
-            { "B_Parachute", "낙하산", 37500, { "", "", -1 } }
+            { "B_Parachute", "낙하산", 37500, { "", "", -1 } },
+            { "tf_anarc164", "", 3000, { "", "", -1 } },  //airborne - 40KM  //INDEPENDENT
+            { "tf_rt1523g_sage", "", 3000, { "", "", -1 } }, //long range-  40KM // BLUEFOR
+            { "tf_anarc210", "", 3000, { "", "", -1 } }, //airborne - 40KM // BLUEFOR
+            { "tf_mr6000l", "", 3000, { "", "", -1 } } // airborne -40KM // OPFOR
         };
     };
 
@@ -204,11 +208,11 @@ class Clothing {
             { "B_Carryall_cbr", "", 3500, { "", "", -1 } },
             { "B_Parachute", "낙하산", 37500, { "", "", -1 } },
             { "B_OutdoorPack_blk", "", 500, { "", "", -1 } },
-            { "B_AssaultPack_sgg", "JetPack", 300000, { "", "", -1 } }
-//	    { "tf_anarc164", "", 3000, { "", "", -1 } },  //airborne - 40KM  //INDEPENDENT
-//          { "tf_rt1523g_sage", "", 3000, { "", "", -1 } } //long range-  40KM // BLUEFOR
-//	    { "tf_anarc210", "", 3000, { "", "", -1 } }, //airborne - 40KM // BLUEFOR
-//          { "tf_mr6000l", "", 3000, { "", "", -1 } }, // airborne -40KM // OPFOR
+            { "B_AssaultPack_sgg", "JetPack", 300000, { "", "", -1 } },
+            { "tf_anarc164", "", 3000, { "", "", -1 } },  //airborne - 40KM  //INDEPENDENT
+            { "tf_rt1523g_sage", "", 3000, { "", "", -1 } }, //long range-  40KM // BLUEFOR
+            { "tf_anarc210", "", 3000, { "", "", -1 } }, //airborne - 40KM // BLUEFOR
+            { "tf_mr6000l", "", 3000, { "", "", -1 } } // airborne -40KM // OPFOR
 
 //	    { "tf_anprc155", "", 3000, { "", "", -1 } },  //long range - 20KM(30 FOR inbuilt) // INDEPENDENT
 //	    { "tf_anprc155_coyote", "", 3000, { "", "", -1 } },//long range - 20KM(30 FOR inbuilt)// INDEPENDENT
@@ -358,7 +362,11 @@ class Clothing {
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
             { "B_AssaultPack_sgg", "JetPack", 300000, { "", "", -1 } },
-            { "B_Parachute", "낙하산", 37500, { "", "", -1 } }
+            { "B_Parachute", "낙하산", 37500, { "", "", -1 } },
+            { "tf_anarc164", "", 3000, { "", "", -1 } },  //airborne - 40KM  //INDEPENDENT
+            { "tf_rt1523g_sage", "", 3000, { "", "", -1 } }, //long range-  40KM // BLUEFOR
+            { "tf_anarc210", "", 3000, { "", "", -1 } }, //airborne - 40KM // BLUEFOR
+            { "tf_mr6000l", "", 3000, { "", "", -1 } } // airborne -40KM // OPFOR
         };
     };
 
@@ -424,7 +432,11 @@ class Clothing {
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
             { "B_Parachute", "낙하산", 37500, { "", "", -1 } },
-            { "B_AssaultPack_sgg", "JetPack", 300000, { "", "", -1 } }
+            { "B_AssaultPack_sgg", "JetPack", 300000, { "", "", -1 } },
+            { "tf_anarc164", "", 3000, { "", "", -1 } },  //airborne - 40KM  //INDEPENDENT
+            { "tf_rt1523g_sage", "", 3000, { "", "", -1 } }, //long range-  40KM // BLUEFOR
+            { "tf_anarc210", "", 3000, { "", "", -1 } }, //airborne - 40KM // BLUEFOR
+            { "tf_mr6000l", "", 3000, { "", "", -1 } } // airborne -40KM // OPFOR
         };
     };
 
@@ -510,7 +522,11 @@ class Clothing {
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
             { "B_OutdoorPack_blk", "", 7500, { "", "", -1 } },
             { "B_AssaultPack_sgg", "JetPack", 300000, { "", "", -1 } },
-            { "B_Parachute", "낙하산", 37500, { "", "", -1 } }
+            { "B_Parachute", "낙하산", 37500, { "", "", -1 } },
+            { "tf_anarc164", "", 3000, { "", "", -1 } },  //airborne - 40KM  //INDEPENDENT
+            { "tf_rt1523g_sage", "", 3000, { "", "", -1 } }, //long range-  40KM // BLUEFOR
+            { "tf_anarc210", "", 3000, { "", "", -1 } }, //airborne - 40KM // BLUEFOR
+            { "tf_mr6000l", "", 3000, { "", "", -1 } } // airborne -40KM // OPFOR
         };
     };
 
