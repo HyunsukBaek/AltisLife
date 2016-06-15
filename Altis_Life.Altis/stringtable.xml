@@ -2,7 +2,7 @@
 <Project name="AOSoul Life RPG">
     <Package name="Init">
         <Key ID="STR_Init_ClientSetup">
-            <Original>Setting up client, please wait...</Original>
+            <Original>클라이언트 셋업중..기다려주세영...</Original>
             <Czech></Czech>
             <Spanish></Spanish>
             <Russian></Russian>
@@ -13,7 +13,7 @@
             <Polish></Polish>
         </Key>
         <Key ID="STR_Init_ServerReady">
-            <Original>Waiting for the server to be ready...</Original>
+            <Original>서버가 준비되길 기다리는중...</Original>
             <Czech></Czech>
             <Spanish></Spanish>
             <Russian></Russian>
@@ -24,7 +24,7 @@
             <Polish></Polish>
         </Key>
         <Key ID="STR_Init_ExtdbFail">
-            <Original>extDB failed to load, please contact an administrator.</Original>
+            <Original>디비연결이 안됩니다. 어드민짱을 불러주세요.</Original>
             <Czech></Czech>
             <Spanish></Spanish>
             <Russian></Russian>
@@ -35,7 +35,7 @@
             <Polish></Polish>
         </Key>
         <Key ID="STR_Init_ClientFinish">
-            <Original>Finishing client setup procedure...</Original>
+            <Original>클라이언트 프로세스 종료중...</Original>
             <Czech></Czech>
             <Spanish></Spanish>
             <Russian></Russian>
@@ -59,7 +59,7 @@
             <German>Bruce Outback Outfits</German>
         </Key>
         <Key ID="STR_Shops_C_Police">
-            <Original>AOSoul Police Department Shop</Original>
+            <Original>AOSoul Cop 상점</Original>
             <Czech>AOSoul policejní oddělení Shop</Czech>
             <French>Boutique de la police</French>
             <Spanish>Tienda del Departamento de Policía</Spanish>
@@ -125,7 +125,7 @@
             <Polish>Sklep Kartingowy</Polish>
         </Key>
         <Key ID="STR_Shops_Market">
-            <Original>AOSoul Market</Original>
+            <Original>AOSoul 상점</Original>
             <Czech>AOSoul Market</Czech>
             <Spanish>Mercado de AOSoul</Spanish>
             <Russian></Russian>
@@ -136,7 +136,7 @@
             <Polish>Market AOSoul</Polish>
         </Key>
         <Key ID="STR_Shops_Rebel">
-            <Original>Rebel Market</Original>
+            <Original>반군 상점</Original>
             <Czech>Rebel Market</Czech>
             <Spanish>Mercado Rebelde</Spanish>
             <Russian></Russian>
@@ -147,7 +147,7 @@
             <Polish>Market Rebeliantów</Polish>
         </Key>
         <Key ID="STR_Shops_Gang">
-            <Original>Gang Market</Original>
+            <Original>갱 상점</Original>
             <Czech>gang Market</Czech>
             <Spanish>Mercado Pandillero</Spanish>
             <Russian></Russian>
@@ -1066,7 +1066,7 @@
             <Polish>Nie masz tyle środków na koncie!</Polish>
         </Key>
         <Key ID="STR_ATM_NotEnoughFundsG">
-            <Original>You don't have that much in your gang bank account!</Original>
+            <Original>갱자금이 부족해요</Original>
             <Czech>Nemusíte to hodně ve svém gang bankovní účet!</Czech>
             <Spanish>No hay tanto dinero en la cuenta de tu pandilla!</Spanish>
             <Italian>Il conto della gang non ha abbastanza denaro!</Italian>
@@ -2312,7 +2312,7 @@
             <Polish>Admin Menu</Polish>
         </Key>
         <Key ID="STR_PM_SyncData">
-            <Original>데이터 동기화-sync data</Original>
+            <Original>데이터저장</Original>
             <Czech>synchronizace dat</Czech>
             <Spanish>Sincronizar</Spanish>
             <Russian></Russian>
@@ -2911,7 +2911,7 @@
             <Polish>Nie masz $%1 na %2</Polish>
         </Key>
         <Key ID="STR_NOTF_B_1">
-            <Original>You bought a %1 for $%2</Original>
+            <Original> %1 를 $%2 에 구매하였습니다.</Original>
             <Czech>Koupil sis%1 pro $ %2</Czech>
             <Spanish>Comprastes una %1 por $%2</Spanish>
             <Russian></Russian>
@@ -2922,7 +2922,7 @@
             <Polish>Kupiłeś %1 za $%2</Polish>
         </Key>
         <Key ID="STR_NOTF_Arrested_1">
-            <Original>%1 was arrested by %2</Original>
+            <Original>%2 가 %1 를 구속하였습니다.</Original>
             <Czech>%1 byl zatčen%2</Czech>
             <Spanish>%1 fue arrestado por %2</Spanish>
             <Russian></Russian>
@@ -2933,7 +2933,7 @@
             <Polish>%1 został aresztowany przez %2</Polish>
         </Key>
         <Key ID="STR_NOTF_Fishing">
-            <Original>You caught a %1</Original>
+            <Original>%1 를 낚았습니다!</Original>
             <Czech>chytil jste%1</Czech>
             <Spanish>Atrapastes un %1</Spanish>
             <Russian></Russian>
@@ -2966,7 +2966,7 @@
             <Polish>You have collected some raw %1 meat</Polish>
         </Key>
         <Key ID="STR_NOTF_CaughtTurtle">
-            <Original>You have taken some turtle meat</Original>
+            <Original>약간의 거북이 고기 득템!</Original>
             <Czech>Jste si vzali nějaké želví maso</Czech>
             <Spanish>Has tomado carne de tortuga.</Spanish>
             <Russian></Russian>
@@ -2988,7 +2988,7 @@
             <Polish>Otrzymałeś $%1</Polish>
         </Key>
         <Key ID="STR_NOTF_NetDrop">
-            <Original>Dropping fishing net...</Original>
+            <Original>그물을 던지는 중...</Original>
             <Czech>Pád rybářská síť ...</Czech>
             <Spanish>Tirando red de pesca...</Spanish>
             <Russian></Russian>
@@ -2999,7 +2999,7 @@
             <Polish>Rzucam sieć...</Polish>
         </Key>
         <Key ID="STR_NOTF_NetDropFail">
-            <Original>Didn't catch any fish...</Original>
+            <Original>물고기 한마리도 못잡았네요...</Original>
             <Czech>Nezachytil žádnou rybu ...</Czech>
             <Spanish>No atrapastes peces...</Spanish>
             <Russian></Russian>
@@ -3010,7 +3010,7 @@
             <Polish>Nic nie złapałeś...</Polish>
         </Key>
         <Key ID="STR_NOTF_NetUp">
-            <Original>Fishing net pulled up.</Original>
+            <Original>그물을 올렸습니다.</Original>
             <Czech>Rybářská síť vytáhl nahoru.</Czech>
             <Spanish>Recogistes la red.</Spanish>
             <Russian></Russian>
@@ -3021,7 +3021,7 @@
             <Polish>Sieć wciągnięta.</Polish>
         </Key>
         <Key ID="STR_NOTF_InvFull">
-            <Original>Your inventory space is full.</Original>
+            <Original>인벤토리가 꽉 찼어요!</Original>
             <Czech>Váš inventář prostor je plný.</Czech>
             <Spanish>No tienes espacio en tu inventorio.</Spanish>
             <Russian></Russian>
@@ -3032,7 +3032,7 @@
             <Polish>Nie masz więcej miejsca.</Polish>
         </Key>
         <Key ID="STR_NOTF_Gathering">
-            <Original>Gathering %1...</Original>
+            <Original>%1 수집중...</Original>
             <Czech>Sběr%1 ...</Czech>
             <Spanish>Recolectando %1...</Spanish>
             <Russian></Russian>
@@ -3043,8 +3043,8 @@
             <Polish>Zbierasz %1</Polish>
         </Key>
         <Key ID="STR_NOTF_ChopSoldCar">
-            <Original>You have sold a %1 for $%2</Original>
-            <Czech>Jste prodal%1 pro $ %2</Czech>
+            <Original>%1 를 $%2 에 팔았습니다.</Original>
+            <Czech>Jste prodal%1 pro $%2</Czech>
             <Spanish>Has vendido un %1 por $%2</Spanish>
             <Russian></Russian>
             <German>Du hast einen %1 für $%2 verkauft</German>
@@ -3054,7 +3054,7 @@
             <Polish>Sprzedałeś %1 za $%2</Polish>
         </Key>
         <Key ID="STR_NOTF_Picked">
-            <Original>You have picked %1 %2</Original>
+            <Original>%1 %2 을 주웠습니다.</Original>
             <Czech>Jste si vybrali% %1 2</Czech>
             <Spanish>Has recogido %1 %2</Spanish>
             <Russian></Russian>
@@ -3087,7 +3087,7 @@
             <Polish>Dostarcz tę przesyłkę do %1</Polish>
         </Key>
         <Key ID="STR_NOTF_DPTask">
-            <Original>Deliver this package to %1.</Original>
+            <Original>%1 으로 배달하세요.</Original>
             <Czech>Doručit tento balíček%1</Czech>
             <Spanish>LLeva el paquete a: %1</Spanish>
             <Russian></Russian>
@@ -3098,7 +3098,7 @@
             <Polish>Dostarcz przesyłkę do %1</Polish>
         </Key>
         <Key ID="STR_NOTF_DPFailed">
-            <Original>You failed to deliver the package because you died.</Original>
+            <Original>죽음으로 인하여 배달 미션이 실패하였습니다.</Original>
             <Czech>Nepodařilo se vám doručit balíček, protože jsi zemřela.</Czech>
             <Spanish>Fallastes la misión, porque moristes.</Spanish>
             <Russian></Russian>
@@ -3109,7 +3109,7 @@
             <Polish>Nie dostarczyłeś przesyłki z uwagi na to że zmarłeś.</Polish>
         </Key>
         <Key ID="STR_NOTF_HS_NoCash">
-            <Original>You do not have $%1 to be healed</Original>
+            <Original>치료비 $%1 가 부족합니다.</Original>
             <Czech>Nemáte $%1, aby se léčil</Czech>
             <Spanish>No tienes $%1 para ser curado</Spanish>
             <Russian></Russian>
@@ -3120,7 +3120,7 @@
             <Polish>Nie masz $%1 na leczenie</Polish>
         </Key>
         <Key ID="STR_NOTF_HS_FullHealth">
-            <Original>You do not need to be healed!</Original>
+            <Original>치료할 필요가 없습니다.</Original>
             <Czech>Nemusíte být uzdraven!</Czech>
             <French>Vous ne devez pas être guéri!</French>
             <Spanish>Usted no necesita ser sanado!</Spanish>
@@ -10103,7 +10103,7 @@
             <Italian>Assistenza Medica</Italian>
         </Key>
         <Key ID="STR_MAR_Store_vehicle_in_Garage">
-            <Original>Store vehicle in Garage</Original>
+            <Original>차량보관</Original>
             <Czech>Skladovat vozidlo v garáži</Czech>
             <French>Ranger le vehicule dans le garage</French>
             <Spanish>Guardar vehículo en el Garaje</Spanish>
@@ -10213,7 +10213,7 @@
             <Polish>Bar u Wonga</Polish>
         </Key>
         <Key ID="STR_MAR_Open_Vault">
-            <Original>Open Vault</Original>
+            <Original>금고열기!!</Original>
             <Czech>otevřená Vault</Czech>
             <French>Ouvrir Coffre</French>
             <Spanish>Abrir Bóveda</Spanish>
@@ -10224,7 +10224,7 @@
             <Polish>Otwórz skarbiec</Polish>
         </Key>
         <Key ID="STR_MAR_Fix_Vault">
-            <Original>Fix Vault</Original>
+            <Original>금고수리!!</Original>
             <Czech>Fix Vault</Czech>
             <French>Reparer Coffre</French>
             <Spanish>Reparar Bóveda</Spanish>
