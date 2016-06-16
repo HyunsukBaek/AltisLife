@@ -53,12 +53,8 @@ class WeaponShops {
             { "srifle_EBR_F", "", 1100000, 20000 },
             { "launch_RPG32_F", "", 1800000, 20000 },
             { "SMG_01_F", "FlareGun", 200000, 2000 },
-            { "tf_rf7800str", "", 2000, 980 }, // Bluefor personal - 2km ( 30 -512 Mhz)
 	    { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
-	    { "tf_anprc154", "", 2000, 980 }, //Independent - personal - 2km ( 30-512Mhz)
-	    { "tf_anprc148jem", "", 4000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
-            { "tf_pnr1000a", "", 2000, 980 }, // OPFOR personal - 2km ( 30-512Mhz)
-	    { "tf_fadak", "", 5000, 980 }// OPFOR personal - 5km ( 30-512Mhz)
+	    { "tf_anprc148jem", "", 4000, 980 } //Independent - personal - 5km ( 30-512Mhz)
         };
         mags[] = {
             { "30Rnd_556x45_Stanag", "", 3000 },
@@ -142,12 +138,8 @@ class WeaponShops {
             { "Chemlight_yellow", "", 300, 50 },
             { "Chemlight_green", "", 300, 50 },
             { "Chemlight_blue", "", 300, 50 },
-            { "tf_rf7800str", "", 2000, 980 }, // Bluefor personal - 2km ( 30 -512 Mhz)
 	    { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
-	    { "tf_anprc154", "", 2000, 980 }, //Independent - personal - 2km ( 30-512Mhz)
-	    { "tf_anprc148jem", "", 4000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
-            { "tf_pnr1000a", "", 2000, 980 }, // OPFOR personal - 2km ( 30-512Mhz)
-	    { "tf_fadak", "", 4000, 980 }// OPFOR personal - 5km ( 30-512Mhz)
+	    { "tf_anprc148jem", "", 4000, 980 } //Independent - personal - 5km ( 30-512Mhz)
         };
         mags[] = {};
         accs[] = {};
@@ -195,12 +187,8 @@ class WeaponShops {
             { "HandGrenade_Stone", "Flashbang", 37000, 1000 },
             { "Laserdesignator", "", 130000, 980 },
             { "SMG_01_F", "FlareGun", 200000, 2000 },
-            { "tf_rf7800str", "", 2000, 980 }, // Bluefor personal - 2km ( 30 -512 Mhz)
 	    { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
-	    { "tf_anprc154", "", 2000, 980 }, //Independent - personal - 2km ( 30-512Mhz)
-	    { "tf_anprc148jem", "", 4000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
-            { "tf_pnr1000a", "", 2000, 980 }, // OPFOR personal - 2km ( 30-512Mhz)
-	    { "tf_fadak", "", 4000, 980 }// OPFOR personal - 5km ( 30-512Mhz)
+	    { "tf_anprc148jem", "", 4000, 980 } //Independent - personal - 5km ( 30-512Mhz)
         };
         mags[] = {
             { "20Rnd_556x45_UW_mag", "Taser/Water Magazine", 450 },
@@ -334,12 +322,8 @@ class WeaponShops {
             { "ItemCompass", "", 250, 25 },
             { "ItemWatch", "", 250, 10 },
             { "SMG_01_F", "FlareGun", 200000, 2000 },
-            { "tf_rf7800str", "", 2000, 980 }, // Bluefor personal - 2km ( 30 -512 Mhz)
-	    { "tf_anprc152", "", 2000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
-	    { "tf_anprc154", "", 2000, 980 }, //Independent - personal - 2km ( 30-512Mhz)
-	    { "tf_anprc148jem", "", 2000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
-            { "tf_pnr1000a", "", 2000, 980 }, // OPFOR personal - 2km ( 30-512Mhz)
-	    { "tf_fadak", "", 2000, 980 }// OPFOR personal - 5km ( 30-512Mhz)
+	    { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
+	    { "tf_anprc148jem", "", 4000, 980 } //Independent - personal - 5km ( 30-512Mhz)
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 100 },
