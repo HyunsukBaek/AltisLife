@@ -52,9 +52,7 @@ class WeaponShops {
             { "LMG_Mk200_F", "", 1000000, 20000 },
             { "srifle_EBR_F", "", 1100000, 20000 },
             { "launch_RPG32_F", "", 1800000, 20000 },
-            { "SMG_01_F", "FlareGun", 200000, 2000 },
-	    { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
-	    { "tf_anprc148jem", "", 4000, 980 } //Independent - personal - 5km ( 30-512Mhz)
+            { "SMG_01_F", "FlareGun", 200000, 2000 }
         };
         mags[] = {
             { "30Rnd_556x45_Stanag", "", 3000 },
@@ -162,7 +160,9 @@ class WeaponShops {
             { "Chemlight_red", "", 1500, 50 },
             { "Chemlight_yellow", "", 1500, 50 },
             { "Chemlight_green", "", 1500, 50 },
-            { "Chemlight_blue", "", 1500, 50 }
+            { "Chemlight_blue", "", 1500, 50 },
+	    { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
+	    { "tf_anprc148jem", "", 4000, 980 } //Independent - personal - 5km ( 30-512Mhz)
         };
         mags[] = {};
         accs[] = {};
@@ -175,6 +175,8 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
+            { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
+            { "tf_anprc148jem", "", 4000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
             { "Binocular", "", 150, 10 },
             { "ItemGPS", "", 100, 45 },
             { "ItemMap", "", 50, 35 },
@@ -186,9 +188,7 @@ class WeaponShops {
             { "hgun_ACPC2_F", "Handgun acpc2", 200000, 650 },
             { "HandGrenade_Stone", "Flashbang", 37000, 1000 },
             { "Laserdesignator", "", 130000, 980 },
-            { "SMG_01_F", "FlareGun", 200000, 2000 },
-	    { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
-	    { "tf_anprc148jem", "", 4000, 980 } //Independent - personal - 5km ( 30-512Mhz)
+            { "SMG_01_F", "FlareGun", 200000, 2000 }
         };
         mags[] = {
             { "20Rnd_556x45_UW_mag", "Taser/Water Magazine", 450 },
@@ -311,6 +311,8 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
+            { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
+            { "tf_anprc148jem", "", 4000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
             { "FirstAidKit", "", 550, 65 },
             { "NVGoggles", "", 1200, 980 },
             { "ItemGPS", "", 100, 45 },
@@ -321,9 +323,7 @@ class WeaponShops {
             { "ItemRadio", "", 2500, 25 },
             { "ItemCompass", "", 250, 25 },
             { "ItemWatch", "", 250, 10 },
-            { "SMG_01_F", "FlareGun", 200000, 2000 },
-	    { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
-	    { "tf_anprc148jem", "", 4000, 980 } //Independent - personal - 5km ( 30-512Mhz)
+            { "SMG_01_F", "FlareGun", 200000, 2000 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 100 },
