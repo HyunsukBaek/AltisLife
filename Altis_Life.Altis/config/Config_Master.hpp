@@ -99,16 +99,16 @@ class Life_Settings {
     bank_civ = 100000; //Amount of cash in bank for new civillians
     bank_med = 100000; //Amount of cash in bank for new medics
 
-    paycheck_cop = 8000; //Payment for cops
-    paycheck_civ = 1200; //Payment for civillians
-    paycheck_med = 7000; //Payment for medics
+    paycheck_cop = 80000; //Payment for cops
+    paycheck_civ = 80000; //Payment for civillians
+    paycheck_med = 80000; //Payment for medics
 
-    paycheck_period = 5; //Scaled in minutes
+    paycheck_period = 60; //Scaled in minutes
     bank_transferTax = .05; //Tax that player pays when transferring money from ATM. Tax = Amount * multiplier
 
     /* Player Job System Configurations */
     delivery_points[] = { "dp_1", "dp_2", "dp_3", "dp_4", "dp_5", "dp_6", "dp_7", "dp_8", "dp_9", "dp_10", "dp_11", "dp_12", "dp_13", "dp_14", "dp_15", "dp_15", "dp_16", "dp_17", "dp_18", "dp_19", "dp_20", "dp_21", "dp_22", "dp_23", "dp_24", "dp_25", "dp_26", "dp_27" };
-    fuelTank_winMultiplier = 3; //Win Multiplier in FuelTank Missions. Increase for greater payout. Default = 1
+    fuelTank_winMultiplier = 5; //Win Multiplier in FuelTank Missions. Increase for greater payout. Default = 1
 
     /* Search & Seizure System Configurations */
     seize_exempt[] = { "Binocular", "ItemWatch", "ItemCompass", "ItemGPS", "ItemMap", "NVGoggles", "FirstAidKit", "ToolKit", "Chemlight_red", "Chemlight_yellow", "Chemlight_green", "Chemlight_blue", "optic_ACO_grn_smg", "hgun_P07_snds_F", "hgun_Pistol_heavy_02_F", "hgun_ACPC2_F", "hgun_PDW2000_F" }; //Arma items that will not get seized from player inventories
@@ -125,26 +125,26 @@ class Life_Settings {
 
     /* Vehicle Purchase Prices */
     vehicle_purchase_multiplier_CIVILIAN = 1.5; //Civilian Vehicle Buy Price = Config_Vehicle price * multiplier
-    vehicle_purchase_multiplier_COP = 3.5; //Cop Vehicle Buy Price = Config_Vehicle price * multiplier
+    vehicle_purchase_multiplier_COP = 2; //Cop Vehicle Buy Price = Config_Vehicle price * multiplier
     vehicle_purchase_multiplier_MEDIC = 1; //Medic Vehicle Buy Price = Config_Vehicle price * multiplier
     vehicle_purchase_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
 
     /* Vehicle Rental Prices */
-    vehicle_rental_multiplier_CIVILIAN = .4; //Civilian Vehicle Rental Price = Config_Vehicle price * multiplier
+    vehicle_rental_multiplier_CIVILIAN = .5; //Civilian Vehicle Rental Price = Config_Vehicle price * multiplier
     vehicle_rental_multiplier_COP = .5; //Cop Vehicle Rental Price = Config_Vehicle price * multiplier
-    vehicle_rental_multiplier_MEDIC = .5; //Medic Vehicle Rental Price = Config_Vehicle price * multiplier
+    vehicle_rental_multiplier_MEDIC = .4; //Medic Vehicle Rental Price = Config_Vehicle price * multiplier
     vehicle_rental_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
 
     /* Vehicle Sell Prices */
-    vehicle_sell_multiplier_CIVILIAN = .5; //Civilian Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
-    vehicle_sell_multiplier_COP = .5; //Cop Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
-    vehicle_sell_multiplier_MEDIC = .5; //Medic Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
+    vehicle_sell_multiplier_CIVILIAN = .4; //Civilian Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
+    vehicle_sell_multiplier_COP = .4; //Cop Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
+    vehicle_sell_multiplier_MEDIC = .4; //Medic Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
     vehicle_sell_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
 
     /* "Other" Vehicle Prices */
-    vehicle_chopShop_multiplier = .3; //Chop Shop price for vehicles. TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
-    vehicle_storage_fee_multiplier = .04; //Pull from garage cost --> Cost takes the playersides Buy Price * multiplier
-    vehicle_cop_impound_multiplier = .02; //TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
+    vehicle_chopShop_multiplier = .25; //Chop Shop price for vehicles. TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
+    vehicle_storage_fee_multiplier = .05; //Pull from garage cost --> Cost takes the playersides Buy Price * multiplier
+    vehicle_cop_impound_multiplier = .025; //TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
 
     /* Wanted System Settings *
     /* crimes[] = {String, Bounty, Code} */

@@ -18,6 +18,7 @@ class CarShops {
             { "B_Quadbike_01_F", { "", "", -1 } },
             { "C_Hatchback_01_F", { "", "", -1 } },
             { "C_Offroad_01_F", { "", "", -1 } },
+	    { "C_Offroad_01_repair_F", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
             { "C_Hatchback_01_sport_F", { "", "", -1 } },
             { "C_Van_01_transport_F", { "", "", -1 } }
@@ -123,8 +124,8 @@ class CarShops {
             { "I_Truck_02_covered_F", { "life_coplevel", "SCALAR", 2 } },
             { "B_Truck_01_ammo_F", { "life_coplevel", "SCALAR", 2 } },
             { "I_MRAP_03_F", { "life_coplevel", "SCALAR", 3 } },
-            { "B_MRAP_01_hmg_F", { "life_coplevel", "SCALAR", 4 } },
-            { "O_MRAP_02_hmg_F", { "life_coplevel", "SCALAR", 4 } },
+            { "B_MRAP_01_hmg_F", { "life_coplevel", "SCALAR", 5 } },
+            { "O_MRAP_02_hmg_F", { "life_coplevel", "SCALAR", 5 } },
             { "I_MRAP_03_hmg_F", { "life_coplevel", "SCALAR", 5 } },
             { "O_MBT_02_cannon_F", { "life_coplevel", "SCALAR", 5 } },
             { "O_Plane_CAS_02_F", { "life_donorlevel", "SCALAR", 1 } } //FOR TEST
@@ -134,17 +135,24 @@ class CarShops {
     class cop_air {
         side = "cop";
         vehicles[] = {
+            { "C_Heli_Light_01_civil_F", { "", "", -1 } },
+	    { "C_Heli_light_01_sunset_F", { "", "", -1 } },
+	    { "C_Heli_light_01_graywatcher_F", { "", "", -1 } },
+	    { "C_Heli_light_01_wasp_F", { "", "", -1 } },
+	    { "C_Heli_light_01_blueLine_F", { "", "", -1 } },
+	    { "C_Heli_light_01_luxe_F", { "", "", -1 } },
             { "B_Heli_Light_01_F", { "", "", -1 } },
             { "B_Heli_Transport_03_unarmed_F", { "", "", -1 } },
             { "B_Heli_Transport_01_F", { "life_coplevel", "SCALAR", 2 } },
             { "O_Heli_Light_02_unarmed_F", { "life_coplevel", "SCALAR", 2 } },
             { "I_Heli_Transport_02_F", { "life_coplevel", "SCALAR", 2 } },
             { "O_Heli_Transport_04_F", { "life_coplevel", "SCALAR", 2 } },
-            { "I_Heli_light_03_F", { "life_coplevel", "SCALAR", 3 } },
+            { "I_Heli_light_03_F", { "life_coplevel", "SCALAR", 4 } },
             { "O_Heli_Light_02_v2_F", { "life_coplevel", "SCALAR", 4 } },
             { "B_Heli_Light_01_armed_F", { "life_coplevel", "SCALAR", 5 } },
             { "B_Heli_Attack_01_F", { "life_coplevel", "SCALAR", 5 } },
-            { "O_Heli_Attack_02_black_F", { "life_coplevel", "SCALAR", 5 } }
+            { "O_Heli_Attack_02_black_F", { "life_coplevel", "SCALAR", 5 } },
+            { "B_UAV_01_F", { "life_donorlevel", "SCALAR", 1 } }
         };
     };
 
@@ -497,6 +505,8 @@ class LifeCfgVehicles {
         };
     };
 
+    class C_Offroad_01_repair_F : C_Offroad_01_F{};
+
     class C_Kart_01_Blu_F {
         vItemSpace = 20;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -740,6 +750,20 @@ will modify the virtual space and the price of the vehicle, but other informatio
         };
     };
 
+    class C_Heli_Light_01_civil_F { //m900
+        vItemSpace = 100;
+        licenses[] = { {"pilot"}, {"cAir"}, {"mAir"}, {""} };
+        price = 655000;
+        textures[] = {};
+    };
+
+    class C_Heli_light_01_sunset_F : C_Heli_Light_01_civil_F{};
+    class C_Heli_light_01_graywatcher_F : C_Heli_Light_01_civil_F{};
+    class C_Heli_light_01_wasp_F : C_Heli_Light_01_civil_F{};
+    class C_Heli_light_01_blueLine_F : C_Heli_Light_01_civil_F{};
+    class C_Heli_light_01_luxe_F : C_Heli_Light_01_civil_F{};
+
+
     class B_Heli_Light_01_armed_F : B_Heli_Light_01_F{};
 
     class B_Heli_Attack_01_F { // BLACKFOOT
@@ -916,5 +940,12 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	vFuelSpace = 250000;
 	licenses[] = { {""}, {""}, {""}, {""} };
 	price = 1000000;
+    };
+
+    class B_UAV_01_F {
+    	vItemSpace = 10;
+    	vFuelSpace = 50000;
+    	licenses[] = { {""}, {""}, {""}, {""} };
+    	price = 300000;
     };
 };
