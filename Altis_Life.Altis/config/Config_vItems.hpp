@@ -948,7 +948,7 @@ class VirtualItems {
         variable = "broadcastmic";
         displayName = "STR_Item_broadcastmic";
         weight = 5;
-        buyPrice = 90000000;
+        buyPrice = 9900000;
         sellPrice = 1000;
         illegal = false;
         edible = -1;
