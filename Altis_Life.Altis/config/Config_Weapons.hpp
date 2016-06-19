@@ -105,7 +105,7 @@ class WeaponShops {
             { "30Rnd_556x45_Stanag", "", 2000 }, // sting9
 	    { "30Rnd_65x39_caseless_mag", "", 4000 },//KATIBA , MXC, MX_SW
 	    { "30Rnd_65x39_caseless_mag_Tracer", "", 3000 }, //KATIBA, MXC, MX_SW
-	    { "30Rnd_65x39_caseless_green", "", 3000 }//MXC, MX_SW
+	    { "30Rnd_65x39_caseless_green", "", 3000 },//MXC, MX_SW
             { "10Rnd_762x54_Mag", "", 4000 }
         };
         accs[] = {
@@ -218,7 +218,7 @@ class WeaponShops {
         name = "Altis Patrol Officer Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 2, "You must be a Patrol Officer Rank!" };
+        level[] = { "", "", -1, "" };
         items[] = {
             { "arifle_MX_F", "", 330000, 7500 },
             { "SMG_02_F", "", 230000, 7500 },
