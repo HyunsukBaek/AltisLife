@@ -9,9 +9,9 @@
 */
 if (playerSide == independent) exitWith {hint "You must be a cop to purchase this!"};  //cops only
 if (playerSide == civilian) exitWith {hint "You must be a cop to purchase this!"};  //cops only
-
-if((FETCH_CONST(life_coplevel)) < 2) exitWith { hint "자동 아이템 세팅 하려면 경찰2레벨 이상되야합니다!"};  //level 2+
 /*
+if((FETCH_CONST(life_coplevel)) < 2) exitWith { hint "자동 아이템 세팅 하려면 경찰2레벨 이상되야합니다!"};  //level 2+
+
 {
     exitWith { hint "You are not the right level!"};  //level 2+
 };
