@@ -353,7 +353,7 @@
             <Polish>Kup</Polish>
         </Key>
         <Key ID="STR_Global_Mags">
-            <Original>총알</Original>
+            <Original>Magazine</Original>
             <Czech>časopisy</Czech>
             <French>Chargeurs</French>
             <Spanish>Cargadores</Spanish>
@@ -364,7 +364,7 @@
             <German>Magazine</German>
         </Key>
         <Key ID="STR_Global_Accs">
-            <Original>액세서리</Original>
+            <Original>ACCS</Original>
             <Czech>Příslušenství</Czech>
             <French>Accessoires</French>
             <Spanish>Accesorios</Spanish>
