@@ -1059,3 +1059,82 @@ Mrshounka_yamaha_p_o
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+///////////////////// watch //////////////////////
+tf_microdagr // MICRODAGR 라디오 프로그래머(라디오인듯)
+
+
+////////////////////// radio ////////////////////////
+tf_anprc148jem
+tf_anprc148jem_2
+tf_anprc154
+tf_fadak
+tf_pnr1000a
+tf_rf7800str
+
+
+////////////////// terminal
+sab_CUAV_Terminal // UAV 터미널
+
+
+/////////////////////// goggles ///////////////////////
+A3L_Balaclava // 복면 검정
+Payday_Cagoule // 은행강도 복면 검정
+Masque_Chirurgical // 녹색 수술용 마스크
+Masque_Solitaire // 조로 마스크 
+
+// 아저씨수염
+SFG_Tac_smallBeardB // 블론드 
+SFG_Tac_smallBeardD // 다크 갈색수염
+SFG_Tac_smallBeardG // 금색 수염
+SFG_Tac_smallBeardO // 회색(올드)수염
+
+
+// 산타 수염
+SFG_Tac_BeardB // 블론드
+SFG_Tac_BeardD // 다크
+SFG_Tac_BeardG // 금색
+SFG_Tac_BeardO // 회색(올드)
+
+
+/// 턱밑 없는 수염 (카우보이같은)
+SFG_Tac_chinlessbB // 블론드 
+SFG_Tac_chinlessbD
+SFG_Tac_chinlessbG
+SFG_Tac_chinlessbO
+
+//콧수염
+SFG_Tac_moustacheB
+SFG_Tac_moustacheD
+SFG_Tac_moustacheG
+SFG_Tac_moustacheO
+
+//양볼에만 있는 수염
+SFG_Tac_ChopsB
+SFG_Tac_ChopsD
+SFG_Tac_ChopsG
+SFG_Tac_ChopsO
+
+
+
+
+
+
+
+
+
