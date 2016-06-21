@@ -565,6 +565,256 @@ dbo_LT_01  // 빨강
 dbo_LT_01
 
 
+Mrshounka_lykan_c // 라이칸 하이퍼스포트
+shounka_mp4 // 맥라렌 mp4-12c
+Mrshounka_mercedes_190_p_civ // 벤츠 구형 스포츠카 Mrshounka_c63_2015_civ // 벤츠 c63 AMG 2015
+Skyline_Mercedes_C63_02_F // 벤츠 C63 검정
+Skyline_Mercedes_C63_01_F // 벤츠 C63 검정 날개 
+
+
+shounka_clk // 벤츠 CLK
+shounka_a3_spr_civ // 벤츠 스프ㅡ린터 빨강
+shounka_a3_pompier_sprinter // 벤츠 스프린터 빨강 - 메딕 
+shounka_a3_gendsprinter // 벤츠 스프린터 경찰 
+
+
+//벤츠 300 SEL (옛날꺼)
+Skyline_Mercedes_300_SEL_01_F //검정
+Skyline_Mercedes_300_SEL_11_F //흰
+Skyline_Mercedes_300_SEL_02_F //파
+Skyline_Mercedes_300_SEL_06_F //하늘
+Skyline_Mercedes_300_SEL_10_F //검정
+Skyline_Mercedes_300_SEL_04_F  // 빨강
+
+
+
+max_moneytruck // 현금수송트럭
+
+
+//닛산 GTR 2012
+Mrshounka_a3_gtr_civ // 흰
+Mrshounka_a3_gtr_civ_noir
+Mrshounka_a3_gtr_civ_bleu
+
+max_Charger_Lapd //  닷지 차저 경찰 검흰
+max_CrownVic_lapd // 크라운빅 Crownvic 옛날 경찰 차 검흰
+max_CrownVic_sheriff // 크라운빅 옛날 경찰 차 
+
+max_swatvan  // swat 밴 
+
+// 파가니 huayra  
+Mrshounka_pagani_c  // 빨강
+Mrshounka_pagani_c_noir
+Mrshounka_pagani_c_bleufonce
+Mrshounka_pagani_c_rouge
+Mrshounka_pagani_c_jaune
+Mrshounka_pagani_c_rose
+Mrshounka_pagani_c_grise
+Mrshounka_pagani_c_violet
+Mrshounka_pagani_c_orange
+
+// 푸조 207 RC
+Mrshounka_207_civ // 빨 
+Mrshounka_207_noir
+Mrshounka_207_bleufonce
+Mrshounka_207_rouge
+Mrshounka_207_jaune
+Mrshounka_207_rose
+Mrshounka_207_grise
+Mrshounka_207_violet
+Mrshounka_207_orange
+
+//골프 308 GTI 푸조 
+Mrshounka_a3_308_civ//빨강
+Mrshounka_a3_308_civ_noir
+Mrshounka_a3_308_civ_bleufonce
+Mrshounka_a3_308_civ_rouge
+Mrshounka_a3_308_civ_jaune
+Mrshounka_a3_308_civ_rose
+Mrshounka_a3_308_civ_grise
+Mrshounka_a3_308_civ_violet
+Mrshounka_a3_308_civ_orange
+Mrshounka_a3_308_gend// 경찰 파랑 
+Mrshounka_308pol // 경찰 흰
+
+// 푸조 308 오픈카 2인승 
+Mrshounka_a3_308_rcz // 빨 
+Mrshounka_a3_308_rcz_noir
+Mrshounka_a3_308_rcz_bleufonce
+Mrshounka_a3_308_rcz_rouge
+Mrshounka_a3_308_rcz_jaune
+Mrshounka_a3_308_rcz_rose
+Mrshounka_a3_308_rcz_grise
+Mrshounka_a3_308_rcz_violet
+Mrshounka_a3_308_rcz_orange
+
+// 푸조 508 세단 
+shounka_a3_peugeot508_civ // 빨 
+shounka_a3_peugeot508_civ_noir
+shounka_a3_peugeot508_civ_bleufonce
+shounka_a3_peugeot508_civ_rouge
+shounka_a3_peugeot508_civ_jaune
+shounka_a3_peugeot508_civ_rose
+shounka_a3_peugeot508_civ_grise
+shounka_a3_peugeot508_civ_violet
+shounka_a3_peugeot508_civ_orange
+shounka_a3_508banalise // 경찰(잠복시민 검정)
+shounka_a3_508gend // 경찰 파랑 
+shounka_a3_508pol // 경찰 흰 
+
+
+max_bike_police // 경찰 오토바이 
+
+//포르쉐 911
+shounka_porsche911 //빨
+shounka_porsche911_noir
+shounka_porsche911_bleufonce
+shounka_porsche911_rouge
+shounka_porsche911_jaune
+shounka_porsche911_rose
+shounka_porsche911_grise
+shounka_porsche911_violet
+shounka_porsche911_orange
+
+// 포르쉐 911 92년식
+mrshounka_92_civ
+mrshounka_92_civ_noir
+mrshounka_92_civ_bleufonce
+mrshounka_92_civ_rouge
+mrshounka_92_civ_jaune
+mrshounka_92_civ_rose
+mrshounka_92_civ_grise
+mrshounka_92_civ_violet
+mrshounka_92_civ_orange
+
+
+// 포르쉐 카이엔
+Mrshounka_cayenne_p_civ // 빨 
+Mrshounka_cayenne_p_bleufonce
+Mrshounka_cayenne_p_grise
+Mrshounka_cayenne_p_jaune
+Mrshounka_cayenne_p_noir
+Mrshounka_cayenne_p_rose
+Mrshounka_cayenne_p_orange
+Mrshounka_cayenne_p_rouge
+Mrshounka_cayenne_p_violet
+
+
+max_vipcar // 롤스로이스 팬텀 검정 ( 대통령차)
+
+
+// RENAULT 소형 해치백 2인승
+Mrshounka_r5_civ // 빨강
+Mrshounka_r5_bleufonce
+Mrshounka_r5_grise
+Mrshounka_r5_jaune
+Mrshounka_r5_noir
+Mrshounka_r5_orange
+Mrshounka_r5_rose
+Mrshounka_r5_rouge
+Mrshounka_r5_violet
+
+
+shounka_a3_renaultmagnum_f // REnault magnum 대형 트레일러 
+
+
+// renault megane RS 2015  4인승 해치백 3도어
+Mrshounka_megane_rs_2015_civ //파랑
+Mrshounka_megane_rs_2015_noir
+Mrshounka_megane_rs_2015_bleufonce
+Mrshounka_megane_rs_2015_rouge
+Mrshounka_megane_rs_2015_jaune
+Mrshounka_megane_rs_2015_rose
+Mrshounka_megane_rs_2015_grise
+Mrshounka_megane_rs_2015_violet
+Mrshounka_megane_rs_2015_orange
+Mrshounka_rs_2015_g // 경찰
+
+// renault twingo 해치백 4인승 소형 
+Mrshounka_twingo_p //빨강
+Mrshounka_twingo_p_noir
+Mrshounka_twingo_p_bf
+Mrshounka_twingo_p_r
+Mrshounka_twingo_p_j
+Mrshounka_twingo_p_rose
+Mrshounka_twingo_p_g
+Mrshounka_twingo_p_v
+Mrshounka_twingo_p_o
+
+
+max_bus_pris // 경찰 죄수 운송 버스 
+
+max_H3_sheriff // 험머H3 경찰  은색 
+max_van_sheriff // 경찰 밴 흰색 죄수 운송 
+max_FBI_tahoe_undercover // 경찰 fbi 밴 
+max_impala_security // 경찰 임팔라 세단 5인 
+
+max_towtruck// 토우트럭 
+
+
+// 벤츠 스마트 2인승 
+Mrshounka_a3_smart_civ //빨강
+Mrshounka_a3_smart_civ_noir
+Mrshounka_a3_smart_civ_bleu
+
+
+shounka_a3_suburbangign // SUBURBAN GIGN 이상한 밴 (무대생기는거) 6인승 검정
+
+
+// SUV 5인승 맥스 - 파노라마선루프 SUV
+max_suv_black
+max_suv_red
+max_suv_blue
+max_suv_green
+max_suv_UC
+
+
+// 옛날 머슬카 Transam 2인승
+shounka_transam // 빨강 
+shounka_transam_noir
+shounka_transam_bleufonce
+shounka_transam_rouge
+shounka_transam_jaune
+shounka_transam_rose
+shounka_transam_grise
+shounka_transam_violet
+shounka_transam_orange
+
+
+// 옛날 van 6인승
+max_van_white // 연녹색임 화이트아님 
+max_van_cola
+max_van_Grey
+max_van_red
+max_van_blue
+max_van_green
+
+// 폭스바겐 투아렉 4인승 suv
+Mrshounka_Volkswagen_Touareg_civ // 빨
+Mrshounka_Volkswagen_Touareg_noir
+Mrshounka_Volkswagen_Touareg_bleufonce
+Mrshounka_Volkswagen_Touareg_rouge
+Mrshounka_Volkswagen_Touareg_jaune
+Mrshounka_Volkswagen_Touareg_rose
+Mrshounka_Volkswagen_Touareg_grise
+Mrshounka_Volkswagen_Touareg_violet
+Mrshounka_Volkswagen_Touareg_orange
+Mrshounka_Volkswagen_Touareg_police_police // 경찰 파랑
+
+// 야마하 오토바이 
+Mrshounka_yamaha_p // 빨 
+Mrshounka_yamaha_p_noir
+Mrshounka_yamaha_p_bf
+Mrshounka_yamaha_p_r
+Mrshounka_yamaha_p_j
+Mrshounka_yamaha_p_rose
+Mrshounka_yamaha_p_g
+Mrshounka_yamaha_p_v
+Mrshounka_yamaha_p_o
+
+
+
+
 
 
 
