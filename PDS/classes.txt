@@ -65,14 +65,14 @@ max_AJ // 오픈 지프
 shounka_a3_audiq7_v2_gendarmerie // 경찰  아우디 Q7
 
 // 아우디 RS4
-Mrshounka_rs4_gend_p_blanc   //흰색
+Mrshounka_rs4_gend_p_blanc   //경찰 흰색
 Mrshounka_rs4_gend_p_bleufonce // 파랑
 Mrshounka_rs4_gend_p_jaune // 노랑
 Mrshounka_rs4_gend_p_noir  // 군청
-Mrshounka_rs4_civ  //빨강
 
-//COMMENTS 
-Mrshounka_rs4_civ_noir
+// 아우디 RS4 
+Mrshounka_rs4_civ  //빨강
+Mrshounka_rs4_civ_noir  
 Mrshounka_rs4_civ_bleufonce
 Mrshounka_rs4_civ_rouge
 Mrshounka_rs4_civ_jaune
@@ -82,7 +82,7 @@ Mrshounka_rs4_civ_violet
 Mrshounka_rs4_civ_orange
 
 // 아우디 RS5
-shounka_a3_rs5_civ  // 빨강 
+shounka_a3_rs5_civ   
 shounka_a3_rs5_civ_noir
 shounka_a3_rs5_civ_bleufonce
 shounka_a3_rs5_civ_rouge
@@ -104,7 +104,7 @@ shounka_rs6_violet
 shounka_rs6_orange
 
 
-//AUTOBUS 
+//공항버스 AUTOBUS 
 Skyline_Bus_01_F // 회색 
 Skyline_Bus_11_F // 흰색
 Skyline_Bus_02_F  //파랑
