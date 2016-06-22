@@ -76,7 +76,7 @@ class WeaponShops {
             { "optic_Hamr", "", 7500 },
             { "acc_flashlight", "", 1000 },
             { "optic_DMS", "", 87500 },
-            { "optic_Nightstalker", "", 250000, 1000 },
+            { "optic_Nightstalker", "", 250000},
             { "optic_SOS", "SOS_DLC", 150000 }
         };
     };
@@ -209,8 +209,8 @@ class WeaponShops {
         };
         accs[] = {
             { "muzzle_snds_L", "", 650 },
-            { "optic_MRD", "", 1000, 45 },
-            { "optic_Yorris", "", 2000, 980 }
+            { "optic_MRD", "", 1000 },
+            { "optic_Yorris", "", 2000}
         };
     };
 
@@ -235,16 +235,16 @@ class WeaponShops {
         };
         accs[] = {
             { "acc_flashlight", "", 750, 100 },
-            { "optic_ACO_grn_smg", "", 2500, 1000 },
-            { "optic_Holosight", "", 2200, 275 },
-            { "optic_Arco", "", 30500, 1000 },
-            { "optic_MRCO", "", 20500, 1000 },
-            { "optic_NVS", "", 80000, 980 },
-            { "muzzle_snds_H", "", 102750, 1000 },
-            { "muzzle_snds_L", "", 102750, 1000 },
-            { "muzzle_snds_M", "", 102750, 1000 },
-            { "muzzle_snds_B", "", 102750, 1000 },
-            { "Rangefinder", "", 52750, 1000 }
+            { "optic_ACO_grn_smg", "", 2500 },
+            { "optic_Holosight", "", 2200 },
+            { "optic_Arco", "", 30500 },
+            { "optic_MRCO", "", 20500 },
+            { "optic_NVS", "", 80000 },
+            { "muzzle_snds_H", "", 102750 },
+            { "muzzle_snds_L", "", 102750 },
+            { "muzzle_snds_M", "", 102750 },
+            { "muzzle_snds_B", "", 102750 },
+            { "Rangefinder", "", 52750 }
         };
     };
 
@@ -269,11 +269,11 @@ class WeaponShops {
             { "7Rnd_408_Mag", "", 1450 }
         };
         accs[] = {
-            { "optic_SOS", "", 25000, 1000 },
-            { "optic_DMS", "", 30000, 1000 },
-            { "optic_Hamr", "", 25000, 1000 },
-            { "optic_KHS_blk", "", 45000, 1000 },
-            { "acc_pointer_IR", "", 20000, 1000 }
+            { "optic_SOS", "", 25000 },
+            { "optic_DMS", "", 30000 },
+            { "optic_Hamr", "", 25000 },
+            { "optic_KHS_blk", "", 45000 },
+            { "acc_pointer_IR", "", 20000 }
         };
     };
 
@@ -300,11 +300,11 @@ class WeaponShops {
             { "Titan_AP", "", 100000 }
         };
         accs[] = {
-            { "optic_LRPS", "", 200000, 1000 },
-            { "optic_Hamr", "", 150000, 1000 },
-            { "optic_tws", "", 300000, 1000 },
-            { "optic_Nightstalker", "", 225000, 1000 },
-            { "acc_pointer_IR", "", 30000, 1000 }
+            { "optic_LRPS", "", 200000 },
+            { "optic_Hamr", "", 150000 },
+            { "optic_tws", "", 300000 },
+            { "optic_Nightstalker", "", 225000 },
+            { "acc_pointer_IR", "", 30000 }
         };
     };
 
