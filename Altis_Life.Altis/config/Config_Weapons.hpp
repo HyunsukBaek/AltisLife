@@ -125,8 +125,8 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
-            { "tf_anprc148jem", "", 4000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
+//            { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
+//            { "tf_anprc148jem", "", 4000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
             { "Binocular", "", 150, 10 },
             { "ItemGPS", "", 100, 45 },
             { "ItemMap", "", 50, 35 },
@@ -151,8 +151,8 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
-            { "tf_anprc148jem", "", 4000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
+//            { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
+//            { "tf_anprc148jem", "", 4000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
             { "Binocular", "", 750, 100 },
             { "ItemGPS", "", 500, 45 },
             { "ItemMap", "", 250, 35 },
@@ -177,8 +177,8 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
-            { "tf_anprc148jem", "", 4000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
+//            { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
+//            { "tf_anprc148jem", "", 4000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
             { "Binocular", "", 150, 10 },
             { "ItemGPS", "", 100, 45 },
             { "ItemMap", "", 50, 35 },
@@ -315,8 +315,8 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
-            { "tf_anprc148jem", "", 4000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
+//            { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
+//            { "tf_anprc148jem", "", 4000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
             { "FirstAidKit", "", 550, 65 },
             { "NVGoggles", "", 1200, 980 },
             { "ItemGPS", "", 100, 45 },
