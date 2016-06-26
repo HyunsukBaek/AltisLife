@@ -90,8 +90,8 @@ class Life_Settings {
     sendtoJail_locations[] = { "police_hq_1", "police_hq_2", "cop_spawn_3", "cop_spawn_5", "Correctional_Facility" }; //Enter the variableName from the mission.sqm here to allow cops to send a person to jail at these locations.
 
     /* Medical System Configurations */
-    revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
-    revive_fee = 25000; //Revive fee that players have to pay and medics only EMS(independent) are rewarded with this amount.
+    revive_cops = false; //true to enable cops the ability to revive everyone or false for only medics/ems.
+    revive_fee = 50000; //Revive fee that players have to pay and medics only EMS(independent) are rewarded with this amount.
     hospital_heal_fee = 1100; //Fee to heal at a hospital NPC
 
     /* Paycheck & Bank System Configurations */
@@ -99,9 +99,9 @@ class Life_Settings {
     bank_civ = 100000; //Amount of cash in bank for new civillians
     bank_med = 100000; //Amount of cash in bank for new medics
 
-    paycheck_cop = 80000; //Payment for cops
-    paycheck_civ = 80000; //Payment for civillians
-    paycheck_med = 80000; //Payment for medics
+    paycheck_cop = 100000; //Payment for cops
+    paycheck_civ = 100000; //Payment for civillians
+    paycheck_med = 100000; //Payment for medics
 
     paycheck_period = 60; //Scaled in minutes
     bank_transferTax = .05; //Tax that player pays when transferring money from ATM. Tax = Amount * multiplier
@@ -124,8 +124,8 @@ class Life_Settings {
     vehicleShop_3D = true; //Add preview 3D inside Shop vehicle.       Default : False
 
     /* Vehicle Purchase Prices */
-    vehicle_purchase_multiplier_CIVILIAN = 1.5; //Civilian Vehicle Buy Price = Config_Vehicle price * multiplier
-    vehicle_purchase_multiplier_COP = 2; //Cop Vehicle Buy Price = Config_Vehicle price * multiplier
+    vehicle_purchase_multiplier_CIVILIAN = 1.25; //Civilian Vehicle Buy Price = Config_Vehicle price * multiplier
+    vehicle_purchase_multiplier_COP = 1.5; //Cop Vehicle Buy Price = Config_Vehicle price * multiplier
     vehicle_purchase_multiplier_MEDIC = 1; //Medic Vehicle Buy Price = Config_Vehicle price * multiplier
     vehicle_purchase_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
 

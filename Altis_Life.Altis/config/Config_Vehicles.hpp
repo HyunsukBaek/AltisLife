@@ -135,12 +135,6 @@ class CarShops {
     class cop_air {
         side = "cop";
         vehicles[] = {
-            { "C_Heli_Light_01_civil_F", { "", "", -1 } },
-	    { "C_Heli_light_01_sunset_F", { "", "", -1 } },
-	    { "C_Heli_light_01_graywatcher_F", { "", "", -1 } },
-	    { "C_Heli_light_01_wasp_F", { "", "", -1 } },
-	    { "C_Heli_light_01_blueLine_F", { "", "", -1 } },
-	    { "C_Heli_light_01_luxe_F", { "", "", -1 } },
             { "B_Heli_Light_01_F", { "", "", -1 } },
             { "B_Heli_Transport_03_unarmed_F", { "", "", -1 } },
             { "B_Heli_Transport_01_F", { "", "", -1 } },
