@@ -44,16 +44,16 @@ class WeaponShops {
         license = "rebel";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "arifle_SDAR_F", "", 300000, 2000 },
-            { "arifle_TRG20_F", "", 240000, 2000 },
-            { "arifle_Katiba_F", "", 380000, 2000 },
-            { "arifle_MXC_F", "", 400000, 2000 },
-            { "arifle_MX_SW_F", "", 550000, 2000 },
-            { "srifle_DMR_01_F", "", 440000, 2000 }, //RAHIM
-            { "srifle_EBR_F", "", 620000, 2000 }, //MK18
-            { "LMG_Mk200_F", "", 750000, 2000 },
-            { "srifle_DMR_05_hex_F", "cyrus(DLC)", 890000, 2000 },//cyrus
-            { "launch_RPG32_F", "", 1800000, 2000 }
+            { "arifle_SDAR_F", "", 130000, 2000 },
+            { "arifle_TRG20_F", "", 180000, 2000 },
+            { "arifle_Katiba_F", "", 280000, 2000 },
+            { "arifle_MXC_F", "", 200000, 2000 },
+            { "arifle_MX_SW_F", "", 270000, 2000 },
+            { "srifle_DMR_01_F", "", 300000, 2000 }, //RAHIM
+            { "srifle_EBR_F", "", 500000, 2000 }, //MK18
+            { "LMG_Mk200_F", "", 450000, 2000 },
+            { "srifle_DMR_05_hex_F", "cyrus(DLC)", 530000, 2000 },//cyrus
+            { "launch_RPG32_F", "", 1000000, 2000 }
         };
         mags[] = {
             { "20Rnd_556x45_UW_mag", "UNDER WATER 20EA", 3000 }, //SDAR, TRG20
@@ -76,8 +76,8 @@ class WeaponShops {
             { "optic_Hamr", "", 7500 },
             { "acc_flashlight", "", 1000 },
             { "optic_DMS", "", 87500 },
-            { "optic_Nightstalker", "", 250000},
-            { "optic_SOS", "SOS_DLC", 150000 }
+            { "optic_Nightstalker", "", 150000},
+            { "optic_SOS", "SOS_DLC", 100000 }
         };
     };
 
@@ -92,10 +92,10 @@ class WeaponShops {
             { "hgun_Rook40_F", "", 50000, 3100 },
             { "hgun_Pistol_heavy_02_F", "", 65000, 2200 },// zubr
             { "hgun_ACPC2_F", "", 85000, 3000 },
-            { "SMG_02_F", "", 205000, 20000 },//sting 9mm
+            { "SMG_02_F", "", 200000, 20000 },//sting 9mm
             { "arifle_Katiba_F", "", 380000, 20000 },
             { "arifle_MXC_F", "", 400000, 20000 },
-            { "srifle_DMR_01_F", "", 450000, 20000 }
+            { "srifle_DMR_01_F", "", 300000, 20000 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 250 }, // Rook40, PDW2000
@@ -185,15 +185,14 @@ class WeaponShops {
             { "ItemRadio", "", 3000, 980 },
             { "FirstAidKit", "", 550, 65 },
             { "NVGoggles", "", 2000, 980 },
-            { "arifle_sdar_F", "Taser Rifle", 300000, 20000 },
-            { "hgun_P07_F", "Stun Pistol", 100000, 650 },
+            { "arifle_sdar_F", "Taser Rifle", 130000, 20000 },
+            { "hgun_P07_F", "Stun Pistol", 35000, 650 },
 	    { "hgun_Rook40_F", "", 50000, 500 },
             { "hgun_ACPC2_F", "Handgun acpc2", 85000, 650 },
 	    { "hgun_Pistol_heavy_02_F", "", 65000, 500 },
             { "HandGrenade_Stone", "Flashbang", 37000, 1000 },
             { "Laserdesignator", "", 130000, 980 },
-            { "SMG_01_F", "FlareGun", 200000, 2000 },
-	    { "B_UAV_AI", "B_UAV_AI", 200000, 2000 }
+            { "SMG_01_F", "FlareGun", 200000, 2000 }
         };
         mags[] = {
             { "20Rnd_556x45_UW_mag", "Taser/Water Magazine", 450 },
@@ -220,10 +219,10 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "arifle_MX_F", "", 330000, 7500 },
-            { "SMG_02_F", "", 230000, 7500 },
-            { "arifle_Mk20C_F", "", 330000, 7500 },
-            { "arifle_MX_SW_F", "", 530000, 5000 }
+            { "arifle_MX_F", "", 230000, 7500 },
+            { "SMG_02_F", "", 200000, 7500 },
+            { "arifle_Mk20C_F", "", 230000, 7500 },
+            { "arifle_MX_SW_F", "", 270000, 5000 }
         };
         mags[] = {
             { "30Rnd_65x39_caseless_mag", "", 530 }, //MX
@@ -254,11 +253,11 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant Rank!" };
         items[] = {
-            { "srifle_EBR_F", "", 650000, 25000 },//mk18
-            { "srifle_DMR_01_F", "", 450000, 25000 },//rahim
-            { "srifle_DMR_05_hex_F", "cyrus(DLC)", 830000, 25000 },//cyrus
-            { "LMG_Mk200_F", "", 750000, 25000 },//mk200
-            { "srifle_LRR_F", "", 900000, 25000 }
+            { "srifle_EBR_F", "", 500000, 25000 },//mk18
+            { "srifle_DMR_01_F", "", 300000, 25000 },//rahim
+            { "srifle_DMR_05_hex_F", "cyrus(DLC)", 530000, 25000 },//cyrus
+            { "LMG_Mk200_F", "", 450000, 25000 },//mk200
+            { "srifle_LRR_F", "", 650000, 25000 }
         };
         mags[] = {
             { "20Rnd_762x51_Mag", "", 600 },
@@ -283,10 +282,10 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 5, "You must be a master Rank!" };
         items[] = {
-            { "srifle_GM6_F", "", 900000, 25000 },//lynx
-            { "LMG_Zafir_F", "", 1200000, 25000 },//zafir
-            { "MMG_01_hex_F", "", 1900000, 25000 }, //NAVID
-            { "launch_Titan_F", "", 2800000, 25000 },
+            { "srifle_GM6_F", "", 650000, 25000 },//lynx
+            { "LMG_Zafir_F", "", 750000, 25000 },//zafir
+            { "MMG_01_hex_F", "", 1000000, 25000 }, //NAVID
+            { "launch_Titan_F", "", 1800000, 25000 },
             { "launch_B_Titan_short_F", "", 1500000, 25000 }
         };
         mags[] = {
@@ -302,8 +301,8 @@ class WeaponShops {
         accs[] = {
             { "optic_LRPS", "", 200000 },
             { "optic_Hamr", "", 150000 },
-            { "optic_tws", "", 300000 },
-            { "optic_Nightstalker", "", 225000 },
+            { "optic_tws", "", 200000 },
+            { "optic_Nightstalker", "", 150000 },
             { "acc_pointer_IR", "", 30000 }
         };
     };
