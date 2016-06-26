@@ -24,7 +24,7 @@
             <Polish></Polish>
         </Key>
         <Key ID="STR_Init_ExtdbFail">
-            <Original>디비연결이 안됩니다. 어드민짱을 불러주세요.</Original>
+            <Original>디비연결이 안됩니다. 어드민을 불러주세요.</Original>
             <Czech></Czech>
             <Spanish></Spanish>
             <Russian></Russian>
@@ -10277,6 +10277,12 @@
             <German>Federal Reserve Bank - Tresor</German>
             <Portuguese>Reserva Federal - Visão do Cofre</Portuguese>
             <Polish>Rezerwa federalna - skarbiec</Polish>
+        </Key>
+        <Key ID="STR_MAR_FED_aoscasino">
+            <Original>Federal Reserve - AOSoul Casino</Original>
+        </Key>
+        <Key ID="STR_MAR_FED_illcasino">
+            <Original>Federal Reserve - illegal Casino</Original>
         </Key>
         <Key ID="STR_MAR_FED_Off_display">
             <Original>Turn Off Display</Original>

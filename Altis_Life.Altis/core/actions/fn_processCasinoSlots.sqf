@@ -23,9 +23,9 @@ if(playerSide != civilian) exitWith
 };
 */
 
-if(player distance _source > 50) exitWith 
+if(player distance _source > 20) exitWith 
 {
-	hint "You need to stay within 50m to play."; 
+	hint "You need to stay within 20m to play."; 
 	//5 cutText ["","PLAIN"]; 
 	life_is_processing = false;
 };
@@ -39,6 +39,9 @@ switch (_type) do
 	case 0:{_cost = 1000;};//penny snatcher's
 	case 1:{_cost = 2000;};//average joe's
 	case 2:{_cost = 5000;};//high roller's
+	case 3:{_cost = 10000;};//불법 카지노 1
+	case 4:{_cost = 20000;};//불법 카지노 2	
+	case 5:{_cost = 50000;};//불법 카지노 1
 };
 _winAmount = 0;
 

@@ -16,6 +16,7 @@ StartProgress = false;
 [] execVM "Custom\statusbar_loop.sqf";  //Status Bar Loop
 [] execVM "Custom\safezone.sqf";
 [] execVM "Custom\CL.sqf";
+[] execVM "Custom\CL2.sqf";
 
 //Cop & Medic Radio disable
 enableRadio false;

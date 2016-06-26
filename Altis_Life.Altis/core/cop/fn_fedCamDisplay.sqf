@@ -43,7 +43,19 @@ switch (_mode) do {
         life_fed_scam camSetTarget [15998.7,16939.7,0.00146866];
         life_fed_scam camCommit 0;
     };
+	
+    case "aoscasino": {
+        life_fed_scam camSetPos [3530.1208,11437.675,14.610297];
+        life_fed_scam camSetTarget [3521.531,11437.521,14];
+        life_fed_scam camCommit 0;
+    };
 
+    case "illcasino": {
+        life_fed_scam camSetPos [9677.5566,8935.4121,26.608416];
+        life_fed_scam camSetTarget [9678.188,8926.633,0.00146866];
+        life_fed_scam camCommit 0;
+    };
+	
     case "off" :{
         life_fed_scam cameraEffect ["terminate", "back"];
         camDestroy life_fed_scam;
