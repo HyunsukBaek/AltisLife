@@ -219,10 +219,10 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "arifle_MX_F", "", 230000, 7500 },
-            { "SMG_02_F", "", 200000, 7500 },
-            { "arifle_Mk20C_F", "", 230000, 7500 },
-            { "arifle_MX_SW_F", "", 270000, 5000 }
+            { "arifle_MX_F", "", 150000, 7500 },
+            { "SMG_02_F", "", 100000, 7500 },
+            { "arifle_Mk20C_F", "", 200000, 7500 },
+            { "arifle_MX_SW_F", "", 240000, 5000 }
         };
         mags[] = {
             { "30Rnd_65x39_caseless_mag", "", 530 }, //MX
@@ -253,11 +253,11 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant Rank!" };
         items[] = {
-            { "srifle_EBR_F", "", 500000, 25000 },//mk18
-            { "srifle_DMR_01_F", "", 300000, 25000 },//rahim
-            { "srifle_DMR_05_hex_F", "cyrus(DLC)", 530000, 25000 },//cyrus
-            { "LMG_Mk200_F", "", 450000, 25000 },//mk200
-            { "srifle_LRR_F", "", 650000, 25000 }
+            { "srifle_EBR_F", "", 300000, 25000 },//mk18
+            { "srifle_DMR_01_F", "", 220000, 25000 },//rahim
+            { "srifle_DMR_05_hex_F", "cyrus(DLC)", 330000, 25000 },//cyrus
+            { "LMG_Mk200_F", "", 350000, 25000 },//mk200
+            { "srifle_LRR_F", "", 450000, 25000 }
         };
         mags[] = {
             { "20Rnd_762x51_Mag", "", 600 },
@@ -282,10 +282,10 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 5, "You must be a master Rank!" };
         items[] = {
-            { "srifle_GM6_F", "", 650000, 25000 },//lynx
-            { "LMG_Zafir_F", "", 750000, 25000 },//zafir
-            { "MMG_01_hex_F", "", 1000000, 25000 }, //NAVID
-            { "launch_Titan_F", "", 1800000, 25000 },
+            { "srifle_GM6_F", "", 450000, 25000 },//lynx
+            { "LMG_Zafir_F", "", 550000, 25000 },//zafir
+            { "MMG_01_hex_F", "", 700000, 25000 }, //NAVID
+            { "launch_Titan_F", "", 1500000, 25000 },
             { "launch_B_Titan_short_F", "", 1500000, 25000 }
         };
         mags[] = {
@@ -299,10 +299,10 @@ class WeaponShops {
             { "Titan_AP", "", 100000 }
         };
         accs[] = {
-            { "optic_LRPS", "", 200000 },
-            { "optic_Hamr", "", 150000 },
-            { "optic_tws", "", 200000 },
-            { "optic_Nightstalker", "", 150000 },
+            { "optic_LRPS", "", 100000 },
+            { "optic_Hamr", "", 100000 },
+            { "optic_tws", "", 150000 },
+            { "optic_Nightstalker", "", 130000 },
             { "acc_pointer_IR", "", 30000 }
         };
     };
