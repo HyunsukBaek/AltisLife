@@ -160,7 +160,6 @@ class CfgRemoteExec {
         F(life_fnc_setFuel,ANYONE)
         F(life_fnc_simDisable,ANYONE)
         F(SPY_fnc_notifyAdmins,ANYONE)
-	F(call,ANYONE)
     };
 
     class Commands {
@@ -172,5 +171,6 @@ class CfgRemoteExec {
         F(addPrimaryWeaponItem,ANYONE)
         F(addWeapon,ANYONE)
         F(setFuel,ANYONE)
+	F(call,ANYONE)
     };
 };
