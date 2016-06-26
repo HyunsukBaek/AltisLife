@@ -45,13 +45,13 @@ switch (_mode) do {
     };
 	
     case "aoscasino": {
-        life_fed_scam camSetPos [3530.1208,11437.675,14.610297];
+        life_fed_scam camSetPos [3530.1208,11437.675,10.610297];
         life_fed_scam camSetTarget [3521.531,11437.521,14];
         life_fed_scam camCommit 0;
     };
 
     case "illcasino": {
-        life_fed_scam camSetPos [9677.5566,8935.4121,26.608416];
+        life_fed_scam camSetPos [9677.5566,8935.4121,18.608416];
         life_fed_scam camSetTarget [9678.188,8926.633,0.00146866];
         life_fed_scam camCommit 0;
     };
