@@ -45,8 +45,8 @@ switch (_mode) do {
     };
 	
     case "aoscasino": {
-        life_fed_scam camSetPos [3530.1208,11437.675,10.610297];
-        life_fed_scam camSetTarget [3521.531,11437.521,14];
+        life_fed_scam camSetPos [3530.1208,11437.675,17.610297];
+        life_fed_scam camSetTarget [3521.531,11437.521,7];
         life_fed_scam camCommit 0;
     };
 
