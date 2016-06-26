@@ -25,7 +25,7 @@ class life_slotmachine
 			text = "럭키! 슬롯머신!!";
 			x = safeZoneX+(safezoneW * 0.5)-0.1;
 			y = safeZoneY+(safezoneH * 0.5)-0.5;
-			w = 0.65; h = 0.12;
+			w = 0.65; h = 0.1;
 		};
 		
 		class roll1 : life_RscPicture
@@ -41,7 +41,7 @@ class life_slotmachine
 		{
 			idc = 38208;
 			text = "textures\Slots\SlotMachine\bar.jpg";
-			x = safeZoneX+(safezoneW * 0.25) + 0.500;
+			x = safeZoneX+(safezoneW * 0.25) + 0.520;
 			y = safeZoneY+(safezoneH * 0.5)-0.09;
 			w = 0.13; h = 0.25;
 		};
