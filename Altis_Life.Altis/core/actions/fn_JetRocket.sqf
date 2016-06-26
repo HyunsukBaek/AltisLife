@@ -3,8 +3,8 @@ AOS JetPack Script
 Made by AOS
 http://cafe.naver.com/altisaos
 */
-if(life_atmbank < 75000) exitWith {hint "제트팩 이용시 은행 계좌에 75000$이 필요합니다"};
-life_atmbank = life_atmbank - 75000;
+if(life_atmbank < 49999) exitWith {hint "제트팩 이용시 은행 계좌에 50000$이 필요합니다"};
+life_atmbank = life_atmbank - 50000;
 
 waitUntil { !isNull player };
 	
