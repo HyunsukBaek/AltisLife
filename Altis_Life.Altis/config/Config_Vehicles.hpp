@@ -81,7 +81,8 @@ class CarShops {
             { "I_Heli_Transport_02_F",  { "", "", -1 } },
 	    { "O_MRAP_02_hmg_F", { "", "", -1 } },
 	    { "O_Heli_Light_02_F",  { "", "", -1 } },
-	    { "O_Heli_Transport_04_covered_F",  { "", "", -1 } }
+	    { "O_Heli_Transport_04_covered_F",  { "", "", -1 } },
+	    { "O_Heli_Transport_04_bench_F",  { "", "", -1 } }
         };
     };
 
@@ -878,6 +879,13 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	licenses[] = { {""}, {""}, {""}, {""} };
 	price = 1250000;
 	textures[] = {};
+    };
+
+    class O_Heli_Transport_04_bench_F {
+   	vItemSpace = 150;
+   	licenses[] = { {""}, {""}, {""}, {""} };
+   	price = 1250000;
+   	textures[] = {};
     };
 
     class B_SDV_01_F {
