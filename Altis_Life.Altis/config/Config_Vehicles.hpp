@@ -80,7 +80,8 @@ class CarShops {
             { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
             { "I_Heli_Transport_02_F",  { "", "", -1 } },
 	    { "O_MRAP_02_hmg_F", { "", "", -1 } },
-	    { "O_Heli_Light_02_F",  { "", "", -1 } }
+	    { "O_Heli_Light_02_F",  { "", "", -1 } },
+	    { "O_Heli_Transport_04_covered_F",  { "", "", -1 } }
         };
     };
 
@@ -107,7 +108,8 @@ class CarShops {
             { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
             { "B_Heli_Transport_03_unarmed_F", { "", "", -1 } },
             { "I_Heli_Transport_02_F",  { "", "", -1 } },
-            { "O_Heli_Transport_04_F",  { "", "", -1 } }
+            { "O_Heli_Transport_04_F",  { "", "", -1 } },
+            { "O_Heli_Transport_04_medevac_F",  { "", "", -1 } }
         };
     };
 
@@ -254,7 +256,7 @@ class LifeCfgVehicles {
     class O_Heli_Light_02_F { // ORCA ARMED
 	vItemSpace = 200;
 	licenses[] = { {""}, {"cAir"}, {""}, {""} };
-	price = 19000000;
+	price = 12000000;
 	textures[] = {
 	    { "Desert Digi", "reb", {
                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"
@@ -804,7 +806,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class I_Heli_Transport_02_F { //mohawk
         vItemSpace = 275;
         licenses[] = { {"pilot" }, {"cAir"}, {"mAir"}, {""} };
-        price = 1455000;
+        price = 1255000;
         textures[] = {
             { "EMS Red", "med", {
                 "textures\ems\med_mohawk.paa",
@@ -867,6 +869,15 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
             } }
         };
+    };
+
+    class O_Heli_Transport_04_medevac_F : O_Heli_Transport_04_F{};
+
+    class O_Heli_Transport_04_covered_F {
+	vItemSpace = 150;
+	licenses[] = { {""}, {""}, {""}, {""} };
+	price = 1250000;
+	textures[] = {};
     };
 
     class B_SDV_01_F {
