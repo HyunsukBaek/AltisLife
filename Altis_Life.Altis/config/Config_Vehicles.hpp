@@ -56,7 +56,8 @@ class CarShops {
             { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
             { "I_Heli_light_03_unarmed_F", { "", "", -1 } },
             { "B_Heli_Transport_03_unarmed_F", { "", "", -1 } },
-            { "I_Heli_Transport_02_F", { "", "", -1 } }
+            { "I_Heli_Transport_02_F", { "", "", -1 } },
+	    { "B_Heli_Transport_01_F", { "", "", -1 } }
         };
     };
 
@@ -110,7 +111,9 @@ class CarShops {
             { "B_Heli_Transport_03_unarmed_F", { "", "", -1 } },
             { "I_Heli_Transport_02_F",  { "", "", -1 } },
             { "O_Heli_Transport_04_F",  { "", "", -1 } },
-            { "O_Heli_Transport_04_medevac_F",  { "", "", -1 } }
+            { "O_Heli_Transport_04_medevac_F",  { "", "", -1 } },
+	    { "I_Heli_light_03_F",  { "", "", -1 } }
+
         };
     };
 
@@ -232,9 +235,10 @@ class LifeCfgVehicles {
     class B_Heli_Transport_01_F { //ghost hawk
         vItemSpace = 200;
         licenses[] = { {""}, {"cAir"}, {""}, {""} };
-        price = 550000;
+        price = 850000;
         textures[] = {
-            { "Cop", "cop", {"textures\cop\ghosthawk_0.paa","textures\cop\ghosthawk_1.paa"} }
+            { "Cop", "cop", {"textures\cop\ghosthawk_0.paa","textures\cop\ghosthawk_1.paa"} },
+	    { "KoreanAir", "civ", {"textures\civ\Ghosthawk_CIV_Koreanair1.paa","textures\civ\Ghosthawk_CIV_Koreanair2.paa"} }
         };
     };
 
@@ -243,7 +247,8 @@ class LifeCfgVehicles {
         licenses[] = { {""}, {"cAir"}, {""}, {""} };
         price = 650000;
         textures[] = {
-            { "Cop", "cop", {"textures\cop\cop_hellcat.paa"} }
+            { "Cop", "cop", {"textures\cop\cop_hellcat.paa"} },
+	    { "EMS", "med", {"textures\ems\Hellcat_EMS_White.paa"} }
         };
     };
 
@@ -259,9 +264,7 @@ class LifeCfgVehicles {
 	licenses[] = { {""}, {"cAir"}, {""}, {""} };
 	price = 12000000;
 	textures[] = {
-	    { "Desert Digi", "reb", {
-               "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"
-	    } }
+	    { "Desert Digi", "reb", {"\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"} }
 	};
     };
 
