@@ -1,34 +1,38 @@
 class CfgGather {
-    zoneSize = 35;
     class Resources {
         class apple {
             amount = 5;
             zones[] = { "apple_1", "apple_2", "apple_3", "apple_4", "apple_5" };
             item = "";
+            zoneSize = 40;
         };
 
         class peach {
             amount = 5;
             zones[] = { "peaches_1", "peaches_2", "peaches_3", "peaches_4" };
             item = "";
+            zoneSize = 40;
         };
 
         class heroin_unprocessed {
             amount = 3;
             zones[] = { "heroin_1" };
             item = "";
+            zoneSize = 40;
         };
 
         class cocaine_unprocessed {
             amount = 3;
             zones[] = { "cocaine_1" };
             item = "";
+            zoneSize = 40;
         };
 
         class cannabis {
             amount = 3;
             zones[] = { "weed_1", "weed_2" };
             item = "";
+            zoneSize = 40;
         };
     };
 
@@ -71,6 +75,7 @@ Example 2:
             zones[] = { "copper_mine" };
             item = "pickaxe";
             mined[] = {"copper_unrefined"};
+            zoneSize = 40;
         };
 
         class iron_unrefined {
@@ -78,6 +83,7 @@ Example 2:
             zones[] = { "iron_mine" };
             item = "pickaxe";
             mined[] = { "iron_unrefined" };
+            zoneSize = 40;
         };
 
         class salt_unrefined {
@@ -85,6 +91,7 @@ Example 2:
             zones[] = { "salt_mine" };
             item = "pickaxe";
             mined[] = { "salt_unrefined" };
+            zoneSize = 40;
         };
 
         class sand {
@@ -92,6 +99,7 @@ Example 2:
             zones[] = { "sand_mine" };
             item = "pickaxe";
             mined[] = { "sand" };
+            zoneSize = 40;
         };
 
         class diamond_uncut {
@@ -99,6 +107,7 @@ Example 2:
             zones[] = { "diamond_mine" };
             item = "pickaxe";
             mined[] = { "diamond_uncut" };
+            zoneSize = 40;
         };
 
         class rock {
@@ -106,6 +115,7 @@ Example 2:
             zones[] = { "rock_quarry" };
             item = "pickaxe";
             mined[] = { "rock" };
+            zoneSize = 40;
         };
 
         class oil_unprocessed {
@@ -113,12 +123,14 @@ Example 2:
             zones[] = { "oil_field_1", "oil_field_2" };
             item = "pickaxe";
             mined[] = { "oil_unprocessed" };
+            zoneSize = 40;
         };
         class wood {
             amount = 1;
             zones[] = { "wood_1", "wood_2" };
             item = "chainsaw";
             mined[] = { "wood" };
+            zoneSize = 60;
         };
     };
 };
