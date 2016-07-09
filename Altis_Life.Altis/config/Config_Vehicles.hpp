@@ -194,6 +194,25 @@ class CarShops {
             { "B_SDV_01_F", { "", "", -1 } }
         };
     };
+	
+	//Custom
+	class civ_car_addon{
+		side = "civ";
+		vehicles [] ={
+		};
+	};
+	
+	class civ_car_donation{
+		side = "civ";
+		vehicles [] ={
+		};
+	};
+	
+	class civ_car_luxury{
+		side = "civ";
+		vehicles [] ={
+		};
+	};
 };
 
 class LifeCfgVehicles {
