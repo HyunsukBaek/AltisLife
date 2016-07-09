@@ -25,6 +25,8 @@ WAP_02_TEST_BEAM  // 로보트 3 (오렌지 빔))
 G_WAP_03_Blue_AS   // 로보트 4 (녹색)
 WAP_03_Blue_AS 
 
+//Flip Car
+A3L_Flipcar
 
 //1969닷지 슈퍼 비 
 SIG_SuperBeeB  // 블랙
@@ -507,18 +509,6 @@ Mrshounka_veneno_c_bleu
 Mrshounka_veneno_c_jaune
 
 
-// lancer evolution X  소형차 4인승 
-Mrshounka_evox_civ // 빨 
-Mrshounka_evox_bleufonce
-Mrshounka_evox_grise
-Mrshounka_evox_jaune // 옐로우
-Mrshounka_evox_noir
-Mrshounka_evox_orange
-Mrshounka_evox_rose
-Mrshounka_evox_rouge //루즈색 빨강
-Mrshounka_evox_violet
-
-
 max_vipcar1// 롤스로이스 팬텀 ( vip )  크롬색
 
 
@@ -554,9 +544,8 @@ dbo_LT_01
 
 Mrshounka_lykan_c // 라이칸 하이퍼스포트
 shounka_mp4 // 맥라렌 mp4-12c
-Mrshounka_mercedes_190_p_civ // 벤츠 구형 스포츠카 Mrshounka_c63_2015_civ // 벤츠 c63 AMG 2015
-Skyline_Mercedes_C63_02_F // 벤츠 C63 검정
-Skyline_Mercedes_C63_01_F // 벤츠 C63 검정 날개 
+Mrshounka_mercedes_190_p_civ // 벤츠 구형 스포츠카
+Mrshounka_c63_2015_civ // 벤츠 c63 AMG 2015
 
 
 shounka_clk // 벤츠 CLK
@@ -564,14 +553,6 @@ shounka_a3_spr_civ // 벤츠 스프ㅡ린터 빨강
 shounka_a3_pompier_sprinter // 벤츠 스프린터 빨강 - 메딕 
 shounka_a3_gendsprinter // 벤츠 스프린터 경찰 
 
-
-//벤츠 300 SEL (옛날꺼)
-Skyline_Mercedes_300_SEL_01_F //검정
-Skyline_Mercedes_300_SEL_11_F //흰
-Skyline_Mercedes_300_SEL_02_F //파
-Skyline_Mercedes_300_SEL_06_F //하늘
-Skyline_Mercedes_300_SEL_10_F //검정
-Skyline_Mercedes_300_SEL_04_F  // 빨강
 
 
 
