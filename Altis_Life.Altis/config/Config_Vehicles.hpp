@@ -132,11 +132,44 @@ class CarShops {
             { "I_MRAP_03_F", { "life_coplevel", "SCALAR", 3 } },
             { "B_MRAP_01_hmg_F", { "life_coplevel", "SCALAR", 4 } },
             { "O_MRAP_02_hmg_F", { "life_coplevel", "SCALAR", 4 } },
-            { "I_MRAP_03_hmg_F", { "life_coplevel", "SCALAR", 5 } },
-            { "O_MBT_02_cannon_F", { "life_coplevel", "SCALAR", 5 } },
-            { "O_Plane_CAS_02_F", { "life_donorlevel", "SCALAR", 1 } } //FOR TEST
+            { "I_MRAP_03_hmg_F", { "life_coplevel", "SCALAR", 5 } }
         };
     };
+
+    class cop_car_addon {
+            side = "cop";
+            vehicles[] = {
+        	{ "max_bike_police", { "", "", -1 } },//  경찰 오토바이
+        	{ "Mrshounka_ducati_police_p", { "life_donorlevel", "SCALAR", 1 } },//  경찰듀카티 오토바이  // 기부자
+        	{ "max_impala_security", { "", "", -1 } },// 경찰 임팔라 세단 5인
+        	{ "Mrshounka_bmw_gend", { "", "", -1 } },// BMW 1 시리즈 M 세단(2인승)
+        	{ "Mrshounka_rs4_gend_p_blanc", { "", "", -1 } },// 아우디 RS4 // 기부자
+        	{ "shounka_a3_audiq7_v2_gendarmerie", { "", "", -1 } },//아우디 Q7// 기부자
+        	{ "Mrshounka_agera_gend_p", { "", "", -1 } },// 아제라 스포츠카 // 기부자
+        	{ "77FuryShr", { "", "", -1 } },// 77년대 플리마우스 퓨리 크루져 (경찰 SHERIFF ) 흰색// 기부자
+        	{ "77FuryCop", { "", "", -1 } },// " 검정
+        	{ "Mrshounka_rs_2015_g", { "", "", -1 } }, // renault megane RS 2015  4인승 해치백 3도어// 기부자
+        	{ "shounka_a3_508banalise", { "", "", -1 } },// 푸조 508 세단 검정
+        	{ "shounka_a3_508gend", { "", "", -1 } },// 푸조 508 세단 파랑
+        	{ "shounka_a3_508pol", { "", "", -1 } },// 푸조 508 세단 흰
+        	{ "Mrshounka_a3_308_gend", { "", "", -1 } },//골프 308 GTI 푸조 파랑
+        	{ "Mrshounka_308pol", { "", "", -1 } },//골프 308 GTI 푸조 흰색
+        	{ "max_BP_charger", { "", "", -1 } },//닷지 차저 경찰 (흰색)
+        	{ "max_Charger_undercover", { "", "", -1 } },
+        	{ "max_FBI_charger_undercover", { "", "", -1 } },
+        	{ "max_Charger_Lapd", { "", "", -1 } },//  닷지 차저 경찰 검흰
+        	{ "max_CrownVic_lapd", { "", "", -1 } },// 크라운빅 Crownvic 옛날 경찰 차 검흰// 기부자
+        	{ "Mrshounka_evox_gend", { "", "", -1 } },// 경찰 EvoX 파랑 4인
+        	{ "max_BP_tahoe", { "", "", -1 } }, // 닷지 SUV 경찰 ( 흰색)
+        	{ "Mrshounka_Volkswagen_Touareg_police_police", { "", "", -1 } },//폭스바겐 투아렉 4인승 suv
+        	{ "max_FBI_tahoe_undercover", { "", "", -1 } },// 경찰 fbi 밴
+        	{ "max_bus_pris", { "", "", -1 } },// 경찰 죄수 운송 버스
+        	{ "shounka_a3_gendsprinter", { "", "", -1 } },// 벤츠 스프린터 경찰// 기부자
+        	{ "max_van_sheriff", { "", "", -1 } },// 경찰 밴 흰색 죄수 운송
+        	{ "max_FBI_van", { "", "", -1 } },  // 경찰 FBI 장갑 밴// 기부자
+        	{ "max_FBI_tahoe", { "", "", -1 } }// 경찰 FBI van  TAhoe
+            };
+        };
 
     class cop_air {
         side = "cop";
@@ -147,6 +180,7 @@ class CarShops {
             { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
             { "I_Heli_Transport_02_F", { "", "", -1 } },
             { "O_Heli_Transport_04_F", { "", "", -1 } },
+	    { "police_heavy_heli", { "", "", -1 } },// 경찰 오르카//애드온
             { "I_Heli_light_03_F", { "life_coplevel", "SCALAR", 4 } },
             { "O_Heli_Light_02_v2_F", { "life_coplevel", "SCALAR", 4 } },
             { "B_Heli_Light_01_armed_F", { "life_coplevel", "SCALAR", 5 } },
@@ -196,9 +230,9 @@ class LifeCfgVehicles {
     */
 
     class Default {
-        vItemSpace = -1;
+        vItemSpace = 10;
         licenses[] = { {""}, {""}, {""}, {""} };
-        price = -1;
+        price = 200000;
         textures[] = {};
     };
 
@@ -964,4 +998,176 @@ will modify the virtual space and the price of the vehicle, but other informatio
     	licenses[] = { {""}, {""}, {""}, {""} };
     	price = 300000;
     };
+    ////////////////////////////// ADDON
+    class max_bike_police {
+        vItemSpace = 20;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 150000;
+        textures[] = {};
+    };
+
+    class Mrshounka_ducati_police_p {
+        vItemSpace = 20;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 700000;
+        textures[] = {};
+    };
+
+    class max_impala_security {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 150000;
+        textures[] = {};
+    };
+
+    class Mrshounka_bmw_gend {
+        vItemSpace = 40;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 300000;
+        textures[] = {};
+    };
+
+    class Mrshounka_rs4_gend_p_blanc {
+        vItemSpace = 40;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 1500000;
+        textures[] = {};
+    };
+
+    class shounka_a3_audiq7_v2_gendarmerie {
+        vItemSpace = 80;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 1800000;
+        textures[] = {};
+    };
+
+    class Mrshounka_agera_gend_p {
+        vItemSpace = 30;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 2300000;
+        textures[] = {};
+    };
+
+    class 77FuryShr {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 200000;
+        textures[] = {};
+    };
+
+    class 77FuryCop {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 200000;
+        textures[] = {};
+    };
+
+    class Mrshounka_rs_2015_g {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 500000;
+        textures[] = {};
+    };
+
+    class shounka_a3_508banalise {
+        vItemSpace = 70;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 230000;
+        textures[] = {};
+    };
+
+    class shounka_a3_508gend : shounka_a3_508banalise{};
+    class shounka_a3_508pol : shounka_a3_508banalise{};
+
+    class Mrshounka_a3_308_gend {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 150000;
+        textures[] = {};
+    };
+
+    class Mrshounka_308pol : Mrshounka_a3_308_gend{};
+
+    class max_BP_charger {
+        vItemSpace = 70;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 190000;
+        textures[] = {};
+    };
+
+    class max_Charger_undercover : max_BP_charger{};
+    class max_FBI_charger_undercover : max_BP_charger{};
+    class max_Charger_Lapd : max_BP_charger{};
+    class max_CrownVic_lapd : max_BP_charger{};
+
+    class Mrshounka_evox_gend {
+        vItemSpace = 60;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 100000;
+        textures[] = {};
+    };
+
+    class max_BP_tahoe {
+        vItemSpace = 60;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 230000;
+        textures[] = {};
+    };
+
+    class Mrshounka_Volkswagen_Touareg_police_police {
+        vItemSpace = 60;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 210000;
+        textures[] = {};
+    };
+
+    class max_FBI_tahoe_undercover {
+         vItemSpace = 120;
+         licenses[] = { {"driver"}, {""}, {""}, {""} };
+         price = 300000;
+         textures[] = {};
+    };
+
+    class max_bus_pris {
+         vItemSpace = 220;
+         licenses[] = { {"driver"}, {""}, {""}, {""} };
+         price = 400000;
+         textures[] = {};
+    };
+
+    class shounka_a3_gendsprinter {
+         vItemSpace = 160;
+         licenses[] = { {"driver"}, {""}, {""}, {""} };
+         price = 800000;
+         textures[] = {};
+    };
+
+    class max_van_sheriff {
+         vItemSpace = 120;
+         licenses[] = { {"driver"}, {""}, {""}, {""} };
+         price = 340000;
+         textures[] = {};
+    };
+
+    class max_FBI_van {
+         vItemSpace = 120;
+         licenses[] = { {"driver"}, {""}, {""}, {""} };
+         price = 500000;
+         textures[] = {};
+    };
+
+    class max_FBI_tahoe {
+         vItemSpace = 120;
+         licenses[] = { {"driver"}, {""}, {""}, {""} };
+         price = 400000;
+         textures[] = {};
+    };
+
+    class police_heavy_heli {  //orca police
+         vItemSpace = 130;
+         licenses[] = { {"driver"}, {""}, {""}, {""} };
+         price = 700000;
+         textures[] = {};
+    };
+
 };
