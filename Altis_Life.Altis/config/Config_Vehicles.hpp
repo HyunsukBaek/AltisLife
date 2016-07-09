@@ -149,7 +149,7 @@ class CarShops {
 	    { "max_Charger_undercover", { "", "", -1 } },
 	    { "max_FBI_charger_undercover", { "", "", -1 } },
 	    { "max_Charger_Lapd", { "", "", -1 } },//  닷지 차저 경찰 검흰
-	    { "Mrshounka_evox_gend", { "", "", -1 } },// 경찰 EvoX 파랑 4인
+	    //{ "Mrshounka_evox_gend", { "", "", -1 } },// 경찰 EvoX 파랑 4인
 	    { "max_BP_tahoe", { "", "", -1 } }, // 닷지 SUV 경찰 ( 흰색)
 	    { "max_FBI_tahoe_undercover", { "", "", -1 } },// 경찰 fbi 밴
 	    { "max_bus_pris", { "", "", -1 } },// 경찰 죄수 운송 버스
@@ -1094,13 +1094,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class max_FBI_charger_undercover : max_BP_charger{};
     class max_Charger_Lapd : max_BP_charger{};
     class max_CrownVic_lapd : max_BP_charger{};
-
-    class Mrshounka_evox_gend {
-        vItemSpace = 60;
-        licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 100000;
-        textures[] = {};
-    };
 
     class max_BP_tahoe {
         vItemSpace = 60;

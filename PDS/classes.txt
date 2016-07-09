@@ -346,7 +346,6 @@ Mrshounka_ducati_police_p // 경찰 파랑
 
 max_ambulance // 메딕 엠뷸런스 (옛날 )4인
 
-Mrshounka_evox_gend // 경찰 EvoX 파랑 4인
 
 max_FBI_tahoe // 경찰 FBI van  TAhoe
 max_FBI_van // 경찰 FBI 장갑 밴 
