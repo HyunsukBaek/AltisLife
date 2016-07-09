@@ -1655,7 +1655,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class Mrshounka_a3_ds3_civ_civ_orange : Mrshounka_a3_ds3_civ{};
 	
 	//citroen ds4  4인승  해치백
-	class shounka_a3_ds4_civ {
+	class shounka_a3_ds4_civ { 
 	vItemSpace = 50;
 	licenses[] = { {"driver"}, {""}, {""}, {""} };
 	price = 700000;
