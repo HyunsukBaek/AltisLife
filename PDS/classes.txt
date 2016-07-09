@@ -104,18 +104,6 @@ shounka_rs6_violet
 shounka_rs6_orange
 
 
-//공항버스 AUTOBUS 
-Skyline_Bus_01_F // 회색 
-Skyline_Bus_11_F // 흰색
-Skyline_Bus_02_F  //파랑
-Skyline_Bus_06_F  // 하늘 (사이언)
-Skyline_Bus_09_F // 쥐색 GRIS
-Skyline_Bus_07_F  // 노랑 
-Skyline_Bus_05_F  // 핑크
-Skyline_Bus_10_F  // 짙은 갈색
-Skyline_Bus_08_F // 오렌지
-Skyline_Bus_04_F  // 빨강
-Skyline_Bus_03_F // 형광 녹색
 
 
 // 해골 갱 BIKE (MAX BIKE)
