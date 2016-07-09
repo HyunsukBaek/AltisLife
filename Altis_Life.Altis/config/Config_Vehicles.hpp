@@ -48,7 +48,7 @@ class CarShops {
             { "I_Truck_02_fuel_F", { "", "", -1 } },
             { "shounka_a3_dafxf_euro6_f", { "", "", -1 } },    //트레일러 없는 트럭
             { "Mrshounka_a3_iveco_f", { "", "", -1 } },        //IVECO 특장트럭 ( 컨테이너 )  4인승
-            { "shounka_a3_renaultmagnum_f", { "", "", -1 } }        //REnault magnum 대형 트레일러
+            { "shounka_a3_renaultmagnum_f", { "", "", -1 } }   //REnault magnum 대형 트레일러
         };
     };
 
@@ -874,7 +874,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "EMS London", "med", {"textures\ems\paramedic_hb.paa"} },
             { "Ferrari", "civ", {"textures\civ\ferrari_hatchback.paa"} },
             { "porsche", "civ", {"textures\civ\porsche_hatchback.paa"} },
-        { "잠복용시민monster", "cop", {"textures\civ\civ_hatchback_monster.paa"} }
+	    { "잠복용시민monster", "cop", {"textures\civ\civ_hatchback_monster.paa"} }
         };
     };
 
@@ -936,9 +936,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "tiger", "civ", {"textures\civ\pimp.paa"} },
             { "ghostRider", "civ", {"textures\civ\suv_ghostrider.paa"} },
             { "택시", "civ", {"textures\civ\suvtaxi.paa"} },
-        { "잠복용시민Cube", "cop", {"textures\civ\cube_suv.paa"} },
-        { "vips", "civ", {"textures\civ\civ_suvvip.paa"} },
-        { "5taku", "civ", {"textures\civ\civ_suvotaku.paa"} }
+	    { "잠복용시민Cube", "cop", {"textures\civ\cube_suv.paa"} },
+	    { "vips", "civ", {"textures\civ\civ_suvvip.paa"} },
+	    { "5taku", "civ", {"textures\civ\civ_suvotaku.paa"} }
         };
     };
 
