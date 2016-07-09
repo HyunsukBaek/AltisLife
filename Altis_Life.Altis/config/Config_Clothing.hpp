@@ -31,10 +31,7 @@ class Clothing {
             { "U_C_Poloshirt_tricolour", "Poloshirt Tricolor", 350, { "", "", -1 } },
             { "U_OrestesBody", "Surfing On Land", 1100, { "", "", -1 } },
             { "U_C_HunterBody_grn", "The Hunters Look", 1500, { "", "", -1 } },
-            { "U_C_WorkerCoveralls", "Mechanic Coveralls", 2500, { "", "", -1 } },
-            { "U_NikosAgedBody", "Casual Wears", 5000, { "", "", -1 } },
-            { "U_C_Poor_1", "Worn Clothes", 275, { "", "", -1 } },
-            { "U_C_Scientist", "Scientist", 275, { "", "", -1 } }
+            { "U_C_WorkerCoveralls", "Mechanic Coveralls", 2500, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -113,10 +110,157 @@ class Clothing {
             { "B_Carryall_oli", "", 7500, { "", "", -1 } },
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
-            { "B_AssaultPack_sgg", "JetPack", 500000, { "", "", -1 } },
+            { "B_AssaultPack_sgg", "JetPack", 300000, { "", "", -1 } },
             { "B_Parachute", "낙하산", 37500, { "", "", -1 } }
-
         };
+    };
+
+    class clothes_addon {
+	title = "STR_Shops_C_Addon";
+	license = "";
+	side = "civ";
+	uniforms[] = {
+	    { "NONE", "Remove Uniform", 0, { "", "", -1 } },
+	    // addon
+	    //  { "A3L_Bikini_Girl", "", 5000, { "", "", -1 } },
+	    { "A3L_Dude_Outfit", "", 5000, { "", "", -1 } },
+	    { "A3L_Farmer_Outfit", "", 5000, { "", "", -1 } },
+	    { "A3L_SECRET", "", 5000, { "", "", -1 } },
+	    { "A3L_SpookyMummy", "Scientist", 5000, { "", "", -1 } },
+	    { "A3L_Worker_Outfit", "", 5000, { "", "", -1 } },
+	    // { "A3L_Zombie", "Scientist", 5000, { "", "", -1 } },
+	    { "pilot_bLACK_uniform", "Scientist", 5000, { "", "", -1 } },
+	    { "pilot_blue_uniform", "Scientist", 5000, { "", "", -1 } },
+	    { "pilot_green_uniform", "Scientist", 5000, { "", "", -1 } },
+	    { "pilot_red_uniform", "Scientist", 5000, { "", "", -1 } },
+	    { "pilot_yellow_uniform", "", 5000, { "", "", -1 } },
+	    { "bodyguard_uniform_new", "", 5000, { "", "", -1 } },
+	    { "druglord_uniform_new", "", 5000, { "", "", -1 } },
+	    { "Robber_uniform_new", "Robber uniform", 5000, { "", "", -1 } },
+	    { "Killer_uniform_new", "Killer uniform", 5000, { "", "", -1 } },
+	    { "mafiaboss_uniform_new", "Mafia boss", 5000, { "", "", -1 } },
+	    { "CG_pilot_uniform", "", 5000, { "", "", -1 } },
+	    { "president_uniform_new", "President", 5000, { "", "", -1 } },
+	    { "xmas_santa_blufor_uniform", "santa blue", 5000, { "", "", -1 } },
+	    { "xmas_santa_ind_uniform", "santa green", 5000, { "", "", -1 } },
+	    { "xmas_santa_opfor_uniform", "santa red", 5000, { "", "", -1 } },
+	    { "A3L_Prisoner_Outfit", "prisoner1", 5000, { "", "", -1 } },
+	    { "Max_prisoner_clothes", "prisoner2", 5000, { "", "", -1 } },
+	    { "rifle_clothes", "", 5000, { "", "", -1 } },
+	    { "skull_gang", "", 5000, { "", "", -1 } },
+	    { "vip1_uniform_new", "", 5000, { "", "", -1 } },
+	    { "vip2_uniform_new", "", 5000, { "", "", -1 } },
+	    { "vip3_uniform_new", "", 5000, { "", "", -1 } }
+	};
+	headgear[] = {
+	    //addon
+	    { "A3L_Halloween_JigSaw", "", 150000, { "", "", -1 } },
+	    { "A3L_Legoman", "", 150000, { "", "", -1 } },
+	    { "A3L_Halloween_PredatorMask", "", 150000, { "", "", -1 } },
+	    { "A3L_Halloween_Pumpkinhead", "", 150000, { "", "", -1 } },
+	    { "H_AntmanMask", "", 150000, { "", "", -1 } },
+	    { "A3L_Mask", "", 150000, { "", "", -1 } },
+	    { "cg_dinomask", "", 150000, { "", "", -1 } },
+	    { "cg_dinomask_p", "", 150000, { "", "", -1 } },
+	    { "cg_dinomask_r", "", 150000, { "", "", -1 } },
+	    { "H_AugustusMask", "", 150000, { "", "", -1 } },
+	    { "H_BatmanMask", "", 150000, { "", "", -1 } },
+	    { "H_BobaMask", "", 150000, { "", "", -1 } },
+	    { "H_BushMask", "", 150000, { "", "", -1 } },
+	    { "casco_pumas", "", 150000, { "", "", -1 } },
+	    { "casco_moto", "", 150000, { "", "", -1 } },
+	    { "Casque_Moto", "", 150000, { "", "", -1 } },
+	    { "H_ClintonMask", "", 150000, { "", "", -1 } },
+	    { "H_DeadpoolMask", "", 150000, { "", "", -1 } },
+	    { "H_GingerbreadMask", "", 150000, { "", "", -1 } },
+	    { "Payday_GeneralO", "", 150000, { "", "", -1 } },
+	    { "H_FranklinMask", "", 150000, { "", "", -1 } },
+	    { "H_RAAMMask", "", 150000, { "", "", -1 } },
+	    { "H_GrantMask", "", 150000, { "", "", -1 } },
+	    { "H_LincolnMask", "", 150000, { "", "", -1 } },
+	    { "H_HulkMask", "", 150000, { "", "", -1 } },
+	    { "H_JasonMask", "", 150000, { "", "", -1 } },
+	    { "jokermask", "", 150000, { "", "", -1 } },
+	    { "H_KermitMask", "", 150000, { "", "", -1 } },
+	    { "Masque_Alien1", "", 150000, { "", "", -1 } },
+	    { "Masque_Anonymous", "", 150000, { "", "", -1 } },
+	    { "Masque_archNemesis", "", 150000, { "", "", -1 } },
+	    { "Masque_Arnold", "", 150000, { "", "", -1 } },
+	    { "Masque_Aubrey", "", 150000, { "", "", -1 } },
+	    { "Masque_Bonnie", "", 150000, { "", "", -1 } },
+	    { "Masque_Bush", "", 150000, { "", "", -1 } },
+	    { "Masque_Chains", "", 150000, { "", "", -1 } },
+	    { "Masque_Chuck", "", 150000, { "", "", -1 } },
+	    { "Masque_Clinton", "", 150000, { "", "", -1 } },
+	    { "Masque_Clover", "", 150000, { "", "", -1 } },
+	    { "Masque_Dallas", "", 150000, { "", "", -1 } },
+	    { "Masque_Gombo", "", 150000, { "", "", -1 } },
+	    { "Masque_Fish", "", 150000, { "", "", -1 } },
+	    { "Masque_GdG", "", 150000, { "", "", -1 } },
+	    { "Masque_Hoxton", "", 150000, { "", "", -1 } },
+	    { "Masque_Hockey", "", 150000, { "", "", -1 } },
+	    { "Masque_Incendiaire", "", 150000, { "", "", -1 } },
+	    { "Masque_Macrilleuse", "", 150000, { "", "", -1 } },
+	    { "Masque_Wolfv2", "", 150000, { "", "", -1 } },
+	    { "Masque_Lion", "", 150000, { "", "", -1 } },
+	    { "Masque_Mark", "", 150000, { "", "", -1 } },
+	    { "Masque_Metalhead", "", 150000, { "", "", -1 } },
+	    { "Masque_Momie", "", 150000, { "", "", -1 } },
+	    { "Masque_Optimiste", "", 150000, { "", "", -1 } },
+	    { "Masque_Orc", "", 150000, { "", "", -1 } },
+	    { "Masque_Religieuse", "", 150000, { "", "", -1 } },
+	    { "Masque_Santa", "", 150000, { "", "", -1 } },
+	    { "Masque_Smiley", "", 150000, { "", "", -1 } },
+	    { "Masque_Mempo", "", 150000, { "", "", -1 } },
+	    { "Masque_speedRunner", "", 150000, { "", "", -1 } },
+	    { "Masque_Unic", "", 150000, { "", "", -1 } },
+	    { "H_MickeyMask", "", 150000, { "", "", -1 } },
+	    { "H_NixonMask", "", 150000, { "", "", -1 } },
+	    { "Kio_No1_Hat", "", 150000, { "", "", -1 } },
+	    { "H_ObamaMask", "", 150000, { "", "", -1 } },
+	    { "H_PatriotMask", "", 150000, { "", "", -1 } },
+	    { "H_ScarecrowMask", "", 150000, { "", "", -1 } },
+	    { "H_ShrekMask", "", 150000, { "", "", -1 } },
+	    { "H_SpidermanMask", "", 150000, { "", "", -1 } },
+	    { "H_SpongebobMask", "", 150000, { "", "", -1 } },
+	    { "kio_vfv_mask", "", 150000, { "", "", -1 } },
+	    { "H_GuyFawkesMask", "", 150000, { "", "", -1 } },
+	    { "kio_skl_msk_red", "", 150000, { "", "", -1 } },
+	    { "kio_skl_msk_grn", "", 150000, { "", "", -1 } },
+	    { "kio_skl_msk", "", 150000, { "", "", -1 } },
+	    { "H_SquidwardMask", "", 150000, { "", "", -1 } },
+	    { "H_StarFoxMask", "", 150000, { "", "", -1 } },
+	    { "H_UltronMask", "", 150000, { "", "", -1 } },
+	    { "H_VenomMask", "", 150000, { "", "", -1 } },
+	    { "H_WashingtonMask", "", 150000, { "", "", -1 } },
+	    { "A3L_gangster_hat", "", 150000, { "", "", -1 } },
+	    { "A3L_SkateHelmet_green", "", 150000, { "", "", -1 } },
+	    { "Kio_Afro_Hat", "", 150000, { "", "", -1 } },
+	    { "Kio_Capital_Hat", "", 150000, { "", "", -1 } },
+	    { "cowboyhat", "", 150000, { "", "", -1 } },
+	    { "FP_Helmet_ElfHat", "", 150000, { "", "", -1 } },
+	    { "pilot_black_helmet", "", 150000, { "", "", -1 } },
+	    { "pilot_blue_helmet", "", 150000, { "", "", -1 } },
+	    { "pilot_red_helmet", "", 150000, { "", "", -1 } },
+	    { "police_pilot_Helmet", "", 150000, { "", "", -1 } },
+	    { "Kio_Pirate_Hat", "", 150000, { "", "", -1 } },
+	    { "Kio_Santa_Hat", "", 150000, { "", "", -1 } },
+	    { "Kio_Spinning_Hat", "", 150000, { "", "", -1 } }
+	};
+	goggles[] = {
+	    { "NONE", "Remove Glasses", 0, { "", "", -1 } }
+	};
+	vests[] = {
+	    { "NONE", "Remove Vest", 0, { "", "", -1 } }
+	};
+	backpacks[] = {
+	    { "NONE", "Remove Backpack", 0, { "", "", -1 } },
+	    //addon 시민 UAV
+	    { "sab_CUAV_bp", "", 50000, { "", "", -1 } },
+	    { "sab_CUAV_bp_blue", "", 50000, { "", "", -1 } },
+	    { "sab_CUAV_bp_pink", "", 50000, { "", "", -1 } },
+	    { "sab_CUAV_bp_violet", "", 50000, { "", "", -1 } }
+	};
     };
 
     class cop {
@@ -129,14 +273,34 @@ class Clothing {
             { "U_B_CombatUniform_mcam", "Traffic Officer", 250, { "", "", -1 } },
             { "U_B_CombatUniform_mcam_worn", "Blue Uniform", 350, { "life_coplevel", "SCALAR", 2 } },
 	    { "U_B_CTRG_1", "Black Uniform", 350, { "life_coplevel", "SCALAR", 2 } },
-	    { "U_B_survival_uniform", "", 1250, { "life_coplevel", "SCALAR", 1 } },
             { "U_B_PilotCoveralls", "", 550, { "life_coplevel", "SCALAR", 1 } },//
             { "U_B_HeliPilotCoveralls", "", 550, { "life_coplevel", "SCALAR", 2 } },
             { "U_B_GhillieSuit", "", 150000, { "life_coplevel", "SCALAR", 2 } },
             { "U_B_Wetsuit", "", 10550, { "life_coplevel", "SCALAR", 1 } },
             { "U_Marshal", "Marshal", 5550, { "life_coplevel", "SCALAR", 5 } },
-            { "U_C_Poor_1", "시민1", 5550, { "life_coplevel", "SCALAR", 4 } },
-            { "U_NikosAgedBody", "시민2", 10550, { "life_coplevel", "SCALAR", 4 } }
+            { "U_NikosAgedBody", "시민2", 10550, { "life_coplevel", "SCALAR", 4 } },
+
+	    // addon
+            { "max_captain_uniform", "캡틴", 10000, { "life_coplevel", "SCALAR", 4 } },
+            { "max_chief_uniform", "chief Uniform", 10000, { "life_coplevel", "SCALAR", 5 } },
+            { "max_CG_uniform", "cost guard", 10000, { "", "", -1 } },
+            { "max_liutentant_uniform", "liutentant", 10000, { "", "", -1 } },
+            { "max_prisonG_uniform", "교도관", 10000, { "", "", -1 } },
+            { "police_pilot_uniform", "파일럿", 10000, { "", "", -1 } },
+	    { "max_Lapd_uniform", "", 10000, { "", "", -1 } },
+	    { "police_pilot_uniform", "", 10000, { "", "", -1 } },
+	    { "max_recruit_uniform", "", 10000, { "", "", -1 } },
+	    { "agent_uniform_new", "비밀요원 정장", 10000, { "life_coplevel", "SCALAR", 4 } },
+	    { "security_uniform", "", 10000, { "", "", -1 } },
+	    { "sheriff_uniform_new", "", 10000, { "", "", -1 } },
+	    { "fbi_agent_uniform", "FBI 요원1", 10000, { "", "", -1 } },
+	    { "fbi_assistant_uniform", "FBI 요원2", 10000, { "", "", -1 } },
+	    { "fbi_director_uniform", "FBI 요원3", 10000, { "", "", -1 } },
+	    { "fbi_pilot_uniform", "FBI 파일럿", 10000, { "", "", -1 } },
+	    { "fbi_rru_uniform", "FBI 특수부대", 10000, { "", "", -1 } },
+	    { "swat_officer_lapd", "SWAT Officer", 10000, { "", "", -1 } },
+	    { "swat_lapd_uniform", "SWAT LAPD", 10000, { "", "", -1 } },
+	    { "special_agent_uniform_new", "Special Agent", 10000, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -156,7 +320,19 @@ class Clothing {
             { "H_RacingHelmet_4_F", "", 120, { "life_coplevel", "SCALAR", 1 } },
             { "H_ShemagOpen_khk", "", 800, { "", "", -1 } },
             { "H_ShemagOpen_tan", "", 850, { "", "", -1 } },
-            { "H_Shemag_olive", "", 850, { "", "", -1 } }
+            { "H_Shemag_olive", "", 850, { "", "", -1 } },
+
+	    //addon
+	    { "max_CG_Hat", "", 10000, { "", "", -1 } },
+	    { "fbi_cap", "", 10000, { "", "", -1 } },
+	    { "fbi_officer_cap", "", 10000, { "", "", -1 } },
+	    { "Masque_forceAlpha", "", 10000, { "", "", -1 } },
+	    { "max_biker_helmet", "", 10000, { "", "", -1 } },
+	    { "max_police_Hat", "", 10000, { "", "", -1 } },
+	    { "max_prisonG_cap", "", 10000, { "", "", -1 } },
+	    { "max_sheriff_Hat", "", 10000, { "", "", -1 } },
+	    { "police_swat_cap", "", 10000, { "", "", -1 } },
+	    { "Police_Swat_Helmet", "", 10000, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -192,7 +368,18 @@ class Clothing {
             { "V_RebreatherIA", "", 8000, { "", "", -1 } },
             { "V_PlateCarrierIAGL_dgtl", "", 8000, { "", "", -1 } },
             { "V_PlateCarrierSpec_blk", "", 80000, { "life_coplevel", "SCALAR", 5 } },
-            { "V_Press_F", "", 800, { "", "", -1 } }
+            { "V_Press_F", "", 800, { "", "", -1 } },
+	    //addon
+	    { "fbi_rru_vest", "", 15000, { "", "", -1 } },
+	    { "fbi_vest", "", 15000, { "", "", -1 } },
+	    { "fbi_vest_blue", "", 15000, { "", "", -1 } },
+	    { "fbi_vest_grey", "", 15000, { "", "", -1 } },
+	    { "officer_belt", "", 15000, { "", "", -1 } },
+	    { "police_belt_pistol", "", 15000, { "", "", -1 } },
+	    { "police_belt_pistol_patrolman", "", 15000, { "", "", -1 } },
+	    { "Swat_sniper_vest", "", 15000800, { "", "", -1 } },
+	    { "Security_vest", "", 15000, { "", "", -1 } },
+	    { "police_swat_vest", "", 15000, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
@@ -372,10 +559,11 @@ class Clothing {
             { "U_B_CombatUniform_mcam", "EMS 형광", 500, { "", "", -1 } },
             { "U_B_CombatUniform_mcam_worn", "EMS 녹색", 500, { "", "", -1 } },
 	    { "U_Competitor", "EMS 주황", 500, { "", "", -1 } },
-	    { "U_C_Driver_1_green", "EMS Driver_green", 5000, { "", "", -1 } },
-            { "U_C_Driver_1_blue", "EMS Driver_blue", 5000, { "", "", -1 } },
-            { "U_C_Driver_1_orange", "EMS Driver_ora", 5000, { "", "", -1 } },
-            { "U_I_Wetsuit", "EMS wetsuit", 5000, { "", "", -1 } }
+            { "U_I_Wetsuit", "EMS wetsuit", 5000, { "", "", -1 } },
+	    /// ADDON
+	    { "HEMS_pilot_uniform", "EMS Pilot", 5000, { "", "", -1 } },
+	    { "max_paramedic_uniform", "", 5000, { "", "", -1 } },
+	    { "max_fire_uniform", "fire uniform", 5000, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -391,7 +579,9 @@ class Clothing {
             { "H_RacingHelmet_1_green_F", "", 5000, { "", "", -1 } },
             { "H_RacingHelmet_1_blue_F", "", 5000, { "", "", -1 } },
             { "H_RacingHelmet_1_orange_F", "", 5000, { "", "", -1 } },
-            { "H_Cap_oli", "", 5000, { "", "", -1 } }
+            { "H_Cap_oli", "", 5000, { "", "", -1 } },
+	    //addon
+	    { "max_fire_Helmet", "", 15000, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -412,7 +602,11 @@ class Clothing {
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
             { "V_Press_F", "", 800, { "", "", -1 } },
-            { "V_RebreatherB", "", 5000, { "", "", -1 } }
+            { "V_RebreatherB", "", 5000, { "", "", -1 } },
+	    //addon
+	    { "max_paramedic_vest_blue", "", 15000, { "", "", -1 } },
+            { "max_paramedic_vest_red", "", 15000, { "", "", -1 } }
+
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
@@ -425,7 +619,7 @@ class Clothing {
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
             { "B_Parachute", "낙하산", 37500, { "", "", -1 } },
-            { "B_AssaultPack_sgg", "JetPack", 500000, { "", "", -1 } }
+            { "B_AssaultPack_sgg", "JetPack", 400000, { "", "", -1 } }
         };
     };
 

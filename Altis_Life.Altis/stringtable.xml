@@ -58,8 +58,11 @@
             <Italian>Emporio di Bruce</Italian>
             <German>Bruce Outback Outfits</German>
         </Key>
+        <Key ID="STR_Shops_C_Addon">
+            <Original>Clothes shop - Addon</Original>
+        </Key>
         <Key ID="STR_Shops_C_Police">
-            <Original>AOSoul Cop 상점</Original>
+            <Original>AOSoul Cop shop</Original>
             <Czech>AOSoul policejní oddělení Shop</Czech>
             <French>Boutique de la police</French>
             <Spanish>Tienda del Departamento de Policía</Spanish>
