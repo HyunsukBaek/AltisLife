@@ -2,7 +2,7 @@
 <Project name="AOSoul Life RPG">
     <Package name="Init">
         <Key ID="STR_Init_ClientSetup">
-            <Original>클라이언트 셋업중..기다려주세영...</Original>
+            <Original>클라이언트 셋업중.. 기다려주세영...</Original>
             <Czech></Czech>
             <Spanish>Configurando cliente. Por favor espere...</Spanish>
             <Russian></Russian>
