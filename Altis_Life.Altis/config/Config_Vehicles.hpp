@@ -132,44 +132,39 @@ class CarShops {
             { "I_MRAP_03_F", { "life_coplevel", "SCALAR", 3 } },
             { "B_MRAP_01_hmg_F", { "life_coplevel", "SCALAR", 4 } },
             { "O_MRAP_02_hmg_F", { "life_coplevel", "SCALAR", 4 } },
-            { "I_MRAP_03_hmg_F", { "life_coplevel", "SCALAR", 5 } }
+            { "I_MRAP_03_hmg_F", { "life_coplevel", "SCALAR", 5 } },
+	    ////////addon
+	    { "max_bike_police", { "", "", -1 } },//  경찰 오토바이
+	    { "max_impala_security", { "", "", -1 } },// 경찰 임팔라 세단 5인
+	    { "Mrshounka_bmw_gend", { "", "", -1 } },// BMW 1 시리즈 M 세단(2인승)
+	    { "Mrshounka_rs4_gend_p_blanc", { "", "", -1 } },// 아우디 RS4 // 기부자
+	    { "shounka_a3_audiq7_v2_gendarmerie", { "", "", -1 } },//아우디 Q7// 기부자
+	    { "Mrshounka_rs_2015_g", { "", "", -1 } }, // renault megane RS 2015  4인승 해치백 3도어
+	    { "shounka_a3_508banalise", { "", "", -1 } },// 푸조 508 세단 검정
+	    { "shounka_a3_508gend", { "", "", -1 } },// 푸조 508 세단 파랑
+	    { "shounka_a3_508pol", { "", "", -1 } },// 푸조 508 세단 흰
+	    { "Mrshounka_a3_308_gend", { "", "", -1 } },//골프 308 GTI 푸조 파랑
+	    { "Mrshounka_308pol", { "", "", -1 } },//골프 308 GTI 푸조 흰색
+	    { "max_BP_charger", { "", "", -1 } },//닷지 차저 경찰 (흰색)
+	    { "max_Charger_undercover", { "", "", -1 } },
+	    { "max_FBI_charger_undercover", { "", "", -1 } },
+	    { "max_Charger_Lapd", { "", "", -1 } },//  닷지 차저 경찰 검흰
+	    { "Mrshounka_evox_gend", { "", "", -1 } },// 경찰 EvoX 파랑 4인
+	    { "max_BP_tahoe", { "", "", -1 } }, // 닷지 SUV 경찰 ( 흰색)
+	    { "max_FBI_tahoe_undercover", { "", "", -1 } },// 경찰 fbi 밴
+	    { "max_bus_pris", { "", "", -1 } },// 경찰 죄수 운송 버스
+	    { "max_van_sheriff", { "", "", -1 } },// 경찰 밴 흰색 죄수 운송
+	    { "max_FBI_tahoe", { "", "", -1 } },// 경찰 FBI van  TAhoe
+	    { "Mrshounka_Volkswagen_Touareg_police_police", { "", "", -1 } },//폭스바겐 투아렉 4인승 suv
+	    { "Mrshounka_ducati_police_p", { "life_donorlevel", "SCALAR", 1 } },//  경찰듀카티 오토바이  // 기부자
+	    { "max_CrownVic_lapd", { "life_donorlevel", "SCALAR", 1 } },// 크라운빅 Crownvic 옛날 경찰 차 검흰// 기부자
+	    { "77FuryShr", { "life_donorlevel", "SCALAR", 1 } },// 77년대 플리마우스 퓨리 크루져 (경찰 SHERIFF ) 흰색// 기부자
+	    { "77FuryCop", { "life_donorlevel", "SCALAR", 1 } },// " 검정
+	    { "shounka_a3_gendsprinter", { "life_donorlevel", "SCALAR", 2 } },// 벤츠 스프린터 경찰// 기부자
+	    { "max_FBI_van", { "life_donorlevel", "SCALAR", 2 } },  // 경찰 FBI 장갑 밴// 기부자
+	    { "Mrshounka_agera_gend_p", { "life_donorlevel", "SCALAR", 2 } }// 아제라 스포츠카 // 기부자
         };
     };
-
-    class cop_car_addon {
-            side = "cop";
-            vehicles[] = {
-        	{ "max_bike_police", { "", "", -1 } },//  경찰 오토바이
-        	{ "Mrshounka_ducati_police_p", { "life_donorlevel", "SCALAR", 1 } },//  경찰듀카티 오토바이  // 기부자
-        	{ "max_impala_security", { "", "", -1 } },// 경찰 임팔라 세단 5인
-        	{ "Mrshounka_bmw_gend", { "", "", -1 } },// BMW 1 시리즈 M 세단(2인승)
-        	{ "Mrshounka_rs4_gend_p_blanc", { "", "", -1 } },// 아우디 RS4 // 기부자
-        	{ "shounka_a3_audiq7_v2_gendarmerie", { "", "", -1 } },//아우디 Q7// 기부자
-        	{ "Mrshounka_agera_gend_p", { "", "", -1 } },// 아제라 스포츠카 // 기부자
-        	{ "77FuryShr", { "", "", -1 } },// 77년대 플리마우스 퓨리 크루져 (경찰 SHERIFF ) 흰색// 기부자
-        	{ "77FuryCop", { "", "", -1 } },// " 검정
-        	{ "Mrshounka_rs_2015_g", { "", "", -1 } }, // renault megane RS 2015  4인승 해치백 3도어// 기부자
-        	{ "shounka_a3_508banalise", { "", "", -1 } },// 푸조 508 세단 검정
-        	{ "shounka_a3_508gend", { "", "", -1 } },// 푸조 508 세단 파랑
-        	{ "shounka_a3_508pol", { "", "", -1 } },// 푸조 508 세단 흰
-        	{ "Mrshounka_a3_308_gend", { "", "", -1 } },//골프 308 GTI 푸조 파랑
-        	{ "Mrshounka_308pol", { "", "", -1 } },//골프 308 GTI 푸조 흰색
-        	{ "max_BP_charger", { "", "", -1 } },//닷지 차저 경찰 (흰색)
-        	{ "max_Charger_undercover", { "", "", -1 } },
-        	{ "max_FBI_charger_undercover", { "", "", -1 } },
-        	{ "max_Charger_Lapd", { "", "", -1 } },//  닷지 차저 경찰 검흰
-        	{ "max_CrownVic_lapd", { "", "", -1 } },// 크라운빅 Crownvic 옛날 경찰 차 검흰// 기부자
-        	{ "Mrshounka_evox_gend", { "", "", -1 } },// 경찰 EvoX 파랑 4인
-        	{ "max_BP_tahoe", { "", "", -1 } }, // 닷지 SUV 경찰 ( 흰색)
-        	{ "Mrshounka_Volkswagen_Touareg_police_police", { "", "", -1 } },//폭스바겐 투아렉 4인승 suv
-        	{ "max_FBI_tahoe_undercover", { "", "", -1 } },// 경찰 fbi 밴
-        	{ "max_bus_pris", { "", "", -1 } },// 경찰 죄수 운송 버스
-        	{ "shounka_a3_gendsprinter", { "", "", -1 } },// 벤츠 스프린터 경찰// 기부자
-        	{ "max_van_sheriff", { "", "", -1 } },// 경찰 밴 흰색 죄수 운송
-        	{ "max_FBI_van", { "", "", -1 } },  // 경찰 FBI 장갑 밴// 기부자
-        	{ "max_FBI_tahoe", { "", "", -1 } }// 경찰 FBI van  TAhoe
-            };
-        };
 
     class cop_air {
         side = "cop";
