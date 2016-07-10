@@ -2106,7 +2106,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class max_lambo {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 9700000;
         textures[] = {};
     };
 	class max_lambo1 : max_lambo{};
@@ -2116,7 +2116,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class mrshounka_huracan_c {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 8700000;
         textures[] = {};
     };
 	class mrshounka_huracan_c_noir : mrshounka_huracan_c{};
