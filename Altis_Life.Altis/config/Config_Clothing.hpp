@@ -124,7 +124,7 @@ class Clothing {
 	    //  { "A3L_Bikini_Girl", "", 5000, { "", "", -1 } },
 	    { "A3L_Dude_Outfit", "", 5000, { "", "", -1 } },
 	    { "A3L_Farmer_Outfit", "", 5000, { "", "", -1 } },
-	    { "A3L_SECRET", "", 5000, { "", "", -1 } },
+	    { "A3L_SECRET", "해골!", 50000, { "life_donorlevel", "SCALAR", 1 } },
 	    { "A3L_SpookyMummy", "", 5000, { "", "", -1 } },
 	    { "A3L_Worker_Outfit", "", 5000, { "", "", -1 } },
 	    // { "A3L_Zombie", "", 5000, { "", "", -1 } },
@@ -147,9 +147,9 @@ class Clothing {
 	    { "Max_prisoner_clothes", "prisoner2", 5000, { "", "", -1 } },
 	    { "rifle_clothes", "", 5000, { "", "", -1 } },
 	    { "skull_gang", "", 5000, { "", "", -1 } },
-	    { "vip1_uniform_new", "", 5000, { "life_donorlevel", "SCALAR", 1 } },
-	    { "vip2_uniform_new", "", 5000, { "life_donorlevel", "SCALAR", 1 } },
-	    { "vip3_uniform_new", "", 5000, { "life_donorlevel", "SCALAR", 1 } }
+	    { "vip1_uniform_new", "", 50000, { "life_donorlevel", "SCALAR", 1 } },
+	    { "vip2_uniform_new", "", 50000, { "life_donorlevel", "SCALAR", 1 } },
+	    { "vip3_uniform_new", "", 50000, { "", "", -1 } }
 	};
 	headgear[] = {
 	    { "A3L_Halloween_JigSaw", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
@@ -253,10 +253,10 @@ class Clothing {
 	};
 	backpacks[] = {
 	    { "NONE", "Remove Backpack", 0, { "", "", -1 } },
-	    { "sab_CUAV_bp", "", 50000, { "", "", -1 } },
-	    { "sab_CUAV_bp_blue", "", 50000, { "", "", -1 } },
-	    { "sab_CUAV_bp_pink", "", 50000, { "", "", -1 } },
-	    { "sab_CUAV_bp_violet", "", 50000, { "", "", -1 } }
+	    { "sab_CUAV_bp", "", 350000, { "", "", -1 } },
+	    { "sab_CUAV_bp_blue", "", 350000, { "", "", -1 } },
+	    { "sab_CUAV_bp_pink", "", 350000, { "", "", -1 } },
+	    { "sab_CUAV_bp_violet", "", 350000, { "", "", -1 } }
 	};
     };
 
