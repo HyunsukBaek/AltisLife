@@ -216,9 +216,9 @@ class CarShops {
     };
 
     //Custom
-    class civ_car_addon{
+    class civ_car_addon {
         side = "civ";
-        vehicles [] ={
+        vehicles [] = {
              { "Tal_Wrangler_Red", { "", "", -1 } },                          //랭글러 지프
              { "Tal_Wrangler_Pink", { "life_donorlevel", "SCALAR", 1 } },     //랭글러 지프
              { "Tal_Wrangler_White", { "", "", -1 } },                        //랭글러 지프
@@ -346,10 +346,9 @@ class CarShops {
         };
     };
 
-    class civ_car_donation{
+    class civ_car_donation {
         side = "civ";
-        vehicles [] ={
-             { "", { "", "", -1 } },    //
+        vehicles [] = {
              { "jean_sleigh", { "life_donorlevel", "SCALAR", 2 } },                    //산터썰매
              { "A3L_MonsterTruck", { "life_donorlevel", "SCALAR", 2 } },            //몬스터트럭
              { "Mrshounka_agera_p", { "life_donorlevel", "SCALAR", 1 } },            //아제라 스포츠
@@ -370,7 +369,6 @@ class CarShops {
     class civ_car_luxury{
         side = "civ";
         vehicles [] ={
-            { "", { "", "", -1 } },    //
             { "SIG_SuperBeeB", { "", "", -1 } },                    //1969 Dodge 슈퍼 비(블랙)
             { "SIG_SuperBee", { "", "", -1 } },                        //1969 Dodge 슈퍼 비(레드)
             { "SIG_SuperBeeY", { "", "", -1 } },                    //1969 Dodge 슈퍼 비(옐로)
