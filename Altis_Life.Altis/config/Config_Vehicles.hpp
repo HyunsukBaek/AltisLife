@@ -452,7 +452,7 @@ class CarShops {
             { "Mrshounka_veneno_c_noir", { "", "", -1 } },            //람보르기니 베네노 veneno
             { "Mrshounka_veneno_c_bleu", { "", "", -1 } },            //람보르기니 베네노 veneno
             { "Mrshounka_veneno_c_jaune", { "", "", -1 } },            //람보르기니 베네노 veneno
-            { "max_vipcar1", { "life_donorlevel", "SCALAR", 2 } },                        //롤스로이스 팬텀 ( vip )  크롬색
+            { "max_vipcar1", { "life_donorlevel", "SCALAR", 2 } },                        //롤스로이스 팬텀 ( vip )  크롬색 
             { "shounka_limo_civ", { "", "", -1 } },                    //아우디 리무진
             { "shounka_limo_civ_noir", { "", "", -1 } },            //아우디 리무진
             { "shounka_limo_civ_bleufonce", { "", "", -1 } },        //아우디 리무진
