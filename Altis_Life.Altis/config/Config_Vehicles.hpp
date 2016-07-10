@@ -1661,7 +1661,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class Mrshounka_ducati_p {
         vItemSpace = 20;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 1600000;
+        price = 1400000;
         textures[] = {};
     };
     class Mrshounka_ducati_p_noir : Mrshounka_ducati_p{};
@@ -1851,7 +1851,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     //야마하 오토바이
     class Mrshounka_yamaha_p {
-        vItemSpace = 50;
+        vItemSpace = 20;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 240000;
         textures[] = {};
@@ -1861,7 +1861,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	//Donator Civ Vehicle
 	//야마하 오토바이
     class jean_sleigh {
-        vItemSpace = 50;
+        vItemSpace = 20;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 300000;
         textures[] = {};
@@ -1879,7 +1879,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class Mrshounka_agera_p {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 5700000;
         textures[] = {};
     };
 	class Mrshounka_agera_p_bleu : Mrshounka_agera_p{};
@@ -2130,7 +2130,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class Mrshounka_veneno_c {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 10000000;
+        price = 9000000;
         textures[] = {};
     };
 	class Mrshounka_veneno_c_noir : Mrshounka_veneno_c{};
