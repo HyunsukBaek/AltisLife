@@ -2246,4 +2246,13 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 10000000;
         textures[] = {};
     };
+
+    //SWATVAN
+    class max_swatvan {
+        vItemSpace = 50;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 4000000;
+        textures[] = {};
+    };
+
 };
