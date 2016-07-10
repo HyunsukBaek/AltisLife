@@ -218,137 +218,101 @@ class CarShops {
     //Custom
     class civ_car_addon {
         side = "civ";
-        vehicles [] = {
+        vehicles[] = {
              { "Tal_Wrangler_Red", { "", "", -1 } },                          //랭글러 지프
              { "Tal_Wrangler_Pink", { "life_donorlevel", "SCALAR", 1 } },     //랭글러 지프
              { "Tal_Wrangler_White", { "", "", -1 } },                        //랭글러 지프
-
              { "max_AJ", { "", "", -1 } },                                    // 오픈 지프
-
              { "max_bike", { "", "", -1 } },                                  //해골 갱 Bike
              { "max_bike1", { "", "", -1 } },                                 //해골 갱 Bike
              { "max_bike2", { "", "", -1 } },                                 //해골 갱 Bike
-
              { "Mrshounka_Bowler_c", { "", "", -1 } },                        //BOWLER SUV 2인승
              { "Mrshounka_Bowler_c_noir", { "", "", -1 } },                   //BOWLER SUV 2인승
              { "Mrshounka_Bowler_c_bleufonce", { "", "", -1 } },              //BOWLER SUV 2인승
-
              { "shounka_buggy", { "", "", -1 } },                             //버기카
              { "shounka_buggy_noir", { "", "", -1 } },                        //버기카
              { "shounka_buggy_bleufonce", { "", "", -1 } },                   //버기카
              { "shounka_buggy_orange", { "", "", -1 } },                      //버기카
-
              { "max_bus", { "", "", -1 } },                                   //낡은 버스
-
              { "Mrshounka_a3_dodge15_civ", { "", "", -1 } },                //닷지 차져 2015년 버전
              { "Mrshounka_a3_dodge15_civ_noir", { "", "", -1 } },            //닷지 차져 2015년 버전
              { "Mrshounka_a3_dodge15_civ_bleufonce", { "", "", -1 } },        //닷지 차져 2015년 버전
-
              { "shounka_avalanche", { "", "", -1 } },                        //시보렛 Avalanche
              { "shounka_avalanche_noir", { "", "", -1 } },                    //시보렛 Avalanche
              { "shounka_avalanche_bleufonce", { "", "", -1 } },                //시보렛 Avalanche
-
              { "Mrshounka_c4_p_civ", { "", "", -1 } },                        //citroen c4  4인승 해치백
              { "Mrshounka_c4_p_bleufonce", { "", "", -1 } },                //citroen c4  4인승 해치백
              { "Mrshounka_c4_p_violet", { "", "", -1 } },                    //citroen c4  4인승 해치백
-
              { "Mrshounka_a3_ds3_civ", { "", "", -1 } },                    //citroen ds3 4인승  해치백
              { "Mrshounka_a3_ds3_civ_noir", { "", "", -1 } },                //citroen ds3 4인승  해치백
              { "Mrshounka_a3_ds3_civ_civ_orange", { "", "", -1 } },            //citroen ds3 4인승  해치백
-
              { "shounka_a3_ds4_civ", { "", "", -1 } },                        //citroen ds4  4인승  해치백
              { "shounka_a3_ds4_noir", { "", "", -1 } },                        //citroen ds4  4인승  해치백
              { "shounka_a3_ds4_orange", { "", "", -1 } },                    //citroen ds4  4인승  해치백
-
              { "shounka_nemo", { "", "", -1 } },                            //citroen Nemo 귀여운 사각 ㅋ 2인승
              { "shounka_nemo_noir", { "", "", -1 } },                        //citroen Nemo 귀여운 사각 ㅋ 2인승
              { "shounka_nemo_orange", { "", "", -1 } },                        //citroen Nemo 귀여운 사각 ㅋ 2인승
-
              { "shounka_a3_cliors_civ", { "", "", -1 } },                    //Clio RS  4인승 해치백
              { "shounka_a3_cliors_civ_noir", { "", "", -1 } },                //Clio RS  4인승 해치백
              { "shounka_a3_cliors_civ_bleufonce", { "", "", -1 } },            //Clio RS  4인승 해치백
-
              { "max_CrownVic_blue", { "", "", -1 } },                        //crwonVic 옛날 세단 4인승
              { "max_CrownVic_red", { "", "", -1 } },                        //crwonVic 옛날 세단 4인승
              { "max_CrownVic_white", { "", "", -1 } },                        //crwonVic 옛날 세단 4인승
              { "max_CrownVic_taxi", { "", "", -1 } },                        //crwonVic 옛날 세단 4인승 택시
-
              { "Mrshounka_ducati_p", { "", "", -1 } },                        //ducati 오토바이 1인승
              { "Mrshounka_ducati_p_noir", { "", "", -1 } },                    //ducati 오토바이 1인승
              { "Mrshounka_ducati_p_o", { "", "", -1 } },                    //ducati 오토바이 1인승
-
              { "Mrshounka_Vandura_civ", { "", "", -1 } },                    //GMC Vandura 봉고
              { "Mrshounka_Vandura_civ_noir", { "", "", -1 } },                //GMC Vandura 봉고
              { "Mrshounka_Vandura_civ_orange", { "", "", -1 } },            //GMC Vandura 봉고
-
              { "Mrshounka_golfvi_civ", { "", "", -1 } },                    //폭스바겐 골프
              { "Mrshounka_golfvi_noir", { "", "", -1 } },                    //폭스바겐 골프
              { "Mrshounka_golfvi_orange", { "", "", -1 } },                    //폭스바겐 골프
-
              { "max_H3_red", { "life_donorlevel", "SCALAR", 1 } },                                //험머 H3  6인
              { "max_H3_black", { "life_donorlevel", "SCALAR", 1 } },                            //험머 H3  6인
              { "max_H3_urbancamo", { "life_donorlevel", "SCALAR", 1 } },                        //험머 H3  6인
-
              { "max_impala_black", { "", "", -1 } },                        //임팔라 세단 5인
              { "max_impala_white", { "", "", -1 } },                        //임팔라 세단 5인
-
              { "Mrshounka_jeep_blinde_noir", { "", "", -1 } },                //JEEP Blinde 4인승
              { "Mrshounka_jeep_blinde_bleu", { "", "", -1 } },                //JEEP Blinde 4인승
              { "Mrshounka_jeep_blinde_rouge", { "", "", -1 } },                //JEEP Blinde 4인승
-
              { "Mrshounka_cherokee_noir", { "", "", -1 } },                    //jeep 그랜드 체로키 4인승
              { "Mrshounka_cherokee_noir_bleu", { "", "", -1 } },            //jeep 그랜드 체로키 4인승
              { "Mrshounka_cherokee_noir_violet", { "", "", -1 } },            //jeep 그랜드 체로키 4인승
-
              { "max_jeep_green", { "", "", -1 } },                            //jeep 오픈 2인승
              { "max_jeep_red", { "", "", -1 } },                            //jeep 오픈 2인승
              { "max_jeep_black", { "", "", -1 } },                            //jeep 오픈 2인승
-
              { "Mrshounka_mercedes_190_p_civ", { "", "", -1 } },            //벤츠 구형 스포츠카
-
              { "Mrshounka_c63_2015_civ", { "life_donorlevel", "SCALAR", 1 } },                    //벤츠 c63 AMG 2015
-
              { "shounka_a3_pompier_sprinter", { "", "", -1 } },                //벤츠 스프린터 빨강 - 메딕
              { "shounka_a3_spr_civ", { "", "", -1 } },                        //벤츠 스프린터 빨강
-
              { "Mrshounka_207_civ", { "", "", -1 } },                        //푸조 207 RC
-
              { "Mrshounka_a3_308_civ", { "", "", -1 } },                    //골프 308 GTI 푸조
-
              { "Mrshounka_cayenne_p_civ", { "", "", -1 } },                    //포르쉐 카이엔
-
              { "Mrshounka_r5_noir", { "", "", -1 } },                        //RENAULT 소형 해치백 2인승
              { "Mrshounka_r5_rose", { "", "", -1 } },                        //RENAULT 소형 해치백 2인승
-
              { "Mrshounka_megane_rs_2015_civ", { "", "", -1 } },            // renault megane RS 2015  4인승 해치백 3도어
-
              { "Mrshounka_twingo_p", { "", "", -1 } },                        //renault twingo 해치백 4인승 소형
-
              { "Mrshounka_a3_smart_civ", { "", "", -1 } },                    //벤츠 스마트 2인승
              { "Mrshounka_a3_smart_civ_noir", { "", "", -1 } },                //벤츠 스마트 2인승
              { "Mrshounka_a3_smart_civ_bleu", { "", "", -1 } },                //벤츠 스마트 2인승
-
              { "max_suv_black", { "", "", -1 } },                            //SUV 5인승 맥스 - 파노라마선루프 SUV
              { "max_suv_UC", { "", "", -1 } },                                //SUV 5인승 맥스 - 파노라마선루프 SUV
-
              { "max_van_white", { "", "", -1 } },                            //옛날 van 6인승
              { "max_van_cola", { "", "", -1 } },                            //옛날 van 6인승
              { "max_van_Grey", { "", "", -1 } },                            //옛날 van 6인승
              { "max_van_red", { "", "", -1 } },                                //옛날 van 6인승
              { "max_van_blue", { "", "", -1 } },                            //옛날 van 6인승
              { "max_van_green", { "", "", -1 } },                            //옛날 van 6인승
-
              { "Mrshounka_Volkswagen_Touareg_bleufonce", { "", "", -1 } },    //폭스바겐 투아렉 4인승 suv
-
              { "Mrshounka_yamaha_p", { "", "", -1 } },    //야마하 오토바이
              { "Mrshounka_yamaha_p_noir", { "", "", -1 } }    //야마하 오토바이
-             //{ "", { "", "", -1 } },    //Sample
         };
     };
 
     class civ_car_donation {
         side = "civ";
-        vehicles [] = {
+        vehicles[] = {
              { "jean_sleigh", { "life_donorlevel", "SCALAR", 2 } },                    //산터썰매
              { "A3L_MonsterTruck", { "life_donorlevel", "SCALAR", 2 } },            //몬스터트럭
              { "Mrshounka_agera_p", { "life_donorlevel", "SCALAR", 1 } },            //아제라 스포츠
@@ -366,9 +330,9 @@ class CarShops {
         };
     };
 
-    class civ_car_luxury{
+    class civ_car_luxury {
         side = "civ";
-        vehicles [] ={
+        vehicles[] ={
             { "SIG_SuperBeeB", { "", "", -1 } },                    //1969 Dodge 슈퍼 비(블랙)
             { "SIG_SuperBee", { "", "", -1 } },                        //1969 Dodge 슈퍼 비(레드)
             { "SIG_SuperBeeY", { "", "", -1 } },                    //1969 Dodge 슈퍼 비(옐로)
