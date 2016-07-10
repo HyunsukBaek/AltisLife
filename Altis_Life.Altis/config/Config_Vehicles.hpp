@@ -87,12 +87,12 @@ class CarShops {
             { "B_G_Offroad_01_armed_F", { "", "", -1 } },
             { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
             { "I_Heli_Transport_02_F",  { "", "", -1 } },
-        { "O_MRAP_02_hmg_F", { "", "", -1 } },
-        { "O_Heli_Light_02_F",  { "", "", -1 } },
-        { "O_Heli_Transport_04_covered_F",  { "", "", -1 } },
-        { "O_Heli_Transport_04_bench_F",  { "", "", -1 } },
-        //addon
-        { "max_CG_heli",  { "life_donorlevel", "SCALAR", 2 } } //uFO
+            { "O_MRAP_02_hmg_F", { "", "", -1 } },
+            { "O_Heli_Light_02_F",  { "", "", -1 } },
+            { "O_Heli_Transport_04_covered_F",  { "", "", -1 } },
+            { "O_Heli_Transport_04_bench_F",  { "", "", -1 } },
+            //addon
+            { "max_CG_heli",  { "life_donorlevel", "SCALAR", 2 } } //uFO
         };
     };
 
@@ -109,13 +109,13 @@ class CarShops {
             { "B_Truck_01_medical_F", { "", "", -1 } },
             { "I_MRAP_03_F", { "", "", -1 } },
             { "B_MRAP_01_F", { "", "", -1 } },
-        { "O_Truck_03_medical_F", { "", "", -1 } },
-        ///// addon
-        { "shounka_nemo_pompier", { "", "", -1 } }, // 귀여운 사각2인
-        { "max_ambulance", { "", "", -1 } }, //옛날 엠뷸런스 4인용
-        { "max_firetruck", { "", "", -1 } }, // 소방차 5인용
-        { "shounka_a3_pompier_sprinter", { "life_donorlevel", "SCALAR", 1 } }, // 벤츠 스프린터 기부자용
-        { "max_towtruck", { "", "", -1 } } //토우트럭
+            { "O_Truck_03_medical_F", { "", "", -1 } },
+            ///// addon
+            { "shounka_nemo_pompier", { "", "", -1 } }, // 귀여운 사각2인
+            { "max_ambulance", { "", "", -1 } }, //옛날 엠뷸런스 4인용
+            { "max_firetruck", { "", "", -1 } }, // 소방차 5인용
+            { "shounka_a3_pompier_sprinter", { "life_donorlevel", "SCALAR", 1 } }, // 벤츠 스프린터 기부자용
+            { "max_towtruck", { "", "", -1 } } //토우트럭
         };
     };
 
@@ -128,9 +128,9 @@ class CarShops {
             { "I_Heli_Transport_02_F",  { "", "", -1 } },
             { "O_Heli_Transport_04_F",  { "", "", -1 } },
             { "O_Heli_Transport_04_medevac_F",  { "", "", -1 } },
-        { "I_Heli_light_03_F",  { "", "", -1 } },
-        //addon
-        { "max_HEMS_heli",  { "", "", -1 } }
+            { "I_Heli_light_03_F",  { "", "", -1 } },
+            //addon
+            { "max_HEMS_heli",  { "", "", -1 } }
         };
     };
 
@@ -281,8 +281,7 @@ class CarShops {
              { "max_jeep_red", { "", "", -1 } },                            //jeep 오픈 2인승
              { "max_jeep_black", { "", "", -1 } },                            //jeep 오픈 2인승
              { "Mrshounka_mercedes_190_p_civ", { "", "", -1 } },            //벤츠 구형 스포츠카
-             { "Mrshounka_c63_2015_civ", { "life_donorlevel", "SCALAR", 1 } },                    //벤츠 c63 AMG 2015
-             { "shounka_a3_pompier_sprinter", { "", "", -1 } },                //벤츠 스프린터 빨강 - 메딕
+             { "Mrshounka_c63_2015_civ", { "life_donorlevel", "SCALAR", 1 } }, //벤츠 c63 AMG 2015
              { "shounka_a3_spr_civ", { "", "", -1 } },                        //벤츠 스프린터 빨강
              { "Mrshounka_207_civ", { "", "", -1 } },                        //푸조 207 RC
              { "Mrshounka_a3_308_civ", { "", "", -1 } },                    //골프 308 GTI 푸조
@@ -1740,11 +1739,11 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class Mrshounka_c63_2015_civ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 2200000;
+        price = 3200000;
         textures[] = {};
     };
 
-    //jeep 오픈 2인승
+    //벤츠 스프린터
     class shounka_a3_pompier_sprinter {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -2237,6 +2236,14 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 600000;
+        textures[] = {};
+    };
+
+	//UFO
+    class max_CG_heli {
+        vItemSpace = 50;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 10000000;
         textures[] = {};
     };
 };
