@@ -310,7 +310,7 @@ class CarShops {
     class civ_car_donation {
         side = "civ";
         vehicles[] = {
-             { "jean_sleigh", { "life_donorlevel", "SCALAR", 2 } },                    //산터썰매
+             { "jean_sleigh", { "", "", -1 } },                    //산터썰매
              { "A3L_MonsterTruck", { "life_donorlevel", "SCALAR", 2 } },            //몬스터트럭
              { "Mrshounka_agera_p", { "life_donorlevel", "SCALAR", 1 } },            //아제라 스포츠
              { "Mrshounka_agera_p_bleu", { "life_donorlevel", "SCALAR", 1 } },        //아제라 스포츠
@@ -1851,11 +1851,11 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class Mrshounka_yamaha_p_noir : Mrshounka_yamaha_p{};
 	
 	//Donator Civ Vehicle
-	//야마하 오토바이
+	//썰매
     class jean_sleigh {
         vItemSpace = 20;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 300000;
+        price = 3300000;
         textures[] = {};
     };
 	
