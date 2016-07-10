@@ -350,8 +350,8 @@ class CarShops {
         side = "civ";
         vehicles [] ={
              { "", { "", "", -1 } },    //
-             { "jean_sleigh", { "life_donorlevel", "SCALAR", 1 } },                    //산터썰매
-             { "A3L_MonsterTruck", { "life_donorlevel", "SCALAR", 1 } },            //몬스터트럭
+             { "jean_sleigh", { "life_donorlevel", "SCALAR", 2 } },                    //산터썰매
+             { "A3L_MonsterTruck", { "life_donorlevel", "SCALAR", 2 } },            //몬스터트럭
              { "Mrshounka_agera_p", { "life_donorlevel", "SCALAR", 1 } },            //아제라 스포츠
              { "Mrshounka_agera_p_bleu", { "life_donorlevel", "SCALAR", 1 } },        //아제라 스포츠
              { "Mrshounka_agera_p_jaune", { "life_donorlevel", "SCALAR", 1 } },        //아제라 스포츠
