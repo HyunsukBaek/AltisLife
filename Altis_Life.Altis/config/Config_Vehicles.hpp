@@ -1426,13 +1426,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
     };
 
-    class shounka_a3_pompier_sprinter {
-        vItemSpace = 150;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 500000;
-        textures[] = {};
-    };
-
     class max_towtruck {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -1755,7 +1748,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class shounka_a3_pompier_sprinter {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 400000;
+        price = 1000000;
         textures[] = {};
     };
     class shounka_a3_spr_civ : shounka_a3_pompier_sprinter{};
