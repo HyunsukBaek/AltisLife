@@ -60,10 +60,8 @@ class CarShops {
             { "I_Heli_light_03_unarmed_F", { "", "", -1 } },
             { "B_Heli_Transport_03_unarmed_F", { "", "", -1 } },
             { "I_Heli_Transport_02_F", { "", "", -1 } },
-        { "B_Heli_Transport_01_F", { "", "", -1 } },
+            { "B_Heli_Transport_01_F", { "", "", -1 } },
             { "sab_RobinDR400_5", { "", "", -1 } },    //addon  // 경비행기 4인승
-            { "sab_cuav_trojan", { "", "", -1 } },    //addon  // 경비행기 1인승 NAVY
-            { "sab_cuav_piper", { "", "", -1 } },    //addon  //경비행기 노란거
             { "sab_FAAllegro", { "", "", -1 } }        //addon // 경비행기 2인승
         };
     };
@@ -1524,7 +1522,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class Tal_Wrangler_Red {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 1200000;
         textures[] = {};
     };
 
@@ -1535,15 +1533,15 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class max_AJ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 470000;
         textures[] = {};
     };
 
     //해골 갱 Bike
     class max_bike {
-        vItemSpace = 50;
+        vItemSpace = 20;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 250000;
         textures[] = {};
     };
     class max_bike1 : max_bike{};
@@ -1553,7 +1551,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class Mrshounka_Bowler_c {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 400000;
         textures[] = {};
     };
     class Mrshounka_Bowler_c_noir : Mrshounka_Bowler_c{};
@@ -1563,7 +1561,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class shounka_buggy {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 600000;
         textures[] = {};
     };
     class shounka_buggy_noir : shounka_buggy{};
@@ -1572,9 +1570,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     //낡은 버스
     class max_bus {
-        vItemSpace = 50;
+        vItemSpace = 150;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 1500000;
         textures[] = {};
     };
 
@@ -1582,7 +1580,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class Mrshounka_a3_dodge15_civ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 260000;
         textures[] = {};
     };
     class Mrshounka_a3_dodge15_civ_noir : Mrshounka_a3_dodge15_civ{};
@@ -1592,7 +1590,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class shounka_avalanche {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 150000;
         textures[] = {};
     };
     class shounka_avalanche_noir : shounka_avalanche{};
@@ -1602,7 +1600,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class Mrshounka_c4_p_civ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 200000;
         textures[] = {};
     };
     class Mrshounka_c4_p_bleufonce : Mrshounka_c4_p_civ{};
@@ -1612,7 +1610,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class Mrshounka_a3_ds3_civ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 160000;
         textures[] = {};
     };
     class Mrshounka_a3_ds3_civ_noir : Mrshounka_a3_ds3_civ{};
@@ -1622,7 +1620,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class shounka_a3_ds4_civ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 150000;
         textures[] = {};
     };
     class shounka_a3_ds4_noir : shounka_a3_ds4_civ{};
@@ -1632,7 +1630,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class shounka_nemo {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 170000;
         textures[] = {};
     };
     class shounka_nemo_noir : shounka_nemo{};
@@ -1642,7 +1640,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class shounka_a3_cliors_civ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 130000;
         textures[] = {};
     };
     class shounka_a3_cliors_civ_noir : shounka_a3_cliors_civ{};
@@ -1652,7 +1650,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class max_CrownVic_blue {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 170000;
         textures[] = {};
     };
     class max_CrownVic_red : max_CrownVic_blue{};
@@ -1661,9 +1659,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     //ducati 오토바이 1인승
     class Mrshounka_ducati_p {
-        vItemSpace = 50;
+        vItemSpace = 20;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 1600000;
         textures[] = {};
     };
     class Mrshounka_ducati_p_noir : Mrshounka_ducati_p{};
@@ -1671,9 +1669,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     //GMC Vandura 봉고
     class Mrshounka_Vandura_civ {
-        vItemSpace = 50;
+        vItemSpace = 100;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 260000;
         textures[] = {};
     };
     class Mrshounka_Vandura_civ_noir : Mrshounka_Vandura_civ{};
@@ -1683,7 +1681,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class Mrshounka_golfvi_civ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 400000;
         textures[] = {};
     };
     class Mrshounka_golfvi_noir : Mrshounka_golfvi_civ{};
@@ -1693,7 +1691,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class max_H3_red {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 900000;
         textures[] = {};
     };
     class max_H3_black : max_H3_red{};
@@ -1702,7 +1700,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class max_impala_black {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 210000;
         textures[] = {};
     };
     class max_impala_white : max_impala_black{};
@@ -1711,7 +1709,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class Mrshounka_jeep_blinde_noir {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 450000;
         textures[] = {};
     };
     class Mrshounka_jeep_blinde_bleu : Mrshounka_jeep_blinde_noir{};
@@ -1721,7 +1719,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class Mrshounka_cherokee_noir {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 500000;
         textures[] = {};
     };
     class Mrshounka_cherokee_noir_bleu : Mrshounka_cherokee_noir{};
@@ -1731,7 +1729,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class max_jeep_green {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 400000;
         textures[] = {};
     };
     class max_jeep_red : max_jeep_green{};
@@ -1741,7 +1739,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class Mrshounka_mercedes_190_p_civ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 900000;
         textures[] = {};
     };
 
@@ -1749,7 +1747,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class Mrshounka_c63_2015_civ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 2200000;
         textures[] = {};
     };
 
@@ -1757,7 +1755,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class shounka_a3_pompier_sprinter {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 400000;
         textures[] = {};
     };
     class shounka_a3_spr_civ : shounka_a3_pompier_sprinter{};
@@ -1766,7 +1764,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class Mrshounka_207_civ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 290000;
         textures[] = {};
     };
 
@@ -1774,7 +1772,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class Mrshounka_a3_308_civ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 370000;
         textures[] = {};
     };
 
@@ -1782,7 +1780,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class Mrshounka_cayenne_p_civ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 1200000;
         textures[] = {};
     };
 
@@ -1790,7 +1788,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class Mrshounka_r5_noir {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 450000;
         textures[] = {};
     };
     class Mrshounka_r5_rose : Mrshounka_r5_noir{};
@@ -1799,7 +1797,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class Mrshounka_megane_rs_2015_civ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 400000;
         textures[] = {};
     };
 
@@ -1807,7 +1805,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class Mrshounka_twingo_p {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 250000;
         textures[] = {};
     };
 
@@ -1815,7 +1813,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class Mrshounka_a3_smart_civ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 200000;
         textures[] = {};
     };
     class Mrshounka_a3_smart_civ_noir : Mrshounka_a3_smart_civ{};
@@ -1825,7 +1823,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class max_suv_black {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 500000;
         textures[] = {};
     };
     class max_suv_UC : max_suv_black{};
@@ -1834,7 +1832,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class max_van_white {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 300000;
         textures[] = {};
     };
     class max_van_cola : max_van_white{};
@@ -1847,7 +1845,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class Mrshounka_Volkswagen_Touareg_bleufonce {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 300000;
         textures[] = {};
     };
 
@@ -1855,7 +1853,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class Mrshounka_yamaha_p {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 240000;
         textures[] = {};
     };
     class Mrshounka_yamaha_p_noir : Mrshounka_yamaha_p{};
@@ -1865,7 +1863,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class jean_sleigh {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 300000;
         textures[] = {};
     };
 	
@@ -1873,7 +1871,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class A3L_MonsterTruck {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 2700000;
         textures[] = {};
     };
 	
@@ -1891,7 +1889,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class max_charger_black {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 360000;
         textures[] = {};
     };
 	class max_charger_blue : max_charger_black{};
@@ -1902,7 +1900,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class dbo_LT_01 {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 600000;
         textures[] = {};
     };
 	
@@ -1910,7 +1908,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class Mrshounka_lykan_c {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 6700000;
         textures[] = {};
     };
 	
@@ -1918,7 +1916,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class A3L_Flipcar {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 1700000;
         textures[] = {};
     };
 	
@@ -1926,7 +1924,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class max_vipcar {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 5100000;
         textures[] = {};
     };
 	
@@ -1936,7 +1934,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class SIG_SuperBeeB {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 400000;
         textures[] = {};
     };
 	class SIG_SuperBee : SIG_SuperBeeB{};
@@ -1946,7 +1944,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class Mrshounka_rs4_civ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 750000;
         textures[] = {};
     };
 	class Mrshounka_rs4_civ_bleufonce : Mrshounka_rs4_civ{};
@@ -1956,7 +1954,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class shounka_a3_rs5_civ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 900000;
         textures[] = {};
     };
 	class shounka_a3_rs5_civ_bleufonce : shounka_a3_rs5_civ{};
@@ -1966,7 +1964,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class shounka_rs6 {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 1000000;
         textures[] = {};
     };
 	class shounka_rs6_bleufonce : shounka_rs6{};
@@ -1976,7 +1974,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class Mrshounka_bmwm1_civ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 400000;
         textures[] = {};
     };
 	class Mrshounka_bmwm1_civ_noir : Mrshounka_bmwm1_civ{};
@@ -1987,7 +1985,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class max_BMW {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 500000;
         textures[] = {};
     };
 	class max_BMW1 : max_BMW{};
@@ -1997,7 +1995,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class max_BMW_M3_GTR {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 2100000;
         textures[] = {};
     };
 	class max_BMW_M3_GTR1 : max_BMW_M3_GTR{};
@@ -2007,7 +2005,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class Mrshounka_bmwm6_civ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 1200000;
         textures[] = {};
     };
 	class Mrshounka_bmwm6_noir : Mrshounka_bmwm6_civ{};
@@ -2017,7 +2015,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class shounka_monsteur {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 3700000;
         textures[] = {};
     };
 	class shounka_monsteur_noir : shounka_monsteur{};
@@ -2027,7 +2025,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class shounka_f430_spider {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 7700000;
         textures[] = {};
     };
 	class shounka_f430_spider_noir : shounka_f430_spider{};
@@ -2059,7 +2057,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class Mrshounka_mustang_civ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 540000;
         textures[] = {};
     };
 	class Mrshounka_mustang_mat : Mrshounka_mustang_civ{};
@@ -2078,7 +2076,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class Mrshounka_hummer_civ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 1200000;
         textures[] = {};
     };
 	class Mrshounka_hummer_civ_noir : Mrshounka_hummer_civ{};
@@ -2088,7 +2086,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class shounka_h2 {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 1100000;
         textures[] = {};
     };
 	class shounka_h2_noir : shounka_h2{};
@@ -2098,7 +2096,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class wirk_h3_limo {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 1800000;
         textures[] = {};
     };
 	
@@ -2106,7 +2104,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class max_lambo {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 9700000;
+        price = 6700000;
         textures[] = {};
     };
 	class max_lambo1 : max_lambo{};
@@ -2132,7 +2130,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class Mrshounka_veneno_c {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 10000000;
         textures[] = {};
     };
 	class Mrshounka_veneno_c_noir : Mrshounka_veneno_c{};
@@ -2143,7 +2141,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class max_vipcar1 {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 4700000;
         textures[] = {};
     };
 	
@@ -2151,7 +2149,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class shounka_limo_civ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 6700000;
         textures[] = {};
     };
 	class shounka_limo_civ_noir : shounka_limo_civ{};
@@ -2162,7 +2160,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class Mrshounka_lincoln_civ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 1000000;
         textures[] = {};
     };
 	class Mrshounka_lincoln_noir : Mrshounka_lincoln_civ{};
@@ -2172,7 +2170,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class shounka_mp4 {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 7700000;
         textures[] = {};
     };	
 	
@@ -2180,7 +2178,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class shounka_clk {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 2700000;
         textures[] = {};
     };
 	
@@ -2188,7 +2186,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class Mrshounka_a3_gtr_civ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 2000000;
         textures[] = {};
     };
 	class Mrshounka_a3_gtr_civ_noir : Mrshounka_a3_gtr_civ{};
@@ -2198,7 +2196,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class Mrshounka_pagani_c {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 5700000;
         textures[] = {};
     };
 	class Mrshounka_pagani_c_noir : Mrshounka_pagani_c{};
@@ -2209,7 +2207,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class Mrshounka_a3_308_rcz {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 800000;
         textures[] = {};
     };
 	class Mrshounka_a3_308_rcz_noir : Mrshounka_a3_308_rcz{};
@@ -2219,7 +2217,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class shounka_a3_peugeot508_civ_noir {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 500000;
         textures[] = {};
     };
 	class shounka_a3_peugeot508_civ_bleufonce : shounka_a3_peugeot508_civ_noir{};
@@ -2229,7 +2227,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class shounka_porsche911 {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 1700000;
         textures[] = {};
     };
 	
@@ -2237,7 +2235,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class mrshounka_92_civ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 1100000;
         textures[] = {};
     };
 	
@@ -2245,7 +2243,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class shounka_transam {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 700000;
+        price = 600000;
         textures[] = {};
     };
 };
