@@ -559,21 +559,21 @@ class Clothing {
             { "U_Rangemaster", "EMS Uniform", 250, { "", "", -1 } },
             { "U_B_CombatUniform_mcam", "EMS 형광", 500, { "", "", -1 } },
             { "U_B_CombatUniform_mcam_worn", "EMS 녹색", 500, { "", "", -1 } },
-	    { "U_Competitor", "EMS 주황", 500, { "", "", -1 } },
+            { "U_Competitor", "EMS 주황", 500, { "", "", -1 } },
             { "U_I_Wetsuit", "EMS wetsuit", 5000, { "", "", -1 } },
-	    /// ADDON
-	    { "HEMS_pilot_uniform", "EMS Pilot", 5000, { "", "", -1 } },
-	    { "max_paramedic_uniform", "", 5000, { "", "", -1 } },
-	    { "max_fire_uniform", "fire uniform", 5000, { "life_donorlevel", "SCALAR", 1 } }
+            /// ADDON
+            { "HEMS_pilot_uniform", "EMS Pilot", 5000, { "", "", -1 } },
+            { "max_paramedic_uniform", "", 5000, { "", "", -1 } },
+            { "max_fire_uniform", "fire uniform", 5000, { "life_donorlevel", "SCALAR", 1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
             { "H_Cap_blu", "", 1000, { "", "", -1 } },
             { "H_Cap_red", "", 1000, { "", "", -1 } },
             { "H_Cap_surfer", "", 1000, { "", "", -1 } },
-	    { "H_Cap_usblack", "", 1000, { "", "", -1 } },
-	    { "H_Cap_press", "", 1000, { "", "", -1 } },
-	    { "H_Cap_blk_ION", "", 1000, { "", "", -1 } },
+            { "H_Cap_usblack", "", 1000, { "", "", -1 } },
+            { "H_Cap_press", "", 1000, { "", "", -1 } },
+            { "H_Cap_blk_ION", "", 1000, { "", "", -1 } },
             { "H_Bandanna_surfer", "", 1000, { "", "", -1 } },
             { "H_Bandanna_blu", "", 1000, { "", "", -1 } },
             { "H_Cap_marshal", "", 1000, { "", "", -1 } },
@@ -581,8 +581,8 @@ class Clothing {
             { "H_RacingHelmet_1_blue_F", "", 5000, { "", "", -1 } },
             { "H_RacingHelmet_1_orange_F", "", 5000, { "", "", -1 } },
             { "H_Cap_oli", "", 5000, { "", "", -1 } },
-	    //addon
-	    { "max_fire_Helmet", "", 15000, { "life_donorlevel", "SCALAR", 1 } }
+            //addon
+            { "max_fire_Helmet", "", 15000, { "life_donorlevel", "SCALAR", 1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -612,7 +612,7 @@ class Clothing {
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
 //            { "tf_rt1523g_sage", "", 8000, { "", "", -1 } }, //long range-  40KM // BLUEFOR
-	    { "B_FieldPack_oli", "EMS Backpack", 3000, { "", "", -1 } },
+            { "B_FieldPack_oli", "EMS Backpack", 3000, { "", "", -1 } },
             { "B_Kitbag_cbr", "", 5800, { "", "", -1 } },
             { "B_FieldPack_cbr", "", 6500, { "", "", -1 } },
             { "B_AssaultPack_cbr", "", 6700, { "", "", -1 } },
