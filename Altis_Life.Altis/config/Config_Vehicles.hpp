@@ -61,10 +61,10 @@ class CarShops {
             { "B_Heli_Transport_03_unarmed_F", { "", "", -1 } },
             { "I_Heli_Transport_02_F", { "", "", -1 } },
 	    { "B_Heli_Transport_01_F", { "", "", -1 } },
-            { "sab_RobinDR400_5", { "", "", -1 } },    //addon
-            { "sab_cuav_trojan", { "", "", -1 } },    //addon
-            { "sab_cuav_piper", { "", "", -1 } },    //addon
-            { "sab_FAAllegro", { "", "", -1 } }        //addon
+            { "sab_RobinDR400_5", { "", "", -1 } },    //addon  // 경비행기 4인승
+            { "sab_cuav_trojan", { "", "", -1 } },    //addon  // 경비행기 1인승 NAVY
+            { "sab_cuav_piper", { "", "", -1 } },    //addon  //경비행기 노란거
+            { "sab_FAAllegro", { "", "", -1 } }        //addon // 경비행기 2인승
         };
     };
 
@@ -92,7 +92,9 @@ class CarShops {
 	    { "O_MRAP_02_hmg_F", { "", "", -1 } },
 	    { "O_Heli_Light_02_F",  { "", "", -1 } },
 	    { "O_Heli_Transport_04_covered_F",  { "", "", -1 } },
-	    { "O_Heli_Transport_04_bench_F",  { "", "", -1 } }
+	    { "O_Heli_Transport_04_bench_F",  { "", "", -1 } },
+	    //addon
+	    { "max_CG_heli",  { "life_donorlevel", "SCALAR", 2 } } //uFO
         };
     };
 
@@ -1449,6 +1451,68 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	price = 500000;
 	textures[] = {};
     };
+///
+    class shounka_a3_dafxf_euro6_f {
+	vItemSpace = 350;
+	licenses[] = { {"trucking"}, {""}, {""}, {""} };
+	price = 1700000;
+	textures[] = {};
+    };
+
+    class Mrshounka_a3_iveco_f {
+	vItemSpace = 430;
+	licenses[] = { {"trucking"}, {""}, {""}, {""} };
+	price = 2550000;
+	textures[] = {};
+    };
 
 
+    class shounka_a3_renaultmagnum_f {
+	vItemSpace = 500;
+	licenses[] = { {"trucking"}, {""}, {""}, {""} };
+	price = 3500000;
+	textures[] = {};
+    };
+
+    class sab_RobinDR400_5 {
+	vItemSpace = 100;
+	licenses[] = { {"pilot"}, {""}, {""}, {""} };
+	price = 2000000;
+	textures[] = {};
+    };
+
+    class sab_cuav_trojan {
+	vItemSpace = 30;
+	licenses[] = { {"pilot"}, {""}, {""}, {""} };
+	price = 700000;
+	textures[] = {};
+    };
+
+    class sab_cuav_piper {
+	vItemSpace = 50;
+	licenses[] = { {"pilot"}, {""}, {""}, {""} };
+	price = 1250000;
+	textures[] = {};
+    };
+
+    class sab_FAAllegro {
+	vItemSpace = 60;
+	licenses[] = { {"pilot"}, {""}, {""}, {""} };
+	price = 1400000;
+	textures[] = {};
+    };
+
+    class A3L_SpeedYacht {
+	vItemSpace = 250;
+	licenses[] = { {"boat"}, {""}, {""}, {""} };
+	price = 3500000;
+	textures[] = {};
+    };
+
+    class B_CBS_WaterShadow730_F {
+	vItemSpace = 120;
+	licenses[] = { {"boat"}, {""}, {""}, {""} };
+	price = 2500000;
+	textures[] = {};
+    };
 };
