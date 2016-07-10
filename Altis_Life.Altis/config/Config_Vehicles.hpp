@@ -48,7 +48,7 @@ class CarShops {
             { "I_Truck_02_fuel_F", { "", "", -1 } },
             { "shounka_a3_dafxf_euro6_f", { "", "", -1 } },    //트레일러 없는 트럭
             { "Mrshounka_a3_iveco_f", { "", "", -1 } },        //IVECO 특장트럭 ( 컨테이너 )  4인승
-            { "shounka_a3_renaultmagnum_f", { "", "", -1 } }        //REnault magnum 대형 트레일러
+            { "shounka_a3_renaultmagnum_f", { "", "", -1 } }   //REnault magnum 대형 트레일러
         };
     };
 
@@ -61,10 +61,10 @@ class CarShops {
             { "B_Heli_Transport_03_unarmed_F", { "", "", -1 } },
             { "I_Heli_Transport_02_F", { "", "", -1 } },
 	    { "B_Heli_Transport_01_F", { "", "", -1 } },
-            { "sab_RobinDR400_5", { "", "", -1 } },    //addon
-            { "sab_cuav_trojan", { "", "", -1 } },    //addon
-            { "sab_cuav_piper", { "", "", -1 } },    //addon
-            { "sab_FAAllegro", { "", "", -1 } }        //addon
+            { "sab_RobinDR400_5", { "", "", -1 } },    //addon  // 경비행기 4인승
+            { "sab_cuav_trojan", { "", "", -1 } },    //addon  // 경비행기 1인승 NAVY
+            { "sab_cuav_piper", { "", "", -1 } },    //addon  //경비행기 노란거
+            { "sab_FAAllegro", { "", "", -1 } }        //addon // 경비행기 2인승
         };
     };
 
@@ -92,7 +92,9 @@ class CarShops {
 	    { "O_MRAP_02_hmg_F", { "", "", -1 } },
 	    { "O_Heli_Light_02_F",  { "", "", -1 } },
 	    { "O_Heli_Transport_04_covered_F",  { "", "", -1 } },
-	    { "O_Heli_Transport_04_bench_F",  { "", "", -1 } }
+	    { "O_Heli_Transport_04_bench_F",  { "", "", -1 } },
+	    //addon
+	    { "max_CG_heli",  { "life_donorlevel", "SCALAR", 2 } } //uFO
         };
     };
 
@@ -909,7 +911,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "EMS London", "med", {"textures\ems\paramedic_hb.paa"} },
             { "Ferrari", "civ", {"textures\civ\ferrari_hatchback.paa"} },
             { "porsche", "civ", {"textures\civ\porsche_hatchback.paa"} },
-        { "잠복용시민monster", "cop", {"textures\civ\civ_hatchback_monster.paa"} }
+	    { "잠복용시민monster", "cop", {"textures\civ\civ_hatchback_monster.paa"} }
         };
     };
 
@@ -971,9 +973,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "tiger", "civ", {"textures\civ\pimp.paa"} },
             { "ghostRider", "civ", {"textures\civ\suv_ghostrider.paa"} },
             { "택시", "civ", {"textures\civ\suvtaxi.paa"} },
-        { "잠복용시민Cube", "cop", {"textures\civ\cube_suv.paa"} },
-        { "vips", "civ", {"textures\civ\civ_suvvip.paa"} },
-        { "5taku", "civ", {"textures\civ\civ_suvotaku.paa"} }
+	    { "잠복용시민Cube", "cop", {"textures\civ\cube_suv.paa"} },
+	    { "vips", "civ", {"textures\civ\civ_suvvip.paa"} },
+	    { "5taku", "civ", {"textures\civ\civ_suvotaku.paa"} }
         };
     };
 
@@ -1487,70 +1489,70 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	
 	//Civilian Addon
 	//Civ Truck
-	class shounka_a3_dafxf_euro6_f {
-	vItemSpace = 50;
+    class shounka_a3_dafxf_euro6_f {
+	vItemSpace = 350;
 	licenses[] = { {"trucking"}, {""}, {""}, {""} };
-	price = 700000;
+	price = 1700000;
 	textures[] = {};
     };
-	
-	class Mrshounka_a3_iveco_f {
-	vItemSpace = 50;
+
+    class Mrshounka_a3_iveco_f {
+	vItemSpace = 430;
 	licenses[] = { {"trucking"}, {""}, {""}, {""} };
-	price = 700000;
+	price = 2550000;
 	textures[] = {};
     };
-	
-	class shounka_a3_renaultmagnum_f {
-	vItemSpace = 50;
+
+
+    class shounka_a3_renaultmagnum_f {
+	vItemSpace = 500;
 	licenses[] = { {"trucking"}, {""}, {""}, {""} };
+	price = 3500000;
+	textures[] = {};
+    };
+
+    class sab_RobinDR400_5 {
+	vItemSpace = 100;
+	licenses[] = { {"pilot"}, {""}, {""}, {""} };
+	price = 2000000;
+	textures[] = {};
+    };
+
+   
+    class sab_cuav_trojan {
+	vItemSpace = 30;
+	licenses[] = { {"pilot"}, {""}, {""}, {""} };
 	price = 700000;
 	textures[] = {};
     };
 
-	//Civ Air
-	class sab_RobinDR400_5 {
-        vItemSpace = 200;
-        licenses[] = { {""}, {"cAir"}, {""}, {""} };
-        price = 650000;
-        textures[] = {};
+    class sab_cuav_piper {
+	vItemSpace = 50;
+	licenses[] = { {"pilot"}, {""}, {""}, {""} };
+	price = 1250000;
+	textures[] = {};
     };
-	
-	class sab_cuav_trojan {
-        vItemSpace = 200;
-        licenses[] = { {""}, {"cAir"}, {""}, {""} };
-        price = 650000;
-        textures[] = {};
-    };
-	
-	class sab_cuav_piper {
-        vItemSpace = 200;
-        licenses[] = { {""}, {"cAir"}, {""}, {""} };
-        price = 650000;
-        textures[] = {};
-    };
-	
-	class sab_FAAllegro {
-        vItemSpace = 200;
-        licenses[] = { {""}, {"cAir"}, {""}, {""} };
-        price = 650000;
-        textures[] = {};
-    };
-	
+    
+    class sab_FAAllegro {
+	vItemSpace = 60;
+	licenses[] = { {"pilot"}, {""}, {""}, {""} };
+	price = 1400000;
+	textures[] = {};
+    };	
 	
 	//Civ Boat
-	class A3L_SpeedYacht {
-        vItemSpace = 150;
-        licenses[] = { {"boat"}, {""}, {""}, {""} };
-        price = 122000;
-        textures[] = { };
+    class A3L_SpeedYacht {
+	vItemSpace = 250;
+	licenses[] = { {"boat"}, {""}, {""}, {""} };
+	price = 3500000;
+	textures[] = {};
     };
-	
-	class B_CBS_WaterShadow730_F {
-        vItemSpace = 150;
-        licenses[] = { {"boat"}, {""}, {""}, {""} };
-        price = 122000;
-        textures[] = { };
+
+    class B_CBS_WaterShadow730_F {
+	vItemSpace = 120;
+	licenses[] = { {"boat"}, {""}, {""}, {""} };
+	price = 2500000;
+	textures[] = {};
     };
 	
 	//Civ Vehicle
@@ -1694,4 +1696,213 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class max_CrownVic_red : max_CrownVic_blue{};
 	class max_CrownVic_white : max_CrownVic_blue{};
 	class max_CrownVic_taxi : max_CrownVic_blue{};
+	
+	//ducati 오토바이 1인승
+	class Mrshounka_ducati_p {
+	vItemSpace = 50;
+	licenses[] = { {"driver"}, {""}, {""}, {""} };
+	price = 700000;
+	textures[] = {};
+    };
+	class Mrshounka_ducati_p_noir : Mrshounka_ducati_p{};
+	class Mrshounka_ducati_p_o : Mrshounka_ducati_p{};
+	
+	//GMC Vandura 봉고
+	class Mrshounka_Vandura_civ {
+	vItemSpace = 50;
+	licenses[] = { {"driver"}, {""}, {""}, {""} };
+	price = 700000;
+	textures[] = {};
+    };
+	class Mrshounka_Vandura_civ_noir : Mrshounka_Vandura_civ{};
+	class Mrshounka_Vandura_civ_orange : Mrshounka_Vandura_civ{};
+	
+	//폭스바겐 골프
+	class Mrshounka_golfvi_civ {
+	vItemSpace = 50;
+	licenses[] = { {"driver"}, {""}, {""}, {""} };
+	price = 700000;
+	textures[] = {};
+    };
+	class Mrshounka_golfvi_noir : Mrshounka_golfvi_civ{};
+	class Mrshounka_golfvi_orange : Mrshounka_golfvi_civ{};
+	
+	//험머 H3  6인
+	class max_H3_red {
+	vItemSpace = 50;
+	licenses[] = { {"driver"}, {""}, {""}, {""} };
+	price = 700000;
+	textures[] = {};
+    };
+	class max_H3_black : max_H3_red{};
+	class max_H3_black : max_H3_red{};
+	
+	//임팔라 세단 5인
+	class max_impala_black {
+	vItemSpace = 50;
+	licenses[] = { {"driver"}, {""}, {""}, {""} };
+	price = 700000;
+	textures[] = {};
+    };
+	class max_impala_white : max_impala_black{};
+	
+	//JEEP Blinde 4인승
+	class Mrshounka_jeep_blinde_noir {
+	vItemSpace = 50;
+	licenses[] = { {"driver"}, {""}, {""}, {""} };
+	price = 700000;
+	textures[] = {};
+    };
+	class Mrshounka_jeep_blinde_bleu : Mrshounka_jeep_blinde_noir{};
+	class Mrshounka_jeep_blinde_rouge : Mrshounka_jeep_blinde_noir{};
+	
+	//jeep 그랜드 체로키 4인승
+	class Mrshounka_cherokee_noir {
+	vItemSpace = 50;
+	licenses[] = { {"driver"}, {""}, {""}, {""} };
+	price = 700000;
+	textures[] = {};
+    };
+	class Mrshounka_cherokee_noir_bleu : Mrshounka_cherokee_noir{};
+	class Mrshounka_cherokee_noir_violet : Mrshounka_cherokee_noir{};
+	
+	//jeep 오픈 2인승
+	class max_jeep_green {
+	vItemSpace = 50;
+	licenses[] = { {"driver"}, {""}, {""}, {""} };
+	price = 700000;
+	textures[] = {};
+    };
+	class max_jeep_red : max_jeep_green{};
+	class max_jeep_black : max_jeep_green{};
+	
+	//벤츠 구형 스포츠카
+	class Mrshounka_mercedes_190_p_civ {
+	vItemSpace = 50;
+	licenses[] = { {"driver"}, {""}, {""}, {""} };
+	price = 700000;
+	textures[] = {};
+    };
+	
+	//벤츠 c63 AMG 2015
+	class Mrshounka_c63_2015_civ {
+	vItemSpace = 50;
+	licenses[] = { {"driver"}, {""}, {""}, {""} };
+	price = 700000;
+	textures[] = {};
+    };
+	
+	//jeep 오픈 2인승
+	class shounka_a3_pompier_sprinter {
+	vItemSpace = 50;
+	licenses[] = { {"driver"}, {""}, {""}, {""} };
+	price = 700000;
+	textures[] = {};
+    };
+	class shounka_a3_spr_civ : shounka_a3_pompier_sprinter{};
+	
+	//푸조 207 RC
+	class Mrshounka_207_civ {
+	vItemSpace = 50;
+	licenses[] = { {"driver"}, {""}, {""}, {""} };
+	price = 700000;
+	textures[] = {};
+    };
+	
+	//골프 308 GTI 푸조
+	class Mrshounka_a3_308_civ {
+	vItemSpace = 50;
+	licenses[] = { {"driver"}, {""}, {""}, {""} };
+	price = 700000;
+	textures[] = {};
+    };
+	
+	//포르쉐 카이엔
+	class Mrshounka_cayenne_p_civ {
+	vItemSpace = 50;
+	licenses[] = { {"driver"}, {""}, {""}, {""} };
+	price = 700000;
+	textures[] = {};
+    };
+	
+	//RENAULT 소형 해치백 2인승
+	class Mrshounka_r5_noir {
+	vItemSpace = 50;
+	licenses[] = { {"driver"}, {""}, {""}, {""} };
+	price = 700000;
+	textures[] = {};
+    };
+	class Mrshounka_r5_rose : Mrshounka_r5_noir{};
+	
+	// renault megane RS 2015  4인승 해치백 3도어
+	class Mrshounka_megane_rs_2015_civ {
+	vItemSpace = 50;
+	licenses[] = { {"driver"}, {""}, {""}, {""} };
+	price = 700000;
+	textures[] = {};
+    };
+	
+	//renault twingo 해치백 4인승 소형
+	class Mrshounka_twingo_p {
+	vItemSpace = 50;
+	licenses[] = { {"driver"}, {""}, {""}, {""} };
+	price = 700000;
+	textures[] = {};
+    };
+	
+	//벤츠 스마트 2인승
+	class Mrshounka_a3_smart_civ {
+	vItemSpace = 50;
+	licenses[] = { {"driver"}, {""}, {""}, {""} };
+	price = 700000;
+	textures[] = {};
+    };
+	class Mrshounka_a3_smart_civ_noir : Mrshounka_a3_smart_civ{};
+	class Mrshounka_a3_smart_civ_bleu : Mrshounka_a3_smart_civ{};
+	
+	//SUV 5인승 맥스 - 파노라마선루프 SUV
+	class max_suv_black {
+	vItemSpace = 50;
+	licenses[] = { {"driver"}, {""}, {""}, {""} };
+	price = 700000;
+	textures[] = {};
+    };
+	class max_suv_UC : max_suv_black{};
+	
+	//옛날 van 6인승
+	class max_van_white {
+	vItemSpace = 50;
+	licenses[] = { {"driver"}, {""}, {""}, {""} };
+	price = 700000;
+	textures[] = {};
+    };
+	class max_van_cola : max_van_white{};
+	class max_van_Grey : max_van_white{};
+	class max_van_red : max_van_white{};
+	class max_van_blue : max_van_white{};
+	class max_van_green : max_van_white{};
+	
+	//폭스바겐 투아렉 4인승 suv
+	class Mrshounka_Volkswagen_Touareg_bleufonce {
+	vItemSpace = 50;
+	licenses[] = { {"driver"}, {""}, {""}, {""} };
+	price = 700000;
+	textures[] = {};
+    };
+	
+	//폭스바겐 투아렉 4인승 suv
+	class Mrshounka_yamaha_p {
+	vItemSpace = 50;
+	licenses[] = { {"driver"}, {""}, {""}, {""} };
+	price = 700000;
+	textures[] = {};
+    };
+	class Mrshounka_yamaha_p_noir : Mrshounka_yamaha_p{};
+    class A3L_SpeedYacht {
+	vItemSpace = 250;
+	licenses[] = { {"boat"}, {""}, {""}, {""} };
+	price = 3500000;
+	textures[] = {};
+    };
+
 };
