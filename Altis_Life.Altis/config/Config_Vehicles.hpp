@@ -90,9 +90,9 @@ class CarShops {
             { "O_MRAP_02_hmg_F", { "", "", -1 } },
             { "O_Heli_Light_02_F",  { "", "", -1 } },
             { "O_Heli_Transport_04_covered_F",  { "", "", -1 } },
-            { "O_Heli_Transport_04_bench_F",  { "", "", -1 } },
+            { "O_Heli_Transport_04_bench_F",  { "", "", -1 } }
             //addon
-            { "max_CG_heli",  { "life_donorlevel", "SCALAR", 2 } } //uFO
+//            { "max_CG_heli",  { "life_donorlevel", "SCALAR", 2 } } //uFO
         };
     };
 
@@ -112,10 +112,11 @@ class CarShops {
             { "O_Truck_03_medical_F", { "", "", -1 } },
             ///// addon
             { "shounka_nemo_pompier", { "", "", -1 } }, // 귀여운 사각2인
-            { "max_ambulance", { "", "", -1 } }, //옛날 엠뷸런스 4인용
-            { "max_firetruck", { "", "", -1 } }, // 소방차 5인용
-            { "shounka_a3_pompier_sprinter", { "life_donorlevel", "SCALAR", 1 } }, // 벤츠 스프린터 기부자용
-            { "max_towtruck", { "", "", -1 } } //토우트럭
+            { "shounka_a3_pompier_sprinter", { "", "", -1 } } // 벤츠 스프린터 기부자용
+//            { "max_ambulance", { "", "", -1 } }, //옛날 엠뷸런스 4인용
+//            { "max_firetruck", { "", "", -1 } }, // 소방차 5인용
+
+//            { "max_towtruck", { "", "", -1 } } //토우트럭
         };
     };
 
@@ -128,9 +129,9 @@ class CarShops {
             { "I_Heli_Transport_02_F",  { "", "", -1 } },
             { "O_Heli_Transport_04_F",  { "", "", -1 } },
             { "O_Heli_Transport_04_medevac_F",  { "", "", -1 } },
-            { "I_Heli_light_03_F",  { "", "", -1 } },
+            { "I_Heli_light_03_F",  { "", "", -1 } }
             //addon
-            { "max_HEMS_heli",  { "", "", -1 } }
+//            { "max_HEMS_heli",  { "", "", -1 } }
         };
     };
 
@@ -151,8 +152,8 @@ class CarShops {
             { "O_MRAP_02_hmg_F", { "life_coplevel", "SCALAR", 4 } },
             { "I_MRAP_03_hmg_F", { "life_coplevel", "SCALAR", 5 } },
         ////////addon
-            { "max_bike_police", { "", "", -1 } },//  경찰 오토바이
-            { "max_impala_security", { "", "", -1 } },// 경찰 임팔라 세단 5인
+//            { "max_bike_police", { "", "", -1 } },//  경찰 오토바이
+//            { "max_impala_security", { "", "", -1 } },// 경찰 임팔라 세단 5인
             { "Mrshounka_bmw_gend", { "", "", -1 } },// BMW 1 시리즈 M 세단(2인승)
             { "Mrshounka_rs4_gend_p_blanc", { "", "", -1 } },// 아우디 RS4 // 기부자
             { "shounka_a3_audiq7_v2_gendarmerie", { "", "", -1 } },//아우디 Q7// 기부자
@@ -162,24 +163,24 @@ class CarShops {
             { "shounka_a3_508pol", { "", "", -1 } },// 푸조 508 세단 흰
             { "Mrshounka_a3_308_gend", { "", "", -1 } },//골프 308 GTI 푸조 파랑
             { "Mrshounka_308pol", { "", "", -1 } },//골프 308 GTI 푸조 흰색
-            { "max_BP_charger", { "", "", -1 } },//닷지 차저 경찰 (흰색)
-            { "max_Charger_undercover", { "", "", -1 } },
-            { "max_FBI_charger_undercover", { "", "", -1 } },
-            { "max_Charger_Lapd", { "", "", -1 } },//  닷지 차저 경찰 검흰
+//            { "max_BP_charger", { "", "", -1 } },//닷지 차저 경찰 (흰색)
+//            { "max_Charger_undercover", { "", "", -1 } },
+//            { "max_FBI_charger_undercover", { "", "", -1 } },
+//            { "max_Charger_Lapd", { "", "", -1 } },//  닷지 차저 경찰 검흰
             //{ "Mrshounka_evox_gend", { "", "", -1 } },// 경찰 EvoX 파랑 4인 이상있음.
-            { "max_BP_tahoe", { "", "", -1 } }, // 닷지 SUV 경찰 ( 흰색)
-            { "max_FBI_tahoe_undercover", { "", "", -1 } },// 경찰 fbi 밴
-            { "max_bus_pris", { "life_coplevel", "SCALAR", 4 } },// 경찰 죄수 운송 버스
-            { "max_van_sheriff", { "life_coplevel", "SCALAR", 4 } },// 경찰 밴 흰색 죄수 운송
-            { "max_FBI_tahoe", { "", "", -1 } },// 경찰 FBI van  TAhoe
-            { "max_swatvan", { "life_coplevel", "SCALAR", 4 } },// 경찰 swat van  TAhoe
+//            { "max_BP_tahoe", { "", "", -1 } }, // 닷지 SUV 경찰 ( 흰색)
+//            { "max_FBI_tahoe_undercover", { "", "", -1 } },// 경찰 fbi 밴
+//            { "max_bus_pris", { "life_coplevel", "SCALAR", 4 } },// 경찰 죄수 운송 버스
+//            { "max_van_sheriff", { "life_coplevel", "SCALAR", 4 } },// 경찰 밴 흰색 죄수 운송
+//            { "max_FBI_tahoe", { "", "", -1 } },// 경찰 FBI van  TAhoe
+//            { "max_swatvan", { "life_coplevel", "SCALAR", 4 } },// 경찰 swat van  TAhoe
             { "Mrshounka_Volkswagen_Touareg_police_police", { "", "", -1 } },//폭스바겐 투아렉 4인승 suv
             { "Mrshounka_ducati_police_p", { "life_donorlevel", "SCALAR", 1 } },//  경찰듀카티 오토바이  // 기부자
-            { "max_CrownVic_lapd", { "life_donorlevel", "SCALAR", 1 } },// 크라운빅 Crownvic 옛날 경찰 차 검흰// 기부자
+//            { "max_CrownVic_lapd", { "life_donorlevel", "SCALAR", 1 } },// 크라운빅 Crownvic 옛날 경찰 차 검흰// 기부자
             { "77FuryShr", { "life_donorlevel", "SCALAR", 1 } },// 77년대 플리마우스 퓨리 크루져 (경찰 SHERIFF ) 흰색// 기부자
             { "77FuryCop", { "life_coplevel", "SCALAR", 4 } },// " 검정
             { "shounka_a3_gendsprinter", { "life_donorlevel", "SCALAR", 2 } },// 벤츠 스프린터 경찰// 기부자
-            { "max_FBI_van", { "life_donorlevel", "SCALAR", 2 } },  // 경찰 FBI 장갑 밴// 기부자
+//            { "max_FBI_van", { "life_donorlevel", "SCALAR", 2 } },  // 경찰 FBI 장갑 밴// 기부자
             { "Mrshounka_agera_gend_p", { "life_donorlevel", "SCALAR", 2 } }// 아제라 스포츠카 // 기부자
         };
     };
@@ -220,10 +221,10 @@ class CarShops {
              { "Tal_Wrangler_Red", { "", "", -1 } },                          //랭글러 지프
              { "Tal_Wrangler_Pink", { "life_donorlevel", "SCALAR", 1 } },     //랭글러 지프
              { "Tal_Wrangler_White", { "", "", -1 } },                        //랭글러 지프
-             { "max_AJ", { "", "", -1 } },                                    // 오픈 지프
-             { "max_bike", { "", "", -1 } },                                  //해골 갱 Bike
-             { "max_bike1", { "", "", -1 } },                                 //해골 갱 Bike
-             { "max_bike2", { "", "", -1 } },                                 //해골 갱 Bike
+//             { "max_AJ", { "", "", -1 } },                                    // 오픈 지프
+//             { "max_bike", { "", "", -1 } },                                  //해골 갱 Bike
+//             { "max_bike1", { "", "", -1 } },                                 //해골 갱 Bike
+//             { "max_bike2", { "", "", -1 } },                                 //해골 갱 Bike
              { "Mrshounka_Bowler_c", { "", "", -1 } },                        //BOWLER SUV 2인승
              { "Mrshounka_Bowler_c_noir", { "", "", -1 } },                   //BOWLER SUV 2인승
              { "Mrshounka_Bowler_c_bleufonce", { "", "", -1 } },              //BOWLER SUV 2인승
@@ -231,7 +232,7 @@ class CarShops {
              { "shounka_buggy_noir", { "", "", -1 } },                        //버기카
              { "shounka_buggy_bleufonce", { "", "", -1 } },                   //버기카
              { "shounka_buggy_orange", { "", "", -1 } },                      //버기카
-             { "max_bus", { "", "", -1 } },                                   //낡은 버스
+//             { "max_bus", { "", "", -1 } },                                   //낡은 버스
              { "Mrshounka_a3_dodge15_civ", { "", "", -1 } },                //닷지 차져 2015년 버전
              { "Mrshounka_a3_dodge15_civ_noir", { "", "", -1 } },            //닷지 차져 2015년 버전
              { "Mrshounka_a3_dodge15_civ_bleufonce", { "", "", -1 } },        //닷지 차져 2015년 버전
@@ -253,10 +254,10 @@ class CarShops {
              { "shounka_a3_cliors_civ", { "", "", -1 } },                    //Clio RS  4인승 해치백
              { "shounka_a3_cliors_civ_noir", { "", "", -1 } },                //Clio RS  4인승 해치백
              { "shounka_a3_cliors_civ_bleufonce", { "", "", -1 } },            //Clio RS  4인승 해치백
-             { "max_CrownVic_blue", { "", "", -1 } },                        //crwonVic 옛날 세단 4인승
-             { "max_CrownVic_red", { "", "", -1 } },                        //crwonVic 옛날 세단 4인승
-             { "max_CrownVic_white", { "", "", -1 } },                        //crwonVic 옛날 세단 4인승
-             { "max_CrownVic_taxi", { "", "", -1 } },                        //crwonVic 옛날 세단 4인승 택시
+//             { "max_CrownVic_blue", { "", "", -1 } },                        //crwonVic 옛날 세단 4인승
+//             { "max_CrownVic_red", { "", "", -1 } },                        //crwonVic 옛날 세단 4인승
+//             { "max_CrownVic_white", { "", "", -1 } },                        //crwonVic 옛날 세단 4인승
+//             { "max_CrownVic_taxi", { "", "", -1 } },                        //crwonVic 옛날 세단 4인승 택시
              { "Mrshounka_ducati_p", { "", "", -1 } },                        //ducati 오토바이 1인승
              { "Mrshounka_ducati_p_noir", { "", "", -1 } },                    //ducati 오토바이 1인승
              { "Mrshounka_ducati_p_o", { "", "", -1 } },                    //ducati 오토바이 1인승
@@ -266,20 +267,20 @@ class CarShops {
              { "Mrshounka_golfvi_civ", { "", "", -1 } },                    //폭스바겐 골프
              { "Mrshounka_golfvi_noir", { "", "", -1 } },                    //폭스바겐 골프
              { "Mrshounka_golfvi_orange", { "", "", -1 } },                    //폭스바겐 골프
-             { "max_H3_red", { "life_donorlevel", "SCALAR", 1 } },                                //험머 H3  6인
-             { "max_H3_black", { "life_donorlevel", "SCALAR", 1 } },                            //험머 H3  6인
-             { "max_H3_urbancamo", { "life_donorlevel", "SCALAR", 1 } },                        //험머 H3  6인
-             { "max_impala_black", { "", "", -1 } },                        //임팔라 세단 5인
-             { "max_impala_white", { "", "", -1 } },                        //임팔라 세단 5인
+//             { "max_H3_red", { "life_donorlevel", "SCALAR", 1 } },                                //험머 H3  6인
+//             { "max_H3_black", { "life_donorlevel", "SCALAR", 1 } },                            //험머 H3  6인
+//             { "max_H3_urbancamo", { "life_donorlevel", "SCALAR", 1 } },                        //험머 H3  6인
+//             { "max_impala_black", { "", "", -1 } },                        //임팔라 세단 5인
+//             { "max_impala_white", { "", "", -1 } },                        //임팔라 세단 5인
              { "Mrshounka_jeep_blinde_noir", { "", "", -1 } },                //JEEP Blinde 4인승
              { "Mrshounka_jeep_blinde_bleu", { "", "", -1 } },                //JEEP Blinde 4인승
              { "Mrshounka_jeep_blinde_rouge", { "", "", -1 } },                //JEEP Blinde 4인승
              { "Mrshounka_cherokee_noir", { "", "", -1 } },                    //jeep 그랜드 체로키 4인승
              { "Mrshounka_cherokee_noir_bleu", { "", "", -1 } },            //jeep 그랜드 체로키 4인승
              { "Mrshounka_cherokee_noir_violet", { "", "", -1 } },            //jeep 그랜드 체로키 4인승
-             { "max_jeep_green", { "", "", -1 } },                            //jeep 오픈 2인승
-             { "max_jeep_red", { "", "", -1 } },                            //jeep 오픈 2인승
-             { "max_jeep_black", { "", "", -1 } },                            //jeep 오픈 2인승
+//             { "max_jeep_green", { "", "", -1 } },                            //jeep 오픈 2인승
+//             { "max_jeep_red", { "", "", -1 } },                            //jeep 오픈 2인승
+//             { "max_jeep_black", { "", "", -1 } },                            //jeep 오픈 2인승
              { "Mrshounka_mercedes_190_p_civ", { "", "", -1 } },            //벤츠 구형 스포츠카
              { "Mrshounka_c63_2015_civ", { "life_donorlevel", "SCALAR", 1 } }, //벤츠 c63 AMG 2015
              { "shounka_a3_spr_civ", { "", "", -1 } },                        //벤츠 스프린터 빨강
@@ -293,14 +294,14 @@ class CarShops {
              { "Mrshounka_a3_smart_civ", { "", "", -1 } },                    //벤츠 스마트 2인승
              { "Mrshounka_a3_smart_civ_noir", { "", "", -1 } },                //벤츠 스마트 2인승
              { "Mrshounka_a3_smart_civ_bleu", { "", "", -1 } },                //벤츠 스마트 2인승
-             { "max_suv_black", { "", "", -1 } },                            //SUV 5인승 맥스 - 파노라마선루프 SUV
-             { "max_suv_UC", { "", "", -1 } },                                //SUV 5인승 맥스 - 파노라마선루프 SUV
-             { "max_van_white", { "", "", -1 } },                            //옛날 van 6인승
-             { "max_van_cola", { "", "", -1 } },                            //옛날 van 6인승
-             { "max_van_Grey", { "", "", -1 } },                            //옛날 van 6인승
-             { "max_van_red", { "", "", -1 } },                                //옛날 van 6인승
-             { "max_van_blue", { "", "", -1 } },                            //옛날 van 6인승
-             { "max_van_green", { "", "", -1 } },                            //옛날 van 6인승
+//             { "max_suv_black", { "", "", -1 } },                            //SUV 5인승 맥스 - 파노라마선루프 SUV
+//             { "max_suv_UC", { "", "", -1 } },                                //SUV 5인승 맥스 - 파노라마선루프 SUV
+//             { "max_van_white", { "", "", -1 } },                            //옛날 van 6인승
+//             { "max_van_cola", { "", "", -1 } },                            //옛날 van 6인승
+//             { "max_van_Grey", { "", "", -1 } },                            //옛날 van 6인승
+//             { "max_van_red", { "", "", -1 } },                                //옛날 van 6인승
+//             { "max_van_blue", { "", "", -1 } },                            //옛날 van 6인승
+//             { "max_van_green", { "", "", -1 } },                            //옛날 van 6인승
              { "Mrshounka_Volkswagen_Touareg_bleufonce", { "", "", -1 } },    //폭스바겐 투아렉 4인승 suv
              { "Mrshounka_yamaha_p", { "", "", -1 } },    //야마하 오토바이
              { "Mrshounka_yamaha_p_noir", { "", "", -1 } }    //야마하 오토바이
@@ -315,14 +316,14 @@ class CarShops {
              { "Mrshounka_agera_p", { "life_donorlevel", "SCALAR", 1 } },            //아제라 스포츠
              { "Mrshounka_agera_p_bleu", { "life_donorlevel", "SCALAR", 1 } },        //아제라 스포츠
              { "Mrshounka_agera_p_jaune", { "life_donorlevel", "SCALAR", 1 } },        //아제라 스포츠
-             { "max_charger_black", { "life_donorlevel", "SCALAR", 1 } },            //닷지 차져
-             { "max_charger_blue", { "life_donorlevel", "SCALAR", 1 } },            //닷지 차져
-             { "max_charger_red", { "life_donorlevel", "SCALAR", 1 } },                //닷지 차져
-             { "max_charger_yellow", { "life_donorlevel", "SCALAR", 1 } },            //닷지 차져
              { "dbo_LT_01", { "life_donorlevel", "SCALAR", 1 } },                    //LT sport
              { "Mrshounka_lykan_c", { "life_donorlevel", "SCALAR", 1 } },            //라이칸 하이퍼스포트
-             { "A3L_Flipcar", { "life_donorlevel", "SCALAR", 1 } },                    //Flipcar
-             { "max_vipcar", { "life_donorlevel", "SCALAR", 2 } }                    //롤스로이스 팬텀 검정 ( 대통령차)
+             { "A3L_Flipcar", { "life_donorlevel", "SCALAR", 1 } }                   //Flipcar
+             //             { "max_charger_black", { "life_donorlevel", "SCALAR", 1 } },            //닷지 차져
+             //             { "max_charger_blue", { "life_donorlevel", "SCALAR", 1 } },            //닷지 차져
+             //             { "max_charger_red", { "life_donorlevel", "SCALAR", 1 } },                //닷지 차져
+             //             { "max_charger_yellow", { "life_donorlevel", "SCALAR", 1 } },            //닷지 차져
+             //             { "max_vipcar", { "life_donorlevel", "SCALAR", 2 } }                    //롤스로이스 팬텀 검정 ( 대통령차)
              //{ "", { "", "", -1 } },    //Sample
         };
     };
@@ -346,12 +347,12 @@ class CarShops {
             { "Mrshounka_bmwm1_civ_noir", { "", "", -1 } },            //BMW 1 시리즈 M세단
             { "Mrshounka_bmwm1_civ_bleufonce", { "", "", -1 } },    //BMW 1 시리즈 M세단
             { "Mrshounka_bmwm1_civ_orange", { "", "", -1 } },        //BMW 1 시리즈 M세단
-            { "max_BMW", { "", "", -1 } },                            //BMW 세단 2인승  검정
-            { "max_BMW1", { "", "", -1 } },                            //BMW 세단 2인승  검정
-            { "max_BMW2", { "", "", -1 } },                            //BMW 세단 2인승  검정
-            { "max_BMW_M3_GTR", { "", "", -1 } },                    //BMW  GTR3레이싱
-            { "max_BMW_M3_GTR1", { "", "", -1 } },                    //BMW  GTR3레이싱
-            { "max_BMW_M3_GTR2", { "", "", -1 } },                    //BMW  GTR3레이싱
+//            { "max_BMW", { "", "", -1 } },                            //BMW 세단 2인승  검정
+//            { "max_BMW1", { "", "", -1 } },                            //BMW 세단 2인승  검정
+//            { "max_BMW2", { "", "", -1 } },                            //BMW 세단 2인승  검정
+//            { "max_BMW_M3_GTR", { "", "", -1 } },                    //BMW  GTR3레이싱
+//            { "max_BMW_M3_GTR1", { "", "", -1 } },                    //BMW  GTR3레이싱
+//            { "max_BMW_M3_GTR2", { "", "", -1 } },                    //BMW  GTR3레이싱
             { "Mrshounka_bmwm6_civ", { "", "", -1 } },                //BMW M 6
             { "Mrshounka_bmwm6_noir", { "", "", -1 } },                //BMW M 6
             { "Mrshounka_bmwm6_orange", { "", "", -1 } },            //BMW M 6
@@ -395,9 +396,9 @@ class CarShops {
             { "shounka_h2_noir", { "", "", -1 } },                    //험머     H2 //4인
             { "shounka_h2_orange", { "", "", -1 } },                //험머     H2 //4인
             { "wirk_h3_limo", { "", "", -1 } },                        //험머 리무진 흰색   8명
-            { "max_lambo", { "", "", -1 } },                        //람보르기니 가야르도
-            { "max_lambo1", { "", "", -1 } },                        //람보르기니 가야르도
-            { "max_lambo2", { "", "", -1 } },                        //람보르기니 가야르도
+//            { "max_lambo", { "", "", -1 } },                        //람보르기니 가야르도
+//            { "max_lambo1", { "", "", -1 } },                        //람보르기니 가야르도
+//            { "max_lambo2", { "", "", -1 } },                        //람보르기니 가야르도
             { "mrshounka_huracan_c", { "", "", -1 } },                //람보르기니 우라칸 // huracan
             { "mrshounka_huracan_c_noir", { "", "", -1 } },            //람보르기니 우라칸 // huracan
             { "mrshounka_huracan_c_bleufonce", { "", "", -1 } },    //람보르기니 우라칸 // huracan
@@ -411,7 +412,7 @@ class CarShops {
             { "Mrshounka_veneno_c_noir", { "", "", -1 } },            //람보르기니 베네노 veneno
             { "Mrshounka_veneno_c_bleu", { "", "", -1 } },            //람보르기니 베네노 veneno
             { "Mrshounka_veneno_c_jaune", { "", "", -1 } },            //람보르기니 베네노 veneno
-            { "max_vipcar1", { "life_donorlevel", "SCALAR", 2 } },     //롤스로이스 팬텀 ( vip )  크롬색
+//            { "max_vipcar1", { "life_donorlevel", "SCALAR", 2 } },     //롤스로이스 팬텀 ( vip )  크롬색
             { "shounka_limo_civ", { "", "", -1 } },                    //아우디 리무진
             { "shounka_limo_civ_noir", { "", "", -1 } },            //아우디 리무진
             { "shounka_limo_civ_bleufonce", { "", "", -1 } },        //아우디 리무진
@@ -437,7 +438,6 @@ class CarShops {
             { "shounka_porsche911", { "", "", -1 } },                //포르쉐 911
             { "mrshounka_92_civ", { "", "", -1 } },                    //포르쉐 911 92년식
             { "shounka_transam", { "", "", -1 } }                    //옛날 머슬카 Transam 2인승
-            //{ "", { "", "", -1 } },    //Sample
         };
     };
 };
