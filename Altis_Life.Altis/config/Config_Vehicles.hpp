@@ -1486,6 +1486,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	price = 500000;
 	textures[] = {};
     };
+<<<<<<< HEAD
 	
 	//Civilian Addon
 	//Civ Truck
@@ -1493,6 +1494,20 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	vItemSpace = 350;
 	licenses[] = { {"trucking"}, {""}, {""}, {""} };
 	price = 1700000;
+=======
+///
+    class shounka_a3_dafxf_euro6_f {
+	vItemSpace = 350;
+	licenses[] = { {"trucking"}, {""}, {""}, {""} };
+	price = 1700000;
+	textures[] = {};
+    };
+
+    class Mrshounka_a3_iveco_f {
+	vItemSpace = 430;
+	licenses[] = { {"trucking"}, {""}, {""}, {""} };
+	price = 2550000;
+>>>>>>> refs/remotes/origin/addonLife
 	textures[] = {};
     };
 
@@ -1905,4 +1920,52 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	textures[] = {};
     };
 
+    class shounka_a3_renaultmagnum_f {
+	vItemSpace = 500;
+	licenses[] = { {"trucking"}, {""}, {""}, {""} };
+	price = 3500000;
+	textures[] = {};
+    };
+
+    class sab_RobinDR400_5 {
+	vItemSpace = 100;
+	licenses[] = { {"pilot"}, {""}, {""}, {""} };
+	price = 2000000;
+	textures[] = {};
+    };
+
+    class sab_cuav_trojan {
+	vItemSpace = 30;
+	licenses[] = { {"pilot"}, {""}, {""}, {""} };
+	price = 700000;
+	textures[] = {};
+    };
+
+    class sab_cuav_piper {
+	vItemSpace = 50;
+	licenses[] = { {"pilot"}, {""}, {""}, {""} };
+	price = 1250000;
+	textures[] = {};
+    };
+
+    class sab_FAAllegro {
+	vItemSpace = 60;
+	licenses[] = { {"pilot"}, {""}, {""}, {""} };
+	price = 1400000;
+	textures[] = {};
+    };
+
+    class A3L_SpeedYacht {
+	vItemSpace = 250;
+	licenses[] = { {"boat"}, {""}, {""}, {""} };
+	price = 3500000;
+	textures[] = {};
+    };
+
+    class B_CBS_WaterShadow730_F {
+	vItemSpace = 120;
+	licenses[] = { {"boat"}, {""}, {""}, {""} };
+	price = 2500000;
+	textures[] = {};
+    };
 };
