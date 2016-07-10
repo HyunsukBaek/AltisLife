@@ -1697,7 +1697,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
     };
     class max_H3_black : max_H3_red{};
-    class max_H3_black : max_H3_red{};
 
     //임팔라 세단 5인
     class max_impala_black {
