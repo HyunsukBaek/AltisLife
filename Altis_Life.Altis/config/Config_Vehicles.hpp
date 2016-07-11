@@ -1450,14 +1450,14 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class Mrshounka_a3_iveco_f {
-        vItemSpace = 430;
+        vItemSpace = 480;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = 2550000;
         textures[] = {};
     };
 
     class shounka_a3_renaultmagnum_f {
-        vItemSpace = 500;
+        vItemSpace = 560;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = 3500000;
         textures[] = {};
