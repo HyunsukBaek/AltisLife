@@ -32,7 +32,7 @@ if (!(_diff isEqualTo (_itemInfo select 1))) then {
         player playMove "AinvPknlMstpSlayWrflDnon";
 
         _this setVariable ["item",[(_itemInfo select 0),(_itemInfo select 1) - _diff],true];
-        titleText[format[localize "STR_NOTF_Picked",_diff,localize _itemName],"PLAIN"];
+        titleText[format[localize "STR_NOTF_Picked",_diff,_itemName],"PLAIN"];
         INUSE(_this);
     } else {
         INUSE(_this);
@@ -43,7 +43,7 @@ if (!(_diff isEqualTo (_itemInfo select 1))) then {
         //waitUntil{isNull _this};
         player playMove "AinvPknlMstpSlayWrflDnon";
 
-        titleText[format[localize "STR_NOTF_Picked",_diff,localize _itemName],"PLAIN"];
+        titleText[format[localize "STR_NOTF_Picked",_diff,_itemName],"PLAIN"];
     } else {
         INUSE(_this);
     };
@@ -51,9 +51,9 @@ if (!(_diff isEqualTo (_itemInfo select 1))) then {
 
 if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
     if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-        advanced_log = format [localize "STR_DL_AL_pickedUp_BEF",_diff,localize _itemName];
+        advanced_log = format [localize "STR_DL_AL_pickedUp_BEF",_diff,_itemName];
     } else {
-        advanced_log = format [localize "STR_DL_AL_pickedUp",profileName,(getPlayerUID player),_diff,localize _itemName];
+        advanced_log = format [localize "STR_DL_AL_pickedUp",profileName,(getPlayerUID player),_diff,_itemName];
     };
     publicVariableServer "advanced_log";
 };
