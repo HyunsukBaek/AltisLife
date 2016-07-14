@@ -1,0 +1,48 @@
+기본 차량 스킨 코드만 입력
+차량 스킨은 애드온 내 스킨파일 추출 후 스킨 선택으로 사용
+라이프 제작진이 작업 예상
+*************************차량
+//MB 4WD
+C_Offroad_02_unarmed_F
+
+//Prowler 무장
+B_T_LSV_01_armed_F
+
+//Prowler 비무장
+B_T_LSV_01_unarmed_F
+
+//Qilin 무장
+O_T_LSV_02_armed_F
+
+//Qilin 비무장
+O_T_LSV_02_unarmed_F
+
+
+
+*************************헬기
+//MQ-12 Falcon (무인 헬기 공격용, 스크립트를 통한 무기 삭제후 추가)
+B_T_UAV_03_F
+
+*************************비행기
+//Caesar BTT
+C_Plane_Civil_01_F
+
+//KH-#A Fenghuang 공격 무인기
+O_T_UAV_04_CAS_F
+
+//V-44 X Blackfish (무장) 오스프리
+B_T_VTOL_01_armed_F
+
+//V-44 X Blackfish (보병수송) 오스프리
+B_T_VTOL_01_infantry_F
+
+//Y-32 Xian(보병 수송)
+O_T_VTOL_02_infantry_F
+
+
+*************************보트
+//수상 스쿠터
+C_Scooter_Transport_01_F
+
+//RHIB
+I_C_Boat_Transport_02_F
