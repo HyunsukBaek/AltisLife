@@ -273,14 +273,15 @@ class Clothing {
             { "U_Rangemaster", "Cop Uniform", 250, { "", "", -1 } },
             { "U_B_CombatUniform_mcam", "Traffic Officer", 250, { "", "", -1 } },
             { "U_B_CombatUniform_mcam_worn", "Blue Uniform", 350, { "life_coplevel", "SCALAR", 2 } },
-	    { "U_B_CTRG_1", "Black Uniform", 350, { "life_coplevel", "SCALAR", 2 } },
+            { "U_B_CTRG_1", "Black Uniform", 350, { "life_coplevel", "SCALAR", 2 } },
             { "U_B_PilotCoveralls", "", 550, { "life_coplevel", "SCALAR", 1 } },//
             { "U_B_HeliPilotCoveralls", "", 550, { "life_coplevel", "SCALAR", 2 } },
             { "U_B_GhillieSuit", "", 150000, { "life_coplevel", "SCALAR", 2 } },
             { "U_B_Wetsuit", "", 10550, { "life_coplevel", "SCALAR", 1 } },
             { "U_Marshal", "Marshal", 5550, { "life_coplevel", "SCALAR", 5 } },
             { "U_NikosAgedBody", "시민2", 10550, { "life_coplevel", "SCALAR", 4 } },
-
+            { "U_B_CTRG_Soldier_3_F", "", 2500000, { "life_coplevel", "SCALAR", 3 } },
+            { "U_B_CTRG_Soldier_F", "", 3000000, { "life_coplevel", "SCALAR", 3 } },
 	    // addon
             { "max_captain_uniform", "캡틴", 10000, { "life_coplevel", "SCALAR", 4 } },
             { "max_chief_uniform", "chief Uniform", 10000, { "life_coplevel", "SCALAR", 5 } },
@@ -288,40 +289,41 @@ class Clothing {
             { "max_liutentant_uniform", "liutentant", 10000, { "", "", -1 } },
             { "max_prisonG_uniform", "교도관", 10000, { "life_donorlevel", "SCALAR", 1 } },
             { "police_pilot_uniform", "파일럿", 10000, { "", "", -1 } },
-	    { "max_Lapd_uniform", "", 10000, { "", "", -1 } },
-	    { "police_pilot_uniform", "", 10000, { "", "", -1 } },
-	    { "max_recruit_uniform", "", 10000, { "", "", -1 } },
-	    { "agent_uniform_new", "비밀요원 정장", 10000, { "life_coplevel", "SCALAR", 3 } },
-	    { "security_uniform", "", 10000, { "", "", -1 } },
-	    { "sheriff_uniform_new", "", 10000, { "", "", -1 } },
-	    { "fbi_agent_uniform", "FBI 요원1", 10000, { "", "", -1 } },
-	    { "fbi_assistant_uniform", "FBI 요원2", 10000, { "life_coplevel", "SCALAR", 3 } },
-	    { "fbi_director_uniform", "FBI 요원3", 10000, { "life_coplevel", "SCALAR", 3 } },
-	    { "fbi_pilot_uniform", "FBI 파일럿", 10000, { "life_coplevel", "SCALAR", 4 } },
-	    { "fbi_rru_uniform", "FBI 특수부대", 10000, { "life_coplevel", "SCALAR", 4 } },
-	    { "swat_officer_lapd", "SWAT Officer", 10000, { "life_donorlevel", "SCALAR", 1 } },
-	    { "swat_lapd_uniform", "SWAT LAPD", 10000, { "life_donorlevel", "SCALAR", 1 } },
-	    { "special_agent_uniform_new", "Special Agent", 10000, { "life_donorlevel", "SCALAR", 2 } }
+           // { "max_Lapd_uniform", "", 10000, { "", "", -1 } },
+            { "police_pilot_uniform", "", 10000, { "", "", -1 } },
+            { "max_recruit_uniform", "", 10000, { "", "", -1 } },
+            { "agent_uniform_new", "비밀요원 정장", 10000, { "life_coplevel", "SCALAR", 3 } },
+            { "security_uniform", "", 10000, { "", "", -1 } },
+            { "sheriff_uniform_new", "", 10000, { "", "", -1 } },
+            { "fbi_agent_uniform", "FBI 요원1", 10000, { "", "", -1 } },
+            { "fbi_assistant_uniform", "FBI 요원2", 10000, { "life_coplevel", "SCALAR", 3 } },
+            { "fbi_director_uniform", "FBI 요원3", 10000, { "life_coplevel", "SCALAR", 3 } },
+            { "fbi_pilot_uniform", "FBI 파일럿", 10000, { "life_coplevel", "SCALAR", 4 } },
+            { "fbi_rru_uniform", "FBI 특수부대", 10000, { "life_coplevel", "SCALAR", 4 } },
+            { "swat_officer_lapd", "SWAT Officer", 10000, { "life_donorlevel", "SCALAR", 1 } },
+            { "swat_lapd_uniform", "SWAT LAPD", 10000, { "life_donorlevel", "SCALAR", 1 } },
+            { "special_agent_uniform_new", "Special Agent", 10000, { "life_donorlevel", "SCALAR", 2 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
             { "H_Cap_police", "", 25, { "", "", -1 } },
             { "H_Beret_blk_POLICE", "", 50, { "life_coplevel", "SCALAR", 2 } },
             { "H_HelmetB_plain_mcamo", "", 75, { "life_coplevel", "SCALAR", 1 } },
-            { "H_MilCap_blue", "", 100, { "life_coplevel", "SCALAR", 2 } },
-            { "H_Booniehat_mcamo", "", 120, { "life_coplevel", "SCALAR", 1 } },
-            { "H_Beret_Colonel", "", 120, { "life_coplevel", "SCALAR", 1 } },
-            { "H_Bandanna_khk", "", 120, { "life_coplevel", "SCALAR", 1 } },
-            { "H_HelmetB_light", "", 120, { "life_coplevel", "SCALAR", 2 } },
-            { "H_HelmetCrew_O", "", 120, { "life_coplevel", "SCALAR", 2 } },
-            { "H_HelmetSpecO_blk", "", 120, { "life_coplevel", "SCALAR", 2 } },
-            { "H_PilotHelmetHeli_O", "", 120, { "life_coplevel", "SCALAR", 2 } },
-            { "H_HelmetB_light_black", "", 120, { "life_coplevel", "SCALAR", 1 } },
-            { "H_HelmetB_black", "", 120, { "life_coplevel", "SCALAR", 1 } },
-            { "H_RacingHelmet_4_F", "", 120, { "life_coplevel", "SCALAR", 1 } },
-            { "H_ShemagOpen_khk", "", 800, { "", "", -1 } },
-            { "H_ShemagOpen_tan", "", 850, { "", "", -1 } },
-            { "H_Shemag_olive", "", 850, { "", "", -1 } },
+            { "H_MilCap_blue", "", 8100, { "life_coplevel", "SCALAR", 2 } },
+            { "H_Booniehat_mcamo", "", 8120, { "life_coplevel", "SCALAR", 1 } },
+            { "H_Beret_Colonel", "", 8120, { "life_coplevel", "SCALAR", 1 } },
+            { "H_Bandanna_khk", "", 8120, { "life_coplevel", "SCALAR", 1 } },
+            { "H_HelmetB_light", "", 8120, { "life_coplevel", "SCALAR", 2 } },
+            { "H_HelmetCrew_O", "", 8120, { "life_coplevel", "SCALAR", 2 } },
+            { "H_HelmetSpecO_blk", "", 8120, { "life_coplevel", "SCALAR", 2 } },
+            { "H_PilotHelmetHeli_O", "", 8120, { "life_coplevel", "SCALAR", 2 } },
+            { "H_HelmetB_light_black", "", 8120, { "life_coplevel", "SCALAR", 1 } },
+            { "H_HelmetB_black", "", 8120, { "life_coplevel", "SCALAR", 1 } },
+            { "H_RacingHelmet_4_F", "", 8120, { "life_coplevel", "SCALAR", 1 } },
+            { "H_ShemagOpen_khk", "", 8800, { "", "", -1 } },
+            { "H_ShemagOpen_tan", "", 8850, { "", "", -1 } },
+            { "H_Shemag_olive", "", 8850, { "", "", -1 } },
+            { "H_HelmetO_ViperSP_ghex_F", "", 3500000, { "", "", -1 } },
 
 	    //addon
             { "max_CG_Hat", "", 10000, { "", "", -1 } },
@@ -604,8 +606,8 @@ class Clothing {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
             { "V_Press_F", "", 800, { "", "", -1 } },
             { "V_RebreatherB", "", 5000, { "", "", -1 } },
-	    //addon
-	    { "max_paramedic_vest_blue", "", 15000, { "life_donorlevel", "SCALAR", 1 } },
+            //addon
+            { "max_paramedic_vest_blue", "", 15000, { "life_donorlevel", "SCALAR", 1 } },
             { "max_paramedic_vest_red", "", 15000, { "", "", -1 } }
 
         };
@@ -636,16 +638,19 @@ class Clothing {
             { "U_IG_leader", "Guerilla Leader", 15340, { "", "", -1 } },
             { "U_I_PilotCoveralls", "", 15610, { "", "", -1 } },
             { "U_O_SpecopsUniform_ocamo", "SpecCamo", 2500, { "", "", -1 } },
-            { "U_I_GhillieSuit", "", 150000, { "", "", -1 } }
+            { "U_I_GhillieSuit", "", 150000, { "", "", -1 } },
+            { "U_O_V_Soldier_Viper_hex_F", "", 8500000, { "", "", -1 } }
+
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
-            { "H_Bandanna_camo", "", 650, { "", "", -1 } },
-            { "H_ShemagOpen_khk", "", 800, { "", "", -1 } },
-            { "H_ShemagOpen_tan", "", 850, { "", "", -1 } },
-            { "H_Shemag_olive", "", 850, { "", "", -1 } },
-            { "H_MilCap_oucamo", "", 1200, { "", "", -1 } },
-            { "H_HelmetO_ocamo", "", 2500, { "", "", -1 } }
+            { "H_Bandanna_camo", "", 6500, { "", "", -1 } },
+            { "H_ShemagOpen_khk", "", 8000, { "", "", -1 } },
+            { "H_ShemagOpen_tan", "", 8500, { "", "", -1 } },
+            { "H_Shemag_olive", "", 48500, { "", "", -1 } },
+            { "H_MilCap_oucamo", "", 12000, { "", "", -1 } },
+            { "H_HelmetO_ocamo", "", 25000, { "", "", -1 } },
+            { "H_HelmetO_ViperSP_hex_F", "", 5500000, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -706,6 +711,7 @@ class Clothing {
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
             { "B_OutdoorPack_blk", "", 7500, { "", "", -1 } },
+            { "B_ViperLightHarness_blk_F", "", 17500, { "", "", -1 } },
             { "B_AssaultPack_sgg", "JetPack", 500000, { "", "", -1 } },
             { "B_Parachute", "낙하산", 37500, { "", "", -1 } }
         };
