@@ -61,6 +61,9 @@ class CarShops {
             { "B_Heli_Transport_03_unarmed_F", { "", "", -1 } },
             { "I_Heli_Transport_02_F", { "", "", -1 } },
             { "B_Heli_Transport_01_F", { "", "", -1 } },
+            { "C_Plane_Civil_01_racing_F", { "", "", -1 } }, //black fish 36인용
+            { "C_Plane_Civil_01_F", { "", "", -1 } }, //black fish 36인용
+            { "B_T_VTOL_01_infantry_F", { "", "", -1 } }, //black fish 36인용
             { "sab_RobinDR400_5", { "", "", -1 } },    //addon  // 경비행기 4인승
             { "sab_FAAllegro", { "", "", -1 } }        //addon // 경비행기 2인승
         };
@@ -70,6 +73,7 @@ class CarShops {
         side = "civ";
         vehicles[] = {
             { "C_Rubberboat", { "", "", -1 } },
+            { "C_Scooter_Transport_01_F", { "", "", -1 } },
             { "C_Boat_Civil_01_F", { "", "", -1 } },
             { "B_SDV_01_F", { "", "", -1 } },
             { "A3L_SpeedYacht", { "", "", -1 } },    //addon
@@ -90,7 +94,9 @@ class CarShops {
             { "O_MRAP_02_hmg_F", { "", "", -1 } },
             { "O_Heli_Light_02_F",  { "", "", -1 } },
             { "O_Heli_Transport_04_covered_F",  { "", "", -1 } },
-            { "O_Heli_Transport_04_bench_F",  { "", "", -1 } }
+            { "O_Heli_Transport_04_bench_F",  { "", "", -1 } },
+            { "O_T_LSV_02_unarmed_F",  { "", "", -1 } },
+            { "O_T_LSV_02_armed_F",  { "", "", -1 } }
             //addon
 //            { "max_CG_heli",  { "life_donorlevel", "SCALAR", 2 } } //uFO
         };
@@ -151,6 +157,7 @@ class CarShops {
             { "B_MRAP_01_hmg_F", { "life_coplevel", "SCALAR", 4 } },
             { "O_MRAP_02_hmg_F", { "life_coplevel", "SCALAR", 4 } },
             { "I_MRAP_03_hmg_F", { "life_coplevel", "SCALAR", 5 } },
+            { "B_T_LSV_01_armed_F", { "life_coplevel", "SCALAR", 4 } },
         ////////addon
 //            { "max_bike_police", { "", "", -1 } },//  경찰 오토바이
 //            { "max_impala_security", { "", "", -1 } },// 경찰 임팔라 세단 5인
@@ -208,6 +215,7 @@ class CarShops {
         side = "cop";
         vehicles[] = {
             { "B_Boat_Transport_01_F", { "", "", -1 } },
+            { "C_Scooter_Transport_01_F", { "", "", -1 } },
             { "C_Boat_Civil_01_police_F", { "", "", -1 } },
             { "B_Boat_Armed_01_minigun_F", { "life_coplevel", "SCALAR", 4 } },
             { "B_SDV_01_F", { "", "", -1 } }
@@ -507,6 +515,13 @@ class LifeCfgVehicles {
         textures[] = { };
     };
 
+    class C_Scooter_Transport_01_F {
+        vItemSpace = 50;
+        licenses[] = { {"boat"}, {""}, {""}, {""} };
+        price = 75000;
+        textures[] = { };
+    };
+
     class B_Heli_Transport_01_F { //ghost hawk
         vItemSpace = 200;
         licenses[] = { {""}, {"cAir"}, {""}, {""} };
@@ -723,6 +738,27 @@ class LifeCfgVehicles {
         textures[] = { };
     };
 
+    class O_LSV_02_unarmed_F {
+        vItemSpace = 65;
+        licenses[] = { {"rebel"}, {""}, {""}, {""} };
+        price = 250000;
+        textures[] = { };
+    };
+
+    class O_T_LSV_02_armed_F {
+        vItemSpace = 65;
+        licenses[] = { {"rebel"}, {""}, {""}, {""} };
+        price = 9000000;
+        textures[] = { };
+    };
+
+    class B_T_LSV_01_armed_F {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 2300000;
+        textures[] = { };
+    };
+
     class C_Boat_Civil_01_F {
         vItemSpace = 150;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
@@ -870,7 +906,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "EMS London", "med", {"textures\ems\paramedic_hb.paa"} },
             { "Ferrari", "civ", {"textures\civ\ferrari_hatchback.paa"} },
             { "porsche", "civ", {"textures\civ\porsche_hatchback.paa"} },
-        { "잠복용시민monster", "cop", {"textures\civ\civ_hatchback_monster.paa"} }
+            { "잠복용시민monster", "cop", {"textures\civ\civ_hatchback_monster.paa"} }
         };
     };
 
@@ -1467,6 +1503,20 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vItemSpace = 100;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
         price = 2000000;
+        textures[] = {};
+    };
+
+    class C_Plane_Civil_01_F {
+        vItemSpace = 100;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 1500000;
+        textures[] = {};
+    };
+
+    class C_Plane_Civil_01_racing_F {
+        vItemSpace = 200;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 2200000;
         textures[] = {};
     };
 
@@ -2253,6 +2303,13 @@ will modify the virtual space and the price of the vehicle, but other informatio
         licenses[] = { {""}, {""}, {""}, {""} };
         price = 4000000;
         textures[] = {};
+    };
+
+    class B_T_VTOL_01_infantry_F {
+         vItemSpace = 550;
+         licenses[] = { {""}, {""}, {""}, {""} };
+         price = 35000000;
+         textures[] = {};
     };
 
 };
