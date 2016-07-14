@@ -6,7 +6,9 @@
     Add action fuel action in Station Service.
 
     put function in init file then execute it with:
-    call getFuelpumps;
+    [] call getFuelpumps;
+
+    Function :
     getFuelpumps =
     {
         _pos = getArray(configFile >> "CfgWorlds" >> worldName >> "centerPosition");
@@ -17,8 +19,7 @@
         _TexteSortie = "_NiiRoZz_Station_Essence = [" + _br;
 
         {
-            _Array = [getpos _x];
-            _TexteSortie = _TexteSortie + _tab + (str _Array);
+            _TexteSortie = _TexteSortie + _tab + (str (getpos _x));
             _TexteSortie = if (_forEachIndex < ((count _Station) - 1)) then {_TexteSortie + ", " + _br} else {_TexteSortie + _br};
         } forEach _Station;
         _TexteSortie = _TexteSortie + "];";
@@ -26,8 +27,7 @@
         copyToClipboard _TexteSortie;
     };
 */
-private ["_NiiRoZz_Station_Essence","_pumpClass","_pump"];
-_NiiRoZz_Station_Essence = [
+private _PosStation = [
     [9205.75,12112.2,-0.0487232],
     [11831.6,14155.9,-0.0342016],
     [12024.7,15830,-0.0298138],
@@ -62,9 +62,8 @@ _NiiRoZz_Station_Essence = [
     [25701.2,21372.6,-0.0774155]
 ];
 
-_pumpClass = "Land_fs_feed_F";
 {
-    _pump = (nearestObject [_x, _pumpClass]);
+    _pump = (nearestObject [_x, "Land_fs_feed_F"]);
     _pump setFuelCargo 0;
-    _pump addAction [localize "STR_Action_Pump", life_fnc_fuelStatOpen, 1, 3, true, true, "", ' _this distance _target < 5 && cursorObject == _target '];
-} forEach _NiiRoZz_Station_Essence;
+    _pump addAction [localize "STR_Action_Pump", life_fnc_fuelStatOpen, 1, 3, true, true, "", 'cursorObject isEqualTo _target ', 5];
+} forEach _PosStation;
