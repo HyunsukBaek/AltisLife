@@ -290,7 +290,6 @@ class CarShops {
 //             { "max_jeep_red", { "", "", -1 } },                            //jeep 오픈 2인승
 //             { "max_jeep_black", { "", "", -1 } },                            //jeep 오픈 2인승
              { "Mrshounka_mercedes_190_p_civ", { "", "", -1 } },            //벤츠 구형 스포츠카
-             { "Mrshounka_c63_2015_civ", { "life_donorlevel", "SCALAR", 1 } }, //벤츠 c63 AMG 2015
              { "shounka_a3_spr_civ", { "", "", -1 } },                        //벤츠 스프린터 빨강
              { "Mrshounka_207_civ", { "", "", -1 } },                        //푸조 207 RC
              { "Mrshounka_a3_308_civ", { "", "", -1 } },                    //골프 308 GTI 푸조
@@ -319,14 +318,25 @@ class CarShops {
     class civ_car_donation {
         side = "civ";
         vehicles[] = {
-             { "jean_sleigh", { "", "", -1 } },                    //산터썰매
-             { "A3L_MonsterTruck", { "life_donorlevel", "SCALAR", 2 } },            //몬스터트럭
-             { "Mrshounka_agera_p", { "life_donorlevel", "SCALAR", 1 } },            //아제라 스포츠
-             { "Mrshounka_agera_p_bleu", { "life_donorlevel", "SCALAR", 1 } },        //아제라 스포츠
-             { "Mrshounka_agera_p_jaune", { "life_donorlevel", "SCALAR", 1 } },        //아제라 스포츠
-             { "dbo_LT_01", { "life_donorlevel", "SCALAR", 1 } },                    //LT sport
-             { "Mrshounka_lykan_c", { "life_donorlevel", "SCALAR", 1 } },            //라이칸 하이퍼스포트
-             { "A3L_Flipcar", { "life_donorlevel", "SCALAR", 1 } }                   //Flipcar
+            { "jean_sleigh", { "", "", -1 } },                    //산터썰매
+            { "shounka_f430_spider", { "life_donorlevel", "SCALAR", 1 } },                //페라리 f430 스파이더
+            { "shounka_f430_spider_noir", { "life_donorlevel", "SCALAR", 1 } },            //페라리 f430 스파이더
+            { "shounka_f430_spider_bleufonce", { "life_donorlevel", "SCALAR", 1 } },    //페라리 f430 스파이더
+            { "shounka_f430_spider_rouge", { "life_donorlevel", "SCALAR", 1 } },        //페라리 f430 스파이더
+            { "shounka_f430_spider_jaune", { "life_donorlevel", "SCALAR", 1 } },        //페라리 f430 스파이더
+            { "shounka_f430_spider_rose", { "life_donorlevel", "SCALAR", 1 } },            //페라리 f430 스파이더
+            { "shounka_f430_spider_grise", { "life_donorlevel", "SCALAR", 1 } },        //페라리 f430 스파이더
+            { "shounka_f430_spider_violet", { "life_donorlevel", "SCALAR", 1 } },        //페라리 f430 스파이더
+            { "shounka_f430_spider_orange", { "life_donorlevel", "SCALAR", 1 } },        //페라리 f430 스파이더
+            { "shounka_mp4", { "life_donorlevel", "SCALAR", 2 } },                        //맥라렌 mp4-12c
+            { "A3L_MonsterTruck", { "life_donorlevel", "SCALAR", 2 } },            //몬스터트럭
+            { "Mrshounka_c63_2015_civ", { "life_donorlevel", "SCALAR", 1 } }, //벤츠 c63 AMG 2015
+            { "Mrshounka_agera_p", { "life_donorlevel", "SCALAR", 1 } },            //아제라 스포츠
+            { "Mrshounka_agera_p_bleu", { "life_donorlevel", "SCALAR", 1 } },        //아제라 스포츠
+            { "Mrshounka_agera_p_jaune", { "life_donorlevel", "SCALAR", 1 } },        //아제라 스포츠
+            { "dbo_LT_01", { "life_donorlevel", "SCALAR", 1 } },                    //LT sport
+            { "Mrshounka_lykan_c", { "life_donorlevel", "SCALAR", 1 } },            //라이칸 하이퍼스포트
+            { "A3L_Flipcar", { "life_donorlevel", "SCALAR", 1 } }                   //Flipcar
              //             { "max_charger_black", { "life_donorlevel", "SCALAR", 1 } },            //닷지 차져
              //             { "max_charger_blue", { "life_donorlevel", "SCALAR", 1 } },            //닷지 차져
              //             { "max_charger_red", { "life_donorlevel", "SCALAR", 1 } },                //닷지 차져
@@ -367,15 +377,6 @@ class CarShops {
             { "shounka_monsteur", { "", "", -1 } },                    //시보레 몬스터 트럭
             { "shounka_monsteur_noir", { "", "", -1 } },            //시보레 몬스터 트럭
             { "shounka_monsteur_orange", { "", "", -1 } },            //시보레 몬스터 트럭
-            { "shounka_f430_spider", { "life_donorlevel", "SCALAR", 1 } },                //페라리 f430 스파이더
-            { "shounka_f430_spider_noir", { "life_donorlevel", "SCALAR", 1 } },            //페라리 f430 스파이더
-            { "shounka_f430_spider_bleufonce", { "life_donorlevel", "SCALAR", 1 } },    //페라리 f430 스파이더
-            { "shounka_f430_spider_rouge", { "life_donorlevel", "SCALAR", 1 } },        //페라리 f430 스파이더
-            { "shounka_f430_spider_jaune", { "life_donorlevel", "SCALAR", 1 } },        //페라리 f430 스파이더
-            { "shounka_f430_spider_rose", { "life_donorlevel", "SCALAR", 1 } },            //페라리 f430 스파이더
-            { "shounka_f430_spider_grise", { "life_donorlevel", "SCALAR", 1 } },        //페라리 f430 스파이더
-            { "shounka_f430_spider_violet", { "life_donorlevel", "SCALAR", 1 } },        //페라리 f430 스파이더
-            { "shounka_f430_spider_orange", { "life_donorlevel", "SCALAR", 1 } },        //페라리 f430 스파이더
             { "shounka_gt", { "", "", -1 } },                        //Ford gt 스포츠카
             { "shounka_gt_noir", { "", "", -1 } },                    //Ford gt 스포츠카
             { "shounka_gt_bleufonce", { "", "", -1 } },                //Ford gt 스포츠카
@@ -428,7 +429,6 @@ class CarShops {
             { "Mrshounka_lincoln_civ", { "", "", -1 } },            //링컨 1969
             { "Mrshounka_lincoln_noir", { "", "", -1 } },            //링컨 1969
             { "Mrshounka_lincoln_grise", { "", "", -1 } },            //링컨 1969
-            { "shounka_mp4", { "life_donorlevel", "SCALAR", 2 } },                        //맥라렌 mp4-12c
             { "shounka_clk", { "", "", -1 } },                        //벤츠 CLK
             { "Mrshounka_a3_gtr_civ", { "", "", -1 } },                //닛산 GTR 2012
             { "Mrshounka_a3_gtr_civ_noir", { "", "", -1 } },        //닛산 GTR 2012
@@ -2269,7 +2269,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class shounka_porsche911 {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 1700000;
+        price = 2700000;
         textures[] = {};
     };
 	
@@ -2277,7 +2277,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class mrshounka_92_civ {
         vItemSpace = 50;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 1100000;
+        price = 2100000;
         textures[] = {};
     };
 	
