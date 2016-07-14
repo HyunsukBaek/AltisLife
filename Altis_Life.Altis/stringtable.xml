@@ -48,7 +48,7 @@
     </Package>
     <Package name="Shop_Names">
         <Key ID="STR_Shops_C_Bruce">
-            <Original>Bruce's Outback Outfits</Original>
+            <Original>AOSOUL Clothing Outfits</Original>
             <Czech>Bruceovy Outback Oblečení</Czech>
             <French>Friperie de Bruce</French>
             <Spanish>Tienda de Ropa</Spanish>
@@ -8503,7 +8503,7 @@
             <Polish>Nie wybrałeś ubrań które chcesz kupić.</Polish>
         </Key>
         <Key ID="STR_Shop_NotEnoughClothes">
-            <Original>Sorry sir, you don't have enough money to buy those clothes.</Original>
+            <Original>옷을 사기에 돈이 부족해요.</Original>
             <Czech>Je nám líto, pane, nemáte dost peněz na nákup ty šaty.</Czech>
             <Spanish>No tienes suficiente dinero.</Spanish>
             <Russian></Russian>

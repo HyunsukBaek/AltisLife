@@ -639,7 +639,7 @@ class Clothing {
             { "U_I_PilotCoveralls", "", 15610, { "", "", -1 } },
             { "U_O_SpecopsUniform_ocamo", "SpecCamo", 2500, { "", "", -1 } },
             { "U_I_GhillieSuit", "", 150000, { "", "", -1 } },
-            { "U_O_V_Soldier_Viper_hex_F", "특수목적hex[1회용]", 990000, { "", "", -1 } }
+            { "U_O_V_Soldier_Viper_hex_F", "특수목적hex[1회]", 990000, { "", "", -1 } }
 
         };
         headgear[] = {
@@ -650,7 +650,7 @@ class Clothing {
             { "H_Shemag_olive", "", 48500, { "", "", -1 } },
             { "H_MilCap_oucamo", "", 12000, { "", "", -1 } },
             { "H_HelmetO_ocamo", "", 25000, { "", "", -1 } },
-            { "H_HelmetO_ViperSP_hex_F", "특수목적hex[1회용]", 990000, { "", "", -1 } }
+            { "H_HelmetO_ViperSP_hex_F", "특수목적hex[1회]", 990000, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
