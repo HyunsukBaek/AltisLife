@@ -54,7 +54,7 @@ class WeaponShops {
             { "LMG_Mk200_F", "", 450000, 2000 },
             { "srifle_DMR_05_hex_F", "cyrus(DLC)", 530000, 2000 },//cyrus
             { "arifle_CTAR_hex_F", "", 530000, 2000 },//CAR
-            { "launch_RPG32_F", "", 1000000, 2000 }
+            { "launch_RPG32_F", "", 990000, 2000 }
         };
         mags[] = {
             { "20Rnd_556x45_UW_mag", "UNDER WATER 20EA", 50000 }, //SDAR, TRG20

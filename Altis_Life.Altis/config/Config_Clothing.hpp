@@ -280,8 +280,8 @@ class Clothing {
             { "U_B_Wetsuit", "", 10550, { "life_coplevel", "SCALAR", 1 } },
             { "U_Marshal", "Marshal", 5550, { "life_coplevel", "SCALAR", 5 } },
             { "U_NikosAgedBody", "시민2", 10550, { "life_coplevel", "SCALAR", 4 } },
-            { "U_B_CTRG_Soldier_3_F", "", 2500000, { "life_coplevel", "SCALAR", 3 } },
-            { "U_B_CTRG_Soldier_F", "", 3000000, { "life_coplevel", "SCALAR", 3 } },
+            { "U_B_CTRG_Soldier_3_F", "", 990000, { "life_coplevel", "SCALAR", 3 } },
+            { "U_B_CTRG_Soldier_F", "", 990000, { "life_coplevel", "SCALAR", 3 } },
 	    // addon
             { "max_captain_uniform", "캡틴", 10000, { "life_coplevel", "SCALAR", 4 } },
             { "max_chief_uniform", "chief Uniform", 10000, { "life_coplevel", "SCALAR", 5 } },
@@ -323,7 +323,7 @@ class Clothing {
             { "H_ShemagOpen_khk", "", 8800, { "", "", -1 } },
             { "H_ShemagOpen_tan", "", 8850, { "", "", -1 } },
             { "H_Shemag_olive", "", 8850, { "", "", -1 } },
-            { "H_HelmetO_ViperSP_ghex_F", "", 3500000, { "", "", -1 } },
+            { "H_HelmetO_ViperSP_ghex_F", "", 990000, { "", "", -1 } },
 
 	    //addon
             { "max_CG_Hat", "", 10000, { "", "", -1 } },
@@ -639,7 +639,7 @@ class Clothing {
             { "U_I_PilotCoveralls", "", 15610, { "", "", -1 } },
             { "U_O_SpecopsUniform_ocamo", "SpecCamo", 2500, { "", "", -1 } },
             { "U_I_GhillieSuit", "", 150000, { "", "", -1 } },
-            { "U_O_V_Soldier_Viper_hex_F", "", 3990000, { "", "", -1 } }
+            { "U_O_V_Soldier_Viper_hex_F", "특수목적hex[1회용]", 990000, { "", "", -1 } }
 
         };
         headgear[] = {
@@ -650,7 +650,7 @@ class Clothing {
             { "H_Shemag_olive", "", 48500, { "", "", -1 } },
             { "H_MilCap_oucamo", "", 12000, { "", "", -1 } },
             { "H_HelmetO_ocamo", "", 25000, { "", "", -1 } },
-            { "H_HelmetO_ViperSP_hex_F", "특수목적hex", 2990000, { "", "", -1 } }
+            { "H_HelmetO_ViperSP_hex_F", "특수목적hex[1회용]", 990000, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },

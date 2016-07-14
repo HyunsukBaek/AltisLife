@@ -701,7 +701,7 @@
             <Polish>Przekazałeś na konto $%1 </Polish>
         </Key>
         <Key ID="STR_ANOTF_Fail">
-            <Original>$999,999 를 초과할 수 없습니다.</Original>
+            <Original>$9,999,999 를 초과할 수 없습니다.</Original>
             <Czech>Nemůžete jít nad $ 999999</Czech>
             <Spanish>No te puedes dar más de $999,999</Spanish>
             <Italian>Non si può andare sopra $ 999.999</Italian>
