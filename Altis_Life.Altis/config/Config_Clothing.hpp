@@ -380,7 +380,7 @@ class Clothing {
             { "officer_belt", "", 15000, { "", "", -1 } },
             { "police_belt_pistol", "", 15000, { "", "", -1 } },
             { "police_belt_pistol_patrolman", "", 15000, { "", "", -1 } },
-            { "Swat_sniper_vest", "", 15000800, { "life_coplevel", "SCALAR", 4 } },
+            { "Swat_sniper_vest", "", 150000, { "life_coplevel", "SCALAR", 4 } },
             { "Security_vest", "", 15000, { "life_coplevel", "SCALAR", 4 } },
             { "police_swat_vest", "", 15000, { "life_donorlevel", "SCALAR", 1 } }
         };
@@ -639,7 +639,7 @@ class Clothing {
             { "U_I_PilotCoveralls", "", 15610, { "", "", -1 } },
             { "U_O_SpecopsUniform_ocamo", "SpecCamo", 2500, { "", "", -1 } },
             { "U_I_GhillieSuit", "", 150000, { "", "", -1 } },
-            { "U_O_V_Soldier_Viper_hex_F", "", 8500000, { "", "", -1 } }
+            { "U_O_V_Soldier_Viper_hex_F", "", 3990000, { "", "", -1 } }
 
         };
         headgear[] = {
@@ -650,7 +650,7 @@ class Clothing {
             { "H_Shemag_olive", "", 48500, { "", "", -1 } },
             { "H_MilCap_oucamo", "", 12000, { "", "", -1 } },
             { "H_HelmetO_ocamo", "", 25000, { "", "", -1 } },
-            { "H_HelmetO_ViperSP_hex_F", "", 5500000, { "", "", -1 } }
+            { "H_HelmetO_ViperSP_hex_F", "특수목적hex", 2990000, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
