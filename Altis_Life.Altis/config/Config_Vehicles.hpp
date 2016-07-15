@@ -738,7 +738,7 @@ class LifeCfgVehicles {
         textures[] = { };
     };
 
-    class O_LSV_02_unarmed_F {
+    class O_T_LSV_02_unarmed_F {
         vItemSpace = 65;
         licenses[] = { {"rebel"}, {""}, {""}, {""} };
         price = 250000;
