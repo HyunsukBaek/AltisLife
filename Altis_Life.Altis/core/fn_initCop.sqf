@@ -18,13 +18,13 @@ if (life_blacklisted) exitWith {
 
 if (FETCH_CONST(life_coplevel) < 1 ) exitWith {
     ["Notwhitelisted",false,true] call BIS_fnc_endMission;
-    sleep 35;
+    sleep 30;
 };
 
 if (!(str(player) in ["cop_6","cop_7","cop_8"])) then {
     if ((FETCH_CONST(life_coplevel)) < 2 ) then {
         ["NotWhitelisted",false,true] call BIS_fnc_endMission;
-        sleep 35;
+        sleep 30;
     };
 };
 
