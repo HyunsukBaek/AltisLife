@@ -76,7 +76,6 @@ class CarShops {
             { "C_Scooter_Transport_01_F", { "", "", -1 } },
             { "C_Boat_Civil_01_F", { "", "", -1 } },
             { "B_SDV_01_F", { "", "", -1 } },
-            { "A3L_SpeedYacht", { "", "", -1 } },    //addon
             { "B_CBS_WaterShadow730_F", { "", "", -1 } }    //addon
         };
     };
@@ -1543,13 +1542,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     //Civ Boat
-    class A3L_SpeedYacht {
-        vItemSpace = 250;
-        licenses[] = { {"boat"}, {""}, {""}, {""} };
-        price = 3500000;
-        textures[] = {};
-    };
-
     class B_CBS_WaterShadow730_F {
         vItemSpace = 120;
         licenses[] = { {"boat"}, {""}, {""}, {""} };

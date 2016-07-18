@@ -152,12 +152,7 @@ class Clothing {
             { "vip3_uniform_new", "", 50000, { "", "", -1 } }
         };
         headgear[] = {
-            { "A3L_Halloween_JigSaw", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
-            { "A3L_Legoman", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
-            { "A3L_Halloween_PredatorMask", "", 100000, { "", "", -1 } },
-            { "A3L_Halloween_Pumpkinhead", "", 100000, { "", "", -1 } },
             { "H_AntmanMask", "", 100000, { "", "", -1 } },
-            { "A3L_Mask", "", 100000, { "", "", -1 } },
             { "cg_dinomask", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
             { "cg_dinomask_p", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
             { "cg_dinomask_r", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
@@ -253,12 +248,6 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
-            { "sab_CUAV_bp", "", 200000, { "", "", -1 } },
-            { "sab_CUAV_bp_blue", "", 200000, { "", "", -1 } },
-            { "sab_CUAV_bp_pink", "", 200000, { "", "", -1 } },
-            { "sab_CUAV_bp_violet", "", 200000, { "", "", -1 } },
-            { "sab_CUAV_piper_bp", "", 300000, { "", "", -1 } }, //무선비행기
-            { "sab_CUAV_trojan_bp", "", 300000, { "", "", -1 } }, //무선비행기
             { "FLAY_HangGlider_Bag", "", 550000, { "", "", -1 } }, // 글라이더
             { "FLAY_HangGliderBlack_Bag", "", 550000, { "", "", -1 } } //// 글라이더
         };
