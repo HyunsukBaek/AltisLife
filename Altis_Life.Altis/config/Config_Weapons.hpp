@@ -150,9 +150,7 @@ class WeaponShops {
             { "Chemlight_red", "", 300, 50 },
             { "Chemlight_yellow", "", 300, 50 },
             { "Chemlight_green", "", 300, 50 },
-            { "Chemlight_blue", "", 300, 50 },
-            // addon
-            { "sab_CUAV_Terminal", "UAV Terminal", 50000, 50 }
+            { "Chemlight_blue", "", 300, 50 }
         };
         mags[] = {};
         accs[] = {};
