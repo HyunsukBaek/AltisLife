@@ -335,7 +335,10 @@ class CarShops {
             { "Mrshounka_agera_p_jaune", { "life_donorlevel", "SCALAR", 1 } },        //아제라 스포츠
             { "dbo_LT_01", { "life_donorlevel", "SCALAR", 1 } },                    //LT sport
             { "Mrshounka_lykan_c", { "life_donorlevel", "SCALAR", 1 } },            //라이칸 하이퍼스포트
-            { "A3L_Flipcar", { "life_donorlevel", "SCALAR", 1 } }                   //Flipcar
+            { "A3L_Flipcar", { "life_donorlevel", "SCALAR", 1 } },                   //Flipcar
+			{ "sga_shopping_cart", { "life_donorlevel", "SCALAR", 2 } },                   //쇼핑카트
+			{ "sga_shopping_cart_monster", { "life_donorlevel", "SCALAR", 2 } },                   //쇼핑카트몬스터
+			{ "sga_hover_board", { "life_donorlevel", "SCALAR", 2 } }                   //호버보드
              //             { "max_charger_black", { "life_donorlevel", "SCALAR", 1 } },            //닷지 차져
              //             { "max_charger_blue", { "life_donorlevel", "SCALAR", 1 } },            //닷지 차져
              //             { "max_charger_red", { "life_donorlevel", "SCALAR", 1 } },                //닷지 차져
@@ -403,7 +406,6 @@ class CarShops {
             { "shounka_h2", { "", "", -1 } },                        //험머     H2 //4인
             { "shounka_h2_noir", { "", "", -1 } },                    //험머     H2 //4인
             { "shounka_h2_orange", { "", "", -1 } },                //험머     H2 //4인
-            { "wirk_h3_limo", { "", "", -1 } },                        //험머 리무진 흰색   8명
 //            { "max_lambo", { "", "", -1 } },                        //람보르기니 가야르도
 //            { "max_lambo1", { "", "", -1 } },                        //람보르기니 가야르도
 //            { "max_lambo2", { "", "", -1 } },                        //람보르기니 가야르도
@@ -1962,6 +1964,30 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
     };
 	
+	//쇼핑카
+	class sga_shopping_cart {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 500000;
+        textures[] = {};
+    };
+	
+	//쇼핑카 몬스터
+	class sga_shopping_cart_monster {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 800000;
+        textures[] = {};
+    };
+	
+	//호버 보드
+	class sga_hover_board {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 1000000;
+        textures[] = {};
+    };
+	
 	//Luxury Vehicle
 	
 	//1969 Dodge 슈퍼 비
@@ -2125,14 +2151,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	class shounka_h2_noir : shounka_h2{};
 	class shounka_h2_orange : shounka_h2{};
-	
-	//험머 리무진 흰색   8명
-	class wirk_h3_limo {
-        vItemSpace = 50;
-        licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 1800000;
-        textures[] = {};
-    };
 	
 	//람보르기니 가야르도
 	class max_lambo {
