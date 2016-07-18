@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3883.8877,123.01855,13541.504};
-		dir[]={0.54031378,-0.71117651,0.44997966};
-		up[]={0.54653585,0.70294726,0.45515981};
-		aside[]={0.64000297,-5.4526026e-007,-0.76848763};
+		pos[]={3714.6826,63.858513,11610.61};
+		dir[]={0.41189823,-0.33949548,0.8456465};
+		up[]={0.14866658,0.94060403,0.30521947};
+		aside[]={0.89904338,2.6402995e-007,-0.437906};
 	};
 };
 binarizationWanted=0;
@@ -269,6 +269,24 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -283,24 +301,6 @@ class CustomAttributes
 						};
 					};
 					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
 				};
 			};
 		};
@@ -734,7 +734,7 @@ class Mission
 			position[]={3391.614,4.2526765,13121.572};
 			name="civ_car_1";
 			type="Empty";
-			angle=242.6248;
+			angle=242.62479;
 			id=39;
 		};
 		class Item38
@@ -743,7 +743,7 @@ class Mission
 			position[]={3389.5686,4.1984258,13125.313};
 			name="civ_car_2";
 			type="Empty";
-			angle=242.64595;
+			angle=242.64592;
 			id=40;
 			atlOffset=4.7683716e-007;
 		};
@@ -1452,7 +1452,7 @@ class Mission
 			position[]={3271.4741,4.487793,12917.406};
 			name="cop_ship_1";
 			type="Empty";
-			angle=212.3188;
+			angle=212.31879;
 			id=112;
 			atlOffset=11.58533;
 		};
@@ -1464,7 +1464,7 @@ class Mission
 			text="@STR_MAR_Boat_Spawn";
 			type="loc_Quay";
 			colorName="ColorOrange";
-			angle=56.543644;
+			angle=56.54364;
 			id=113;
 			atlOffset=6.0769072;
 		};
@@ -1790,7 +1790,7 @@ class Mission
 			position[]={14648.637,17.91,16718.854};
 			name="air_g_1";
 			type="Empty";
-			angle=228.8481;
+			angle=228.84808;
 			id=145;
 		};
 		class Item142
@@ -1838,7 +1838,7 @@ class Mission
 			name="civ_gar_1_3";
 			text="@STR_MAR_Garage";
 			type="o_service";
-			angle=53.057961;
+			angle=53.057957;
 			id=150;
 		};
 		class Item147
@@ -12950,6 +12950,7 @@ class Mission
 			};
 			id=752;
 			type="Land_CashDesk_F";
+			atlOffset=0.18852997;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -22500,7 +22501,6 @@ class Mission
 						angles[]={0,0.53849125,6.2823396};
 					};
 					side="Civilian";
-					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -22508,7 +22508,7 @@ class Mission
 					};
 					id=1020;
 					type="C_man_1";
-					atlOffset=1.9073486e-006;
+					atlOffset=0.5116539;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -25119,6 +25119,7 @@ class Mission
 					};
 					id=1077;
 					type="C_Nikos_aged";
+					atlOffset=0.19090271;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -30933,6 +30934,7 @@ class Mission
 			};
 			id=3141;
 			type="Land_FieldToilet_F";
+			atlOffset=-5.531311e-005;
 		};
 		class Item597
 		{
@@ -33932,7 +33934,7 @@ class Mission
 			position[]={3792.6265,12.192545,13320.252};
 			name="air_g_2";
 			type="Empty";
-			angle=226.98665;
+			angle=226.98663;
 			id=3567;
 			atlOffset=0.0001115799;
 		};
@@ -42032,7 +42034,7 @@ class Mission
 			};
 			id=4641;
 			type="Land_CncWall4_F";
-			atlOffset=-0.9919281;
+			atlOffset=-0.99192429;
 		};
 		class Item1214
 		{
@@ -43784,7 +43786,7 @@ class Mission
 			};
 			id=4846;
 			type="Campfire_burning_F";
-			atlOffset=0.037685394;
+			atlOffset=0.037418365;
 		};
 		class Item1317
 		{
@@ -43801,7 +43803,7 @@ class Mission
 			};
 			id=4847;
 			type="Campfire_burning_F";
-			atlOffset=3.8146973e-006;
+			atlOffset=0.00067520142;
 		};
 		class Item1318
 		{
@@ -43818,6 +43820,7 @@ class Mission
 			};
 			id=4848;
 			type="Campfire_burning_F";
+			atlOffset=-0.00030899048;
 		};
 		class Item1319
 		{
@@ -43834,6 +43837,7 @@ class Mission
 			};
 			id=4849;
 			type="Campfire_burning_F";
+			atlOffset=0.00060653687;
 		};
 		class Item1320
 		{
@@ -43955,7 +43959,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=2;
+							value=3;
 						};
 					};
 				};
@@ -44104,7 +44108,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=2;
+							value=3;
 						};
 					};
 				};
@@ -44214,7 +44218,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=2;
+							value=3;
 						};
 					};
 				};
@@ -50081,7 +50085,7 @@ class Mission
 			name="atm_marker_21";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=225.63387;
+			angle=225.63385;
 			id=5777;
 			atlOffset=1.5717163;
 		};
@@ -50136,7 +50140,7 @@ class Mission
 			colorName="ColorGUER";
 			a=840;
 			b=25;
-			angle=56.523842;
+			angle=56.523838;
 			id=5780;
 			atlOffset=6.2003555;
 		};
@@ -67627,7 +67631,7 @@ class Mission
 			position[]={3507.4656,8.3023491,13008.012};
 			name="civ_car_6";
 			type="Empty";
-			angle=189.29086;
+			angle=189.29085;
 			id=8394;
 		};
 		class Item2676
@@ -67727,7 +67731,7 @@ class Mission
 			position[]={3006.3179,22.82868,12533.504};
 			name="civ_car_9";
 			type="Empty";
-			angle=88.636375;
+			angle=88.636368;
 			id=8417;
 		};
 		class Item2684
@@ -67957,7 +67961,7 @@ class Mission
 			text="Clothes Shop - addon";
 			type="c_unknown";
 			colorName="ColorYellow";
-			angle=357.98688;
+			angle=357.98685;
 			id=8455;
 		};
 		class Item2699
@@ -68330,7 +68334,7 @@ class Mission
 			position[]={11626.566,49.858215,18100.416};
 			name="air_g_6";
 			type="Empty";
-			angle=34.619934;
+			angle=34.61993;
 			id=8493;
 			atlOffset=2.3515167;
 		};
@@ -68403,6 +68407,7 @@ class Mission
 			};
 			id=8468;
 			type="Land_Mil_ConcreteWall_F";
+			atlOffset=9.5367432e-007;
 		};
 		class Item2724
 		{

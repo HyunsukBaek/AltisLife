@@ -1,4 +1,4 @@
-/*
+﻿/*
 *    ARRAY FORMAT:
 *        0: STRING (Classname)
 *        1: STRING (Display Name, leave as "" for default)
@@ -126,30 +126,12 @@ class Clothing {
             { "A3L_Farmer_Outfit", "", 5000, { "", "", -1 } },
             { "A3L_SECRET", "해골!", 50000, { "life_donorlevel", "SCALAR", 1 } },
             { "A3L_SpookyMummy", "", 5000, { "", "", -1 } },
-            { "A3L_Worker_Outfit", "", 5000, { "", "", -1 } },
+			{ "A3L_Worker_Outfit", "", 5000, { "", "", -1 } },
             // { "A3L_Zombie", "", 5000, { "", "", -1 } },
-            { "pilot_bLACK_uniform", "", 5000, { "", "", -1 } },
-            { "pilot_blue_uniform", "", 5000, { "", "", -1 } },
-            { "pilot_green_uniform", "", 5000, { "", "", -1 } },
-            { "pilot_red_uniform", "", 5000, { "", "", -1 } },
-            { "pilot_yellow_uniform", "", 5000, { "", "", -1 } },
-            { "bodyguard_uniform_new", "", 5000, { "", "", -1 } },
-            { "druglord_uniform_new", "", 5000, { "", "", -1 } },
-            { "Robber_uniform_new", "Robber uniform", 5000, { "", "", -1 } },
-            { "Killer_uniform_new", "Killer uniform", 5000, { "", "", -1 } },
-            { "mafiaboss_uniform_new", "Mafia boss", 5000, { "life_donorlevel", "SCALAR", 2 } },
-            { "CG_pilot_uniform", "", 5000, { "", "", -1 } },
-            { "president_uniform_new", "President", 5000, { "life_donorlevel", "SCALAR", 2 } },
+			{ "A3L_Prisoner_Outfit", "prisoner", 5000, { "", "", -1 } },
             { "xmas_santa_blufor_uniform", "santa blue", 5000, { "life_donorlevel", "SCALAR", 1 } },
             { "xmas_santa_ind_uniform", "santa green", 5000, { "life_donorlevel", "SCALAR", 1 } },
-            { "xmas_santa_opfor_uniform", "santa red", 5000, { "life_donorlevel", "SCALAR", 1 } },
-            { "A3L_Prisoner_Outfit", "prisoner1", 5000, { "", "", -1 } },
-            { "Max_prisoner_clothes", "prisoner2", 5000, { "", "", -1 } },
-            { "rifle_clothes", "", 5000, { "", "", -1 } },
-            { "skull_gang", "", 5000, { "", "", -1 } },
-            { "vip1_uniform_new", "", 50000, { "life_donorlevel", "SCALAR", 1 } },
-            { "vip2_uniform_new", "", 50000, { "life_donorlevel", "SCALAR", 1 } },
-            { "vip3_uniform_new", "", 50000, { "", "", -1 } }
+            { "xmas_santa_opfor_uniform", "santa red", 5000, { "life_donorlevel", "SCALAR", 1 } }
         };
         headgear[] = {
             { "H_AntmanMask", "", 100000, { "", "", -1 } },
