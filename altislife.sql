@@ -203,6 +203,12 @@ CREATE TABLE IF NOT EXISTS `wanted` (
   PRIMARY KEY (`wantedID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+
+
+--
+-- Table structure for table `ah`
+-- Needed for extDB latest update on git
+--
 CREATE TABLE IF NOT EXISTS `ah` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `type` int(5) NOT NULL DEFAULT '0',
