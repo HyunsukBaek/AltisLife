@@ -252,28 +252,7 @@ class Clothing {
             { "U_Marshal", "Marshal", 5550, { "life_coplevel", "SCALAR", 5 } },
             { "U_NikosAgedBody", "시민2", 10550, { "life_coplevel", "SCALAR", 4 } },
             { "U_B_CTRG_Soldier_3_F", "", 990000, { "life_coplevel", "SCALAR", 3 } },
-            { "U_B_CTRG_Soldier_F", "", 990000, { "life_coplevel", "SCALAR", 3 } },
-	    // addon
-            { "max_captain_uniform", "캡틴", 10000, { "life_coplevel", "SCALAR", 4 } },
-            { "max_chief_uniform", "chief Uniform", 10000, { "life_coplevel", "SCALAR", 5 } },
-            { "max_CG_uniform", "cost guard", 10000, { "", "", -1 } },
-            { "max_liutentant_uniform", "liutentant", 10000, { "", "", -1 } },
-            { "max_prisonG_uniform", "교도관", 10000, { "life_donorlevel", "SCALAR", 1 } },
-            { "police_pilot_uniform", "파일럿", 10000, { "", "", -1 } },
-           // { "max_Lapd_uniform", "", 10000, { "", "", -1 } },
-            { "police_pilot_uniform", "", 10000, { "", "", -1 } },
-            { "max_recruit_uniform", "", 10000, { "", "", -1 } },
-            { "agent_uniform_new", "비밀요원 정장", 10000, { "life_coplevel", "SCALAR", 3 } },
-            { "security_uniform", "", 10000, { "", "", -1 } },
-            { "sheriff_uniform_new", "", 10000, { "", "", -1 } },
-            { "fbi_agent_uniform", "FBI 요원1", 10000, { "", "", -1 } },
-            { "fbi_assistant_uniform", "FBI 요원2", 10000, { "life_coplevel", "SCALAR", 3 } },
-            { "fbi_director_uniform", "FBI 요원3", 10000, { "life_coplevel", "SCALAR", 3 } },
-            { "fbi_pilot_uniform", "FBI 파일럿", 10000, { "life_coplevel", "SCALAR", 4 } },
-            { "fbi_rru_uniform", "FBI 특수부대", 10000, { "life_coplevel", "SCALAR", 4 } },
-            { "swat_officer_lapd", "SWAT Officer", 10000, { "life_donorlevel", "SCALAR", 1 } },
-            { "swat_lapd_uniform", "SWAT LAPD", 10000, { "life_donorlevel", "SCALAR", 1 } },
-            { "special_agent_uniform_new", "Special Agent", 10000, { "life_donorlevel", "SCALAR", 2 } }
+            { "U_B_CTRG_Soldier_F", "", 990000, { "life_coplevel", "SCALAR", 3 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -294,19 +273,7 @@ class Clothing {
             { "H_ShemagOpen_khk", "", 8800, { "", "", -1 } },
             { "H_ShemagOpen_tan", "", 8850, { "", "", -1 } },
             { "H_Shemag_olive", "", 8850, { "", "", -1 } },
-            { "H_HelmetO_ViperSP_ghex_F", "", 990000, { "", "", -1 } },
-
-	    //addon
-            { "max_CG_Hat", "", 10000, { "", "", -1 } },
-            { "fbi_cap", "", 10000, { "", "", -1 } },
-            { "fbi_officer_cap", "", 10000, { "life_coplevel", "SCALAR", 3 } },
-            { "Masque_forceAlpha", "", 10000, { "", "", -1 } },
-            { "max_biker_helmet", "", 10000, { "", "", -1 } },
-            { "max_police_Hat", "", 10000, { "", "", -1 } },
-            { "max_prisonG_cap", "", 10000, { "", "", -1 } },
-            { "max_sheriff_Hat", "", 10000, { "", "", -1 } },
-            { "police_swat_cap", "", 10000, { "", "", -1 } },
-            { "Police_Swat_Helmet", "", 10000, { "life_donorlevel", "SCALAR", 1 } }
+            { "H_HelmetO_ViperSP_ghex_F", "", 990000, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -342,18 +309,7 @@ class Clothing {
             { "V_RebreatherIA", "", 8000, { "", "", -1 } },
             { "V_PlateCarrierIAGL_dgtl", "", 8000, { "", "", -1 } },
             { "V_PlateCarrierSpec_blk", "", 80000, { "life_coplevel", "SCALAR", 5 } },
-            { "V_Press_F", "", 800, { "", "", -1 } },
-	    //addon
-            { "fbi_rru_vest", "", 15000, { "", "", -1 } },
-            { "fbi_vest", "", 15000, { "", "", -1 } },
-            { "fbi_vest_blue", "", 15000, { "", "", -1 } },
-            { "fbi_vest_grey", "", 15000, { "", "", -1 } },
-            { "officer_belt", "", 15000, { "", "", -1 } },
-            { "police_belt_pistol", "", 15000, { "", "", -1 } },
-            { "police_belt_pistol_patrolman", "", 15000, { "", "", -1 } },
-            { "Swat_sniper_vest", "", 150000, { "life_coplevel", "SCALAR", 4 } },
-            { "Security_vest", "", 15000, { "life_coplevel", "SCALAR", 4 } },
-            { "police_swat_vest", "", 15000, { "life_donorlevel", "SCALAR", 1 } }
+            { "V_Press_F", "", 800, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
@@ -533,11 +489,7 @@ class Clothing {
             { "U_B_CombatUniform_mcam", "EMS 형광", 500, { "", "", -1 } },
             { "U_B_CombatUniform_mcam_worn", "EMS 녹색", 500, { "", "", -1 } },
             { "U_Competitor", "EMS 주황", 500, { "", "", -1 } },
-            { "U_I_Wetsuit", "EMS wetsuit", 5000, { "", "", -1 } },
-            /// ADDON
-            { "HEMS_pilot_uniform", "EMS Pilot", 5000, { "", "", -1 } },
-            { "max_paramedic_uniform", "", 5000, { "", "", -1 } },
-            { "max_fire_uniform", "fire uniform", 5000, { "life_donorlevel", "SCALAR", 1 } }
+            { "U_I_Wetsuit", "EMS wetsuit", 5000, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -553,9 +505,7 @@ class Clothing {
             { "H_RacingHelmet_1_green_F", "", 5000, { "", "", -1 } },
             { "H_RacingHelmet_1_blue_F", "", 5000, { "", "", -1 } },
             { "H_RacingHelmet_1_orange_F", "", 5000, { "", "", -1 } },
-            { "H_Cap_oli", "", 5000, { "", "", -1 } },
-            //addon
-            { "max_fire_Helmet", "", 15000, { "life_donorlevel", "SCALAR", 1 } }
+            { "H_Cap_oli", "", 5000, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -576,11 +526,7 @@ class Clothing {
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
             { "V_Press_F", "", 800, { "", "", -1 } },
-            { "V_RebreatherB", "", 5000, { "", "", -1 } },
-            //addon
-            { "max_paramedic_vest_blue", "", 15000, { "life_donorlevel", "SCALAR", 1 } },
-            { "max_paramedic_vest_red", "", 15000, { "", "", -1 } }
-
+            { "V_RebreatherB", "", 5000, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
