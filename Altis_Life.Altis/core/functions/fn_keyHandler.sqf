@@ -381,7 +381,8 @@ switch (_code) do {
 		{
 			if(!_alt && !_ctrlKey && !dialog) then
 			{
-				createDialog "life_admin_menu";
+				//createDialog "life_admin_menu";
+				closeDialog 0;[] spawn life_fnc_openMenu;
 			};
 		};
 	};

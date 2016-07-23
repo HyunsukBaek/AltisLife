@@ -64,8 +64,8 @@ class CarShops {
             { "C_Plane_Civil_01_racing_F", { "", "", -1 } }, //black fish 36인용
             { "C_Plane_Civil_01_F", { "", "", -1 } }, //black fish 36인용
             { "B_T_VTOL_01_infantry_F", { "", "", -1 } }, //black fish 36인용
-            { "sab_RobinDR400_5", { "", "", -1 } },    //addon  // 경비행기 4인승
-            { "sab_FAAllegro", { "", "", -1 } }        //addon // 경비행기 2인승
+            { "C_Plane_Civil_01_racing_F", { "", "", -1 } }, //Caesar BTT 타노아 경비행기
+            { "sab_ultralight", { "", "", -1 } }        //addon // 경비행기 1인승
         };
     };
 
@@ -187,7 +187,14 @@ class CarShops {
             { "77FuryCop", { "life_coplevel", "SCALAR", 4 } },// " 검정
             { "shounka_a3_gendsprinter", { "life_donorlevel", "SCALAR", 2 } },// 벤츠 스프린터 경찰// 기부자
 //            { "max_FBI_van", { "life_donorlevel", "SCALAR", 2 } },  // 경찰 FBI 장갑 밴// 기부자
-            { "Mrshounka_agera_gend_p", { "life_donorlevel", "SCALAR", 2 } }// 아제라 스포츠카 // 기부자
+            { "Mrshounka_agera_gend_p", { "life_donorlevel", "SCALAR", 2 } },// 아제라 스포츠카 // 기부자
+            { "bv_gtr_spec_v_cop_patrol", { "", "", -1 } }, //Patrol Bissan GTR Spec V
+            { "bv_caressa_gt_cop_patrol", { "", "", -1 } }, //Patrol Borsche Caressa GT Cop
+            { "bv_458_cop_patrol", { "", "", -1 } }, //Patrol Perrari 458 Cop
+            { "bv_shelly_cop_patrol", { "", "", -1 } }, //Patrol Shelly Cop
+            { "bv_the_crowner_cop_patrol", { "", "", -1 } }, //Patrol The Crowner
+            { "bv_the_crowner_uc", { "", "", -1 } }, //Patrol The Black Crowner
+            { "bv_the_crowner_cop_patrol_interceptor", { "", "", -1 } } // 인터셉터 경찰차
         };
     };
 
@@ -310,7 +317,8 @@ class CarShops {
 //             { "max_van_green", { "", "", -1 } },                            //옛날 van 6인승
              { "Mrshounka_Volkswagen_Touareg_bleufonce", { "", "", -1 } },    //폭스바겐 투아렉 4인승 suv
              { "Mrshounka_yamaha_p", { "", "", -1 } },    //야마하 오토바이
-             { "Mrshounka_yamaha_p_noir", { "", "", -1 } }    //야마하 오토바이
+             { "Mrshounka_yamaha_p_noir", { "", "", -1 } },    //야마하 오토바이
+             { "dbo_crosser", { "", "", -1 } }    //공격형 오토바이
         };
     };
 
@@ -1543,6 +1551,13 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
     };
 
+    class sab_ultralight {
+            vItemSpace = 60;
+            licenses[] = { {"pilot"}, {""}, {""}, {""} };
+            price = 1000000;
+            textures[] = {};
+        };
+
     //Civ Boat
     class B_CBS_WaterShadow730_F {
         vItemSpace = 120;
@@ -2322,4 +2337,23 @@ will modify the virtual space and the price of the vehicle, but other informatio
          textures[] = {};
     };
 
+    class bv_gtr_spec_v_cop_patrol {
+            vItemSpace = 50;
+            licenses[] = { {"driver"}, {""}, {""}, {""} };
+            price = 500000;
+            textures[] = {};
+        };
+    class bv_gtr_spec_v_cop_patrol : bv_caressa_gt_cop_patrol{};
+    class bv_gtr_spec_v_cop_patrol : bv_458_cop_patrol{};
+    class bv_gtr_spec_v_cop_patrol : bv_shelly_cop_patrol{};
+    class bv_gtr_spec_v_cop_patrol : bv_the_crowner_cop_patrol{};
+    class bv_gtr_spec_v_cop_patrol : bv_the_crowner_uc{};
+    class bv_gtr_spec_v_cop_patrol : bv_the_crowner_cop_patrol_interceptor{};
+
+    class dbo_crosser {
+                vItemSpace = 20;
+                licenses[] = { {"driver"}, {""}, {""}, {""} };
+                price = 300000;
+                textures[] = {};
+            };
 };

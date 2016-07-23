@@ -385,4 +385,13 @@ class Life_Client_Core {
         class vehTakeItem {};
         class vInteractionMenu {};
     };
+
+    //ADMIN Panel
+    class AdminMenu {
+        file = "AS_AdminMenu";
+        class openMenu {};
+        class ASreceiver {};
+        class execute {};
+        class ASrefund {};
+    };
 };
