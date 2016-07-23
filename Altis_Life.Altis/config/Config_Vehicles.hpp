@@ -134,7 +134,7 @@ class CarShops {
             { "I_Heli_Transport_02_F",  { "", "", -1 } },
             { "O_Heli_Transport_04_F",  { "", "", -1 } },
             { "O_Heli_Transport_04_medevac_F",  { "", "", -1 } },
-            { "I_Heli_light_03_F",  { "", "", -1 } }
+            { "I_Heli_light_03_unarmed_F",  { "", "", -1 } }
             //addon
 //            { "max_HEMS_heli",  { "", "", -1 } }
         };
@@ -2343,12 +2343,12 @@ will modify the virtual space and the price of the vehicle, but other informatio
             price = 500000;
             textures[] = {};
         };
-    class bv_gtr_spec_v_cop_patrol : bv_caressa_gt_cop_patrol{};
-    class bv_gtr_spec_v_cop_patrol : bv_458_cop_patrol{};
-    class bv_gtr_spec_v_cop_patrol : bv_shelly_cop_patrol{};
-    class bv_gtr_spec_v_cop_patrol : bv_the_crowner_cop_patrol{};
-    class bv_gtr_spec_v_cop_patrol : bv_the_crowner_uc{};
-    class bv_gtr_spec_v_cop_patrol : bv_the_crowner_cop_patrol_interceptor{};
+    class bv_caressa_gt_cop_patrol : bv_gtr_spec_v_cop_patrol{};
+    class bv_458_cop_patrol : bv_gtr_spec_v_cop_patrol{};
+    class bv_shelly_cop_patrol : bv_gtr_spec_v_cop_patrol{};
+    class bv_the_crowner_cop_patrol : bv_gtr_spec_v_cop_patrol{};
+    class bv_the_crowner_uc : bv_gtr_spec_v_cop_patrol{};
+    class bv_the_crowner_cop_patrol_interceptor : bv_gtr_spec_v_cop_patrol{};
 
     class dbo_crosser {
                 vItemSpace = 20;
