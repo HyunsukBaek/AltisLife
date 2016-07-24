@@ -61,8 +61,7 @@ class CarShops {
             { "B_Heli_Transport_03_unarmed_F", { "", "", -1 } },
             { "I_Heli_Transport_02_F", { "", "", -1 } },
             { "B_Heli_Transport_01_F", { "", "", -1 } },
-            { "C_Plane_Civil_01_racing_F", { "", "", -1 } }, //black fish 36인용
-            { "C_Plane_Civil_01_F", { "", "", -1 } }, //black fish 36인용
+            { "C_Plane_Civil_01_F", { "", "", -1 } },
             { "B_T_VTOL_01_infantry_F", { "", "", -1 } }, //black fish 36인용
             { "C_Plane_Civil_01_racing_F", { "", "", -1 } }, //Caesar BTT 타노아 경비행기
             { "sab_ultralight", { "", "", -1 } }        //addon // 경비행기 1인승
@@ -188,10 +187,10 @@ class CarShops {
             { "shounka_a3_gendsprinter", { "life_donorlevel", "SCALAR", 2 } },// 벤츠 스프린터 경찰// 기부자
 //            { "max_FBI_van", { "life_donorlevel", "SCALAR", 2 } },  // 경찰 FBI 장갑 밴// 기부자
             { "Mrshounka_agera_gend_p", { "life_donorlevel", "SCALAR", 2 } },// 아제라 스포츠카 // 기부자
-            { "bv_gtr_spec_v_cop_patrol", { "", "", -1 } }, //Patrol Bissan GTR Spec V
-            { "bv_caressa_gt_cop_patrol", { "", "", -1 } }, //Patrol Borsche Caressa GT Cop
-            { "bv_458_cop_patrol", { "", "", -1 } }, //Patrol Perrari 458 Cop
-            { "bv_shelly_cop_patrol", { "", "", -1 } }, //Patrol Shelly Cop
+            { "bv_gtr_spec_v_cop_patrol", { "life_donorlevel", "SCALAR", 1 } }, //Patrol Bissan GTR Spec V
+            { "bv_caressa_gt_cop_patrol", { "life_donorlevel", "SCALAR", 1 } }, //Patrol Borsche Caressa GT Cop
+            { "bv_458_cop_patrol", { "life_donorlevel", "SCALAR", 2 } }, //Patrol Perrari 458 Cop
+            { "bv_shelly_cop_patrol", { "life_donorlevel", "SCALAR", 1 } }, //Patrol Shelly Cop
             { "bv_the_crowner_cop_patrol", { "", "", -1 } }, //Patrol The Crowner
             { "bv_the_crowner_uc", { "", "", -1 } }, //Patrol The Black Crowner
             { "bv_the_crowner_cop_patrol_interceptor", { "", "", -1 } } // 인터셉터 경찰차
@@ -537,7 +536,7 @@ class LifeCfgVehicles {
         price = 850000;
         textures[] = {
             { "Cop", "cop", {"textures\cop\ghosthawk_0.paa","textures\cop\ghosthawk_1.paa"} },
-        { "KoreanAir", "civ", {"textures\civ\Ghosthawk_CIV_Koreanair1.paa","textures\civ\Ghosthawk_CIV_Koreanair2.paa"} }
+            { "KoreanAir", "civ", {"textures\civ\Ghosthawk_CIV_Koreanair1.paa","textures\civ\Ghosthawk_CIV_Koreanair2.paa"} }
         };
     };
 
@@ -547,7 +546,7 @@ class LifeCfgVehicles {
         price = 650000;
         textures[] = {
             { "Cop", "cop", {"textures\cop\cop_hellcat.paa"} },
-        { "EMS", "med", {"textures\ems\Hellcat_EMS_White.paa"} }
+            { "EMS", "med", {"textures\ems\Hellcat_EMS_White.paa"} }
         };
     };
 
