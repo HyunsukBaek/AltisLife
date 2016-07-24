@@ -27,6 +27,3 @@ player linkItem "ItemWatch";
 player linkItem "ItemRadio";
 player linkItem "I_UavTerminal";
 player linkItem "NVGoggles_OPFOR";
-
-player setFace "RyanZombieNoFace";
-player setSpeaker "Male03GRE";

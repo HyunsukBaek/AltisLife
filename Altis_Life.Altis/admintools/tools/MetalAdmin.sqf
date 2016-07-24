@@ -25,6 +25,3 @@ player linkItem "ItemCompass";
 player linkItem "ItemWatch";
 player linkItem "ItemRadio";
 player linkItem "I_UavTerminal";
-
-player setFace "GreekHead_A3_04";
-player setSpeaker "Male01GRE";
