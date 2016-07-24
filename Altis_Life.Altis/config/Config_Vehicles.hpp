@@ -116,7 +116,9 @@ class CarShops {
             { "O_Truck_03_medical_F", { "", "", -1 } },
             ///// addon
             { "shounka_nemo_pompier", { "", "", -1 } }, // 귀여운 사각2인
-            { "shounka_a3_pompier_sprinter", { "", "", -1 } } // 벤츠 스프린터 기부자용
+            { "shounka_a3_pompier_sprinter", { "", "", -1 } }, // 벤츠 스프린터 기부자용
+			{ "bv_the_crowner_cop_emt", { "", "", -1 } }	//경찰차 비슷한 빨간차
+			
 //            { "max_ambulance", { "", "", -1 } }, //옛날 엠뷸런스 4인용
 //            { "max_firetruck", { "", "", -1 } }, // 소방차 5인용
 
@@ -193,7 +195,10 @@ class CarShops {
             { "bv_shelly_cop_patrol", { "life_donorlevel", "SCALAR", 1 } }, //Patrol Shelly Cop
             { "bv_the_crowner_cop_patrol", { "", "", -1 } }, //Patrol The Crowner
             { "bv_the_crowner_uc", { "", "", -1 } }, //Patrol The Black Crowner
-            { "bv_the_crowner_cop_patrol_interceptor", { "", "", -1 } } // 인터셉터 경찰차
+            { "bv_the_crowner_cop_patrol_interceptor", { "", "", -1 } }, // 인터셉터 경찰차
+			{ "bv_the_crowner_cop_sher", { "", "", -1 } },	//Patrol the Black Sheriff
+			{ "bv_e60_m5_cop_patrol", { "", "", -1 } },	//Patrol 
+			{ "bv_e60_m5_cop_emt", { "", "", -1 } }	//Patrol EMT
         };
     };
 
@@ -2348,6 +2353,10 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class bv_the_crowner_cop_patrol : bv_gtr_spec_v_cop_patrol{};
     class bv_the_crowner_uc : bv_gtr_spec_v_cop_patrol{};
     class bv_the_crowner_cop_patrol_interceptor : bv_gtr_spec_v_cop_patrol{};
+	class bv_the_crowner_cop_emt : bv_gtr_spec_v_cop_patrol{};
+	class bv_the_crowner_cop_sher : bv_gtr_spec_v_cop_patrol{};
+	class bv_e60_m5_cop_emt : bv_gtr_spec_v_cop_patrol{};
+	class bv_e60_m5_cop_patrol : bv_gtr_spec_v_cop_patrol{};
 
     class dbo_crosser {
                 vItemSpace = 20;

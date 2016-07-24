@@ -17,6 +17,7 @@ StartProgress = false;
 [] execVM "Custom\safezone.sqf";
 [] execVM "Custom\CL.sqf";
 [] execVM "Custom\CL2.sqf";
+[] execVM "admintools\loop.sqf";	//Admin Helper
 
 //Cop & Medic Radio disable
 enableRadio false;
