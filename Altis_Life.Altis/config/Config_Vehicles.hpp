@@ -2359,6 +2359,13 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class bv_e60_m5_cop_emt : bv_gtr_spec_v_cop_patrol{};
 	class bv_e60_m5_cop_patrol : bv_gtr_spec_v_cop_patrol{};
 
+	class shounka_harley_a3 {
+	         vItemSpace = 100;
+	         licenses[] = { {""}, {""}, {""}, {""} };
+	         price = 30000000;
+	         textures[] = {};
+	    };
+
     class dbo_crosser {
                 vItemSpace = 20;
                 licenses[] = { {"driver"}, {""}, {""}, {""} };
