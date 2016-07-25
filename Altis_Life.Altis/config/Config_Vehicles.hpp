@@ -350,7 +350,8 @@ class CarShops {
             { "A3L_Flipcar", { "life_donorlevel", "SCALAR", 1 } },                   //Flipcar
 			{ "sga_shopping_cart", { "life_donorlevel", "SCALAR", 2 } },                   //쇼핑카트
 			{ "sga_shopping_cart_monster", { "life_donorlevel", "SCALAR", 2 } },                   //쇼핑카트몬스터
-			{ "sga_hover_board", { "life_donorlevel", "SCALAR", 2 } }                   //호버보드
+			{ "sga_hover_board", { "life_donorlevel", "SCALAR", 2 } },                   //호버보드
+			{ "shounka_harley_a3", { "life_donorlevel", "SCALAR", 2 } }         //할리데이비슨 오토바이
              //             { "max_charger_black", { "life_donorlevel", "SCALAR", 1 } },            //닷지 차져
              //             { "max_charger_blue", { "life_donorlevel", "SCALAR", 1 } },            //닷지 차져
              //             { "max_charger_red", { "life_donorlevel", "SCALAR", 1 } },                //닷지 차져
