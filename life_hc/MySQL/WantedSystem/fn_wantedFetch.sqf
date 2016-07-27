@@ -12,7 +12,7 @@
     Displays wanted list information sent from the server.
 */
 private["_ret","_list","_result","_queryResult","_units","_inStatement"];
-_ret = [_this,0,objNull,[objNull]] call BIS_fnc_param;
+_ret = param [0,objNull,[objNull]];
 if (isNull _ret) exitWith {};
 _inStatement = "";
 _list = [];

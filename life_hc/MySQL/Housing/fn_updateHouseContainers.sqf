@@ -8,7 +8,7 @@
     Update inventory "i" in container
 */
 private["_containerID","_containers","_query","_vehItems","_vehMags","_vehWeapons","_vehBackpacks","_cargo"];
-_container = [_this,0,objNull,[objNull]] call BIS_fnc_param;
+_container = param [0,objNull,[objNull]];
 if (isNull _container) exitWith {};
 _containerID = _container getVariable ["container_id",-1];
 if (_houseID isEqualTo -1) exitWith {};

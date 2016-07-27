@@ -9,8 +9,10 @@
     Tells the database that this vehicle need update inventory.
 */
 private["_vehicle","_plate","_uid","_query","_sql","_dbInfo","_thread","_cargo","_trunk","_resourceItems","_itemList","_totalweight","_weight"];
-_vehicle = [_this,0,objNull,[objNull]] call BIS_fnc_param;
-_mode = [_this,1,1,[0]] call BIS_fnc_param;
+params [
+  ["_vehicle",objNull,[objNull]],
+  ["_mode",1,[0]]
+];
 if (isNull _vehicle) exitWith {}; //NULL
 
 _dbInfo = _vehicle getVariable ["dbInfo",[]];

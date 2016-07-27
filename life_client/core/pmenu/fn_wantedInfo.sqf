@@ -8,7 +8,7 @@
 private["_display","_list","_crimes","_bounty","_mylist","_data"];
 disableSerialization;
 
-_data = [_this,0,[],[[]]] call BIS_fnc_param;
+_data = param [0,[],[[]]];
 _display = findDisplay 2400;
 _list = _display displayCtrl 2402;
 _mylist = [];

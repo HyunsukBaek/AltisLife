@@ -7,8 +7,10 @@
 */
 disableSerialization;
 private["_control","_selection","_price","_priceTag"];
-_control = [_this,0,controlNull,[controlNull]] call BIS_fnc_param;
-_selection = [_this,1,-1,[0]] call BIS_fnc_param;
+params [
+  ["_control",controlNull,[controlNull]],
+  ["_selection",-1,[0]]
+];
 
 //Error checks
 if (isNull _control || _selection isEqualTo -1) exitWith {};

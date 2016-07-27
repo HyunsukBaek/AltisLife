@@ -12,8 +12,10 @@
 */
 private["_display","_criminal","_tab","_queryResult","_result","_ret","_crimesDb","_crimesArr","_type"];
 disableSerialization;
-_ret = [_this,0,objNull,[objNull]] call BIS_fnc_param;
-_criminal = [_this,1,[],[]] call BIS_fnc_param;
+params [
+  ["_ret",objNull,[objNull]],
+  ["_criminal",[],[]]
+];
 
 _query = format["SELECT wantedCrimes, wantedBounty FROM wanted WHERE active='1' AND wantedID='%1'",_criminal select 0];
 _queryResult = [_query,2] call HC_fnc_asyncCall;

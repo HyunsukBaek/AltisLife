@@ -7,7 +7,7 @@
     at.
 */
 private["_house","_door","_numOfDoors"];
-_house = [_this,0,objNull,[objNull]] call BIS_fnc_param;
+_house = param [0,objNull,[objNull]];
 if (isNull _house) exitWith {0};
 if (!(_house isKindOf "House_F")) exitWith {0};
 

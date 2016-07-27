@@ -10,13 +10,15 @@
     the vehicle if it's not in use or dead.
 */
 private["_vid","_sp","_pid","_query","_sql","_vehicle","_nearVehicles","_name","_side","_tickTime","_dir","_servIndex","_damage","_wasIllegal","_location"];
-_vid = [_this,0,-1,[0]] call BIS_fnc_param;
-_pid = [_this,1,"",[""]] call BIS_fnc_param;
-_sp = [_this,2,[],[[],""]] call BIS_fnc_param;
-_unit = [_this,3,objNull,[objNull]] call BIS_fnc_param;
-_price = [_this,4,0,[0]] call BIS_fnc_param;
-_dir = [_this,5,0,[0]] call BIS_fnc_param;
-_spawntext = _this select 6;
+params [
+  ["_vid",-1,[0]],
+  ["_pid","",[""]],
+  ["_sp",[],[[],""]],
+  ["_unit",objNull,[objNull]],
+  ["_price",0,[0]],
+  ["_dir",0,[0]],
+  ["_spawntext","",[""]]
+];
 _ownerID = _unit getVariable ["life_clientID",-1];
 _unit_return = _unit;
 _name = name _unit;

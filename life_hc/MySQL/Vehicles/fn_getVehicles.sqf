@@ -9,10 +9,12 @@
     Sends a request to query the database information and returns vehicles.
 */
 private["_pid","_side","_type","_unit","_ret","_tickTime","_queryResult"];
-_pid = [_this,0,"",[""]] call BIS_fnc_param;
-_side = [_this,1,sideUnknown,[west]] call BIS_fnc_param;
-_type = [_this,2,"",[""]] call BIS_fnc_param;
-_unit = [_this,3,objNull,[objNull]] call BIS_fnc_param;
+params [
+  ["_pid","",[""]],
+  ["_side",sideUnknown,[west]],
+  ["_type","",[""]],
+  ["_unit",objNull,[objNull]]
+];
 
 //Error checks
 if (_pid isEqualTo "" || _side isEqualTo sideUnknown || _type isEqualTo "" || isNull _unit) exitWith {

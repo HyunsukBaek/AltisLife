@@ -11,7 +11,7 @@
     have a global effect.
 */
 private["_nearVehicles","_spikeStrip"];
-_spikeStrip = [_this,0,objNull,[objNull]] call BIS_fnc_param;
+_spikeStrip = param [0,objNull,[objNull]];
 if (isNull _spikeStrip) exitWith {}; //Bad vehicle type passed.
 
 waitUntil {_nearVehicles = nearestObjects[getPos _spikeStrip,["Car"],5]; count _nearVehicles > 0 || isNull _spikeStrip};
