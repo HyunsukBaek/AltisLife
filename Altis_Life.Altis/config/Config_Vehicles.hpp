@@ -63,6 +63,7 @@ class CarShops {
             { "B_Heli_Transport_01_F", { "", "", -1 } },
             { "C_Plane_Civil_01_F", { "", "", -1 } },
             { "B_T_VTOL_01_infantry_F", { "", "", -1 } }, //black fish 36인용
+            { "B_T_VTOL_01_vehicle_F", { "", "", -1 } }, //black fish 36인용
             { "C_Plane_Civil_01_racing_F", { "", "", -1 } }, //Caesar BTT 타노아 경비행기
             { "sab_ultralight", { "", "", -1 } }        //addon // 경비행기 1인승
         };
@@ -217,6 +218,7 @@ class CarShops {
             { "B_Heli_Light_01_armed_F", { "life_coplevel", "SCALAR", 5 } },
             { "B_Heli_Attack_01_F", { "life_coplevel", "SCALAR", 5 } },
             { "O_Heli_Attack_02_black_F", { "life_coplevel", "SCALAR", 5 } },
+            { "B_T_VTOL_01_vehicle_F", { "", "", -1 } }, //black fish 36인용 차량수송용
             { "B_UAV_01_F", { "life_donorlevel", "SCALAR", 1 } }
         };
     };
@@ -2339,6 +2341,12 @@ will modify the virtual space and the price of the vehicle, but other informatio
          vItemSpace = 550;
          licenses[] = { {""}, {""}, {""}, {""} };
          price = 35000000;
+         textures[] = {};
+    };
+    class B_T_VTOL_01_vehicle_F {
+         vItemSpace = 550;
+         licenses[] = { {""}, {""}, {""}, {""} };
+         price = 42000000;
          textures[] = {};
     };
 
