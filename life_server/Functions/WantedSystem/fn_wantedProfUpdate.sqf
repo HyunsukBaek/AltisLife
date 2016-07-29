@@ -6,10 +6,11 @@
     Description:
     Updates name of player if they change profiles
 */
-private["_uid","_name","_query","_tickTime","_wantedCheck","_wantedQuery"];
-
-_uid = [_this,0,"",[""]] call BIS_fnc_param;
-_name = [_this,1,"",[""]] call BIS_fnc_param;
+private["_query","_tickTime","_wantedCheck","_wantedQuery"];
+params [
+  ["_uid","",[""]],
+  ["_name","",[""]]
+];
 //Bad data check
 if (_uid isEqualTo "" ||  _name isEqualTo "") exitWith {};
 

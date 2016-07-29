@@ -8,10 +8,10 @@
     Description:
     Fetches a specific person from the wanted array.
 */
-private["_unit","_index","_queryResult","_result"];
-_unit = [_this,0,objNull,[objNull]] call BIS_fnc_param;
+private["_index","_queryResult","_result"];
+private _unit = param [0,objNull,[objNull]];
 if (isNull _unit) exitWith {[]};
-_uid = getPlayerUID player;
+_uid = getPlayerUID _unit;
 
 _query = format["SELECT wantedID, wantedName, wantedBounty FROM wanted WHERE active='1' AND wantedID='%1'",_uid];
 _queryResult = [_query,2] call DB_fnc_asyncCall;

@@ -8,6 +8,8 @@
     Sells the house and delete all container near house.
 */
 private["_house","_uid","_action","_houseCfg"];
+if ((time - life_action_delay) < 2) exitWith {hint localize "STR_NOTF_ActionDelay"};
+life_action_delay = time;
 _house = param [0,objNull,[objNull]];
 _uid = getPlayerUID player;
 

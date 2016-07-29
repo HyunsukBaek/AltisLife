@@ -29,7 +29,7 @@
 private["_className","_section","_type","_accPointer","_accMuzzle","_accOptic","_classes","_itemInfo","_magazines","_scope","_config","_displayName"];
 params [
   ["_className","",[""]],
-  ["_section","",[""]],
+  ["_section","",[""]]
 ];
 if (_className isEqualTo "") exitWith {[]};
 

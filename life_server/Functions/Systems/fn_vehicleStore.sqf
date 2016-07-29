@@ -5,11 +5,13 @@
     Description:
     Stores the vehicle in the 'Garage'
 */
-private["_vehicle","_impound","_vInfo","_vInfo","_plate","_uid","_query","_sql","_unit","_trunk","_vehItems","_vehMags","_vehWeapons","_vehBackpacks","_cargo","_saveItems","_storetext","_resourceItems","_fuel","_damage","_itemList","_totalweight","_weight","_thread"];
-_vehicle = [_this,0,objNull,[objNull]] call BIS_fnc_param;
-_impound = [_this,1,false,[true]] call BIS_fnc_param;
-_unit = [_this,2,objNull,[objNull]] call BIS_fnc_param;
-_storetext = [_this,3,"",[""]] call BIS_fnc_param;
+private["_vInfo","_vInfo","_plate","_uid","_query","_sql","_trunk","_vehItems","_vehMags","_vehWeapons","_vehBackpacks","_cargo","_saveItems","_resourceItems","_fuel","_damage","_itemList","_totalweight","_weight","_thread"];
+params [
+  ["_vehicle",objNull,[objNull]],
+  ["_impound",false,[false]],
+  ["_unit",objNull,[objNull]],
+  ["_storetext","",[""]]
+];
 _resourceItems = LIFE_SETTINGS(getArray,"save_vehicle_items");
 
 if (isNull _vehicle || isNull _unit) exitWith {life_impound_inuse = false; (owner _unit) publicVariableClient "life_impound_inuse";life_garage_store = false;(owner _unit) publicVariableClient "life_garage_store";}; //Bad data passed.

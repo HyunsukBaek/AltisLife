@@ -6,7 +6,7 @@
     Delete Container and remove Container in Database
 */
 private["_house","_houseID","_ownerID","_housePos","_query","_radius","_containers"];
-_container = [_this,0,objNull,[objNull]] call BIS_fnc_param;
+_container = param [0,objNull,[objNull]];
 if (isNull _container) exitWith  {diag_log "container null";};
 
 _containerID = _container getVariable ["container_id",-1];
