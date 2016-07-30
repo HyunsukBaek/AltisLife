@@ -1,1 +1,0 @@
-[] execVM "Custom\Firework\StartFireWorks.sqf";
