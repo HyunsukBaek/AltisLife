@@ -113,19 +113,13 @@ class CfgFunctions {
             class getPlayTime {};
         };
 
-	class vAH {
-            file = "\life_server\Functions\vAH";
-            class vAH_init {};
-            class vAH_update {};
-	          };
-	class AS
-	        {
-	            file = "\life_server\AS_AdminMenu";
-	            class receiver {};
-	            class config {};
-	            class getActions {};
-	        };
-    };
+        class AS {
+            file = "\life_server\AS_AdminMenu";
+                class receiver {};
+                class config {};
+                class getActions {};
+            };
+        };
 };
 
 class CfgVehicles {
