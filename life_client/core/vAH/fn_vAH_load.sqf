@@ -9,7 +9,7 @@
 waitUntil {createDialog "AH_buy";};
 disableSerialization;
 private["_dialog","_myListbox","_curOffer","_id","_type","_amount","_item","_pic","_itemName","_price","_seller","_sellerName","_status","_time","_search","_allAH","_found"];
-_search = [_this,0,"",[""]] call BIS_fnc_param;
+_search = param [0,"",[""]];
 	_dialog = findDisplay 15100;
 	_myListbox = _dialog displayCtrl 15101;
 	_allAH = all_ah_items;

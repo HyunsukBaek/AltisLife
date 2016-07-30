@@ -7,8 +7,8 @@
 	Master handling for processing casino slots
 */
 private["_source","_hasLicense","_ui","_needID","_cP","_cost","_type","_winAmount","_rollA","_rollB","_rollC","_slots","_idxA","_idxB","_idxC"];
-_source = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
-_type = [_this,3,-1,[0]] call BIS_fnc_param;
+_source = param [0,ObjNull,[ObjNull]];
+_type = param [3,-1,[0]];
 
 //Error check
 if(isNull _source) exitWith {};

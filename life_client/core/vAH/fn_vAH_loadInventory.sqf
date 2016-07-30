@@ -117,16 +117,16 @@ if (count playerInventoryArray == 1) then {
 		_myInvListbox lbAdd format ["You have no items in your inventory or auction house!"];
 	} else {
 {
-	_status = [_x,2,3,[3]] call BIS_fnc_param;
+	_status = param [_x,2,3,[3]];
 	switch (_status) do {
 		case 0: {_stat = ": AH: For Sale"}; //AH: for sale
 		case 1: {_stat = ": AH: Expired"}; //AH: expired
 		case 2: {_stat = "SOLD SHOULD NOT EVER BE VISIBLE"}; //sold
 		case 3: {_stat = ": In My Inventory"}; //MY INV
 	};
-	_type = [_x,3,"",[""]] call BIS_fnc_param;
+	_type = param [_x,3,"",[""]];
 	_item = _x select 0;
-	_id = [_x,6,0,[0]] call BIS_fnc_param;
+	_id = param [_x,6,0,[0]];
 	_index = _index + 1;
 	if (_item == "yolo") then {
 			_myInvListbox lbAdd format ["--------------------AUCTION HOUSE ITEMS-----------------------"];
@@ -136,8 +136,8 @@ if (count playerInventoryArray == 1) then {
 		case "imenu": {
 			_itemDisplayName = ([_item] call life_fnc_fetchCfgDetails) select 1;
 			_pic = [_item] call life_fnc_fetchCfgDetails select 2;
-			_price = [_x,5,0,[0]] call BIS_fnc_param;
-			_time = [_x,4,0,[0]] call BIS_fnc_param;
+			_price = param [_x,5,0,[0]];
+			_time = param [_x,4,0,[0]];
 			_time = round (_time / 3);
 			if (_time <= 0) then {_price = 0; if (_status == 1) then {_toDel = round(_time + 216); _timeDisplay = format[": Removed in %1 Hrs",_toDel]} else {_timeDisplay = "";};} else {_timeDisplay = format[": Expires in %1 Hrs",_time]};
 			if (_price == 0) then {_priceDisplay = ""} else {_priceDisplay = format[": Auction Price $%1",[_price]call life_fnc_numberText];};
@@ -145,8 +145,8 @@ if (count playerInventoryArray == 1) then {
 		case "ymenu": {
 			_itemDisplayName = localize ITEM_NAME(_item);
 			_pic = M_CONFIG(getText,"VirtualItems",_item,"icon");
-			_price = [_x,5,0,[0]] call BIS_fnc_param;
-			_time = [_x,4,0,[0]] call BIS_fnc_param;
+			_price = param [_x,5,0,[0]];
+			_time = param [_x,4,0,[0]];
 			_time = round (_time / 3);
 			if (_time <= 0) then {_price = 0; if (_status == 1) then {_toDel = round(_time + 216); _timeDisplay = format[": Removed in %1 Hrs",_toDel]} else {_timeDisplay = "";};} else {_timeDisplay = format[": Expires in %1 Hrs",_time]};
 			if (_price == 0) then {_priceDisplay = ""} else {_priceDisplay = format[": Auction Price $%1",[_price]call life_fnc_numberText];};
@@ -154,8 +154,8 @@ if (count playerInventoryArray == 1) then {
 		default {
 			_itemDisplayName = ([_item] call life_fnc_fetchCfgDetails) select 1;
 			_pic = [_item] call life_fnc_fetchCfgDetails select 2;
-			_price = [_x,5,0,[0]] call BIS_fnc_param;
-			_time = [_x,4,0,[0]] call BIS_fnc_param;
+			_price = param [_x,5,0,[0]];
+			_time = param [_x,4,0,[0]];
 			_time = round (_time / 3);
 			if (_time <= 0) then {_price = 0; if (_status == 1) then {_toDel = round(_time + 216); _timeDisplay = format[": Removed in %1 Hrs",_toDel]} else {_timeDisplay = "";};} else {_timeDisplay = format[": Expires in %1 Hrs",_time]};
 			if (_price == 0) then {_priceDisplay = ""} else {_priceDisplay = format[": Auction Price $%1",[_price]call life_fnc_numberText];};

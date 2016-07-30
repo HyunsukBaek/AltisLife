@@ -10,11 +10,13 @@
 */
 diag_log "Script VehicleDelete HC";
 private["_vid","_sp","_pid","_query","_sql","_type","_thread"];
-_vid = [_this,0,-1,[0]] call BIS_fnc_param;
-_pid = [_this,1,"",[""]] call BIS_fnc_param;
-_sp = [_this,2,2500,[0]] call BIS_fnc_param;
-_unit = [_this,3,objNull,[objNull]] call BIS_fnc_param;
-_type = [_this,4,"",[""]] call BIS_fnc_param;
+params [
+  ["_vid",-1,[0]],
+  ["_pid","",[""]],
+  ["_sp",2500,[0]],
+  ["_unit",objNull,[objNull]],
+  ["_type","",[""]]
+];
 
 if (_vid isEqualTo -1 || _pid isEqualTo "" || _sp isEqualTo 0 || isNull _unit || _type isEqualTo "") exitWith {};
 

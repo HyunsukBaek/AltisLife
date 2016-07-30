@@ -7,7 +7,7 @@
     Master configuration for vehicle weight.
 */
 private["_className","_classNameLife","_weight"];
-_className = [_this,0,"",[""]] call BIS_fnc_param;
+_className = param [0,"",[""]];
 _classNameLife = _className;
 if (!isClass (missionConfigFile >> "LifeCfgVehicles" >> _classNameLife)) then {
     _classNameLife = "Default"; //Use Default class if it doesn't exist

@@ -10,10 +10,14 @@
 	Wolfpack = 3
 */
 private["_idxA","_idxB","_idxC","_slotType","_ret"];
-_idxA = [_this,0,-1,[0]] call BIS_fnc_param;
-_idxB = [_this,1,-1,[0]] call BIS_fnc_param;
-_idxC = [_this,2,-1,[0]] call BIS_fnc_param;
-_slotType = [_this,3,0,[0]] call BIS_fnc_param;
+
+params [
+    ["_idxA", -1,[0]],
+    ["_idxB", -1,[0]],
+    ["_idxC", -1,[0]],
+    ["_slotType", 0,[0]]
+];
+
 if(_idxA == -1 OR _idxB == -1 OR _idxC == -1) exitWith {[]};
 
 _ret = 0;

@@ -7,9 +7,9 @@
     Description:
     Displays wanted list information sent from the server.
 */
-private["_info","_display","_list",/*"_units",*/"_entry"];
+private["_info","_display","_list","_entry"];
 disableSerialization;
-_info = [_this,0,[],[[]]] call BIS_fnc_param;
+_info = param [0,[],[[]]];
 _display = findDisplay 2400;
 _list = _display displayCtrl 2401;
 

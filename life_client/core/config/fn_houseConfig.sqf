@@ -6,7 +6,7 @@
     Master config file for buyable houses?
 */
 private["_house"];
-_house = [_this,0,"",[""]] call BIS_fnc_param;
+_house = param [0,"",[""]];
 if (_house isEqualTo "") exitWith {[]};
 
 /*

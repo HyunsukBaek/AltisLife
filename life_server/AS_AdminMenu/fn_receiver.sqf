@@ -1,5 +1,5 @@
 _mode = _this select 0;
-_info = [_this,0,-1] call BIS_fnc_param;
+_info = param [0,-1];
 
 diag_log "Received!";
 

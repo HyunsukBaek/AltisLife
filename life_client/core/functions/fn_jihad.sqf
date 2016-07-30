@@ -7,7 +7,7 @@
 	A suicide vest. Yes this is a bomb. Handle with caution.
 */
 private["_unit","_bomb"];
-_unit = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
+_unit = param [0,ObjNull,[ObjNull]];
 // checks
 if(isNil "_unit" || isNull _unit || !isPlayer _unit || life_isknocked || life_istazed || (vehicle _unit != _unit) || !alive _unit || (_unit getVariable ["restrained",false])) exitWith {};
 if(vest _unit != "V_HarnessOGL_gry") exitWith {hint localize "STR_NOTF_notWearingVest";};

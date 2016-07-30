@@ -42,7 +42,7 @@ _selectedSell = call compile (_myListbox lbData (lbCurSel _myListbox));
 _classname = _selectedSell select 0;
 if (_classname == "yolo") exitWith {};
 _typeb = _selectedSell select 1;
-_invItem = [_selectedSell,2,3,[3]] call BIS_fnc_param;
+_invItem = param [_selectedSell,2,3,[3]];
 if (_invItem != 3) exitWith {hint "이미 팔렸거나 기간기 경과한 아이템은 구매할 수 없습니다"};
 if(_typeb == "ymenu") then {_type = 0} else {_type = 1};
 

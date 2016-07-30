@@ -7,8 +7,11 @@
 	Some of this code was taken from guy from a forum, i will have to find the name a credit when i get a chance.. sry
 */
 private["_nitem","_storage","_item","_cargo","_array","_totalCargoSpace","_storageItems","_sitem","_mass","_totalStorageItems","_newItem","_newItemMass","_can","_amount"];
-_nitem = [_this,0,"",[""]] call BIS_fnc_param;
-_amount = [_this,1,0,[0]] call BIS_fnc_param;
+params [
+    ["_nitem","",[""]],
+    ["_amount",0,[0]]
+];
+
 _can = false;
 _newItem = _nitem;
 

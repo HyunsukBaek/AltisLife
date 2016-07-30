@@ -5,8 +5,10 @@
 	Author: Ryan. Edited by Fresqo for our auction house
 */
 private["_seller","_price","_item"];
-_mode = [_this,0,-1] call BIS_FNC_PARAM;
-_info = [_this,1,-1] call BIS_FNC_PARAM;
+params [
+ [_mode, -1],
+ [_info, -1]
+];
 
 switch (_mode) do
 {

@@ -18,8 +18,8 @@ _data = call compile (_myListbox lbData (lbCurSel _myListbox));
 _item = _data select 0;
 if (_item == "yolo") exitWith {};
 _typeb = _data select 1;
-_status = [_data,2,3,[3]] call BIS_fnc_param;
-_amount = [_data,3,0,[0]] call BIS_fnc_param;
+_status = param [_data,2,3,[3]];
+_amount = param [_data,3,0,[0]];
 _id = _data select 4;
 _iCheck = true;
 

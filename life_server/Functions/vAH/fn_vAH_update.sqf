@@ -10,14 +10,16 @@
 	4- inserts a new item into the db
 */
 private["_switch","_id","_rows","_query","_queryResult","_time","_status","_handle","_seller","_item","_items","_itemName","_playerName","_toDel"];
-_switch = [_this,0,0,[0]] call BIS_fnc_param;
-_id = [_this,1,0,[0]] call BIS_fnc_param;
-_time = [_this,2,0,[0]] call BIS_fnc_param;
-_status = [_this,3,0,[0]] call BIS_fnc_param;
-_seller = [_this,4,"",[""]] call BIS_fnc_param;
-_item = [_this,5,"",[""]] call BIS_fnc_param;
-_itemName = [_this,6,"",[""]] call BIS_fnc_param;
-_playerName = [_this,7,"",[""]] call BIS_fnc_param;
+params [
+    ["_switch", 0,[0]],
+    ["_id", 0,[0]],
+    ["_time", 0,[0]],
+    ["_status", 0,[0]],
+    ["_seller", "",[""]],
+    ["_item", "",[""]],
+    ["_itemName", "",[""]],
+    ["_playerName", "",[""]]
+];
 
 vAH_loaded = false;
 publicVariable "vAH_loaded";

@@ -7,7 +7,7 @@
     so code can easily be changed. Ultimately it just pops the tires.
 */
 private["_vehicle"];
-_vehicle = [_this,0,objNull,[objNull]] call BIS_fnc_param;
+_vehicle = param [0,objNull,[objNull]];
 if (isNull _vehicle) exitWith {}; //Bad vehicle type
 
 _vehicle setHitPointDamage["HitLFWheel",1];

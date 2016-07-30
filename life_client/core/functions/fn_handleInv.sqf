@@ -7,9 +7,11 @@
     Do I really need one?
 */
 private["_math","_item","_num","_return","_var","_weight","_value","_diff"];
-_math = [_this,0,false,[false]] call BIS_fnc_param; //true = add; false = SUB;
-_item = [_this,1,"",[""]] call BIS_fnc_param; //The item we are using to add or remove.
-_num = [_this,2,0,[0]] call BIS_fnc_param; //Number of items to add or remove.
+params [
+  ["_math",false,[false]],
+  ["_item","",[""]],
+  ["_num",0,[0]]
+];
 if (_item isEqualTo "" || _num isEqualTo 0) exitWith {false};
 
 _var = ITEM_VARNAME(_item);

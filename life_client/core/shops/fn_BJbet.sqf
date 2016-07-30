@@ -6,7 +6,7 @@
 */
 
 private ["_betamt"];
-_betamt = [_this,0,1,[0]] call BIS_fnc_param;
+_betamt = param [0,1,[0]];
 disableSerialization;
 _display = findDisplay 5980;
 

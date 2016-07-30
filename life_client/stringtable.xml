@@ -887,7 +887,7 @@
             <German>Du kannst diese Ressource nicht mit diesem Fahrzeug abbauen!</German>
             <French>VOus ne pouvez pas récolté cette ressource avec ce vehicule</French>
             <Italian>Non puoi raccogliere questa risorsa con questo veicolo !</Italian>
-            <Portuguese>You can't gather this resource with this vehicle!</Portuguese>
+            <Portuguese>Você não pode colher esse recurso com esse veículo!</Portuguese>
             <Polish>You can't gather this resource with this vehicle!</Polish>
         </Key>
         <Key ID="STR_NOTF_adminDebugCon">
@@ -1109,7 +1109,7 @@
             <German></German>
             <French></French>
             <Italian></Italian>
-            <Portuguese></Portuguese>
+            <Portuguese>%1 transferiu $%2 para sua conta.</Portuguese>
             <Polish></Polish>
         </Key>
         <Key ID="STR_ATM_WithdrawMax">
@@ -1287,7 +1287,7 @@
             <German>Admin-Nachricht an alle</German>
             <French>Admin Msg ALL</French>
             <Italian>Admin Msg</Italian>
-            <Portuguese>Admin Msg All</Portuguese>
+            <Portuguese>Admin msg a todos</Portuguese>
             <Polish>SMS do Wszyscy</Polish>
         </Key>
         <Key ID="STR_CELL_EMSRequest">
@@ -1546,7 +1546,7 @@
             <German>Einnehmen abgebrochen</German>
             <French>Capture annulée</French>
             <Italian>Cattura annullata</Italian>
-            <Portuguese>Ação concelada</Portuguese>
+            <Portuguese>Ação cancelada</Portuguese>
             <Polish>Przejmowanie anulowane</Polish>
         </Key>
         <Key ID="STR_GNOTF_Capturing">
@@ -1567,7 +1567,7 @@
             <Spanish>Escondite ha sido capturado.</Spanish>
             <Italian>Hideout è stato catturato.</Italian>
             <Polish>Hideout został schwytany.</Polish>
-            <Portuguese>Hideout foi capturado.</Portuguese>
+            <Portuguese>O esconderijo foi capturado.</Portuguese>
             <Russian>Хайдеаут был захвачен в плен.</Russian>
             <German>Hideout erfasst wurde.</German>
         </Key>
@@ -4400,7 +4400,7 @@
             <German></German>
             <French></French>
             <Italian></Italian>
-            <Portuguese>Custo de Trasnmissão: %1&lt;br /&gt;Próxima transmissão disponível em: %2</Portuguese>
+            <Portuguese>Custo de Transmissão: %1&lt;br /&gt;Próxima transmissão disponível em: %2</Portuguese>
             <Polish></Polish>
         </Key>
         <Key ID="STR_News_HeaderLength">
@@ -4490,7 +4490,7 @@
             <German>%1 ist aus dem Gefängnis ausgebrochen!</German>
             <French>%1 s'est échappé de prison!</French>
             <Italian>%1 è scappato dalla prigione!</Italian>
-            <Portuguese>%1 escapou da prisão</Portuguese>
+            <Portuguese>%1 escapou da prisão!</Portuguese>
             <Polish>%1 uciekł z więzienia!</Polish>
         </Key>
         <Key ID="STR_Jail_EscapeSelf">
@@ -4501,7 +4501,7 @@
             <German>Du bist aus dem Gefängnis ausgebrochen, die Polizei sucht bereits wegen deiner früheren Verbrechen und Gefängnisausbruch nach dir.</German>
             <French>Vous vous êtes échappé de prison, vous conserver toujours vos crimes précédents et ils savent maintenant que vous vous êtes échappé de prison.</French>
             <Italian>Sei scappato di prigione, rimarrai ricercato per i crimini da te commessi in precedenza e in aggiunta per essere scappato di prigione.</Italian>
-            <Portuguese>Você escapou da prisão, agora você é procurado por esse crime e todos os outros que havia cometido anteriormente</Portuguese>
+            <Portuguese>Você escapou da prisão, agora você é procurado por esse crime e todos os outros que havia cometido anteriormente.</Portuguese>
             <Polish>Uciekłeś z więzienia, dalej jesteś ścigany za poprzednie przestępstwa i dodatkowo za ucieczkę.</Polish>
         </Key>
         <Key ID="STR_Jail_Released">
@@ -4580,7 +4580,7 @@
             <German>Du hast alle deine Fahrzeug-Lizenzen durch fahrlässige Tötung mit einem Fahrzeug verloren.</German>
             <French>Vous avez perdu tout vos permis véhicule pour avoir écrasé quelqu'un.</French>
             <Italian>Hai perso tutte le tue licenze di guida a causa di un omicidio stradale.</Italian>
-            <Portuguese>Você não perdeu suas licenças de motorista por atropelamento.</Portuguese>
+            <Portuguese>Você perdeu sua licença de motorista por atropelamento.</Portuguese>
             <Polish>Straciłeś wszystkie uprawnienia na pojazdy z uwagi na ciągłe zabijanie ludzi pojazdami.</Polish>
         </Key>
         <Key ID="STR_Civ_LicenseRemove_2">
@@ -4591,7 +4591,7 @@
             <German>Du hast deinen Waffenschein wegen Mordes verloren.</German>
             <French>Vous avez perdu votre permis d'armes à feu pour homicide involontaire.</French>
             <Italian>Hai perso il tuo Porto d'Armi a causa di un omicidio</Italian>
-            <Portuguese>Você perdeu suas licenças de porte de arma por cometer homicídio.</Portuguese>
+            <Portuguese>Você perdeu sua licença de porte de arma por cometer homicídio.</Portuguese>
             <Polish>Straciłeś pozwolenie na broń z uwagi na zabijanie ludzi z broni palnej</Polish>
         </Key>
         <Key ID="STR_Civ_RobFail">
@@ -4602,7 +4602,7 @@
             <German>Er hatte kein Geld...</German>
             <French>Il n'a pas d'argent...</French>
             <Italian>Non hai soldi...</Italian>
-            <Portuguese>Eles não tinham nenhum dinheiro..</Portuguese>
+            <Portuguese>Ele não possuia dinheiro algum...</Portuguese>
             <Polish>Nie posiadają żadnych pieniędzy ... </Polish>
         </Key>
         <Key ID="STR_Civ_Robbed">
@@ -4747,7 +4747,7 @@
             <German>Du hast keine echte Zahl eingegeben.</German>
             <French>Vous n'avez pas saisi de nombre.</French>
             <Italian>Non hai inserito un numero correttamente.</Italian>
-            <Portuguese>Você não digitou um número válido</Portuguese>
+            <Portuguese>Você não digitou um número válido.</Portuguese>
             <Polish>Wybrałeś zły numer</Polish>
         </Key>
         <Key ID="STR_Cop_TicketOver100">
@@ -5442,7 +5442,7 @@
             <German>Lagerplatz des Hauses</German>
             <French>Conteneur de stockage</French>
             <Italian>Inventario Casa</Italian>
-            <Portuguese>Cavalos de Força:</Portuguese>
+            <Portuguese>Inventário da casa</Portuguese>
             <Polish>Domowa skrzynka</Polish>
         </Key>
         <Key ID="STR_MISC_VehStorage">

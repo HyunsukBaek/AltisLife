@@ -1,5 +1,5 @@
 _mode = _this select 0;
-_info = [_this,1,-1] call BIS_fnc_param;
+_info = param [1,-1];
 
 switch (_mode) do
 {

@@ -6,7 +6,7 @@
     Handles flash-banging yeahhhh..
 */
 private["_pos","_eyeDir","_pPos","_impactPos","_norm","_angle","_blurEffect","_ppEffect"];
-_pos = [_this,0,[],[[]]] call BIS_fnc_param;
+_pos = param [0,[],[[]]];
 if (_pos isEqualTo []) exitWith {}; //Badddd
 if (player distance _pos > 25) exitWith {}; //Bad again.
 

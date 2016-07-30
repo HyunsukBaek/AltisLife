@@ -7,8 +7,10 @@
     Checks the weapon & adds the price tag.
 */
 private["_control","_index","_shop","_priceTag","_price","_item","_itemArray","_bool"];
-_control = [_this,0,controlNull,[controlNull]] call BIS_fnc_param;
-_index = [_this,1,-1,[0]] call BIS_fnc_param;
+params [
+  ["_control",controlNull,[controlNull]],
+  ["_index",-1,[0]]
+];
 _shop = uiNamespace getVariable ["Weapon_Shop",""];
 if (isNull _control) exitWith {closeDialog 0;}; //Bad data
 if (_index isEqualTo -1) exitWith {}; //Nothing selected

@@ -7,7 +7,7 @@
     Catches a fish that is near by.
 */
 private["_fish","_type","_typeName"];
-_fish = [_this,0,objNull,[objNull]] call BIS_fnc_param;
+_fish = param [0,objNull,[objNull]];
 if (isNull _fish) exitWith {}; //Object passed is null?
 if (player distance _fish > 3.5) exitWith {};
 
