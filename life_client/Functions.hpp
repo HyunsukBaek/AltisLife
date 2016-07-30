@@ -25,18 +25,6 @@ class Life_Client_Core {
         class welcomeNotification {};
     };
 
-    class vAH {
-	file = "core\vAH";
-	class vAH_load;
-	class vAH_buy;
-	class vAH_reciever;
-	class vAH_loadInventory;
-	class vAH_sell;
-	class vAH_checkItem;
-	class vAH_takeBack;
-	class vAH_select;
-    };
-
     class Actions {
         file = "core\actions";
         class arrestAction {};

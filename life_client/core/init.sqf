@@ -156,20 +156,7 @@ if (life_HC_isActive) then {
 } else {
     [getPlayerUID player,player getVariable ["realname",name player]] remoteExec ["life_fnc_wantedProfUpdate",RSERV];
 };
-/* vAH */
-waitUntil {vAH_loaded};
-private["_total","_uid","_toDel"];
-_total = 0;
-_toDel = [];
-_uid = getPlayerUID player;
-{if ((_x select 5 == _uid) && (_x select 7 == 2)) then {_total = _total + (_x select 4);_toDel pushBack (_x select 0)};}forEach all_ah_items;
 
- if (_total > 0) then {
- {[1,_x] remoteExecCall ["TON_fnc_vAH_update",RANY];}forEach _toDel;
-[0,format["While you were offline you sold $%1 worth of items at Fat Tony's Shop",[_total]call life_fnc_numberText]] remoteExecCall ["life_fnc_broadcast",player,RCLIENT];
-BANK = BANK + _total;
-[1] call SOCK_fnc_updatePartial;
-};
 diag_log "----------------------------------------------------------------------------------------------------";
 diag_log format["               End of Altis Life Client Init :: Total Execution Time %1 seconds ",(diag_tickTime) - _timeStamp];
 diag_log "----------------------------------------------------------------------------------------------------";
