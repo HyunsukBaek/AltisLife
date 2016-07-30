@@ -6,10 +6,9 @@
     Handles bool conversion for MySQL since MySQL doesn't support 'true' or 'false'
     instead MySQL uses Tinyint for BOOLEAN (0 = false, 1 = true)
 */
-private["_bool","_mode"];
 params [
   ["_bool",0,[false,0]],
-  ["_multiarr",0,[0]]
+  ["_mode",0,[0]]
 ];
 
 switch (_mode) do {
