@@ -199,7 +199,8 @@ class CarShops {
             { "bv_the_crowner_cop_patrol_interceptor", { "", "", -1 } }, // 인터셉터 경찰차
 			{ "bv_the_crowner_cop_sher", { "", "", -1 } },	//Patrol the Black Sheriff
 			{ "bv_e60_m5_cop_patrol", { "", "", -1 } },	//Patrol 
-			{ "bv_e60_m5_cop_emt", { "", "", -1 } }	//Patrol EMT
+			{ "bv_e60_m5_cop_emt", { "", "", -1 } },	//Patrol EMT
+			{ "Mrshounka_ducati_police_p", { "", "", -1 } }		//Ducati Police
         };
     };
 
@@ -324,7 +325,9 @@ class CarShops {
              { "Mrshounka_Volkswagen_Touareg_bleufonce", { "", "", -1 } },    //폭스바겐 투아렉 4인승 suv
              { "Mrshounka_yamaha_p", { "", "", -1 } },    //야마하 오토바이
              { "Mrshounka_yamaha_p_noir", { "", "", -1 } },    //야마하 오토바이
-             { "dbo_crosser", { "", "", -1 } }    //공격형 오토바이
+             { "dbo_crosser", { "", "", -1 } },    //공격형 오토바이
+			 { "sfp_wheelchair", { "", "", -1 } },    //휠체어
+			 { "Skyline_Bus_01_F", { "", "", -1 } },    //버스
         };
     };
 
@@ -2375,9 +2378,27 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	    };
 
     class dbo_crosser {
-                vItemSpace = 20;
-                licenses[] = { {"driver"}, {""}, {""}, {""} };
-                price = 300000;
-                textures[] = {};
-            };
+		vItemSpace = 20;
+		licenses[] = { {"driver"}, {""}, {""}, {""} };
+		price = 300000;
+		textures[] = {};
+	};
+    class Mrshounka_ducati_police_p {
+		vItemSpace = 50;
+		licenses[] = { {"driver"}, {""}, {""}, {""} };
+		price = 1000000;
+		textures[] = {};
+	};
+    class sfp_wheelchair {
+		vItemSpace = 100;
+		licenses[] = { {"driver"}, {""}, {""}, {""} };
+		price = 50000;
+		textures[] = {};
+	};
+    class Skyline_Bus_01_F {
+		vItemSpace = 300;
+		licenses[] = { {"driver"}, {""}, {""}, {""} };
+		price = 2500000;
+		textures[] = {};
+	};
 };

@@ -220,7 +220,11 @@ class Clothing {
             { "police_pilot_Helmet", "", 150000, { "", "", -1 } },
             { "Kio_Pirate_Hat", "", 150000, { "", "", -1 } },
             { "Kio_Santa_Hat", "", 150000, { "", "", -1 } },
-            { "Kio_Spinning_Hat", "", 150000, { "", "", -1 } }
+            { "Kio_Spinning_Hat", "", 150000, { "", "", -1 } },
+			{ "H_Ajx_HorseMask", "", 150000, { "", "", -1 } },
+			{ "H_Ajx_HorseMask_2", "", 150000, { "", "", -1 } },
+			{ "H_Ajx_HorseMask_blk", "", 150000, { "", "", -1 } },
+			{ "H_Ajx_HorseMask_pnk", "", 150000, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } }
