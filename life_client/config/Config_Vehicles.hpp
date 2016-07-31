@@ -199,8 +199,7 @@ class CarShops {
             { "bv_the_crowner_cop_patrol_interceptor", { "", "", -1 } }, // 인터셉터 경찰차
 			{ "bv_the_crowner_cop_sher", { "", "", -1 } },	//Patrol the Black Sheriff
 			{ "bv_e60_m5_cop_patrol", { "", "", -1 } },	//Patrol 
-			{ "bv_e60_m5_cop_emt", { "", "", -1 } },	//Patrol EMT
-			{ "Mrshounka_ducati_police_p", { "", "", -1 } }		//Ducati Police
+			{ "bv_e60_m5_cop_emt", { "", "", -1 } }	//Patrol EMT
         };
     };
 
@@ -2383,12 +2382,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 		price = 300000;
 		textures[] = {};
 	};
-    class Mrshounka_ducati_police_p {
-		vItemSpace = 50;
-		licenses[] = { {"driver"}, {""}, {""}, {""} };
-		price = 1000000;
-		textures[] = {};
-	};
+
     class sfp_wheelchair {
 		vItemSpace = 100;
 		licenses[] = { {"driver"}, {""}, {""}, {""} };
