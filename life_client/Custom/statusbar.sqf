@@ -15,10 +15,10 @@ systemChat format["Welcome to AOSOUL Life Server", _rscLayer];
 	{
 		sleep 1;
 		_counter = _counter - 1;
-		_statusText = "|";	//Left Message
+		_statusText = "";	//Left Message
 		((uiNamespace getVariable "statusBar")displayCtrl 1000)ctrlSetText format[
-		"%7 | FPS: %1 | Cop : %2 | Medic : %3 | Civ: %4 | Cash: %5 | Bank: %6", 
-		round diag_fps, west countSide playableUnits, independent countSide playableUnits, civilian countSide playableUnits, [CASH] call life_fnc_numberText,[BANK] call life_fnc_numberText, _statusText, _counter];
+		"%6 | Cop : %1 | Medic : %2 | Civ: %3 | Cash: %4 | Bank: %5", 
+		west countSide playableUnits, independent countSide playableUnits, civilian countSide playableUnits, [CASH] call life_fnc_numberText,[BANK] call life_fnc_numberText, _statusText, _counter];
 	}; 
 	uiSleep 20;
 
