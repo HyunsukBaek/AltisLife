@@ -38,4 +38,4 @@ ArmaLife is a GitHub project which aims to update and keep adding new features t
 * If not, but you can setup your own server then you can help us test the build for bugs, exploits, security and performance issues. 
 
 ## Contact
-If you need to chat with us in real-time then you can do so on [our Discord server](https://discordapp.com/invite/0z4k0hcAcvMl2SQx) or on Gitter in our [development chatroom](https://gitter.im/ArmaLife/Framework) or [support chatroom](https://gitter.im/ArmaLife/Framework/Support). Please note that the development chatroom is for discussing changes with the mission and the support chatroom is for issues not related to the current build. 
+If you need to chat with us in real-time then you can do so on [our Discord server](https://discordapp.com/invite/0z4k0hcAcvMl2SQx) or on Gitter in our [development chatroom](https://gitter.im/ArmaLife/Framework) or [support chatroom](https://gitter.im/ArmaLife/Framework/Support). Please note that the development chatroom is for discussing changes with files on the repository whereas the support chatroom is for issues not related to the current build. 
