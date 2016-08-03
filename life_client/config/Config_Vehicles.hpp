@@ -116,6 +116,7 @@ class CarShops {
             { "B_MRAP_01_F", { "", "", -1 } },
             { "O_Truck_03_medical_F", { "", "", -1 } },
             ///// addon
+			{ "bv_e60_m5_cop_emt", { "", "", -1 } },	//Patrol EMT
             { "shounka_nemo_pompier", { "", "", -1 } }, // 귀여운 사각2인
             { "shounka_a3_pompier_sprinter", { "", "", -1 } }, // 벤츠 스프린터 기부자용
 			{ "bv_the_crowner_cop_emt", { "", "", -1 } }	//경찰차 비슷한 빨간차
@@ -198,8 +199,7 @@ class CarShops {
             { "bv_the_crowner_uc", { "", "", -1 } }, //Patrol The Black Crowner
             { "bv_the_crowner_cop_patrol_interceptor", { "", "", -1 } }, // 인터셉터 경찰차
 			{ "bv_the_crowner_cop_sher", { "", "", -1 } },	//Patrol the Black Sheriff
-			{ "bv_e60_m5_cop_patrol", { "", "", -1 } },	//Patrol 
-			{ "bv_e60_m5_cop_emt", { "", "", -1 } }	//Patrol EMT
+			{ "bv_e60_m5_cop_patrol", { "", "", -1 } }	//Patrol
         };
     };
 
