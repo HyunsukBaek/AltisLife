@@ -6,7 +6,7 @@
     Updates ALL player information in the database.
     Information gets passed here from the client side file: core\session\fn_updateRequest.sqf
 */
-/* 예전버전 정상 저장 가능
+//예전 버전
 private["_uid","_side","_cash","_bank","_licenses","_gear","_stats","_name","_alive","_position","_query","_thread"];
 _uid = [_this,0,"",[""]] call BIS_fnc_param;
 _name = [_this,1,"",[""]] call BIS_fnc_param;
@@ -18,7 +18,6 @@ _gear = [_this,6,[],[[]]] call BIS_fnc_param;
 _stats = [_this,7,[100,100],[[]]] call BIS_fnc_param;
 _alive = [_this,9,0,[0]] call BIS_fnc_param;
 _position = [_this,10,[],[[]]] call BIS_fnc_param;
-*/
 
 /* New version (버그 있음) 버그 픽스 기다려야함 ㅠㅠ
 params [
