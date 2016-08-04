@@ -4,6 +4,8 @@
 	Created by Blacklistgaming.org
         Coder: PapaBear
 */
+if(life_atmbank > 9999999) exitWith {hint "통장에 1천만원 이상 가진 유저는 사용할 수 없습니다."};
+if(life_cash > 999999) exitWith {hint "현금 1백만원 이상 가진 유저는 사용할 수 없습니다."};
 
 if(!dialog) then {
 	createDialog "BlackjackGUI";
