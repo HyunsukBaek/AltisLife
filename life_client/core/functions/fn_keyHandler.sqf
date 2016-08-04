@@ -493,7 +493,7 @@ switch (_code) do {
 	};
 	
 	//A2댄스3 Shift + Num4
-	case 82:
+	case 75:
 	{
 		if(_shift) then {_handled = true;};
 		if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
@@ -505,7 +505,7 @@ switch (_code) do {
 	};
 	
 	//City 댄스1 Shift + Num5
-	case 83:
+	case 76:
 	{
 		if(_shift) then {_handled = true;};
 		if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
@@ -517,7 +517,7 @@ switch (_code) do {
 	};
 	
 	//City 댄스2 Shift + Num6
-	case 84:
+	case 77:
 	{
 		if(_shift) then {_handled = true;};
 		if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
@@ -529,7 +529,7 @@ switch (_code) do {
 	};
 	
 	//City 목긋기 Shift + Num7
-	case 85:
+	case 71:
 	{
 		if(_shift) then {_handled = true;};
 		if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
@@ -541,7 +541,7 @@ switch (_code) do {
 	};
 	
 	//City 손가락 욕 Shift + Num8
-	case 86:
+	case 72:
 	{
 		if(_shift) then {_handled = true;};
 		if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
