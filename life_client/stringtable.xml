@@ -813,15 +813,15 @@
             <Polish>Anulowano akcję</Polish>
         </Key>
         <Key ID="STR_NOTF_PlaceContainer">
-            <Original>Hit spacebar to place the container.</Original>
-            <Czech>Hit mezerníku na místo Kontejner.</Czech>
-            <French>Appuyez sur espace pour placer le conteneur.</French>
-            <Spanish>Aprieta la barra de espacio para colocar el Contenedor.</Spanish>
-            <Italian>Premi barra spaziatrice per posizionare il contenitore.</Italian>
-            <Polish>Hit spacji, aby umieścić pojemnik.</Polish>
-            <Portuguese>Pressione a barra de espaço para posicionar.</Portuguese>
-            <Russian>Хит пробел, чтобы поместить контейнер.</Russian>
-            <German>Leertaste drücken, um den Container zu platzieren.</German>
+            <Original>Hit spacebar to place the container or ESC to stop preview.</Original>
+            <Czech>Hit mezerníku na místo Kontejner, ESC pro zastavení náhledu.</Czech>
+            <French>Appuyez sur espace pour placer le conteneur ou ESC pour arrêter de placer le conteneur.</French>
+            <Spanish>Aprieta la barra de espacio para colocar el Contenedor, ESC para la parada de previsualización.</Spanish>
+            <Italian>Premi barra spaziatrice per posizionare il contenitore, ESC per arresto anteprima.</Italian>
+            <Polish>Hit spacji, aby umieścić pojemnik, ESC do podglądu zatrzymania.</Polish>
+            <Portuguese>Pressione a barra de espaço para posicionar, ESC para visualização parada.</Portuguese>
+            <Russian>Хит пробел, чтобы поместить контейне, ESC для остановки предварительного просмотра.</Russian>
+            <German>Leertaste drücken, um den Container zu platzieren. ESC zum Beenden der Vorschau.</German>
         </Key>
         <Key ID="STR_NOTF_notAllowed">
             <Original>Your faction is not allowed to chop vehicles!</Original>

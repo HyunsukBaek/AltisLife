@@ -50,6 +50,14 @@ if (life_container_active) then {
         case 57: {
             [] spawn life_fnc_placestorage;
         };
+        //ESC key
+        case 1: {
+            if (!life_container_active || life_container_activeObj isEqualTo objNull || !((typeOf life_container_activeObj) in ["B_supplyCrate_F","Box_IND_Grenades_F"])) exitWith {};
+            detach life_container_activeObj;
+            deleteVehicle life_container_activeObj;
+            life_container_active = false;
+            life_container_activeObj = objNull;
+        };
     };
     true;
 };
