@@ -13739,7 +13739,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_7";
-						description="WhiteListed - Cop 7";
+						description="OPEN - Cop 7";
 						isPlayable=1;
 					};
 					id=775;
@@ -13783,7 +13783,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_8";
-						description="WhiteListed - Cop 8";
+						description="OPEN - Cop 8";
 						isPlayable=1;
 					};
 					id=776;
@@ -13828,7 +13828,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_9";
-						description="WhiteListed - Cop 9";
+						description="OPEN - Cop 9";
 						isPlayable=1;
 					};
 					id=8682;
