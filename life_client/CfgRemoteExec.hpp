@@ -173,6 +173,7 @@ class CfgRemoteExec {
         F(addPrimaryWeaponItem,ANYONE)
         F(addWeapon,ANYONE)
         F(setFuel,ANYONE)
-	F(call,ANYONE)
+		F(call,ANYONE)
+        F(enableSimulationGlobal,ANYONE)
     };
 };

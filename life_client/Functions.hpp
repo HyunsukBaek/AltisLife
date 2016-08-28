@@ -250,7 +250,6 @@ class Life_Client_Core {
         class lockupHouse {};
         class placeContainer {};
         class PlayerInBuilding {};
-        class raidHouse {};
         class sellHouse {};
     };
 

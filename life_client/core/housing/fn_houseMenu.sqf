@@ -60,14 +60,6 @@ if (_curTarget isKindOf "House_F" && playerSide isEqualTo west) exitWith {
             _Btn2 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_copBreakDoor; closeDialog 0;";
             _Btn2 ctrlShow true;
 
-            _Btn3 ctrlSetText localize "STR_pInAct_SearchHouse";
-            _Btn3 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_raidHouse; closeDialog 0;";
-            _Btn3 ctrlShow true;
-
-            if (player distance _curTarget > 3.6) then {
-                _Btn3 ctrlEnable false;
-            };
-
             _Btn4 ctrlSetText localize "STR_pInAct_LockHouse";
             _Btn4 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_lockupHouse; closeDialog 0;";
             _Btn4 ctrlShow true;
