@@ -5,13 +5,36 @@
     Description:
     Marks cops on the map for other cops. Only initializes when the actual map is open.
 */
-private["_markers","_cops"];
 _markers = [];
 _cops = [];
+_units = [];
+
+//Check if medics (indep) are in the room. -fn_requestMedic.sqf
+_medicsOnline = {_x != player && {side _x isEqualTo independent} && {alive _x}} count playableUnits > 0;
+
 
 sleep 0.5;
 if (visibleMap) then {
     {if (side _x isEqualTo west) then {_cops pushBack _x;}} forEach playableUnits; //Fetch list of cops / blufor
+
+    // Check to see if medics are online else create dead markers. -Raid
+    if (!_medicsOnline) then {
+        {
+            _name = _x getVariable "name";
+            _down = _x getVariable ["Revive",false];
+            if (!isNil "_name" && !_down) then {
+                _units pushBack _x;
+            };
+        } forEach allDeadMen;
+        //Loop through and create markers.
+        {
+            _marker = createMarkerLocal [format["%1_dead_marker",_x],visiblePosition _x];
+            _marker setMarkerColorLocal "ColorRed";
+            _marker setMarkerTypeLocal "loc_Hospital";
+            _marker setMarkerTextLocal format["%1",(_x getVariable ["name","Unknown Player"])];
+            _markers pushBack _marker;
+        } forEach _units;
+    };
 
     //Create markers
     {
