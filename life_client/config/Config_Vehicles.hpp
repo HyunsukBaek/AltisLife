@@ -211,7 +211,6 @@ class CarShops {
             { "B_Heli_Transport_01_F", { "", "", -1 } },
             { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
             { "I_Heli_Transport_02_F", { "", "", -1 } },
-            { "O_Heli_Transport_04_F", { "", "", -1 } },
             { "police_heavy_heli", { "", "", -1 } },// 경찰 오르카//애드온
             { "I_Heli_light_03_F", { "life_coplevel", "SCALAR", 4 } },
             { "O_Heli_Light_02_v2_F", { "life_coplevel", "SCALAR", 4 } },
