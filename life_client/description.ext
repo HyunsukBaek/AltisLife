@@ -8,7 +8,10 @@
 //6 = System
 
 disableChannels[]={{0,true,true},{2,true,true}};  
-
+enableDebugConsole = 0;
+//0 = Default behavior, available only in editor
+//1 = Available in SP and for hosts / logged in admins
+//2 = Available for everyone
 
 #include "config\Config_Spyglass.hpp"
 #include "CfgRemoteExec.hpp"
