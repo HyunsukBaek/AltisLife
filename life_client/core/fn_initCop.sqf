@@ -21,14 +21,6 @@ if (FETCH_CONST(life_coplevel) < 1 ) exitWith {
     sleep 30;
 };
 
-if (!(str(player) in ["cop_7","cop_8","cop_9"])) then {
-    if ((FETCH_CONST(life_coplevel)) < 2 ) then {
-        ["NotWhitelisted",false,true] call BIS_fnc_endMission;
-        sleep 30;
-    };
-};
-
-
 player setVariable ["rank",(FETCH_CONST(life_coplevel)),true];
 [] call life_fnc_spawnMenu;
 waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be open.
