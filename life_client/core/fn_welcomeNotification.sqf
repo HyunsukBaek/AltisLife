@@ -29,7 +29,7 @@ _message = _message + "<t align='center' size='8' shadow='0'><img image='texture
 _message = _message + "Welcome to AoSoul 24h Life Mod Server!!!<br />";
 _message = _message + " <a href='http://cafe.naver.com/alflrss' color='#56BDD6'>AOSOUL Life Homepage 클릭!!</a> <br />위의 카페링크 클릭하여 가입하시고 규칙 및 공지사항 확인하세요.<br />";
 _message = _message + "AOS  와  SoulFucker 서버가 하나가 되었습니다. 자세한 사항은 공지사항 참고!  <br /><br />아프리카 TV  http://afreeca.com/mixkorea <br /><br />";
-_message = _message + "저희 서버는 애드온Free!! 를 지향하며 24시간 운영됩니다.  <br /> 물건줍기가 잘 안되시면 window키 + T또는 shift +T 누른 후 1인칭 모드로 물건을 바라보며 재시도해보세요<br /><br/> This mod based on Altis life lastest version";
+_message = _message + "steam workshop에서  AOSOUL 을 검색하신 뒤 구독해주세요. (애드온 적용). <br /> 본 서버는 365일  24시간 운영됩니다.  <br /> 물건줍기가 잘 안되시면 window키 + T또는 shift +T 누른 후 1인칭 모드로 물건을 바라보며 재시도해보세요<br /><br/> 곡 접속하세요!! 팀스피크 TS3 = aosoul.net   password : 51234";
 
 //Fill only the first text
 _text1 ctrlSetStructuredText (parseText _message);

@@ -1,13 +1,15 @@
 waitUntil {!isNull player && player isEqualTo player};
 if (player diarySubjectExists "controls") exitWith {};
 
-player createDiarySubject ["credits","Credits"];
-player createDiarySubject ["changelog","Change Log"];
-player createDiarySubject ["serverrules","General Rules"];
+player createDiarySubject ["credits","Intro"];
+player createDiarySubject ["changelog","History"];
+player createDiarySubject ["serverrules-KOR","General Rules"];
+player createDiarySubject ["serverrules-ENG","General Rules"];
+player createDiarySubject ["serverrules-JPN","General Rules"];
 player createDiarySubject ["policerules","Police Procedures/Rules"];
 player createDiarySubject ["safezones","Safe Zones (No Killing)"];
 //player createDiarySubject ["civrules","Civilian Rules"];
-player createDiarySubject ["illegalitems","Illegal Activity"];
+//player createDiarySubject ["illegalitems","Illegal Activity"];
 //player createDiarySubject ["gangrules","Gang Rules"];
 //player createDiarySubject ["terrorrules","Terrorism Rules"];
 player createDiarySubject ["controls","Controls"];
@@ -27,37 +29,37 @@ TEXT HERE<br/><br/>
 		[
 			"AOSoul",
 				"
-					ArmaLife is a GitHub project which aims to update and keep adding new features to the original 'Altis Life RPG' by Tonic.<br/><br/>
+<br/>이 서버는 국내 최대, 최고의 아르마3 라이프 RPG모드입니다. <br/>
+데이터가 저장되며 365일 24시간 운영을 원칙으로 합니다. <br/><br/>
+
+2016년 2월 오픈부터 정식 오픈 한 이후로 현재 8월 까지 6개월 넘는 기간 동안 (베타기간을 제외) <br/> 
+단 한번의 백섭 또는 서버 데이터 초기화한 적이 없으며 서버 비 운영 시간이 6개월동안 총합 1주일이 되지 않습니다. <br/>
+국내 간헐적으로 생기는 타 라이프 모드보다 안정성, 유지보수성 그리고 컨텐츠의 다양성이 훨씬 높다 자부합니다. <br/>
+또한 탄탄한 관리자 및 유저분들 덕분에 그 어떤 서버보다 내실있게 꾸준히 운영되고 있습니다. <br/><br/>
+
+PVP, 저격질, 장비질 보단 상황에 따른 역할극(RPG)을 플레이하는 LIFE서버입니다. (pvp 아닙니다!!)<br/>
+누군가를 사살하거나 강도짓을 할 때, 그에 따른 상황을 만들어야지만 제재받지 아니합니다.<br/>
+제 2의 라이프를 본 서버에서 느끼며 재미와 힐링하는 시간 가지길 바랍니다. <br/>
+유머게시판에  재밌는 RP플레이 영상있으니 참고하세요<br/><br/>
 				"
 		]
 	];
 
     player createDiaryRecord["changelog",
         [
-            "Altis Life Changelog",
+            "AOSoul Life",
                 "
-The official changelog can be found in ArmaLife github. https://git.io/vVkhe<br/><br/>
-v4.4 release 3!<br/>
-By: danielstuart14<br/>
-Date: 31. May 2016<br/><br/>
-v4.4 release 2!<br/>
-By: danielstuart14<br/>
-Date: 20. March 2016<br/><br/>
-v4.4 release 1!<br/>
-By: danielstuart14<br/>
-Date: 12. February 2016<br/><br/>
-v4.3 release 4!<br/>
-By: danielstuart14<br/>
-Date: 31. January 2016<br/><br/>
-v4.3 release 3!<br/>
-By: danielstuart14<br/>
-Date: Not released<br/><br/>
-v4.3 release 2!<br/>
-By: danielstuart14<br/>
-Date: 22. January 2016<br/><br/>
-v4.3 release 1!<br/>
-By: danielstuart14<br/>
-Date: 19. January 2016<br/><br/>
+홈페이지 http://cafe.naver.com/alflrss<br/><br/>
+2016.2 Soul Life 오픈<br/>
+2016.3 국내 최대 IDC로 서버 영구임대 <br/>
+2016.4 최고 동시접속인원 70명 돌파<br/>
+2016.4 휴식기에 있던 AOS 서버( 2년의 운영 노하우) 와 합병하여 AOS + Soul 의 합성어인 The AOSoul Life 로 카페/서버 통합<br/>
+2016.5 최고 동접 80명 돌파 <br/>
+2016.6 서버 업그레이드<br/>
+2016.6 테스크포스 애로우헤드 라디오(TFAR) 애드온 도입 <br/>
+2016.7 기부자 모집 및 애드온 적용 <br/>
+2016.7 특별 사면 <br/>
+2016.7 서버접속 GUID 5000명 돌파<br/><br/>
                 "
         ]
     ];
@@ -71,20 +73,95 @@ This section is meant for people doing their own edits to the mission, DO NOT RE
         ]
     ];
 
-        player createDiaryRecord ["serverrules",
+	player createDiaryRecord ["serverrules-KOR",
         [
-            "Exploits",
+            "server rule - Korean",
                 "
-These are considered exploits, and you will not be kicked, but banned.<br/><br/>
-1. Getting out of jail via any method other than paying bail or escaping via helicopter.<br/>
-2. Killing yourself to get out of roleplay. Getting out of being tazed, restrained, arrested, jail, etc. If the log shows you got arrested, then you died, you will be banned. Do not pay bail and kill yourself for an easy ride home. Walk you lazy turd.<br/>
-3. Duping items and/or money. If someone sends you an unobtainable amount of money right at the start of the game, report to an admin IMMEDIATELY and transfer said money to an admin. Do this ASAP or an admin could ban you if they see that much on you without question.<br/>
-4. Using clearly hacked items. If a hacker comes in and spawns unobtainable items, you could be banned for using said items. Report the items to the admins immediately and stay away from them.<br/>
-5. Abusing bugs or game mechanics for gain. Is there a replicating gun somewhere? Report it and leave it alone. If an admin catches you abusing the glitch, ban.<br/><br/>
+서버 공통 규칙<br/><br/>
+아래 사항을 위반 시 1차 경고 - 2차   1일~7일 밴  - 3차 영구밴 입니다.  <br/>
+1. 기본적인 매너가 부족한 사람, 서버운영에 방해된다고 판단되는 사람은 어드민이 제재할 수 있습니다. <br/>
+2. 핵사용 및 어뷰징 (버그 악용 행위 ) 바로 3차 처리. <br/>
+3. SIDE CHANNEL로 보이스/비매너챗  <br/>
+4. 경찰한테 체포/도주 시 고의 Disconnect<br/>
+5. NON RP 살인 (2차 영구 밴)<br/>
+6. 유저간 대화창에서 분쟁/비매너 채팅 시 --> 유저간 불만/건의사항은 증빙자료와 함께 비매너/건의 게시판 등록 <br/>
+7. Administrator, User 등의 닉네임 사용 ( 1차 킥 ) <br/>
+8. 밴딧만을 주 목적으로 하는 유저, 뉴비에게 강도질하는 유저는 [RP여부 상관없이] 제재될 수 있음<br/>
+9. 위험지역에서는 경찰 VS 시민(갱) 존재 자체로 RP 인정되며 사살/교전 가능합니다. 그러나 불법행위를 걸려서 체포당하고 벌금내시는것이, 경찰을 사살하시는것보단 라이프 서버에서 플레이하시기 수월하실것이기에 이 방법을 추천드립니다. ( 불법행위 체포-벌금이 경찰살인 죄 벌금보다 적습니다. 경찰 살인죄의 경우 벌금을 더 높이도록 하겠습니다.) 경찰 살인 시 자동으로 수배 목록에 경찰살인 으로 들어가며 공소시효는 아직 무기한입니다. <br/><br/>
+10. 위험지역에서 갱전쟁 선포된 갱끼리는 RP 없이 사살/교전 가능하나, 일반 시민끼리는 RP가 당연히 필요합니다. <br/>
+11. Battle zone 에서는 어떠한 RP 없이 사살가능합니다. <br/>
+12. 세이프존 내에서 (딱밤때리기, 강도, 살인, 로드킬)등 모든 범죄행위 불가능합니다. 세이프존은 말그대로 세이프존입니다. (위반 시 킥 되시며 경고1회 부여합니다) 경고 누적시 밴처리 <br/>
+13. 시민들은 세이프존 상공위를 경찰의 허가없이 비행할 수 없습니다. ( 메딕은 구조활동에만 가능합니다.)<br/>
+14. 세이프존 상공 미허가 운행시 경고없이 사격, 격추될 수 있습니다. 그 어떠한 피해는 보상받지 아니합니다.<br/>
+15. 세이프존 내에 있는 에어가라지 사용시 이착륙만 허가합니다. 에어가라지에서 헬기 소환시 즉시 세이프존을 이탈하여야합니다. <br/>
+16,. 위 사항에 대하여 신고당할 시 이유 불문하고 - 경고 - 1~7일밴 - 영구밴 처리합니다. <br/>
+ 뉴비 기준 : 서버 접속 시간 10시간 이내, 가방 없이 기본 복장인경우(뉴비로 취급)<br/>
+ 비 뉴비 기준 : 60만원 보다 비싼 차량 보유시, 은행 잔고00만원 이상 시, 반군 총 들고 있을 시<br/><br/>
                 "
         ]
     ];
 
+	player createDiaryRecord ["serverrules-ENG",
+        [
+            "server rule - English",
+                "
+Violations of these rules 1st. Warning - 2nd. 1Week Ban - 3rd. Permanent Ban<br/><br/>
+ People lacking basic manners, People believe that interferes with server operating <br/>
+ Use Hack and Abusing (Bug Abuse acts) is Permanent Ban<br/>
+ Use Voice in Side Channel and no manners chat in Side Channel<br/>
+ When arrested / escape the cops intentional Disconnect<br/>
+ NON RP murder (1st. Warning or 1Week Ban 2nd. Permanent Ban )<br/><br/>
+
+1.	If the police officer have lights and sirens on, you must stop your vehicle. Disobeying the officer could result in getting arrested and even shot in illegal/dangerous areas. <br/>
+2.	Possession of illegal weaponry will result in fines and impoundment. (Illegal weaponry refers to ALL weapons apart from pistols and PDW<br/>
+3.	Trespassing police station is strictly illegal. Violation for the 1st, 2nd, and 3rd time will result in fine, arrest/imprisonment, server ban respectively.<br/>
+4.	Repeating same criminal activity within 10 min after being arrested or killed for engaging in the criminal activity will result in penalties from the server admin <br/>
+5.	Robbery/Murder/Kidnapping/Use of Drugs/Theft/Assault as a part of RP will result in Arrest/Fine/Imprisonment<br/>
+6.	Intentional run-overs by vehicle (or roadkill) will be penalized. Violation for the 1st and 2nd time will result in warning (including arrest/fine) and server kick/ban respectively (yet, it is allowed if part of self-defense in certain situations)<br/>
+7.	Not holstering pistol or holding a rifle in the back will result in arrest/fine<br/>
+8.	Purposefully throwing yourself in front of vehicles to get killed or hurt will be penalized. Violation for the 1st and 2nd time will result in arrest/imprisonment and admin-side action respectively <br/>
+9.	Rules on illegal/dangerous areas : Drug fields / Gang areas / Rebel Outpost / Drug Dealers / Turtle Dealer / Gold Bar Buyer <br/>
+- 	Players could be arrested or searched without any prior warning in areas mentioned above<br/>
+o	Disobeying officers may get you shot at and killed in areas mentioned above<br/>
+o	Gun fights may occur in these areas, yet they will be considered as RP<br/>
+o	Players could be subjected to various penalties including fines, arrest, and impoundment.<br/>
+o	Players with the sole purpose of playing as rebels may be penalized.<br/>
+o	All weaponry/drugs will be taken away when arrested in drug-related areas. Expect to be given tickets as well. <br/>
+10.	Taking police/medic vehicle in police stations/hospitals is forbidden. They, however, can be taken as a RP when parked outside aforementioned areas. Violation for the 1st, 2nd, and 3rd time will result in warning, 1-week ban, and permanent ban respectively. <br/><br/>
+                "
+        ]
+    ];
+
+	
+	player createDiaryRecord ["serverrules-JPN",
+        [
+            "server rule - Japanese",
+                "
+この サーバーは arma3 LIFE RPG モード です。<br/>
+データは保存され、365日24時間運営しています。<br/>
+状況に応じた 役割劇(RP と呼びます) をプレイするLIFEサーバーです。<br/>
+誰かを射殺したり、強盗をするときは、それに伴う状況を作らなければなりません。<br/>
+AOSoul serverで楽しんで遊んでください！<br/><br/><br/>
+サーバ 共通のルール*<br/>
+以下の注意事項を破ると<br/>
+1回目　警告 2回目 1週間 ban 3回目 永遠 ban<br/>
+上記のペナルティが課せられます。<br/><br/>
+1.基本的なマナーを守れない人、サーバーの運営を妨害する人は、運営陣で判断した後、BANされます。<br/>
+2.チートツール使用と、バグを悪用した人は、永久BANされます。 <br/>
+3.SIDE CHANNELでのボイスチャット/マナーの守れていないチャット (SIDE CHANNELではチャットは可能ですが、マイクを使用しないでください)<br/>
+4.警察からの逃走中・連行中の意図的なDissconect<br/>
+5.警告なしの無差別殺人(2回目で永久BAN)<br/>
+6.ユーザー間での、非マナーチャット <br/>
+7. Administrator,User等のニックネームを使用すると、kickされる恐れがあります。<br/>
+8.殺人/強盗だけを目的とするユーザ・新規ユーザーを狙って強盗するユーザはkickされることがあります。<br/>
+9.SAFE ZONEでの轢殺・ミスの場合は、当事者間で解決してください。<br/>
+10.SAFE ZONEでの強盗は、新規ユーザーを除いて可能です。<br/>
+11.危険地域では、警察vs市民(ギャング)のRDMが許可されています。<br/>
+12.危険地域でのギャング戦争は、宣言したギャング同士のみ、RDMが可能です<br/>
+13.BATTLE ZONEではいかなる場合でも、RDMが可能です。<br/><br/>
+                "
+        ]
+    ];
     player createDiaryRecord["safezones",
         [
             "Safe Zones",
