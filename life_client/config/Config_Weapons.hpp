@@ -202,6 +202,7 @@ class WeaponShops {
             { "hgun_ACPC2_F", "Handgun acpc2", 85000, 650 },
             { "hgun_Pistol_heavy_02_F", "", 65000, 500 },
             { "HandGrenade_Stone", "Flashbang", 37000, 1000 },
+            { "SmokeShellRed", "TearGas", 40000, 1000 },
             { "Laserdesignator", "", 130000, 980 },
             { "SMG_01_F", "FlareGun", 200000, 2000 }
         };
