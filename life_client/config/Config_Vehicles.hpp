@@ -64,6 +64,8 @@ class CarShops {
             { "C_Plane_Civil_01_F", { "", "", -1 } },
             { "B_T_VTOL_01_infantry_F", { "", "", -1 } }, //black fish 36인용
             { "B_T_VTOL_01_vehicle_F", { "", "", -1 } }, //black fish 36인용
+            { "O_Heli_Attack_02_F", { "", "", -1 } }, //카이만
+            { "O_Plane_CAS_02_F", { "", "", -1 } }, //네오프론
             { "C_Plane_Civil_01_racing_F", { "", "", -1 } }, //Caesar BTT 타노아 경비행기
             { "sab_ultralight", { "", "", -1 } }        //addon // 경비행기 1인승
         };
@@ -76,6 +78,7 @@ class CarShops {
             { "C_Scooter_Transport_01_F", { "", "", -1 } },
             { "C_Boat_Civil_01_F", { "", "", -1 } },
             { "B_SDV_01_F", { "", "", -1 } },
+            { "I_C_Boat_Transport_02_F", { "", "", -1 } },
             { "B_CBS_WaterShadow730_F", { "", "", -1 } }    //addon
         };
     };
@@ -212,12 +215,13 @@ class CarShops {
             { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
             { "I_Heli_Transport_02_F", { "", "", -1 } },
             { "police_heavy_heli", { "", "", -1 } },// 경찰 오르카//애드온
+            { "B_T_VTOL_01_vehicle_F", { "", "", -1 } }, //black fish 36인용 차량수송용
             { "I_Heli_light_03_F", { "life_coplevel", "SCALAR", 4 } },
             { "O_Heli_Light_02_v2_F", { "life_coplevel", "SCALAR", 4 } },
             { "B_Heli_Light_01_armed_F", { "life_coplevel", "SCALAR", 5 } },
             { "B_Heli_Attack_01_F", { "life_coplevel", "SCALAR", 5 } },
             { "O_Heli_Attack_02_black_F", { "life_coplevel", "SCALAR", 5 } },
-            { "B_T_VTOL_01_vehicle_F", { "", "", -1 } }, //black fish 36인용 차량수송용
+            { "B_Plane_CAS_01_F", { "life_coplevel", "SCALAR", 5 } },
             { "B_UAV_01_F", { "life_donorlevel", "SCALAR", 1 } }
         };
     };
@@ -569,7 +573,7 @@ class LifeCfgVehicles {
     class O_Heli_Light_02_F { // ORCA ARMED
         vItemSpace = 200;
         licenses[] = { {""}, {"cAir"}, {""}, {""} };
-        price = 12000000;
+        price = 13000000;
         textures[] = {
             { "Desert Digi", "reb", {"\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"} }
         };
@@ -578,7 +582,21 @@ class LifeCfgVehicles {
     class O_Heli_Attack_02_black_F {
          vItemSpace = 200;
          licenses[] = { {""}, {"cAir"}, {""}, {""} };
-         price = 1000000;
+         price = 2000000;
+         textures[] = {};
+    };
+
+    class B_Plane_CAS_01_F {
+         vItemSpace = 200;
+         licenses[] = { {""}, {"cAir"}, {""}, {""} };
+         price = 5000000;
+         textures[] = {};
+    };
+
+    class O_Heli_Attack_02_F {
+         vItemSpace = 200;
+         licenses[] = { {""}, {"cAir"}, {""}, {""} };
+         price = 41000000;
          textures[] = {};
     };
 
@@ -788,6 +806,14 @@ class LifeCfgVehicles {
         licenses[] = { {""}, {"cg"}, {""}, {""} };
         price = 200000;
         textures[] = { };
+    };
+
+
+    class I_C_Boat_Transport_02_F {
+        vItemSpace = 220;
+        licenses[] = { {"boat"}, {"cg"}, {""}, {""} };
+        price = 1050000;
+        textures[] = {};
     };
 
     class C_Offroad_01_F {
@@ -1097,7 +1123,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class B_Heli_Attack_01_F { // BLACKFOOT
         vItemSpace = 150;
         licenses[] = { {""}, {""}, {""}, {""} };
-        price = 2155000;
+        price = 4155000;
         textures[] = {};
     };
 
@@ -1283,7 +1309,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vItemSpace = 60;
         vFuelSpace = 250000;
         licenses[] = { {""}, {""}, {""}, {""} };
-        price = 1000000;
+        price = 65000000;
     };
 
     class B_UAV_01_F {
@@ -2347,16 +2373,16 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class B_T_VTOL_01_vehicle_F {
          vItemSpace = 550;
          licenses[] = { {""}, {""}, {""}, {""} };
-         price = 42000000;
+         price = 37000000;
          textures[] = {};
     };
 
     class bv_gtr_spec_v_cop_patrol {
-            vItemSpace = 50;
-            licenses[] = { {"driver"}, {""}, {""}, {""} };
-            price = 500000;
-            textures[] = {};
-        };
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 500000;
+        textures[] = {};
+    };
     class bv_caressa_gt_cop_patrol : bv_gtr_spec_v_cop_patrol{};
     class bv_458_cop_patrol : bv_gtr_spec_v_cop_patrol{};
     class bv_shelly_cop_patrol : bv_gtr_spec_v_cop_patrol{};

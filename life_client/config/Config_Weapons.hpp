@@ -54,7 +54,8 @@ class WeaponShops {
             { "LMG_Mk200_F", "", 450000, 2000 },
             { "srifle_DMR_05_hex_F", "cyrus(DLC)", 530000, 2000 },//cyrus
             { "arifle_CTAR_hex_F", "", 530000, 2000 },//CAR
-            { "launch_RPG32_F", "", 990000, 2000 }
+            { "launch_RPG32_F", "", 990000, 2000 },
+            { "launch_RPG7_F", "RPG7(tanoa)", 990000, 2000 }
         };
         mags[] = {
             { "20Rnd_556x45_UW_mag", "UNDER WATER 20EA", 50000 }, //SDAR, TRG20
@@ -71,7 +72,8 @@ class WeaponShops {
             { "30Rnd_580x42_Mag_F", "", 100000 },//CAR
             { "30Rnd_580x42_Mag_Tracer_F", "", 100000 },//CAR
             { "RPG32_F", "", 100000 },
-            { "RPG32_HE_F", "", 100000 }
+            { "RPG32_HE_F", "", 100000 },
+            { "RPG7_F", "", 100000 }
         };
         accs[] = {
             { "optic_ACO_grn", "", 35000 },

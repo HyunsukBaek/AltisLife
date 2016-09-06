@@ -46,3 +46,23 @@ C_Scooter_Transport_01_F
 
 //RHIB
 I_C_Boat_Transport_02_F
+
+
+this addItemToBackpack "RPG7_F";
+
+comment "Add weapons";
+this addWeapon "launch_RPG7_F";
+
+comment "Add items";
+
+comment "Set identity";
+this setFace "WhiteHead_06";
+this setSpeaker "Male01GRE";
+
+
+
+for "_i" from 1 to 2 do {this addItemToBackpack "RPG7_F";};
+
+comment "Add weapons";
+this addWeapon "launch_RPG7_F";
+
