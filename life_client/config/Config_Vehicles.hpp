@@ -67,7 +67,8 @@ class CarShops {
             { "O_Heli_Attack_02_F", { "", "", -1 } }, //카이만
             { "O_Plane_CAS_02_F", { "", "", -1 } }, //네오프론
             { "C_Plane_Civil_01_racing_F", { "", "", -1 } }, //Caesar BTT 타노아 경비행기
-            { "sab_ultralight", { "", "", -1 } }        //addon // 경비행기 1인승
+            { "sab_ultralight", { "", "", -1 } },        //addon // 경비행기 1인승
+            { "R_HotairBalloon", { "", "", -1 } }        //addon // 열기구
         };
     };
 
@@ -123,7 +124,7 @@ class CarShops {
             { "shounka_nemo_pompier", { "", "", -1 } }, // 귀여운 사각2인
             { "shounka_a3_pompier_sprinter", { "", "", -1 } }, // 벤츠 스프린터 기부자용
 			{ "bv_the_crowner_cop_emt", { "", "", -1 } }	//경찰차 비슷한 빨간차
-			
+
 //            { "max_ambulance", { "", "", -1 } }, //옛날 엠뷸런스 4인용
 //            { "max_firetruck", { "", "", -1 } }, // 소방차 5인용
 
@@ -1563,7 +1564,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
     };
 
-   
+
     class sab_cuav_trojan {
         vItemSpace = 30;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
@@ -1577,7 +1578,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 1250000;
         textures[] = {};
     };
-    
+
     class sab_FAAllegro {
         vItemSpace = 60;
         licenses[] = { {"pilot"}, {""}, {""}, {""} };
@@ -1590,7 +1591,14 @@ will modify the virtual space and the price of the vehicle, but other informatio
             licenses[] = { {"pilot"}, {""}, {""}, {""} };
             price = 1000000;
             textures[] = {};
-        };
+    };
+
+    class R_HotairBalloon {
+            vItemSpace = 500;
+            licenses[] = { {"pilot"}, {""}, {""}, {""} };
+            price = 30000000;
+            textures[] = {};
+    };
 
     //Civ Boat
     class B_CBS_WaterShadow730_F {
@@ -1942,7 +1950,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
     };
     class Mrshounka_yamaha_p_noir : Mrshounka_yamaha_p{};
-	
+
 	//Donator Civ Vehicle
 	//썰매
     class jean_sleigh {
@@ -1951,7 +1959,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 3300000;
         textures[] = {};
     };
-	
+
 	//몬스터트럭
 	class A3L_MonsterTruck {
         vItemSpace = 50;
@@ -1959,7 +1967,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 2700000;
         textures[] = {};
     };
-	
+
 	//아제라 스포츠
 	class Mrshounka_agera_p {
         vItemSpace = 50;
@@ -1969,7 +1977,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	class Mrshounka_agera_p_bleu : Mrshounka_agera_p{};
 	class Mrshounka_agera_p_jaune : Mrshounka_agera_p{};
-	
+
 	//닷지 차져
 	class max_charger_black {
         vItemSpace = 50;
@@ -1980,7 +1988,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class max_charger_blue : max_charger_black{};
 	class max_charger_red : max_charger_black{};
 	class max_charger_yellow : max_charger_black{};
-	
+
 	//LT sport
 	class dbo_LT_01 {
         vItemSpace = 50;
@@ -1988,7 +1996,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 600000;
         textures[] = {};
     };
-	
+
 	//라이칸 하이퍼스포트
 	class Mrshounka_lykan_c {
         vItemSpace = 50;
@@ -1996,7 +2004,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 6700000;
         textures[] = {};
     };
-	
+
 	//Flipcar
 	class A3L_Flipcar {
         vItemSpace = 50;
@@ -2004,7 +2012,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 1700000;
         textures[] = {};
     };
-	
+
 	//롤스로이스 팬텀 검정 ( 대통령차)
 	class max_vipcar {
         vItemSpace = 50;
@@ -2012,7 +2020,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 5100000;
         textures[] = {};
     };
-	
+
 	//쇼핑카
 	class sga_shopping_cart {
         vItemSpace = 50;
@@ -2020,7 +2028,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 500000;
         textures[] = {};
     };
-	
+
 	//쇼핑카 몬스터
 	class sga_shopping_cart_monster {
         vItemSpace = 50;
@@ -2028,7 +2036,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 800000;
         textures[] = {};
     };
-	
+
 	//호버 보드
 	class sga_hover_board {
         vItemSpace = 50;
@@ -2036,9 +2044,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 1000000;
         textures[] = {};
     };
-	
+
 	//Luxury Vehicle
-	
+
 	//1969 Dodge 슈퍼 비
 	class SIG_SuperBeeB {
         vItemSpace = 50;
@@ -2048,7 +2056,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	class SIG_SuperBee : SIG_SuperBeeB{};
 	class SIG_SuperBeeY : SIG_SuperBeeB{};
-	
+
 	//아우디 RS4
 	class Mrshounka_rs4_civ {
         vItemSpace = 50;
@@ -2058,7 +2066,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	class Mrshounka_rs4_civ_bleufonce : Mrshounka_rs4_civ{};
 	class Mrshounka_rs4_civ_orange : Mrshounka_rs4_civ{};
-	
+
 	//아우디 RS5
 	class shounka_a3_rs5_civ {
         vItemSpace = 50;
@@ -2068,7 +2076,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	class shounka_a3_rs5_civ_bleufonce : shounka_a3_rs5_civ{};
 	class shounka_a3_rs5_civ_orange : shounka_a3_rs5_civ{};
-	
+
 	//아우디 RS6
 	class shounka_rs6 {
         vItemSpace = 50;
@@ -2078,7 +2086,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	class shounka_rs6_bleufonce : shounka_rs6{};
 	class shounka_rs6_orange : shounka_rs6{};
-	
+
 	//BMW 1 시리즈 M세단
 	class Mrshounka_bmwm1_civ {
         vItemSpace = 50;
@@ -2089,7 +2097,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class Mrshounka_bmwm1_civ_noir : Mrshounka_bmwm1_civ{};
 	class Mrshounka_bmwm1_civ_bleufonce : Mrshounka_bmwm1_civ{};
 	class Mrshounka_bmwm1_civ_orange : Mrshounka_bmwm1_civ{};
-	
+
 	//BMW 세단 2인승  검정
 	class max_BMW {
         vItemSpace = 50;
@@ -2099,7 +2107,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	class max_BMW1 : max_BMW{};
 	class max_BMW2 : max_BMW{};
-	
+
 	//BMW  GTR3레이싱
 	class max_BMW_M3_GTR {
         vItemSpace = 50;
@@ -2109,7 +2117,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	class max_BMW_M3_GTR1 : max_BMW_M3_GTR{};
 	class max_BMW_M3_GTR2 : max_BMW_M3_GTR{};
-	
+
 	//BMW M 6
 	class Mrshounka_bmwm6_civ {
         vItemSpace = 50;
@@ -2119,7 +2127,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	class Mrshounka_bmwm6_noir : Mrshounka_bmwm6_civ{};
 	class Mrshounka_bmwm6_orange : Mrshounka_bmwm6_civ{};
-	
+
 	//시보레 몬스터 트럭
 	class shounka_monsteur {
         vItemSpace = 50;
@@ -2129,7 +2137,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	class shounka_monsteur_noir : shounka_monsteur{};
 	class shounka_monsteur_orange : shounka_monsteur{};
-	
+
 	//페라리 f430 스파이더
 	class shounka_f430_spider {
         vItemSpace = 50;
@@ -2145,7 +2153,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class shounka_f430_spider_grise : shounka_f430_spider{};
 	class shounka_f430_spider_violet : shounka_f430_spider{};
 	class shounka_f430_spider_orange : shounka_f430_spider{};
-	
+
 	//Ford gt 스포츠카
 	class shounka_gt {
         vItemSpace = 50;
@@ -2161,7 +2169,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class shounka_gt_grise : shounka_gt{};
 	class shounka_gt_violet : shounka_gt{};
 	class shounka_gt_orange : shounka_gt{};
-	
+
 	//ford 머스탱
 	class Mrshounka_mustang_civ {
         vItemSpace = 50;
@@ -2180,7 +2188,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class Mrshounka_mustang_grise : Mrshounka_mustang_civ{};
 	class Mrshounka_mustang_violet : Mrshounka_mustang_civ{};
 	class Mrshounka_mustang_orange : Mrshounka_mustang_civ{};
-	
+
 	//험머 H1  //4인
 	class Mrshounka_hummer_civ {
         vItemSpace = 50;
@@ -2190,7 +2198,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	class Mrshounka_hummer_civ_noir : Mrshounka_hummer_civ{};
 	class Mrshounka_hummer_civ_orange : Mrshounka_hummer_civ{};
-	
+
 	//험머     H2 //4인
 	class shounka_h2 {
         vItemSpace = 50;
@@ -2200,7 +2208,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	class shounka_h2_noir : shounka_h2{};
 	class shounka_h2_orange : shounka_h2{};
-	
+
 	//람보르기니 가야르도
 	class max_lambo {
         vItemSpace = 50;
@@ -2210,7 +2218,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	class max_lambo1 : max_lambo{};
 	class max_lambo2 : max_lambo{};
-	
+
 	//람보르기니 우라칸 // huracan
 	class mrshounka_huracan_c {
         vItemSpace = 50;
@@ -2226,7 +2234,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class mrshounka_huracan_c_grise : mrshounka_huracan_c{};
 	class mrshounka_huracan_c_violet : mrshounka_huracan_c{};
 	class mrshounka_huracan_c_orange : mrshounka_huracan_c{};
-	
+
 	//람보르기니 베네노 veneno
 	class Mrshounka_veneno_c {
         vItemSpace = 50;
@@ -2237,7 +2245,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class Mrshounka_veneno_c_noir : Mrshounka_veneno_c{};
 	class Mrshounka_veneno_c_bleu : Mrshounka_veneno_c{};
 	class Mrshounka_veneno_c_jaune : Mrshounka_veneno_c{};
-	
+
 	//롤스로이스 팬텀 ( vip )  크롬색
 	class max_vipcar1 {
         vItemSpace = 50;
@@ -2245,7 +2253,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 4700000;
         textures[] = {};
     };
-	
+
 	//아우디 리무진
 	class shounka_limo_civ {
         vItemSpace = 50;
@@ -2256,7 +2264,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class shounka_limo_civ_noir : shounka_limo_civ{};
 	class shounka_limo_civ_bleufonce : shounka_limo_civ{};
 	class shounka_limo_civ_orange : shounka_limo_civ{};
-	
+
 	//링컨 1969
 	class Mrshounka_lincoln_civ {
         vItemSpace = 50;
@@ -2273,8 +2281,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 7700000;
         textures[] = {};
-    };	
-	
+    };
+
 	//벤츠 CLK
 	class shounka_clk {
         vItemSpace = 50;
@@ -2282,7 +2290,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 2700000;
         textures[] = {};
     };
-	
+
 	//닛산 GTR 2012
 	class Mrshounka_a3_gtr_civ {
         vItemSpace = 50;
@@ -2292,7 +2300,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	class Mrshounka_a3_gtr_civ_noir : Mrshounka_a3_gtr_civ{};
 	class Mrshounka_a3_gtr_civ_bleu : Mrshounka_a3_gtr_civ{};
-	
+
 	//파가니 huayra
 	class Mrshounka_pagani_c {
         vItemSpace = 50;
@@ -2303,7 +2311,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class Mrshounka_pagani_c_noir : Mrshounka_pagani_c{};
 	class Mrshounka_pagani_c_bleufonce : Mrshounka_pagani_c{};
 	class Mrshounka_pagani_c_jaune : Mrshounka_pagani_c{};
-	
+
 	//푸조 308 오픈카 2인승
 	class Mrshounka_a3_308_rcz {
         vItemSpace = 50;
@@ -2313,7 +2321,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	class Mrshounka_a3_308_rcz_noir : Mrshounka_a3_308_rcz{};
 	class Mrshounka_a3_308_rcz_bleufonce : Mrshounka_a3_308_rcz{};
-	
+
 	//푸조 508 세단
 	class shounka_a3_peugeot508_civ_noir {
         vItemSpace = 50;
@@ -2323,7 +2331,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	class shounka_a3_peugeot508_civ_bleufonce : shounka_a3_peugeot508_civ_noir{};
 	class shounka_a3_peugeot508_civ_rouge : shounka_a3_peugeot508_civ_noir{};
-	
+
 	//포르쉐 911
 	class shounka_porsche911 {
         vItemSpace = 50;
@@ -2331,7 +2339,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 2700000;
         textures[] = {};
     };
-	
+
 	//포르쉐 911 92년식
 	class mrshounka_92_civ {
         vItemSpace = 50;
@@ -2339,7 +2347,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 2100000;
         textures[] = {};
     };
-	
+
 	//옛날 머슬카 Transam 2인승
 	class shounka_transam {
         vItemSpace = 50;

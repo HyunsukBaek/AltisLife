@@ -1,9 +1,9 @@
 /*
     File: init.sqf
-    Author: 
-    
+    Author:
+
     Description:
-    
+
 */
 StartProgress = false;
 
@@ -18,6 +18,7 @@ StartProgress = false;
 [] execVM "Custom\CL.sqf";
 [] execVM "Custom\CL2.sqf";
 [] execVM "admintools\loop.sqf";	//Admin Helper
+[] execVM "Custom\teargas.sqf"; //TearGas
 
 //Cop & Medic Radio disable
 enableRadio false;

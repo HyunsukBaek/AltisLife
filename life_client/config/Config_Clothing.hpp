@@ -27,7 +27,7 @@ class Clothing {
             { "U_C_TeeSurfer_shorts_1", "Gay3", 175, { "", "", -1 } },
             { "U_C_TeeSurfer_shorts_2", "Gay4", 175, { "", "", -1 } },
             { "U_Competitor", "Press Suit", 275, { "", "", -1 } },
-            { "U_C_Poor_2", "Rag tagged clothes", 250, { "", "", -1 } },            
+            { "U_C_Poor_2", "Rag tagged clothes", 250, { "", "", -1 } },
             { "U_C_Poloshirt_tricolour", "Poloshirt Tricolor", 350, { "", "", -1 } },
             { "U_OrestesBody", "Surfing On Land", 1100, { "", "", -1 } },
             { "U_C_HunterBody_grn", "The Hunters Look", 1500, { "", "", -1 } },
@@ -277,7 +277,8 @@ class Clothing {
             { "H_ShemagOpen_khk", "", 8800, { "", "", -1 } },
             { "H_ShemagOpen_tan", "", 8850, { "", "", -1 } },
             { "H_Shemag_olive", "", 8850, { "", "", -1 } },
-            { "H_HelmetO_ViperSP_ghex_F", "", 990000, { "", "", -1 } }
+            { "H_HelmetO_ViperSP_ghex_F", "", 990000, { "", "", -1 } },
+            { "H_CrewHelmetHeli_I", "GasMask", 50000, { "life_coplevel", "SCALAR", 1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -571,6 +572,7 @@ class Clothing {
             { "H_Shemag_olive", "", 48500, { "", "", -1 } },
             { "H_MilCap_oucamo", "", 12000, { "", "", -1 } },
             { "H_HelmetO_ocamo", "", 25000, { "", "", -1 } },
+            { "H_CrewHelmetHeli_I", "Gas Mask", 1000000, { "", "", -1 } },
             { "H_HelmetO_ViperSP_hex_F", "특수목적hex[1회]", 990000, { "", "", -1 } }
         };
         goggles[] = {
@@ -651,7 +653,7 @@ class Clothing {
             { "U_C_Driver_1_green", "", 1500, { "", "", -1 } },
             { "U_C_Driver_1_white", "", 1500, { "", "", -1 } },
             { "U_C_Driver_1_yellow", "", 1500, { "", "", -1 } },
-            { "U_C_Driver_1", "", 3600, { "", "", -1 } },			
+            { "U_C_Driver_1", "", 3600, { "", "", -1 } },
             { "U_C_Driver_2", "", 3500, { "", "", -1 } },
             { "U_C_Driver_3", "", 3700, { "", "", -1 } },
             { "U_C_Driver_4", "", 3700, { "", "", -1 } }
