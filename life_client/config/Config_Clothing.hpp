@@ -235,7 +235,15 @@ class Clothing {
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
             { "FLAY_HangGlider_Bag", "", 550000, { "", "", -1 } }, // 글라이더
-            { "FLAY_HangGliderBlack_Bag", "", 550000, { "", "", -1 } } //// 글라이더
+            { "FLAY_HangGliderBlack_Bag", "", 550000, { "", "", -1 } }, //// 글라이더
+            { "sab_paraglider_bp", "", 300000, { "", "", -1 } }, //패러글라이더
+            { "sab_paraglider_red_bp", "", 300000, { "", "", -1 } },
+            { "sab_paraglider_green_bp", "", 300000, { "", "", -1 } },
+            { "sab_paraglider_blue_bp", "", 300000, { "", "", -1 } },
+            { "sab_paraglider_swiss_bp", "", 300000, { "", "", -1 } },
+            { "sab_paraglider_rainbow_bp", "", 300000, { "", "", -1 } },
+            { "sab_paraglider_infilred_bp", "", 300000, { "", "", -1 } },
+            { "sab_paraglider_infilblu_bp", "", 300000, { "", "", -1 } }
         };
     };
 
