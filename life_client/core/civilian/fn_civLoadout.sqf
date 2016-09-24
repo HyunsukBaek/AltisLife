@@ -13,14 +13,11 @@ _clothings = ["U_C_Poloshirt_blue","U_C_Poloshirt_burgundy","U_C_Poloshirt_strip
 player addUniform (selectRandom _clothings);
 
 /* ITEMS */
-player addItem "ItemMap";
-player assignItem "ItemMap";
-player addItem "ItemCompass";
-player assignItem "ItemCompass";
-player addItem "ItemWatch";
-player assignItem "ItemWatch";
-player addItem "ItemGPS";
-player assignItem "ItemGPS";
+player linkItem "ItemMap";
+player linkItem "ItemCompass";
+player linkItem "ItemWatch";
+player linkItem "ItemGPS";
+
 
 [] call life_fnc_playerSkins;
 [] call life_fnc_saveGear;

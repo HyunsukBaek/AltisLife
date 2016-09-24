@@ -8,7 +8,7 @@
     any problems. The return method is 'hacky' but it's effective.
 */
 private _array = param [0,[],[[]]];
-_array = str(str(_array));
+_array = str _array;
 _array = toArray(_array);
 
 for "_i" from 0 to (count _array)-1 do
@@ -23,4 +23,4 @@ for "_i" from 0 to (count _array)-1 do
     };
 };
 
-toString(_array);
+str(toString(_array));

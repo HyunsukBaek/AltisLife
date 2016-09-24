@@ -66,7 +66,7 @@ _positionAltis = [
 ];
 
 {
-    _pump = nearestObject _x;
+    private _pump = nearestObject _x;
     _pump setFuelCargo 0;
     _pump addAction [localize "STR_Action_Pump", life_fnc_fuelStatOpen, 1, 3, true, true, "", 'cursorObject isEqualTo _target', 5];
 } forEach _positionAltis;

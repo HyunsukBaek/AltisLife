@@ -15,7 +15,7 @@ life_session_completed = false;
 _timeStamp = diag_tickTime;
 diag_log "----------------------------------------------------------------------------------------------------";
 diag_log "--------------------------------- Starting Altis Life Client Init ----------------------------------";
-diag_log "------------------------------------------ Version 4.4R3 -------------------------------------------";
+diag_log "------------------------------------------ Version 4.5 -------------------------------------------";
 diag_log "----------------------------------------------------------------------------------------------------";
 waitUntil {!isNull player && player == player}; //Wait till the player is ready
 [] call compile PreprocessFileLineNumbers "core\clientValidator.sqf";
@@ -156,6 +156,8 @@ if (life_HC_isActive) then {
 } else {
     [getPlayerUID player,player getVariable ["realname",name player]] remoteExec ["life_fnc_wantedProfUpdate",RSERV];
 };
+
+
 
 diag_log "----------------------------------------------------------------------------------------------------";
 diag_log format["               End of Altis Life Client Init :: Total Execution Time %1 seconds ",(diag_tickTime) - _timeStamp];

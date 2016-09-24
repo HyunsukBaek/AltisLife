@@ -102,8 +102,7 @@ if (_bool) then {
                                 if (_item in (assignedItems  player)) then {
                                     player addItem _item;
                                 } else {
-                                    player addItem _item;
-                                    player assignItem _item;
+                                	player linkItem _item;
                                 };
                             };
                         };
@@ -341,8 +340,7 @@ if (_bool) then {
                             if (_override) then {
                                 player addItem _item;
                             } else {
-                                player addItem _item;
-                                player assignItem _item;
+                            	player linkItem _item;
                             };
                         };
                     };
@@ -354,8 +352,7 @@ if (_bool) then {
                             if (_override) then {
                                 player addItem _item;
                             } else {
-                                player addItem _item;
-                                player assignItem _item;
+                            	player linkItem _item;
                             };
                         };
                     };
