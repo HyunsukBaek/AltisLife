@@ -10381,6 +10381,9 @@
 		
         <Key ID="STR_MAR_Master_Weapon_Shop">
             <Original>Master Weapon Shop</Original>
+        </Key>
+        <Key ID="STR_MAR_Donator_Weapon_Shop">
+            <Original>Donator Weapon Shop</Original>
         </Key>		
 		<Key ID="STR_MAR_Wood_Field">
             <Original>Wood Field</Original>

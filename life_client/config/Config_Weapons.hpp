@@ -51,7 +51,7 @@ class WeaponShops {
             { "arifle_MX_SW_F", "", 270000, 2000 },
             { "srifle_DMR_01_F", "", 300000, 2000 }, //RAHIM
             { "srifle_EBR_F", "", 500000, 2000 }, //MK18
-            { "LMG_Mk200_F", "", 450000, 2000 },
+            { "LMG_Mk200_F", "", 850000, 2000 },
             { "srifle_DMR_05_hex_F", "cyrus(DLC)", 530000, 2000 },//cyrus
             { "arifle_CTAR_hex_F", "", 530000, 2000 },//CAR
             { "launch_RPG32_F", "", 990000, 2000 },
@@ -87,6 +87,34 @@ class WeaponShops {
         };
     };
 
+    class rebeldonator {
+        name = "Donator Shop";
+        side = "";
+        license = "";
+        level[] = { "life_donorlevel", "SCALAR", 1, "you must be donorlevel 1" };
+        items[] = {
+            { "srifle_DMR_07_hex_F", "", 130000, 2000 },
+            { "arifle_ARX_hex_F", "", 180000, 2000 }
+
+        };
+        mags[] = {
+            { "20Rnd_650x39_Cased_Mag_F", "", 50000 },
+            { "30Rnd_65x39_caseless_green_mag_Tracer", "", 100000 },
+			{ "10Rnd_50BW_Mag_F", "", 900000 }
+
+        };
+        accs[] = {
+            { "optic_ACO_grn", "", 35000 },
+            { "optic_Holosight", "", 36000 },
+            { "optic_Hamr", "", 7500 },
+            { "acc_flashlight", "", 1000 },
+            { "optic_DMS", "", 87500 },
+            { "optic_Nightstalker", "", 150000},
+            { "optic_SOS", "SOS_DLC", 100000 },
+            { "muzzle_snds_58_blk_F", "", 500000 }
+        };
+    };
+
     class gang {
         name = "Hideout Armament";
         side = "civ";
@@ -102,7 +130,8 @@ class WeaponShops {
             { "arifle_Katiba_F", "", 380000, 20000 },
             { "arifle_MXC_F", "", 400000, 20000 },
             { "srifle_DMR_01_F", "", 300000, 20000 },
-            { "arifle_AKM_F", "", 200000, 20000 }//AK
+            { "arifle_AKM_F", "AK12 APEX", 240000, 20000 },//AKM
+            { "arifle_AKS_F", "AK12 APEX", 200000, 20000 }//AKS
 
         };
         mags[] = {
@@ -118,14 +147,16 @@ class WeaponShops {
             { "30Rnd_762x39_Mag_F", "", 100000 },
             { "30Rnd_762x39_Mag_Green_F", "", 100000 },
             { "30Rnd_762x39_Mag_Tracer_F", "", 100000 },
-            { "30Rnd_762x39_Mag_Tracer_Green_F", "", 100000 }
+            { "30Rnd_762x39_Mag_Tracer_Green_F", "", 100000 },
+			{ "30Rnd_545x39_Mag_Green_F", "", 100000 },
+			{ "30Rnd_545x39_Mag_Tracer_F", "", 100000 }
 
         };
         accs[] = {
             { "optic_ACO_grn_smg", "",  10950 },
             { "optic_ACO_grn", "",  12000 },
             { "optic_Arco", "",  12000 },
-	    { "optic_SOS", "SOS_DLC", 150000 },
+			{ "optic_SOS", "SOS_DLC", 150000 },
             { "optic_Hamr", "", 150000 },
             { "optic_DMS", "", 87500 }
         };
@@ -258,7 +289,6 @@ class WeaponShops {
             { "optic_Holosight", "", 2200 },
             { "optic_Arco", "", 30500 },
             { "optic_MRCO", "", 20500 },
-            { "optic_NVS", "", 80000 },
             { "optic_ERCO_snd_F", "", 80000 },
             { "muzzle_snds_H", "", 102750 },
             { "muzzle_snds_L", "", 102750 },
@@ -278,8 +308,9 @@ class WeaponShops {
             { "srifle_EBR_F", "", 300000, 25000 },//mk18
             { "srifle_DMR_01_F", "", 220000, 25000 },//rahim
             { "srifle_DMR_05_hex_F", "cyrus(DLC)", 330000, 25000 },//cyrus
-            { "LMG_Mk200_F", "", 350000, 25000 },//mk200
-            { "srifle_LRR_F", "", 450000, 25000 }
+            { "LMG_Mk200_F", "", 850000, 25000 },//mk200
+            { "srifle_LRR_F", "", 450000, 25000 },
+			{ "arifle_ARX_blk_F", "Type115 Apex", 450000, 25000 }
         };
         mags[] = {
             { "20Rnd_762x51_Mag", "", 10000 },
@@ -287,12 +318,16 @@ class WeaponShops {
             { "10Rnd_93x64_DMR_05_Mag", "", 10000 },
             { "200Rnd_65x39_cased_Box", "", 100000 },
             { "200Rnd_65x39_cased_Box_Tracer", "", 100000 },
-            { "7Rnd_408_Mag", "", 50000 }
+            { "7Rnd_408_Mag", "", 50000 },
+			{ "30Rnd_65x39_caseless_green", "", 50000 },
+			{ "30Rnd_65x39_caseless_green_mag_Tracer", "", 50000 },
+			{ "10Rnd_50BW_Mag_F", "", 50000 }
         };
         accs[] = {
             { "optic_SOS", "", 25000 },
             { "optic_DMS", "", 30000 },
             { "optic_Hamr", "", 25000 },
+            { "optic_NVS", "", 80000 },
             { "optic_KHS_blk", "", 45000 },
             { "acc_pointer_IR", "", 20000 }
         };
@@ -302,7 +337,7 @@ class WeaponShops {
         name = "Altis police master Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 5, "You must be a master Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 6, "You must be a master Rank!" };
         items[] = {
             { "srifle_GM6_F", "", 450000, 25000 },//lynx
             { "LMG_Zafir_F", "", 550000, 25000 },//zafir
@@ -328,6 +363,37 @@ class WeaponShops {
             { "acc_pointer_IR", "", 30000 }
         };
     };
+
+    class cop_donatorshop {
+		name = "Altis police donator Shop";
+		side = "cop";
+		license = "";
+		level[] = { "life_donorlevel", "SCALAR", 3, "You must be a donator level 3" };
+		items[] = {
+			{ "arifle_SPAR_01_blk_F", "", 450000, 25000 },
+			{ "arifle_SPAR_02_blk_F", "", 450000, 25000 },
+			{ "arifle_SPAR_03_blk_F", "", 450000, 25000 },
+			{ "LMG_03_F", "", 850000, 25000 }
+
+		};
+		mags[] = {
+			{ "30Rnd_556x45_Stanag", "", 50000 },
+			{ "30Rnd_556x45_Stanag_green", "", 50000 },
+			{ "30Rnd_556x45_Stanag_Tracer_Green", "", 50000 },
+			{ "150Rnd_556x45_Drum_Mag_F", "", 100000 },
+			{ "150Rnd_556x45_Drum_Mag_Tracer_F", "", 100000 },
+			{ "20Rnd_762x51_Mag", "", 100000 },
+			{ "200Rnd_556x45_Box_F", "", 200000 },
+			{ "200Rnd_556x45_Box_Red_F", "", 200000 },
+			{ "200Rnd_556x45_Box_Tracer_Red_F", "", 200000 }
+		};
+		accs[] = {
+			{ "optic_AMS", "", 100000 },
+			{ "optic_KHS_hex", "", 100000 },
+			{ "optic_KHS_tan", "", 150000 },
+			{ "optic_AMS_khk", "", 130000 }
+		};
+	};
 
     //Medic Shops
     class med_basic {

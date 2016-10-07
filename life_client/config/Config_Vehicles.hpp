@@ -19,6 +19,9 @@ class CarShops {
             { "C_Hatchback_01_F", { "", "", -1 } },
             { "C_Offroad_01_F", { "", "", -1 } },
             { "C_Offroad_01_repair_F", { "", "", -1 } },
+			{ "C_Offroad_02_unarmed_green_F", { "", "", -1 } },
+			{ "C_Offroad_02_unarmed_orange_F", { "", "", -1 } },
+			{ "C_Offroad_02_unarmed_red_F", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
             { "C_Hatchback_01_sport_F", { "", "", -1 } },
             { "C_Van_01_transport_F", { "", "", -1 } }
@@ -861,6 +864,16 @@ class LifeCfgVehicles {
     };
 
     class C_Offroad_01_repair_F : C_Offroad_01_F{};
+
+	class C_Offroad_02_unarmed_green_F {
+		vItemSpace = 75;
+		licenses[] = { {""}, {""}, {""}, {""} };
+		price = 210000;
+		textures[] = { };
+	};
+
+    class C_Offroad_02_unarmed_orange_F : C_Offroad_02_unarmed_green_F{};
+    class C_Offroad_02_unarmed_red_F : C_Offroad_02_unarmed_green_F{};
 
     class C_Kart_01_Blu_F {
         vItemSpace = 20;
