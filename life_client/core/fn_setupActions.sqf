@@ -13,20 +13,20 @@ switch (playerSide) do {
         //Rob person
         life_actions = life_actions + [player addAction[localize "STR_pAct_RobPerson",life_fnc_robAction,"",0,false,false,"",'
         !isNull cursorObject && player distance cursorObject < 3.5 && isPlayer cursorObject && animationState cursorObject == "Incapacitated" && !(cursorObject getVariable ["robbed",false]) ']];
-        
+
         // RocketHelmet
-        life_actions = life_actions + [player addAction["<t color='#FF0000'>Active JetPack</t>",life_fnc_JetRocket,"",0,false,false,"",
+        life_actions = life_actions + [player addAction["<t color='#FF0000'>Active RocketPack</t>",life_fnc_JetRocket,"",0,false,false,"",
         'Backpack player == "B_AssaultPack_sgg" && alive player && isNull objectParent player && !life_istazed && !life_jetpack && !(player getVariable "restrained") && !(player getVariable "Escorting") && !(player getVariable "transporting")']];
     };
-    
+
     case west: {
         // RocketHelmet
-        life_actions = life_actions + [player addAction["<t color='#FF0000'>Active JetPack</t>",life_fnc_JetRocket,"",0,false,false,"",
+        life_actions = life_actions + [player addAction["<t color='#FF0000'>Active RocketPack</t>",life_fnc_JetRocket,"",0,false,false,"",
         'Backpack player == "B_AssaultPack_sgg" && alive player && isNull objectParent player && !life_istazed && !life_jetpack && !(player getVariable "restrained") && !(player getVariable "Escorting") && !(player getVariable "transporting")']];
     };
     case independent: {
         // RocketHelmet
-        life_actions = life_actions + [player addAction["<t color='#FF0000'>Active JetPack</t>",life_fnc_JetRocket,"",0,false,false,"",
+        life_actions = life_actions + [player addAction["<t color='#FF0000'>Active RocketPack</t>",life_fnc_JetRocket,"",0,false,false,"",
         'Backpack player == "B_AssaultPack_sgg" && alive player && isNull objectParent player && !life_istazed && !life_jetpack && !(player getVariable "restrained") && !(player getVariable "Escorting") && !(player getVariable "transporting")']];
     };
 };

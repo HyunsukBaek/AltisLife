@@ -14,4 +14,4 @@ _this select 0 addMPEventHandler ["MPKilled", {_this call fn_whoDoneIt}];
 Server Screen Color
  "presets","BlackAndWhite","RealIsBrown","EastWind","Mediterranean"
 */
-["Mediterranean", 0] call BIS_fnc_setPPeffectTemplate;
+["EastWind", 0] call BIS_fnc_setPPeffectTemplate;

@@ -110,7 +110,6 @@ class Clothing {
             { "B_Carryall_oli", "", 7500, { "", "", -1 } },
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
-            { "B_AssaultPack_sgg", "JetPack", 300000, { "", "", -1 } },
             { "B_Parachute", "낙하산", 37500, { "", "", -1 } }
         };
     };
@@ -128,7 +127,10 @@ class Clothing {
             { "A3L_SpookyMummy", "", 5000, { "", "", -1 } },
 			{ "A3L_Worker_Outfit", "", 5000, { "", "", -1 } },
             // { "A3L_Zombie", "", 5000, { "", "", -1 } },
-			{ "A3L_Prisoner_Outfit", "prisoner", 5000, { "", "", -1 } },
+			{ "A3L_Prisoner_Outfit", "prisoner1", 5000, { "", "", -1 } },
+            { "mgsr_civ_01_uniform", "prisoner2", 5000, { "", "", -1 } },
+            { "mgsr_robe_dirty", "prisoner3", 5000, { "", "", -1 } },
+            { "mgsr_robe_muddy", "prisoner4", 5000, { "", "", -1 } },
             { "xmas_santa_blufor_uniform", "santa blue", 5000, { "life_donorlevel", "SCALAR", 1 } },
             { "xmas_santa_ind_uniform", "santa green", 5000, { "life_donorlevel", "SCALAR", 1 } },
             { "xmas_santa_opfor_uniform", "santa red", 5000, { "life_donorlevel", "SCALAR", 1 } }
@@ -224,26 +226,49 @@ class Clothing {
 			{ "H_Ajx_HorseMask", "", 150000, { "", "", -1 } },
 			{ "H_Ajx_HorseMask_2", "", 150000, { "", "", -1 } },
 			{ "H_Ajx_HorseMask_blk", "", 150000, { "", "", -1 } },
-			{ "H_Ajx_HorseMask_pnk", "", 150000, { "", "", -1 } }
+			{ "H_Ajx_HorseMask_pnk", "", 150000, { "", "", -1 } },
+            { "BL_eimer_Hat", "", 150000, { "life_donorlevel", "SCALAR", 1 } }, //양동이
+            { "BL_medieval_hat", "", 150000, { "life_donorlevel", "SCALAR", 1 } },  //중세투구
+            { "BL_mask2_Hat", "", 150000, { "life_donorlevel", "SCALAR", 1 } }, //미국 토끼 가면
+            { "BL_trump_Hat", "", 150000, { "life_donorlevel", "SCALAR", 1 } }, //트럼프 머리
+            { "BL_us_Hat", "", 150000, { "life_donorlevel", "SCALAR", 1 } },    //시골 보안관
+            { "BL_party_Hat", "", 150000, { "life_donorlevel", "SCALAR", 1 } } //생일 파티
         };
         goggles[] = {
-            { "NONE", "Remove Glasses", 0, { "", "", -1 } }
+            { "NONE", "Remove Glasses", 0, { "", "", -1 } },
+            { "Payday_Cagoule", "", 5000, { "", "", -1 } },
+            { "Masque_Chirurgical", "", 5000, { "", "", -1 } },
+            { "Masque_Solitaire", "", 5000, { "", "", -1 } },
+            { "mgsr_eyepatch_goggles", "", 5000, { "", "", -1 } },
+            { "mgsr_headbag_goggles", "", 5000, { "", "", -1 } },
+            { "SFG_Tac_smallBeardB", "", 150000, { "life_donorlevel", "SCALAR", 1 } },  //턱수염 기부자1 부터
+            { "SFG_Tac_smallBeardD", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "SFG_Tac_smallBeardG", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "SFG_Tac_smallBeardO", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "SFG_Tac_BeardB", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "SFG_Tac_BeardD", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "SFG_Tac_BeardG", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "SFG_Tac_BeardO", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "SFG_Tac_chinlessbB", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "SFG_Tac_chinlessbD", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "SFG_Tac_chinlessbG", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "SFG_Tac_chinlessbO", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "SFG_Tac_moustacheB", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "SFG_Tac_moustacheD", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "SFG_Tac_moustacheG", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "SFG_Tac_moustacheO", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "SFG_Tac_ChopsB", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "SFG_Tac_ChopsD", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "SFG_Tac_ChopsG", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "SFG_Tac_ChopsO", "", 150000, { "life_donorlevel", "SCALAR", 1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
-            { "FLAY_HangGlider_Bag", "", 550000, { "", "", -1 } }, // 행글라이더 블루
-            { "FLAY_HangGliderBlack_Bag", "", 550000, { "", "", -1 } }, //// 행글라이더 블랙
-            { "sab_paraglider_bp", "Paraglider", 300000, { "", "", -1 } }, //패러글라이더
-            { "sab_paraglider_red_bp", "Paraglider Red", 300000, { "", "", -1 } },
-            { "sab_paraglider_green_bp", "Paraglider Green", 300000, { "", "", -1 } },
-            { "sab_paraglider_blue_bp", "Paraglider Blue", 300000, { "", "", -1 } },
-            { "sab_paraglider_swiss_bp", "Paraglider RedWhite", 300000, { "", "", -1 } },
-            { "sab_paraglider_rainbow_bp", "Paraglider Rainbow", 300000, { "", "", -1 } },
-            { "sab_paraglider_infilred_bp", "Paraglider Dark1", 300000, { "", "", -1 } },
-            { "sab_paraglider_infilblu_bp", "Paraglider Dark2", 300000, { "", "", -1 } }
+            { "mgsr_poncho_wet", "", 150000, { "life_donorlevel", "SCALAR", 2 } },
+            { "mgsr_poncho_dry", "", 150000, { "life_donorlevel", "SCALAR", 3 } }
         };
     };
 
@@ -487,7 +512,6 @@ class Clothing {
             { "B_Carryall_oli", "", 7500, { "", "", -1 } },
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
-            { "B_AssaultPack_sgg", "JetPack", 500000, { "", "", -1 } },
             { "B_Parachute", "낙하산", 37500, { "", "", -1 } }
         };
     };
@@ -643,7 +667,6 @@ class Clothing {
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
             { "B_OutdoorPack_blk", "", 7500, { "", "", -1 } },
             { "B_ViperLightHarness_blk_F", "", 17500, { "", "", -1 } },
-            { "B_AssaultPack_sgg", "JetPack", 500000, { "", "", -1 } },
             { "B_Parachute", "낙하산", 37500, { "", "", -1 } }
         };
     };
@@ -687,6 +710,82 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } }
+        };
+    };
+
+    //Extreme Shop
+    class extreme_shop {
+        title = "Extreme Shop";
+        license = "";
+        side = "civ";
+        uniforms[] = {
+            { "NONE", "Remove Uniform", 0, { "", "", -1 } },
+            { "U_C_Driver_1_green", "", 1500, { "", "", -1 } },
+            { "U_C_Driver_3", "", 1500, { "", "", -1 } },
+            { "U_C_Driver_1_white", "", 1500, { "", "", -1 } },
+            { "U_C_Driver_4", "", 1500, { "", "", -1 } },
+            { "U_C_Driver_2", "", 1500, { "", "", -1 } },
+            { "U_C_Driver_1", "", 1500, { "", "", -1 } },
+            { "U_C_Driver_1_red", "", 1500, { "", "", -1 } },
+            { "U_C_Driver_1_orange", "", 1500, { "", "", -1 } },
+            { "U_C_Driver_1_blue", "", 1500, { "", "", -1 } },
+            { "U_C_Driver_1_yellow", "", 1500, { "", "", -1 } },
+            { "U_C_Driver_1_black", "", 1500, { "", "", -1 } }
+        };
+        headgear[] = {
+            { "NONE", "Remove Hat", 0, { "", "", -1 } },
+            { "Casque_Moto", "", 150000, { "", "", -1 } },
+            { "casco_moto", "", 150000, { "", "", -1 } },
+            { "H_RacingHelmet_1_green_F", "", 5000, { "", "", -1 } },
+            { "H_RacingHelmet_3_F", "", 5000, { "", "", -1 } },
+            { "H_RacingHelmet_1_white_F", "", 5000, { "", "", -1 } },
+            { "H_RacingHelmet_4_F", "", 5000, { "", "", -1 } },
+            { "H_RacingHelmet_2_F", "", 5000, { "", "", -1 } },
+            { "H_RacingHelmet_1_F", "", 5000, { "", "", -1 } },
+            { "H_RacingHelmet_1_red_F", "", 5000, { "", "", -1 } },
+            { "H_RacingHelmet_1_orange_F", "", 5000, { "", "", -1 } },
+            { "H_RacingHelmet_1_blue_F", "", 5000, { "", "", -1 } },
+            { "H_RacingHelmet_1_yellow_F", "", 5000, { "", "", -1 } },
+            { "H_RacingHelmet_1_black_F", "", 5000, { "", "", -1 } }
+        };
+        goggles[] = {
+            { "NONE", "Remove Glasses", 0, { "", "", -1 } },
+            { "G_Shades_Black", "", 20, { "", "", -1 } },
+            { "G_Shades_Blue", "", 20, { "", "", -1 } },
+            { "G_Shades_Green", "", 20, { "", "", -1 } },
+            { "G_Shades_Red", "", 20, { "", "", -1 } },
+            { "G_Sport_Blackred", "", 25, { "", "", -1 } },
+            { "G_Sport_BlackWhite", "", 25, { "", "", -1 } },
+            { "G_Sport_Blackyellow", "", 25, { "", "", -1 } },
+            { "G_Sport_Checkered", "", 25, { "", "", -1 } },
+            { "G_Sport_Greenblack", "", 25, { "", "", -1 } },
+            { "G_Sport_Red", "", 25, { "", "", -1 } },
+            { "G_Lowprofile", "", 30, { "", "", -1 } },
+            { "G_Squares", "", 50, { "", "", -1 } },
+            { "G_Aviator", "", 100, { "", "", -1 } },
+            { "G_Combat", "", 125, { "", "", -1 } },
+            { "G_Lady_Mirror", "", 150, { "", "", -1 } },
+            { "G_Lady_Dark", "", 150, { "", "", -1 } },
+            { "G_Lady_Blue", "", 150, { "", "", -1 } }
+        };
+        vests[] = {
+            { "NONE", "Remove Vest", 0, { "", "", -1 } }
+        };
+        backpacks[] = {
+            { "NONE", "Remove Backpack", 0, { "", "", -1 } },
+            { "B_Parachute", "", 37500, { "", "", -1 } },   //낙하산
+            { "B_AssaultPack_sgg", "RocketPack", 500000, { "", "", -1 } },  //기존 제트팩 로켓팩으로 이름 변경
+            { "FLAY_HangGlider_Bag", "", 300000, { "", "", -1 } }, // 행글라이더 블루
+            { "FLAY_HangGliderBlack_Bag", "", 300000, { "", "", -1 } }, //// 행글라이더 블랙
+            { "sab_paraglider_bp", "Paraglider", 300000, { "", "", -1 } }, //패러글라이더
+            { "sab_paraglider_red_bp", "Paraglider Red", 300000, { "", "", -1 } },
+            { "sab_paraglider_green_bp", "Paraglider Green", 300000, { "", "", -1 } },
+            { "sab_paraglider_blue_bp", "Paraglider Blue", 300000, { "", "", -1 } },
+            { "sab_paraglider_swiss_bp", "Paraglider RedWhite", 300000, { "", "", -1 } },
+            { "sab_paraglider_rainbow_bp", "Paraglider Rainbow", 300000, { "", "", -1 } },
+            { "sab_paraglider_infilred_bp", "Paraglider Dark1", 300000, { "", "", -1 } },
+            { "sab_paraglider_infilblu_bp", "Paraglider Dark2", 300000, { "", "", -1 } },
+            { "riten_jetpack_bp", "Jet Pack", 3000000, { "life_donorlevel", "SCALAR", 3 } } //기부3 제트팩
         };
     };
 };

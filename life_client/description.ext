@@ -7,7 +7,7 @@
 //5 = Direct
 //6 = System
 
-disableChannels[]={{0,true,true},{2,true,true}};  
+disableChannels[]={{0,true,true},{2,true,true}};
 enableDebugConsole = 0;
 //0 = Default behavior, available only in editor
 //1 = Available in SP and for hosts / logged in admins
@@ -106,34 +106,34 @@ class CfgSounds {
         sound[] = {"\sounds\slot_spin.ogg", 1.25, 1};
         titles[] = {};
     };
-        
+
     class slot_payoff
     {
         name = "slot_payoff";
         sound[] = {"\sounds\slot_payoff.ogg", 1.25, 1};
         titles[] = {};
     };
-    
+
     class Caching {
         name = "caching";
         sound[] = {"\sounds\caching.ogg", 1.25, 1};
         titles[] = {};
     };
-    
+
     class slotspinsound
     {
         name = "slotspinSound";
         sound[] = {"\sounds\slot_spin.ogg", 1.25, 1};
         titles[] = {};
     };
-    
+
     class jackpotsound
     {
         name = "jackpotSound";
         sound[] = {"\sounds\slot_payoff.ogg", 1.25, 1};
         titles[] = {};
     };
-	
+
 	//Chainsaw
 	class chainsaw
 	{
@@ -141,7 +141,7 @@ class CfgSounds {
 	    sound[] = {"\sounds\chainsaw.ogg", 1.0, 1};
 	    titles[] = {};
 	};
-	
+
 	//Fire Works
 	class firework1
 	{
@@ -160,7 +160,7 @@ class CfgSounds {
 		name = "firework3";
 		sound[] = {"\Custom\Firework\Sound\firework3.ogg", db+30, 1};
 		titles[] = {};
-	};		
+	};
 	class fluier1
 	{
 		name = "fluier1";
@@ -172,13 +172,13 @@ class CfgSounds {
 		name = "fluier2";
 		sound[] = {"\Custom\Firework\Sound\fluier2.ogg", db+15, 1};
 		titles[] = {};
-	};	
+	};
 	class fluier3
 	{
 		name = "fluier3";
 		sound[] = {"\Custom\Firework\Sound\fluier3.ogg", db+15, 1};
 		titles[] = {};
-	};	
+	};
 	class fluier4
 	{
 		name = "fluier4";
@@ -190,19 +190,19 @@ class CfgSounds {
 		name = "fluier5";
 		sound[] = {"\Custom\Firework\Sound\fluier5.ogg", db+15, 1};
 		titles[] = {};
-	};	
+	};
 	class fluier6
 	{
 		name = "fluier6";
 		sound[] = {"\Custom\Firework\Sound\fluier6.ogg", db+15, 1};
 		titles[] = {};
-	};	
+	};
 	class fluier7
 	{
 		name = "fluier7";
 		sound[] = {"\Custom\Firework\Sound\fluier7.ogg", db+15, 1};
 		titles[] = {};
-	};	
+	};
 };
 
 class CfgDebriefing {

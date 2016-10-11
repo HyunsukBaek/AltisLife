@@ -75,6 +75,13 @@ class CfgSpawnPoints {
             licenses[] = { { "rebel", true } };
             level[] = { "", "", -1 };
         };
+        class Extreme_Zone {
+            displayName = "Extreme Zone";
+            spawnMarker = "extreme_spawn_1";
+            icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+            licenses[] = { { "", true } };
+            level[] = { "", "", -1 };
+        };
     };
 
     class Cop {
@@ -117,6 +124,13 @@ class CfgSpawnPoints {
             licenses[] = { { "", true } };
             level[] = { "life_coplevel", "SCALAR", 3 };
         };
+        class Extreme_Zone {
+            displayName = "Extreme Zone";
+            spawnMarker = "extreme_spawn_1";
+            icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+            licenses[] = { { "", true } };
+            level[] = { "", "", -1 };
+        };
     };
 
     class Medic {
@@ -150,7 +164,7 @@ class CfgSpawnPoints {
 	    icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
 	    licenses[] = { { "", true } };
 	    level[] = { "", "", -1 };
-	};
+	    };
 
         class Emergency2 {
 	    displayName = "Emergency Center 2";
@@ -158,6 +172,14 @@ class CfgSpawnPoints {
 	    icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
 	    licenses[] = { { "", true } };
 	    level[] = { "", "", -1 };
-	};
+	    };
+
+        class Extreme_Zone {
+            displayName = "Extreme Zone";
+            spawnMarker = "extreme_spawn_1";
+            icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+            licenses[] = { { "", true } };
+            level[] = { "", "", -1 };
+        };
     };
 };

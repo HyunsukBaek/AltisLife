@@ -126,7 +126,10 @@ class CarShops {
 			{ "bv_e60_m5_cop_emt", { "", "", -1 } },	//Patrol EMT
             { "shounka_nemo_pompier", { "", "", -1 } }, // 귀여운 사각2인
             { "shounka_a3_pompier_sprinter", { "", "", -1 } }, // 벤츠 스프린터 기부자용
-			{ "bv_the_crowner_cop_emt", { "", "", -1 } }	//경찰차 비슷한 빨간차
+			{ "bv_the_crowner_cop_emt", { "", "", -1 } },	//경찰차 비슷한 빨간차
+            { "ivory_suburban_ems", { "", "", -1 } },       //Suburban SUV(Medic)
+            { "Jonzie_Forklift", {"", "", -1 } },   //ForkLift
+            { "Jonzie_Tow_Truck", {"", "", -1 } }       //Tow Truck
 
 //            { "max_ambulance", { "", "", -1 } }, //옛날 엠뷸런스 4인용
 //            { "max_firetruck", { "", "", -1 } }, // 소방차 5인용
@@ -206,7 +209,21 @@ class CarShops {
             { "bv_the_crowner_uc", { "", "", -1 } }, //Patrol The Black Crowner
             { "bv_the_crowner_cop_patrol_interceptor", { "", "", -1 } }, // 인터셉터 경찰차
 			{ "bv_the_crowner_cop_sher", { "", "", -1 } },	//Patrol the Black Sheriff
-			{ "bv_e60_m5_cop_patrol", { "", "", -1 } }	//Patrol
+			{ "bv_e60_m5_cop_patrol", { "", "", -1 } },	//Patrol
+            { "ivory_m3_marked", { "", "", -1 } },          //BMW M3 E92
+            { "ivory_m3_slicktop", { "", "", -1 } },
+            { "ivory_m3_unmarked", { "", "", -1 } },
+            { "ivory_suburban_marked", { "", "", -1 } },          //Suburban SUV
+            { "ivory_suburban_slicktop", { "", "", -1 } },
+            { "ivory_suburban_unmarked", { "", "", -1 } },
+            { "ivory_isf_marked", { "", "", -1 } },         //Lexus IS-F
+            { "ivory_isf_unmarked", { "", "", -1 } },
+            { "ivory_isf_slicktop", { "", "", -1 } },
+            { "ivory_evox_marked", { "", "", -1 } },        //Mitsubishi Lancer Evolution X
+            { "ivory_evox_unmarked", { "", "", -1 } },
+            { "ivory_evox_slicktop", { "", "", -1 } },
+            { "Jonzie_Forklift", {"", "", -1 } },   //ForkLift
+            { "Jonzie_Tow_Truck", {"", "", -1 } }       //Tow Truck
         };
     };
 
@@ -334,6 +351,8 @@ class CarShops {
              { "dbo_crosser", { "", "", -1 } },    //공격형 오토바이
 			 { "sfp_wheelchair", { "", "", -1 } },    //휠체어
 			 { "Skyline_Bus_01_F", { "", "", -1 } },    //버스
+             { "ivory_190e", { "", "", -1 } },       //Mercedes-Benz 190E
+             { "ivory_190e_taxi", { "", "", -1 } }      //Mercedes-Benz 190E(Taxi)
         };
     };
 
@@ -362,7 +381,16 @@ class CarShops {
 			{ "sga_shopping_cart", { "life_donorlevel", "SCALAR", 2 } },                   //쇼핑카트
 			{ "sga_shopping_cart_monster", { "life_donorlevel", "SCALAR", 2 } },                   //쇼핑카트몬스터
 			{ "sga_hover_board", { "life_donorlevel", "SCALAR", 2 } },                   //호버보드
-			{ "shounka_harley_a3", { "life_donorlevel", "SCALAR", 2 } }         //할리데이비슨 오토바이
+			{ "shounka_harley_a3", { "life_donorlevel", "SCALAR", 2 } },         //할리데이비슨 오토바이
+            { "ivory_veyron", { "life_donorlevel", "SCALAR", 1 } },           //Bugatti Veyron (Donation)
+            { "ivory_gt500", { "life_donorlevel", "SCALAR", 1 } },            //Shelby GT500 (Donation)
+            { "ivory_supra_topsecret", { "life_donorlevel", "SCALAR", 1 } },        //Toyota Supra(Top Secret) Donation
+            { "ivory_lfa", { "life_donorlevel", "SCALAR", 1 } },        //Lexus LFA (Donation)
+            { "ivory_elise", { "life_donorlevel", "SCALAR", 1 } },            //Lotus Elise 11R (Donation)
+            { "ivory_f1", { "life_donorlevel", "SCALAR", 1 } },         //McLaren F1 (Donation)
+            { "ivory_mp4", { "life_donorlevel", "SCALAR", 1 } },        //McLaren MP4-12C (Donation)
+            { "ivory_c", { "life_donorlevel", "SCALAR", 1 } },      //벤틀리 스포츠
+            { "ivory_supra", { "life_donorlevel", "SCALAR", 1 } }      //Toyota Supra
              //             { "max_charger_black", { "life_donorlevel", "SCALAR", 1 } },            //닷지 차져
              //             { "max_charger_blue", { "life_donorlevel", "SCALAR", 1 } },            //닷지 차져
              //             { "max_charger_red", { "life_donorlevel", "SCALAR", 1 } },                //닷지 차져
@@ -470,7 +498,15 @@ class CarShops {
             { "shounka_a3_peugeot508_civ_rouge", { "", "", -1 } },    //푸조 508 세단
             { "shounka_porsche911", { "", "", -1 } },                //포르쉐 911
             { "mrshounka_92_civ", { "", "", -1 } },                    //포르쉐 911 92년식
-            { "shounka_transam", { "", "", -1 } }                    //옛날 머슬카 Transam 2인승
+            { "shounka_transam", { "", "", -1 } },                    //옛날 머슬카 Transam 2인승
+            { "ivory_rs4", { "", "", -1 } },        //Audi RS4
+            { "ivory_e36", { "", "", -1 } },        //BMW M3 E36
+            { "ivory_m3", { "", "", -1 } },     //BMW M3 E92
+            { "ivory_suburban", { "", "", -1 } },       //Suburban SUV
+            { "ivory_isf", { "", "", -1 } },        //Lexus IS-F
+            { "ivory_evox", { "", "", -1 } },       //Mitsubishi Lancer Evolution X
+            { "ivory_r34", { "", "", -1 } },        //Nissan Skyline GT-R
+            { "ivory_gti", { "", "", -1 } }       //Volkswagen Golf GTI
         };
     };
 };
@@ -2441,4 +2477,159 @@ will modify the virtual space and the price of the vehicle, but other informatio
 		price = 2500000;
 		textures[] = {};
 	};
+
+    class ivory_rs4 {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 750000;
+        textures[] = {};
+    };
+
+    class ivory_e36 {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 700000;
+        textures[] = {};
+    };
+
+    class ivory_m3 {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 800000;
+        textures[] = {};
+    };
+    class ivory_m3_marked : ivory_m3{};
+    class ivory_m3_slicktop : ivory_m3{};
+    class ivory_m3_unmarked : ivory_m3{};
+
+
+    class ivory_suburban {
+        vItemSpace = 75;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 800000;
+        textures[] = {};
+    };
+    class ivory_suburban_marked : ivory_suburban{};
+    class ivory_suburban_slicktop : ivory_suburban{};
+    class ivory_suburban_unmarked : ivory_suburban{};
+    class ivory_suburban_ems : ivory_suburban{};
+
+    class ivory_isf {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 800000;
+        textures[] = {};
+    };
+    class ivory_isf_marked : ivory_isf{};
+    class ivory_isf_unmarked : ivory_isf{};
+    class ivory_isf_slicktop : ivory_isf{};
+
+    class ivory_190e {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 600000;
+        textures[] = {};
+    };
+    class ivory_190e_taxi : ivory_190e{};
+
+    class ivory_evox {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 700000;
+        textures[] = {};
+    };
+    class ivory_evox_marked : ivory_evox{};
+    class ivory_evox_unmarked : ivory_evox{};
+    class ivory_evox_slicktop : ivory_evox{};
+
+    class ivory_r34 {
+        vItemSpace = 50;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 850000;
+        textures[] = {};
+    };
+
+    class ivory_gti {
+        vItemSpace = 40;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 600000;
+        textures[] = {};
+    };
+
+    class ivory_veyron {
+        vItemSpace = 80;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 7000000;
+        textures[] = {};
+    };
+
+    class ivory_gt500 {
+        vItemSpace = 80;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 7000000;
+        textures[] = {};
+    };
+
+    class ivory_supra_topsecret {
+        vItemSpace = 80;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 7000000;
+        textures[] = {};
+    };
+
+    class ivory_lfa {
+        vItemSpace = 80;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 7000000;
+        textures[] = {};
+    };
+
+    class ivory_elise {
+        vItemSpace = 80;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 7000000;
+        textures[] = {};
+    };
+
+    class ivory_f1 {
+        vItemSpace = 80;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 7000000;
+        textures[] = {};
+    };
+
+    class ivory_mp4 {
+        vItemSpace = 80;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 7000000;
+        textures[] = {};
+    };
+
+    class ivory_c {
+        vItemSpace = 80;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 7000000;
+        textures[] = {};
+    };
+
+    class ivory_supra {
+        vItemSpace = 80;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 7000000;
+        textures[] = {};
+    };
+
+    class Jonzie_Forklift {
+        vItemSpace = 30;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 200000;
+        textures[] = {};
+    };
+
+    class Jonzie_Tow_Truck {
+        vItemSpace = 150;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 2000000;
+        textures[] = {};
+    };
 };
