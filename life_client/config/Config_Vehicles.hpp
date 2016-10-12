@@ -378,7 +378,7 @@ class CarShops {
             { "dbo_LT_01", { "life_donorlevel", "SCALAR", 1 } },                    //LT sport
             { "Mrshounka_lykan_c", { "life_donorlevel", "SCALAR", 1 } },            //라이칸 하이퍼스포트
             { "A3L_Flipcar", { "life_donorlevel", "SCALAR", 1 } },                   //Flipcar
-			{ "sga_shopping_cart", { "life_donorlevel", "SCALAR", 2 } },                   //쇼핑카트
+			{ "sga_shopping_cart", { "life_donorlevel", "SCALAR", 1 } },                   //쇼핑카트
 			{ "sga_shopping_cart_monster", { "life_donorlevel", "SCALAR", 2 } },                   //쇼핑카트몬스터
 			{ "sga_hover_board", { "life_donorlevel", "SCALAR", 2 } },                   //호버보드
 			{ "shounka_harley_a3", { "life_donorlevel", "SCALAR", 2 } },         //할리데이비슨 오토바이
@@ -387,9 +387,9 @@ class CarShops {
             { "ivory_supra_topsecret", { "life_donorlevel", "SCALAR", 1 } },        //Toyota Supra(Top Secret) Donation
             { "ivory_lfa", { "life_donorlevel", "SCALAR", 1 } },        //Lexus LFA (Donation)
             { "ivory_elise", { "life_donorlevel", "SCALAR", 1 } },            //Lotus Elise 11R (Donation)
-            { "ivory_f1", { "life_donorlevel", "SCALAR", 1 } },         //McLaren F1 (Donation)
+            { "ivory_f1", { "life_donorlevel", "SCALAR", 3 } },         //McLaren F1 (Donation)
             { "ivory_mp4", { "life_donorlevel", "SCALAR", 1 } },        //McLaren MP4-12C (Donation)
-            { "ivory_c", { "life_donorlevel", "SCALAR", 1 } },      //벤틀리 스포츠
+            { "ivory_c", { "life_donorlevel", "SCALAR", 2 } },      //벤틀리 스포츠
             { "ivory_supra", { "life_donorlevel", "SCALAR", 1 } }      //Toyota Supra
              //             { "max_charger_black", { "life_donorlevel", "SCALAR", 1 } },            //닷지 차져
              //             { "max_charger_blue", { "life_donorlevel", "SCALAR", 1 } },            //닷지 차져
