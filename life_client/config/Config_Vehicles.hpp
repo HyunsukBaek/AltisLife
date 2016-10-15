@@ -23,7 +23,7 @@ class CarShops {
 			{ "C_Offroad_02_unarmed_orange_F", { "", "", -1 } },
 			{ "C_Offroad_02_unarmed_red_F", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
-            { "C_Hatchback_01_sport_F", { "", "", -1 } },
+//            { "C_Hatchback_01_sport_F", { "", "", -1 } },
             { "C_Van_01_transport_F", { "", "", -1 } }
         };
     };
@@ -115,7 +115,7 @@ class CarShops {
             { "C_Offroad_01_F", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
             { "C_Hatchback_01_F", { "", "", -1 } },
-            { "C_Hatchback_01_sport_F", { "", "", -1 } },
+          //  { "C_Hatchback_01_sport_F", { "", "", -1 } },
             { "C_Van_01_box_F", { "", "", -1 } },
             { "I_Truck_02_medical_F", { "", "", -1 } },
             { "B_Truck_01_medical_F", { "", "", -1 } },
@@ -159,7 +159,7 @@ class CarShops {
             { "B_Quadbike_01_F", { "", "", -1 } },
             { "C_Offroad_01_F", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
-            { "C_Hatchback_01_sport_F", { "", "", -1 } },
+         //   { "C_Hatchback_01_sport_F", { "", "", -1 } },
             { "O_MRAP_02_F", { "", "", -1 } },
             { "B_MRAP_01_F", { "", "", -1 } },
             { "B_Truck_01_Repair_F", { "", "", -1 } },
@@ -350,7 +350,6 @@ class CarShops {
              { "Mrshounka_yamaha_p_noir", { "", "", -1 } },    //야마하 오토바이
              { "dbo_crosser", { "", "", -1 } },    //공격형 오토바이
 			 { "sfp_wheelchair", { "", "", -1 } },    //휠체어
-			 { "Skyline_Bus_01_F", { "", "", -1 } },    //버스
              { "ivory_190e", { "", "", -1 } },       //Mercedes-Benz 190E
              { "ivory_190e_taxi", { "", "", -1 } }      //Mercedes-Benz 190E(Taxi)
         };
@@ -359,7 +358,7 @@ class CarShops {
     class civ_car_donation {
         side = "civ";
         vehicles[] = {
-            { "jean_sleigh", { "", "", -1 } },                    //산터썰매
+            { "jean_sleigh", {{ "life_donorlevel", "SCALAR", 1 } },                    //산터썰매
             { "shounka_f430_spider", { "life_donorlevel", "SCALAR", 1 } },                //페라리 f430 스파이더
             { "shounka_f430_spider_noir", { "life_donorlevel", "SCALAR", 1 } },            //페라리 f430 스파이더
             { "shounka_f430_spider_bleufonce", { "life_donorlevel", "SCALAR", 1 } },    //페라리 f430 스파이더
@@ -370,27 +369,28 @@ class CarShops {
             { "shounka_f430_spider_violet", { "life_donorlevel", "SCALAR", 1 } },        //페라리 f430 스파이더
             { "shounka_f430_spider_orange", { "life_donorlevel", "SCALAR", 1 } },        //페라리 f430 스파이더
             { "shounka_mp4", { "life_donorlevel", "SCALAR", 2 } },                        //맥라렌 mp4-12c
-            { "A3L_MonsterTruck", { "life_donorlevel", "SCALAR", 2 } },            //몬스터트럭
+            { "A3L_MonsterTruck", { "life_donorlevel", "SCALAR", 1 } },            //몬스터트럭
             { "Mrshounka_c63_2015_civ", { "life_donorlevel", "SCALAR", 1 } }, //벤츠 c63 AMG 2015
-            { "Mrshounka_agera_p", { "life_donorlevel", "SCALAR", 1 } },            //아제라 스포츠
-            { "Mrshounka_agera_p_bleu", { "life_donorlevel", "SCALAR", 1 } },        //아제라 스포츠
-            { "Mrshounka_agera_p_jaune", { "life_donorlevel", "SCALAR", 1 } },        //아제라 스포츠
+            { "Mrshounka_agera_p", { "life_donorlevel", "SCALAR", 3 } },            //아제라 스포츠
+            { "Mrshounka_agera_p_bleu", { "life_donorlevel", "SCALAR", 3 } },        //아제라 스포츠
+            { "Mrshounka_agera_p_jaune", { "life_donorlevel", "SCALAR", 3 } },        //아제라 스포츠
             { "dbo_LT_01", { "life_donorlevel", "SCALAR", 1 } },                    //LT sport
-            { "Mrshounka_lykan_c", { "life_donorlevel", "SCALAR", 1 } },            //라이칸 하이퍼스포트
+            { "Mrshounka_lykan_c", { "life_donorlevel", "SCALAR", 2 } },            //라이칸 하이퍼스포트
             { "A3L_Flipcar", { "life_donorlevel", "SCALAR", 1 } },                   //Flipcar
 			{ "sga_shopping_cart", { "life_donorlevel", "SCALAR", 1 } },                   //쇼핑카트
 			{ "sga_shopping_cart_monster", { "life_donorlevel", "SCALAR", 2 } },                   //쇼핑카트몬스터
 			{ "sga_hover_board", { "life_donorlevel", "SCALAR", 2 } },                   //호버보드
-			{ "shounka_harley_a3", { "life_donorlevel", "SCALAR", 2 } },         //할리데이비슨 오토바이
-            { "ivory_veyron", { "life_donorlevel", "SCALAR", 1 } },           //Bugatti Veyron (Donation)
-            { "ivory_gt500", { "life_donorlevel", "SCALAR", 1 } },            //Shelby GT500 (Donation)
-            { "ivory_supra_topsecret", { "life_donorlevel", "SCALAR", 1 } },        //Toyota Supra(Top Secret) Donation
+			{ "shounka_harley_a3", { "life_donorlevel", "SCALAR", 1 } },         //할리데이비슨 오토바이
+            { "ivory_veyron", { "life_donorlevel", "SCALAR", 3 } },           //Bugatti Veyron (Donation)
+            { "ivory_gt500", { "life_donorlevel", "SCALAR", 2 } },            //Shelby GT500 (Donation)
             { "ivory_lfa", { "life_donorlevel", "SCALAR", 1 } },        //Lexus LFA (Donation)
             { "ivory_elise", { "life_donorlevel", "SCALAR", 1 } },            //Lotus Elise 11R (Donation)
             { "ivory_f1", { "life_donorlevel", "SCALAR", 3 } },         //McLaren F1 (Donation)
             { "ivory_mp4", { "life_donorlevel", "SCALAR", 1 } },        //McLaren MP4-12C (Donation)
             { "ivory_c", { "life_donorlevel", "SCALAR", 2 } },      //벤틀리 스포츠
-            { "ivory_supra", { "life_donorlevel", "SCALAR", 1 } }      //Toyota Supra
+            { "ivory_supra", { "life_donorlevel", "SCALAR", 1 } },      //Toyota Supra
+            { "ivory_supra_topsecret", { "life_donorlevel", "SCALAR", 1 } },        //Toyota Supra(Top Secret) Donation
+            { "Skyline_Bus_01_F", { "life_donorlevel", "SCALAR", 3 } }   //버스
              //             { "max_charger_black", { "life_donorlevel", "SCALAR", 1 } },            //닷지 차져
              //             { "max_charger_blue", { "life_donorlevel", "SCALAR", 1 } },            //닷지 차져
              //             { "max_charger_red", { "life_donorlevel", "SCALAR", 1 } },                //닷지 차져
@@ -968,40 +968,40 @@ will modify the virtual space and the price of the vehicle, but other informatio
         };
     };
 
-    class C_Hatchback_01_sport_F {
-        vItemSpace = 45;
-        licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 140000;
-        textures[] = {
-            { "Police", "cop", {"textures\cop\cop_hatchback.paa"} },
-            { "UK Police", "cop", {"textures\cop\UK_police_hatchback_co.paa"} },
-            { "Security", "civ", {"textures\civ\secure_hatchback.paa"} },
-            { "Subaru", "civ", {"textures\civ\civ_subaru.paa"} },
-            { "EMS Red", "med", {"textures\ems\EMS_hatchback.paa"} },
-
-            { "Red", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport01_co.paa"
-            } },
-            { "Dark Blue", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport02_co.paa"
-            } },
-            { "Orange", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport03_co.paa"
-            } },
-            { "Black / White", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport04_co.paa"
-            } },
-            { "Beige", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport05_co.paa"
-            } },
-            { "monster_WRC", "civ", {"textures\civ\civ_hatchback_monster.paa"} },
-            { "LAPD", "cop", {"textures\cop\lapd_hatchback.paa"} },
-            { "EMS London", "med", {"textures\ems\paramedic_hb.paa"} },
-            { "Ferrari", "civ", {"textures\civ\ferrari_hatchback.paa"} },
-            { "porsche", "civ", {"textures\civ\porsche_hatchback.paa"} },
-            { "잠복용시민monster", "cop", {"textures\civ\civ_hatchback_monster.paa"} }
-        };
-    };
+//    class C_Hatchback_01_sport_F {
+//        vItemSpace = 45;
+//        licenses[] = { {"driver"}, {""}, {""}, {""} };
+//        price = 140000;
+//        textures[] = {
+//            { "Police", "cop", {"textures\cop\cop_hatchback.paa"} },
+//            { "UK Police", "cop", {"textures\cop\UK_police_hatchback_co.paa"} },
+//            { "Security", "civ", {"textures\civ\secure_hatchback.paa"} },
+//            { "Subaru", "civ", {"textures\civ\civ_subaru.paa"} },
+//            { "EMS Red", "med", {"textures\ems\EMS_hatchback.paa"} },
+//
+//            { "Red", "civ", {
+//                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport01_co.paa"
+//            } },
+//            { "Dark Blue", "civ", {
+//                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport02_co.paa"
+//            } },
+//            { "Orange", "civ", {
+//                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport03_co.paa"
+//            } },
+//            { "Black / White", "civ", {
+//                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport04_co.paa"
+//            } },
+//            { "Beige", "civ", {
+//                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport05_co.paa"
+//            } },
+//            { "monster_WRC", "civ", {"textures\civ\civ_hatchback_monster.paa"} },
+//            { "LAPD", "cop", {"textures\cop\lapd_hatchback.paa"} },
+//            { "EMS London", "med", {"textures\ems\paramedic_hb.paa"} },
+//            { "Ferrari", "civ", {"textures\civ\ferrari_hatchback.paa"} },
+//            { "porsche", "civ", {"textures\civ\porsche_hatchback.paa"} },
+//            { "잠복용시민monster", "cop", {"textures\civ\civ_hatchback_monster.paa"} }
+//        };
+//    };
 
     class B_Quadbike_01_F {
         vItemSpace = 25;

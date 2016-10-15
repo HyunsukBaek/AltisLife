@@ -717,7 +717,7 @@ class Clothing {
     class extreme_shop {
         title = "Extreme Shop";
         license = "";
-        side = "civ";
+        side = "";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
             { "U_C_Driver_1_green", "", 1500, { "", "", -1 } },
