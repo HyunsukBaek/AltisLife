@@ -358,7 +358,7 @@ class CarShops {
     class civ_car_donation {
         side = "civ";
         vehicles[] = {
-            { "jean_sleigh", {{ "life_donorlevel", "SCALAR", 1 } },                    //산터썰매
+            { "jean_sleigh", { "life_donorlevel", "SCALAR", 1 } },                    //산터썰매
             { "shounka_f430_spider", { "life_donorlevel", "SCALAR", 1 } },                //페라리 f430 스파이더
             { "shounka_f430_spider_noir", { "life_donorlevel", "SCALAR", 1 } },            //페라리 f430 스파이더
             { "shounka_f430_spider_bleufonce", { "life_donorlevel", "SCALAR", 1 } },    //페라리 f430 스파이더
