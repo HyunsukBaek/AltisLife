@@ -22,19 +22,19 @@ class WeaponShops {
         license = "gun";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "hgun_Rook40_F", "", 50000, 500 },
-            { "hgun_Pistol_heavy_02_F", "", 65000, 500 },
-            { "hgun_ACPC2_F", "", 85000, 500 },
-            { "hgun_PDW2000_F", "", 105000, 500 }
+            { "hgun_Rook40_F", "", 12500, 500 },
+            { "hgun_Pistol_heavy_02_F", "", 55000, 500 },
+            { "hgun_ACPC2_F", "", 35000, 500 },
+            { "hgun_PDW2000_F", "", 100000, 500 }
         };
         mags[] = {
-            { "16Rnd_9x21_Mag", "", 15000 },
-            { "6Rnd_45ACP_Cylinder", "", 600 },
-            { "9Rnd_45ACP_Mag", "", 750 },
-            { "30Rnd_9x21_Mag", "", 1500 }
+            { "16Rnd_9x21_Mag", "", 10000 },
+            { "6Rnd_45ACP_Cylinder", "", 10000 },
+            { "9Rnd_45ACP_Mag", "", 10000 },
+            { "30Rnd_9x21_Mag", "", 30000 }
         };
         accs[] = {
-            { "optic_ACO_grn_smg", "", 2500 }
+            { "optic_ACO_grn_smg", "", 3000 }
         };
     };
 
@@ -121,7 +121,7 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "FirstAidKit", "", 550, 65 },
+            { "FirstAidKit", "", 3000, 65 },
             { "hgun_PDW2000_F", "", 105000, 20000 },
             { "hgun_Rook40_F", "", 50000, 3100 },
             { "hgun_Pistol_heavy_02_F", "", 65000, 2200 },// zubr
@@ -169,8 +169,8 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-//            { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
-//            { "tf_anprc148jem", "", 4000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
+            { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
+            { "tf_anprc148jem", "", 4000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
             { "Binocular", "", 150, 10 },
             { "ItemGPS", "", 100, 45 },
             { "ItemMap", "", 50, 35 },
@@ -178,7 +178,7 @@ class WeaponShops {
             { "ItemWatch", "", 50, 10 },
             { "ItemRadio", "", 2500, 25 },
             { "ItemWatch", "", 50, -1 },
-            { "FirstAidKit", "", 550, 65 },
+            { "FirstAidKit", "", 3000, 65 },
             { "NVGoggles", "", 2000, 980 },
             { "Chemlight_red", "", 300, 50 },
             { "Chemlight_yellow", "", 300, 50 },
@@ -195,15 +195,15 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-//            { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
-//            { "tf_anprc148jem", "", 4000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
+            { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
+            { "tf_anprc148jem", "", 4000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
             { "Binocular", "", 750, 100 },
             { "ItemGPS", "", 500, 45 },
             { "ItemMap", "", 250, 35 },
             { "ItemCompass", "", 250, 25 },
             { "ItemWatch", "", 250, 25 },
             { "ItemRadio", "", 2500, 25 },
-            { "FirstAidKit", "", 550, 65 },
+            { "FirstAidKit", "", 3000, 65 },
             { "NVGoggles", "", 10000, 980 },
             { "Chemlight_red", "", 1500, 50 },
             { "Chemlight_yellow", "", 1500, 50 },
@@ -221,13 +221,13 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-//            { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
-//            { "tf_anprc148jem", "", 4000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
+            { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
+            { "tf_anprc148jem", "", 4000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
             { "Binocular", "", 150, 10 },
             { "ItemGPS", "", 100, 45 },
             { "ItemMap", "", 50, 35 },
             { "ItemRadio", "", 3000, 980 },
-            { "FirstAidKit", "", 550, 65 },
+            { "FirstAidKit", "", 3000, 65 },
             { "NVGoggles", "", 2000, 980 },
             { "arifle_sdar_F", "Taser Rifle", 130000, 20000 },
             { "hgun_P07_F", "Stun Pistol", 35000, 650 },
@@ -402,9 +402,9 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-//            { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
-//            { "tf_anprc148jem", "", 4000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
-            { "FirstAidKit", "", 550, 65 },
+            { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
+            { "tf_anprc148jem", "", 4000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
+            { "FirstAidKit", "", 1000, 65 },
             { "NVGoggles", "", 1200, 980 },
             { "ItemGPS", "", 100, 45 },
             { "Binocular", "", 150, 50 },
