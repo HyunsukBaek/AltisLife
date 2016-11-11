@@ -24,3 +24,24 @@ StartProgress = false;
 enableRadio false;
 enableSentences false;
 StartProgress = true;
+
+
+//--- Disable remote sensors (raycasting)
+disableRemoteSensors true;
+
+//--- Group cleanup
+[] spawn {
+  while {true} do {
+    uiSleep 30;
+
+    //--- Group cleanup
+    {
+      private _group = _x;
+
+      //--- If group is local and empty
+      if (local _group && {count units _group <= 0}) then {
+        deleteGroup _x;
+      };
+    } forEach allGroups;
+  };
+};

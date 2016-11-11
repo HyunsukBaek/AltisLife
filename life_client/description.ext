@@ -1,3 +1,9 @@
+disableChannels[]={{0,true,true},{2,true,true}};
+enableDebugConsole = 0;
+//0 = Default behavior, available only in editor
+//1 = Available in SP and for hosts / logged in admins
+//2 = Available for everyone
+
 //Channel Number
 //0 = Global
 //1 = Side
@@ -7,11 +13,18 @@
 //5 = Direct
 //6 = System
 
-disableChannels[]={{0,true,true},{2,true,true}};
-enableDebugConsole = 0;
-//0 = Default behavior, available only in editor
-//1 = Available in SP and for hosts / logged in admins
-//2 = Available for everyone
+//HUD Setting
+showHUD[] = {
+    true,   // Scripted HUD (same as showHUD command)
+    true,   // Vehicle + soldier info
+    true,   // Vehicle radar [HIDDEN]
+    true,   // Vehicle compass [HIDDEN]
+    true,   // Tank direction indicator
+    true,   // Commanding menu
+    false,  // Group Bar
+    true,    // HUD Weapon Cursors
+    true
+};
 
 #include "config\Config_Spyglass.hpp"
 #include "CfgRemoteExec.hpp"

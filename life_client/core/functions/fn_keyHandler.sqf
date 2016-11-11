@@ -368,7 +368,7 @@ switch (_code) do {
         };
     };
 
-	//DELETE Key :Suicide Vest 
+	//DELETE Key :Suicide Vest
 	case 211: {
 		if(!_alt && !_ctrlKey && !dialog) then {
 			if((time - life_action_delay) < 15) exitWith {hint localize "STR_NOTF_ActionDelay";};
@@ -376,7 +376,7 @@ switch (_code) do {
 			life_action_delay = time;
 		};
 	};
-	
+
 	//Admin Menu Shift + `
 	case 41:
 	{
@@ -390,7 +390,7 @@ switch (_code) do {
 			};
 		};
 	};
-	
+
 
 	//Mobile open Shift + 1
 	case 2:
@@ -404,9 +404,53 @@ switch (_code) do {
 			};
 		};
 	};
-	
-	//무술 Shifh + 5
-	case 6:
+
+    //손인사 높게 Shift + 2
+    case 3:
+    {
+        if(_shift) then {_handled = true;};
+        if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
+        {
+            //cutText [format["태권도!!!!!"], "PLAIN DOWN"];
+            player playAction "gestureHi";
+        };
+    };
+
+    //손인사 낮게 Shift + 3
+    case 4:
+    {
+        if(_shift) then {_handled = true;};
+        if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
+        {
+            //cutText [format["태권도!!!!!"], "PLAIN DOWN"];
+            player playAction "gestureHiC";
+        };
+    };
+
+    //노노 사인 Shift + 4
+    case 5:
+    {
+        if(_shift) then {_handled = true;};
+        if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
+        {
+            //cutText [format["태권도!!!!!"], "PLAIN DOWN"];
+            player playAction "gestureHiB";
+        };
+    };
+
+    //한번 끄덕이기 Shift + 5
+    case 6:
+    {
+        if(_shift) then {_handled = true;};
+        if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
+        {
+            //cutText [format["태권도!!!!!"], "PLAIN DOWN"];
+            player playAction "gestureNod";
+        };
+    };
+
+	//무술 Shifh + 6
+	case 7:
 	{
 		if(_shift) then {_handled = true;};
 		if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
@@ -415,9 +459,9 @@ switch (_code) do {
 			player playMove "AmovPercMstpSnonWnonDnon_exerciseKata";
 		};
 	};
-	
-	//앉았다 느리게 일어나기 Shifh + 6
-	case 7:
+
+	//앉았다 느리게 일어나기 Shifh + 7
+	case 8:
 	{
 		if(_shift) then {_handled = true;};
 		if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
@@ -426,9 +470,9 @@ switch (_code) do {
 			player playMove "AmovPercMstpSnonWnonDnon_exercisekneeBendA";
 		};
 	};
-	
-	//앉았다 일어나기 Shifh + 7
-	case 8:
+
+	//앉았다 일어나기 Shifh + 8
+	case 9:
 	{
 		if(_shift) then {_handled = true;};
 		if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
@@ -437,119 +481,108 @@ switch (_code) do {
 			player playMove "AmovPercMstpSnonWnonDnon_exercisekneeBendB";
 		};
 	};
-	
-	//팔굽혀펴기 Shifh + 8 
-	case 9:
-	{
-		if(_shift) then {_handled = true;};
-		if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
-		{	
-			//cutText [format["팔굽혀펴기!!!"], "PLAIN DOWN"];
-			player playMove "AmovPercMstpSnonWnonDnon_exercisePushup";
-		};
-	};
-	
-	//술취한모션 Shifh + 9 
+
+	//팔굽혀펴기 Shifh + 9
 	case 10:
 	{
 		if(_shift) then {_handled = true;};
 		if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
-		{	
+		{
 			//cutText [format["팔굽혀펴기!!!"], "PLAIN DOWN"];
-			player playMove "AcinPercMstpSnonWnonDnon_agony";
+			player playMove "AmovPercMstpSnonWnonDnon_exercisePushup";
 		};
 	};
-	
+
 	//오줌 모션 Shift + Num1
 	case 79:
 	{
 		if(_shift) then {_handled = true;};
 		if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
-		{	
+		{
 			//cutText [format["쉬야"], "PLAIN DOWN"];
 			//player playMove "Acts_AidlPercMstpSlowWrflDnon_pissing";  //Original Code
 			[] execVM "Custom\Motion\pee.sqf";
 		};
-	};	
-	
+	};
+
 	//A2댄스1 Shift + Num2
 	case 80:
 	{
 		if(_shift) then {_handled = true;};
 		if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
-		{	
+		{
 			[player,"AOS_A2Dance1",true] remoteExecCall ["life_fnc_animSync",RCLIENT];
 			player switchMove "AOS_A2Dance1";
 			player playMoveNow "AOS_A2Dance1";
 		};
 	};
-	
+
 	//A2댄스2 Shift + Num3
 	case 81:
 	{
 		if(_shift) then {_handled = true;};
 		if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
-		{	
+		{
 			[player,"AOS_A2Dance2",true] remoteExecCall ["life_fnc_animSync",RCLIENT];
 			player switchMove "AOS_A2Dance2";
 			player playMoveNow "AOS_A2Dance2";
 		};
 	};
-	
+
 	//A2댄스3 Shift + Num4
 	case 75:
 	{
 		if(_shift) then {_handled = true;};
 		if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
-		{	
+		{
 			[player,"AOS_A2Dance3",true] remoteExecCall ["life_fnc_animSync",RCLIENT];
 			player switchMove "AOS_A2Dance3";
 			player playMoveNow "AOS_A2Dance3";
 		};
 	};
-	
+
 	//City 댄스1 Shift + Num5
 	case 76:
 	{
 		if(_shift) then {_handled = true;};
 		if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
-		{	
+		{
 			[player,"AOS_Normal_Dance",true] remoteExecCall ["life_fnc_animSync",RCLIENT];
 			player switchMove "AOS_Normal_Dance";
 			player playMoveNow "AOS_Normal_Dance";
 		};
 	};
-	
+
 	//City 댄스2 Shift + Num6
 	case 77:
 	{
 		if(_shift) then {_handled = true;};
 		if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
-		{	
+		{
 			[player,"AOS_Crazy_Dance",true] remoteExecCall ["life_fnc_animSync",RCLIENT];
 			player switchMove "AOS_Crazy_Dance";
 			player playMoveNow "AOS_Crazy_Dance";
 		};
 	};
-	
+
 	//City 목긋기 Shift + Num7
 	case 71:
 	{
 		if(_shift) then {_handled = true;};
 		if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
-		{	
+		{
 			[player,"AOS_Threaten",true] remoteExecCall ["life_fnc_animSync",RCLIENT];
 			player switchMove "AOS_Threaten";
 			player playMoveNow "AOS_Threaten";
 		};
 	};
-	
+
 	//City 손가락 욕 Shift + Num8
 	case 72:
 	{
 		if(_shift) then {_handled = true;};
 		if(_shift && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {!life_is_arrested}) then
-		{	
+		{
 			[player,"AOS_Middlefinger",true] remoteExecCall ["life_fnc_animSync",RCLIENT];
 			player switchMove "AOS_Middlefinger";
 			player playMoveNow "AOS_Middlefinger";
