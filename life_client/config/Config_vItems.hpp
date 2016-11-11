@@ -596,8 +596,8 @@ class VirtualItems {
         variable = "apple";
         displayName = "STR_Item_Apple";
         weight = 1;
-        buyPrice = 150;
-        sellPrice = 100;
+        buyPrice = 350;
+        sellPrice = 300;
         illegal = false;
         edible = 20;
         icon = "icons\ico_apple.paa";
@@ -607,8 +607,8 @@ class VirtualItems {
         variable = "peach";
         displayName = "STR_Item_Peach";
         weight = 1;
-        buyPrice = 150;
-        sellPrice = 100;
+        buyPrice = 350;
+        sellPrice = 300;
         illegal = false;
         edible = 20;
         icon = "icons\ico_peach.paa";
