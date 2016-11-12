@@ -45,14 +45,14 @@ class WeaponShops {
         level[] = { "", "", -1, "" };
         items[] = {
             { "arifle_SDAR_F", "", 130000, 2000 },
-            { "arifle_TRG20_F", "", 180000, 2000 },
-            { "arifle_Katiba_F", "", 280000, 2000 },
-            { "arifle_MXC_F", "", 200000, 2000 },
-            { "arifle_MX_SW_F", "", 270000, 2000 },
-            { "srifle_DMR_01_F", "", 300000, 2000 }, //RAHIM
-            { "srifle_EBR_F", "", 500000, 2000 }, //MK18
+            { "arifle_TRG20_F", "", 250000, 2000 },
+            { "arifle_Katiba_F", "", 320000, 2000 },
+            { "arifle_MXC_F", "", 350000, 2000 },
+            { "arifle_MX_SW_F", "", 400000, 2000 },
+            { "srifle_DMR_01_F", "", 550000, 2000 }, //RAHIM
+            { "srifle_EBR_F", "", 600000, 2000 }, //MK18
             { "LMG_Mk200_F", "", 850000, 2000 },
-            { "srifle_DMR_05_hex_F", "cyrus(DLC)", 530000, 2000 },//cyrus
+            { "srifle_DMR_05_hex_F", "cyrus(DLC)", 830000, 2000 },//cyrus
             { "arifle_CTAR_hex_F", "", 530000, 2000 },//CAR
             { "launch_RPG32_F", "", 990000, 2000 },
             { "launch_RPG7_F", "RPG7(tanoa)", 990000, 2000 }
@@ -126,14 +126,14 @@ class WeaponShops {
             { "hgun_Rook40_F", "", 50000, 3100 },
             { "hgun_Pistol_heavy_02_F", "", 65000, 2200 },// zubr
             { "hgun_ACPC2_F", "", 85000, 3000 },
-            { "SMG_02_F", "", 200000, 20000 },//sting 9mm
+            { "SMG_02_F", "", 300000, 20000 },//sting 9mm
             { "arifle_Katiba_F", "", 380000, 20000 },
-            { "arifle_MXC_F", "", 400000, 20000 },
-            { "srifle_DMR_01_F", "", 300000, 20000 },
-            { "arifle_AKM_F", "AK12 APEX", 240000, 20000 },//AKM
-            { "arifle_AKS_F", "AK12 APEX", 200000, 20000 }//AKS
-
+            { "arifle_MXC_F", "", 350000, 20000 },
+            { "srifle_DMR_01_F", "", 550000, 20000 },
+            { "arifle_AKM_F", "AK12 APEX", 440000, 20000 },//AKM
+            { "arifle_AKS_F", "AK12 APEX", 400000, 20000 }//AKS
         };
+
         mags[] = {
             { "16Rnd_9x21_Mag", "", 20000 }, // Rook40, PDW2000
             { "30Rnd_9x21_Mag", "", 50000 }, // Rook40, PDW2000
