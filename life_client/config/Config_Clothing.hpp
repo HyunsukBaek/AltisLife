@@ -27,11 +27,13 @@ class Clothing {
             { "U_C_TeeSurfer_shorts_1", "Gay3", 175, { "", "", -1 } },
             { "U_C_TeeSurfer_shorts_2", "Gay4", 175, { "", "", -1 } },
             { "U_Competitor", "Press Suit", 275, { "", "", -1 } },
-            { "U_C_Poor_2", "Rag tagged clothes", 250, { "", "", -1 } },
+            { "U_C_Poor_2", "", 250, { "", "", -1 } },
             { "U_C_Poloshirt_tricolour", "Poloshirt Tricolor", 350, { "", "", -1 } },
             { "U_OrestesBody", "Surfing On Land", 1100, { "", "", -1 } },
             { "U_C_HunterBody_grn", "The Hunters Look", 1500, { "", "", -1 } },
             { "U_C_WorkerCoveralls", "Mechanic Coveralls", 2500, { "", "", -1 } }
+
+
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -133,7 +135,18 @@ class Clothing {
             { "mgsr_robe_muddy", "prisoner4", 5000, { "", "", -1 } },
             { "xmas_santa_blufor_uniform", "santa blue", 5000, { "life_donorlevel", "SCALAR", 1 } },
             { "xmas_santa_ind_uniform", "santa green", 5000, { "life_donorlevel", "SCALAR", 1 } },
-            { "xmas_santa_opfor_uniform", "santa red", 5000, { "life_donorlevel", "SCALAR", 1 } }
+            { "xmas_santa_opfor_uniform", "santa red", 5000, { "life_donorlevel", "SCALAR", 1 } },
+
+
+            { "U_Office_A", "", 250, { "", "", -1 } },
+            { "U_Office_B", "", 250, { "", "", -1 } },
+            { "U_Office_C", "", 250, { "", "", -1 } },
+            { "U_CivilianSuit_A", "", 250, { "", "", -1 } },
+            { "U_CivilianSuit_B", "", 250, { "", "", -1 } },
+            { "U_CivilianSuit_C", "", 250, { "", "", -1 } },
+            { "U_DressTKLocalUni_D_D", "", 250, { "", "", -1 } },
+            { "U_AFAOfficerUni_A", "", 250, { "", "", -1 } },
+            { "Zannaza69", "", 250, { "", "", -1 } }
         };
         headgear[] = {
             { "H_AntmanMask", "", 100000, { "", "", -1 } },
@@ -289,7 +302,15 @@ class Clothing {
             { "U_Marshal", "Marshal", 5550, { "life_coplevel", "SCALAR", 5 } },
             { "U_NikosAgedBody", "시민2", 10550, { "life_coplevel", "SCALAR", 4 } },
             { "U_B_CTRG_Soldier_3_F", "", 990000, { "life_coplevel", "SCALAR", 3 } },
-            { "U_B_CTRG_Soldier_F", "", 990000, { "life_coplevel", "SCALAR", 3 } }
+            { "U_B_CTRG_Soldier_F", "", 990000, { "life_coplevel", "SCALAR", 3 } },
+
+            { "U_GirlSet_PD_uniform", "", 990000, { "life_coplevel", "SCALAR", 4 } },
+            { "U_GirlSet_SWAT_uniform", "", 990000, { "life_coplevel", "SCALAR", 4 } },
+            { "A3L_DOCOfficer_Uniform", "", 990000, { "life_coplevel", "SCALAR", 4 } },
+            { "A3L_Police_Uniform", "", 990000, { "life_coplevel", "SCALAR", 4 } },
+            { "A3L_DOCOfficer_Uniform", "", 990000, { "life_coplevel", "SCALAR", 4 } }
+
+
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
