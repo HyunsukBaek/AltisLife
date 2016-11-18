@@ -1100,6 +1100,17 @@ SFG_Tac_ChopsO
 
 
 
+mr_max_freighter //오징어
+COREV_O_FishingBoat //낚시통통배
+POP_Speed_yatch //럭셔리 
+Mattaust_Fisher // 대게잡이
+mr_stretcher // 스트렛쳐 
+A3L_HospitalBed2015// 병원침대 
+shounka_a3_brinks_grise // 장갑호송 
+pop_hotrod_civ // 호드 로드 
+bv_e60_m5_cop_interceptor// 교통경찰 비머 
+
+Jonzie_Tanker_Truck//
 
 
 
