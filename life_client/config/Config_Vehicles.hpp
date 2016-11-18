@@ -49,6 +49,7 @@ class CarShops {
             { "O_Truck_03_device_F", { "", "", -1 } },
             { "C_Van_01_fuel_F", { "", "", -1 } },
             { "I_Truck_02_fuel_F", { "", "", -1 } },
+            { "Jonzie_Tanker_Truck", { "", "", -1 } },
             { "shounka_a3_dafxf_euro6_f", { "", "", -1 } },    //트레일러 없는 트럭
             { "Mrshounka_a3_iveco_f", { "", "", -1 } },        //IVECO 특장트럭 ( 컨테이너 )  4인승
             { "shounka_a3_renaultmagnum_f", { "", "", -1 } }   //REnault magnum 대형 트레일러
@@ -83,7 +84,12 @@ class CarShops {
             { "C_Boat_Civil_01_F", { "", "", -1 } },
             { "B_SDV_01_F", { "", "", -1 } },
             { "I_C_Boat_Transport_02_F", { "", "", -1 } },
-            { "B_CBS_WaterShadow730_F", { "", "", -1 } }    //addon
+
+            { "B_CBS_WaterShadow730_F", { "", "", -1 } },    //addon
+            { "mr_max_freighter", { "", "", -1 } },
+            { "COREV_O_FishingBoat", { "", "", -1 } },
+            { "POP_Speed_yatch", { "", "", -1 } },
+            { "Mattaust_Fisher", { "", "", -1 } }
         };
     };
 
@@ -129,7 +135,11 @@ class CarShops {
 			{ "bv_the_crowner_cop_emt", { "", "", -1 } },	//경찰차 비슷한 빨간차
             { "ivory_suburban_ems", { "", "", -1 } },       //Suburban SUV(Medic)
             { "Jonzie_Forklift", {"", "", -1 } },   //ForkLift
-            { "Jonzie_Tow_Truck", {"", "", -1 } }       //Tow Truck
+            { "Jonzie_Tow_Truck", {"", "", -1 } },       //Tow Truck
+
+            { "A3L_HospitalBed2015", {"", "", -1 } },//스트렛쳐침대
+            { "mr_stretcher", {"", "", -1 } }       //병원침대
+
 
 //            { "max_ambulance", { "", "", -1 } }, //옛날 엠뷸런스 4인용
 //            { "max_firetruck", { "", "", -1 } }, // 소방차 5인용
@@ -180,6 +190,8 @@ class CarShops {
             { "shounka_a3_508banalise", { "", "", -1 } },// 푸조 508 세단 검정
             { "shounka_a3_508gend", { "", "", -1 } },// 푸조 508 세단 파랑
             { "shounka_a3_508pol", { "", "", -1 } },// 푸조 508 세단 흰
+            { "shounka_a3_brinks_grise", { "", "", -1 } },// 장갑호송차량
+
             { "Mrshounka_a3_308_gend", { "", "", -1 } },//골프 308 GTI 푸조 파랑
             { "Mrshounka_308pol", { "", "", -1 } },//골프 308 GTI 푸조 흰색
 //            { "max_BP_charger", { "", "", -1 } },//닷지 차저 경찰 (흰색)
@@ -210,6 +222,7 @@ class CarShops {
             { "bv_the_crowner_cop_patrol_interceptor", { "", "", -1 } }, // 인터셉터 경찰차
 			{ "bv_the_crowner_cop_sher", { "", "", -1 } },	//Patrol the Black Sheriff
 			{ "bv_e60_m5_cop_patrol", { "", "", -1 } },	//Patrol
+            { "bv_e60_m5_cop_interceptor", { "", "", -1 } },          //BMW 교통경찰
             { "ivory_m3_marked", { "", "", -1 } },          //BMW M3 E92
             { "ivory_m3_slicktop", { "", "", -1 } },
             { "ivory_m3_unmarked", { "", "", -1 } },
@@ -1304,9 +1317,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     class C_Van_01_fuel_F {
         vItemSpace = 20;
-        vFuelSpace = 19500;
+        vFuelSpace = 17500;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 420000;
+        price = 620000;
         textures[] = {
             { "White", "civ", {
                 "\A3\soft_f_gamma\Van_01\data\van_01_ext_co.paa",
@@ -1321,14 +1334,23 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     class I_Truck_02_fuel_F {
         vItemSpace = 40;
-        vFuelSpace = 42000;
+        vFuelSpace = 40000;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 600000;
+        price = 800000;
         textures[] = {
             { "White", "civ", {
                 "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
                 "\A3\Soft_F_Beta\Truck_02\data\truck_02_fuel_co.paa"
             } }
+        };
+    };
+
+    class Jonzie_Tanker_Truck { //탱크로리 거대
+        vItemSpace = 70;
+        vFuelSpace = 50000;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 2500000;
+        textures[] = {}
         };
     };
 
@@ -1448,6 +1470,13 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     class shounka_a3_508gend : shounka_a3_508banalise{};
     class shounka_a3_508pol : shounka_a3_508banalise{};
+
+    class shounka_a3_brinks_grise {
+        vItemSpace = 80;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 800000;
+        textures[] = {};
+    };
 
     class Mrshounka_a3_308_gend {
         vItemSpace = 50;
@@ -1645,7 +1674,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class R_HotairBalloon {
             vItemSpace = 500;
             licenses[] = { {"pilot"}, {""}, {""}, {""} };
-            price = 30000000;
+            price = 3000000;
             textures[] = {};
     };
 
@@ -1653,7 +1682,35 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class B_CBS_WaterShadow730_F {
         vItemSpace = 120;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
-        price = 2500000;
+        price = 1500000;
+        textures[] = {};
+    };
+
+    class mr_max_freighter {
+        vItemSpace = 200;
+        licenses[] = { {"boat"}, {""}, {""}, {""} };
+        price = 1600000;
+        textures[] = {};
+    };
+
+    class COREV_O_FishingBoat {
+        vItemSpace = 230;
+        licenses[] = { {"boat"}, {""}, {""}, {""} };
+        price = 2200000;
+        textures[] = {};
+    };
+
+    class POP_Speed_yatch {
+        vItemSpace = 210;
+        licenses[] = { {"boat"}, {""}, {""}, {""} };
+        price = 4300000;
+        textures[] = {};
+    };
+
+    class Mattaust_Fisher {
+        vItemSpace = 300;
+        licenses[] = { {"boat"}, {""}, {""}, {""} };
+        price = 3300000;
         textures[] = {};
     };
 
@@ -2450,6 +2507,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class bv_the_crowner_cop_sher : bv_gtr_spec_v_cop_patrol{};
 	class bv_e60_m5_cop_emt : bv_gtr_spec_v_cop_patrol{};
 	class bv_e60_m5_cop_patrol : bv_gtr_spec_v_cop_patrol{};
+    class bv_e60_m5_cop_interceptor : bv_gtr_spec_v_cop_patrol{};
 
 	class shounka_harley_a3 {
 	         vItemSpace = 100;
@@ -2630,6 +2688,20 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vItemSpace = 150;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 2000000;
+        textures[] = {};
+    };
+
+    class mr_stretcher {
+        vItemSpace = 20;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 700000;
+        textures[] = {};
+    };
+
+    class A3L_HospitalBed2015 {
+        vItemSpace = 20;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 1000000;
         textures[] = {};
     };
 };
