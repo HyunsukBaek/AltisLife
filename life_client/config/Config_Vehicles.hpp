@@ -1350,8 +1350,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vFuelSpace = 50000;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = 2500000;
-        textures[] = {}
-        };
+        textures[] = {};
     };
 
     class B_Truck_01_Repair_F {
