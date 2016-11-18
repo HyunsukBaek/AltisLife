@@ -1,0 +1,77 @@
+hlc_rifle_Colt727  콜트 카빈
+30Rnd_556x45_Stanag
+hlc_30rnd_556x45_EPR
+hlc_30rnd_556x45_SOST
+hlc_30rnd_556x45_SPR
+hlc_30rnd_556x45_MDim
+hlc_30rnd_556x45_TDim
+hlc_50rnd_556x45_EPR
+30Rnd_556x45_Stanag_Tracer_Red
+30Rnd_556x45_Stanag_Tracer_Green
+30Rnd_556x45_Stanag_Tracer_Yellow
+hlc_30rnd_556x45_S
+
+
+hlc_rifle_M4 콜트 m4 카빈
+30Rnd_556x45_Stanag_Tracer_Red
+30Rnd_556x45_Stanag_Tracer_Green
+30Rnd_556x45_Stanag_Tracer_Yellow
+hlc_30rnd_556x45_S
+hlc_50rnd_556x45_EPR
+hlc_30rnd_556x45_TDim
+hlc_30rnd_556x45_MDim
+hlc_30rnd_556x45_SPR
+hlc_30rnd_556x45_SOST
+30Rnd_556x45_Stanag
+hlc_30rnd_556x45_EPR
+
+
+hlc_rifle_Bushmaster300 m4 닮은거
+29rnd_300BLK_STANAG
+29rnd_300BLK_STANAG_T
+29rnd_300BLK_STANAG_S
+
+Auto762x51_G3A3  HK G3A3
+20Rnd_762x51_HKG3
+20Rnd_762x51_Mag
+5Rnd_762x51_M24SWS
+
+사냥용 (1차대전)
+Bolt792x57_CZ550 
+5Rnd_792x57_Kar98
+
+Bolt792x57_Kar98K_RIS 
+5Rnd_792x57_Kar98
+
+Bolt762x54_M9130_RIS 
+5Rnd_762x54_M91
+
+Bolt77x56_SMLE_RIS
+10Rnd_77x56_SMLE
+
+
+2차대전무기 
+
+Smg762x25_PPSh41_B // ppsh - 41
+35Rnd_762x25_PPS
+35Rnd_762x25_PPSh
+71Rnd_762x25_PPSh  //드럼탄창
+
+Smg762x25_PPS43  //pps43
+35Rnd_762x25_PPS
+35Rnd_762x25_PPSh
+
+
+저격총
+hlc_rifle_psg1A1 , hlc_optic_PVS4G3(acc), hlc_optic_accupoint_g3(acc), HLC_Optic_ZFSG1(acC)
+
+hlc_20rnd_762x51_b_G3
+hlc_20rnd_762x51_Mk316_G3
+hlc_20rnd_762x51_barrier_G3
+hlc_20rnd_762x51_T_G3
+hlc_20rnd_762x51_IRDim_G3
+hlc_20rnd_762x51_MDim_G3
+hlc_50rnd_762x51_M_G3
+hlc_50rnd_762x51_MDIM_G3
+hlc_20rnd_762x51_S_G3
+

@@ -117,6 +117,8 @@ class Clothing {
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
             { "tf_rt1523g_sage", "", 8000, { "", "", -1 } }, //long range-  40KM // BLUEFOR
+            { "tf_bussole", "", 13000, { "", "", -1 } }, //long range-  40KM // BLUEFOR
+
             { "B_OutdoorPack_blk", "", 500, { "", "", -1 } },
             { "B_AssaultPack_khk", "", 2000, { "", "", -1 } },
             { "B_AssaultPack_dgtl", "", 2000, { "", "", -1 } },
@@ -140,7 +142,22 @@ class Clothing {
             { "B_Carryall_oli", "", 7500, { "", "", -1 } },
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
             { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
-            { "B_Parachute", "낙하산", 37500, { "", "", -1 } }
+
+            { "B_Parachute", "낙하산", 37500, { "", "", -1 } },
+
+            { "A3L_BergenMurica", "", 17500, { "", "", -1 } },
+            { "B_Carryall_C", "", 17500, { "", "", -1 } },
+            { "B_Carryall_A", "", 17500, { "", "", -1 } },
+            { "B_GiantBag_A", "", 47500, { "", "", -1 } },
+            { "B_HikingBag_D", "", 36500, { "", "", -1 } },
+            { "B_HikingBag_E", "", 36500, { "", "", -1 } },
+            { "B_Kitbag_C", "", 36500, { "", "", -1 } },
+            { "B_Kitbag_B", "", 36500, { "", "", -1 } },
+            { "B_TacticalPack_A", "", 16500, { "", "", -1 } },
+            { "B_TacticalPack_B", "", 16500, { "", "", -1 } },
+            { "B_TacticalPack_C", "", 16500, { "", "", -1 } },
+            { "B_Kitbag_A", "", 36500, { "", "", -1 } }
+
         };
     };
 
@@ -283,6 +300,8 @@ class Clothing {
             { "BL_trump_Hat", "", 150000, { "life_donorlevel", "SCALAR", 1 } }, //트럼프 머리
             { "BL_us_Hat", "", 150000, { "life_donorlevel", "SCALAR", 1 } },    //시골 보안관
             { "BL_party_Hat", "", 150000, { "life_donorlevel", "SCALAR", 1 } } //생일 파티
+
+
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -422,6 +441,7 @@ class Clothing {
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
             { "tf_rt1523g_sage", "", 8000, { "", "", -1 } }, //long range-  40KM // BLUEFOR
+            { "tf_bussole", "", 13000, { "", "", -1 } }, //long range-  40KM // BLUEFOR
             { "B_FieldPack_cbr", "", 500, { "", "", -1 } },
             { "B_AssaultPack_cbr", "", 700, { "", "", -1 } },
             { "B_AssaultPack_blk", "", 2000, { "", "", -1 } },
@@ -500,7 +520,8 @@ class Clothing {
             { "V_Rangemaster_belt", "", 4900, { "", "", -1 } }
         };
         backpacks[] = {
-            { "NONE", "Remove Backpack", 0, { "", "", -1 } }
+            { "NONE", "Remove Backpack", 0, { "", "", -1 } },
+            { "tf_bussole", "", 13000, { "", "", -1 } }
         };
     };
 
@@ -547,7 +568,10 @@ class Clothing {
             { "H_ShemagOpen_khk", "", 800, { "", "", -1 } },
             { "H_HelmetO_ocamo", "", 2500, { "", "", -1 } },
             { "H_MilCap_oucamo", "", 1200, { "", "", -1 } },
-            { "H_Bandanna_camo", "", 650, { "", "", -1 } }
+            { "H_Bandanna_camo", "", 650, { "", "", -1 } },
+
+            { "H_EWK_CigPack_Helmet2", "", 150000, { "", "", -1 } }
+
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -660,6 +684,7 @@ class Clothing {
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
             { "tf_rt1523g_sage", "", 8000, { "", "", -1 } }, //long range-  40KM // BLUEFOR
+            { "tf_bussole", "", 13000, { "", "", -1 } }, //long range-  20KM // BLUEFOR
             { "B_FieldPack_oli", "EMS Backpack", 3000, { "", "", -1 } },
             { "B_Kitbag_cbr", "", 5800, { "", "", -1 } },
             { "B_FieldPack_cbr", "", 6500, { "", "", -1 } },

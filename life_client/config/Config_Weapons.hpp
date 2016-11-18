@@ -27,6 +27,10 @@ class WeaponShops {
             { "hgun_ACPC2_F", "", 35000, 500 },
             { "hgun_PDW2000_F", "", 100000, 500 },
 
+            { "Bolt792x57_CZ550", "", 200000, 500 }, // 사냥용
+            { "Bolt792x57_Kar98K_RIS", "", 200000, 500 },// 사냥용
+            { "Bolt762x54_M9130_RIS", "", 200000, 500 },// 사냥용
+            { "Bolt77x56_SMLE_RIS", "", 200000, 500 },// 사냥용
 
             { "optic_ACO_grn_smg", "", 3000 }
         };
@@ -34,7 +38,11 @@ class WeaponShops {
             { "16Rnd_9x21_Mag", "", 10000 },
             { "6Rnd_45ACP_Cylinder", "", 10000 },
             { "9Rnd_45ACP_Mag", "", 10000 },
-            { "30Rnd_9x21_Mag", "", 30000 }
+            { "30Rnd_9x21_Mag", "", 30000 },
+
+            { "5Rnd_792x57_Kar98", "", 30000 },
+            { "5Rnd_762x54_M91", "", 30000 },
+            { "10Rnd_77x56_SMLE", "", 30000 }
         };
         accs[] = {
         };
@@ -58,6 +66,13 @@ class WeaponShops {
             { "arifle_CTAR_hex_F", "", 530000, 2000 },//CAR
             { "launch_RPG32_F", "", 990000, 2000 },
             { "launch_RPG7_F", "RPG7(tanoa)", 990000, 2000 },
+
+            { "Smg762x25_PPSh41_B", "", 350000, 2000 },
+            { "Smg762x25_PPS43", "", 350000, 2000 },
+            { "hlc_rifle_Colt727", "", 400000, 2000 },
+            { "Auto762x51_G3A3", "", 450000, 2000 },
+
+
 
             { "optic_ACO_grn", "", 35000 },
             { "optic_Holosight", "", 36000 },
@@ -84,7 +99,22 @@ class WeaponShops {
             { "30Rnd_580x42_Mag_Tracer_F", "", 100000 },//CAR
             { "RPG32_F", "", 100000 },
             { "RPG32_HE_F", "", 100000 },
-            { "RPG7_F", "", 100000 }
+            { "RPG7_F", "", 100000 },
+
+            { "35Rnd_762x25_PPS", "", 50000 },
+            { "35Rnd_762x25_PPSh", "", 50000 },
+            { "71Rnd_762x25_PPSh", "", 100000 },
+            { "hlc_30rnd_556x45_S", "", 50000 },
+            { "hlc_50rnd_556x45_EPR", "", 50000 },
+            { "hlc_30rnd_556x45_TDim", "", 50000 },
+            { "hlc_30rnd_556x45_MDim", "", 50000 },
+            { "hlc_30rnd_556x45_SPR", "", 50000 },
+            { "hlc_30rnd_556x45_SOST", "", 50000 },
+            { "30Rnd_556x45_Stanag", "", 30000 },
+            { "hlc_30rnd_556x45_EPR", "", 50000 },
+            { "20Rnd_762x51_HKG3", "", 50000 },
+            { "20Rnd_762x51_Mag", "", 50000 },
+            { "5Rnd_762x51_M24SWS", "", 30000 }
         };
         accs[] = {
 
@@ -100,6 +130,10 @@ class WeaponShops {
             { "srifle_DMR_07_hex_F", "", 130000, 2000 },
             { "arifle_ARX_hex_F", "", 180000, 2000 },
 
+            { "hlc_rifle_M4", "", 250000, 2000 }, // M4 카빈
+            { "hlc_rifle_Bushmaster300", "", 250000, 2000 },
+            { "hlc_rifle_psg1A1", "", 880000, 2000 }, //저격
+
             { "optic_ACO_grn", "", 35000 },
             { "optic_Holosight", "", 36000 },
             { "optic_Hamr", "", 7500 },
@@ -107,14 +141,44 @@ class WeaponShops {
             { "optic_DMS", "", 87500 },
             { "optic_Nightstalker", "", 150000},
             { "optic_SOS", "SOS_DLC", 100000 },
-            { "muzzle_snds_58_blk_F", "", 500000 }
+            { "muzzle_snds_58_blk_F", "", 200000 },
+            { "hlc_optic_PVS4G3", "", 550000},
+            { "hlc_optic_accupoint_g3", "", 500000 },
+            { "HLC_Optic_ZFSG1", "", 500000 }
+
 
         };
         mags[] = {
             { "20Rnd_650x39_Cased_Mag_F", "", 50000 },
             { "30Rnd_65x39_caseless_green_mag_Tracer", "", 100000 },
-			{ "10Rnd_50BW_Mag_F", "", 900000 }
+			{ "10Rnd_50BW_Mag_F", "", 900000 },
+			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 50000 },
+			{ "30Rnd_556x45_Stanag_Tracer_Green", "", 50000 },
+			{ "30Rnd_556x45_Stanag_Tracer_Yellow", "", 50000 },
 
+			{ "hlc_30rnd_556x45_S", "", 50000 },
+			{ "hlc_50rnd_556x45_EPR", "", 50000 },
+			{ "hlc_30rnd_556x45_TDim", "", 50000 },
+			{ "hlc_30rnd_556x45_MDim", "", 50000 },
+			{ "hlc_30rnd_556x45_SPR", "", 50000 },
+			{ "hlc_30rnd_556x45_SOST", "", 50000 },
+			{ "30Rnd_556x45_Stanag", "", 30000 },
+			{ "hlc_30rnd_556x45_EPR", "", 50000 },
+
+			{ "29rnd_300BLK_STANAG", "", 30000 },
+			{ "29rnd_300BLK_STANAG_T", "", 30000 },
+			{ "29rnd_300BLK_STANAG_S", "", 30000 },
+
+            { "hlc_20rnd_762x51_b_G3", "", 30000 },
+            { "hlc_20rnd_762x51_Mk316_G3", "", 30000 },
+            { "hlc_20rnd_762x51_barrier_G3", "", 30000 },
+            { "hlc_20rnd_762x51_T_G3", "", 30000 },
+            { "hlc_20rnd_762x51_IRDim_G3", "", 30000 },
+
+            { "hlc_20rnd_762x51_MDim_G3", "", 30000 },
+            { "hlc_50rnd_762x51_M_G3", "", 30000 },
+            { "hlc_50rnd_762x51_MDIM_G3", "", 30000 },
+            { "hlc_20rnd_762x51_S_G3", "", 30000 }
         };
         accs[] = {
         };
