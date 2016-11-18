@@ -196,6 +196,10 @@ _terrainobjects=nearestTerrainObjects [(getMarkerPos _markername4),[],(getmarker
 _markername5="marker_kav6";
 _terrainobjects=nearestTerrainObjects [(getMarkerPos _markername5),[],(getmarkersize _markername5)select 0];
 {hideObjectGlobal _x} foreach _terrainobjects; 
+_markername6="marker_kav7";
+_terrainobjects=nearestTerrainObjects [(getMarkerPos _markername5),[],(getmarkersize _markername5)select 0];
+{hideObjectGlobal _x} foreach _terrainobjects; 
+
 
 /* Tell clients that the server is ready and is accepting queries */
 life_server_isReady = true;
