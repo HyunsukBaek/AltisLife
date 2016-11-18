@@ -21,18 +21,46 @@ class Clothing {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
             { "U_C_Poloshirt_blue", "Super Man", 250, { "", "", -1 } },
             { "U_C_Poloshirt_burgundy", "Barbie", 275, { "", "", -1 } },
-            { "U_C_Poloshirt_redwhite", "Kitty", 150, { "", "", -1 } },
-            { "U_C_Poloshirt_stripped", "Gay1", 125, { "", "", -1 } },
-            { "U_C_Poloshirt_salmon", "Gay2", 175, { "", "", -1 } },
-            { "U_C_TeeSurfer_shorts_1", "Gay3", 175, { "", "", -1 } },
-            { "U_C_TeeSurfer_shorts_2", "Gay4", 175, { "", "", -1 } },
-            { "U_Competitor", "Press Suit", 275, { "", "", -1 } },
+            { "U_C_Poloshirt_redwhite", "Kitty", 1150, { "", "", -1 } },
+            { "U_C_Poloshirt_stripped", "Gay1", 1125, { "", "", -1 } },
+            { "U_C_Poloshirt_salmon", "Gay2", 1750, { "", "", -1 } },
+            { "U_C_TeeSurfer_shorts_1", "Gay3", 1750, { "", "", -1 } },
+            { "U_C_TeeSurfer_shorts_2", "Gay4", 1750, { "", "", -1 } },
+            { "U_Competitor", "Press Suit", 2750, { "", "", -1 } },
             { "U_C_Poor_2", "", 250, { "", "", -1 } },
-            { "U_C_Poloshirt_tricolour", "Poloshirt Tricolor", 350, { "", "", -1 } },
+            { "U_C_Poloshirt_tricolour", "Poloshirt Tricolor", 3500, { "", "", -1 } },
             { "U_OrestesBody", "Surfing On Land", 1100, { "", "", -1 } },
-            { "U_C_HunterBody_grn", "The Hunters Look", 1500, { "", "", -1 } },
-            { "U_C_WorkerCoveralls", "Mechanic Coveralls", 2500, { "", "", -1 } }
+            { "U_C_HunterBody_grn", "The Hunters Look", 15000, { "", "", -1 } },
+            { "U_C_WorkerCoveralls", "Mechanic Coveralls", 15000, { "", "", -1 } },
 
+            { "A3LCatShirt", "", 10000, { "", "", -1 } },
+            { "cg_awesome1", "", 10000, { "", "", -1 } },
+            { "cg_catvideos1", "", 10000, { "", "", -1 } },
+            { "cg_csgo1", "", 10000, { "", "", -1 } },
+            { "cg_ea1", "", 10000, { "", "", -1 } },
+            { "cg_jason1", "", 10000, { "", "", -1 } },
+            { "cg_lego1", "", 10000, { "", "", -1 } },
+            { "cg_mario1", "", 10000, { "", "", -1 } },
+            { "cg_pika1", "", 10000, { "", "", -1 } },
+            { "cg_stoned1", "", 10000, { "", "", -1 } },
+            { "cg_taylorswift1", "", 10000, { "", "", -1 } },
+            { "cg_woods1", "", 10000, { "", "", -1 } },
+            { "U_CivilianJerseyCasual_D", "", 15000, { "", "", -1 } },
+            { "U_CivilianJerseyCasual_C", "", 15000, { "", "", -1 } },
+            { "U_CivilianJerseyCasual_B", "", 15000, { "", "", -1 } },
+            { "U_CivilianJerseyCasual_F", "", 15000, { "", "", -1 } },
+            { "U_CivilianTShirt_F", "", 15000, { "", "", -1 } },
+            { "U_CivilianTShirt_G", "", 15000, { "", "", -1 } },
+            { "U_CivilianTShirt_D", "", 15000, { "", "", -1 } },
+            { "U_CivilianTShirtCasual_B", "", 15000, { "", "", -1 } },
+            { "U_CivilianTShirtCasual_E", "", 15000, { "", "", -1 } },
+            { "U_CivilianTShirtCasual_I", "", 15000, { "", "", -1 } },
+            { "U_CivilianTShirtCasual_C", "", 15000, { "", "", -1 } },
+            { "A3LCloudShirt", "", 2500, { "", "", -1 } },
+            { "fn_bendozlia2", "", 2500, { "", "", -1 } },
+            { "fn_bendozlia3", "", 2500, { "", "", -1 } },
+            { "fn_lahey2", "", 2500, { "", "", -1 } },
+            { "fn_mongo", "", 2500, { "", "", -1 } }
 
         };
         headgear[] = {
@@ -146,7 +174,16 @@ class Clothing {
             { "U_CivilianSuit_C", "", 250, { "", "", -1 } },
             { "U_DressTKLocalUni_D_D", "", 250, { "", "", -1 } },
             { "U_AFAOfficerUni_A", "", 250, { "", "", -1 } },
-            { "Zannaza69", "", 250, { "", "", -1 } }
+            { "Zannaza69", "", 250, { "", "", -1 } },
+
+            // 007
+            { "U_007_BIS_Marshall", "", 250, { "life_donorlevel", "SCALAR", 2 } },
+            { "U_CivilianCoat_D", "", 250, { "life_donorlevel", "SCALAR", 1 } },
+            { "U_CivilianCoat_E", "", 250, { "life_donorlevel", "SCALAR", 1 } },
+            { "U_CivilianCoat_B", "", 250, { "life_donorlevel", "SCALAR", 1 } },
+            { "U_CivilianCoat_A", "", 250, { "life_donorlevel", "SCALAR", 1 } }
+
+
         };
         headgear[] = {
             { "H_AntmanMask", "", 100000, { "", "", -1 } },
@@ -304,11 +341,23 @@ class Clothing {
             { "U_B_CTRG_Soldier_3_F", "", 990000, { "life_coplevel", "SCALAR", 3 } },
             { "U_B_CTRG_Soldier_F", "", 990000, { "life_coplevel", "SCALAR", 3 } },
 
-            { "U_GirlSet_PD_uniform", "", 990000, { "life_coplevel", "SCALAR", 4 } },
-            { "U_GirlSet_SWAT_uniform", "", 990000, { "life_coplevel", "SCALAR", 4 } },
-            { "A3L_DOCOfficer_Uniform", "", 990000, { "life_coplevel", "SCALAR", 4 } },
-            { "A3L_Police_Uniform", "", 990000, { "life_coplevel", "SCALAR", 4 } },
-            { "A3L_DOCOfficer_Uniform", "", 990000, { "life_coplevel", "SCALAR", 4 } }
+            { "U_GirlSet_PD_uniform", "", 600000, { "life_coplevel", "SCALAR", 4 } },
+            { "U_GirlSet_SWAT_uniform", "", 600000, { "life_coplevel", "SCALAR", 4 } },
+            { "A3L_DOCOfficer_Uniform", "", 12000, { "life_coplevel", "SCALAR", 3 } },
+            { "A3L_Police_Uniform", "", 15000, { "life_coplevel", "SCALAR", 3 } },
+            { "U_CDFOfficerUni_A", "", 15000, { "life_coplevel", "SCALAR", 5 } },
+            { "A3L_DOCLieutenant_Uniform", "", 15000, { "life_coplevel", "SCALAR", 3 } },
+            { "A3L_DOCSergeant_Uniform", "", 15000, { "life_coplevel", "SCALAR", 4 } },
+            { "A3L_FTOCaptain_Uniform", "", 15000, { "life_coplevel", "SCALAR", 5 } },
+            { "A3L_FTOSergeant_Uniform", "", 15000, { "life_coplevel", "SCALAR", 4 } },
+            { "A3L_SOSergeant_Uniform", "", 15000, { "life_coplevel", "SCALAR", 3 } },
+            { "A3LJumperCIDBlack", "", 15000, { "life_coplevel", "SCALAR", 3 } },
+            { "A3L_SOSheriff_Uniform", "", 15000, { "life_coplevel", "SCALAR", 5 } },
+            { "U_CombatUniShirtMercB_J", "", 15000, { "life_coplevel", "SCALAR", 4 } },
+            { "U_CombatUniSleeves_F", "", 15000, { "life_coplevel", "SCALAR", 4 } },
+            { "U_CombatUniShirtAlt_E", "", 15000, { "life_coplevel", "SCALAR", 4 } },
+            { "U_CombatUniShirtAlt_B", "", 15000, { "life_coplevel", "SCALAR", 4 } }
+
 
 
         };
@@ -467,7 +516,29 @@ class Clothing {
             { "U_C_WorkerCoveralls", "", 17500, { "", "", -1 } },
             { "U_I_PilotCoveralls", "", 15610, { "", "", -1 } },
             { "U_IG_leader", "Guerilla Leader", 15340, { "", "", -1 } },
-            { "U_I_GhillieSuit", "", 150000, { "", "", -1 } }
+            { "U_I_GhillieSuit", "", 150000, { "", "", -1 } },
+
+
+            { "U_CivilianPolo_A", "", 7500, { "", "", -1 } },
+            { "U_CivilianPolo_B", "", 7500, { "", "", -1 } },
+            { "U_CivilianPolo_C", "", 7500, { "", "", -1 } },
+            { "U_CivilianPolo_D", "", 7500, { "", "", -1 } },
+            { "U_CivilianPolo_E", "", 7500, { "", "", -1 } },
+            { "U_Skater_B", "", 7500, { "", "", -1 } },
+            { "U_Skater_A", "", 7500, { "", "", -1 } },
+            { "U_AFAOfficerUni_A", "", 50000, { "", "", -1 } },
+            { "U_CDFSoldierUni_A", "", 50000, { "", "", -1 } },
+            { "U_TKSpecialUni_B", "", 50000, { "", "", -1 } },
+            { "U_TKSoldierUni_B", "", 50000, { "", "", -1 } },
+            { "U_CombatUniShirtMercB_G", "", 50000, { "", "", -1 } },
+            { "U_CombatUniShirtMercB_D", "", 50000, { "", "", -1 } },
+            { "U_CombatUniShirtMercB_F", "", 50000, { "", "", -1 } },
+            { "U_CombatUniShirtMercB_B", "", 50000, { "", "", -1 } },
+            { "U_CombatUniShirtMercB_A", "", 50000, { "", "", -1 } },
+            { "U_CombatUniShirtMercA_C", "", 50000, { "", "", -1 } },
+            { "U_CombatUniTShirt_F", "", 50000, { "", "", -1 } }
+
+
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -614,7 +685,66 @@ class Clothing {
             { "U_I_PilotCoveralls", "", 15610, { "", "", -1 } },
             { "U_O_SpecopsUniform_ocamo", "SpecCamo", 2500, { "", "", -1 } },
             { "U_I_GhillieSuit", "", 150000, { "", "", -1 } },
-            { "U_O_V_Soldier_Viper_hex_F", "특수목적hex[1회]", 990000, { "", "", -1 } }
+            { "U_O_V_Soldier_Viper_hex_F", "특수목적hex", 990000, { "", "", -1 } },
+            //isis
+            { "U_TKLocalUniLong_D", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "U_TKLocalUniLong_C", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "U_TKLocalUniLong_A", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "U_DressTKLocalUni_E_C", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "U_DressTKLocalUni_E_E", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "U_DressTKLocalUni_D_B", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "U_DressTKLocalUni_B_C", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "U_DressTKLocalUni_E_D", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "U_DressTKLocalUni_C_E", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "U_DressTKLocalUni_A_C", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+
+
+            { "U_CombatUniLong_A", "", 50000, { "", "", -1 } },
+            { "U_CombatUniVest_A", "", 50000, { "", "", -1 } },
+            { "U_CombatUniLong_B", "", 50000, { "", "", -1 } },
+            { "A3LCivPoloGreenGrey", "", 50000, { "", "", -1 } },
+            { "A3LCivPoloGreenBlack", "", 50000, { "", "", -1 } },
+            { "U_CombatUniSleeves_E", "", 50000, { "", "", -1 } },
+            { "U_CombatUniTShirt_C", "", 50000, { "", "", -1 } },
+            { "U_CombatUniSleeves_B", "", 50000, { "", "", -1 } },
+            { "U_CombatUniSleevesShort_A", "", 50000, { "", "", -1 } },
+            { "U_CivilianMetro_A", "", 50000, { "", "", -1 } },
+            { "U_MilitaryCoat_A", "", 50000, { "", "", -1 } },
+            { "U_MilitaryCoat_C", "", 50000, { "", "", -1 } },
+            { "U_MilitiaSport_C", "", 50000, { "", "", -1 } },
+            { "U_MilitiaUniShirt_G", "", 50000, { "", "", -1 } },
+            { "U_MilitiaUniShirt_A", "", 50000, { "", "", -1 } },
+            { "U_CivilianOutdoor_D", "", 50000, { "", "", -1 } },
+            { "U_CivilianCroppedPants_E", "", 50000, { "", "", -1 } },
+
+
+            { "U_CombatUniFatigue_A", "", 50000, { "life_donorlevel", "SCALAR", 1 } },
+            { "U_CombatOutdoor_D", "", 50000, { "life_donorlevel", "SCALAR", 1 } },
+            { "U_CivilianHunter_A", "", 50000, { "life_donorlevel", "SCALAR", 1 } },
+            { "U_CivilianHunter_B", "", 50000, { "life_donorlevel", "SCALAR", 1 } },
+            { "U_MilitiaUniTShirt_G", "", 50000, { "life_donorlevel", "SCALAR", 1 } },
+            { "U_MilitiaUniTShirt_F", "", 50000, { "life_donorlevel", "SCALAR", 1 } },
+            { "U_InsUniShirt_Leader", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
+            { "U_InsUniShirt_A", "", 50000, { "life_donorlevel", "SCALAR", 1 } },
+            { "U_CombatUniLeadMerc_B", "", 50000, { "life_donorlevel", "SCALAR", 1 } },
+            { "U_CombatUniShirtMercD_G", "", 50000, { "life_donorlevel", "SCALAR", 1 } },
+
+            //정장방탄
+            { "U_Office_A", "", 50000, { "life_donorlevel", "SCALAR", 3 } },
+            { "U_Office_B", "", 50000, { "life_donorlevel", "SCALAR", 3 } },
+            { "U_Office_C", "", 50000, { "life_donorlevel", "SCALAR", 3 } },
+            { "U_CivilianSuit_A", "", 50000, { "life_donorlevel", "SCALAR", 2 } },
+            { "U_CivilianSuit_C", "", 50000, { "life_donorlevel", "SCALAR", 2 } },
+            { "U_CivilianSuit_B", "", 50000, { "life_donorlevel", "SCALAR", 2 } },
+            { "U_CivilianSuit_D", "", 50000, { "life_donorlevel", "SCALAR", 2 } },
+
+            //체육복방탄
+
+            { "U_CivilianSport_A", "", 50000, { "", "", -1 } },
+            { "U_CivilianSport_C", "", 50000, { "", "", -1 } },
+            { "U_CivilianSport_D", "", 50000, { "", "", -1 } }
+
+
 
         };
         headgear[] = {
