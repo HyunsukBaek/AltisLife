@@ -197,7 +197,7 @@ _markername5="marker_kav6";
 _terrainobjects=nearestTerrainObjects [(getMarkerPos _markername5),[],(getmarkersize _markername5)select 0];
 {hideObjectGlobal _x} foreach _terrainobjects; 
 _markername6="marker_kav7";
-_terrainobjects=nearestTerrainObjects [(getMarkerPos _markername5),[],(getmarkersize _markername5)select 0];
+_terrainobjects=nearestTerrainObjects [(getMarkerPos _markername6),[],(getmarkersize _markername5)select 0];
 {hideObjectGlobal _x} foreach _terrainobjects; 
 
 
