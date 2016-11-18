@@ -177,6 +177,26 @@ _rsb setVariable ["bis_disabled_Door_1",1,true];
 _dome allowDamage false;
 _rsb allowDamage false;
 
+
+_markername="marker_kav1";
+_terrainobjects=nearestTerrainObjects [(getMarkerPos _markername),[],(getmarkersize _markername)select 0];
+{hideObjectGlobal _x} foreach _terrainobjects; 
+_markername1="marker_kav2";
+_terrainobjects=nearestTerrainObjects [(getMarkerPos _markername1),[],(getmarkersize _markername1)select 0];
+{hideObjectGlobal _x} foreach _terrainobjects; 
+_markername2="marker_kav3";
+_terrainobjects=nearestTerrainObjects [(getMarkerPos _markername2),[],(getmarkersize _markername2)select 0];
+{hideObjectGlobal _x} foreach _terrainobjects; 
+_markername3="marker_kav4";
+_terrainobjects=nearestTerrainObjects [(getMarkerPos _markername3),[],(getmarkersize _markername3)select 0];
+{hideObjectGlobal _x} foreach _terrainobjects; 
+_markername4="marker_kav5";
+_terrainobjects=nearestTerrainObjects [(getMarkerPos _markername4),[],(getmarkersize _markername4)select 0];
+{hideObjectGlobal _x} foreach _terrainobjects; 
+_markername5="marker_kav6";
+_terrainobjects=nearestTerrainObjects [(getMarkerPos _markername5),[],(getmarkersize _markername5)select 0];
+{hideObjectGlobal _x} foreach _terrainobjects; 
+
 /* Tell clients that the server is ready and is accepting queries */
 life_server_isReady = true;
 publicVariable "life_server_isReady";
