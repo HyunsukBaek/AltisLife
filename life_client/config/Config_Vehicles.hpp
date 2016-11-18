@@ -1686,9 +1686,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class mr_max_freighter {
-        vItemSpace = 200;
+        vItemSpace = 500;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
-        price = 1600000;
+        price = 5600000;
         textures[] = {};
     };
 
