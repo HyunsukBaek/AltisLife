@@ -91,17 +91,17 @@ class Life_Settings {
 
     /* Medical System Configurations */
     revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
-    revive_fee = 200000; //Revive fee that players have to pay and medics only EMS(independent) are rewarded with this amount.
+    revive_fee = 100000; //Revive fee that players have to pay and medics only EMS(independent) are rewarded with this amount.
     hospital_heal_fee = 5000; //Fee to heal at a hospital NPC
 
     /* Paycheck & Bank System Configurations */
-    bank_cop = 500000; //Amount of cash in bank for new cops
+    bank_cop = 100000; //Amount of cash in bank for new cops
     bank_civ = 100000; //Amount of cash in bank for new civillians
-    bank_med = 200000; //Amount of cash in bank for new medics
+    bank_med = 100000; //Amount of cash in bank for new medics
 
-    paycheck_cop = 50000; //Payment for cops
-    paycheck_civ = 30000; //Payment for civillians
-    paycheck_med = 40000; //Payment for medics
+    paycheck_cop = 30000; //Payment for cops
+    paycheck_civ = 15000; //Payment for civillians
+    paycheck_med = 20000; //Payment for medics
 
     paycheck_period = 30; //Scaled in minutes
     bank_transferTax = .02; //Tax that player pays when transferring money from ATM. Tax = Amount * multiplier
