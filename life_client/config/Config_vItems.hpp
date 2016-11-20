@@ -205,7 +205,7 @@ class VirtualItems {
         displayName = "STR_Item_Toolkit";
         weight = 4;
         buyPrice = 5000;
-        sellPrice = -1;
+        sellPrice = 500;
         illegal = false;
         edible = -1;
         icon = "\a3\weapons_f\items\data\UI\gear_toolkit_ca.paa";
@@ -216,7 +216,7 @@ class VirtualItems {
         displayName = "STR_Item_Toolkit_infinite";
         weight = 6;
         buyPrice = 200000;
-        sellPrice = -1;
+        sellPrice = 20000;
         illegal = false;
         edible = -1;
         icon = "\a3\weapons_f\items\data\UI\gear_toolkit_ca.paa";
