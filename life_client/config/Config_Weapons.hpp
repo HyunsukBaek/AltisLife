@@ -27,6 +27,10 @@ class WeaponShops {
             { "hgun_ACPC2_F", "", 35000, 500 },
             { "hgun_PDW2000_F", "", 100000, 500 },
 
+            { "Pstl9x19_CZSP01", "", 50000, 500 },
+            { "Pstl9x19_NP22", "", 50000, 500 },
+            { "Pstl9x19_NP42", "", 50000, 500 },
+
             { "Bolt792x57_CZ550", "", 200000, 500 }, // 사냥용
             { "Bolt792x57_Kar98K_RIS", "", 200000, 500 },// 사냥용
             { "Bolt762x54_M9130_RIS", "", 200000, 500 },// 사냥용
@@ -54,6 +58,11 @@ class WeaponShops {
         license = "rebel";
         level[] = { "", "", -1, "" };
         items[] = {
+            { "AOS_FlashLight_Blue", "", 5000, 10 },
+            { "AOS_FlashLight_Green", "", 5000, 10 },
+            { "AOS_FlashLight_Red", "", 5000, 10 },
+            { "AOS_FlashLight_White", "", 5000, 10 },
+            { "AOS_FlashLight_Yellow", "", 5000, 10 },
             { "arifle_SDAR_F", "", 130000, 2000 },
             { "arifle_TRG20_F", "", 250000, 2000 },
             { "arifle_Katiba_F", "", 320000, 2000 },
@@ -127,6 +136,9 @@ class WeaponShops {
         license = "";
         level[] = { "life_donorlevel", "SCALAR", 1, "you must be donorlevel 1" };
         items[] = {
+            { "hgun_007_SW_M10_gold", "", 110000, 2000 },
+            { "hgun_007_SW_M10_special", "", 110000, 2000 },
+
             { "srifle_DMR_07_hex_F", "", 130000, 2000 },
             { "arifle_ARX_hex_F", "", 180000, 2000 },
 
@@ -149,6 +161,8 @@ class WeaponShops {
 
         };
         mags[] = {
+            { "6Rnd_45ACP_Cylinder", "", 10000 },
+
             { "20Rnd_650x39_Cased_Mag_F", "", 50000 },
             { "30Rnd_65x39_caseless_green_mag_Tracer", "", 100000 },
 			{ "10Rnd_50BW_Mag_F", "", 900000 },
@@ -202,7 +216,6 @@ class WeaponShops {
             { "arifle_AKM_F", "AK12 APEX", 440000, 20000 },//AKM
             { "arifle_AKS_F", "AK12 APEX", 400000, 20000 },//AKS
 
-
             { "optic_ACO_grn_smg", "",  10950 },
             { "optic_ACO_grn", "",  12000 },
             { "optic_Arco", "",  12000 },
@@ -243,6 +256,13 @@ class WeaponShops {
             { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
             { "tf_anprc148jem", "", 4000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
             { "Binocular", "", 150, 10 },
+
+            { "AOS_FlashLight_Blue", "", 5000, 10 },
+            { "AOS_FlashLight_Green", "", 5000, 10 },
+            { "AOS_FlashLight_Red", "", 5000, 10 },
+            { "AOS_FlashLight_White", "", 5000, 10 },
+            { "AOS_FlashLight_Yellow", "", 5000, 10 },
+
             { "ItemGPS", "", 100, 45 },
             { "ItemMap", "", 50, 35 },
             { "ItemCompass", "", 50, 25 },
@@ -250,7 +270,7 @@ class WeaponShops {
             { "ItemRadio", "", 2500, 25 },
             { "ItemWatch", "", 50, -1 },
             { "FirstAidKit", "", 3000, 65 },
-            { "NVGoggles", "", 2000, 980 },
+//            { "NVGoggles", "", 2000, 980 },
             { "Chemlight_red", "", 300, 50 },
             { "Chemlight_yellow", "", 300, 50 },
             { "Chemlight_green", "", 300, 50 },
@@ -269,13 +289,18 @@ class WeaponShops {
             { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
             { "tf_anprc148jem", "", 4000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
             { "Binocular", "", 750, 100 },
+            { "AOS_FlashLight_Blue", "", 5000, 10 },
+            { "AOS_FlashLight_Green", "", 5000, 10 },
+            { "AOS_FlashLight_Red", "", 5000, 10 },
+            { "AOS_FlashLight_White", "", 5000, 10 },
+            { "AOS_FlashLight_Yellow", "", 5000, 10 },
             { "ItemGPS", "", 500, 45 },
             { "ItemMap", "", 250, 35 },
             { "ItemCompass", "", 250, 25 },
             { "ItemWatch", "", 250, 25 },
             { "ItemRadio", "", 2500, 25 },
             { "FirstAidKit", "", 3000, 65 },
-            { "NVGoggles", "", 10000, 980 },
+            //{ "NVGoggles", "", 10000, 980 },
             { "Chemlight_red", "", 1500, 50 },
             { "Chemlight_yellow", "", 1500, 50 },
             { "Chemlight_green", "", 1500, 50 },
@@ -299,12 +324,19 @@ class WeaponShops {
             { "ItemMap", "", 50, 35 },
             { "ItemRadio", "", 3000, 980 },
             { "FirstAidKit", "", 3000, 65 },
-            { "NVGoggles", "", 2000, 980 },
+            { "AOS_FlashLight_Blue", "", 5000, 10 },
+            { "AOS_FlashLight_Green", "", 5000, 10 },
+            { "AOS_FlashLight_Red", "", 5000, 10 },
+            { "AOS_FlashLight_White", "", 5000, 10 },
+            { "AOS_FlashLight_Yellow", "", 5000, 10 },
+            { "NVGoggles", "", 20000, 980 },
             { "arifle_sdar_F", "Taser Rifle", 130000, 20000 },
             { "hgun_P07_F", "Stun Pistol", 35000, 650 },
             { "hgun_Rook40_F", "", 50000, 500 },
             { "hgun_ACPC2_F", "Handgun acpc2", 85000, 650 },
             { "hgun_Pistol_heavy_02_F", "", 65000, 500 },
+            { "hgun_007_SW_M10", "", 250000, 25000 },
+
             { "HandGrenade_Stone", "Flashbang", 37000, 1000 },
             { "SmokeShellRed", "TearGas", 40000, 1000 },
             { "Laserdesignator", "", 130000, 980 },
@@ -322,7 +354,8 @@ class WeaponShops {
             { "16Rnd_9x21_Mag", "", 20000 },
             { "30Rnd_9x21_Mag", "", 50000 },
             { "9Rnd_45ACP_Mag", "", 10000 }, //ACPC
-            { "6Rnd_45ACP_Cylinder", "", 10000 }, // zubr
+            { "6Rnd_45ACP_Cylinder", "", 10000 }, // zubr // S&W
+
             { "Laserbatteries", "", 10000 },
             { "30Rnd_45ACP_Mag_SMG_01_tracer_green", "FlareBullet", 10000 }
         };
@@ -379,13 +412,20 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant Rank!" };
         items[] = {
+            { "Pstl9x19_CZ75B", "", 150000, 25000 }, // CZ-75B
+            { "hgun_007_Colt1911", "", 150000, 25000 },
+            { "Pstl11x23_M1911", "", 150000, 25000 },
+            { "Pstl9x19_FNGP35", "", 150000, 25000 },
+            { "Pstl9x19_92FS", "", 150000, 25000 },
+            { "Pstl11x23_SAARevolver", "", 250000, 25000 },
+            { "Pstl11x23_Revolver", "", 250000, 25000 },
+
             { "srifle_EBR_F", "", 300000, 25000 },//mk18
             { "srifle_DMR_01_F", "", 220000, 25000 },//rahim
             { "srifle_DMR_05_hex_F", "cyrus(DLC)", 330000, 25000 },//cyrus
             { "LMG_Mk200_F", "", 850000, 25000 },//mk200
             { "srifle_LRR_F", "", 450000, 25000 },
 			{ "arifle_ARX_blk_F", "Type115 Apex", 450000, 25000 },
-
 
             { "optic_SOS", "", 25000 },
             { "optic_DMS", "", 30000 },
@@ -395,6 +435,12 @@ class WeaponShops {
             { "acc_pointer_IR", "", 20000 }
         };
         mags[] = {
+            { "15Rnd_9x19_CZ75B", "", 10000 },
+            { "9Rnd_45ACP_Mag", "", 10000 },
+            { "13Rnd_9x19_FNGP35", "", 10000 },
+            { "15Rnd_9x19_92FS", "", 10000 },
+            { "6Rnd_45ACP_Cylinder", "", 10000 },
+
             { "20Rnd_762x51_Mag", "", 10000 },
             { "10Rnd_762x54_Mag", "", 10000 },
             { "10Rnd_93x64_DMR_05_Mag", "", 10000 },
@@ -404,7 +450,6 @@ class WeaponShops {
 			{ "30Rnd_65x39_caseless_green", "", 50000 },
 			{ "30Rnd_65x39_caseless_green_mag_Tracer", "", 50000 },
 			{ "10Rnd_50BW_Mag_F", "", 50000 }
-
         };
         accs[] = {
         };
@@ -448,7 +493,13 @@ class WeaponShops {
 		license = "";
 		level[] = { "life_donorlevel", "SCALAR", 3, "You must be a donator level 3" };
 		items[] = {
-			{ "arifle_SPAR_01_blk_F", "", 450000, 25000 },
+            { "hgun_007_SW_M10_gold", "", 110000, 2000 },
+            { "hgun_007_SW_M10_special", "", 110000, 2000 },
+            { "hgun_007_W_PPK", "", 110000, 2000 },
+
+            { "Pstl762x25_CZ52", "", 110000, 2000 },
+            { "Pstl762x25_TT33", "", 110000, 2000 },
+            { "arifle_SPAR_01_blk_F", "", 450000, 25000 },
 			{ "arifle_SPAR_02_blk_F", "", 450000, 25000 },
 			{ "arifle_SPAR_03_blk_F", "", 450000, 25000 },
 			{ "LMG_03_F", "", 850000, 25000 },
@@ -461,6 +512,10 @@ class WeaponShops {
 
 		};
 		mags[] = {
+            { "6Rnd_45ACP_Cylinder", "", 10000 },
+            { "8Rnd_762x25_TT33", "", 10000 },
+            { "8Rnd_765x17_Mag", "", 10000 },
+
 			{ "30Rnd_556x45_Stanag", "", 50000 },
 			{ "30Rnd_556x45_Stanag_green", "", 50000 },
 			{ "30Rnd_556x45_Stanag_Tracer_Green", "", 50000 },
@@ -485,9 +540,16 @@ class WeaponShops {
             { "tf_anprc152", "", 4000, 980 }, //Bluefor personal - 5km ( 30-512Mhz)
             { "tf_anprc148jem", "", 4000, 980 }, //Independent - personal - 5km ( 30-512Mhz)
             { "FirstAidKit", "", 1000, 65 },
-            { "NVGoggles", "", 1200, 980 },
+            { "AOS_FlashLight_Blue", "", 5000, 10 },
+            { "AOS_FlashLight_Green", "", 5000, 10 },
+            { "AOS_FlashLight_Red", "", 5000, 10 },
+            { "AOS_FlashLight_White", "", 5000, 10 },
+            { "AOS_FlashLight_Yellow", "", 5000, 10 },
+            { "NVGoggles", "", 20000, 980 },
             { "ItemGPS", "", 100, 45 },
             { "Binocular", "", 150, 50 },
+            { "Pstl9x19_NP22", "", 50000, 500 },
+            { "Pstl9x19_NP42", "", 50000, 500 },
             { "hgun_P07_F", "Pistol", 35000, 2000 },
             { "hgun_PDW2000_Holo_snds_F", "", 65000, 2000 },
             { "ItemMap", "", 250, 35 },
