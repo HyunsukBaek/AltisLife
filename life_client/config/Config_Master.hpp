@@ -66,7 +66,7 @@ class Life_Settings {
     fuelCan_refuel = 250; //Cost to refuel an empty fuel canister at the fuel station pumps. (Be wary of your buy/sell prices on fuel cans to prevent exploits...)
 
     /* Gang System Configurations */
-    gang_price = 120000; //Gang creation price. --Remember they are persistent so keep it reasonable to avoid millions of gangs.
+    gang_price = 990000; //Gang creation price. --Remember they are persistent so keep it reasonable to avoid millions of gangs.
     gang_upgradeBase = 990000; //The base cost for purchasing additional slots in a gang
     gang_upgradeMultiplier = 2.5; //CURRENTLY NOT IN USE
 
@@ -95,13 +95,13 @@ class Life_Settings {
     hospital_heal_fee = 3000; //Fee to heal at a hospital NPC
 
     /* Paycheck & Bank System Configurations */
-    bank_cop = 100000000; //Amount of cash in bank for new cops
-    bank_civ = 100000000; //Amount of cash in bank for new civillians
-    bank_med = 100000000; //Amount of cash in bank for new medics
+    bank_cop = 300000; //Amount of cash in bank for new cops
+    bank_civ = 100000; //Amount of cash in bank for new civillians
+    bank_med = 200000; //Amount of cash in bank for new medics
 
-    paycheck_cop = 30000; //Payment for cops
+    paycheck_cop = 50000; //Payment for cops
     paycheck_civ = 30000; //Payment for civillians
-    paycheck_med = 30000; //Payment for medics
+    paycheck_med = 40000; //Payment for medics
 
     paycheck_period = 30; //Scaled in minutes
     bank_transferTax = .02; //Tax that player pays when transferring money from ATM. Tax = Amount * multiplier
