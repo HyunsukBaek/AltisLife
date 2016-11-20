@@ -8,7 +8,7 @@
 */
 if(life_atmbank > 9999999) exitWith {hint "통장에 1천만원 이상 가진 유저는 사용할 수 없습니다."};
 if(life_cash > 999999) exitWith {hint "현금 1백만원 이상 가진 유저는 사용할 수 없습니다."};
-if( (life_atmbank + life_cash) < 2000000) exitWith {hint "자산이 2백만원 이하인 유저는 사용할 수 없습니다."};
+if( (life_atmbank + life_cash) < 999999) exitWith {hint "자산이 99만원 이하인 유저는 사용할 수 없습니다."};
 
 
 private["_source","_hasLicense","_ui","_needID","_cP","_cost","_type","_winAmount","_rollA","_rollB","_rollC","_slots","_idxA","_idxB","_idxC"];
