@@ -75,3 +75,66 @@ hlc_50rnd_762x51_M_G3
 hlc_50rnd_762x51_MDIM_G3
 hlc_20rnd_762x51_S_G3
 
+////////  아래는 권총류 
+
+AOS_FlashLight_Blue // 후레쉬
+AOS_FlashLight_Green
+AOS_FlashLight_Red
+AOS_FlashLight_White
+AOS_FlashLight_Yellow
+Mr_Micro_News // 마이크
+
+
+Pstl9x19_92FS // 베레타
+ 15Rnd_9x19_92FS
+
+Pstl9x19_FNGP35 // 브라우밍 hi power
+ 13Rnd_9x19_FNGP35
+  
+Pstl9x19_CZ75B // CZ-75B
+ 15Rnd_9x19_CZ75B
+
+hgun_007_Colt1911 // 콜트 1911
+ 9Rnd_45ACP_Mag
+ 
+Pstl11x23_M1911 // NORINCO 21
+ 9Rnd_45ACP_Mag
+
+Pstl9x19_N213B // NORINCO 213 B
+ 9Rnd_9x19_N213B
+ 
+Pstl9x19_CZSP01 // cz-75 sp01
+ 16Rnd_9x21_Mag
+ 
+Pstl9x19_NP22
+ 16Rnd_9x21_Mag
+ 
+Pstl9x19_NP42
+ 16Rnd_9x21_Mag
+ 
+Pstl11x23_SAARevolver // 싱글액션리볼버
+ 6Rnd_45ACP_Cylinder
+
+hgun_007_SW_M10 // S&W M10 .38 
+ 6Rnd_45ACP_Cylinder
+ 
+hgun_007_SW_M10_gold
+ 6Rnd_45ACP_Cylinder
+ 
+hgun_007_SW_M10_special
+ 6Rnd_45ACP_Cylinder
+
+Pstl11x23_Revolver
+ 6Rnd_45ACP_Cylinder
+ 
+ 
+Pstl762x25_CZ52 // CZ VZ52
+ 8Rnd_762x25_TT33
+  
+Pstl762x25_TT33
+ 8Rnd_762x25_TT33
+
+ 
+hgun_007_W_PPK // WALTHER PPL
+ 8Rnd_765x17_Mag
+
