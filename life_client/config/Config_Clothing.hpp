@@ -441,8 +441,6 @@ class Clothing {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
             { "tf_rt1523g_sage", "", 8000, { "", "", -1 } }, //long range-  40KM // BLUEFOR
             { "tf_bussole", "", 13000, { "", "", -1 } }, //long range-  40KM // BLUEFOR
-            { "COREV_O_CameraStatic_high", "과속카메라", 300000, { "life_coplevel", "SCALAR", 3 } },
-
             { "B_FieldPack_cbr", "", 500, { "", "", -1 } },
             { "B_AssaultPack_cbr", "", 700, { "", "", -1 } },
             { "B_AssaultPack_blk", "", 2000, { "", "", -1 } },
@@ -453,7 +451,8 @@ class Clothing {
             { "B_Carryall_cbr", "", 3500, { "", "", -1 } },
             { "B_Parachute", "낙하산", 37500, { "", "", -1 } },
             { "B_OutdoorPack_blk", "", 500, { "", "", -1 } },
-            { "B_AssaultPack_sgg", "JetPack", 500000, { "", "", -1 } }
+            { "B_AssaultPack_sgg", "JetPack", 500000, { "", "", -1 } },
+            { "COREV_O_CameraStatic_high", "과속카메라", 300000, { "life_coplevel", "SCALAR", 3 } }
 
 //	    { "tf_anprc155", "", 3000, { "", "", -1 } },  //long range - 20KM(30 FOR inbuilt) // INDEPENDENT
 //	    { "tf_anprc155_coyote", "", 3000, { "", "", -1 } },//long range - 20KM(30 FOR inbuilt)// INDEPENDENT
