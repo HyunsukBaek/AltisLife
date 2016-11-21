@@ -216,7 +216,7 @@ _markername12="marker_kav12";
 _terrainobjects12=nearestTerrainObjects [(getMarkerPos _markername12),[],(getmarkersize _markername12)select 0];
 {hideObjectGlobal _x} foreach _terrainobjects12; 
 _markername13="marker_kav13";
-_terrainobjects11=nearestTerrainObjects [(getMarkerPos _markername13),[],(getmarkersize _markername13)select 0];
+_terrainobjects13=nearestTerrainObjects [(getMarkerPos _markername13),[],(getmarkersize _markername13)select 0];
 {hideObjectGlobal _x} foreach _terrainobjects13; 
 
 /* Tell clients that the server is ready and is accepting queries */
