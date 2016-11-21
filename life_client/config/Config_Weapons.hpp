@@ -324,6 +324,7 @@ class WeaponShops {
             { "ItemMap", "", 50, 35 },
             { "ItemRadio", "", 3000, 980 },
             { "FirstAidKit", "", 3000, 65 },
+            { "COREV_O_CameraStatic_high", "과속카메라", 500000, 50000 },
             { "AOS_FlashLight_Blue", "", 5000, 10 },
             { "AOS_FlashLight_Green", "", 5000, 10 },
             { "AOS_FlashLight_Red", "", 5000, 10 },
