@@ -1,6 +1,6 @@
 /*
-    File: fn_huntingZone.sqf
-    Author: Bryan "Tonic" Boardwine
+    File: fn_fishingZone2.sqf
+    Author: SoulFucker
 
     Description:
     Spawns animals around the marker when a player
@@ -13,11 +13,11 @@
 private["_animalList","_dist","_radius","_zoneName","_unitsNear","_animalsActive"];
 params [
         ["_zoneName","",[""]],
-        ["_maxAnimals",30,[0]]
+        ["_maxAnimals",100,[0]]
 ];
 
 if (_zoneName isEqualTo "") exitWith {};
-_animalList = ["Sheep_random_F","Goat_random_F","Hen_random_F","Cock_random_F"];
+_animalList = ["Salema_F","Ornate_random_F","Mackerel_F","Mullet_F","CatShark_F", "Tuna_F", "Turtle_F"];
 _radius = (getMarkerSize _zoneName) select 0;
 _dist = _radius + 100;
 _zone = getMarkerPos _zoneName;
