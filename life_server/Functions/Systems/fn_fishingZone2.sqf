@@ -13,7 +13,7 @@
 private["_animalList","_dist","_radius","_zoneName","_unitsNear","_animalsActive"];
 params [
         ["_zoneName","",[""]],
-        ["_maxAnimals",800,[0]]
+        ["_maxAnimals",100,[0]]
 ];
 
 if (_zoneName isEqualTo "") exitWith {};
@@ -48,6 +48,6 @@ for "_i" from 0 to 1 step 0 do {
             _animalsActive = false;
         };
     };
-    uiSleep (3 + random 2);
-    _maxAnimals = param [1,800,[0]];
+    uiSleep (2 + random 2);
+    _maxAnimals = param [1,100,[0]];
 };

@@ -13,7 +13,7 @@
 private["_animalList","_dist","_radius","_zoneName","_unitsNear","_animalsActive"];
 params [
         ["_zoneName","",[""]],
-        ["_maxAnimals",100,[0]]
+        ["_maxAnimals",50,[0]]
 ];
 
 if (_zoneName isEqualTo "") exitWith {};
@@ -31,7 +31,11 @@ if (!isNil "animals" && {count animals != 0}) then {
 _unitsNear = false;
 _animalsActive = false;
 for "_i" from 0 to 1 step 0 do {
-    {if ((_x distance _zone) < _dist) exitWith {_unitsNear = true;}; _unitsNear = false;} forEach playableUnits;
+    {
+		if ((_x distance _zone) < _dist) exitWith {_unitsNear = true;};
+		_unitsNear = false;
+	} forEach playableUnits;
+	
     if (_unitsNear && !_animalsActive) then {
         _animalsActive = true;
         for "_i" from 1 to _maxAnimals do {
@@ -48,6 +52,6 @@ for "_i" from 0 to 1 step 0 do {
             _animalsActive = false;
         };
     };
-    uiSleep (3 + random 2);
-    _maxAnimals = param [1,100,[0]];
+    uiSleep (2 + random 2);
+    _maxAnimals = param [1,50,[0]];
 };
