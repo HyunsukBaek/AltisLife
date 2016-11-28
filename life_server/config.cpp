@@ -62,7 +62,7 @@ class CfgFunctions {
             class cleanup {};
             class huntingZone {};
             class fishingZone {};
-//            class fishingZone2 {};
+            class fishingZone2 {};
             class getID {};
             class vehicleCreate {};
             class spawnVehicle {};
