@@ -219,6 +219,10 @@ _markername13="marker_kav13";
 _terrainobjects13=nearestTerrainObjects [(getMarkerPos _markername13),[],(getmarkersize _markername13)select 0];
 {hideObjectGlobal _x} foreach _terrainobjects13; 
 
+_markername14="marker_kav14";
+_terrainobjects14=nearestTerrainObjects [(getMarkerPos _markername14),[],(getmarkersize _markername13)select 0];
+{hideObjectGlobal _x} foreach _terrainobjects14; 
+
 /* Tell clients that the server is ready and is accepting queries */
 life_server_isReady = true;
 publicVariable "life_server_isReady";
