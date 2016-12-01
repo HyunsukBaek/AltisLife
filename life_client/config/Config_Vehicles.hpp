@@ -1693,9 +1693,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class COREV_O_FishingBoat {
-        vItemSpace = 230;
+        vItemSpace = 260;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
-        price = 2200000;
+        price = 3000000;
         textures[] = {};
     };
 
@@ -1707,9 +1707,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class Mattaust_Fisher {
-        vItemSpace = 300;
+        vItemSpace = 600;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
-        price = 3300000;
+        price = 10000000;
         textures[] = {};
     };
 
