@@ -26,6 +26,9 @@ showHUD[] = {
     true
 };
 
+//Heli Advanced
+forceRotorLibSimulation = 1;
+
 #include "config\Config_Spyglass.hpp"
 #include "CfgRemoteExec.hpp"
 #include "dialog\MasterHandler.hpp"
