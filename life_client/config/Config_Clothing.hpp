@@ -710,7 +710,7 @@ class Clothing {
             { "U_I_PilotCoveralls", "", 15610, { "", "", -1 } },
             { "U_O_SpecopsUniform_ocamo", "SpecCamo", 2500, { "", "", -1 } },
             { "U_I_GhillieSuit", "", 150000, { "", "", -1 } },
-            { "U_O_V_Soldier_Viper_hex_F", "특수목적hex", 990000, { "", "", -1 } },
+          //  { "U_O_V_Soldier_Viper_hex_F", "특수목적hex", 990000, { "", "", -1 } },
             //isis
             { "U_TKLocalUniLong_D", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
             { "U_TKLocalUniLong_C", "", 150000, { "life_donorlevel", "SCALAR", 1 } },
